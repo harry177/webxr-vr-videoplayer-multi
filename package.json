@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
     "three": "^0.156.1",
     "three-mesh-ui": "^6.5.4"
   }

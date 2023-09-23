@@ -1,10 +1,10 @@
 const path = require("path");
 const http = require("http");
 const express = require("express");
+const socketServer = require("./socketServer");
 
 const app = express();
 
-// Serve static files from the 'dist' directory
 app.use(express.static(path.resolve(__dirname, "dist")));
 
 
@@ -12,9 +12,11 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "dist", "index.html"));
   });
 
-// Start the server
-const port = process.env.PORT || 8080; // Use the desired port number
+const port = process.env.PORT || 8080;
 
-http.createServer(app).listen(port, () => {
+const superServer = app.listen(port);
+socketServer(superServer, port);
+
+/*http.createServer(app).listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});
+});*/

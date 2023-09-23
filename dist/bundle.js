@@ -2,89 +2,6440 @@
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
 /* 1 */
-/***/ ((module) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-module.exports = {"pages":["Roboto-Regular.png"],"chars":[{"id":40,"index":12,"char":"(","width":15,"height":47,"xoffset":1,"yoffset":0,"xadvance":14,"chnl":15,"x":0,"y":0,"page":0},{"id":41,"index":13,"char":")","width":15,"height":47,"xoffset":-1,"yoffset":0,"xadvance":15,"chnl":15,"x":0,"y":48,"page":0},{"id":91,"index":63,"char":"[","width":12,"height":45,"xoffset":1,"yoffset":0,"xadvance":11,"chnl":15,"x":0,"y":96,"page":0},{"id":93,"index":65,"char":"]","width":12,"height":45,"xoffset":-2,"yoffset":0,"xadvance":11,"chnl":15,"x":0,"y":142,"page":0},{"id":123,"index":95,"char":"{","width":16,"height":44,"xoffset":-1,"yoffset":1,"xadvance":14,"chnl":15,"x":0,"y":188,"page":0},{"id":125,"index":97,"char":"}","width":16,"height":44,"xoffset":-2,"yoffset":1,"xadvance":14,"chnl":15,"x":13,"y":96,"page":0},{"id":1092,"index":247,"char":"ф","width":30,"height":44,"xoffset":0,"yoffset":3,"xadvance":30,"chnl":15,"x":13,"y":141,"page":0},{"id":197,"index":644,"char":"Å","width":30,"height":44,"xoffset":-1,"yoffset":-6,"xadvance":27,"chnl":15,"x":16,"y":0,"page":0},{"id":106,"index":78,"char":"j","width":12,"height":43,"xoffset":-3,"yoffset":4,"xadvance":10,"chnl":15,"x":16,"y":45,"page":0},{"id":36,"index":8,"char":"$","width":23,"height":43,"xoffset":0,"yoffset":-1,"xadvance":24,"chnl":15,"x":29,"y":45,"page":0},{"id":64,"index":36,"char":"@","width":37,"height":43,"xoffset":0,"yoffset":5,"xadvance":38,"chnl":15,"x":47,"y":0,"page":0},{"id":198,"index":129,"char":"Æ","width":43,"height":34,"xoffset":-2,"yoffset":4,"xadvance":39,"chnl":15,"x":30,"y":89,"page":0},{"id":958,"index":197,"char":"ξ","width":21,"height":42,"xoffset":0,"yoffset":4,"xadvance":21,"chnl":15,"x":53,"y":44,"page":0},{"id":950,"index":192,"char":"ζ","width":22,"height":42,"xoffset":0,"yoffset":4,"xadvance":22,"chnl":15,"x":0,"y":233,"page":0},{"id":946,"index":188,"char":"β","width":23,"height":42,"xoffset":1,"yoffset":4,"xadvance":25,"chnl":15,"x":17,"y":186,"page":0},{"id":1044,"index":217,"char":"Д","width":33,"height":41,"xoffset":-1,"yoffset":4,"xadvance":32,"chnl":15,"x":0,"y":276,"page":0},{"id":1025,"index":941,"char":"Ё","width":23,"height":41,"xoffset":1,"yoffset":-3,"xadvance":24,"chnl":15,"x":23,"y":229,"page":0},{"id":1046,"index":218,"char":"Ж","width":41,"height":34,"xoffset":-1,"yoffset":4,"xadvance":38,"chnl":15,"x":41,"y":186,"page":0},{"id":1049,"index":954,"char":"Й","width":27,"height":41,"xoffset":2,"yoffset":-3,"xadvance":30,"chnl":15,"x":44,"y":124,"page":0},{"id":1062,"index":224,"char":"Ц","width":30,"height":41,"xoffset":2,"yoffset":4,"xadvance":31,"chnl":15,"x":72,"y":124,"page":0},{"id":1065,"index":227,"char":"Щ","width":39,"height":41,"xoffset":2,"yoffset":4,"xadvance":41,"chnl":15,"x":75,"y":44,"page":0},{"id":220,"index":664,"char":"Ü","width":26,"height":41,"xoffset":1,"yoffset":-3,"xadvance":27,"chnl":15,"x":85,"y":0,"page":0},{"id":214,"index":660,"char":"Ö","width":28,"height":41,"xoffset":0,"yoffset":-3,"xadvance":29,"chnl":15,"x":112,"y":0,"page":0},{"id":196,"index":643,"char":"Ä","width":30,"height":41,"xoffset":-1,"yoffset":-3,"xadvance":27,"chnl":15,"x":0,"y":318,"page":0},{"id":209,"index":655,"char":"Ñ","width":27,"height":41,"xoffset":1,"yoffset":-3,"xadvance":30,"chnl":15,"x":0,"y":360,"page":0},{"id":81,"index":53,"char":"Q","width":28,"height":39,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":0,"y":402,"page":0},{"id":87,"index":59,"char":"W","width":39,"height":34,"xoffset":-1,"yoffset":4,"xadvance":37,"chnl":15,"x":74,"y":87,"page":0},{"id":124,"index":96,"char":"|","width":7,"height":39,"xoffset":2,"yoffset":4,"xadvance":10,"chnl":15,"x":28,"y":360,"page":0},{"id":229,"index":671,"char":"å","width":22,"height":38,"xoffset":0,"yoffset":1,"xadvance":23,"chnl":15,"x":31,"y":318,"page":0},{"id":216,"index":131,"char":"Ø","width":28,"height":37,"xoffset":0,"yoffset":3,"xadvance":29,"chnl":15,"x":34,"y":271,"page":0},{"id":100,"index":72,"char":"d","width":23,"height":36,"xoffset":0,"yoffset":3,"xadvance":24,"chnl":15,"x":47,"y":221,"page":0},{"id":102,"index":74,"char":"f","width":17,"height":36,"xoffset":-1,"yoffset":2,"xadvance":15,"chnl":15,"x":0,"y":442,"page":0},{"id":104,"index":76,"char":"h","width":21,"height":36,"xoffset":1,"yoffset":3,"xadvance":23,"chnl":15,"x":18,"y":442,"page":0},{"id":107,"index":79,"char":"k","width":22,"height":36,"xoffset":1,"yoffset":3,"xadvance":21,"chnl":15,"x":29,"y":400,"page":0},{"id":108,"index":80,"char":"l","width":8,"height":36,"xoffset":1,"yoffset":3,"xadvance":10,"chnl":15,"x":36,"y":357,"page":0},{"id":98,"index":70,"char":"b","width":23,"height":36,"xoffset":1,"yoffset":3,"xadvance":24,"chnl":15,"x":45,"y":357,"page":0},{"id":47,"index":19,"char":"/","width":20,"height":36,"xoffset":-2,"yoffset":4,"xadvance":17,"chnl":15,"x":54,"y":309,"page":0},{"id":92,"index":64,"char":"\\","width":20,"height":36,"xoffset":-1,"yoffset":4,"xadvance":17,"chnl":15,"x":63,"y":258,"page":0},{"id":1073,"index":234,"char":"б","width":24,"height":36,"xoffset":0,"yoffset":2,"xadvance":23,"chnl":15,"x":71,"y":221,"page":0},{"id":1060,"index":223,"char":"Ф","width":33,"height":36,"xoffset":0,"yoffset":3,"xadvance":32,"chnl":15,"x":83,"y":166,"page":0},{"id":1064,"index":226,"char":"Ш","width":36,"height":34,"xoffset":2,"yoffset":4,"xadvance":40,"chnl":15,"x":103,"y":122,"page":0},{"id":1070,"index":232,"char":"Ю","width":36,"height":35,"xoffset":2,"yoffset":4,"xadvance":38,"chnl":15,"x":114,"y":86,"page":0},{"id":948,"index":190,"char":"δ","width":24,"height":36,"xoffset":0,"yoffset":2,"xadvance":24,"chnl":15,"x":115,"y":42,"page":0},{"id":966,"index":204,"char":"φ","width":30,"height":36,"xoffset":0,"yoffset":12,"xadvance":30,"chnl":15,"x":140,"y":42,"page":0},{"id":968,"index":205,"char":"ψ","width":30,"height":36,"xoffset":0,"yoffset":12,"xadvance":29,"chnl":15,"x":141,"y":0,"page":0},{"id":230,"index":134,"char":"æ","width":36,"height":27,"xoffset":0,"yoffset":11,"xadvance":35,"chnl":15,"x":0,"y":479,"page":0},{"id":121,"index":93,"char":"y","width":23,"height":35,"xoffset":-2,"yoffset":12,"xadvance":20,"chnl":15,"x":40,"y":437,"page":0},{"id":112,"index":84,"char":"p","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":40,"y":473,"page":0},{"id":113,"index":85,"char":"q","width":23,"height":35,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":52,"y":394,"page":0},{"id":103,"index":75,"char":"g","width":23,"height":35,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":69,"y":346,"page":0},{"id":109,"index":81,"char":"m","width":35,"height":27,"xoffset":1,"yoffset":11,"xadvance":37,"chnl":15,"x":75,"y":295,"page":0},{"id":79,"index":51,"char":"O","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":84,"y":258,"page":0},{"id":83,"index":55,"char":"S","width":26,"height":35,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":96,"y":203,"page":0},{"id":71,"index":43,"char":"G","width":27,"height":35,"xoffset":1,"yoffset":4,"xadvance":29,"chnl":15,"x":117,"y":157,"page":0},{"id":67,"index":39,"char":"C","width":27,"height":35,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":64,"y":430,"page":0},{"id":56,"index":28,"char":"8","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":64,"y":466,"page":0},{"id":51,"index":23,"char":"3","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":88,"y":466,"page":0},{"id":48,"index":20,"char":"0","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":76,"y":382,"page":0},{"id":37,"index":9,"char":"%","width":31,"height":35,"xoffset":0,"yoffset":4,"xadvance":31,"chnl":15,"x":92,"y":418,"page":0},{"id":8364,"index":413,"char":"€","width":24,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":93,"y":323,"page":0},{"id":38,"index":10,"char":"&","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":112,"y":454,"page":0},{"id":1105,"index":971,"char":"ё","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":22,"chnl":15,"x":100,"y":359,"page":0},{"id":1078,"index":238,"char":"ж","width":35,"height":26,"xoffset":-2,"yoffset":12,"xadvance":32,"chnl":15,"x":111,"y":294,"page":0},{"id":1047,"index":219,"char":"З","width":26,"height":35,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":118,"y":321,"page":0},{"id":1054,"index":957,"char":"О","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":113,"y":239,"page":0},{"id":1088,"index":967,"char":"р","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":123,"y":193,"page":0},{"id":1057,"index":960,"char":"С","width":27,"height":35,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":142,"y":229,"page":0},{"id":1091,"index":969,"char":"у","width":23,"height":35,"xoffset":-2,"yoffset":12,"xadvance":20,"chnl":15,"x":145,"y":122,"page":0},{"id":1097,"index":251,"char":"щ","width":35,"height":33,"xoffset":1,"yoffset":12,"xadvance":35,"chnl":15,"x":145,"y":158,"page":0},{"id":1069,"index":231,"char":"Э","width":27,"height":35,"xoffset":1,"yoffset":4,"xadvance":28,"chnl":15,"x":147,"y":192,"page":0},{"id":252,"index":691,"char":"ü","width":21,"height":35,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":151,"y":79,"page":0},{"id":246,"index":687,"char":"ö","width":24,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":171,"y":37,"page":0},{"id":228,"index":670,"char":"ä","width":22,"height":35,"xoffset":0,"yoffset":4,"xadvance":23,"chnl":15,"x":172,"y":0,"page":0},{"id":241,"index":682,"char":"ñ","width":21,"height":35,"xoffset":1,"yoffset":3,"xadvance":23,"chnl":15,"x":195,"y":0,"page":0},{"id":961,"index":199,"char":"ρ","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":169,"y":115,"page":0},{"id":952,"index":194,"char":"θ","width":23,"height":35,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":173,"y":73,"page":0},{"id":947,"index":189,"char":"γ","width":23,"height":35,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":196,"y":36,"page":0},{"id":951,"index":193,"char":"η","width":22,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":217,"y":0,"page":0},{"id":955,"index":196,"char":"λ","width":25,"height":35,"xoffset":-1,"yoffset":3,"xadvance":23,"chnl":15,"x":124,"y":357,"page":0},{"id":967,"index":935,"char":"χ","width":26,"height":35,"xoffset":0,"yoffset":12,"xadvance":21,"chnl":15,"x":145,"y":321,"page":0},{"id":956,"index":933,"char":"μ","width":21,"height":35,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":147,"y":265,"page":0},{"id":920,"index":179,"char":"Θ","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":169,"y":265,"page":0},{"id":927,"index":919,"char":"Ο","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":170,"y":228,"page":0},{"id":105,"index":77,"char":"i","width":8,"height":34,"xoffset":1,"yoffset":4,"xadvance":10,"chnl":15,"x":175,"y":192,"page":0},{"id":119,"index":91,"char":"w","width":34,"height":26,"xoffset":-1,"yoffset":12,"xadvance":32,"chnl":15,"x":181,"y":151,"page":0},{"id":65,"index":37,"char":"A","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":193,"y":109,"page":0},{"id":90,"index":62,"char":"Z","width":26,"height":34,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":197,"y":72,"page":0},{"id":69,"index":41,"char":"E","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":220,"y":36,"page":0},{"id":82,"index":54,"char":"R","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":240,"y":0,"page":0},{"id":84,"index":56,"char":"T","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":184,"y":178,"page":0},{"id":89,"index":61,"char":"Y","width":29,"height":34,"xoffset":-2,"yoffset":4,"xadvance":25,"chnl":15,"x":124,"y":393,"page":0},{"id":85,"index":57,"char":"U","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":27,"chnl":15,"x":150,"y":357,"page":0},{"id":73,"index":45,"char":"I","width":8,"height":34,"xoffset":2,"yoffset":4,"xadvance":11,"chnl":15,"x":172,"y":301,"page":0},{"id":80,"index":52,"char":"P","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":141,"y":428,"page":0},{"id":68,"index":40,"char":"D","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":28,"chnl":15,"x":154,"y":392,"page":0},{"id":70,"index":42,"char":"F","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":141,"y":463,"page":0},{"id":72,"index":44,"char":"H","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":164,"y":463,"page":0},{"id":74,"index":46,"char":"J","width":23,"height":34,"xoffset":-1,"yoffset":4,"xadvance":23,"chnl":15,"x":167,"y":427,"page":0},{"id":75,"index":47,"char":"K","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":177,"y":336,"page":0},{"id":76,"index":48,"char":"L","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":181,"y":301,"page":0},{"id":77,"index":49,"char":"M","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":198,"y":264,"page":0},{"id":88,"index":60,"char":"X","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":204,"y":299,"page":0},{"id":86,"index":58,"char":"V","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":199,"y":213,"page":0},{"id":66,"index":38,"char":"B","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":212,"y":178,"page":0},{"id":78,"index":50,"char":"N","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":230,"y":213,"page":0},{"id":55,"index":27,"char":"7","width":24,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":181,"y":371,"page":0},{"id":57,"index":29,"char":"9","width":23,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":205,"y":334,"page":0},{"id":52,"index":24,"char":"4","width":26,"height":34,"xoffset":-1,"yoffset":4,"xadvance":24,"chnl":15,"x":191,"y":406,"page":0},{"id":53,"index":25,"char":"5","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":206,"y":369,"page":0},{"id":54,"index":26,"char":"6","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":229,"y":334,"page":0},{"id":49,"index":21,"char":"1","width":15,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":192,"y":441,"page":0},{"id":50,"index":22,"char":"2","width":24,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":192,"y":476,"page":0},{"id":33,"index":5,"char":"!","width":8,"height":34,"xoffset":1,"yoffset":4,"xadvance":11,"chnl":15,"x":208,"y":441,"page":0},{"id":63,"index":35,"char":"?","width":21,"height":34,"xoffset":0,"yoffset":4,"xadvance":20,"chnl":15,"x":217,"y":441,"page":0},{"id":163,"index":101,"char":"£","width":25,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":218,"y":404,"page":0},{"id":35,"index":7,"char":"#","width":27,"height":34,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":230,"y":369,"page":0},{"id":1040,"index":950,"char":"А","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":217,"y":476,"page":0},{"id":1041,"index":216,"char":"Б","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":239,"y":439,"page":0},{"id":1042,"index":951,"char":"В","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":244,"y":404,"page":0},{"id":1043,"index":952,"char":"Г","width":22,"height":34,"xoffset":2,"yoffset":4,"xadvance":23,"chnl":15,"x":248,"y":474,"page":0},{"id":1045,"index":953,"char":"Е","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":265,"y":439,"page":0},{"id":1048,"index":220,"char":"И","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":271,"y":474,"page":0},{"id":1081,"index":965,"char":"й","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":233,"y":248,"page":0},{"id":1050,"index":947,"char":"К","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":27,"chnl":15,"x":233,"y":283,"page":0},{"id":1051,"index":221,"char":"Л","width":29,"height":34,"xoffset":-1,"yoffset":4,"xadvance":30,"chnl":15,"x":256,"y":248,"page":0},{"id":1052,"index":955,"char":"М","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":253,"y":318,"page":0},{"id":1053,"index":956,"char":"Н","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":261,"y":283,"page":0},{"id":1055,"index":958,"char":"П","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":258,"y":353,"page":0},{"id":1056,"index":959,"char":"Р","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":269,"y":388,"page":0},{"id":1058,"index":961,"char":"Т","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":286,"y":353,"page":0},{"id":1059,"index":222,"char":"У","width":28,"height":34,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":288,"y":318,"page":0},{"id":1061,"index":962,"char":"Х","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":289,"y":423,"page":0},{"id":1063,"index":225,"char":"Ч","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":29,"chnl":15,"x":295,"y":388,"page":0},{"id":1066,"index":228,"char":"Ъ","width":34,"height":34,"xoffset":-2,"yoffset":4,"xadvance":32,"chnl":15,"x":314,"y":353,"page":0},{"id":1067,"index":229,"char":"Ы","width":33,"height":34,"xoffset":2,"yoffset":4,"xadvance":36,"chnl":15,"x":299,"y":458,"page":0},{"id":1068,"index":230,"char":"Ь","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":318,"y":423,"page":0},{"id":1071,"index":233,"char":"Я","width":25,"height":34,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":322,"y":388,"page":0},{"id":962,"index":200,"char":"ς","width":22,"height":34,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":333,"y":458,"page":0},{"id":969,"index":206,"char":"ω","width":34,"height":27,"xoffset":1,"yoffset":12,"xadvance":35,"chnl":15,"x":216,"y":144,"page":0},{"id":917,"index":912,"char":"Ε","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":344,"y":423,"page":0},{"id":929,"index":920,"char":"Ρ","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":348,"y":388,"page":0},{"id":932,"index":921,"char":"Τ","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":237,"y":172,"page":0},{"id":933,"index":922,"char":"Υ","width":29,"height":34,"xoffset":-2,"yoffset":4,"xadvance":25,"chnl":15,"x":258,"y":207,"page":0},{"id":921,"index":915,"char":"Ι","width":8,"height":34,"xoffset":2,"yoffset":4,"xadvance":11,"chnl":15,"x":286,"y":242,"page":0},{"id":928,"index":182,"char":"Π","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":289,"y":277,"page":0},{"id":913,"index":910,"char":"Α","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":356,"y":458,"page":0},{"id":931,"index":183,"char":"Σ","width":25,"height":34,"xoffset":-1,"yoffset":4,"xadvance":24,"chnl":15,"x":368,"y":423,"page":0},{"id":916,"index":178,"char":"Δ","width":32,"height":34,"xoffset":-1,"yoffset":4,"xadvance":30,"chnl":15,"x":387,"y":458,"page":0},{"id":934,"index":184,"char":"Φ","width":31,"height":34,"xoffset":0,"yoffset":4,"xadvance":30,"chnl":15,"x":224,"y":71,"page":0},{"id":915,"index":177,"char":"Γ","width":22,"height":34,"xoffset":2,"yoffset":4,"xadvance":23,"chnl":15,"x":244,"y":35,"page":0},{"id":919,"index":914,"char":"Η","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":224,"y":106,"page":0},{"id":926,"index":181,"char":"Ξ","width":23,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":252,"y":106,"page":0},{"id":922,"index":916,"char":"Κ","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":256,"y":70,"page":0},{"id":923,"index":180,"char":"Λ","width":29,"height":34,"xoffset":-1,"yoffset":4,"xadvance":28,"chnl":15,"x":265,"y":141,"page":0},{"id":918,"index":913,"char":"Ζ","width":26,"height":34,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":276,"y":105,"page":0},{"id":935,"index":923,"char":"Χ","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":288,"y":176,"page":0},{"id":936,"index":185,"char":"Ψ","width":29,"height":34,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":295,"y":140,"page":0},{"id":937,"index":186,"char":"Ω","width":27,"height":34,"xoffset":0,"yoffset":4,"xadvance":28,"chnl":15,"x":295,"y":211,"page":0},{"id":914,"index":911,"char":"Β","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":317,"y":175,"page":0},{"id":925,"index":918,"char":"Ν","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":267,"y":0,"page":0},{"id":924,"index":917,"char":"Μ","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":267,"y":35,"page":0},{"id":1076,"index":237,"char":"д","width":27,"height":33,"xoffset":-1,"yoffset":12,"xadvance":25,"chnl":15,"x":284,"y":70,"page":0},{"id":1094,"index":248,"char":"ц","width":24,"height":33,"xoffset":1,"yoffset":12,"xadvance":25,"chnl":15,"x":295,"y":0,"page":0},{"id":1102,"index":256,"char":"ю","width":33,"height":27,"xoffset":1,"yoffset":11,"xadvance":34,"chnl":15,"x":295,"y":246,"page":0},{"id":116,"index":88,"char":"t","width":16,"height":32,"xoffset":-2,"yoffset":6,"xadvance":14,"chnl":15,"x":303,"y":104,"page":0},{"id":59,"index":31,"char":";","width":10,"height":32,"xoffset":-1,"yoffset":12,"xadvance":9,"chnl":15,"x":302,"y":34,"page":0},{"id":1096,"index":250,"char":"ш","width":32,"height":26,"xoffset":1,"yoffset":12,"xadvance":34,"chnl":15,"x":323,"y":210,"page":0},{"id":248,"index":137,"char":"ø","width":24,"height":32,"xoffset":0,"yoffset":9,"xadvance":24,"chnl":15,"x":312,"y":67,"page":0},{"id":1099,"index":253,"char":"ы","width":30,"height":26,"xoffset":1,"yoffset":12,"xadvance":33,"chnl":15,"x":313,"y":34,"page":0},{"id":1084,"index":243,"char":"м","width":29,"height":26,"xoffset":1,"yoffset":12,"xadvance":31,"chnl":15,"x":320,"y":0,"page":0},{"id":1098,"index":252,"char":"ъ","width":28,"height":26,"xoffset":-1,"yoffset":12,"xadvance":26,"chnl":15,"x":320,"y":100,"page":0},{"id":960,"index":198,"char":"π","width":28,"height":26,"xoffset":-1,"yoffset":12,"xadvance":25,"chnl":15,"x":337,"y":61,"page":0},{"id":97,"index":69,"char":"a","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":265,"y":176,"page":0},{"id":101,"index":73,"char":"e","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":344,"y":27,"page":0},{"id":114,"index":86,"char":"r","width":15,"height":27,"xoffset":1,"yoffset":11,"xadvance":14,"chnl":15,"x":325,"y":127,"page":0},{"id":117,"index":89,"char":"u","width":21,"height":27,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":341,"y":127,"page":0},{"id":111,"index":83,"char":"o","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":349,"y":88,"page":0},{"id":115,"index":87,"char":"s","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":366,"y":55,"page":0},{"id":99,"index":71,"char":"c","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":342,"y":155,"page":0},{"id":110,"index":82,"char":"n","width":21,"height":27,"xoffset":1,"yoffset":11,"xadvance":23,"chnl":15,"x":363,"y":116,"page":0},{"id":58,"index":30,"char":":","width":9,"height":27,"xoffset":1,"yoffset":12,"xadvance":10,"chnl":15,"x":251,"y":141,"page":0},{"id":126,"index":98,"char":"~","width":27,"height":12,"xoffset":1,"yoffset":18,"xadvance":29,"chnl":15,"x":112,"y":490,"page":0},{"id":1072,"index":963,"char":"а","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":374,"y":83,"page":0},{"id":1077,"index":964,"char":"е","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":368,"y":0,"page":0},{"id":1079,"index":239,"char":"з","width":21,"height":27,"xoffset":0,"yoffset":11,"xadvance":21,"chnl":15,"x":389,"y":28,"page":0},{"id":1086,"index":966,"char":"о","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":392,"y":0,"page":0},{"id":1089,"index":968,"char":"с","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":317,"y":274,"page":0},{"id":1101,"index":255,"char":"э","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":329,"y":237,"page":0},{"id":949,"index":191,"char":"ε","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":317,"y":302,"page":0},{"id":964,"index":202,"char":"τ","width":23,"height":27,"xoffset":0,"yoffset":12,"xadvance":22,"chnl":15,"x":341,"y":265,"page":0},{"id":965,"index":203,"char":"υ","width":22,"height":27,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":352,"y":237,"page":0},{"id":959,"index":932,"char":"ο","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":356,"y":183,"page":0},{"id":945,"index":187,"char":"α","width":25,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":366,"y":144,"page":0},{"id":963,"index":201,"char":"σ","width":26,"height":27,"xoffset":0,"yoffset":12,"xadvance":24,"chnl":15,"x":385,"y":111,"page":0},{"id":122,"index":94,"char":"z","width":22,"height":26,"xoffset":0,"yoffset":12,"xadvance":21,"chnl":15,"x":389,"y":56,"page":0},{"id":120,"index":92,"char":"x","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":397,"y":83,"page":0},{"id":118,"index":90,"char":"v","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":411,"y":28,"page":0},{"id":43,"index":15,"char":"+","width":24,"height":26,"xoffset":0,"yoffset":9,"xadvance":24,"chnl":15,"x":417,"y":0,"page":0},{"id":1074,"index":235,"char":"в","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":412,"y":55,"page":0},{"id":1075,"index":236,"char":"г","width":18,"height":26,"xoffset":1,"yoffset":12,"xadvance":18,"chnl":15,"x":368,"y":28,"page":0},{"id":1080,"index":240,"char":"и","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":435,"y":27,"page":0},{"id":1082,"index":241,"char":"к","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":442,"y":0,"page":0},{"id":1083,"index":242,"char":"л","width":24,"height":26,"xoffset":-1,"yoffset":12,"xadvance":24,"chnl":15,"x":466,"y":0,"page":0},{"id":1085,"index":244,"char":"н","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":458,"y":27,"page":0},{"id":1087,"index":245,"char":"п","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":481,"y":27,"page":0},{"id":1090,"index":246,"char":"т","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":341,"y":293,"page":0},{"id":1093,"index":970,"char":"х","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":341,"y":320,"page":0},{"id":1095,"index":249,"char":"ч","width":22,"height":26,"xoffset":0,"yoffset":12,"xadvance":23,"chnl":15,"x":349,"y":347,"page":0},{"id":1100,"index":254,"char":"ь","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":436,"y":54,"page":0},{"id":1103,"index":257,"char":"я","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":23,"chnl":15,"x":459,"y":54,"page":0},{"id":953,"index":195,"char":"ι","width":12,"height":26,"xoffset":2,"yoffset":12,"xadvance":14,"chnl":15,"x":350,"y":0,"page":0},{"id":954,"index":931,"char":"κ","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":483,"y":54,"page":0},{"id":957,"index":934,"char":"ν","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":436,"y":81,"page":0},{"id":8211,"index":385,"char":"–","width":25,"height":7,"xoffset":1,"yoffset":18,"xadvance":28,"chnl":15,"x":64,"y":503,"page":0},{"id":95,"index":67,"char":"_","width":23,"height":7,"xoffset":-2,"yoffset":34,"xadvance":19,"chnl":15,"x":100,"y":395,"page":0},{"id":42,"index":14,"char":"*","width":21,"height":21,"xoffset":-1,"yoffset":4,"xadvance":18,"chnl":15,"x":491,"y":0,"page":0},{"id":61,"index":33,"char":"=","width":21,"height":16,"xoffset":1,"yoffset":14,"xadvance":23,"chnl":15,"x":113,"y":275,"page":0},{"id":176,"index":113,"char":"°","width":14,"height":15,"xoffset":1,"yoffset":4,"xadvance":16,"chnl":15,"x":199,"y":248,"page":0},{"id":45,"index":17,"char":"-","width":14,"height":7,"xoffset":-1,"yoffset":20,"xadvance":12,"chnl":15,"x":54,"y":346,"page":0},{"id":44,"index":16,"char":",","width":10,"height":14,"xoffset":-1,"yoffset":30,"xadvance":8,"chnl":15,"x":184,"y":213,"page":0},{"id":34,"index":6,"char":"\"","width":12,"height":14,"xoffset":1,"yoffset":3,"xadvance":13,"chnl":15,"x":83,"y":203,"page":0},{"id":39,"index":11,"char":"'","width":7,"height":14,"xoffset":0,"yoffset":3,"xadvance":7,"chnl":15,"x":140,"y":498,"page":0},{"id":46,"index":18,"char":".","width":9,"height":9,"xoffset":1,"yoffset":30,"xadvance":11,"chnl":15,"x":123,"y":229,"page":0}],"info":{"face":"Roboto-Regular","size":42,"bold":0,"italic":0,"charset":["a","z","e","r","t","y","u","i","o","p","q","s","d","f","g","h","j","k","l","m","w","x","c","v","b","n","A","Z","E","R","T","Y","U","I","O","P","Q","S","D","F","G","H","J","K","L","M","W","X","C","V","B","N","/","\\","*","-","–","+","7","8","9","4","5","6","1","2","3","0",",",";",":","!","?",".","%","$","£","€","=","{","}","(",")","[","]","&","~","\"","'","#","_","|","°","@","А","а","Б","б","В","в","Г","г","Д","д","Е","е","Ё","ё","Ж","ж","З","з","И","и","Й","й","К","к","Л","л","М","м","Н","н","О","о","П","п","Р","р","С","с","Т","т","У","у","Ф","ф","Х","х","Ц","ц","Ч","ч","Ш","ш","Щ","щ","Ъ","ъ","Ы","ы","Ь","ь","Э","э","Ю","ю","Я","я","ü","Ü","ö","Ö","ä","Ä","ñ","Ñ","ς","ε","ρ","τ","υ","θ","ι","ο","π","α","σ","δ","φ","γ","η","ξ","κ","λ","ζ","χ","ψ","ω","β","ν","μ","Ε","Ρ","Τ","Υ","Θ","Ι","Ο","Π","Α","Σ","Δ","Φ","Γ","Η","Ξ","Κ","Λ","Ζ","Χ","Ψ","Ω","Β","Ν","Μ","å","Å","æ","Æ","ø","Ø"],"unicode":1,"stretchH":100,"smooth":1,"aa":1,"padding":[2,2,2,2],"spacing":[0,0]},"common":{"lineHeight":44,"base":34,"scaleW":512,"scaleH":512,"pages":1,"packed":0,"alphaChnl":0,"redChnl":0,"greenChnl":0,"blueChnl":0},"distanceField":{"fieldType":"msdf","distanceRange":4},"kernings":[{"first":97,"second":121,"amount":0},{"first":97,"second":118,"amount":0},{"first":97,"second":34,"amount":-1},{"first":97,"second":39,"amount":-1},{"first":97,"second":1090,"amount":0},{"first":97,"second":1091,"amount":0},{"first":97,"second":947,"amount":0},{"first":97,"second":957,"amount":0},{"first":122,"second":101,"amount":0},{"first":122,"second":111,"amount":0},{"first":122,"second":113,"amount":0},{"first":122,"second":100,"amount":0},{"first":122,"second":103,"amount":0},{"first":122,"second":99,"amount":0},{"first":122,"second":1077,"amount":0},{"first":122,"second":1105,"amount":0},{"first":122,"second":1086,"amount":0},{"first":122,"second":1089,"amount":0},{"first":122,"second":1092,"amount":0},{"first":122,"second":246,"amount":0},{"first":122,"second":962,"amount":0},{"first":122,"second":959,"amount":0},{"first":122,"second":945,"amount":0},{"first":122,"second":963,"amount":0},{"first":101,"second":121,"amount":0},{"first":101,"second":118,"amount":0},{"first":101,"second":34,"amount":0},{"first":101,"second":39,"amount":0},{"first":101,"second":1090,"amount":0},{"first":101,"second":1091,"amount":0},{"first":101,"second":947,"amount":0},{"first":101,"second":957,"amount":0},{"first":114,"second":97,"amount":-1},{"first":114,"second":101,"amount":0},{"first":114,"second":116,"amount":1},{"first":114,"second":121,"amount":0},{"first":114,"second":111,"amount":0},{"first":114,"second":113,"amount":0},{"first":114,"second":100,"amount":0},{"first":114,"second":102,"amount":0},{"first":114,"second":103,"amount":0},{"first":114,"second":119,"amount":0},{"first":114,"second":99,"amount":0},{"first":114,"second":118,"amount":0},{"first":114,"second":44,"amount":-3},{"first":114,"second":46,"amount":-3},{"first":114,"second":34,"amount":0},{"first":114,"second":39,"amount":0},{"first":114,"second":1072,"amount":-1},{"first":114,"second":1077,"amount":0},{"first":114,"second":1105,"amount":0},{"first":114,"second":1086,"amount":0},{"first":114,"second":1089,"amount":0},{"first":114,"second":1091,"amount":0},{"first":114,"second":1092,"amount":0},{"first":114,"second":246,"amount":0},{"first":114,"second":228,"amount":-1},{"first":114,"second":962,"amount":0},{"first":114,"second":959,"amount":0},{"first":114,"second":945,"amount":0},{"first":114,"second":963,"amount":0},{"first":114,"second":947,"amount":0},{"first":114,"second":957,"amount":0},{"first":114,"second":229,"amount":-1},{"first":116,"second":111,"amount":0},{"first":116,"second":1086,"amount":0},{"first":116,"second":246,"amount":0},{"first":116,"second":959,"amount":0},{"first":121,"second":97,"amount":0},{"first":121,"second":101,"amount":0},{"first":121,"second":111,"amount":0},{"first":121,"second":113,"amount":0},{"first":121,"second":100,"amount":0},{"first":121,"second":102,"amount":0},{"first":121,"second":103,"amount":0},{"first":121,"second":99,"amount":0},{"first":121,"second":44,"amount":-2},{"first":121,"second":46,"amount":-2},{"first":121,"second":34,"amount":0},{"first":121,"second":39,"amount":0},{"first":121,"second":1072,"amount":0},{"first":121,"second":1076,"amount":-1},{"first":121,"second":1077,"amount":0},{"first":121,"second":1105,"amount":0},{"first":121,"second":1083,"amount":-1},{"first":121,"second":1086,"amount":0},{"first":121,"second":1089,"amount":0},{"first":121,"second":1092,"amount":0},{"first":121,"second":246,"amount":0},{"first":121,"second":228,"amount":0},{"first":121,"second":962,"amount":0},{"first":121,"second":961,"amount":0},{"first":121,"second":964,"amount":0},{"first":121,"second":959,"amount":0},{"first":121,"second":960,"amount":0},{"first":121,"second":945,"amount":0},{"first":121,"second":963,"amount":0},{"first":121,"second":948,"amount":0},{"first":121,"second":229,"amount":0},{"first":111,"second":122,"amount":0},{"first":111,"second":121,"amount":0},{"first":111,"second":120,"amount":0},{"first":111,"second":118,"amount":0},{"first":111,"second":34,"amount":-3},{"first":111,"second":39,"amount":-3},{"first":111,"second":1076,"amount":-1},{"first":111,"second":1078,"amount":0},{"first":111,"second":1083,"amount":0},{"first":111,"second":1090,"amount":0},{"first":111,"second":1091,"amount":0},{"first":111,"second":1093,"amount":0},{"first":111,"second":964,"amount":0},{"first":111,"second":947,"amount":0},{"first":111,"second":957,"amount":0},{"first":112,"second":122,"amount":0},{"first":112,"second":121,"amount":0},{"first":112,"second":120,"amount":0},{"first":112,"second":118,"amount":0},{"first":112,"second":34,"amount":-1},{"first":112,"second":39,"amount":-1},{"first":112,"second":1076,"amount":0},{"first":112,"second":1078,"amount":0},{"first":112,"second":1083,"amount":0},{"first":112,"second":1090,"amount":-2},{"first":112,"second":1091,"amount":0},{"first":112,"second":1093,"amount":0},{"first":112,"second":964,"amount":0},{"first":112,"second":947,"amount":0},{"first":112,"second":957,"amount":0},{"first":102,"second":101,"amount":0},{"first":102,"second":113,"amount":0},{"first":102,"second":100,"amount":0},{"first":102,"second":103,"amount":0},{"first":102,"second":99,"amount":0},{"first":102,"second":125,"amount":0},{"first":102,"second":41,"amount":0},{"first":102,"second":93,"amount":0},{"first":102,"second":34,"amount":0},{"first":102,"second":39,"amount":0},{"first":102,"second":1077,"amount":0},{"first":102,"second":1105,"amount":0},{"first":102,"second":1089,"amount":0},{"first":102,"second":1092,"amount":0},{"first":102,"second":962,"amount":0},{"first":102,"second":945,"amount":0},{"first":102,"second":963,"amount":0},{"first":104,"second":34,"amount":-2},{"first":104,"second":39,"amount":-2},{"first":104,"second":1090,"amount":-1},{"first":107,"second":101,"amount":0},{"first":107,"second":113,"amount":0},{"first":107,"second":100,"amount":0},{"first":107,"second":103,"amount":0},{"first":107,"second":99,"amount":0},{"first":107,"second":1077,"amount":0},{"first":107,"second":1105,"amount":0},{"first":107,"second":1089,"amount":0},{"first":107,"second":1092,"amount":0},{"first":107,"second":962,"amount":0},{"first":107,"second":945,"amount":0},{"first":107,"second":963,"amount":0},{"first":109,"second":34,"amount":-2},{"first":109,"second":39,"amount":-2},{"first":109,"second":1090,"amount":-1},{"first":119,"second":44,"amount":-3},{"first":119,"second":46,"amount":-3},{"first":120,"second":101,"amount":0},{"first":120,"second":111,"amount":0},{"first":120,"second":113,"amount":0},{"first":120,"second":100,"amount":0},{"first":120,"second":103,"amount":0},{"first":120,"second":99,"amount":0},{"first":120,"second":1077,"amount":0},{"first":120,"second":1105,"amount":0},{"first":120,"second":1086,"amount":0},{"first":120,"second":1089,"amount":0},{"first":120,"second":1092,"amount":0},{"first":120,"second":246,"amount":0},{"first":120,"second":962,"amount":0},{"first":120,"second":959,"amount":0},{"first":120,"second":945,"amount":0},{"first":120,"second":963,"amount":0},{"first":99,"second":34,"amount":0},{"first":99,"second":39,"amount":0},{"first":118,"second":97,"amount":0},{"first":118,"second":101,"amount":0},{"first":118,"second":111,"amount":0},{"first":118,"second":113,"amount":0},{"first":118,"second":100,"amount":0},{"first":118,"second":102,"amount":0},{"first":118,"second":103,"amount":0},{"first":118,"second":99,"amount":0},{"first":118,"second":44,"amount":-2},{"first":118,"second":46,"amount":-2},{"first":118,"second":34,"amount":0},{"first":118,"second":39,"amount":0},{"first":118,"second":1072,"amount":0},{"first":118,"second":1076,"amount":-1},{"first":118,"second":1077,"amount":0},{"first":118,"second":1105,"amount":0},{"first":118,"second":1083,"amount":-1},{"first":118,"second":1086,"amount":0},{"first":118,"second":1089,"amount":0},{"first":118,"second":1092,"amount":0},{"first":118,"second":246,"amount":0},{"first":118,"second":228,"amount":0},{"first":118,"second":962,"amount":0},{"first":118,"second":961,"amount":0},{"first":118,"second":964,"amount":0},{"first":118,"second":959,"amount":0},{"first":118,"second":960,"amount":0},{"first":118,"second":945,"amount":0},{"first":118,"second":963,"amount":0},{"first":118,"second":948,"amount":0},{"first":118,"second":229,"amount":0},{"first":98,"second":122,"amount":0},{"first":98,"second":121,"amount":0},{"first":98,"second":120,"amount":0},{"first":98,"second":118,"amount":0},{"first":98,"second":34,"amount":-1},{"first":98,"second":39,"amount":-1},{"first":98,"second":1076,"amount":0},{"first":98,"second":1078,"amount":0},{"first":98,"second":1083,"amount":0},{"first":98,"second":1090,"amount":-2},{"first":98,"second":1091,"amount":0},{"first":98,"second":1093,"amount":0},{"first":98,"second":964,"amount":0},{"first":98,"second":947,"amount":0},{"first":98,"second":957,"amount":0},{"first":110,"second":34,"amount":-2},{"first":110,"second":39,"amount":-2},{"first":110,"second":1090,"amount":-1},{"first":65,"second":122,"amount":0},{"first":65,"second":116,"amount":0},{"first":65,"second":121,"amount":-1},{"first":65,"second":117,"amount":0},{"first":65,"second":111,"amount":0},{"first":65,"second":119,"amount":-1},{"first":65,"second":118,"amount":-1},{"first":65,"second":84,"amount":-3},{"first":65,"second":89,"amount":-2},{"first":65,"second":85,"amount":0},{"first":65,"second":79,"amount":0},{"first":65,"second":81,"amount":0},{"first":65,"second":71,"amount":0},{"first":65,"second":87,"amount":-1},{"first":65,"second":67,"amount":0},{"first":65,"second":86,"amount":-2},{"first":65,"second":63,"amount":-1},{"first":65,"second":34,"amount":-2},{"first":65,"second":39,"amount":-2},{"first":65,"second":1044,"amount":0},{"first":65,"second":1051,"amount":0},{"first":65,"second":1083,"amount":0},{"first":65,"second":1054,"amount":0},{"first":65,"second":1086,"amount":0},{"first":65,"second":1057,"amount":0},{"first":65,"second":1058,"amount":-3},{"first":65,"second":1090,"amount":-1},{"first":65,"second":1091,"amount":-1},{"first":65,"second":1063,"amount":-1},{"first":65,"second":1095,"amount":-2},{"first":65,"second":1068,"amount":-1},{"first":65,"second":252,"amount":0},{"first":65,"second":220,"amount":0},{"first":65,"second":246,"amount":0},{"first":65,"second":214,"amount":0},{"first":65,"second":964,"amount":-1},{"first":65,"second":965,"amount":0},{"first":65,"second":959,"amount":0},{"first":65,"second":947,"amount":-1},{"first":65,"second":955,"amount":0},{"first":65,"second":957,"amount":-1},{"first":65,"second":933,"amount":-2},{"first":65,"second":920,"amount":0},{"first":65,"second":927,"amount":0},{"first":65,"second":934,"amount":-1},{"first":65,"second":936,"amount":-1},{"first":65,"second":216,"amount":0},{"first":90,"second":101,"amount":0},{"first":90,"second":121,"amount":-1},{"first":90,"second":117,"amount":0},{"first":90,"second":111,"amount":0},{"first":90,"second":113,"amount":0},{"first":90,"second":100,"amount":0},{"first":90,"second":103,"amount":0},{"first":90,"second":119,"amount":-1},{"first":90,"second":99,"amount":0},{"first":90,"second":118,"amount":-1},{"first":90,"second":65,"amount":0},{"first":90,"second":79,"amount":-1},{"first":90,"second":81,"amount":-1},{"first":90,"second":71,"amount":-1},{"first":90,"second":67,"amount":-1},{"first":90,"second":1040,"amount":0},{"first":90,"second":1077,"amount":0},{"first":90,"second":1105,"amount":0},{"first":90,"second":1054,"amount":-1},{"first":90,"second":1086,"amount":0},{"first":90,"second":1057,"amount":-1},{"first":90,"second":1089,"amount":0},{"first":90,"second":1091,"amount":-1},{"first":90,"second":1092,"amount":0},{"first":90,"second":252,"amount":0},{"first":90,"second":246,"amount":0},{"first":90,"second":214,"amount":-1},{"first":90,"second":196,"amount":0},{"first":90,"second":962,"amount":0},{"first":90,"second":965,"amount":0},{"first":90,"second":959,"amount":0},{"first":90,"second":945,"amount":0},{"first":90,"second":963,"amount":0},{"first":90,"second":947,"amount":-1},{"first":90,"second":968,"amount":-1},{"first":90,"second":957,"amount":-1},{"first":90,"second":920,"amount":-1},{"first":90,"second":927,"amount":-1},{"first":90,"second":913,"amount":0},{"first":90,"second":916,"amount":0},{"first":90,"second":934,"amount":-1},{"first":90,"second":923,"amount":0},{"first":90,"second":197,"amount":0},{"first":90,"second":216,"amount":-1},{"first":69,"second":101,"amount":0},{"first":69,"second":121,"amount":-1},{"first":69,"second":117,"amount":0},{"first":69,"second":111,"amount":0},{"first":69,"second":113,"amount":0},{"first":69,"second":100,"amount":0},{"first":69,"second":102,"amount":0},{"first":69,"second":103,"amount":0},{"first":69,"second":119,"amount":0},{"first":69,"second":99,"amount":0},{"first":69,"second":118,"amount":-1},{"first":69,"second":84,"amount":0},{"first":69,"second":1077,"amount":0},{"first":69,"second":1105,"amount":0},{"first":69,"second":1086,"amount":0},{"first":69,"second":1089,"amount":0},{"first":69,"second":1058,"amount":0},{"first":69,"second":1091,"amount":-1},{"first":69,"second":1092,"amount":0},{"first":69,"second":252,"amount":0},{"first":69,"second":246,"amount":0},{"first":69,"second":962,"amount":0},{"first":69,"second":965,"amount":0},{"first":69,"second":959,"amount":0},{"first":69,"second":945,"amount":0},{"first":69,"second":963,"amount":0},{"first":69,"second":947,"amount":-1},{"first":69,"second":957,"amount":-1},{"first":82,"second":84,"amount":-2},{"first":82,"second":89,"amount":-1},{"first":82,"second":86,"amount":0},{"first":82,"second":1058,"amount":-2},{"first":82,"second":933,"amount":-1},{"first":84,"second":97,"amount":-2},{"first":84,"second":122,"amount":-1},{"first":84,"second":101,"amount":-2},{"first":84,"second":114,"amount":-2},{"first":84,"second":121,"amount":-1},{"first":84,"second":117,"amount":-2},{"first":84,"second":111,"amount":-2},{"first":84,"second":112,"amount":-2},{"first":84,"second":113,"amount":-2},{"first":84,"second":115,"amount":-2},{"first":84,"second":100,"amount":-2},{"first":84,"second":103,"amount":-2},{"first":84,"second":109,"amount":-2},{"first":84,"second":119,"amount":-1},{"first":84,"second":120,"amount":-2},{"first":84,"second":99,"amount":-2},{"first":84,"second":118,"amount":-1},{"first":84,"second":110,"amount":-2},{"first":84,"second":65,"amount":-2},{"first":84,"second":84,"amount":0},{"first":84,"second":89,"amount":0},{"first":84,"second":79,"amount":-1},{"first":84,"second":81,"amount":-1},{"first":84,"second":83,"amount":0},{"first":84,"second":71,"amount":-1},{"first":84,"second":74,"amount":-5},{"first":84,"second":87,"amount":0},{"first":84,"second":67,"amount":-1},{"first":84,"second":86,"amount":0},{"first":84,"second":45,"amount":-5},{"first":84,"second":8211,"amount":-5},{"first":84,"second":44,"amount":-4},{"first":84,"second":46,"amount":-4},{"first":84,"second":1040,"amount":-2},{"first":84,"second":1072,"amount":-2},{"first":84,"second":1073,"amount":-1},{"first":84,"second":1074,"amount":-2},{"first":84,"second":1075,"amount":-2},{"first":84,"second":1044,"amount":-2},{"first":84,"second":1076,"amount":-3},{"first":84,"second":1077,"amount":-2},{"first":84,"second":1105,"amount":-2},{"first":84,"second":1078,"amount":-2},{"first":84,"second":1079,"amount":-3},{"first":84,"second":1080,"amount":-2},{"first":84,"second":1081,"amount":-2},{"first":84,"second":1082,"amount":-2},{"first":84,"second":1051,"amount":-1},{"first":84,"second":1083,"amount":-3},{"first":84,"second":1084,"amount":-2},{"first":84,"second":1085,"amount":-2},{"first":84,"second":1054,"amount":-1},{"first":84,"second":1086,"amount":-2},{"first":84,"second":1087,"amount":-2},{"first":84,"second":1088,"amount":-2},{"first":84,"second":1057,"amount":-1},{"first":84,"second":1089,"amount":-2},{"first":84,"second":1058,"amount":0},{"first":84,"second":1090,"amount":-2},{"first":84,"second":1091,"amount":-1},{"first":84,"second":1092,"amount":-2},{"first":84,"second":1093,"amount":-2},{"first":84,"second":1094,"amount":-2},{"first":84,"second":1095,"amount":-3},{"first":84,"second":1096,"amount":-2},{"first":84,"second":1097,"amount":-2},{"first":84,"second":1099,"amount":-3},{"first":84,"second":1068,"amount":0},{"first":84,"second":1100,"amount":-2},{"first":84,"second":1101,"amount":-3},{"first":84,"second":1102,"amount":-2},{"first":84,"second":1103,"amount":-3},{"first":84,"second":252,"amount":-2},{"first":84,"second":246,"amount":-2},{"first":84,"second":214,"amount":-1},{"first":84,"second":228,"amount":-2},{"first":84,"second":196,"amount":-2},{"first":84,"second":241,"amount":-2},{"first":84,"second":962,"amount":-2},{"first":84,"second":949,"amount":-3},{"first":84,"second":961,"amount":-3},{"first":84,"second":964,"amount":-2},{"first":84,"second":965,"amount":-2},{"first":84,"second":953,"amount":-3},{"first":84,"second":959,"amount":-2},{"first":84,"second":960,"amount":-2},{"first":84,"second":945,"amount":-2},{"first":84,"second":963,"amount":-2},{"first":84,"second":948,"amount":-1},{"first":84,"second":966,"amount":-3},{"first":84,"second":947,"amount":-1},{"first":84,"second":951,"amount":-2},{"first":84,"second":968,"amount":-3},{"first":84,"second":969,"amount":-3},{"first":84,"second":957,"amount":-1},{"first":84,"second":933,"amount":0},{"first":84,"second":920,"amount":-1},{"first":84,"second":927,"amount":-1},{"first":84,"second":913,"amount":-2},{"first":84,"second":916,"amount":-2},{"first":84,"second":934,"amount":-2},{"first":84,"second":923,"amount":-2},{"first":84,"second":229,"amount":-2},{"first":84,"second":197,"amount":-2},{"first":84,"second":230,"amount":-2},{"first":84,"second":198,"amount":-4},{"first":84,"second":248,"amount":-2},{"first":84,"second":216,"amount":-1},{"first":89,"second":97,"amount":-1},{"first":89,"second":122,"amount":-1},{"first":89,"second":101,"amount":-1},{"first":89,"second":114,"amount":-1},{"first":89,"second":116,"amount":0},{"first":89,"second":121,"amount":0},{"first":89,"second":117,"amount":-1},{"first":89,"second":111,"amount":-1},{"first":89,"second":112,"amount":-1},{"first":89,"second":113,"amount":-1},{"first":89,"second":115,"amount":-1},{"first":89,"second":100,"amount":-1},{"first":89,"second":102,"amount":0},{"first":89,"second":103,"amount":-1},{"first":89,"second":109,"amount":-1},{"first":89,"second":120,"amount":0},{"first":89,"second":99,"amount":-1},{"first":89,"second":118,"amount":0},{"first":89,"second":110,"amount":-1},{"first":89,"second":65,"amount":-2},{"first":89,"second":84,"amount":0},{"first":89,"second":89,"amount":0},{"first":89,"second":85,"amount":-2},{"first":89,"second":79,"amount":-1},{"first":89,"second":81,"amount":-1},{"first":89,"second":83,"amount":0},{"first":89,"second":71,"amount":-1},{"first":89,"second":74,"amount":-2},{"first":89,"second":87,"amount":0},{"first":89,"second":88,"amount":0},{"first":89,"second":67,"amount":-1},{"first":89,"second":86,"amount":0},{"first":89,"second":42,"amount":-1},{"first":89,"second":45,"amount":-1},{"first":89,"second":8211,"amount":-1},{"first":89,"second":44,"amount":-4},{"first":89,"second":46,"amount":-4},{"first":89,"second":125,"amount":0},{"first":89,"second":41,"amount":0},{"first":89,"second":93,"amount":0},{"first":89,"second":38,"amount":-1},{"first":89,"second":1040,"amount":-2},{"first":89,"second":1072,"amount":-1},{"first":89,"second":1075,"amount":-1},{"first":89,"second":1077,"amount":-1},{"first":89,"second":1105,"amount":-1},{"first":89,"second":1046,"amount":0},{"first":89,"second":1078,"amount":0},{"first":89,"second":1080,"amount":-1},{"first":89,"second":1081,"amount":-1},{"first":89,"second":1082,"amount":-1},{"first":89,"second":1084,"amount":-1},{"first":89,"second":1085,"amount":-1},{"first":89,"second":1054,"amount":-1},{"first":89,"second":1086,"amount":-1},{"first":89,"second":1087,"amount":-1},{"first":89,"second":1088,"amount":-1},{"first":89,"second":1057,"amount":-1},{"first":89,"second":1089,"amount":-1},{"first":89,"second":1058,"amount":0},{"first":89,"second":1091,"amount":0},{"first":89,"second":1092,"amount":-1},{"first":89,"second":1061,"amount":0},{"first":89,"second":1093,"amount":0},{"first":89,"second":1094,"amount":-1},{"first":89,"second":1096,"amount":-1},{"first":89,"second":1097,"amount":-1},{"first":89,"second":1100,"amount":-1},{"first":89,"second":1102,"amount":-1},{"first":89,"second":252,"amount":-1},{"first":89,"second":220,"amount":-2},{"first":89,"second":246,"amount":-1},{"first":89,"second":214,"amount":-1},{"first":89,"second":228,"amount":-1},{"first":89,"second":196,"amount":-2},{"first":89,"second":241,"amount":-1},{"first":89,"second":962,"amount":-1},{"first":89,"second":949,"amount":-1},{"first":89,"second":961,"amount":-1},{"first":89,"second":964,"amount":0},{"first":89,"second":965,"amount":-1},{"first":89,"second":952,"amount":0},{"first":89,"second":953,"amount":-1},{"first":89,"second":959,"amount":-1},{"first":89,"second":960,"amount":0},{"first":89,"second":945,"amount":-1},{"first":89,"second":963,"amount":-1},{"first":89,"second":948,"amount":0},{"first":89,"second":966,"amount":-1},{"first":89,"second":947,"amount":0},{"first":89,"second":951,"amount":-1},{"first":89,"second":950,"amount":0},{"first":89,"second":968,"amount":-1},{"first":89,"second":969,"amount":-1},{"first":89,"second":946,"amount":0},{"first":89,"second":957,"amount":0},{"first":89,"second":933,"amount":0},{"first":89,"second":920,"amount":-1},{"first":89,"second":927,"amount":-1},{"first":89,"second":913,"amount":-2},{"first":89,"second":916,"amount":-2},{"first":89,"second":934,"amount":-1},{"first":89,"second":923,"amount":-2},{"first":89,"second":935,"amount":0},{"first":89,"second":229,"amount":-1},{"first":89,"second":197,"amount":-2},{"first":89,"second":230,"amount":-1},{"first":89,"second":198,"amount":-2},{"first":89,"second":248,"amount":-1},{"first":89,"second":216,"amount":-1},{"first":85,"second":65,"amount":0},{"first":85,"second":1040,"amount":0},{"first":85,"second":196,"amount":0},{"first":85,"second":913,"amount":0},{"first":85,"second":916,"amount":0},{"first":85,"second":923,"amount":0},{"first":85,"second":197,"amount":0},{"first":73,"second":65,"amount":0},{"first":73,"second":84,"amount":-1},{"first":73,"second":89,"amount":-1},{"first":73,"second":88,"amount":0},{"first":73,"second":1040,"amount":0},{"first":73,"second":1044,"amount":0},{"first":73,"second":1076,"amount":0},{"first":73,"second":1046,"amount":0},{"first":73,"second":1051,"amount":0},{"first":73,"second":1083,"amount":0},{"first":73,"second":1058,"amount":-1},{"first":73,"second":1061,"amount":0},{"first":73,"second":1063,"amount":-1},{"first":73,"second":1095,"amount":-1},{"first":73,"second":196,"amount":0},{"first":73,"second":933,"amount":-1},{"first":73,"second":913,"amount":0},{"first":73,"second":916,"amount":0},{"first":73,"second":923,"amount":0},{"first":73,"second":935,"amount":0},{"first":73,"second":197,"amount":0},{"first":79,"second":65,"amount":0},{"first":79,"second":90,"amount":0},{"first":79,"second":84,"amount":-1},{"first":79,"second":89,"amount":-1},{"first":79,"second":88,"amount":0},{"first":79,"second":86,"amount":0},{"first":79,"second":44,"amount":-2},{"first":79,"second":46,"amount":-2},{"first":79,"second":1040,"amount":0},{"first":79,"second":1044,"amount":-1},{"first":79,"second":1046,"amount":0},{"first":79,"second":1051,"amount":-1},{"first":79,"second":1058,"amount":-1},{"first":79,"second":1061,"amount":0},{"first":79,"second":1068,"amount":-1},{"first":79,"second":196,"amount":0},{"first":79,"second":955,"amount":0},{"first":79,"second":933,"amount":-1},{"first":79,"second":913,"amount":0},{"first":79,"second":931,"amount":0},{"first":79,"second":916,"amount":0},{"first":79,"second":926,"amount":0},{"first":79,"second":923,"amount":0},{"first":79,"second":918,"amount":0},{"first":79,"second":935,"amount":0},{"first":79,"second":197,"amount":0},{"first":79,"second":198,"amount":-1},{"first":80,"second":97,"amount":0},{"first":80,"second":101,"amount":0},{"first":80,"second":116,"amount":0},{"first":80,"second":121,"amount":0},{"first":80,"second":111,"amount":0},{"first":80,"second":113,"amount":0},{"first":80,"second":100,"amount":0},{"first":80,"second":103,"amount":0},{"first":80,"second":99,"amount":0},{"first":80,"second":118,"amount":0},{"first":80,"second":65,"amount":-3},{"first":80,"second":90,"amount":-1},{"first":80,"second":74,"amount":-4},{"first":80,"second":88,"amount":-1},{"first":80,"second":44,"amount":-7},{"first":80,"second":46,"amount":-7},{"first":80,"second":1040,"amount":-3},{"first":80,"second":1072,"amount":0},{"first":80,"second":1044,"amount":-2},{"first":80,"second":1076,"amount":-1},{"first":80,"second":1077,"amount":0},{"first":80,"second":1105,"amount":0},{"first":80,"second":1046,"amount":-1},{"first":80,"second":1051,"amount":-1},{"first":80,"second":1083,"amount":-1},{"first":80,"second":1086,"amount":0},{"first":80,"second":1089,"amount":0},{"first":80,"second":1091,"amount":0},{"first":80,"second":1092,"amount":0},{"first":80,"second":1061,"amount":-1},{"first":80,"second":246,"amount":0},{"first":80,"second":228,"amount":0},{"first":80,"second":196,"amount":-3},{"first":80,"second":962,"amount":0},{"first":80,"second":961,"amount":-1},{"first":80,"second":959,"amount":0},{"first":80,"second":945,"amount":0},{"first":80,"second":963,"amount":0},{"first":80,"second":948,"amount":0},{"first":80,"second":947,"amount":0},{"first":80,"second":955,"amount":-1},{"first":80,"second":957,"amount":0},{"first":80,"second":913,"amount":-3},{"first":80,"second":916,"amount":-3},{"first":80,"second":923,"amount":-3},{"first":80,"second":918,"amount":-1},{"first":80,"second":935,"amount":-1},{"first":80,"second":229,"amount":0},{"first":80,"second":197,"amount":-3},{"first":80,"second":198,"amount":-2},{"first":81,"second":84,"amount":-1},{"first":81,"second":89,"amount":-1},{"first":81,"second":87,"amount":0},{"first":81,"second":86,"amount":-1},{"first":81,"second":1058,"amount":-1},{"first":81,"second":933,"amount":-1},{"first":68,"second":65,"amount":0},{"first":68,"second":90,"amount":0},{"first":68,"second":84,"amount":-1},{"first":68,"second":89,"amount":-1},{"first":68,"second":88,"amount":0},{"first":68,"second":86,"amount":0},{"first":68,"second":44,"amount":-2},{"first":68,"second":46,"amount":-2},{"first":68,"second":1040,"amount":0},{"first":68,"second":1044,"amount":-1},{"first":68,"second":1046,"amount":0},{"first":68,"second":1051,"amount":-1},{"first":68,"second":1058,"amount":-1},{"first":68,"second":1061,"amount":0},{"first":68,"second":1068,"amount":-1},{"first":68,"second":196,"amount":0},{"first":68,"second":955,"amount":0},{"first":68,"second":933,"amount":-1},{"first":68,"second":913,"amount":0},{"first":68,"second":931,"amount":0},{"first":68,"second":916,"amount":0},{"first":68,"second":926,"amount":0},{"first":68,"second":923,"amount":0},{"first":68,"second":918,"amount":0},{"first":68,"second":935,"amount":0},{"first":68,"second":197,"amount":0},{"first":68,"second":198,"amount":-1},{"first":70,"second":97,"amount":-1},{"first":70,"second":101,"amount":0},{"first":70,"second":114,"amount":-1},{"first":70,"second":121,"amount":0},{"first":70,"second":117,"amount":0},{"first":70,"second":111,"amount":0},{"first":70,"second":113,"amount":0},{"first":70,"second":100,"amount":0},{"first":70,"second":103,"amount":0},{"first":70,"second":99,"amount":0},{"first":70,"second":118,"amount":0},{"first":70,"second":65,"amount":-3},{"first":70,"second":84,"amount":0},{"first":70,"second":74,"amount":-5},{"first":70,"second":44,"amount":-5},{"first":70,"second":46,"amount":-5},{"first":70,"second":1040,"amount":-3},{"first":70,"second":1072,"amount":-1},{"first":70,"second":1077,"amount":0},{"first":70,"second":1105,"amount":0},{"first":70,"second":1086,"amount":0},{"first":70,"second":1089,"amount":0},{"first":70,"second":1058,"amount":0},{"first":70,"second":1091,"amount":0},{"first":70,"second":1092,"amount":0},{"first":70,"second":252,"amount":0},{"first":70,"second":246,"amount":0},{"first":70,"second":228,"amount":-1},{"first":70,"second":196,"amount":-3},{"first":70,"second":962,"amount":0},{"first":70,"second":965,"amount":0},{"first":70,"second":959,"amount":0},{"first":70,"second":945,"amount":0},{"first":70,"second":963,"amount":0},{"first":70,"second":947,"amount":0},{"first":70,"second":957,"amount":0},{"first":70,"second":913,"amount":-3},{"first":70,"second":916,"amount":-3},{"first":70,"second":923,"amount":-3},{"first":70,"second":229,"amount":-1},{"first":70,"second":197,"amount":-3},{"first":72,"second":65,"amount":0},{"first":72,"second":84,"amount":-1},{"first":72,"second":89,"amount":-1},{"first":72,"second":88,"amount":0},{"first":72,"second":1040,"amount":0},{"first":72,"second":1044,"amount":0},{"first":72,"second":1076,"amount":0},{"first":72,"second":1046,"amount":0},{"first":72,"second":1051,"amount":0},{"first":72,"second":1083,"amount":0},{"first":72,"second":1058,"amount":-1},{"first":72,"second":1061,"amount":0},{"first":72,"second":1063,"amount":-1},{"first":72,"second":1095,"amount":-1},{"first":72,"second":196,"amount":0},{"first":72,"second":933,"amount":-1},{"first":72,"second":913,"amount":0},{"first":72,"second":916,"amount":0},{"first":72,"second":923,"amount":0},{"first":72,"second":935,"amount":0},{"first":72,"second":197,"amount":0},{"first":74,"second":65,"amount":0},{"first":74,"second":1040,"amount":0},{"first":74,"second":196,"amount":0},{"first":74,"second":913,"amount":0},{"first":74,"second":916,"amount":0},{"first":74,"second":923,"amount":0},{"first":74,"second":197,"amount":0},{"first":75,"second":101,"amount":-1},{"first":75,"second":121,"amount":-1},{"first":75,"second":117,"amount":0},{"first":75,"second":111,"amount":-1},{"first":75,"second":112,"amount":0},{"first":75,"second":113,"amount":-1},{"first":75,"second":100,"amount":-1},{"first":75,"second":103,"amount":-1},{"first":75,"second":109,"amount":0},{"first":75,"second":119,"amount":-1},{"first":75,"second":99,"amount":-1},{"first":75,"second":118,"amount":-1},{"first":75,"second":110,"amount":0},{"first":75,"second":79,"amount":-1},{"first":75,"second":81,"amount":-1},{"first":75,"second":71,"amount":-1},{"first":75,"second":67,"amount":-1},{"first":75,"second":45,"amount":-1},{"first":75,"second":8211,"amount":-1},{"first":75,"second":1073,"amount":-1},{"first":75,"second":1075,"amount":0},{"first":75,"second":1077,"amount":-1},{"first":75,"second":1105,"amount":-1},{"first":75,"second":1080,"amount":0},{"first":75,"second":1081,"amount":0},{"first":75,"second":1082,"amount":0},{"first":75,"second":1084,"amount":0},{"first":75,"second":1085,"amount":0},{"first":75,"second":1054,"amount":-1},{"first":75,"second":1086,"amount":-1},{"first":75,"second":1087,"amount":0},{"first":75,"second":1088,"amount":0},{"first":75,"second":1057,"amount":-1},{"first":75,"second":1089,"amount":-1},{"first":75,"second":1090,"amount":-1},{"first":75,"second":1091,"amount":-1},{"first":75,"second":1092,"amount":-1},{"first":75,"second":1094,"amount":0},{"first":75,"second":1095,"amount":-2},{"first":75,"second":1096,"amount":0},{"first":75,"second":1097,"amount":0},{"first":75,"second":1100,"amount":0},{"first":75,"second":1102,"amount":0},{"first":75,"second":252,"amount":0},{"first":75,"second":246,"amount":-1},{"first":75,"second":214,"amount":-1},{"first":75,"second":241,"amount":0},{"first":75,"second":962,"amount":-1},{"first":75,"second":964,"amount":-2},{"first":75,"second":965,"amount":0},{"first":75,"second":959,"amount":-1},{"first":75,"second":945,"amount":-1},{"first":75,"second":963,"amount":-1},{"first":75,"second":947,"amount":-1},{"first":75,"second":951,"amount":0},{"first":75,"second":957,"amount":-1},{"first":75,"second":920,"amount":-1},{"first":75,"second":927,"amount":-1},{"first":75,"second":934,"amount":-1},{"first":75,"second":216,"amount":-1},{"first":76,"second":121,"amount":-3},{"first":76,"second":117,"amount":-1},{"first":76,"second":119,"amount":-2},{"first":76,"second":118,"amount":-3},{"first":76,"second":65,"amount":0},{"first":76,"second":84,"amount":-6},{"first":76,"second":89,"amount":-5},{"first":76,"second":85,"amount":-1},{"first":76,"second":79,"amount":-1},{"first":76,"second":81,"amount":-1},{"first":76,"second":71,"amount":-1},{"first":76,"second":87,"amount":-3},{"first":76,"second":67,"amount":-1},{"first":76,"second":86,"amount":-4},{"first":76,"second":34,"amount":-7},{"first":76,"second":39,"amount":-7},{"first":76,"second":1040,"amount":0},{"first":76,"second":1054,"amount":-1},{"first":76,"second":1057,"amount":-1},{"first":76,"second":1058,"amount":-6},{"first":76,"second":1091,"amount":-3},{"first":76,"second":252,"amount":-1},{"first":76,"second":220,"amount":-1},{"first":76,"second":214,"amount":-1},{"first":76,"second":196,"amount":0},{"first":76,"second":965,"amount":-1},{"first":76,"second":947,"amount":-3},{"first":76,"second":957,"amount":-3},{"first":76,"second":933,"amount":-5},{"first":76,"second":920,"amount":-1},{"first":76,"second":927,"amount":-1},{"first":76,"second":913,"amount":0},{"first":76,"second":916,"amount":0},{"first":76,"second":923,"amount":0},{"first":76,"second":197,"amount":0},{"first":76,"second":216,"amount":-1},{"first":77,"second":65,"amount":0},{"first":77,"second":84,"amount":-1},{"first":77,"second":89,"amount":-1},{"first":77,"second":88,"amount":0},{"first":77,"second":1040,"amount":0},{"first":77,"second":1044,"amount":0},{"first":77,"second":1076,"amount":0},{"first":77,"second":1046,"amount":0},{"first":77,"second":1051,"amount":0},{"first":77,"second":1083,"amount":0},{"first":77,"second":1058,"amount":-1},{"first":77,"second":1061,"amount":0},{"first":77,"second":1063,"amount":-1},{"first":77,"second":1095,"amount":-1},{"first":77,"second":196,"amount":0},{"first":77,"second":933,"amount":-1},{"first":77,"second":913,"amount":0},{"first":77,"second":916,"amount":0},{"first":77,"second":923,"amount":0},{"first":77,"second":935,"amount":0},{"first":77,"second":197,"amount":0},{"first":87,"second":97,"amount":-1},{"first":87,"second":101,"amount":-1},{"first":87,"second":114,"amount":0},{"first":87,"second":117,"amount":0},{"first":87,"second":111,"amount":-1},{"first":87,"second":113,"amount":-1},{"first":87,"second":100,"amount":-1},{"first":87,"second":103,"amount":-1},{"first":87,"second":99,"amount":-1},{"first":87,"second":65,"amount":-1},{"first":87,"second":84,"amount":0},{"first":87,"second":45,"amount":-1},{"first":87,"second":8211,"amount":-1},{"first":87,"second":44,"amount":-3},{"first":87,"second":46,"amount":-3},{"first":87,"second":125,"amount":0},{"first":87,"second":41,"amount":0},{"first":87,"second":93,"amount":0},{"first":87,"second":1040,"amount":-1},{"first":87,"second":1072,"amount":-1},{"first":87,"second":1077,"amount":-1},{"first":87,"second":1105,"amount":-1},{"first":87,"second":1086,"amount":-1},{"first":87,"second":1089,"amount":-1},{"first":87,"second":1058,"amount":0},{"first":87,"second":1092,"amount":-1},{"first":87,"second":252,"amount":0},{"first":87,"second":246,"amount":-1},{"first":87,"second":228,"amount":-1},{"first":87,"second":196,"amount":-1},{"first":87,"second":962,"amount":-1},{"first":87,"second":965,"amount":0},{"first":87,"second":959,"amount":-1},{"first":87,"second":945,"amount":-1},{"first":87,"second":963,"amount":-1},{"first":87,"second":913,"amount":-1},{"first":87,"second":916,"amount":-1},{"first":87,"second":923,"amount":-1},{"first":87,"second":229,"amount":-1},{"first":87,"second":197,"amount":-1},{"first":88,"second":101,"amount":-1},{"first":88,"second":121,"amount":-1},{"first":88,"second":117,"amount":0},{"first":88,"second":111,"amount":0},{"first":88,"second":113,"amount":-1},{"first":88,"second":100,"amount":-1},{"first":88,"second":103,"amount":-1},{"first":88,"second":99,"amount":-1},{"first":88,"second":118,"amount":-1},{"first":88,"second":79,"amount":-1},{"first":88,"second":81,"amount":-1},{"first":88,"second":71,"amount":-1},{"first":88,"second":67,"amount":-1},{"first":88,"second":86,"amount":0},{"first":88,"second":45,"amount":-1},{"first":88,"second":8211,"amount":-1},{"first":88,"second":1073,"amount":0},{"first":88,"second":1044,"amount":0},{"first":88,"second":1077,"amount":-1},{"first":88,"second":1105,"amount":-1},{"first":88,"second":1051,"amount":0},{"first":88,"second":1083,"amount":0},{"first":88,"second":1054,"amount":-1},{"first":88,"second":1086,"amount":0},{"first":88,"second":1057,"amount":-1},{"first":88,"second":1089,"amount":-1},{"first":88,"second":1090,"amount":-1},{"first":88,"second":1091,"amount":-1},{"first":88,"second":1092,"amount":-1},{"first":88,"second":1095,"amount":-1},{"first":88,"second":252,"amount":0},{"first":88,"second":246,"amount":0},{"first":88,"second":214,"amount":-1},{"first":88,"second":962,"amount":-1},{"first":88,"second":964,"amount":-1},{"first":88,"second":965,"amount":0},{"first":88,"second":952,"amount":0},{"first":88,"second":959,"amount":0},{"first":88,"second":945,"amount":-1},{"first":88,"second":963,"amount":-1},{"first":88,"second":948,"amount":0},{"first":88,"second":966,"amount":-1},{"first":88,"second":947,"amount":-1},{"first":88,"second":955,"amount":0},{"first":88,"second":968,"amount":-1},{"first":88,"second":969,"amount":0},{"first":88,"second":957,"amount":-1},{"first":88,"second":920,"amount":-1},{"first":88,"second":927,"amount":-1},{"first":88,"second":934,"amount":-1},{"first":88,"second":216,"amount":-1},{"first":67,"second":84,"amount":-1},{"first":67,"second":125,"amount":0},{"first":67,"second":41,"amount":-1},{"first":67,"second":93,"amount":0},{"first":67,"second":1058,"amount":-1},{"first":86,"second":97,"amount":-1},{"first":86,"second":101,"amount":-1},{"first":86,"second":114,"amount":-1},{"first":86,"second":121,"amount":0},{"first":86,"second":117,"amount":-1},{"first":86,"second":111,"amount":-1},{"first":86,"second":113,"amount":-1},{"first":86,"second":100,"amount":-1},{"first":86,"second":103,"amount":-1},{"first":86,"second":99,"amount":-1},{"first":86,"second":118,"amount":0},{"first":86,"second":65,"amount":-2},{"first":86,"second":79,"amount":0},{"first":86,"second":81,"amount":0},{"first":86,"second":71,"amount":0},{"first":86,"second":67,"amount":0},{"first":86,"second":45,"amount":-1},{"first":86,"second":8211,"amount":-1},{"first":86,"second":44,"amount":-5},{"first":86,"second":46,"amount":-5},{"first":86,"second":125,"amount":0},{"first":86,"second":41,"amount":0},{"first":86,"second":93,"amount":0},{"first":86,"second":1040,"amount":-2},{"first":86,"second":1072,"amount":-1},{"first":86,"second":1077,"amount":-1},{"first":86,"second":1105,"amount":-1},{"first":86,"second":1054,"amount":0},{"first":86,"second":1086,"amount":-1},{"first":86,"second":1057,"amount":0},{"first":86,"second":1089,"amount":-1},{"first":86,"second":1091,"amount":0},{"first":86,"second":1092,"amount":-1},{"first":86,"second":252,"amount":-1},{"first":86,"second":246,"amount":-1},{"first":86,"second":214,"amount":0},{"first":86,"second":228,"amount":-1},{"first":86,"second":196,"amount":-2},{"first":86,"second":962,"amount":-1},{"first":86,"second":965,"amount":-1},{"first":86,"second":959,"amount":-1},{"first":86,"second":945,"amount":-1},{"first":86,"second":963,"amount":-1},{"first":86,"second":947,"amount":0},{"first":86,"second":957,"amount":0},{"first":86,"second":920,"amount":0},{"first":86,"second":927,"amount":0},{"first":86,"second":913,"amount":-2},{"first":86,"second":916,"amount":-2},{"first":86,"second":923,"amount":-2},{"first":86,"second":229,"amount":-1},{"first":86,"second":197,"amount":-2},{"first":86,"second":216,"amount":0},{"first":66,"second":84,"amount":-1},{"first":66,"second":89,"amount":-1},{"first":66,"second":86,"amount":0},{"first":66,"second":1058,"amount":-1},{"first":66,"second":1059,"amount":0},{"first":66,"second":933,"amount":-1},{"first":78,"second":65,"amount":0},{"first":78,"second":84,"amount":-1},{"first":78,"second":89,"amount":-1},{"first":78,"second":88,"amount":0},{"first":78,"second":1040,"amount":0},{"first":78,"second":1044,"amount":0},{"first":78,"second":1076,"amount":0},{"first":78,"second":1046,"amount":0},{"first":78,"second":1051,"amount":0},{"first":78,"second":1083,"amount":0},{"first":78,"second":1058,"amount":-1},{"first":78,"second":1061,"amount":0},{"first":78,"second":1063,"amount":-1},{"first":78,"second":1095,"amount":-1},{"first":78,"second":196,"amount":0},{"first":78,"second":933,"amount":-1},{"first":78,"second":913,"amount":0},{"first":78,"second":916,"amount":0},{"first":78,"second":923,"amount":0},{"first":78,"second":935,"amount":0},{"first":78,"second":197,"amount":0},{"first":47,"second":47,"amount":-5},{"first":44,"second":34,"amount":-3},{"first":44,"second":39,"amount":-3},{"first":46,"second":34,"amount":-3},{"first":46,"second":39,"amount":-3},{"first":123,"second":85,"amount":0},{"first":123,"second":74,"amount":0},{"first":123,"second":220,"amount":0},{"first":40,"second":89,"amount":0},{"first":40,"second":87,"amount":0},{"first":40,"second":86,"amount":0},{"first":40,"second":933,"amount":0},{"first":91,"second":85,"amount":0},{"first":91,"second":74,"amount":0},{"first":91,"second":220,"amount":0},{"first":34,"second":97,"amount":-1},{"first":34,"second":101,"amount":-1},{"first":34,"second":111,"amount":-1},{"first":34,"second":112,"amount":0},{"first":34,"second":113,"amount":-1},{"first":34,"second":115,"amount":-2},{"first":34,"second":100,"amount":-1},{"first":34,"second":103,"amount":-1},{"first":34,"second":109,"amount":0},{"first":34,"second":119,"amount":0},{"first":34,"second":99,"amount":-1},{"first":34,"second":110,"amount":0},{"first":34,"second":65,"amount":-2},{"first":34,"second":34,"amount":-2},{"first":34,"second":39,"amount":-2},{"first":34,"second":1040,"amount":-2},{"first":34,"second":1072,"amount":-1},{"first":34,"second":1075,"amount":0},{"first":34,"second":1077,"amount":-1},{"first":34,"second":1105,"amount":-1},{"first":34,"second":1080,"amount":0},{"first":34,"second":1081,"amount":0},{"first":34,"second":1082,"amount":0},{"first":34,"second":1084,"amount":0},{"first":34,"second":1085,"amount":0},{"first":34,"second":1086,"amount":-1},{"first":34,"second":1087,"amount":0},{"first":34,"second":1088,"amount":0},{"first":34,"second":1089,"amount":-1},{"first":34,"second":1092,"amount":-1},{"first":34,"second":1094,"amount":0},{"first":34,"second":1096,"amount":0},{"first":34,"second":1097,"amount":0},{"first":34,"second":1100,"amount":0},{"first":34,"second":1102,"amount":0},{"first":34,"second":246,"amount":-1},{"first":34,"second":228,"amount":-1},{"first":34,"second":196,"amount":-2},{"first":34,"second":241,"amount":0},{"first":34,"second":962,"amount":-1},{"first":34,"second":959,"amount":-1},{"first":34,"second":945,"amount":-1},{"first":34,"second":963,"amount":-1},{"first":34,"second":951,"amount":0},{"first":34,"second":913,"amount":-2},{"first":34,"second":916,"amount":-2},{"first":34,"second":923,"amount":-2},{"first":34,"second":229,"amount":-1},{"first":34,"second":197,"amount":-2},{"first":39,"second":97,"amount":-1},{"first":39,"second":101,"amount":-1},{"first":39,"second":111,"amount":-1},{"first":39,"second":112,"amount":0},{"first":39,"second":113,"amount":-1},{"first":39,"second":115,"amount":-2},{"first":39,"second":100,"amount":-1},{"first":39,"second":103,"amount":-1},{"first":39,"second":109,"amount":0},{"first":39,"second":119,"amount":0},{"first":39,"second":99,"amount":-1},{"first":39,"second":110,"amount":0},{"first":39,"second":65,"amount":-2},{"first":39,"second":34,"amount":-2},{"first":39,"second":39,"amount":-2},{"first":39,"second":1040,"amount":-2},{"first":39,"second":1072,"amount":-1},{"first":39,"second":1075,"amount":0},{"first":39,"second":1077,"amount":-1},{"first":39,"second":1105,"amount":-1},{"first":39,"second":1080,"amount":0},{"first":39,"second":1081,"amount":0},{"first":39,"second":1082,"amount":0},{"first":39,"second":1084,"amount":0},{"first":39,"second":1085,"amount":0},{"first":39,"second":1086,"amount":-1},{"first":39,"second":1087,"amount":0},{"first":39,"second":1088,"amount":0},{"first":39,"second":1089,"amount":-1},{"first":39,"second":1092,"amount":-1},{"first":39,"second":1094,"amount":0},{"first":39,"second":1096,"amount":0},{"first":39,"second":1097,"amount":0},{"first":39,"second":1100,"amount":0},{"first":39,"second":1102,"amount":0},{"first":39,"second":246,"amount":-1},{"first":39,"second":228,"amount":-1},{"first":39,"second":196,"amount":-2},{"first":39,"second":241,"amount":0},{"first":39,"second":962,"amount":-1},{"first":39,"second":959,"amount":-1},{"first":39,"second":945,"amount":-1},{"first":39,"second":963,"amount":-1},{"first":39,"second":951,"amount":0},{"first":39,"second":913,"amount":-2},{"first":39,"second":916,"amount":-2},{"first":39,"second":923,"amount":-2},{"first":39,"second":229,"amount":-1},{"first":39,"second":197,"amount":-2},{"first":1040,"second":122,"amount":0},{"first":1040,"second":116,"amount":0},{"first":1040,"second":121,"amount":-1},{"first":1040,"second":117,"amount":0},{"first":1040,"second":111,"amount":0},{"first":1040,"second":119,"amount":-1},{"first":1040,"second":118,"amount":-1},{"first":1040,"second":84,"amount":-3},{"first":1040,"second":89,"amount":-2},{"first":1040,"second":85,"amount":0},{"first":1040,"second":79,"amount":0},{"first":1040,"second":81,"amount":0},{"first":1040,"second":71,"amount":0},{"first":1040,"second":87,"amount":-1},{"first":1040,"second":67,"amount":0},{"first":1040,"second":86,"amount":-2},{"first":1040,"second":63,"amount":-1},{"first":1040,"second":34,"amount":-2},{"first":1040,"second":39,"amount":-2},{"first":1040,"second":1044,"amount":0},{"first":1040,"second":1051,"amount":0},{"first":1040,"second":1083,"amount":0},{"first":1040,"second":1054,"amount":0},{"first":1040,"second":1086,"amount":0},{"first":1040,"second":1057,"amount":0},{"first":1040,"second":1058,"amount":-3},{"first":1040,"second":1090,"amount":-1},{"first":1040,"second":1091,"amount":-1},{"first":1040,"second":1063,"amount":-1},{"first":1040,"second":1095,"amount":-2},{"first":1040,"second":1068,"amount":-1},{"first":1040,"second":252,"amount":0},{"first":1040,"second":220,"amount":0},{"first":1040,"second":246,"amount":0},{"first":1040,"second":214,"amount":0},{"first":1040,"second":964,"amount":-1},{"first":1040,"second":965,"amount":0},{"first":1040,"second":959,"amount":0},{"first":1040,"second":947,"amount":-1},{"first":1040,"second":955,"amount":0},{"first":1040,"second":957,"amount":-1},{"first":1040,"second":933,"amount":-2},{"first":1040,"second":920,"amount":0},{"first":1040,"second":927,"amount":0},{"first":1040,"second":934,"amount":-1},{"first":1040,"second":936,"amount":-1},{"first":1040,"second":216,"amount":0},{"first":1072,"second":121,"amount":0},{"first":1072,"second":118,"amount":0},{"first":1072,"second":34,"amount":-1},{"first":1072,"second":39,"amount":-1},{"first":1072,"second":1090,"amount":0},{"first":1072,"second":1091,"amount":0},{"first":1072,"second":947,"amount":0},{"first":1072,"second":957,"amount":0},{"first":1041,"second":120,"amount":0},{"first":1041,"second":84,"amount":-1},{"first":1041,"second":89,"amount":-1},{"first":1041,"second":88,"amount":0},{"first":1041,"second":86,"amount":-1},{"first":1041,"second":1046,"amount":0},{"first":1041,"second":1078,"amount":0},{"first":1041,"second":1058,"amount":-1},{"first":1041,"second":1090,"amount":-1},{"first":1041,"second":1059,"amount":0},{"first":1041,"second":1061,"amount":0},{"first":1041,"second":1093,"amount":0},{"first":1041,"second":1063,"amount":0},{"first":1041,"second":1068,"amount":-1},{"first":1041,"second":933,"amount":-1},{"first":1041,"second":935,"amount":0},{"first":1073,"second":112,"amount":0},{"first":1073,"second":109,"amount":0},{"first":1073,"second":120,"amount":0},{"first":1073,"second":110,"amount":0},{"first":1073,"second":1075,"amount":0},{"first":1073,"second":1076,"amount":0},{"first":1073,"second":1078,"amount":0},{"first":1073,"second":1080,"amount":0},{"first":1073,"second":1081,"amount":0},{"first":1073,"second":1082,"amount":0},{"first":1073,"second":1084,"amount":0},{"first":1073,"second":1085,"amount":0},{"first":1073,"second":1087,"amount":0},{"first":1073,"second":1088,"amount":0},{"first":1073,"second":1090,"amount":0},{"first":1073,"second":1093,"amount":0},{"first":1073,"second":1094,"amount":0},{"first":1073,"second":1096,"amount":0},{"first":1073,"second":1097,"amount":0},{"first":1073,"second":1100,"amount":0},{"first":1073,"second":1102,"amount":0},{"first":1073,"second":241,"amount":0},{"first":1073,"second":951,"amount":0},{"first":1042,"second":84,"amount":-1},{"first":1042,"second":89,"amount":-1},{"first":1042,"second":86,"amount":0},{"first":1042,"second":1058,"amount":-1},{"first":1042,"second":1059,"amount":0},{"first":1042,"second":933,"amount":-1},{"first":1074,"second":121,"amount":0},{"first":1074,"second":118,"amount":0},{"first":1074,"second":34,"amount":0},{"first":1074,"second":39,"amount":0},{"first":1074,"second":1090,"amount":0},{"first":1074,"second":1091,"amount":0},{"first":1074,"second":947,"amount":0},{"first":1074,"second":957,"amount":0},{"first":1043,"second":97,"amount":-4},{"first":1043,"second":122,"amount":-3},{"first":1043,"second":101,"amount":-4},{"first":1043,"second":114,"amount":-3},{"first":1043,"second":121,"amount":-3},{"first":1043,"second":117,"amount":-4},{"first":1043,"second":111,"amount":-4},{"first":1043,"second":112,"amount":-4},{"first":1043,"second":113,"amount":-4},{"first":1043,"second":115,"amount":-4},{"first":1043,"second":100,"amount":-4},{"first":1043,"second":103,"amount":-4},{"first":1043,"second":109,"amount":-4},{"first":1043,"second":119,"amount":-2},{"first":1043,"second":120,"amount":-3},{"first":1043,"second":99,"amount":-4},{"first":1043,"second":118,"amount":-3},{"first":1043,"second":110,"amount":-4},{"first":1043,"second":65,"amount":-4},{"first":1043,"second":84,"amount":0},{"first":1043,"second":89,"amount":0},{"first":1043,"second":79,"amount":-1},{"first":1043,"second":81,"amount":-1},{"first":1043,"second":83,"amount":-1},{"first":1043,"second":71,"amount":-1},{"first":1043,"second":87,"amount":0},{"first":1043,"second":67,"amount":-1},{"first":1043,"second":86,"amount":0},{"first":1043,"second":45,"amount":-8},{"first":1043,"second":8211,"amount":-8},{"first":1043,"second":44,"amount":-8},{"first":1043,"second":46,"amount":-8},{"first":1043,"second":1040,"amount":-4},{"first":1043,"second":1072,"amount":-4},{"first":1043,"second":1073,"amount":-1},{"first":1043,"second":1074,"amount":-4},{"first":1043,"second":1075,"amount":-4},{"first":1043,"second":1044,"amount":-4},{"first":1043,"second":1076,"amount":-5},{"first":1043,"second":1077,"amount":-4},{"first":1043,"second":1105,"amount":-4},{"first":1043,"second":1078,"amount":-3},{"first":1043,"second":1079,"amount":-5},{"first":1043,"second":1080,"amount":-4},{"first":1043,"second":1081,"amount":-4},{"first":1043,"second":1082,"amount":-4},{"first":1043,"second":1051,"amount":-2},{"first":1043,"second":1083,"amount":-5},{"first":1043,"second":1084,"amount":-4},{"first":1043,"second":1085,"amount":-4},{"first":1043,"second":1054,"amount":-1},{"first":1043,"second":1086,"amount":-4},{"first":1043,"second":1087,"amount":-4},{"first":1043,"second":1088,"amount":-4},{"first":1043,"second":1057,"amount":-1},{"first":1043,"second":1089,"amount":-4},{"first":1043,"second":1058,"amount":0},{"first":1043,"second":1090,"amount":-3},{"first":1043,"second":1091,"amount":-3},{"first":1043,"second":1092,"amount":-4},{"first":1043,"second":1093,"amount":-3},{"first":1043,"second":1094,"amount":-4},{"first":1043,"second":1095,"amount":-5},{"first":1043,"second":1096,"amount":-4},{"first":1043,"second":1097,"amount":-4},{"first":1043,"second":1099,"amount":-5},{"first":1043,"second":1068,"amount":0},{"first":1043,"second":1100,"amount":-4},{"first":1043,"second":1101,"amount":-5},{"first":1043,"second":1102,"amount":-4},{"first":1043,"second":1103,"amount":-5},{"first":1043,"second":252,"amount":-4},{"first":1043,"second":246,"amount":-4},{"first":1043,"second":214,"amount":-1},{"first":1043,"second":228,"amount":-4},{"first":1043,"second":196,"amount":-4},{"first":1043,"second":241,"amount":-4},{"first":1043,"second":962,"amount":-4},{"first":1043,"second":949,"amount":-5},{"first":1043,"second":961,"amount":-6},{"first":1043,"second":964,"amount":-4},{"first":1043,"second":965,"amount":-4},{"first":1043,"second":953,"amount":-6},{"first":1043,"second":959,"amount":-4},{"first":1043,"second":960,"amount":-5},{"first":1043,"second":945,"amount":-4},{"first":1043,"second":963,"amount":-4},{"first":1043,"second":948,"amount":-2},{"first":1043,"second":966,"amount":-6},{"first":1043,"second":947,"amount":-3},{"first":1043,"second":951,"amount":-4},{"first":1043,"second":968,"amount":-5},{"first":1043,"second":969,"amount":-6},{"first":1043,"second":957,"amount":-3},{"first":1043,"second":933,"amount":0},{"first":1043,"second":920,"amount":-1},{"first":1043,"second":927,"amount":-1},{"first":1043,"second":913,"amount":-4},{"first":1043,"second":916,"amount":-4},{"first":1043,"second":934,"amount":-3},{"first":1043,"second":923,"amount":-4},{"first":1043,"second":229,"amount":-4},{"first":1043,"second":197,"amount":-4},{"first":1043,"second":230,"amount":-4},{"first":1043,"second":198,"amount":-7},{"first":1043,"second":248,"amount":-4},{"first":1043,"second":216,"amount":-1},{"first":1075,"second":101,"amount":0},{"first":1075,"second":111,"amount":0},{"first":1075,"second":113,"amount":0},{"first":1075,"second":100,"amount":0},{"first":1075,"second":103,"amount":0},{"first":1075,"second":99,"amount":0},{"first":1075,"second":1076,"amount":-1},{"first":1075,"second":1077,"amount":0},{"first":1075,"second":1105,"amount":0},{"first":1075,"second":1083,"amount":-1},{"first":1075,"second":1086,"amount":0},{"first":1075,"second":1089,"amount":0},{"first":1075,"second":1092,"amount":0},{"first":1075,"second":246,"amount":0},{"first":1075,"second":962,"amount":0},{"first":1075,"second":959,"amount":0},{"first":1075,"second":945,"amount":0},{"first":1075,"second":963,"amount":0},{"first":1044,"second":65,"amount":0},{"first":1044,"second":84,"amount":-1},{"first":1044,"second":89,"amount":-1},{"first":1044,"second":79,"amount":0},{"first":1044,"second":81,"amount":0},{"first":1044,"second":71,"amount":0},{"first":1044,"second":67,"amount":0},{"first":1044,"second":86,"amount":-1},{"first":1044,"second":1040,"amount":0},{"first":1044,"second":1044,"amount":0},{"first":1044,"second":1076,"amount":0},{"first":1044,"second":1051,"amount":0},{"first":1044,"second":1083,"amount":0},{"first":1044,"second":1054,"amount":0},{"first":1044,"second":1057,"amount":0},{"first":1044,"second":1058,"amount":-1},{"first":1044,"second":1063,"amount":-1},{"first":1044,"second":1095,"amount":-1},{"first":1044,"second":1068,"amount":-1},{"first":1044,"second":214,"amount":0},{"first":1044,"second":196,"amount":0},{"first":1044,"second":933,"amount":-1},{"first":1044,"second":920,"amount":0},{"first":1044,"second":927,"amount":0},{"first":1044,"second":913,"amount":0},{"first":1044,"second":916,"amount":0},{"first":1044,"second":923,"amount":0},{"first":1044,"second":197,"amount":0},{"first":1044,"second":216,"amount":0},{"first":1076,"second":1076,"amount":0},{"first":1076,"second":1090,"amount":0},{"first":1076,"second":1095,"amount":0},{"first":1076,"second":1098,"amount":-1},{"first":1045,"second":101,"amount":0},{"first":1045,"second":121,"amount":-1},{"first":1045,"second":117,"amount":0},{"first":1045,"second":111,"amount":0},{"first":1045,"second":113,"amount":0},{"first":1045,"second":100,"amount":0},{"first":1045,"second":102,"amount":0},{"first":1045,"second":103,"amount":0},{"first":1045,"second":119,"amount":0},{"first":1045,"second":99,"amount":0},{"first":1045,"second":118,"amount":-1},{"first":1045,"second":84,"amount":0},{"first":1045,"second":1077,"amount":0},{"first":1045,"second":1105,"amount":0},{"first":1045,"second":1086,"amount":0},{"first":1045,"second":1089,"amount":0},{"first":1045,"second":1058,"amount":0},{"first":1045,"second":1091,"amount":-1},{"first":1045,"second":1092,"amount":0},{"first":1045,"second":252,"amount":0},{"first":1045,"second":246,"amount":0},{"first":1045,"second":962,"amount":0},{"first":1045,"second":965,"amount":0},{"first":1045,"second":959,"amount":0},{"first":1045,"second":945,"amount":0},{"first":1045,"second":963,"amount":0},{"first":1045,"second":947,"amount":-1},{"first":1045,"second":957,"amount":-1},{"first":1077,"second":121,"amount":0},{"first":1077,"second":118,"amount":0},{"first":1077,"second":34,"amount":0},{"first":1077,"second":39,"amount":0},{"first":1077,"second":1090,"amount":0},{"first":1077,"second":1091,"amount":0},{"first":1077,"second":947,"amount":0},{"first":1077,"second":957,"amount":0},{"first":1025,"second":101,"amount":0},{"first":1025,"second":121,"amount":-1},{"first":1025,"second":117,"amount":0},{"first":1025,"second":111,"amount":0},{"first":1025,"second":113,"amount":0},{"first":1025,"second":100,"amount":0},{"first":1025,"second":102,"amount":0},{"first":1025,"second":103,"amount":0},{"first":1025,"second":119,"amount":0},{"first":1025,"second":99,"amount":0},{"first":1025,"second":118,"amount":-1},{"first":1025,"second":84,"amount":0},{"first":1025,"second":1077,"amount":0},{"first":1025,"second":1105,"amount":0},{"first":1025,"second":1086,"amount":0},{"first":1025,"second":1089,"amount":0},{"first":1025,"second":1058,"amount":0},{"first":1025,"second":1091,"amount":-1},{"first":1025,"second":1092,"amount":0},{"first":1025,"second":252,"amount":0},{"first":1025,"second":246,"amount":0},{"first":1025,"second":962,"amount":0},{"first":1025,"second":965,"amount":0},{"first":1025,"second":959,"amount":0},{"first":1025,"second":945,"amount":0},{"first":1025,"second":963,"amount":0},{"first":1025,"second":947,"amount":-1},{"first":1025,"second":957,"amount":-1},{"first":1105,"second":121,"amount":0},{"first":1105,"second":118,"amount":0},{"first":1105,"second":34,"amount":0},{"first":1105,"second":39,"amount":0},{"first":1105,"second":1090,"amount":0},{"first":1105,"second":1091,"amount":0},{"first":1105,"second":947,"amount":0},{"first":1105,"second":957,"amount":0},{"first":1046,"second":101,"amount":-1},{"first":1046,"second":121,"amount":-1},{"first":1046,"second":117,"amount":0},{"first":1046,"second":111,"amount":0},{"first":1046,"second":113,"amount":-1},{"first":1046,"second":100,"amount":-1},{"first":1046,"second":103,"amount":-1},{"first":1046,"second":99,"amount":-1},{"first":1046,"second":118,"amount":-1},{"first":1046,"second":79,"amount":-1},{"first":1046,"second":81,"amount":-1},{"first":1046,"second":71,"amount":-1},{"first":1046,"second":67,"amount":-1},{"first":1046,"second":86,"amount":0},{"first":1046,"second":45,"amount":-1},{"first":1046,"second":8211,"amount":-1},{"first":1046,"second":1073,"amount":0},{"first":1046,"second":1044,"amount":0},{"first":1046,"second":1077,"amount":-1},{"first":1046,"second":1105,"amount":-1},{"first":1046,"second":1051,"amount":0},{"first":1046,"second":1083,"amount":0},{"first":1046,"second":1054,"amount":-1},{"first":1046,"second":1086,"amount":0},{"first":1046,"second":1057,"amount":-1},{"first":1046,"second":1089,"amount":-1},{"first":1046,"second":1090,"amount":-1},{"first":1046,"second":1091,"amount":-1},{"first":1046,"second":1092,"amount":-1},{"first":1046,"second":1095,"amount":-1},{"first":1046,"second":252,"amount":0},{"first":1046,"second":246,"amount":0},{"first":1046,"second":214,"amount":-1},{"first":1046,"second":962,"amount":-1},{"first":1046,"second":964,"amount":-1},{"first":1046,"second":965,"amount":0},{"first":1046,"second":952,"amount":0},{"first":1046,"second":959,"amount":0},{"first":1046,"second":945,"amount":-1},{"first":1046,"second":963,"amount":-1},{"first":1046,"second":948,"amount":0},{"first":1046,"second":966,"amount":-1},{"first":1046,"second":947,"amount":-1},{"first":1046,"second":955,"amount":0},{"first":1046,"second":968,"amount":-1},{"first":1046,"second":969,"amount":0},{"first":1046,"second":957,"amount":-1},{"first":1046,"second":920,"amount":-1},{"first":1046,"second":927,"amount":-1},{"first":1046,"second":934,"amount":-1},{"first":1046,"second":216,"amount":-1},{"first":1078,"second":101,"amount":0},{"first":1078,"second":111,"amount":0},{"first":1078,"second":113,"amount":0},{"first":1078,"second":100,"amount":0},{"first":1078,"second":103,"amount":0},{"first":1078,"second":99,"amount":0},{"first":1078,"second":1077,"amount":0},{"first":1078,"second":1105,"amount":0},{"first":1078,"second":1086,"amount":0},{"first":1078,"second":1089,"amount":0},{"first":1078,"second":1092,"amount":0},{"first":1078,"second":246,"amount":0},{"first":1078,"second":962,"amount":0},{"first":1078,"second":959,"amount":0},{"first":1078,"second":945,"amount":0},{"first":1078,"second":963,"amount":0},{"first":1047,"second":84,"amount":0},{"first":1047,"second":89,"amount":0},{"first":1047,"second":88,"amount":0},{"first":1047,"second":86,"amount":0},{"first":1047,"second":55,"amount":0},{"first":1047,"second":1046,"amount":0},{"first":1047,"second":1051,"amount":0},{"first":1047,"second":1058,"amount":0},{"first":1047,"second":1059,"amount":0},{"first":1047,"second":1061,"amount":0},{"first":1047,"second":1068,"amount":0},{"first":1047,"second":933,"amount":0},{"first":1047,"second":935,"amount":0},{"first":1079,"second":34,"amount":0},{"first":1079,"second":39,"amount":0},{"first":1048,"second":65,"amount":0},{"first":1048,"second":84,"amount":-1},{"first":1048,"second":89,"amount":-1},{"first":1048,"second":88,"amount":0},{"first":1048,"second":1040,"amount":0},{"first":1048,"second":1044,"amount":0},{"first":1048,"second":1076,"amount":0},{"first":1048,"second":1046,"amount":0},{"first":1048,"second":1051,"amount":0},{"first":1048,"second":1083,"amount":0},{"first":1048,"second":1058,"amount":-1},{"first":1048,"second":1061,"amount":0},{"first":1048,"second":1063,"amount":-1},{"first":1048,"second":1095,"amount":-1},{"first":1048,"second":196,"amount":0},{"first":1048,"second":933,"amount":-1},{"first":1048,"second":913,"amount":0},{"first":1048,"second":916,"amount":0},{"first":1048,"second":923,"amount":0},{"first":1048,"second":935,"amount":0},{"first":1048,"second":197,"amount":0},{"first":1050,"second":101,"amount":-1},{"first":1050,"second":121,"amount":-1},{"first":1050,"second":117,"amount":0},{"first":1050,"second":111,"amount":-1},{"first":1050,"second":112,"amount":0},{"first":1050,"second":113,"amount":-1},{"first":1050,"second":100,"amount":-1},{"first":1050,"second":103,"amount":-1},{"first":1050,"second":109,"amount":0},{"first":1050,"second":119,"amount":-1},{"first":1050,"second":99,"amount":-1},{"first":1050,"second":118,"amount":-1},{"first":1050,"second":110,"amount":0},{"first":1050,"second":79,"amount":-1},{"first":1050,"second":81,"amount":-1},{"first":1050,"second":71,"amount":-1},{"first":1050,"second":67,"amount":-1},{"first":1050,"second":45,"amount":-1},{"first":1050,"second":8211,"amount":-1},{"first":1050,"second":1073,"amount":-1},{"first":1050,"second":1075,"amount":0},{"first":1050,"second":1077,"amount":-1},{"first":1050,"second":1105,"amount":-1},{"first":1050,"second":1080,"amount":0},{"first":1050,"second":1081,"amount":0},{"first":1050,"second":1082,"amount":0},{"first":1050,"second":1084,"amount":0},{"first":1050,"second":1085,"amount":0},{"first":1050,"second":1054,"amount":-1},{"first":1050,"second":1086,"amount":-1},{"first":1050,"second":1087,"amount":0},{"first":1050,"second":1088,"amount":0},{"first":1050,"second":1057,"amount":-1},{"first":1050,"second":1089,"amount":-1},{"first":1050,"second":1090,"amount":-1},{"first":1050,"second":1091,"amount":-1},{"first":1050,"second":1092,"amount":-1},{"first":1050,"second":1094,"amount":0},{"first":1050,"second":1095,"amount":-2},{"first":1050,"second":1096,"amount":0},{"first":1050,"second":1097,"amount":0},{"first":1050,"second":1100,"amount":0},{"first":1050,"second":1102,"amount":0},{"first":1050,"second":252,"amount":0},{"first":1050,"second":246,"amount":-1},{"first":1050,"second":214,"amount":-1},{"first":1050,"second":241,"amount":0},{"first":1050,"second":962,"amount":-1},{"first":1050,"second":964,"amount":-2},{"first":1050,"second":965,"amount":0},{"first":1050,"second":959,"amount":-1},{"first":1050,"second":945,"amount":-1},{"first":1050,"second":963,"amount":-1},{"first":1050,"second":947,"amount":-1},{"first":1050,"second":951,"amount":0},{"first":1050,"second":957,"amount":-1},{"first":1050,"second":920,"amount":-1},{"first":1050,"second":927,"amount":-1},{"first":1050,"second":934,"amount":-1},{"first":1050,"second":216,"amount":-1},{"first":1082,"second":101,"amount":0},{"first":1082,"second":111,"amount":0},{"first":1082,"second":113,"amount":0},{"first":1082,"second":100,"amount":0},{"first":1082,"second":103,"amount":0},{"first":1082,"second":99,"amount":0},{"first":1082,"second":1077,"amount":0},{"first":1082,"second":1105,"amount":0},{"first":1082,"second":1086,"amount":0},{"first":1082,"second":1089,"amount":0},{"first":1082,"second":1092,"amount":0},{"first":1082,"second":246,"amount":0},{"first":1082,"second":962,"amount":0},{"first":1082,"second":959,"amount":0},{"first":1082,"second":945,"amount":0},{"first":1082,"second":963,"amount":0},{"first":1051,"second":65,"amount":0},{"first":1051,"second":84,"amount":-1},{"first":1051,"second":89,"amount":-1},{"first":1051,"second":88,"amount":0},{"first":1051,"second":1040,"amount":0},{"first":1051,"second":1044,"amount":0},{"first":1051,"second":1076,"amount":0},{"first":1051,"second":1046,"amount":0},{"first":1051,"second":1051,"amount":0},{"first":1051,"second":1083,"amount":0},{"first":1051,"second":1058,"amount":-1},{"first":1051,"second":1061,"amount":0},{"first":1051,"second":1063,"amount":-1},{"first":1051,"second":1095,"amount":-1},{"first":1051,"second":196,"amount":0},{"first":1051,"second":933,"amount":-1},{"first":1051,"second":913,"amount":0},{"first":1051,"second":916,"amount":0},{"first":1051,"second":923,"amount":0},{"first":1051,"second":935,"amount":0},{"first":1051,"second":197,"amount":0},{"first":1052,"second":65,"amount":0},{"first":1052,"second":84,"amount":-1},{"first":1052,"second":89,"amount":-1},{"first":1052,"second":88,"amount":0},{"first":1052,"second":1040,"amount":0},{"first":1052,"second":1044,"amount":0},{"first":1052,"second":1076,"amount":0},{"first":1052,"second":1046,"amount":0},{"first":1052,"second":1051,"amount":0},{"first":1052,"second":1083,"amount":0},{"first":1052,"second":1058,"amount":-1},{"first":1052,"second":1061,"amount":0},{"first":1052,"second":1063,"amount":-1},{"first":1052,"second":1095,"amount":-1},{"first":1052,"second":196,"amount":0},{"first":1052,"second":933,"amount":-1},{"first":1052,"second":913,"amount":0},{"first":1052,"second":916,"amount":0},{"first":1052,"second":923,"amount":0},{"first":1052,"second":935,"amount":0},{"first":1052,"second":197,"amount":0},{"first":1053,"second":65,"amount":0},{"first":1053,"second":84,"amount":-1},{"first":1053,"second":89,"amount":-1},{"first":1053,"second":88,"amount":0},{"first":1053,"second":1040,"amount":0},{"first":1053,"second":1044,"amount":0},{"first":1053,"second":1076,"amount":0},{"first":1053,"second":1046,"amount":0},{"first":1053,"second":1051,"amount":0},{"first":1053,"second":1083,"amount":0},{"first":1053,"second":1058,"amount":-1},{"first":1053,"second":1061,"amount":0},{"first":1053,"second":1063,"amount":-1},{"first":1053,"second":1095,"amount":-1},{"first":1053,"second":196,"amount":0},{"first":1053,"second":933,"amount":-1},{"first":1053,"second":913,"amount":0},{"first":1053,"second":916,"amount":0},{"first":1053,"second":923,"amount":0},{"first":1053,"second":935,"amount":0},{"first":1053,"second":197,"amount":0},{"first":1054,"second":65,"amount":0},{"first":1054,"second":90,"amount":0},{"first":1054,"second":84,"amount":-1},{"first":1054,"second":89,"amount":-1},{"first":1054,"second":88,"amount":0},{"first":1054,"second":86,"amount":0},{"first":1054,"second":44,"amount":-2},{"first":1054,"second":46,"amount":-2},{"first":1054,"second":1040,"amount":0},{"first":1054,"second":1044,"amount":-1},{"first":1054,"second":1046,"amount":0},{"first":1054,"second":1051,"amount":-1},{"first":1054,"second":1058,"amount":-1},{"first":1054,"second":1061,"amount":0},{"first":1054,"second":1068,"amount":-1},{"first":1054,"second":196,"amount":0},{"first":1054,"second":955,"amount":0},{"first":1054,"second":933,"amount":-1},{"first":1054,"second":913,"amount":0},{"first":1054,"second":931,"amount":0},{"first":1054,"second":916,"amount":0},{"first":1054,"second":926,"amount":0},{"first":1054,"second":923,"amount":0},{"first":1054,"second":918,"amount":0},{"first":1054,"second":935,"amount":0},{"first":1054,"second":197,"amount":0},{"first":1054,"second":198,"amount":-1},{"first":1086,"second":122,"amount":0},{"first":1086,"second":121,"amount":0},{"first":1086,"second":120,"amount":0},{"first":1086,"second":118,"amount":0},{"first":1086,"second":34,"amount":-3},{"first":1086,"second":39,"amount":-3},{"first":1086,"second":1076,"amount":-1},{"first":1086,"second":1078,"amount":0},{"first":1086,"second":1083,"amount":0},{"first":1086,"second":1090,"amount":0},{"first":1086,"second":1091,"amount":0},{"first":1086,"second":1093,"amount":0},{"first":1086,"second":964,"amount":0},{"first":1086,"second":947,"amount":0},{"first":1086,"second":957,"amount":0},{"first":1056,"second":97,"amount":0},{"first":1056,"second":101,"amount":0},{"first":1056,"second":116,"amount":0},{"first":1056,"second":121,"amount":0},{"first":1056,"second":111,"amount":0},{"first":1056,"second":113,"amount":0},{"first":1056,"second":100,"amount":0},{"first":1056,"second":103,"amount":0},{"first":1056,"second":99,"amount":0},{"first":1056,"second":118,"amount":0},{"first":1056,"second":65,"amount":-3},{"first":1056,"second":90,"amount":-1},{"first":1056,"second":74,"amount":-4},{"first":1056,"second":88,"amount":-1},{"first":1056,"second":44,"amount":-7},{"first":1056,"second":46,"amount":-7},{"first":1056,"second":1040,"amount":-3},{"first":1056,"second":1072,"amount":0},{"first":1056,"second":1044,"amount":-2},{"first":1056,"second":1076,"amount":-1},{"first":1056,"second":1077,"amount":0},{"first":1056,"second":1105,"amount":0},{"first":1056,"second":1046,"amount":-1},{"first":1056,"second":1051,"amount":-1},{"first":1056,"second":1083,"amount":-1},{"first":1056,"second":1086,"amount":0},{"first":1056,"second":1089,"amount":0},{"first":1056,"second":1091,"amount":0},{"first":1056,"second":1092,"amount":0},{"first":1056,"second":1061,"amount":-1},{"first":1056,"second":246,"amount":0},{"first":1056,"second":228,"amount":0},{"first":1056,"second":196,"amount":-3},{"first":1056,"second":962,"amount":0},{"first":1056,"second":961,"amount":-1},{"first":1056,"second":959,"amount":0},{"first":1056,"second":945,"amount":0},{"first":1056,"second":963,"amount":0},{"first":1056,"second":948,"amount":0},{"first":1056,"second":947,"amount":0},{"first":1056,"second":955,"amount":-1},{"first":1056,"second":957,"amount":0},{"first":1056,"second":913,"amount":-3},{"first":1056,"second":916,"amount":-3},{"first":1056,"second":923,"amount":-3},{"first":1056,"second":918,"amount":-1},{"first":1056,"second":935,"amount":-1},{"first":1056,"second":229,"amount":0},{"first":1056,"second":197,"amount":-3},{"first":1056,"second":198,"amount":-2},{"first":1088,"second":122,"amount":0},{"first":1088,"second":121,"amount":0},{"first":1088,"second":120,"amount":0},{"first":1088,"second":118,"amount":0},{"first":1088,"second":34,"amount":-1},{"first":1088,"second":39,"amount":-1},{"first":1088,"second":1076,"amount":0},{"first":1088,"second":1078,"amount":0},{"first":1088,"second":1083,"amount":0},{"first":1088,"second":1090,"amount":-2},{"first":1088,"second":1091,"amount":0},{"first":1088,"second":1093,"amount":0},{"first":1088,"second":964,"amount":0},{"first":1088,"second":947,"amount":0},{"first":1088,"second":957,"amount":0},{"first":1057,"second":84,"amount":-1},{"first":1057,"second":125,"amount":0},{"first":1057,"second":41,"amount":-1},{"first":1057,"second":93,"amount":0},{"first":1057,"second":1058,"amount":-1},{"first":1089,"second":34,"amount":0},{"first":1089,"second":39,"amount":0},{"first":1058,"second":97,"amount":-2},{"first":1058,"second":122,"amount":-1},{"first":1058,"second":101,"amount":-2},{"first":1058,"second":114,"amount":-2},{"first":1058,"second":121,"amount":-1},{"first":1058,"second":117,"amount":-2},{"first":1058,"second":111,"amount":-2},{"first":1058,"second":112,"amount":-2},{"first":1058,"second":113,"amount":-2},{"first":1058,"second":115,"amount":-2},{"first":1058,"second":100,"amount":-2},{"first":1058,"second":103,"amount":-2},{"first":1058,"second":109,"amount":-2},{"first":1058,"second":119,"amount":-1},{"first":1058,"second":120,"amount":-2},{"first":1058,"second":99,"amount":-2},{"first":1058,"second":118,"amount":-1},{"first":1058,"second":110,"amount":-2},{"first":1058,"second":65,"amount":-2},{"first":1058,"second":84,"amount":0},{"first":1058,"second":89,"amount":0},{"first":1058,"second":79,"amount":-1},{"first":1058,"second":81,"amount":-1},{"first":1058,"second":83,"amount":0},{"first":1058,"second":71,"amount":-1},{"first":1058,"second":74,"amount":-5},{"first":1058,"second":87,"amount":0},{"first":1058,"second":67,"amount":-1},{"first":1058,"second":86,"amount":0},{"first":1058,"second":45,"amount":-5},{"first":1058,"second":8211,"amount":-5},{"first":1058,"second":44,"amount":-4},{"first":1058,"second":46,"amount":-4},{"first":1058,"second":1040,"amount":-2},{"first":1058,"second":1072,"amount":-2},{"first":1058,"second":1073,"amount":-1},{"first":1058,"second":1074,"amount":-2},{"first":1058,"second":1075,"amount":-2},{"first":1058,"second":1044,"amount":-2},{"first":1058,"second":1076,"amount":-3},{"first":1058,"second":1077,"amount":-2},{"first":1058,"second":1105,"amount":-2},{"first":1058,"second":1078,"amount":-2},{"first":1058,"second":1079,"amount":-3},{"first":1058,"second":1080,"amount":-2},{"first":1058,"second":1081,"amount":-2},{"first":1058,"second":1082,"amount":-2},{"first":1058,"second":1051,"amount":-1},{"first":1058,"second":1083,"amount":-3},{"first":1058,"second":1084,"amount":-2},{"first":1058,"second":1085,"amount":-2},{"first":1058,"second":1054,"amount":-1},{"first":1058,"second":1086,"amount":-2},{"first":1058,"second":1087,"amount":-2},{"first":1058,"second":1088,"amount":-2},{"first":1058,"second":1057,"amount":-1},{"first":1058,"second":1089,"amount":-2},{"first":1058,"second":1058,"amount":0},{"first":1058,"second":1090,"amount":-2},{"first":1058,"second":1091,"amount":-1},{"first":1058,"second":1092,"amount":-2},{"first":1058,"second":1093,"amount":-2},{"first":1058,"second":1094,"amount":-2},{"first":1058,"second":1095,"amount":-3},{"first":1058,"second":1096,"amount":-2},{"first":1058,"second":1097,"amount":-2},{"first":1058,"second":1099,"amount":-3},{"first":1058,"second":1068,"amount":0},{"first":1058,"second":1100,"amount":-2},{"first":1058,"second":1101,"amount":-3},{"first":1058,"second":1102,"amount":-2},{"first":1058,"second":1103,"amount":-3},{"first":1058,"second":252,"amount":-2},{"first":1058,"second":246,"amount":-2},{"first":1058,"second":214,"amount":-1},{"first":1058,"second":228,"amount":-2},{"first":1058,"second":196,"amount":-2},{"first":1058,"second":241,"amount":-2},{"first":1058,"second":962,"amount":-2},{"first":1058,"second":949,"amount":-3},{"first":1058,"second":961,"amount":-3},{"first":1058,"second":964,"amount":-2},{"first":1058,"second":965,"amount":-2},{"first":1058,"second":953,"amount":-3},{"first":1058,"second":959,"amount":-2},{"first":1058,"second":960,"amount":-2},{"first":1058,"second":945,"amount":-2},{"first":1058,"second":963,"amount":-2},{"first":1058,"second":948,"amount":-1},{"first":1058,"second":966,"amount":-3},{"first":1058,"second":947,"amount":-1},{"first":1058,"second":951,"amount":-2},{"first":1058,"second":968,"amount":-3},{"first":1058,"second":969,"amount":-3},{"first":1058,"second":957,"amount":-1},{"first":1058,"second":933,"amount":0},{"first":1058,"second":920,"amount":-1},{"first":1058,"second":927,"amount":-1},{"first":1058,"second":913,"amount":-2},{"first":1058,"second":916,"amount":-2},{"first":1058,"second":934,"amount":-2},{"first":1058,"second":923,"amount":-2},{"first":1058,"second":229,"amount":-2},{"first":1058,"second":197,"amount":-2},{"first":1058,"second":230,"amount":-2},{"first":1058,"second":198,"amount":-4},{"first":1058,"second":248,"amount":-2},{"first":1058,"second":216,"amount":-1},{"first":1090,"second":97,"amount":0},{"first":1090,"second":101,"amount":-2},{"first":1090,"second":121,"amount":0},{"first":1090,"second":111,"amount":-1},{"first":1090,"second":113,"amount":-2},{"first":1090,"second":100,"amount":-2},{"first":1090,"second":102,"amount":0},{"first":1090,"second":103,"amount":-2},{"first":1090,"second":99,"amount":-2},{"first":1090,"second":118,"amount":0},{"first":1090,"second":34,"amount":0},{"first":1090,"second":39,"amount":0},{"first":1090,"second":1072,"amount":0},{"first":1090,"second":1076,"amount":-2},{"first":1090,"second":1077,"amount":-2},{"first":1090,"second":1105,"amount":-2},{"first":1090,"second":1083,"amount":-2},{"first":1090,"second":1086,"amount":-1},{"first":1090,"second":1089,"amount":-2},{"first":1090,"second":1091,"amount":0},{"first":1090,"second":1092,"amount":-2},{"first":1090,"second":246,"amount":-1},{"first":1090,"second":228,"amount":0},{"first":1090,"second":962,"amount":-1},{"first":1090,"second":961,"amount":-2},{"first":1090,"second":959,"amount":-1},{"first":1090,"second":945,"amount":-2},{"first":1090,"second":963,"amount":-2},{"first":1090,"second":948,"amount":-2},{"first":1090,"second":966,"amount":-1},{"first":1090,"second":947,"amount":0},{"first":1090,"second":957,"amount":0},{"first":1090,"second":229,"amount":0},{"first":1059,"second":97,"amount":-2},{"first":1059,"second":101,"amount":-1},{"first":1059,"second":111,"amount":-1},{"first":1059,"second":112,"amount":-2},{"first":1059,"second":113,"amount":-1},{"first":1059,"second":115,"amount":-1},{"first":1059,"second":100,"amount":-1},{"first":1059,"second":103,"amount":-1},{"first":1059,"second":109,"amount":-2},{"first":1059,"second":99,"amount":-1},{"first":1059,"second":110,"amount":-2},{"first":1059,"second":65,"amount":-2},{"first":1059,"second":84,"amount":0},{"first":1059,"second":89,"amount":0},{"first":1059,"second":79,"amount":0},{"first":1059,"second":81,"amount":0},{"first":1059,"second":71,"amount":0},{"first":1059,"second":67,"amount":0},{"first":1059,"second":45,"amount":-2},{"first":1059,"second":8211,"amount":-2},{"first":1059,"second":44,"amount":-8},{"first":1059,"second":46,"amount":-8},{"first":1059,"second":1040,"amount":-2},{"first":1059,"second":1072,"amount":-2},{"first":1059,"second":1074,"amount":-1},{"first":1059,"second":1075,"amount":-2},{"first":1059,"second":1044,"amount":-2},{"first":1059,"second":1076,"amount":-2},{"first":1059,"second":1077,"amount":-1},{"first":1059,"second":1105,"amount":-1},{"first":1059,"second":1079,"amount":-1},{"first":1059,"second":1080,"amount":-2},{"first":1059,"second":1081,"amount":-2},{"first":1059,"second":1082,"amount":-2},{"first":1059,"second":1051,"amount":-1},{"first":1059,"second":1083,"amount":-1},{"first":1059,"second":1084,"amount":-2},{"first":1059,"second":1085,"amount":-2},{"first":1059,"second":1054,"amount":0},{"first":1059,"second":1086,"amount":-1},{"first":1059,"second":1087,"amount":-2},{"first":1059,"second":1088,"amount":-2},{"first":1059,"second":1057,"amount":0},{"first":1059,"second":1089,"amount":-1},{"first":1059,"second":1058,"amount":0},{"first":1059,"second":1092,"amount":-1},{"first":1059,"second":1094,"amount":-2},{"first":1059,"second":1095,"amount":0},{"first":1059,"second":1096,"amount":-2},{"first":1059,"second":1097,"amount":-2},{"first":1059,"second":1099,"amount":-1},{"first":1059,"second":1068,"amount":0},{"first":1059,"second":1100,"amount":-2},{"first":1059,"second":1102,"amount":-2},{"first":1059,"second":1103,"amount":-1},{"first":1059,"second":246,"amount":-1},{"first":1059,"second":214,"amount":0},{"first":1059,"second":228,"amount":-2},{"first":1059,"second":196,"amount":-2},{"first":1059,"second":241,"amount":-2},{"first":1059,"second":962,"amount":-1},{"first":1059,"second":959,"amount":-1},{"first":1059,"second":945,"amount":-1},{"first":1059,"second":963,"amount":-1},{"first":1059,"second":951,"amount":-2},{"first":1059,"second":933,"amount":0},{"first":1059,"second":920,"amount":0},{"first":1059,"second":927,"amount":0},{"first":1059,"second":913,"amount":-2},{"first":1059,"second":916,"amount":-2},{"first":1059,"second":923,"amount":-2},{"first":1059,"second":229,"amount":-2},{"first":1059,"second":197,"amount":-2},{"first":1059,"second":216,"amount":0},{"first":1091,"second":97,"amount":0},{"first":1091,"second":101,"amount":0},{"first":1091,"second":111,"amount":0},{"first":1091,"second":113,"amount":0},{"first":1091,"second":100,"amount":0},{"first":1091,"second":102,"amount":0},{"first":1091,"second":103,"amount":0},{"first":1091,"second":99,"amount":0},{"first":1091,"second":44,"amount":-2},{"first":1091,"second":46,"amount":-2},{"first":1091,"second":34,"amount":0},{"first":1091,"second":39,"amount":0},{"first":1091,"second":1072,"amount":0},{"first":1091,"second":1076,"amount":-1},{"first":1091,"second":1077,"amount":0},{"first":1091,"second":1105,"amount":0},{"first":1091,"second":1083,"amount":-1},{"first":1091,"second":1086,"amount":0},{"first":1091,"second":1089,"amount":0},{"first":1091,"second":1092,"amount":0},{"first":1091,"second":246,"amount":0},{"first":1091,"second":228,"amount":0},{"first":1091,"second":962,"amount":0},{"first":1091,"second":961,"amount":0},{"first":1091,"second":964,"amount":0},{"first":1091,"second":959,"amount":0},{"first":1091,"second":960,"amount":0},{"first":1091,"second":945,"amount":0},{"first":1091,"second":963,"amount":0},{"first":1091,"second":948,"amount":0},{"first":1091,"second":229,"amount":0},{"first":1092,"second":122,"amount":0},{"first":1092,"second":121,"amount":0},{"first":1092,"second":120,"amount":0},{"first":1092,"second":118,"amount":0},{"first":1092,"second":34,"amount":-1},{"first":1092,"second":39,"amount":-1},{"first":1092,"second":1076,"amount":0},{"first":1092,"second":1078,"amount":0},{"first":1092,"second":1083,"amount":0},{"first":1092,"second":1090,"amount":-2},{"first":1092,"second":1091,"amount":0},{"first":1092,"second":1093,"amount":0},{"first":1092,"second":964,"amount":0},{"first":1092,"second":947,"amount":0},{"first":1092,"second":957,"amount":0},{"first":1061,"second":101,"amount":-1},{"first":1061,"second":121,"amount":-1},{"first":1061,"second":117,"amount":0},{"first":1061,"second":111,"amount":0},{"first":1061,"second":113,"amount":-1},{"first":1061,"second":100,"amount":-1},{"first":1061,"second":103,"amount":-1},{"first":1061,"second":99,"amount":-1},{"first":1061,"second":118,"amount":-1},{"first":1061,"second":79,"amount":-1},{"first":1061,"second":81,"amount":-1},{"first":1061,"second":71,"amount":-1},{"first":1061,"second":67,"amount":-1},{"first":1061,"second":86,"amount":0},{"first":1061,"second":45,"amount":-1},{"first":1061,"second":8211,"amount":-1},{"first":1061,"second":1073,"amount":0},{"first":1061,"second":1044,"amount":0},{"first":1061,"second":1077,"amount":-1},{"first":1061,"second":1105,"amount":-1},{"first":1061,"second":1051,"amount":0},{"first":1061,"second":1083,"amount":0},{"first":1061,"second":1054,"amount":-1},{"first":1061,"second":1086,"amount":0},{"first":1061,"second":1057,"amount":-1},{"first":1061,"second":1089,"amount":-1},{"first":1061,"second":1090,"amount":-1},{"first":1061,"second":1091,"amount":-1},{"first":1061,"second":1092,"amount":-1},{"first":1061,"second":1095,"amount":-1},{"first":1061,"second":252,"amount":0},{"first":1061,"second":246,"amount":0},{"first":1061,"second":214,"amount":-1},{"first":1061,"second":962,"amount":-1},{"first":1061,"second":964,"amount":-1},{"first":1061,"second":965,"amount":0},{"first":1061,"second":952,"amount":0},{"first":1061,"second":959,"amount":0},{"first":1061,"second":945,"amount":-1},{"first":1061,"second":963,"amount":-1},{"first":1061,"second":948,"amount":0},{"first":1061,"second":966,"amount":-1},{"first":1061,"second":947,"amount":-1},{"first":1061,"second":955,"amount":0},{"first":1061,"second":968,"amount":-1},{"first":1061,"second":969,"amount":0},{"first":1061,"second":957,"amount":-1},{"first":1061,"second":920,"amount":-1},{"first":1061,"second":927,"amount":-1},{"first":1061,"second":934,"amount":-1},{"first":1061,"second":216,"amount":-1},{"first":1093,"second":101,"amount":0},{"first":1093,"second":111,"amount":0},{"first":1093,"second":113,"amount":0},{"first":1093,"second":100,"amount":0},{"first":1093,"second":103,"amount":0},{"first":1093,"second":99,"amount":0},{"first":1093,"second":1077,"amount":0},{"first":1093,"second":1105,"amount":0},{"first":1093,"second":1086,"amount":0},{"first":1093,"second":1089,"amount":0},{"first":1093,"second":1092,"amount":0},{"first":1093,"second":246,"amount":0},{"first":1093,"second":962,"amount":0},{"first":1093,"second":959,"amount":0},{"first":1093,"second":945,"amount":0},{"first":1093,"second":963,"amount":0},{"first":1062,"second":65,"amount":0},{"first":1062,"second":84,"amount":-1},{"first":1062,"second":89,"amount":-1},{"first":1062,"second":88,"amount":0},{"first":1062,"second":1040,"amount":0},{"first":1062,"second":1044,"amount":0},{"first":1062,"second":1076,"amount":0},{"first":1062,"second":1046,"amount":0},{"first":1062,"second":1051,"amount":0},{"first":1062,"second":1083,"amount":0},{"first":1062,"second":1058,"amount":-1},{"first":1062,"second":1061,"amount":0},{"first":1062,"second":1063,"amount":-1},{"first":1062,"second":1095,"amount":-1},{"first":1062,"second":196,"amount":0},{"first":1062,"second":933,"amount":-1},{"first":1062,"second":913,"amount":0},{"first":1062,"second":916,"amount":0},{"first":1062,"second":923,"amount":0},{"first":1062,"second":935,"amount":0},{"first":1062,"second":197,"amount":0},{"first":1094,"second":1076,"amount":0},{"first":1094,"second":1083,"amount":0},{"first":1094,"second":1090,"amount":0},{"first":1094,"second":1095,"amount":0},{"first":1094,"second":1103,"amount":0},{"first":1063,"second":65,"amount":0},{"first":1063,"second":84,"amount":-1},{"first":1063,"second":89,"amount":-1},{"first":1063,"second":88,"amount":0},{"first":1063,"second":1040,"amount":0},{"first":1063,"second":1044,"amount":0},{"first":1063,"second":1076,"amount":0},{"first":1063,"second":1046,"amount":0},{"first":1063,"second":1051,"amount":0},{"first":1063,"second":1083,"amount":0},{"first":1063,"second":1058,"amount":-1},{"first":1063,"second":1061,"amount":0},{"first":1063,"second":1063,"amount":-1},{"first":1063,"second":1095,"amount":-1},{"first":1063,"second":196,"amount":0},{"first":1063,"second":933,"amount":-1},{"first":1063,"second":913,"amount":0},{"first":1063,"second":916,"amount":0},{"first":1063,"second":923,"amount":0},{"first":1063,"second":935,"amount":0},{"first":1063,"second":197,"amount":0},{"first":1064,"second":65,"amount":0},{"first":1064,"second":84,"amount":-1},{"first":1064,"second":89,"amount":-1},{"first":1064,"second":88,"amount":0},{"first":1064,"second":1040,"amount":0},{"first":1064,"second":1044,"amount":0},{"first":1064,"second":1076,"amount":0},{"first":1064,"second":1046,"amount":0},{"first":1064,"second":1051,"amount":0},{"first":1064,"second":1083,"amount":0},{"first":1064,"second":1058,"amount":-1},{"first":1064,"second":1061,"amount":0},{"first":1064,"second":1063,"amount":-1},{"first":1064,"second":1095,"amount":-1},{"first":1064,"second":196,"amount":0},{"first":1064,"second":933,"amount":-1},{"first":1064,"second":913,"amount":0},{"first":1064,"second":916,"amount":0},{"first":1064,"second":923,"amount":0},{"first":1064,"second":935,"amount":0},{"first":1064,"second":197,"amount":0},{"first":1065,"second":65,"amount":0},{"first":1065,"second":84,"amount":-1},{"first":1065,"second":89,"amount":-1},{"first":1065,"second":88,"amount":0},{"first":1065,"second":86,"amount":-1},{"first":1065,"second":1040,"amount":0},{"first":1065,"second":1044,"amount":0},{"first":1065,"second":1076,"amount":0},{"first":1065,"second":1046,"amount":0},{"first":1065,"second":1051,"amount":0},{"first":1065,"second":1083,"amount":0},{"first":1065,"second":1058,"amount":-1},{"first":1065,"second":1090,"amount":-1},{"first":1065,"second":1059,"amount":0},{"first":1065,"second":1061,"amount":0},{"first":1065,"second":1063,"amount":-1},{"first":1065,"second":1095,"amount":0},{"first":1065,"second":1068,"amount":-1},{"first":1065,"second":1069,"amount":0},{"first":1065,"second":196,"amount":0},{"first":1065,"second":933,"amount":-1},{"first":1065,"second":913,"amount":0},{"first":1065,"second":916,"amount":0},{"first":1065,"second":923,"amount":0},{"first":1065,"second":935,"amount":0},{"first":1065,"second":197,"amount":0},{"first":1097,"second":101,"amount":0},{"first":1097,"second":113,"amount":0},{"first":1097,"second":100,"amount":0},{"first":1097,"second":103,"amount":0},{"first":1097,"second":99,"amount":0},{"first":1097,"second":1076,"amount":1},{"first":1097,"second":1077,"amount":0},{"first":1097,"second":1105,"amount":0},{"first":1097,"second":1083,"amount":0},{"first":1097,"second":1089,"amount":0},{"first":1097,"second":1090,"amount":-1},{"first":1097,"second":1092,"amount":0},{"first":1097,"second":1095,"amount":0},{"first":1097,"second":962,"amount":0},{"first":1097,"second":945,"amount":0},{"first":1097,"second":963,"amount":0},{"first":1066,"second":120,"amount":-1},{"first":1066,"second":84,"amount":-5},{"first":1066,"second":89,"amount":-2},{"first":1066,"second":88,"amount":0},{"first":1066,"second":86,"amount":-1},{"first":1066,"second":34,"amount":-1},{"first":1066,"second":39,"amount":-1},{"first":1066,"second":1046,"amount":0},{"first":1066,"second":1078,"amount":-1},{"first":1066,"second":1051,"amount":0},{"first":1066,"second":1058,"amount":-5},{"first":1066,"second":1090,"amount":-1},{"first":1066,"second":1059,"amount":0},{"first":1066,"second":1061,"amount":0},{"first":1066,"second":1093,"amount":-1},{"first":1066,"second":1063,"amount":-1},{"first":1066,"second":1068,"amount":-1},{"first":1066,"second":933,"amount":-2},{"first":1066,"second":935,"amount":0},{"first":1098,"second":121,"amount":-1},{"first":1098,"second":120,"amount":0},{"first":1098,"second":118,"amount":-1},{"first":1098,"second":34,"amount":-3},{"first":1098,"second":39,"amount":-3},{"first":1098,"second":1078,"amount":0},{"first":1098,"second":1090,"amount":-1},{"first":1098,"second":1091,"amount":-1},{"first":1098,"second":1093,"amount":0},{"first":1098,"second":1095,"amount":-1},{"first":1098,"second":947,"amount":-1},{"first":1098,"second":957,"amount":-1},{"first":1067,"second":65,"amount":0},{"first":1067,"second":84,"amount":-1},{"first":1067,"second":89,"amount":-1},{"first":1067,"second":88,"amount":0},{"first":1067,"second":1040,"amount":0},{"first":1067,"second":1044,"amount":0},{"first":1067,"second":1076,"amount":0},{"first":1067,"second":1046,"amount":0},{"first":1067,"second":1051,"amount":0},{"first":1067,"second":1083,"amount":0},{"first":1067,"second":1058,"amount":-1},{"first":1067,"second":1061,"amount":0},{"first":1067,"second":1063,"amount":-1},{"first":1067,"second":1095,"amount":-1},{"first":1067,"second":196,"amount":0},{"first":1067,"second":933,"amount":-1},{"first":1067,"second":913,"amount":0},{"first":1067,"second":916,"amount":0},{"first":1067,"second":923,"amount":0},{"first":1067,"second":935,"amount":0},{"first":1067,"second":197,"amount":0},{"first":1068,"second":120,"amount":-1},{"first":1068,"second":84,"amount":-5},{"first":1068,"second":89,"amount":-2},{"first":1068,"second":88,"amount":0},{"first":1068,"second":86,"amount":-1},{"first":1068,"second":34,"amount":-1},{"first":1068,"second":39,"amount":-1},{"first":1068,"second":1046,"amount":0},{"first":1068,"second":1078,"amount":-1},{"first":1068,"second":1051,"amount":0},{"first":1068,"second":1058,"amount":-5},{"first":1068,"second":1090,"amount":-1},{"first":1068,"second":1059,"amount":0},{"first":1068,"second":1061,"amount":0},{"first":1068,"second":1093,"amount":-1},{"first":1068,"second":1063,"amount":-1},{"first":1068,"second":1068,"amount":-1},{"first":1068,"second":933,"amount":-2},{"first":1068,"second":935,"amount":0},{"first":1100,"second":121,"amount":-1},{"first":1100,"second":120,"amount":0},{"first":1100,"second":118,"amount":-1},{"first":1100,"second":34,"amount":-3},{"first":1100,"second":39,"amount":-3},{"first":1100,"second":1078,"amount":0},{"first":1100,"second":1090,"amount":-1},{"first":1100,"second":1091,"amount":-1},{"first":1100,"second":1093,"amount":0},{"first":1100,"second":1095,"amount":-1},{"first":1100,"second":947,"amount":-1},{"first":1100,"second":957,"amount":-1},{"first":1069,"second":84,"amount":-1},{"first":1069,"second":89,"amount":-1},{"first":1069,"second":88,"amount":-1},{"first":1069,"second":1044,"amount":-1},{"first":1069,"second":1046,"amount":-1},{"first":1069,"second":1051,"amount":-1},{"first":1069,"second":1083,"amount":0},{"first":1069,"second":1058,"amount":-1},{"first":1069,"second":1059,"amount":0},{"first":1069,"second":1061,"amount":-1},{"first":1069,"second":933,"amount":-1},{"first":1069,"second":935,"amount":-1},{"first":1101,"second":122,"amount":0},{"first":1101,"second":121,"amount":0},{"first":1101,"second":120,"amount":0},{"first":1101,"second":118,"amount":0},{"first":1101,"second":34,"amount":-1},{"first":1101,"second":39,"amount":-1},{"first":1101,"second":1076,"amount":0},{"first":1101,"second":1078,"amount":0},{"first":1101,"second":1083,"amount":0},{"first":1101,"second":1090,"amount":-2},{"first":1101,"second":1091,"amount":0},{"first":1101,"second":1093,"amount":0},{"first":1101,"second":964,"amount":0},{"first":1101,"second":947,"amount":0},{"first":1101,"second":957,"amount":0},{"first":1070,"second":84,"amount":-1},{"first":1070,"second":88,"amount":-1},{"first":1070,"second":1044,"amount":-1},{"first":1070,"second":1076,"amount":-1},{"first":1070,"second":1046,"amount":-1},{"first":1070,"second":1051,"amount":-1},{"first":1070,"second":1083,"amount":0},{"first":1070,"second":1058,"amount":-1},{"first":1070,"second":1059,"amount":0},{"first":1070,"second":1061,"amount":-1},{"first":1070,"second":935,"amount":-1},{"first":1102,"second":121,"amount":0},{"first":1102,"second":120,"amount":0},{"first":1102,"second":118,"amount":0},{"first":1102,"second":1076,"amount":0},{"first":1102,"second":1078,"amount":0},{"first":1102,"second":1083,"amount":0},{"first":1102,"second":1091,"amount":0},{"first":1102,"second":1093,"amount":0},{"first":1102,"second":947,"amount":0},{"first":1102,"second":957,"amount":0},{"first":1071,"second":84,"amount":0},{"first":1071,"second":89,"amount":0},{"first":1071,"second":1058,"amount":0},{"first":1071,"second":933,"amount":0},{"first":220,"second":65,"amount":0},{"first":220,"second":1040,"amount":0},{"first":220,"second":196,"amount":0},{"first":220,"second":913,"amount":0},{"first":220,"second":916,"amount":0},{"first":220,"second":923,"amount":0},{"first":220,"second":197,"amount":0},{"first":246,"second":122,"amount":0},{"first":246,"second":121,"amount":0},{"first":246,"second":120,"amount":0},{"first":246,"second":118,"amount":0},{"first":246,"second":34,"amount":-3},{"first":246,"second":39,"amount":-3},{"first":246,"second":1076,"amount":-1},{"first":246,"second":1078,"amount":0},{"first":246,"second":1083,"amount":0},{"first":246,"second":1090,"amount":0},{"first":246,"second":1091,"amount":0},{"first":246,"second":1093,"amount":0},{"first":246,"second":964,"amount":0},{"first":246,"second":947,"amount":0},{"first":246,"second":957,"amount":0},{"first":214,"second":65,"amount":0},{"first":214,"second":90,"amount":0},{"first":214,"second":84,"amount":-1},{"first":214,"second":89,"amount":-1},{"first":214,"second":88,"amount":0},{"first":214,"second":86,"amount":0},{"first":214,"second":44,"amount":-2},{"first":214,"second":46,"amount":-2},{"first":214,"second":1040,"amount":0},{"first":214,"second":1044,"amount":-1},{"first":214,"second":1046,"amount":0},{"first":214,"second":1051,"amount":-1},{"first":214,"second":1058,"amount":-1},{"first":214,"second":1061,"amount":0},{"first":214,"second":1068,"amount":-1},{"first":214,"second":196,"amount":0},{"first":214,"second":955,"amount":0},{"first":214,"second":933,"amount":-1},{"first":214,"second":913,"amount":0},{"first":214,"second":931,"amount":0},{"first":214,"second":916,"amount":0},{"first":214,"second":926,"amount":0},{"first":214,"second":923,"amount":0},{"first":214,"second":918,"amount":0},{"first":214,"second":935,"amount":0},{"first":214,"second":197,"amount":0},{"first":214,"second":198,"amount":-1},{"first":228,"second":121,"amount":0},{"first":228,"second":118,"amount":0},{"first":228,"second":34,"amount":-1},{"first":228,"second":39,"amount":-1},{"first":228,"second":1090,"amount":0},{"first":228,"second":1091,"amount":0},{"first":228,"second":947,"amount":0},{"first":228,"second":957,"amount":0},{"first":196,"second":122,"amount":0},{"first":196,"second":116,"amount":0},{"first":196,"second":121,"amount":-1},{"first":196,"second":117,"amount":0},{"first":196,"second":111,"amount":0},{"first":196,"second":119,"amount":-1},{"first":196,"second":118,"amount":-1},{"first":196,"second":84,"amount":-3},{"first":196,"second":89,"amount":-2},{"first":196,"second":85,"amount":0},{"first":196,"second":79,"amount":0},{"first":196,"second":81,"amount":0},{"first":196,"second":71,"amount":0},{"first":196,"second":87,"amount":-1},{"first":196,"second":67,"amount":0},{"first":196,"second":86,"amount":-2},{"first":196,"second":63,"amount":-1},{"first":196,"second":34,"amount":-2},{"first":196,"second":39,"amount":-2},{"first":196,"second":1044,"amount":0},{"first":196,"second":1051,"amount":0},{"first":196,"second":1083,"amount":0},{"first":196,"second":1054,"amount":0},{"first":196,"second":1086,"amount":0},{"first":196,"second":1057,"amount":0},{"first":196,"second":1058,"amount":-3},{"first":196,"second":1090,"amount":-1},{"first":196,"second":1091,"amount":-1},{"first":196,"second":1063,"amount":-1},{"first":196,"second":1095,"amount":-2},{"first":196,"second":1068,"amount":-1},{"first":196,"second":252,"amount":0},{"first":196,"second":220,"amount":0},{"first":196,"second":246,"amount":0},{"first":196,"second":214,"amount":0},{"first":196,"second":964,"amount":-1},{"first":196,"second":965,"amount":0},{"first":196,"second":959,"amount":0},{"first":196,"second":947,"amount":-1},{"first":196,"second":955,"amount":0},{"first":196,"second":957,"amount":-1},{"first":196,"second":933,"amount":-2},{"first":196,"second":920,"amount":0},{"first":196,"second":927,"amount":0},{"first":196,"second":934,"amount":-1},{"first":196,"second":936,"amount":-1},{"first":196,"second":216,"amount":0},{"first":241,"second":34,"amount":-2},{"first":241,"second":39,"amount":-2},{"first":241,"second":1090,"amount":-1},{"first":209,"second":65,"amount":0},{"first":209,"second":84,"amount":-1},{"first":209,"second":89,"amount":-1},{"first":209,"second":88,"amount":0},{"first":209,"second":1040,"amount":0},{"first":209,"second":1044,"amount":0},{"first":209,"second":1076,"amount":0},{"first":209,"second":1046,"amount":0},{"first":209,"second":1051,"amount":0},{"first":209,"second":1083,"amount":0},{"first":209,"second":1058,"amount":-1},{"first":209,"second":1061,"amount":0},{"first":209,"second":1063,"amount":-1},{"first":209,"second":1095,"amount":-1},{"first":209,"second":196,"amount":0},{"first":209,"second":933,"amount":-1},{"first":209,"second":913,"amount":0},{"first":209,"second":916,"amount":0},{"first":209,"second":923,"amount":0},{"first":209,"second":935,"amount":0},{"first":209,"second":197,"amount":0},{"first":962,"second":1090,"amount":-1},{"first":961,"second":122,"amount":0},{"first":961,"second":121,"amount":0},{"first":961,"second":120,"amount":0},{"first":961,"second":118,"amount":0},{"first":961,"second":34,"amount":-1},{"first":961,"second":39,"amount":-1},{"first":961,"second":1076,"amount":0},{"first":961,"second":1078,"amount":0},{"first":961,"second":1083,"amount":0},{"first":961,"second":1090,"amount":-2},{"first":961,"second":1091,"amount":0},{"first":961,"second":1093,"amount":0},{"first":961,"second":964,"amount":0},{"first":961,"second":947,"amount":0},{"first":961,"second":957,"amount":0},{"first":964,"second":101,"amount":0},{"first":964,"second":121,"amount":0},{"first":964,"second":111,"amount":0},{"first":964,"second":113,"amount":0},{"first":964,"second":100,"amount":0},{"first":964,"second":102,"amount":0},{"first":964,"second":103,"amount":0},{"first":964,"second":99,"amount":0},{"first":964,"second":118,"amount":0},{"first":964,"second":34,"amount":0},{"first":964,"second":39,"amount":0},{"first":964,"second":1077,"amount":0},{"first":964,"second":1105,"amount":0},{"first":964,"second":1086,"amount":0},{"first":964,"second":1089,"amount":0},{"first":964,"second":1091,"amount":0},{"first":964,"second":1092,"amount":0},{"first":964,"second":246,"amount":0},{"first":964,"second":962,"amount":0},{"first":964,"second":964,"amount":0},{"first":964,"second":959,"amount":0},{"first":964,"second":960,"amount":0},{"first":964,"second":945,"amount":0},{"first":964,"second":963,"amount":0},{"first":964,"second":948,"amount":0},{"first":964,"second":947,"amount":0},{"first":964,"second":957,"amount":0},{"first":965,"second":1090,"amount":-1},{"first":953,"second":101,"amount":0},{"first":953,"second":121,"amount":-1},{"first":953,"second":117,"amount":0},{"first":953,"second":113,"amount":0},{"first":953,"second":100,"amount":0},{"first":953,"second":103,"amount":0},{"first":953,"second":99,"amount":0},{"first":953,"second":118,"amount":-1},{"first":953,"second":34,"amount":-1},{"first":953,"second":39,"amount":-1},{"first":953,"second":1077,"amount":0},{"first":953,"second":1105,"amount":0},{"first":953,"second":1089,"amount":0},{"first":953,"second":1091,"amount":-1},{"first":953,"second":1092,"amount":0},{"first":953,"second":252,"amount":0},{"first":953,"second":962,"amount":0},{"first":953,"second":964,"amount":-1},{"first":953,"second":965,"amount":0},{"first":953,"second":952,"amount":0},{"first":953,"second":960,"amount":0},{"first":953,"second":945,"amount":0},{"first":953,"second":963,"amount":0},{"first":953,"second":966,"amount":-1},{"first":953,"second":947,"amount":-1},{"first":953,"second":955,"amount":0},{"first":953,"second":957,"amount":-1},{"first":959,"second":122,"amount":0},{"first":959,"second":121,"amount":0},{"first":959,"second":120,"amount":0},{"first":959,"second":118,"amount":0},{"first":959,"second":34,"amount":-3},{"first":959,"second":39,"amount":-3},{"first":959,"second":1076,"amount":-1},{"first":959,"second":1078,"amount":0},{"first":959,"second":1083,"amount":0},{"first":959,"second":1090,"amount":0},{"first":959,"second":1091,"amount":0},{"first":959,"second":1093,"amount":0},{"first":959,"second":964,"amount":0},{"first":959,"second":947,"amount":0},{"first":959,"second":957,"amount":0},{"first":945,"second":955,"amount":0},{"first":963,"second":964,"amount":0},{"first":948,"second":1090,"amount":-1},{"first":948,"second":964,"amount":0},{"first":966,"second":122,"amount":0},{"first":966,"second":120,"amount":0},{"first":966,"second":1078,"amount":0},{"first":966,"second":1090,"amount":-2},{"first":966,"second":1093,"amount":0},{"first":947,"second":97,"amount":0},{"first":947,"second":101,"amount":0},{"first":947,"second":111,"amount":0},{"first":947,"second":113,"amount":0},{"first":947,"second":100,"amount":0},{"first":947,"second":102,"amount":0},{"first":947,"second":103,"amount":0},{"first":947,"second":99,"amount":0},{"first":947,"second":44,"amount":-2},{"first":947,"second":46,"amount":-2},{"first":947,"second":34,"amount":0},{"first":947,"second":39,"amount":0},{"first":947,"second":1072,"amount":0},{"first":947,"second":1076,"amount":-1},{"first":947,"second":1077,"amount":0},{"first":947,"second":1105,"amount":0},{"first":947,"second":1083,"amount":-1},{"first":947,"second":1086,"amount":0},{"first":947,"second":1089,"amount":0},{"first":947,"second":1092,"amount":0},{"first":947,"second":246,"amount":0},{"first":947,"second":228,"amount":0},{"first":947,"second":962,"amount":0},{"first":947,"second":961,"amount":0},{"first":947,"second":964,"amount":0},{"first":947,"second":959,"amount":0},{"first":947,"second":960,"amount":0},{"first":947,"second":945,"amount":0},{"first":947,"second":963,"amount":0},{"first":947,"second":948,"amount":0},{"first":947,"second":229,"amount":0},{"first":951,"second":34,"amount":-2},{"first":951,"second":39,"amount":-2},{"first":951,"second":1090,"amount":-1},{"first":958,"second":101,"amount":-1},{"first":958,"second":113,"amount":-1},{"first":958,"second":100,"amount":-1},{"first":958,"second":103,"amount":-1},{"first":958,"second":99,"amount":-1},{"first":958,"second":1077,"amount":-1},{"first":958,"second":1105,"amount":-1},{"first":958,"second":1089,"amount":-1},{"first":958,"second":1092,"amount":-1},{"first":958,"second":962,"amount":-1},{"first":958,"second":945,"amount":-1},{"first":958,"second":963,"amount":-1},{"first":958,"second":955,"amount":0},{"first":955,"second":121,"amount":-1},{"first":955,"second":117,"amount":0},{"first":955,"second":102,"amount":0},{"first":955,"second":118,"amount":-1},{"first":955,"second":34,"amount":-2},{"first":955,"second":39,"amount":-2},{"first":955,"second":1091,"amount":-1},{"first":955,"second":252,"amount":0},{"first":955,"second":964,"amount":-5},{"first":955,"second":965,"amount":0},{"first":955,"second":952,"amount":0},{"first":955,"second":960,"amount":0},{"first":955,"second":947,"amount":-1},{"first":955,"second":955,"amount":0},{"first":955,"second":957,"amount":-1},{"first":950,"second":101,"amount":-1},{"first":950,"second":121,"amount":-1},{"first":950,"second":117,"amount":-1},{"first":950,"second":111,"amount":-1},{"first":950,"second":112,"amount":0},{"first":950,"second":113,"amount":-1},{"first":950,"second":100,"amount":-1},{"first":950,"second":103,"amount":-1},{"first":950,"second":109,"amount":0},{"first":950,"second":99,"amount":-1},{"first":950,"second":118,"amount":-1},{"first":950,"second":110,"amount":0},{"first":950,"second":1075,"amount":0},{"first":950,"second":1077,"amount":-1},{"first":950,"second":1105,"amount":-1},{"first":950,"second":1080,"amount":0},{"first":950,"second":1081,"amount":0},{"first":950,"second":1082,"amount":0},{"first":950,"second":1084,"amount":0},{"first":950,"second":1085,"amount":0},{"first":950,"second":1086,"amount":-1},{"first":950,"second":1087,"amount":0},{"first":950,"second":1088,"amount":0},{"first":950,"second":1089,"amount":-1},{"first":950,"second":1091,"amount":-1},{"first":950,"second":1092,"amount":-1},{"first":950,"second":1094,"amount":0},{"first":950,"second":1096,"amount":0},{"first":950,"second":1097,"amount":0},{"first":950,"second":1100,"amount":0},{"first":950,"second":1102,"amount":0},{"first":950,"second":252,"amount":-1},{"first":950,"second":246,"amount":-1},{"first":950,"second":241,"amount":0},{"first":950,"second":962,"amount":-1},{"first":950,"second":949,"amount":-1},{"first":950,"second":964,"amount":-1},{"first":950,"second":965,"amount":-1},{"first":950,"second":952,"amount":0},{"first":950,"second":953,"amount":0},{"first":950,"second":959,"amount":-1},{"first":950,"second":960,"amount":-1},{"first":950,"second":945,"amount":-1},{"first":950,"second":963,"amount":-1},{"first":950,"second":948,"amount":0},{"first":950,"second":966,"amount":-1},{"first":950,"second":947,"amount":-1},{"first":950,"second":951,"amount":0},{"first":950,"second":958,"amount":0},{"first":950,"second":968,"amount":-1},{"first":950,"second":969,"amount":-1},{"first":950,"second":957,"amount":-1},{"first":968,"second":122,"amount":0},{"first":968,"second":120,"amount":0},{"first":968,"second":1078,"amount":0},{"first":968,"second":1093,"amount":0},{"first":969,"second":122,"amount":0},{"first":969,"second":121,"amount":0},{"first":969,"second":120,"amount":0},{"first":969,"second":118,"amount":0},{"first":969,"second":1078,"amount":0},{"first":969,"second":1091,"amount":0},{"first":969,"second":1093,"amount":0},{"first":969,"second":947,"amount":0},{"first":969,"second":957,"amount":0},{"first":957,"second":97,"amount":0},{"first":957,"second":101,"amount":0},{"first":957,"second":111,"amount":0},{"first":957,"second":113,"amount":0},{"first":957,"second":100,"amount":0},{"first":957,"second":102,"amount":0},{"first":957,"second":103,"amount":0},{"first":957,"second":99,"amount":0},{"first":957,"second":44,"amount":-2},{"first":957,"second":46,"amount":-2},{"first":957,"second":34,"amount":0},{"first":957,"second":39,"amount":0},{"first":957,"second":1072,"amount":0},{"first":957,"second":1076,"amount":-1},{"first":957,"second":1077,"amount":0},{"first":957,"second":1105,"amount":0},{"first":957,"second":1083,"amount":-1},{"first":957,"second":1086,"amount":0},{"first":957,"second":1089,"amount":0},{"first":957,"second":1092,"amount":0},{"first":957,"second":246,"amount":0},{"first":957,"second":228,"amount":0},{"first":957,"second":962,"amount":0},{"first":957,"second":961,"amount":0},{"first":957,"second":964,"amount":0},{"first":957,"second":959,"amount":0},{"first":957,"second":960,"amount":0},{"first":957,"second":945,"amount":0},{"first":957,"second":963,"amount":0},{"first":957,"second":948,"amount":0},{"first":957,"second":229,"amount":0},{"first":917,"second":101,"amount":0},{"first":917,"second":121,"amount":-1},{"first":917,"second":117,"amount":0},{"first":917,"second":111,"amount":0},{"first":917,"second":113,"amount":0},{"first":917,"second":100,"amount":0},{"first":917,"second":102,"amount":0},{"first":917,"second":103,"amount":0},{"first":917,"second":119,"amount":0},{"first":917,"second":99,"amount":0},{"first":917,"second":118,"amount":-1},{"first":917,"second":84,"amount":0},{"first":917,"second":1077,"amount":0},{"first":917,"second":1105,"amount":0},{"first":917,"second":1086,"amount":0},{"first":917,"second":1089,"amount":0},{"first":917,"second":1058,"amount":0},{"first":917,"second":1091,"amount":-1},{"first":917,"second":1092,"amount":0},{"first":917,"second":252,"amount":0},{"first":917,"second":246,"amount":0},{"first":917,"second":962,"amount":0},{"first":917,"second":965,"amount":0},{"first":917,"second":959,"amount":0},{"first":917,"second":945,"amount":0},{"first":917,"second":963,"amount":0},{"first":917,"second":947,"amount":-1},{"first":917,"second":957,"amount":-1},{"first":929,"second":97,"amount":0},{"first":929,"second":101,"amount":0},{"first":929,"second":116,"amount":0},{"first":929,"second":121,"amount":0},{"first":929,"second":111,"amount":0},{"first":929,"second":113,"amount":0},{"first":929,"second":100,"amount":0},{"first":929,"second":103,"amount":0},{"first":929,"second":99,"amount":0},{"first":929,"second":118,"amount":0},{"first":929,"second":65,"amount":-3},{"first":929,"second":90,"amount":-1},{"first":929,"second":74,"amount":-4},{"first":929,"second":88,"amount":-1},{"first":929,"second":44,"amount":-7},{"first":929,"second":46,"amount":-7},{"first":929,"second":1040,"amount":-3},{"first":929,"second":1072,"amount":0},{"first":929,"second":1044,"amount":-2},{"first":929,"second":1076,"amount":-1},{"first":929,"second":1077,"amount":0},{"first":929,"second":1105,"amount":0},{"first":929,"second":1046,"amount":-1},{"first":929,"second":1051,"amount":-1},{"first":929,"second":1083,"amount":-1},{"first":929,"second":1086,"amount":0},{"first":929,"second":1089,"amount":0},{"first":929,"second":1091,"amount":0},{"first":929,"second":1092,"amount":0},{"first":929,"second":1061,"amount":-1},{"first":929,"second":246,"amount":0},{"first":929,"second":228,"amount":0},{"first":929,"second":196,"amount":-3},{"first":929,"second":962,"amount":0},{"first":929,"second":961,"amount":-1},{"first":929,"second":959,"amount":0},{"first":929,"second":945,"amount":0},{"first":929,"second":963,"amount":0},{"first":929,"second":948,"amount":0},{"first":929,"second":947,"amount":0},{"first":929,"second":955,"amount":-1},{"first":929,"second":957,"amount":0},{"first":929,"second":913,"amount":-3},{"first":929,"second":916,"amount":-3},{"first":929,"second":923,"amount":-3},{"first":929,"second":918,"amount":-1},{"first":929,"second":935,"amount":-1},{"first":929,"second":229,"amount":0},{"first":929,"second":197,"amount":-3},{"first":929,"second":198,"amount":-2},{"first":932,"second":97,"amount":-2},{"first":932,"second":122,"amount":-1},{"first":932,"second":101,"amount":-2},{"first":932,"second":114,"amount":-2},{"first":932,"second":121,"amount":-1},{"first":932,"second":117,"amount":-2},{"first":932,"second":111,"amount":-2},{"first":932,"second":112,"amount":-2},{"first":932,"second":113,"amount":-2},{"first":932,"second":115,"amount":-2},{"first":932,"second":100,"amount":-2},{"first":932,"second":103,"amount":-2},{"first":932,"second":109,"amount":-2},{"first":932,"second":119,"amount":-1},{"first":932,"second":120,"amount":-2},{"first":932,"second":99,"amount":-2},{"first":932,"second":118,"amount":-1},{"first":932,"second":110,"amount":-2},{"first":932,"second":65,"amount":-2},{"first":932,"second":84,"amount":0},{"first":932,"second":89,"amount":0},{"first":932,"second":79,"amount":-1},{"first":932,"second":81,"amount":-1},{"first":932,"second":83,"amount":0},{"first":932,"second":71,"amount":-1},{"first":932,"second":74,"amount":-5},{"first":932,"second":87,"amount":0},{"first":932,"second":67,"amount":-1},{"first":932,"second":86,"amount":0},{"first":932,"second":45,"amount":-5},{"first":932,"second":8211,"amount":-5},{"first":932,"second":44,"amount":-4},{"first":932,"second":46,"amount":-4},{"first":932,"second":1040,"amount":-2},{"first":932,"second":1072,"amount":-2},{"first":932,"second":1073,"amount":-1},{"first":932,"second":1074,"amount":-2},{"first":932,"second":1075,"amount":-2},{"first":932,"second":1044,"amount":-2},{"first":932,"second":1076,"amount":-3},{"first":932,"second":1077,"amount":-2},{"first":932,"second":1105,"amount":-2},{"first":932,"second":1078,"amount":-2},{"first":932,"second":1079,"amount":-3},{"first":932,"second":1080,"amount":-2},{"first":932,"second":1081,"amount":-2},{"first":932,"second":1082,"amount":-2},{"first":932,"second":1051,"amount":-1},{"first":932,"second":1083,"amount":-3},{"first":932,"second":1084,"amount":-2},{"first":932,"second":1085,"amount":-2},{"first":932,"second":1054,"amount":-1},{"first":932,"second":1086,"amount":-2},{"first":932,"second":1087,"amount":-2},{"first":932,"second":1088,"amount":-2},{"first":932,"second":1057,"amount":-1},{"first":932,"second":1089,"amount":-2},{"first":932,"second":1058,"amount":0},{"first":932,"second":1090,"amount":-2},{"first":932,"second":1091,"amount":-1},{"first":932,"second":1092,"amount":-2},{"first":932,"second":1093,"amount":-2},{"first":932,"second":1094,"amount":-2},{"first":932,"second":1095,"amount":-3},{"first":932,"second":1096,"amount":-2},{"first":932,"second":1097,"amount":-2},{"first":932,"second":1099,"amount":-3},{"first":932,"second":1068,"amount":0},{"first":932,"second":1100,"amount":-2},{"first":932,"second":1101,"amount":-3},{"first":932,"second":1102,"amount":-2},{"first":932,"second":1103,"amount":-3},{"first":932,"second":252,"amount":-2},{"first":932,"second":246,"amount":-2},{"first":932,"second":214,"amount":-1},{"first":932,"second":228,"amount":-2},{"first":932,"second":196,"amount":-2},{"first":932,"second":241,"amount":-2},{"first":932,"second":962,"amount":-2},{"first":932,"second":949,"amount":-3},{"first":932,"second":961,"amount":-3},{"first":932,"second":964,"amount":-2},{"first":932,"second":965,"amount":-2},{"first":932,"second":953,"amount":-3},{"first":932,"second":959,"amount":-2},{"first":932,"second":960,"amount":-2},{"first":932,"second":945,"amount":-2},{"first":932,"second":963,"amount":-2},{"first":932,"second":948,"amount":-1},{"first":932,"second":966,"amount":-3},{"first":932,"second":947,"amount":-1},{"first":932,"second":951,"amount":-2},{"first":932,"second":968,"amount":-3},{"first":932,"second":969,"amount":-3},{"first":932,"second":957,"amount":-1},{"first":932,"second":933,"amount":0},{"first":932,"second":920,"amount":-1},{"first":932,"second":927,"amount":-1},{"first":932,"second":913,"amount":-2},{"first":932,"second":916,"amount":-2},{"first":932,"second":934,"amount":-2},{"first":932,"second":923,"amount":-2},{"first":932,"second":229,"amount":-2},{"first":932,"second":197,"amount":-2},{"first":932,"second":230,"amount":-2},{"first":932,"second":198,"amount":-4},{"first":932,"second":248,"amount":-2},{"first":932,"second":216,"amount":-1},{"first":933,"second":97,"amount":-1},{"first":933,"second":122,"amount":-1},{"first":933,"second":101,"amount":-1},{"first":933,"second":114,"amount":-1},{"first":933,"second":116,"amount":0},{"first":933,"second":121,"amount":0},{"first":933,"second":117,"amount":-1},{"first":933,"second":111,"amount":-1},{"first":933,"second":112,"amount":-1},{"first":933,"second":113,"amount":-1},{"first":933,"second":115,"amount":-1},{"first":933,"second":100,"amount":-1},{"first":933,"second":102,"amount":0},{"first":933,"second":103,"amount":-1},{"first":933,"second":109,"amount":-1},{"first":933,"second":120,"amount":0},{"first":933,"second":99,"amount":-1},{"first":933,"second":118,"amount":0},{"first":933,"second":110,"amount":-1},{"first":933,"second":65,"amount":-2},{"first":933,"second":84,"amount":0},{"first":933,"second":89,"amount":0},{"first":933,"second":85,"amount":-2},{"first":933,"second":79,"amount":-1},{"first":933,"second":81,"amount":-1},{"first":933,"second":83,"amount":0},{"first":933,"second":71,"amount":-1},{"first":933,"second":74,"amount":-2},{"first":933,"second":87,"amount":0},{"first":933,"second":88,"amount":0},{"first":933,"second":67,"amount":-1},{"first":933,"second":86,"amount":0},{"first":933,"second":42,"amount":-1},{"first":933,"second":45,"amount":-1},{"first":933,"second":8211,"amount":-1},{"first":933,"second":44,"amount":-4},{"first":933,"second":46,"amount":-4},{"first":933,"second":125,"amount":0},{"first":933,"second":41,"amount":0},{"first":933,"second":93,"amount":0},{"first":933,"second":38,"amount":-1},{"first":933,"second":1040,"amount":-2},{"first":933,"second":1072,"amount":-1},{"first":933,"second":1075,"amount":-1},{"first":933,"second":1077,"amount":-1},{"first":933,"second":1105,"amount":-1},{"first":933,"second":1046,"amount":0},{"first":933,"second":1078,"amount":0},{"first":933,"second":1080,"amount":-1},{"first":933,"second":1081,"amount":-1},{"first":933,"second":1082,"amount":-1},{"first":933,"second":1084,"amount":-1},{"first":933,"second":1085,"amount":-1},{"first":933,"second":1054,"amount":-1},{"first":933,"second":1086,"amount":-1},{"first":933,"second":1087,"amount":-1},{"first":933,"second":1088,"amount":-1},{"first":933,"second":1057,"amount":-1},{"first":933,"second":1089,"amount":-1},{"first":933,"second":1058,"amount":0},{"first":933,"second":1091,"amount":0},{"first":933,"second":1092,"amount":-1},{"first":933,"second":1061,"amount":0},{"first":933,"second":1093,"amount":0},{"first":933,"second":1094,"amount":-1},{"first":933,"second":1096,"amount":-1},{"first":933,"second":1097,"amount":-1},{"first":933,"second":1100,"amount":-1},{"first":933,"second":1102,"amount":-1},{"first":933,"second":252,"amount":-1},{"first":933,"second":220,"amount":-2},{"first":933,"second":246,"amount":-1},{"first":933,"second":214,"amount":-1},{"first":933,"second":228,"amount":-1},{"first":933,"second":196,"amount":-2},{"first":933,"second":241,"amount":-1},{"first":933,"second":962,"amount":-1},{"first":933,"second":949,"amount":-1},{"first":933,"second":961,"amount":-1},{"first":933,"second":964,"amount":0},{"first":933,"second":965,"amount":-1},{"first":933,"second":952,"amount":0},{"first":933,"second":953,"amount":-1},{"first":933,"second":959,"amount":-1},{"first":933,"second":960,"amount":0},{"first":933,"second":945,"amount":-1},{"first":933,"second":963,"amount":-1},{"first":933,"second":948,"amount":0},{"first":933,"second":966,"amount":-1},{"first":933,"second":947,"amount":0},{"first":933,"second":951,"amount":-1},{"first":933,"second":950,"amount":0},{"first":933,"second":968,"amount":-1},{"first":933,"second":969,"amount":-1},{"first":933,"second":946,"amount":0},{"first":933,"second":957,"amount":0},{"first":933,"second":933,"amount":0},{"first":933,"second":920,"amount":-1},{"first":933,"second":927,"amount":-1},{"first":933,"second":913,"amount":-2},{"first":933,"second":916,"amount":-2},{"first":933,"second":934,"amount":-1},{"first":933,"second":923,"amount":-2},{"first":933,"second":935,"amount":0},{"first":933,"second":229,"amount":-1},{"first":933,"second":197,"amount":-2},{"first":933,"second":230,"amount":-1},{"first":933,"second":198,"amount":-2},{"first":933,"second":248,"amount":-1},{"first":933,"second":216,"amount":-1},{"first":920,"second":65,"amount":0},{"first":920,"second":90,"amount":0},{"first":920,"second":84,"amount":-1},{"first":920,"second":89,"amount":-1},{"first":920,"second":88,"amount":0},{"first":920,"second":86,"amount":0},{"first":920,"second":44,"amount":-2},{"first":920,"second":46,"amount":-2},{"first":920,"second":1040,"amount":0},{"first":920,"second":1044,"amount":-1},{"first":920,"second":1046,"amount":0},{"first":920,"second":1051,"amount":-1},{"first":920,"second":1058,"amount":-1},{"first":920,"second":1061,"amount":0},{"first":920,"second":1068,"amount":-1},{"first":920,"second":196,"amount":0},{"first":920,"second":955,"amount":0},{"first":920,"second":933,"amount":-1},{"first":920,"second":913,"amount":0},{"first":920,"second":931,"amount":0},{"first":920,"second":916,"amount":0},{"first":920,"second":926,"amount":0},{"first":920,"second":923,"amount":0},{"first":920,"second":918,"amount":0},{"first":920,"second":935,"amount":0},{"first":920,"second":197,"amount":0},{"first":920,"second":198,"amount":-1},{"first":921,"second":65,"amount":0},{"first":921,"second":84,"amount":-1},{"first":921,"second":89,"amount":-1},{"first":921,"second":88,"amount":0},{"first":921,"second":1040,"amount":0},{"first":921,"second":1044,"amount":0},{"first":921,"second":1076,"amount":0},{"first":921,"second":1046,"amount":0},{"first":921,"second":1051,"amount":0},{"first":921,"second":1083,"amount":0},{"first":921,"second":1058,"amount":-1},{"first":921,"second":1061,"amount":0},{"first":921,"second":1063,"amount":-1},{"first":921,"second":1095,"amount":-1},{"first":921,"second":196,"amount":0},{"first":921,"second":933,"amount":-1},{"first":921,"second":913,"amount":0},{"first":921,"second":916,"amount":0},{"first":921,"second":923,"amount":0},{"first":921,"second":935,"amount":0},{"first":921,"second":197,"amount":0},{"first":927,"second":65,"amount":0},{"first":927,"second":90,"amount":0},{"first":927,"second":84,"amount":-1},{"first":927,"second":89,"amount":-1},{"first":927,"second":88,"amount":0},{"first":927,"second":86,"amount":0},{"first":927,"second":44,"amount":-2},{"first":927,"second":46,"amount":-2},{"first":927,"second":1040,"amount":0},{"first":927,"second":1044,"amount":-1},{"first":927,"second":1046,"amount":0},{"first":927,"second":1051,"amount":-1},{"first":927,"second":1058,"amount":-1},{"first":927,"second":1061,"amount":0},{"first":927,"second":1068,"amount":-1},{"first":927,"second":196,"amount":0},{"first":927,"second":955,"amount":0},{"first":927,"second":933,"amount":-1},{"first":927,"second":913,"amount":0},{"first":927,"second":931,"amount":0},{"first":927,"second":916,"amount":0},{"first":927,"second":926,"amount":0},{"first":927,"second":923,"amount":0},{"first":927,"second":918,"amount":0},{"first":927,"second":935,"amount":0},{"first":927,"second":197,"amount":0},{"first":927,"second":198,"amount":-1},{"first":913,"second":122,"amount":0},{"first":913,"second":116,"amount":0},{"first":913,"second":121,"amount":-1},{"first":913,"second":117,"amount":0},{"first":913,"second":111,"amount":0},{"first":913,"second":119,"amount":-1},{"first":913,"second":118,"amount":-1},{"first":913,"second":84,"amount":-3},{"first":913,"second":89,"amount":-2},{"first":913,"second":85,"amount":0},{"first":913,"second":79,"amount":0},{"first":913,"second":81,"amount":0},{"first":913,"second":71,"amount":0},{"first":913,"second":87,"amount":-1},{"first":913,"second":67,"amount":0},{"first":913,"second":86,"amount":-2},{"first":913,"second":63,"amount":-1},{"first":913,"second":34,"amount":-2},{"first":913,"second":39,"amount":-2},{"first":913,"second":1044,"amount":0},{"first":913,"second":1051,"amount":0},{"first":913,"second":1083,"amount":0},{"first":913,"second":1054,"amount":0},{"first":913,"second":1086,"amount":0},{"first":913,"second":1057,"amount":0},{"first":913,"second":1058,"amount":-3},{"first":913,"second":1090,"amount":-1},{"first":913,"second":1091,"amount":-1},{"first":913,"second":1063,"amount":-1},{"first":913,"second":1095,"amount":-2},{"first":913,"second":1068,"amount":-1},{"first":913,"second":252,"amount":0},{"first":913,"second":220,"amount":0},{"first":913,"second":246,"amount":0},{"first":913,"second":214,"amount":0},{"first":913,"second":964,"amount":-1},{"first":913,"second":965,"amount":0},{"first":913,"second":959,"amount":0},{"first":913,"second":947,"amount":-1},{"first":913,"second":955,"amount":0},{"first":913,"second":957,"amount":-1},{"first":913,"second":933,"amount":-2},{"first":913,"second":920,"amount":0},{"first":913,"second":927,"amount":0},{"first":913,"second":934,"amount":-1},{"first":913,"second":936,"amount":-1},{"first":913,"second":216,"amount":0},{"first":931,"second":79,"amount":-1},{"first":931,"second":81,"amount":-1},{"first":931,"second":71,"amount":-1},{"first":931,"second":67,"amount":-1},{"first":931,"second":1054,"amount":-1},{"first":931,"second":1057,"amount":-1},{"first":931,"second":214,"amount":-1},{"first":931,"second":955,"amount":0},{"first":931,"second":920,"amount":-1},{"first":931,"second":927,"amount":-1},{"first":931,"second":934,"amount":-1},{"first":931,"second":216,"amount":-1},{"first":916,"second":122,"amount":0},{"first":916,"second":116,"amount":0},{"first":916,"second":121,"amount":-1},{"first":916,"second":117,"amount":0},{"first":916,"second":111,"amount":0},{"first":916,"second":119,"amount":-1},{"first":916,"second":118,"amount":-1},{"first":916,"second":84,"amount":-3},{"first":916,"second":89,"amount":-2},{"first":916,"second":85,"amount":0},{"first":916,"second":79,"amount":0},{"first":916,"second":81,"amount":0},{"first":916,"second":71,"amount":0},{"first":916,"second":87,"amount":-1},{"first":916,"second":67,"amount":0},{"first":916,"second":86,"amount":-2},{"first":916,"second":63,"amount":-1},{"first":916,"second":34,"amount":-2},{"first":916,"second":39,"amount":-2},{"first":916,"second":1044,"amount":0},{"first":916,"second":1051,"amount":0},{"first":916,"second":1083,"amount":0},{"first":916,"second":1054,"amount":0},{"first":916,"second":1086,"amount":0},{"first":916,"second":1057,"amount":0},{"first":916,"second":1058,"amount":-3},{"first":916,"second":1090,"amount":-1},{"first":916,"second":1091,"amount":-1},{"first":916,"second":1063,"amount":-1},{"first":916,"second":1095,"amount":-2},{"first":916,"second":1068,"amount":-1},{"first":916,"second":252,"amount":0},{"first":916,"second":220,"amount":0},{"first":916,"second":246,"amount":0},{"first":916,"second":214,"amount":0},{"first":916,"second":964,"amount":-1},{"first":916,"second":965,"amount":0},{"first":916,"second":959,"amount":0},{"first":916,"second":947,"amount":-1},{"first":916,"second":955,"amount":0},{"first":916,"second":957,"amount":-1},{"first":916,"second":933,"amount":-2},{"first":916,"second":920,"amount":0},{"first":916,"second":927,"amount":0},{"first":916,"second":934,"amount":-1},{"first":916,"second":936,"amount":-1},{"first":916,"second":216,"amount":0},{"first":934,"second":65,"amount":-1},{"first":934,"second":89,"amount":-1},{"first":934,"second":88,"amount":-1},{"first":934,"second":1040,"amount":-1},{"first":934,"second":1046,"amount":-1},{"first":934,"second":1061,"amount":-1},{"first":934,"second":196,"amount":-1},{"first":934,"second":955,"amount":-1},{"first":934,"second":933,"amount":-1},{"first":934,"second":913,"amount":-1},{"first":934,"second":916,"amount":-1},{"first":934,"second":923,"amount":-1},{"first":934,"second":935,"amount":-1},{"first":934,"second":197,"amount":-1},{"first":915,"second":97,"amount":-4},{"first":915,"second":122,"amount":-3},{"first":915,"second":101,"amount":-4},{"first":915,"second":114,"amount":-3},{"first":915,"second":121,"amount":-3},{"first":915,"second":117,"amount":-4},{"first":915,"second":111,"amount":-4},{"first":915,"second":112,"amount":-4},{"first":915,"second":113,"amount":-4},{"first":915,"second":115,"amount":-4},{"first":915,"second":100,"amount":-4},{"first":915,"second":103,"amount":-4},{"first":915,"second":109,"amount":-4},{"first":915,"second":119,"amount":-2},{"first":915,"second":120,"amount":-3},{"first":915,"second":99,"amount":-4},{"first":915,"second":118,"amount":-3},{"first":915,"second":110,"amount":-4},{"first":915,"second":65,"amount":-4},{"first":915,"second":84,"amount":0},{"first":915,"second":89,"amount":0},{"first":915,"second":79,"amount":-1},{"first":915,"second":81,"amount":-1},{"first":915,"second":83,"amount":-1},{"first":915,"second":71,"amount":-1},{"first":915,"second":87,"amount":0},{"first":915,"second":67,"amount":-1},{"first":915,"second":86,"amount":0},{"first":915,"second":45,"amount":-8},{"first":915,"second":8211,"amount":-8},{"first":915,"second":44,"amount":-8},{"first":915,"second":46,"amount":-8},{"first":915,"second":1040,"amount":-4},{"first":915,"second":1072,"amount":-4},{"first":915,"second":1073,"amount":-1},{"first":915,"second":1074,"amount":-4},{"first":915,"second":1075,"amount":-4},{"first":915,"second":1044,"amount":-4},{"first":915,"second":1076,"amount":-5},{"first":915,"second":1077,"amount":-4},{"first":915,"second":1105,"amount":-4},{"first":915,"second":1078,"amount":-3},{"first":915,"second":1079,"amount":-5},{"first":915,"second":1080,"amount":-4},{"first":915,"second":1081,"amount":-4},{"first":915,"second":1082,"amount":-4},{"first":915,"second":1051,"amount":-2},{"first":915,"second":1083,"amount":-5},{"first":915,"second":1084,"amount":-4},{"first":915,"second":1085,"amount":-4},{"first":915,"second":1054,"amount":-1},{"first":915,"second":1086,"amount":-4},{"first":915,"second":1087,"amount":-4},{"first":915,"second":1088,"amount":-4},{"first":915,"second":1057,"amount":-1},{"first":915,"second":1089,"amount":-4},{"first":915,"second":1058,"amount":0},{"first":915,"second":1090,"amount":-3},{"first":915,"second":1091,"amount":-3},{"first":915,"second":1092,"amount":-4},{"first":915,"second":1093,"amount":-3},{"first":915,"second":1094,"amount":-4},{"first":915,"second":1095,"amount":-5},{"first":915,"second":1096,"amount":-4},{"first":915,"second":1097,"amount":-4},{"first":915,"second":1099,"amount":-5},{"first":915,"second":1068,"amount":0},{"first":915,"second":1100,"amount":-4},{"first":915,"second":1101,"amount":-5},{"first":915,"second":1102,"amount":-4},{"first":915,"second":1103,"amount":-5},{"first":915,"second":252,"amount":-4},{"first":915,"second":246,"amount":-4},{"first":915,"second":214,"amount":-1},{"first":915,"second":228,"amount":-4},{"first":915,"second":196,"amount":-4},{"first":915,"second":241,"amount":-4},{"first":915,"second":962,"amount":-4},{"first":915,"second":949,"amount":-5},{"first":915,"second":961,"amount":-6},{"first":915,"second":964,"amount":-4},{"first":915,"second":965,"amount":-4},{"first":915,"second":953,"amount":-6},{"first":915,"second":959,"amount":-4},{"first":915,"second":960,"amount":-5},{"first":915,"second":945,"amount":-4},{"first":915,"second":963,"amount":-4},{"first":915,"second":948,"amount":-2},{"first":915,"second":966,"amount":-6},{"first":915,"second":947,"amount":-3},{"first":915,"second":951,"amount":-4},{"first":915,"second":968,"amount":-5},{"first":915,"second":969,"amount":-6},{"first":915,"second":957,"amount":-3},{"first":915,"second":933,"amount":0},{"first":915,"second":920,"amount":-1},{"first":915,"second":927,"amount":-1},{"first":915,"second":913,"amount":-4},{"first":915,"second":916,"amount":-4},{"first":915,"second":934,"amount":-3},{"first":915,"second":923,"amount":-4},{"first":915,"second":229,"amount":-4},{"first":915,"second":197,"amount":-4},{"first":915,"second":230,"amount":-4},{"first":915,"second":198,"amount":-7},{"first":915,"second":248,"amount":-4},{"first":915,"second":216,"amount":-1},{"first":919,"second":65,"amount":0},{"first":919,"second":84,"amount":-1},{"first":919,"second":89,"amount":-1},{"first":919,"second":88,"amount":0},{"first":919,"second":1040,"amount":0},{"first":919,"second":1044,"amount":0},{"first":919,"second":1076,"amount":0},{"first":919,"second":1046,"amount":0},{"first":919,"second":1051,"amount":0},{"first":919,"second":1083,"amount":0},{"first":919,"second":1058,"amount":-1},{"first":919,"second":1061,"amount":0},{"first":919,"second":1063,"amount":-1},{"first":919,"second":1095,"amount":-1},{"first":919,"second":196,"amount":0},{"first":919,"second":933,"amount":-1},{"first":919,"second":913,"amount":0},{"first":919,"second":916,"amount":0},{"first":919,"second":923,"amount":0},{"first":919,"second":935,"amount":0},{"first":919,"second":197,"amount":0},{"first":926,"second":79,"amount":0},{"first":926,"second":81,"amount":0},{"first":926,"second":71,"amount":0},{"first":926,"second":67,"amount":0},{"first":926,"second":1054,"amount":0},{"first":926,"second":1057,"amount":0},{"first":926,"second":214,"amount":0},{"first":926,"second":955,"amount":0},{"first":926,"second":920,"amount":0},{"first":926,"second":927,"amount":0},{"first":926,"second":216,"amount":0},{"first":922,"second":101,"amount":-1},{"first":922,"second":121,"amount":-1},{"first":922,"second":117,"amount":0},{"first":922,"second":111,"amount":-1},{"first":922,"second":112,"amount":0},{"first":922,"second":113,"amount":-1},{"first":922,"second":100,"amount":-1},{"first":922,"second":103,"amount":-1},{"first":922,"second":109,"amount":0},{"first":922,"second":119,"amount":-1},{"first":922,"second":99,"amount":-1},{"first":922,"second":118,"amount":-1},{"first":922,"second":110,"amount":0},{"first":922,"second":79,"amount":-1},{"first":922,"second":81,"amount":-1},{"first":922,"second":71,"amount":-1},{"first":922,"second":67,"amount":-1},{"first":922,"second":45,"amount":-1},{"first":922,"second":8211,"amount":-1},{"first":922,"second":1073,"amount":-1},{"first":922,"second":1075,"amount":0},{"first":922,"second":1077,"amount":-1},{"first":922,"second":1105,"amount":-1},{"first":922,"second":1080,"amount":0},{"first":922,"second":1081,"amount":0},{"first":922,"second":1082,"amount":0},{"first":922,"second":1084,"amount":0},{"first":922,"second":1085,"amount":0},{"first":922,"second":1054,"amount":-1},{"first":922,"second":1086,"amount":-1},{"first":922,"second":1087,"amount":0},{"first":922,"second":1088,"amount":0},{"first":922,"second":1057,"amount":-1},{"first":922,"second":1089,"amount":-1},{"first":922,"second":1090,"amount":-1},{"first":922,"second":1091,"amount":-1},{"first":922,"second":1092,"amount":-1},{"first":922,"second":1094,"amount":0},{"first":922,"second":1095,"amount":-2},{"first":922,"second":1096,"amount":0},{"first":922,"second":1097,"amount":0},{"first":922,"second":1100,"amount":0},{"first":922,"second":1102,"amount":0},{"first":922,"second":252,"amount":0},{"first":922,"second":246,"amount":-1},{"first":922,"second":214,"amount":-1},{"first":922,"second":241,"amount":0},{"first":922,"second":962,"amount":-1},{"first":922,"second":964,"amount":-2},{"first":922,"second":965,"amount":0},{"first":922,"second":959,"amount":-1},{"first":922,"second":945,"amount":-1},{"first":922,"second":963,"amount":-1},{"first":922,"second":947,"amount":-1},{"first":922,"second":951,"amount":0},{"first":922,"second":957,"amount":-1},{"first":922,"second":920,"amount":-1},{"first":922,"second":927,"amount":-1},{"first":922,"second":934,"amount":-1},{"first":922,"second":216,"amount":-1},{"first":923,"second":122,"amount":0},{"first":923,"second":116,"amount":0},{"first":923,"second":121,"amount":-1},{"first":923,"second":117,"amount":0},{"first":923,"second":111,"amount":0},{"first":923,"second":119,"amount":-1},{"first":923,"second":118,"amount":-1},{"first":923,"second":84,"amount":-3},{"first":923,"second":89,"amount":-2},{"first":923,"second":85,"amount":0},{"first":923,"second":79,"amount":0},{"first":923,"second":81,"amount":0},{"first":923,"second":71,"amount":0},{"first":923,"second":87,"amount":-1},{"first":923,"second":67,"amount":0},{"first":923,"second":86,"amount":-2},{"first":923,"second":63,"amount":-1},{"first":923,"second":34,"amount":-2},{"first":923,"second":39,"amount":-2},{"first":923,"second":1044,"amount":0},{"first":923,"second":1051,"amount":0},{"first":923,"second":1083,"amount":0},{"first":923,"second":1054,"amount":0},{"first":923,"second":1086,"amount":0},{"first":923,"second":1057,"amount":0},{"first":923,"second":1058,"amount":-3},{"first":923,"second":1090,"amount":-1},{"first":923,"second":1091,"amount":-1},{"first":923,"second":1063,"amount":-1},{"first":923,"second":1095,"amount":-2},{"first":923,"second":1068,"amount":-1},{"first":923,"second":252,"amount":0},{"first":923,"second":220,"amount":0},{"first":923,"second":246,"amount":0},{"first":923,"second":214,"amount":0},{"first":923,"second":964,"amount":-1},{"first":923,"second":965,"amount":0},{"first":923,"second":959,"amount":0},{"first":923,"second":947,"amount":-1},{"first":923,"second":955,"amount":0},{"first":923,"second":957,"amount":-1},{"first":923,"second":933,"amount":-2},{"first":923,"second":920,"amount":0},{"first":923,"second":927,"amount":0},{"first":923,"second":934,"amount":-1},{"first":923,"second":936,"amount":-1},{"first":923,"second":216,"amount":0},{"first":918,"second":101,"amount":0},{"first":918,"second":121,"amount":-1},{"first":918,"second":117,"amount":0},{"first":918,"second":111,"amount":0},{"first":918,"second":113,"amount":0},{"first":918,"second":100,"amount":0},{"first":918,"second":103,"amount":0},{"first":918,"second":119,"amount":-1},{"first":918,"second":99,"amount":0},{"first":918,"second":118,"amount":-1},{"first":918,"second":65,"amount":0},{"first":918,"second":79,"amount":-1},{"first":918,"second":81,"amount":-1},{"first":918,"second":71,"amount":-1},{"first":918,"second":67,"amount":-1},{"first":918,"second":1040,"amount":0},{"first":918,"second":1077,"amount":0},{"first":918,"second":1105,"amount":0},{"first":918,"second":1054,"amount":-1},{"first":918,"second":1086,"amount":0},{"first":918,"second":1057,"amount":-1},{"first":918,"second":1089,"amount":0},{"first":918,"second":1091,"amount":-1},{"first":918,"second":1092,"amount":0},{"first":918,"second":252,"amount":0},{"first":918,"second":246,"amount":0},{"first":918,"second":214,"amount":-1},{"first":918,"second":196,"amount":0},{"first":918,"second":962,"amount":0},{"first":918,"second":965,"amount":0},{"first":918,"second":959,"amount":0},{"first":918,"second":945,"amount":0},{"first":918,"second":963,"amount":0},{"first":918,"second":947,"amount":-1},{"first":918,"second":968,"amount":-1},{"first":918,"second":957,"amount":-1},{"first":918,"second":920,"amount":-1},{"first":918,"second":927,"amount":-1},{"first":918,"second":913,"amount":0},{"first":918,"second":916,"amount":0},{"first":918,"second":934,"amount":-1},{"first":918,"second":923,"amount":0},{"first":918,"second":197,"amount":0},{"first":918,"second":216,"amount":-1},{"first":935,"second":101,"amount":-1},{"first":935,"second":121,"amount":-1},{"first":935,"second":117,"amount":0},{"first":935,"second":111,"amount":0},{"first":935,"second":113,"amount":-1},{"first":935,"second":100,"amount":-1},{"first":935,"second":103,"amount":-1},{"first":935,"second":99,"amount":-1},{"first":935,"second":118,"amount":-1},{"first":935,"second":79,"amount":-1},{"first":935,"second":81,"amount":-1},{"first":935,"second":71,"amount":-1},{"first":935,"second":67,"amount":-1},{"first":935,"second":86,"amount":0},{"first":935,"second":45,"amount":-1},{"first":935,"second":8211,"amount":-1},{"first":935,"second":1073,"amount":0},{"first":935,"second":1044,"amount":0},{"first":935,"second":1077,"amount":-1},{"first":935,"second":1105,"amount":-1},{"first":935,"second":1051,"amount":0},{"first":935,"second":1083,"amount":0},{"first":935,"second":1054,"amount":-1},{"first":935,"second":1086,"amount":0},{"first":935,"second":1057,"amount":-1},{"first":935,"second":1089,"amount":-1},{"first":935,"second":1090,"amount":-1},{"first":935,"second":1091,"amount":-1},{"first":935,"second":1092,"amount":-1},{"first":935,"second":1095,"amount":-1},{"first":935,"second":252,"amount":0},{"first":935,"second":246,"amount":0},{"first":935,"second":214,"amount":-1},{"first":935,"second":962,"amount":-1},{"first":935,"second":964,"amount":-1},{"first":935,"second":965,"amount":0},{"first":935,"second":952,"amount":0},{"first":935,"second":959,"amount":0},{"first":935,"second":945,"amount":-1},{"first":935,"second":963,"amount":-1},{"first":935,"second":948,"amount":0},{"first":935,"second":966,"amount":-1},{"first":935,"second":947,"amount":-1},{"first":935,"second":955,"amount":0},{"first":935,"second":968,"amount":-1},{"first":935,"second":969,"amount":0},{"first":935,"second":957,"amount":-1},{"first":935,"second":920,"amount":-1},{"first":935,"second":927,"amount":-1},{"first":935,"second":934,"amount":-1},{"first":935,"second":216,"amount":-1},{"first":936,"second":65,"amount":-1},{"first":936,"second":44,"amount":-5},{"first":936,"second":46,"amount":-5},{"first":936,"second":1040,"amount":-1},{"first":936,"second":196,"amount":-1},{"first":936,"second":961,"amount":0},{"first":936,"second":913,"amount":-1},{"first":936,"second":916,"amount":-1},{"first":936,"second":923,"amount":-1},{"first":936,"second":197,"amount":-1},{"first":914,"second":84,"amount":-1},{"first":914,"second":89,"amount":-1},{"first":914,"second":86,"amount":0},{"first":914,"second":1058,"amount":-1},{"first":914,"second":1059,"amount":0},{"first":914,"second":933,"amount":-1},{"first":925,"second":65,"amount":0},{"first":925,"second":84,"amount":-1},{"first":925,"second":89,"amount":-1},{"first":925,"second":88,"amount":0},{"first":925,"second":1040,"amount":0},{"first":925,"second":1044,"amount":0},{"first":925,"second":1076,"amount":0},{"first":925,"second":1046,"amount":0},{"first":925,"second":1051,"amount":0},{"first":925,"second":1083,"amount":0},{"first":925,"second":1058,"amount":-1},{"first":925,"second":1061,"amount":0},{"first":925,"second":1063,"amount":-1},{"first":925,"second":1095,"amount":-1},{"first":925,"second":196,"amount":0},{"first":925,"second":933,"amount":-1},{"first":925,"second":913,"amount":0},{"first":925,"second":916,"amount":0},{"first":925,"second":923,"amount":0},{"first":925,"second":935,"amount":0},{"first":925,"second":197,"amount":0},{"first":924,"second":65,"amount":0},{"first":924,"second":84,"amount":-1},{"first":924,"second":89,"amount":-1},{"first":924,"second":88,"amount":0},{"first":924,"second":1040,"amount":0},{"first":924,"second":1044,"amount":0},{"first":924,"second":1076,"amount":0},{"first":924,"second":1046,"amount":0},{"first":924,"second":1051,"amount":0},{"first":924,"second":1083,"amount":0},{"first":924,"second":1058,"amount":-1},{"first":924,"second":1061,"amount":0},{"first":924,"second":1063,"amount":-1},{"first":924,"second":1095,"amount":-1},{"first":924,"second":196,"amount":0},{"first":924,"second":933,"amount":-1},{"first":924,"second":913,"amount":0},{"first":924,"second":916,"amount":0},{"first":924,"second":923,"amount":0},{"first":924,"second":935,"amount":0},{"first":924,"second":197,"amount":0},{"first":229,"second":121,"amount":0},{"first":229,"second":118,"amount":0},{"first":229,"second":34,"amount":-1},{"first":229,"second":39,"amount":-1},{"first":229,"second":1090,"amount":0},{"first":229,"second":1091,"amount":0},{"first":229,"second":947,"amount":0},{"first":229,"second":957,"amount":0},{"first":197,"second":122,"amount":0},{"first":197,"second":116,"amount":0},{"first":197,"second":121,"amount":-1},{"first":197,"second":117,"amount":0},{"first":197,"second":111,"amount":0},{"first":197,"second":119,"amount":-1},{"first":197,"second":118,"amount":-1},{"first":197,"second":84,"amount":-3},{"first":197,"second":89,"amount":-2},{"first":197,"second":85,"amount":0},{"first":197,"second":79,"amount":0},{"first":197,"second":81,"amount":0},{"first":197,"second":71,"amount":0},{"first":197,"second":87,"amount":-1},{"first":197,"second":67,"amount":0},{"first":197,"second":86,"amount":-2},{"first":197,"second":63,"amount":-1},{"first":197,"second":34,"amount":-2},{"first":197,"second":39,"amount":-2},{"first":197,"second":1044,"amount":0},{"first":197,"second":1051,"amount":0},{"first":197,"second":1083,"amount":0},{"first":197,"second":1054,"amount":0},{"first":197,"second":1086,"amount":0},{"first":197,"second":1057,"amount":0},{"first":197,"second":1058,"amount":-3},{"first":197,"second":1090,"amount":-1},{"first":197,"second":1091,"amount":-1},{"first":197,"second":1063,"amount":-1},{"first":197,"second":1095,"amount":-2},{"first":197,"second":1068,"amount":-1},{"first":197,"second":252,"amount":0},{"first":197,"second":220,"amount":0},{"first":197,"second":246,"amount":0},{"first":197,"second":214,"amount":0},{"first":197,"second":964,"amount":-1},{"first":197,"second":965,"amount":0},{"first":197,"second":959,"amount":0},{"first":197,"second":947,"amount":-1},{"first":197,"second":955,"amount":0},{"first":197,"second":957,"amount":-1},{"first":197,"second":933,"amount":-2},{"first":197,"second":920,"amount":0},{"first":197,"second":927,"amount":0},{"first":197,"second":934,"amount":-1},{"first":197,"second":936,"amount":-1},{"first":197,"second":216,"amount":0}]}
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AlignItems: () => (/* binding */ __webpack_exports__AlignItems),
+/* harmony export */   Block: () => (/* binding */ __webpack_exports__Block),
+/* harmony export */   ContentDirection: () => (/* binding */ __webpack_exports__ContentDirection),
+/* harmony export */   FontLibrary: () => (/* binding */ __webpack_exports__FontLibrary),
+/* harmony export */   InlineBlock: () => (/* binding */ __webpack_exports__InlineBlock),
+/* harmony export */   JustifyContent: () => (/* binding */ __webpack_exports__JustifyContent),
+/* harmony export */   Keyboard: () => (/* binding */ __webpack_exports__Keyboard),
+/* harmony export */   Text: () => (/* binding */ __webpack_exports__Text),
+/* harmony export */   TextAlign: () => (/* binding */ __webpack_exports__TextAlign),
+/* harmony export */   Whitespace: () => (/* binding */ __webpack_exports__Whitespace),
+/* harmony export */   "default": () => (/* binding */ __webpack_exports__default),
+/* harmony export */   update: () => (/* binding */ __webpack_exports__update)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+
+/******/ // The require scope
+/******/ var __nested_webpack_require_103__ = {};
+/******/ 
+/************************************************************************/
+/******/ /* webpack/runtime/define property getters */
+/******/ (() => {
+/******/ 	// define getter functions for harmony exports
+/******/ 	__nested_webpack_require_103__.d = (exports, definition) => {
+/******/ 		for(var key in definition) {
+/******/ 			if(__nested_webpack_require_103__.o(definition, key) && !__nested_webpack_require_103__.o(exports, key)) {
+/******/ 				Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 			}
+/******/ 		}
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/hasOwnProperty shorthand */
+/******/ (() => {
+/******/ 	__nested_webpack_require_103__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/make namespace object */
+/******/ (() => {
+/******/ 	// define __esModule on exports
+/******/ 	__nested_webpack_require_103__.r = (exports) => {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/ })();
+/******/ 
+/************************************************************************/
+var __nested_webpack_exports__ = {};
+
+// EXPORTS
+__nested_webpack_require_103__.d(__nested_webpack_exports__, {
+  "g1": () => (/* reexport */ AlignItems_namespaceObject),
+  "gO": () => (/* reexport */ Block),
+  "km": () => (/* reexport */ ContentDirection_namespaceObject),
+  "zV": () => (/* reexport */ core_FontLibrary),
+  "ol": () => (/* reexport */ InlineBlock),
+  "uM": () => (/* reexport */ JustifyContent_namespaceObject),
+  "N1": () => (/* reexport */ Keyboard),
+  "xv": () => (/* reexport */ Text),
+  "PH": () => (/* reexport */ TextAlign_namespaceObject),
+  "UH": () => (/* reexport */ Whitespace_namespaceObject),
+  "ZP": () => (/* binding */ three_mesh_ui),
+  "Vx": () => (/* binding */ update)
+});
+
+// NAMESPACE OBJECT: ./src/utils/block-layout/ContentDirection.js
+var ContentDirection_namespaceObject = {};
+__nested_webpack_require_103__.r(ContentDirection_namespaceObject);
+__nested_webpack_require_103__.d(ContentDirection_namespaceObject, {
+  "COLUMN": () => (COLUMN),
+  "COLUMN_REVERSE": () => (COLUMN_REVERSE),
+  "ROW": () => (ROW),
+  "ROW_REVERSE": () => (ROW_REVERSE),
+  "contentDirection": () => (contentDirection)
+});
+
+// NAMESPACE OBJECT: ./src/utils/block-layout/AlignItems.js
+var AlignItems_namespaceObject = {};
+__nested_webpack_require_103__.r(AlignItems_namespaceObject);
+__nested_webpack_require_103__.d(AlignItems_namespaceObject, {
+  "CENTER": () => (CENTER),
+  "END": () => (END),
+  "START": () => (START),
+  "STRETCH": () => (STRETCH),
+  "alignItems": () => (alignItems),
+  "warnAboutDeprecatedAlignItems": () => (warnAboutDeprecatedAlignItems)
+});
+
+// NAMESPACE OBJECT: ./src/utils/block-layout/JustifyContent.js
+var JustifyContent_namespaceObject = {};
+__nested_webpack_require_103__.r(JustifyContent_namespaceObject);
+__nested_webpack_require_103__.d(JustifyContent_namespaceObject, {
+  "CENTER": () => (JustifyContent_CENTER),
+  "END": () => (JustifyContent_END),
+  "SPACE_AROUND": () => (SPACE_AROUND),
+  "SPACE_BETWEEN": () => (SPACE_BETWEEN),
+  "SPACE_EVENLY": () => (SPACE_EVENLY),
+  "START": () => (JustifyContent_START),
+  "justifyContent": () => (justifyContent)
+});
+
+// NAMESPACE OBJECT: ./src/utils/inline-layout/Whitespace.js
+var Whitespace_namespaceObject = {};
+__nested_webpack_require_103__.r(Whitespace_namespaceObject);
+__nested_webpack_require_103__.d(Whitespace_namespaceObject, {
+  "NORMAL": () => (NORMAL),
+  "NOWRAP": () => (NOWRAP),
+  "PRE": () => (PRE),
+  "PRE_LINE": () => (PRE_LINE),
+  "PRE_WRAP": () => (PRE_WRAP),
+  "WHITE_CHARS": () => (WHITE_CHARS),
+  "collapseWhitespaceOnInlines": () => (collapseWhitespaceOnInlines),
+  "collapseWhitespaceOnString": () => (collapseWhitespaceOnString),
+  "newlineBreakability": () => (newlineBreakability),
+  "shouldBreak": () => (Whitespace_shouldBreak)
+});
+
+// NAMESPACE OBJECT: ./src/utils/inline-layout/TextAlign.js
+var TextAlign_namespaceObject = {};
+__nested_webpack_require_103__.r(TextAlign_namespaceObject);
+__nested_webpack_require_103__.d(TextAlign_namespaceObject, {
+  "CENTER": () => (TextAlign_CENTER),
+  "JUSTIFY": () => (JUSTIFY),
+  "JUSTIFY_CENTER": () => (JUSTIFY_CENTER),
+  "JUSTIFY_LEFT": () => (JUSTIFY_LEFT),
+  "JUSTIFY_RIGHT": () => (JUSTIFY_RIGHT),
+  "LEFT": () => (LEFT),
+  "RIGHT": () => (RIGHT),
+  "textAlign": () => (textAlign)
+});
+
+;// CONCATENATED MODULE: external "three"
+var x = y => { var x = {}; __nested_webpack_require_103__.d(x, y); return x; }
+var y = x => () => x
+const external_three_namespaceObject = x({ ["BufferAttribute"]: () => three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute, ["BufferGeometry"]: () => three__WEBPACK_IMPORTED_MODULE_0__.BufferGeometry, ["CanvasTexture"]: () => three__WEBPACK_IMPORTED_MODULE_0__.CanvasTexture, ["Color"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Color, ["FileLoader"]: () => three__WEBPACK_IMPORTED_MODULE_0__.FileLoader, ["LinearFilter"]: () => three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter, ["Mesh"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Mesh, ["Object3D"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Object3D, ["Plane"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Plane, ["PlaneGeometry"]: () => three__WEBPACK_IMPORTED_MODULE_0__.PlaneGeometry, ["ShaderMaterial"]: () => three__WEBPACK_IMPORTED_MODULE_0__.ShaderMaterial, ["TextureLoader"]: () => three__WEBPACK_IMPORTED_MODULE_0__.TextureLoader, ["Vector2"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Vector2, ["Vector3"]: () => three__WEBPACK_IMPORTED_MODULE_0__.Vector3 });
+;// CONCATENATED MODULE: ./src/utils/block-layout/ContentDirection.js
+const ROW = "row";
+const ROW_REVERSE = "row-reverse";
+const COLUMN = "column";
+const COLUMN_REVERSE = "column-reverse";
+
+function contentDirection( container, DIRECTION, startPos, REVERSE ){
+
+	// end to end children
+	let accu = startPos;
+
+	let childGetSize = "getWidth";
+	let axisPrimary = "x";
+	let axisSecondary = "y";
+
+	if( DIRECTION.indexOf( COLUMN ) === 0 ){
+
+		childGetSize = "getHeight";
+		axisPrimary = "y";
+		axisSecondary = "x";
+
+	}
+
+	// Refactor reduce into fori in order to get rid of this keyword
+	for ( let i = 0; i < container.childrenBoxes.length; i++ ) {
+
+		const child = container.childrenBoxes[ i ];
+
+		const CHILD_ID = child.id;
+		const CHILD_SIZE = child[childGetSize]();
+		const CHILD_MARGIN = child.margin || 0;
+
+		accu += CHILD_MARGIN * REVERSE;
+
+		container.childrenPos[ CHILD_ID ] = {
+			[axisPrimary]: accu + ( ( CHILD_SIZE / 2 ) * REVERSE ),
+			[axisSecondary]: 0
+		};
+
+		// update accu for next children
+		accu += ( REVERSE * ( CHILD_SIZE + CHILD_MARGIN ) );
+
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/utils/block-layout/AlignItems.js
+
+
+
+const START = "start";
+const CENTER = "center";
+const END = "end";
+const STRETCH = "stretch"; // Still bit experimental
+
+function alignItems( boxComponent, DIRECTION){
+
+	const ALIGNMENT = boxComponent.getAlignItems();
+	if( AVAILABLE_ALIGN_ITEMS.indexOf(ALIGNMENT) === -1 ){
+
+		console.warn( `alignItems === '${ALIGNMENT}' is not supported` );
+
+	}
+
+	let getSizeMethod = "getWidth";
+	let axis = "x";
+	if( DIRECTION.indexOf( ROW ) === 0 ){
+
+		getSizeMethod = "getHeight";
+		axis = "y";
+
+	}
+	const AXIS_TARGET = ( boxComponent[getSizeMethod]() / 2 ) - ( boxComponent.padding || 0 );
+
+	boxComponent.childrenBoxes.forEach( ( child ) => {
+
+		let offset;
+
+		switch ( ALIGNMENT ){
+
+			case END:
+			case 'right': // @TODO : Deprecated and will be remove upon 7.x.x
+			case 'bottom': // @TODO : Deprecated and will be remove upon 7.x.x
+				if( DIRECTION.indexOf( ROW ) === 0 ){
+
+					offset = - AXIS_TARGET + ( child[getSizeMethod]() / 2 ) + ( child.margin || 0 );
+
+				}else{
+
+					offset = AXIS_TARGET - ( child[getSizeMethod]() / 2 ) - ( child.margin || 0 );
+
+				}
+
+				break;
+
+			case START:
+			case 'left': // @TODO : Deprecated and will be remove upon 7.x.x
+			case 'top': // @TODO : Deprecated and will be remove upon 7.x.x
+				if( DIRECTION.indexOf( ROW ) === 0 ){
+
+					offset = AXIS_TARGET - ( child[getSizeMethod]() / 2 ) - ( child.margin || 0 );
+
+				}else{
+
+					offset = - AXIS_TARGET + ( child[getSizeMethod]() / 2 ) + ( child.margin || 0 );
+
+				}
+
+				break;
+		}
+
+		boxComponent.childrenPos[ child.id ][axis] = offset || 0;
+
+	} );
+
+}
+
+/**
+ * @deprecated
+ * // @TODO: Be remove upon 7.x.x
+ * @param alignment
+ */
+function warnAboutDeprecatedAlignItems( alignment ){
+
+	if( DEPRECATED_ALIGN_ITEMS.indexOf(alignment) !== - 1){
+
+		console.warn(`alignItems === '${alignment}' is deprecated and will be remove in 7.x.x. Fallback are 'start'|'end'`)
+
+	}
+
+}
+
+const AVAILABLE_ALIGN_ITEMS = [
+	START,
+	CENTER,
+	END,
+	STRETCH,
+	'top', // @TODO: Be remove upon 7.x.x
+	'right', // @TODO: Be remove upon 7.x.x
+	'bottom', // @TODO: Be remove upon 7.x.x
+	'left' // @TODO: Be remove upon 7.x.x
+];
+
+// @TODO: Be remove upon 7.x.x
+const DEPRECATED_ALIGN_ITEMS = [
+	'top',
+	'right',
+	'bottom',
+	'left'
+];
+
+
+;// CONCATENATED MODULE: ./src/utils/block-layout/JustifyContent.js
+const JustifyContent_START = "start";
+const JustifyContent_CENTER = "center";
+const JustifyContent_END = "end";
+const SPACE_AROUND = 'space-around';
+const SPACE_BETWEEN = 'space-between';
+const SPACE_EVENLY = 'space-evenly';
+
+function justifyContent( boxComponent, direction, startPos, REVERSE){
+
+	const JUSTIFICATION = boxComponent.getJustifyContent();
+	if ( AVAILABLE_JUSTIFICATIONS.indexOf( JUSTIFICATION ) === -1 ) {
+
+		console.warn( `justifyContent === '${ JUSTIFICATION }' is not supported` );
+
+	}
+
+	const side = direction.indexOf('row') === 0 ? 'width' : 'height'
+	const usedDirectionSpace = boxComponent.getChildrenSideSum( side );
+
+	const INNER_SIZE = side === 'width' ? boxComponent.getInnerWidth() : boxComponent.getInnerHeight();
+	const remainingSpace = INNER_SIZE - usedDirectionSpace;
+
+	// Items Offset
+	const axisOffset = ( startPos * 2 ) - ( usedDirectionSpace * Math.sign( startPos ) );
+	// const axisOffset = ( startPos * 2 ) - ( usedDirectionSpace * REVERSE );
+	const justificationOffset = _getJustificationOffset( JUSTIFICATION, axisOffset );
+
+	// Items margin
+	const justificationMargins = _getJustificationMargin( boxComponent.childrenBoxes, remainingSpace, JUSTIFICATION, REVERSE );
+
+	// Apply
+	const axis = direction.indexOf( 'row' ) === 0 ? "x" : "y"
+	boxComponent.childrenBoxes.forEach( ( child , childIndex ) => {
+
+		boxComponent.childrenPos[ child.id ][axis] -= justificationOffset - justificationMargins[childIndex];
+
+	} );
+}
+
+const AVAILABLE_JUSTIFICATIONS = [
+	JustifyContent_START,
+	JustifyContent_CENTER,
+	JustifyContent_END,
+	SPACE_AROUND,
+	SPACE_BETWEEN,
+	SPACE_EVENLY
+];
+
+/**
+ *
+ * @param {string} justification
+ * @param {number} axisOffset
+ * @returns {number}
+ */
+function _getJustificationOffset( justification, axisOffset ){
+
+	// Only end and center have justification offset
+	switch ( justification ){
+
+		case JustifyContent_END:
+			return axisOffset;
+
+		case JustifyContent_CENTER:
+			return axisOffset / 2;
+	}
+
+	return 0;
+}
+
+/**
+ *
+ * @param items
+ * @param spaceToDistribute
+ * @param justification
+ * @param reverse
+ * @returns {any[]}
+ */
+function _getJustificationMargin( items, spaceToDistribute, justification, reverse ){
+
+	const justificationMargins = Array( items.length ).fill( 0 );
+
+	if ( spaceToDistribute > 0 ) {
+
+		// Only space-*  have justification margin betweem items
+		switch ( justification ) {
+
+			case SPACE_BETWEEN:
+				// only one children would act as start
+				if ( items.length > 1 ) {
+
+					const margin = spaceToDistribute / ( items.length - 1 ) * reverse;
+					// set this margin for any children
+
+					// except for first child
+					justificationMargins[ 0 ] = 0;
+
+					for ( let i = 1; i < items.length; i++ ) {
+
+						justificationMargins[ i ] = margin * i;
+
+					}
+
+				}
+
+				break;
+
+			case SPACE_EVENLY:
+				// only one children would act as start
+				if ( items.length > 1 ) {
+
+					const margin = spaceToDistribute / ( items.length + 1 ) * reverse;
+
+					// set this margin for any children
+					for ( let i = 0; i < items.length; i++ ) {
+
+						justificationMargins[ i ] = margin * ( i + 1 );
+
+					}
+
+				}
+
+				break;
+
+			case SPACE_AROUND:
+				// only one children would act as start
+				if ( items.length > 1 ) {
+
+					const margin = spaceToDistribute / ( items.length ) * reverse;
+
+					const start = margin / 2;
+					justificationMargins[ 0 ] = start;
+
+					// set this margin for any children
+					for ( let i = 1; i < items.length; i++ ) {
+
+						justificationMargins[ i ] = start + margin * i;
+
+					}
+
+				}
+
+				break;
+
+		}
+
+	}
+
+	return justificationMargins;
+
+}
+
+;// CONCATENATED MODULE: ./src/components/core/BoxComponent.js
+/**
+
+Job: Handle everything related to a BoxComponent element dimensioning and positioning
+
+Knows: Parents and children dimensions and positions
+
+It's worth noting that in three-mesh-ui, it's the parent Block that computes
+its children position. A Block can only have either only box components (Block)
+as children, or only inline components (Text, InlineBlock).
+
+ */
+
+
+
+
+
+function BoxComponent( Base ) {
+
+	return class BoxComponent extends Base {
+
+		constructor( options ) {
+
+			super( options );
+
+			this.isBoxComponent = true;
+			this.childrenPos = {};
+
+		}
+
+
+		/** Get width of this component minus its padding */
+		getInnerWidth() {
+
+			const DIRECTION = this.getContentDirection();
+
+			switch ( DIRECTION ) {
+
+				case 'row' :
+				case 'row-reverse' :
+					return this.width - ( this.padding * 2 || 0 ) || this.getChildrenSideSum( 'width' );
+
+				case 'column' :
+				case 'column-reverse' :
+					return this.getHighestChildSizeOn( 'width' );
+
+				default :
+					console.error( `Invalid contentDirection : ${DIRECTION}` );
+					break;
+
+			}
+
+		}
+
+		/** Get height of this component minus its padding */
+		getInnerHeight() {
+
+			const DIRECTION = this.getContentDirection();
+
+			switch ( DIRECTION ) {
+
+				case 'row' :
+				case 'row-reverse' :
+					return this.getHighestChildSizeOn( 'height' );
+
+				case 'column' :
+				case 'column-reverse' :
+					return this.height - ( this.padding * 2 || 0 ) || this.getChildrenSideSum( 'height' );
+
+				default :
+					console.error( `Invalid contentDirection : ${DIRECTION}` );
+					break;
+
+			}
+
+		}
+
+		/** Return the sum of all this component's children sides + their margin */
+		getChildrenSideSum( dimension ) {
+
+			return this.childrenBoxes.reduce( ( accu, child ) => {
+
+				const margin = ( child.margin * 2 ) || 0;
+
+				const CHILD_SIZE = ( dimension === 'width' ) ?
+					( child.getWidth() + margin ) :
+					( child.getHeight() + margin );
+
+				return accu + CHILD_SIZE;
+
+			}, 0 );
+
+		}
+
+		/** Look in parent record what is the instructed position for this component, then set its position */
+		setPosFromParentRecords() {
+
+			if ( this.parentUI && this.parentUI.childrenPos[ this.id ] ) {
+
+				this.position.x = ( this.parentUI.childrenPos[ this.id ].x );
+				this.position.y = ( this.parentUI.childrenPos[ this.id ].y );
+
+			}
+
+		}
+
+		/** Position inner elements according to dimensions and layout parameters. */
+		computeChildrenPosition() {
+
+			if ( this.children.length > 0 ) {
+
+				const DIRECTION = this.getContentDirection();
+				let directionalOffset;
+
+				switch ( DIRECTION ) {
+
+					case ROW :
+						directionalOffset = - this.getInnerWidth() / 2;
+						break;
+
+					case ROW_REVERSE :
+						directionalOffset = this.getInnerWidth() / 2;
+						break;
+
+					case COLUMN :
+						directionalOffset = this.getInnerHeight() / 2;
+						break;
+
+					case COLUMN_REVERSE :
+						directionalOffset = - this.getInnerHeight() / 2;
+						break;
+
+				}
+
+				const REVERSE = - Math.sign( directionalOffset );
+
+				contentDirection(this, DIRECTION, directionalOffset, REVERSE );
+				justifyContent(this, DIRECTION, directionalOffset, REVERSE );
+				alignItems( this, DIRECTION );
+			}
+
+		}
+
+		/**
+		 * Returns the highest linear dimension among all the children of the passed component
+		 * MARGIN INCLUDED
+		 */
+		getHighestChildSizeOn( direction ) {
+
+			return this.childrenBoxes.reduce( ( accu, child ) => {
+
+				const margin = child.margin || 0;
+				const maxSize = direction === 'width' ?
+					child.getWidth() + ( margin * 2 ) :
+					child.getHeight() + ( margin * 2 );
+
+				return Math.max( accu, maxSize );
+
+			}, 0 );
+
+		}
+
+		/**
+		 * Get width of this element
+		 * With padding, without margin
+		 */
+		getWidth() {
+
+
+			// This is for stretch alignment
+			// @TODO : Conceive a better performant way
+			if( this.parentUI && this.parentUI.getAlignItems() === 'stretch' ){
+
+				if( this.parentUI.getContentDirection().indexOf('column') !== -1 ){
+
+					return this.parentUI.getWidth() -  ( this.parentUI.padding * 2 || 0 );
+
+				}
+
+			}
+
+
+			return this.width || this.getInnerWidth() + ( this.padding * 2 || 0 );
+
+		}
+
+		/**
+		 * Get height of this element
+		 * With padding, without margin
+		 */
+		getHeight() {
+
+			// This is for stretch alignment
+			// @TODO : Conceive a better performant way
+			if( this.parentUI && this.parentUI.getAlignItems() === 'stretch' ){
+
+				if( this.parentUI.getContentDirection().indexOf('row') !== -1 ){
+
+					return this.parentUI.getHeight() - ( this.parentUI.padding * 2 || 0 );
+
+				}
+
+			}
+
+			return this.height || this.getInnerHeight() + ( this.padding * 2 || 0 );
+
+		}
+
+	};
+
+}
+
+
+;// CONCATENATED MODULE: ./src/utils/inline-layout/Whitespace.js
+/**
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Whitespace#whitespace_helper_functions
+ *
+ * Throughout, whitespace is defined as one of the characters
+ *  "\t" TAB \u0009
+ *  "\n" LF  \u000A
+ *  "\r" CR  \u000D
+ *  " "  SPC \u0020
+ *
+ * This does not use Javascript's "\s" because that includes non-breaking
+ * spaces (and also some other characters).
+ **/
+const WHITE_CHARS = { '\t': '\u0009', '\n': '\u000A', '\r': '\u000D', ' ': '\u0020' };
+
+const NORMAL = 'normal';
+const NOWRAP = 'nowrap';
+const PRE = 'pre';
+const PRE_LINE = 'pre-line';
+const PRE_WRAP = 'pre-wrap';
+
+/**
+ * Collapse whitespaces and sequence of whitespaces on string
+ *
+ * @param textContent
+ * @param whiteSpace
+ * @returns {*}
+ */
+const collapseWhitespaceOnString = function ( textContent, whiteSpace ) {
+
+	switch ( whiteSpace ) {
+
+		case NOWRAP:
+		case NORMAL:
+			// newlines are treated as other whitespace characters
+			textContent = textContent.replace( /\n/g, ' ' );
+		//falls through
+
+		case PRE_LINE:
+			// collapsed white spaces sequences
+			textContent = textContent.replace( /[ ]{2,}/g, ' ' );
+			break;
+
+		default:
+
+	}
+
+	return textContent;
+
+};
+
+/**
+ * Get the breakability of a newline character according to white-space property
+ *
+ * @param whiteSpace
+ * @returns {string}
+ */
+const newlineBreakability = function ( whiteSpace ) {
+
+	switch ( whiteSpace ) {
+
+		case PRE:
+		case PRE_WRAP:
+		case PRE_LINE:
+			return 'mandatory';
+
+		case NOWRAP:
+		case NORMAL:
+		default:
+		// do not automatically break on newline
+
+	}
+
+};
+
+/**
+ * Check for breaks in inlines according to whiteSpace value
+ *
+ * @param inlines
+ * @param i
+ * @param lastInlineOffset
+ * @param options
+ * @returns {boolean}
+ */
+const Whitespace_shouldBreak = function( inlines, i, lastInlineOffset, options){
+	const inline = inlines[i];
+
+	switch ( options.WHITESPACE ){
+
+		case NORMAL:
+		case PRE_LINE:
+		case PRE_WRAP:
+
+			// prevent additional computation if line break is mandatory
+			if( inline.lineBreak === 'mandatory' ) return true;
+
+
+			const kerning = inline.kerning ? inline.kerning : 0;
+			const xoffset = inline.xoffset ? inline.xoffset : 0;
+			const xadvance = inline.xadvance ? inline.xadvance : inline.width;
+
+			// prevent additional computation if this character already exceed the available size
+			if( lastInlineOffset + xadvance + xoffset + kerning > options.INNER_WIDTH ) return true;
+
+
+			const nextBreak = _distanceToNextBreak( inlines, i, options );
+			return _shouldFriendlyBreak( inlines[ i - 1 ], lastInlineOffset, nextBreak, options );
+
+		case PRE:
+			return inline.lineBreak === 'mandatory';
+
+		case NOWRAP:
+		default:
+			return false;
+	}
+}
+
+
+/**
+ * Alter a line of inlines according to white-space property
+ * @param line
+ * @param {('normal'|'pre-wrap'|'pre-line')} whiteSpace
+ */
+const collapseWhitespaceOnInlines = function ( line, whiteSpace ) {
+
+	const firstInline = line[ 0 ];
+	const lastInline = line[ line.length - 1 ];
+
+	// @see https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Whitespace
+	//
+	// current implementation is 'pre-line'
+	// if the breaking character is a space, get the previous one
+	switch ( whiteSpace ) {
+
+		// trim/collapse first and last whitespace characters of a line
+		case PRE_WRAP:
+			// only process whiteChars glyphs inlines
+			// if( firstInline.glyph && whiteChars[firstInline.glyph] && line.length > 1 ){
+			if ( firstInline.glyph && firstInline.glyph === '\n' && line.length > 1 ) {
+
+				_collapseLeftInlines( [ firstInline ], line[ 1 ] );
+
+			}
+
+			// if( lastInline.glyph && whiteChars[lastInline.glyph] && line.length > 1 ){
+			if ( lastInline.glyph && lastInline.glyph === '\n' && line.length > 1 ) {
+
+				_collapseRightInlines( [ lastInline ], line[ line.length - 2 ] );
+
+			}
+
+			break;
+
+
+		case PRE_LINE:
+		case NOWRAP:
+		case NORMAL:
+			let inlinesToCollapse = [];
+			let collapsingTarget;
+			// collect starting whitespaces to collapse
+			for ( let i = 0; i < line.length; i++ ) {
+
+				const inline = line[ i ];
+
+				if ( inline.glyph && WHITE_CHARS[ inline.glyph ] && line.length > i ) {
+
+					inlinesToCollapse.push( inline );
+					collapsingTarget = line[ i + 1 ];
+					continue;
+
+				}
+
+				break;
+
+			}
+
+			_collapseLeftInlines( inlinesToCollapse, collapsingTarget );
+
+
+			inlinesToCollapse = [];
+			collapsingTarget = null;
+			// collect ending whitespace to collapse
+			for ( let i = line.length - 1; i > 0; i-- ) {
+
+				const inline = line[ i ];
+				if ( inline.glyph && WHITE_CHARS[ inline.glyph ] && i > 0 ) {
+
+					inlinesToCollapse.push( inline );
+					collapsingTarget = line[ i - 1 ];
+					continue;
+
+				}
+
+				break;
+
+			}
+
+			_collapseRightInlines( inlinesToCollapse, collapsingTarget );
+			break;
+
+		case PRE:
+			break;
+
+
+		default:
+			console.warn( `whiteSpace: '${whiteSpace}' is not valid` );
+			return 0;
+
+	}
+
+	return firstInline.offsetX;
+
+};
+
+
+/***********************************************************************************************************************
+ * Internal logics
+ **********************************************************************************************************************/
+
+
+/**
+ * Visually collapse inlines from right to left ( endtrim )
+ * @param {Array} inlines
+ * @param targetInline
+ * @private
+ */
+function _collapseRightInlines( inlines, targetInline ) {
+
+	if ( !targetInline ) return;
+
+	for ( let i = 0; i < inlines.length; i++ ) {
+
+		const inline = inlines[ i ];
+
+		inline.width = 0;
+		inline.height = 0;
+		inline.offsetX = targetInline.offsetX + targetInline.width;
+
+	}
+
+}
+
+/**
+ * Visually collapse inlines from left to right (starttrim)
+ * @param {Array} inlines
+ * @param targetInline
+ * @private
+ */
+function _collapseLeftInlines( inlines, targetInline ) {
+
+	if ( !targetInline ) return;
+
+	for ( let i = 0; i < inlines.length; i++ ) {
+
+		const inline = inlines[ i ];
+
+		inline.width = 0;
+		inline.height = 0;
+		inline.offsetX = targetInline.offsetX;
+
+	}
+
+}
+
+/**
+ * get the distance in world coord to the next glyph defined
+ * as break-line-safe ( like whitespace for instance )
+ * @private
+ */
+function _distanceToNextBreak( inlines, currentIdx, options, accu ) {
+
+	accu = accu || 0;
+
+	// end of the text
+	if ( !inlines[ currentIdx ] ) return accu;
+
+	const inline = inlines[ currentIdx ];
+	const kerning = inline.kerning ? inline.kerning : 0;
+	const xoffset = inline.xoffset ? inline.xoffset : 0;
+	const xadvance = inline.xadvance ? inline.xadvance : inline.width;
+
+	// if inline.lineBreak is set, it is 'mandatory' or 'possible'
+	if ( inline.lineBreak ) return accu + xadvance;
+
+	// no line break is possible on this character
+	return _distanceToNextBreak(
+		inlines,
+		currentIdx + 1,
+		options,
+		accu + xadvance + options.LETTERSPACING + xoffset + kerning
+	);
+
+}
+
+/**
+ * Test if we should line break here even if the current glyph is not out of boundary.
+ * It might be necessary if the last glyph was break-line-friendly (whitespace, hyphen..)
+ * and the distance to the next friendly glyph is out of boundary.
+ */
+function _shouldFriendlyBreak( prevChar, lastInlineOffset, nextBreak, options ) {
+
+	// We can't check if last glyph is break-line-friendly it does not exist
+	if ( !prevChar || !prevChar.glyph ) return false;
+
+	// Next break-line-friendly glyph is inside boundary
+	if ( lastInlineOffset + nextBreak < options.INNER_WIDTH ) return false;
+
+	// Previous glyph was break-line-friendly
+	return options.BREAKON.indexOf( prevChar.glyph ) > -1;
+
+}
+
+;// CONCATENATED MODULE: ./src/utils/inline-layout/TextAlign.js
+const LEFT = 'left';
+const RIGHT = 'right';
+const TextAlign_CENTER = 'center';
+const JUSTIFY = 'justify';
+const JUSTIFY_LEFT = 'justify-left';
+const JUSTIFY_RIGHT = 'justify-right';
+const JUSTIFY_CENTER = 'justify-center';
+
+function textAlign( lines, ALIGNMENT, INNER_WIDTH ) {
+
+	// Start the alignment by sticking to directions : left, right, center
+	for ( let i = 0; i < lines.length; i++ ) {
+
+		const line = lines[ i ];
+
+		// compute the alignment offset of the line
+		const offsetX = _computeLineOffset( line, ALIGNMENT, INNER_WIDTH, i === lines.length - 1 );
+
+		// apply the offset to each characters of the line
+		for ( let j = 0; j < line.length; j++ ) {
+
+			line[ j ].offsetX += offsetX;
+
+		}
+
+		line.x = offsetX;
+
+	}
+
+	// last operations for justifications alignments
+	if ( ALIGNMENT.indexOf( JUSTIFY ) === 0 ) {
+
+		for ( let i = 0; i < lines.length; i++ ) {
+
+			const line = lines[ i ];
+
+
+			// do not process last line for justify-left or justify-right
+			if ( ALIGNMENT.indexOf( '-' ) !== -1 && i === lines.length - 1 ) return;
+
+			// can only justify is space is remaining
+			const REMAINING_SPACE = INNER_WIDTH - line.width;
+			if ( REMAINING_SPACE <= 0 ) return;
+
+			// count the valid spaces to extend
+			// Do not take the first nor the last space into account
+			let validSpaces = 0;
+			for ( let j = 1; j < line.length - 1; j++ ) {
+
+				validSpaces += line[ j ].glyph === ' ' ? 1 : 0;
+
+			}
+			const additionalSpace = REMAINING_SPACE / validSpaces;
+
+
+			// for right justification, process the loop in reverse
+			let inverter = 1;
+			if ( ALIGNMENT === JUSTIFY_RIGHT ) {
+
+				line.reverse();
+				inverter = -1;
+
+			}
+
+			let incrementalOffsetX = 0;
+
+			// start at ONE to avoid first space
+			for ( let j = 1; j <= line.length - 1; j++ ) {
+
+				// apply offset on each char
+				const char = line[ j ];
+				char.offsetX += incrementalOffsetX * inverter;
+
+				// and increase it when space
+				incrementalOffsetX += char.glyph === ' ' ? additionalSpace : 0;
+
+			}
+
+			// for right justification, the loop was processed in reverse
+			if ( ALIGNMENT === JUSTIFY_RIGHT ) {
+				line.reverse();
+			}
+
+
+		}
+
+	}
+
+}
+
+
+const _computeLineOffset = ( line, ALIGNMENT, INNER_WIDTH, lastLine ) => {
+
+	switch ( ALIGNMENT ) {
+
+		case JUSTIFY_LEFT:
+		case JUSTIFY:
+		case LEFT:
+			return -INNER_WIDTH / 2;
+
+		case JUSTIFY_RIGHT:
+		case RIGHT:
+			return -line.width + ( INNER_WIDTH / 2 );
+
+
+		case TextAlign_CENTER:
+			return -line.width / 2;
+
+		case JUSTIFY_CENTER:
+			if ( lastLine ) {
+
+				// center alignement
+				return -line.width / 2;
+
+			}
+
+				// left alignment
+				return -INNER_WIDTH / 2;
+
+		default:
+			console.warn( `textAlign: '${ALIGNMENT}' is not valid` );
+
+	}
+
+};
+
+;// CONCATENATED MODULE: ./src/components/core/InlineManager.js
+/**
+
+Job: Positioning inline elements according to their dimensions inside this component
+
+Knows: This component dimensions, and its children dimensions
+
+This module is used for Block composition (Object.assign). A Block is responsible
+for the positioning of its inline elements. In order for it to know what is the
+size of these inline components, parseParams must be called on its children first.
+
+It's worth noting that a Text is not positioned as a whole, but letter per letter,
+in order to create a line break when necessary. It's Text that merge the various letters
+in its own updateLayout function.
+
+ */
+
+
+
+function InlineManager( Base ) {
+
+	return class InlineManager extends Base {
+
+		/** Compute children .inlines objects position, according to their pre-computed dimensions */
+		computeInlinesPosition() {
+
+			// computed by BoxComponent
+			const INNER_WIDTH = this.getWidth() - ( this.padding * 2 || 0 );
+			const INNER_HEIGHT = this.getHeight() - ( this.padding * 2 || 0 );
+
+			// got by MeshUIComponent
+			const JUSTIFICATION = this.getJustifyContent();
+			const ALIGNMENT = this.getTextAlign();
+
+			const INTERLINE = this.getInterLine();
+
+			// Compute lines
+			const lines = this.computeLines();
+			lines.interLine = INTERLINE;
+
+			/////////////////////////////////////////////////////////////////
+			// Position lines according to justifyContent and contentAlign
+			/////////////////////////////////////////////////////////////////
+
+			const textHeight = Math.abs( lines.height );
+
+			// Line vertical positioning
+
+			const justificationOffset = ( () => {
+				switch ( JUSTIFICATION ) {
+
+					case 'start':
+						return (INNER_HEIGHT/2);
+
+					case 'end':
+						return textHeight - ( INNER_HEIGHT / 2 );
+
+					case 'center':
+						return ( textHeight / 2 );
+
+					default:
+						console.warn( `justifyContent: '${JUSTIFICATION}' is not valid` );
+
+				}
+			} )();
+
+
+			//
+
+			lines.forEach( ( line ) => {
+
+				line.y += justificationOffset;
+
+				line.forEach( ( inline ) => {
+
+					inline.offsetY += justificationOffset;
+
+				} );
+
+			} );
+
+			// Horizontal positioning
+			textAlign( lines, ALIGNMENT, INNER_WIDTH );
+
+
+			// Make lines accessible to provide helpful informations
+			this.lines = lines;
+
+		}
+
+
+		calculateBestFit( bestFit ) {
+
+			if ( this.childrenInlines.length === 0 ) return;
+
+			switch ( bestFit ) {
+				case 'grow':
+					this.calculateGrowFit();
+					break;
+				case 'shrink':
+					this.calculateShrinkFit();
+					break;
+				case 'auto':
+					this.calculateAutoFit();
+					break;
+			}
+
+		}
+
+		calculateGrowFit() {
+
+			const INNER_HEIGHT = this.getHeight() - ( this.padding * 2 || 0 );
+
+			//Iterative method to find a fontSize of text children that text will fit into container
+			let iterations = 1;
+			const heightTolerance = 0.075;
+			const firstText = this.childrenInlines.find( inlineComponent => inlineComponent.isText );
+
+			let minFontMultiplier = 1;
+			let maxFontMultiplier = 2;
+			let fontMultiplier = firstText._fitFontSize ? firstText._fitFontSize / firstText.getFontSize() : 1;
+			let textHeight;
+
+			do {
+
+				textHeight = this.calculateHeight( fontMultiplier );
+
+				if ( textHeight > INNER_HEIGHT ) {
+
+					if ( fontMultiplier <= minFontMultiplier ) { // can't shrink text
+
+						this.childrenInlines.forEach( inlineComponent => {
+
+							if ( inlineComponent.isInlineBlock ) return;
+
+							// ensure fontSize does not shrink
+							inlineComponent._fitFontSize = inlineComponent.getFontSize();
+
+						} );
+
+						break;
+
+					}
+
+					maxFontMultiplier = fontMultiplier;
+					fontMultiplier -= ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				} else {
+
+					if ( Math.abs( INNER_HEIGHT - textHeight ) < heightTolerance ) break;
+
+					if ( Math.abs( fontMultiplier - maxFontMultiplier ) < 5e-10 ) maxFontMultiplier *= 2;
+
+					minFontMultiplier = fontMultiplier;
+					fontMultiplier += ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				}
+
+			} while ( ++iterations <= 10 );
+
+		}
+
+		calculateShrinkFit() {
+
+			const INNER_HEIGHT = this.getHeight() - ( this.padding * 2 || 0 );
+
+			// Iterative method to find a fontSize of text children that text will fit into container
+			let iterations = 1;
+			const heightTolerance = 0.075;
+			const firstText = this.childrenInlines.find( inlineComponent => inlineComponent.isText );
+
+			let minFontMultiplier = 0;
+			let maxFontMultiplier = 1;
+			let fontMultiplier = firstText._fitFontSize ? firstText._fitFontSize / firstText.getFontSize() : 1;
+			let textHeight;
+
+			do {
+
+				textHeight = this.calculateHeight( fontMultiplier );
+
+				if ( textHeight > INNER_HEIGHT ) {
+
+					maxFontMultiplier = fontMultiplier;
+					fontMultiplier -= ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				} else {
+
+					if ( fontMultiplier >= maxFontMultiplier ) { // can't grow text
+
+						this.childrenInlines.forEach( inlineComponent => {
+
+							if ( inlineComponent.isInlineBlock ) return;
+
+							// ensure fontSize does not grow
+							inlineComponent._fitFontSize = inlineComponent.getFontSize();
+
+						} );
+
+						break;
+
+					}
+
+					if ( Math.abs( INNER_HEIGHT - textHeight ) < heightTolerance ) break;
+
+					minFontMultiplier = fontMultiplier;
+					fontMultiplier += ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				}
+
+			} while ( ++iterations <= 10 );
+		}
+
+		calculateAutoFit()  {
+
+			const INNER_HEIGHT = this.getHeight() - ( this.padding * 2 || 0 );
+
+			//Iterative method to find a fontSize of text children that text will fit into container
+			let iterations = 1;
+			const heightTolerance = 0.075;
+			const firstText = this.childrenInlines.find( inlineComponent => inlineComponent.isText );
+
+			let minFontMultiplier = 0;
+			let maxFontMultiplier = 2;
+			let fontMultiplier = firstText._fitFontSize ? firstText._fitFontSize / firstText.getFontSize() : 1;
+			let textHeight;
+
+			do {
+
+				textHeight = this.calculateHeight( fontMultiplier );
+
+				if ( textHeight > INNER_HEIGHT ) {
+
+					maxFontMultiplier = fontMultiplier;
+					fontMultiplier -= ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				} else {
+
+					if ( Math.abs( INNER_HEIGHT - textHeight ) < heightTolerance ) break;
+
+					if ( Math.abs( fontMultiplier - maxFontMultiplier ) < 5e-10 ) maxFontMultiplier *= 2;
+
+					minFontMultiplier = fontMultiplier;
+					fontMultiplier += ( maxFontMultiplier - minFontMultiplier ) / 2;
+
+				}
+
+			} while ( ++iterations <= 10 );
+		}
+
+		/**
+		 * computes lines based on children's inlines array.
+		 * @private
+		 */
+		computeLines() {
+
+			// computed by BoxComponent
+			const INNER_WIDTH = this.getWidth() - ( this.padding * 2 || 0 );
+
+			// Will stock the characters of each line, so that we can
+			// correct lines position before to merge
+			const lines = [ [] ];
+			lines.height = 0;
+
+			const INTERLINE = this.getInterLine();
+
+			this.childrenInlines.reduce( ( lastInlineOffset, inlineComponent ) => {
+
+					// Abort condition
+
+					if ( !inlineComponent.inlines ) return;
+
+					//////////////////////////////////////////////////////////////
+					// Compute offset of each children according to its dimensions
+					//////////////////////////////////////////////////////////////
+
+					const FONTSIZE = inlineComponent._fitFontSize || inlineComponent.getFontSize();
+					const LETTERSPACING = inlineComponent.isText ? inlineComponent.getLetterSpacing() * FONTSIZE : 0;
+					const WHITESPACE = inlineComponent.getWhiteSpace();
+					const BREAKON = inlineComponent.getBreakOn();
+
+					const whiteSpaceOptions = {
+						WHITESPACE,
+						LETTERSPACING,
+						BREAKON,
+						INNER_WIDTH
+					}
+
+					const currentInlineInfo = inlineComponent.inlines.reduce( ( lastInlineOffset, inline, i, inlines ) => {
+
+						const kerning = inline.kerning ? inline.kerning : 0;
+						const xoffset = inline.xoffset ? inline.xoffset : 0;
+						const xadvance = inline.xadvance ? inline.xadvance : inline.width;
+
+						// Line break
+						const shouldBreak = Whitespace_shouldBreak(inlines,i,lastInlineOffset, whiteSpaceOptions );
+
+						if ( shouldBreak ) {
+
+							lines.push( [ inline ] );
+
+							inline.offsetX = xoffset;
+
+							// restart the lastInlineOffset as zero.
+							if ( inline.width === 0 ) return 0;
+
+							// compute lastInlineOffset normally
+							// except for kerning which won't apply
+							// as there is visually no lefthanded glyph to kern with
+							return xadvance + LETTERSPACING;
+
+						}
+
+						lines[ lines.length - 1 ].push( inline );
+
+						inline.offsetX = lastInlineOffset + xoffset + kerning;
+
+						return lastInlineOffset + xadvance + kerning + LETTERSPACING;
+
+					}, lastInlineOffset );
+
+					//
+
+					return currentInlineInfo;
+
+				}, 0 );
+
+			// Compute lines dimensions
+
+			let width = 0, height =0, lineOffsetY = -INTERLINE/2;
+			lines.forEach( ( line ) => {
+
+				//
+
+				line.lineHeight = line.reduce( ( height, inline ) => {
+
+					const charHeight = inline.lineHeight !== undefined ? inline.lineHeight : inline.height;
+
+					return Math.max( height, charHeight );
+
+				}, 0 );
+
+				//
+
+				line.lineBase = line.reduce( ( lineBase, inline ) => {
+
+					const newLineBase = inline.lineBase !== undefined ? inline.lineBase : inline.height;
+
+					return Math.max( lineBase, newLineBase );
+
+				}, 0 );
+
+				//
+
+				line.width = 0;
+				line.height = line.lineHeight;
+				const lineHasInlines = line[ 0 ];
+
+				if ( lineHasInlines ) {
+
+					// starts by processing whitespace, it will return a collapsed left offset
+					const WHITESPACE = this.getWhiteSpace();
+					const whiteSpaceOffset = collapseWhitespaceOnInlines( line, WHITESPACE );
+
+					// apply the collapsed left offset to ensure the starting offset is 0
+					line.forEach( ( inline ) => {
+
+						inline.offsetX -= whiteSpaceOffset;
+
+					} );
+
+					// compute its width: length from firstInline:LEFT to lastInline:RIGHT
+					line.width = this.computeLineWidth( line );
+					if( line.width > width ){
+						width = line.width;
+					}
+
+					line.forEach( ( inline ) => {
+
+						inline.offsetY = (lineOffsetY - inline.height) - inline.anchor;
+
+						if( inline.lineHeight < line.lineHeight ){
+							inline.offsetY -= line.lineBase- inline.lineBase;
+						}
+
+					} );
+
+					line.y = lineOffsetY;
+					// line.x will be set by textAlign
+
+					height += ( line.lineHeight + INTERLINE );
+
+					lineOffsetY = lineOffsetY - (line.lineHeight + INTERLINE );
+
+				}
+
+			} );
+
+			lines.height = height;
+			lines.width = width;
+
+
+			return lines;
+		}
+
+		calculateHeight( fontMultiplier ) {
+
+			this.childrenInlines.forEach( inlineComponent => {
+
+				if ( inlineComponent.isInlineBlock ) return;
+
+				// Set font size and recalculate dimensions
+				inlineComponent._fitFontSize = inlineComponent.getFontSize() * fontMultiplier;
+				inlineComponent.calculateInlines( inlineComponent._fitFontSize );
+
+			} );
+
+			const lines = this.computeLines();
+			return Math.abs( lines.height );
+		}
+
+		/**
+		 * Compute the width of a line
+		 * @param line
+		 * @returns {number}
+		 */
+		computeLineWidth( line ) {
+
+			// only by the length of its extremities
+			const firstInline = line[ 0 ];
+
+			const lastInline = line[ line.length - 1 ];
+
+			// Right + Left ( left is negative )
+			return (lastInline.offsetX + lastInline.width) + firstInline.offsetX;
+
+		}
+
+	};
+
+}
+
+;// CONCATENATED MODULE: ./src/components/core/FontLibrary.js
+/*
+
+Job:
+Keeping record of all the loaded fonts, which component use which font,
+and load new fonts if necessary
+
+Knows: Which component use which font, loaded fonts
+
+This is one of the only modules in the 'component' folder that is not used
+for composition (Object.assign). MeshUIComponent is the only module with
+a reference to it, it uses FontLibrary for recording fonts accross components.
+This way, if a component uses the same font as another, FontLibrary will skip
+loading it twice, even if the two component are not in the same parent/child hierarchy
+
+*/
+
+
+
+const fileLoader = new external_three_namespaceObject.FileLoader();
+const requiredFontFamilies = [];
+const fontFamilies = {};
+
+const textureLoader = new external_three_namespaceObject.TextureLoader();
+const requiredFontTextures = [];
+const fontTextures = {};
+
+const records = {};
+
+/**
+
+Called by MeshUIComponent after fontFamily was set
+When done, it calls MeshUIComponent.update, to actually display
+the text with the loaded font.
+
+ */
+function setFontFamily( component, fontFamily ) {
+
+	if ( typeof fontFamily === 'string' ) {
+
+		loadFontJSON( component, fontFamily );
+
+	} else {
+
+		// keep record of the font that this component use
+		if ( !records[ component.id ] ) records[ component.id ] = { component };
+
+		// Ensure the font json is processed
+		_buildFriendlyKerningValues( fontFamily );
+
+		records[ component.id ].json = fontFamily;
+
+		component._updateFontFamily( fontFamily );
+
+	}
+
+}
+
+/**
+
+Called by MeshUIComponent after fontTexture was set
+When done, it calls MeshUIComponent.update, to actually display
+the text with the loaded font.
+
+ */
+function setFontTexture( component, url ) {
+
+	// if this font was never asked for, we load it
+	if ( requiredFontTextures.indexOf( url ) === -1 ) {
+
+		requiredFontTextures.push( url );
+
+		textureLoader.load( url, ( texture ) => {
+
+			texture.generateMipmaps = false;
+			texture.minFilter = external_three_namespaceObject.LinearFilter;
+			texture.magFilter = external_three_namespaceObject.LinearFilter;
+
+			fontTextures[ url ] = texture;
+
+			for ( const recordID of Object.keys( records ) ) {
+
+				if ( url === records[ recordID ].textureURL ) {
+
+					// update all the components that were waiting for this font for an update
+					records[ recordID ].component._updateFontTexture( texture );
+
+				}
+
+			}
+
+		} );
+
+	}
+
+	// keep record of the font that this component use
+	if ( !records[ component.id ] ) records[ component.id ] = { component };
+
+	records[ component.id ].textureURL = url;
+
+	// update the component, only if the font is already requested and loaded
+	if ( fontTextures[ url ] ) {
+
+		component._updateFontTexture( fontTextures[ url ] );
+
+	}
+
+}
+
+/** used by Text to know if a warning must be thrown */
+function getFontOf( component ) {
+
+	const record = records[ component.id ];
+
+	if ( !record && component.parentUI ) {
+
+		return getFontOf( component.parentUI );
+
+	}
+
+	return record;
+
+}
+
+/** Load JSON file at the url provided by the user at the component attribute 'fontFamily' */
+function loadFontJSON( component, url ) {
+
+	// if this font was never asked for, we load it
+	if ( requiredFontFamilies.indexOf( url ) === -1 ) {
+
+		requiredFontFamilies.push( url );
+
+		fileLoader.load( url, ( text ) => {
+
+			// FileLoader import as  a JSON string
+			const font = JSON.parse( text );
+
+			// Ensure the font json is processed
+			_buildFriendlyKerningValues( font );
+
+			fontFamilies[ url ] = font;
+
+			for ( const recordID of Object.keys( records ) ) {
+
+				if ( url === records[ recordID ].jsonURL ) {
+
+					// update all the components that were waiting for this font for an update
+					records[ recordID ].component._updateFontFamily( font );
+
+				}
+
+			}
+
+		} );
+
+	}
+
+	// keep record of the font that this component use
+	if ( !records[ component.id ] ) records[ component.id ] = { component };
+
+	records[ component.id ].jsonURL = url;
+
+	// update the component, only if the font is already requested and loaded
+	if ( fontFamilies[ url ] ) {
+
+		component._updateFontFamily( fontFamilies[ url ] );
+
+	}
+
+}
+
+/**
+ * From the original json font kernings array
+ * First  : Reduce the number of values by ignoring any kerning defining an amount of 0
+ * Second : Update the data structure of kernings from
+ * 			{Array} : [{first: 97, second: 121, amount: 0},{first: 97, second: 122, amount: -1},...]
+ * 			to
+ * 			{Object}: {"ij":-2,"WA":-3,...}}
+ *
+ * @private
+ */
+function _buildFriendlyKerningValues( font ) {
+
+	// As "font registering" can comes from different paths : addFont, loadFontJSON, setFontFamily
+	// Be sure we don't repeat this operation
+	if ( font._kernings ) return;
+
+	const friendlyKernings = {};
+
+	for ( let i = 0; i < font.kernings.length; i++ ) {
+
+		const kerning = font.kernings[ i ];
+
+		// ignore zero kerned glyph pair
+		if ( kerning.amount === 0 ) continue;
+
+		// Build and store the glyph paired characters "ij","WA", ... as keys, referecing their kerning amount
+		const glyphPair = String.fromCharCode( kerning.first, kerning.second );
+		friendlyKernings[ glyphPair ] = kerning.amount;
+
+	}
+
+	// update the font to keep it
+	font._kernings = friendlyKernings;
+
+}
+
+/*
+
+This method is intended for adding manually loaded fonts. Method assumes font hasn't been loaded or requested yet. If it was,
+font with specified name will be overwritten, but components using it won't be updated.
+
+*/
+function addFont( name, json, texture ) {
+
+	texture.generateMipmaps = false;
+	texture.minFilter = external_three_namespaceObject.LinearFilter;
+	texture.magFilter = external_three_namespaceObject.LinearFilter;
+
+	requiredFontFamilies.push( name );
+	fontFamilies[ name ] = json;
+
+	// Ensure the font json is processed
+	_buildFriendlyKerningValues( json );
+
+	if ( texture ) {
+		requiredFontTextures.push( name );
+		fontTextures[ name ] = texture;
+	}
+}
+
+//
+
+const FontLibrary = {
+	setFontFamily,
+	setFontTexture,
+	getFontOf,
+	addFont
+};
+
+/* harmony default export */ const core_FontLibrary = (FontLibrary);
+
+;// CONCATENATED MODULE: ./src/components/core/UpdateManager.js
+/**
+ * Job:
+ * - recording components required updates
+ * - trigger those updates when 'update' is called
+ *
+ * This module is a bit special. It is, with FontLibrary, one of the only modules in the 'component'
+ * directory not to be used in component composition (Object.assign).
+ *
+ * When MeshUIComponent is instanciated, it calls UpdateManager.register().
+ *
+ * Then when MeshUIComponent receives new attributes, it doesn't update the component right away.
+ * Instead, it calls UpdateManager.requestUpdate(), so that the component is updated when the user
+ * decides it (usually in the render loop).
+ *
+ * This is best for performance, because when a UI is created, thousands of componants can
+ * potentially be instantiated. If they called updates function on their ancestors right away,
+ * a given component could be updated thousands of times in one frame, which is very ineficient.
+ *
+ * Instead, redundant update request are moot, the component will update once when the use calls
+ * update() in their render loop.
+ */
+class UpdateManager {
+
+	/*
+	 * get called by MeshUIComponent when component.set has been used.
+	 * It registers this component and all its descendants for the different types of updates that were required.
+	 */
+	static requestUpdate( component, updateParsing, updateLayout, updateInner ) {
+
+		component.traverse( ( child ) => {
+
+			if ( !child.isUI ) return;
+
+			// request updates for all descendants of the passed components
+			if ( !this.requestedUpdates[ child.id ] ) {
+
+				this.requestedUpdates[ child.id ] = {
+					updateParsing,
+					updateLayout,
+					updateInner,
+					needCallback: ( updateParsing || updateLayout || updateInner )
+				};
+
+			} else {
+
+				if ( updateParsing ) this.requestedUpdates[ child.id ].updateParsing = true;
+				if ( updateLayout ) this.requestedUpdates[ child.id ].updateLayout = true;
+				if ( updateInner ) this.requestedUpdates[ child.id ].updateInner = true;
+
+			}
+
+		} );
+
+	}
+
+	/** Register a passed component for later updates */
+	static register( component ) {
+
+		if ( !this.components.includes( component ) ) {
+
+			this.components.push( component );
+
+		}
+
+	}
+
+	/** Unregister a component (when it's deleted for instance) */
+	static disposeOf( component ) {
+
+		const idx = this.components.indexOf( component );
+
+		if ( idx > -1 ) {
+
+			this.components.splice( idx, 1 );
+
+		}
+
+	}
+
+	/** Trigger all requested updates of registered components */
+	static update() {
+
+		if ( Object.keys( this.requestedUpdates ).length > 0 ) {
+
+			const roots = this.components.filter( ( component ) => {
+
+				return !component.parentUI;
+
+			} );
+
+			roots.forEach( root => this.traverseParsing( root ) );
+			roots.forEach( root => this.traverseUpdates( root ) );
+
+		}
+
+	}
+
+	/**
+	 * Calls parseParams update of all components from parent to children
+	 * @private
+	 */
+	static traverseParsing( component ) {
+
+		const request = this.requestedUpdates[ component.id ];
+
+		if ( request && request.updateParsing ) {
+
+			component.parseParams();
+
+			request.updateParsing = false;
+
+		}
+
+		component.childrenUIs.forEach( child => this.traverseParsing( child ) );
+
+	}
+
+	/**
+	 * Calls updateLayout and updateInner functions of components that need an update
+	 * @private
+	 */
+	static traverseUpdates( component ) {
+
+		const request = this.requestedUpdates[ component.id ];
+		// instant remove the requested update,
+		// allowing code below ( especially onAfterUpdate ) to add it without being directly remove
+		delete this.requestedUpdates[ component.id ];
+
+		//
+
+		if ( request && request.updateLayout ) {
+
+			request.updateLayout = false;
+
+			component.updateLayout();
+
+		}
+
+		//
+
+		if ( request && request.updateInner ) {
+
+			request.updateInner = false;
+
+			component.updateInner();
+
+		}
+
+
+		// Update any child
+		component.childrenUIs.forEach( ( childUI ) => {
+
+			this.traverseUpdates( childUI );
+
+		} );
+
+		// before sending onAfterUpdate
+		if ( request && request.needCallback ) {
+
+			component.onAfterUpdate();
+
+		}
+
+	}
+
+}
+
+// TODO move these into the class (Webpack unfortunately doesn't understand
+// `static` property syntax, despite browsers already supporting this)
+UpdateManager.components = [];
+UpdateManager.requestedUpdates = {};
+
+;// CONCATENATED MODULE: ./src/utils/Defaults.js
+
+
+
+
+
+
+
+
+
+/** List the default values of the lib components */
+/* harmony default export */ const Defaults = ({
+	container: null,
+	fontFamily: null,
+	fontSize: 0.05,
+	fontKerning: 'normal', // FontKerning would act like css : "none"|"normal"|"auto"("auto" not yet implemented)
+	bestFit: 'none',
+	offset: 0.01,
+	interLine: 0.01,
+	breakOn: '- ,.:?!\n',// added '\n' to also acts as friendly breaks when white-space:normal
+	whiteSpace: PRE_LINE,
+	contentDirection: COLUMN,
+	alignItems: CENTER,
+	justifyContent: JustifyContent_START,
+	textAlign: TextAlign_CENTER,
+	textType: 'MSDF',
+	fontColor: new external_three_namespaceObject.Color( 0xffffff ),
+	fontOpacity: 1,
+	fontPXRange: 4,
+	fontSupersampling: true,
+	borderRadius: 0.01,
+	borderWidth: 0,
+	borderColor: new external_three_namespaceObject.Color( 'black' ),
+	borderOpacity: 1,
+	backgroundSize: "cover",
+	backgroundColor: new external_three_namespaceObject.Color( 0x222222 ),
+	backgroundWhiteColor: new external_three_namespaceObject.Color( 0xffffff ),
+	backgroundOpacity: 0.8,
+	backgroundOpaqueOpacity: 1.0,
+	// this default value is a function to avoid initialization issues (see issue #126)
+	getDefaultTexture,
+	hiddenOverflow: false,
+	letterSpacing: 0
+});
+
+//
+
+let defaultTexture;
+
+function getDefaultTexture() {
+
+	if ( !defaultTexture ) {
+
+		const ctx = document.createElement( 'canvas' ).getContext( '2d' );
+		ctx.canvas.width = 1;
+		ctx.canvas.height = 1;
+		ctx.fillStyle = '#ffffff';
+		ctx.fillRect( 0, 0, 1, 1 );
+		defaultTexture = new external_three_namespaceObject.CanvasTexture( ctx.canvas );
+		defaultTexture.isDefault = true;
+
+	}
+
+	return defaultTexture;
+
+}
+
+;// CONCATENATED MODULE: ./src/components/core/MeshUIComponent.js
+
+
+
+
+
+
+
+
+
+/**
+
+Job:
+- Set this component attributes and call updates accordingly
+- Getting this component attribute, from itself or from its parents
+- Managing this component's states
+
+This is the core module of three-mesh-ui. Every component is composed with it.
+It owns the principal public methods of a component : set, setupState and setState.
+
+ */
+function MeshUIComponent( Base ) {
+
+	return class MeshUIComponent extends Base {
+
+		constructor( options ) {
+
+			super( options );
+
+			this.states = {};
+			this.currentState = undefined;
+			this.isUI = true;
+			this.autoLayout = true;
+
+			// children
+			this.childrenUIs = [];
+			this.childrenBoxes = [];
+			this.childrenTexts = [];
+			this.childrenInlines = [];
+
+			// parents
+			this.parentUI = null;
+			// update parentUI when this component will be added or removed
+			this.addEventListener( 'added', this._rebuildParentUI );
+			this.addEventListener( 'removed', this._rebuildParentUI );
+		}
+
+		/////////////
+		/// GETTERS
+		/////////////
+
+		getClippingPlanes() {
+
+			const planes = [];
+
+			if ( this.parentUI ) {
+
+				if ( this.isBlock && this.parentUI.getHiddenOverflow() ) {
+
+					const yLimit = ( this.parentUI.getHeight() / 2 ) - ( this.parentUI.padding || 0 );
+					const xLimit = ( this.parentUI.getWidth() / 2 ) - ( this.parentUI.padding || 0 );
+
+					const newPlanes = [
+						new external_three_namespaceObject.Plane( new external_three_namespaceObject.Vector3( 0, 1, 0 ), yLimit ),
+						new external_three_namespaceObject.Plane( new external_three_namespaceObject.Vector3( 0, -1, 0 ), yLimit ),
+						new external_three_namespaceObject.Plane( new external_three_namespaceObject.Vector3( 1, 0, 0 ), xLimit ),
+						new external_three_namespaceObject.Plane( new external_three_namespaceObject.Vector3( -1, 0, 0 ), xLimit )
+					];
+
+					newPlanes.forEach( plane => {
+
+						plane.applyMatrix4( this.parent.matrixWorld );
+
+					} );
+
+					planes.push( ...newPlanes );
+
+				}
+
+				if ( this.parentUI.parentUI ) {
+
+					planes.push( ...this.parentUI.getClippingPlanes() );
+
+				}
+
+			}
+
+			return planes;
+
+		}
+
+		/** Get the highest parent of this component (the parent that has no parent on top of it) */
+		getHighestParent() {
+
+			if ( !this.parentUI ) {
+
+				return this;
+
+			}
+
+			return this.parent.getHighestParent();
+
+
+		}
+
+		/**
+		 * look for a property in this object, and if does not find it, find in parents or return default value
+		 * @private
+		 */
+		_getProperty( propName ) {
+
+			if ( this[ propName ] === undefined && this.parentUI ) {
+
+				return this.parent._getProperty( propName );
+
+			} else if ( this[ propName ] !== undefined ) {
+
+				return this[ propName ];
+
+			}
+
+			return Defaults[ propName ];
+
+		}
+
+		//
+
+		getFontSize() {
+
+			return this._getProperty( 'fontSize' );
+
+		}
+
+		getFontKerning() {
+
+			return this._getProperty( 'fontKerning' );
+
+		}
+
+		getLetterSpacing() {
+
+			return this._getProperty( 'letterSpacing' );
+
+		}
+
+		getFontTexture() {
+
+			if ( this[ 'fontTexture' ] === undefined && this.parentUI ) {
+
+				return this.parent._getProperty( 'fontTexture' );
+
+			} else if ( this[ 'fontTexture' ] !== undefined ) {
+
+				return this[ 'fontTexture' ];
+
+			}
+
+			return Defaults.getDefaultTexture();
+
+		}
+
+		getFontFamily() {
+
+			return this._getProperty( 'fontFamily' );
+
+		}
+
+		getBreakOn() {
+
+			return this._getProperty( 'breakOn' );
+
+		}
+
+		getWhiteSpace() {
+
+			return this._getProperty( 'whiteSpace' );
+
+		}
+
+		getTextAlign() {
+
+			return this._getProperty( 'textAlign' );
+
+		}
+
+		getTextType() {
+
+			return this._getProperty( 'textType' );
+
+		}
+
+		getFontColor() {
+
+			return this._getProperty( 'fontColor' );
+
+		}
+
+
+		getFontSupersampling() {
+
+			return this._getProperty( 'fontSupersampling' );
+
+		}
+
+		getFontOpacity() {
+
+			return this._getProperty( 'fontOpacity' );
+
+		}
+
+		getFontPXRange() {
+
+			return this._getProperty( 'fontPXRange' );
+
+		}
+
+		getBorderRadius() {
+
+			return this._getProperty( 'borderRadius' );
+
+		}
+
+		getBorderWidth() {
+
+			return this._getProperty( 'borderWidth' );
+
+		}
+
+		getBorderColor() {
+
+			return this._getProperty( 'borderColor' );
+
+		}
+
+		getBorderOpacity() {
+
+			return this._getProperty( 'borderOpacity' );
+
+		}
+
+		/// SPECIALS
+
+		/** return the first parent with a 'threeOBJ' property */
+		getContainer() {
+
+			if ( !this.threeOBJ && this.parent ) {
+
+				return this.parent.getContainer();
+
+			} else if ( this.threeOBJ ) {
+
+				return this;
+
+			}
+
+			return Defaults.container;
+
+
+		}
+
+		/** Get the number of UI parents above this elements (0 if no parent) */
+		getParentsNumber( i ) {
+
+			i = i || 0;
+
+			if ( this.parentUI ) {
+
+				return this.parentUI.getParentsNumber( i + 1 );
+
+			}
+
+			return i;
+
+		}
+
+		////////////////////////////////////
+		/// GETTERS WITH NO PARENTS LOOKUP
+		////////////////////////////////////
+
+		getBackgroundOpacity() {
+
+			return ( !this.backgroundOpacity && this.backgroundOpacity !== 0 ) ?
+				Defaults.backgroundOpacity : this.backgroundOpacity;
+
+		}
+
+		getBackgroundColor() {
+
+			return this.backgroundColor || Defaults.backgroundColor;
+
+		}
+
+		getBackgroundTexture() {
+
+			return this.backgroundTexture || Defaults.getDefaultTexture();
+
+		}
+
+		/**
+		 * @deprecated
+		 * @returns {string}
+		 */
+		getAlignContent() {
+
+			return this.alignContent || Defaults.alignContent;
+
+		}
+
+		getAlignItems() {
+
+			return this.alignItems || Defaults.alignItems;
+
+		}
+
+		getContentDirection() {
+
+			return this.contentDirection || Defaults.contentDirection;
+
+		}
+
+		getJustifyContent() {
+
+			return this.justifyContent || Defaults.justifyContent;
+
+		}
+
+		getInterLine() {
+
+			return ( this.interLine === undefined ) ? Defaults.interLine : this.interLine;
+
+		}
+
+		getOffset() {
+
+			return ( this.offset === undefined ) ? Defaults.offset : this.offset;
+
+		}
+
+		getBackgroundSize() {
+
+			return ( this.backgroundSize === undefined ) ? Defaults.backgroundSize : this.backgroundSize;
+
+		}
+
+		getHiddenOverflow() {
+
+			return ( this.hiddenOverflow === undefined ) ? Defaults.hiddenOverflow : this.hiddenOverflow;
+
+		}
+
+		getBestFit() {
+
+			return ( this.bestFit === undefined ) ? Defaults.bestFit : this.bestFit;
+
+		}
+
+		///////////////
+		///  UPDATE
+		///////////////
+
+		/**
+		 * Filters children in order to compute only one times children lists
+		 * @private
+		 */
+		_rebuildChildrenLists() {
+
+			// Stores all children that are ui
+			this.childrenUIs = this.children.filter( child => child.isUI );
+
+			// Stores all children that are box
+			this.childrenBoxes = this.children.filter( child => child.isBoxComponent );
+
+			// Stores all children that are inline
+			this.childrenInlines = this.children.filter( child => child.isInline );
+
+			// Stores all children that are text
+			this.childrenTexts = this.children.filter( child => child.isText );
+		}
+
+		/**
+		 * Try to retrieve parentUI after each structural change
+		 * @private
+		 */
+		_rebuildParentUI = ( ) => {
+
+			if ( this.parent && this.parent.isUI ) {
+
+				this.parentUI = this.parent;
+
+			} else {
+
+				this.parentUI = null;
+
+			}
+
+		};
+
+		/**
+		 * When the user calls component.add, it registers for updates,
+		 * then call THREE.Object3D.add.
+		 */
+		add() {
+
+			for ( const id of Object.keys( arguments ) ) {
+
+				// An inline component relies on its parent for positioning
+				if ( arguments[ id ].isInline ) this.update( null, true );
+
+			}
+
+			const result = super.add( ...arguments );
+
+			this._rebuildChildrenLists();
+
+			return result;
+
+		}
+
+		/**
+		 * When the user calls component.remove, it registers for updates,
+		 * then call THREE.Object3D.remove.
+		 */
+		remove() {
+
+			for ( const id of Object.keys( arguments ) ) {
+
+				// An inline component relies on its parent for positioning
+				if ( arguments[ id ].isInline ) this.update( null, true );
+
+			}
+
+			const result = super.remove( ...arguments );
+
+			this._rebuildChildrenLists();
+
+			return result;
+
+		}
+
+		//
+
+		update( updateParsing, updateLayout, updateInner ) {
+
+			UpdateManager.requestUpdate( this, updateParsing, updateLayout, updateInner );
+
+		}
+
+		onAfterUpdate() {
+
+		}
+
+		/**
+		 * Called by FontLibrary when the font requested for the current component is ready.
+		 * Trigger an update for the component whose font is now available.
+		 * @private - "package protected"
+		 */
+		_updateFontFamily( font ) {
+
+			this.fontFamily = font;
+
+			this.traverse( ( child ) => {
+
+				if ( child.isUI ) child.update( true, true, false );
+
+			} );
+
+			this.getHighestParent().update( false, true, false );
+
+		}
+
+		/** @private - "package protected" */
+		_updateFontTexture( texture ) {
+
+			this.fontTexture = texture;
+
+			this.getHighestParent().update( false, true, false );
+
+		}
+
+		/**
+		 * Set this component's passed parameters.
+		 * If necessary, take special actions.
+		 * Update this component unless otherwise specified.
+		 */
+		set( options ) {
+
+			let parsingNeedsUpdate, layoutNeedsUpdate, innerNeedsUpdate;
+
+			// Register to the update manager, so that it knows when to update
+
+			UpdateManager.register( this );
+
+			// Abort if no option passed
+
+			if ( !options || JSON.stringify( options ) === JSON.stringify( {} ) ) return;
+
+			// DEPRECATION Warnings until -------------------------------------- 7.x.x ---------------------------------------
+
+			// Align content has been removed
+			if( options["alignContent"] ){
+
+				options["alignItems"] = options["alignContent"];
+
+				if( !options["textAlign"] ){
+
+					options["textAlign"] = options["alignContent"];
+
+				}
+
+				console.warn("`alignContent` property has been deprecated, please rely on `alignItems` and `textAlign` instead.")
+
+				delete options["alignContent"];
+
+			}
+
+			// Align items left top bottom right will be removed
+			if( options['alignItems'] ){
+
+				warnAboutDeprecatedAlignItems( options['alignItems'] );
+
+			}
+
+
+			// Set this component parameters according to options, and trigger updates accordingly
+			// The benefit of having two types of updates, is to put everthing that takes time
+			// in one batch, and the rest in the other. This way, efficient animation is possible with
+			// attribute from the light batch.
+
+			for ( const prop of Object.keys( options ) ) {
+
+				if ( this[ prop ] != options[ prop ] ) {
+
+					switch ( prop ) {
+
+						case 'content' :
+						case 'fontSize' :
+						case 'fontKerning' :
+						case 'breakOn':
+						case 'whiteSpace':
+							if ( this.isText ) parsingNeedsUpdate = true;
+							layoutNeedsUpdate = true;
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'bestFit' :
+							if ( this.isBlock ) {
+								parsingNeedsUpdate = true;
+								layoutNeedsUpdate = true;
+							}
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'width' :
+						case 'height' :
+						case 'padding' :
+							if ( this.isInlineBlock || ( this.isBlock && this.getBestFit() != 'none' ) ) parsingNeedsUpdate = true;
+							layoutNeedsUpdate = true;
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'letterSpacing' :
+						case 'interLine' :
+							if ( this.isBlock && this.getBestFit() != 'none' ) parsingNeedsUpdate = true;
+							layoutNeedsUpdate = true;
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'margin' :
+						case 'contentDirection' :
+						case 'justifyContent' :
+						case 'alignContent' :
+						case 'alignItems' :
+						case 'textAlign' :
+						case 'textType' :
+							layoutNeedsUpdate = true;
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'fontColor' :
+						case 'fontOpacity' :
+						case 'fontSupersampling' :
+						case 'offset' :
+						case 'backgroundColor' :
+						case 'backgroundOpacity' :
+						case 'backgroundTexture' :
+						case 'backgroundSize' :
+						case 'borderRadius' :
+						case 'borderWidth' :
+						case 'borderColor' :
+						case 'borderOpacity' :
+							innerNeedsUpdate = true;
+							this[ prop ] = options[ prop ];
+							break;
+
+						case 'hiddenOverflow' :
+							this[ prop ] = options[ prop ];
+							break;
+
+					}
+
+				}
+
+			}
+
+			// special cases, this.update() must be called only when some files finished loading
+
+			if ( options.fontFamily ) {
+
+				core_FontLibrary.setFontFamily( this, options.fontFamily );
+
+			}
+
+			if ( options.fontTexture ) {
+
+				core_FontLibrary.setFontTexture( this, options.fontTexture );
+
+			}
+
+			// if font kerning changes for a child of a block with Best Fit enabled, we need to trigger parsing for the parent as well.
+			if ( this.parentUI && this.parentUI.getBestFit() != 'none' ) this.parentUI.update( true, true, false );
+
+			// Call component update
+
+			this.update( parsingNeedsUpdate, layoutNeedsUpdate, innerNeedsUpdate );
+
+
+			if ( layoutNeedsUpdate ) this.getHighestParent().update( false, true, false );
+
+		}
+
+		/////////////////////
+		// STATES MANAGEMENT
+		/////////////////////
+
+		/** Store a new state in this component, with linked attributes */
+		setupState( options ) {
+
+			this.states[ options.state ] = {
+				attributes: options.attributes,
+				onSet: options.onSet
+			};
+
+		}
+
+		/** Set the attributes of a stored state of this component */
+		setState( state ) {
+
+			const savedState = this.states[ state ];
+
+			if ( !savedState ) {
+				console.warn( `state "${state}" does not exist within this component:`, this.name );
+				return;
+			}
+
+			if ( state === this.currentState ) return;
+
+			this.currentState = state;
+
+			if ( savedState.onSet ) savedState.onSet();
+
+			if ( savedState.attributes ) this.set( savedState.attributes );
+
+		}
+
+		/** Get completely rid of this component and its children, also unregister it for updates */
+		clear() {
+
+			this.traverse( ( obj ) => {
+
+				UpdateManager.disposeOf( obj );
+
+				if ( obj.material ) obj.material.dispose();
+
+				if ( obj.geometry ) obj.geometry.dispose();
+
+			} );
+
+		}
+	};
+
+}
+
+;// CONCATENATED MODULE: ./src/components/core/MaterialManager.js
+/* eslint-disable camelcase */
+//@TODO: Get rid of non camelcase uniforms
+
+
+
+
+/**
+
+Job:
+- Host the materials of a given component.
+- Update a component's materials clipping planes.
+- Update a material uniforms and such.
+
+Knows:
+- Its component materials.
+- Its component ancestors clipping planes.
+
+ */
+function MaterialManager( Base ) {
+
+	return class MaterialManager extends Base {
+
+		constructor( options ) {
+
+			super( options );
+
+			this.textUniforms = {
+				u_texture: { value: this.getFontTexture() },
+				u_color: { value: this.getFontColor() },
+				u_opacity: { value: this.getFontOpacity() },
+				u_pxRange: { value: this.getFontPXRange() },
+				u_useRGSS: { value: this.getFontSupersampling() },
+			};
+
+			this.backgroundUniforms = {
+				u_texture: { value: this.getBackgroundTexture() },
+				u_color: { value: this.getBackgroundColor() },
+				u_opacity: { value: this.getBackgroundOpacity() },
+				u_backgroundMapping: { value: this.getBackgroundSize() },
+				u_borderWidth: { value: this.getBorderWidth() },
+				u_borderColor: { value: this.getBorderColor() },
+				u_borderRadiusTopLeft: { value: this.getBorderRadius() },
+				u_borderRadiusTopRight: { value: this.getBorderRadius() },
+				u_borderRadiusBottomRight: { value: this.getBorderRadius() },
+				u_borderRadiusBottomLeft: { value: this.getBorderRadius() },
+				u_borderOpacity: { value: this.getBorderOpacity() },
+				u_size: { value: new external_three_namespaceObject.Vector2( 1, 1 ) },
+				u_tSize: { value: new external_three_namespaceObject.Vector2( 1, 1 ) }
+			};
+
+		}
+
+		/**
+		 * Update backgroundMaterial uniforms.
+		 * Used within MaterialManager and in Block and InlineBlock innerUpdates.
+		 */
+		updateBackgroundMaterial() {
+
+			this.backgroundUniforms.u_texture.value = this.getBackgroundTexture();
+
+			this.backgroundUniforms.u_tSize.value.set(
+				this.backgroundUniforms.u_texture.value.image.width,
+				this.backgroundUniforms.u_texture.value.image.height
+			);
+
+			if ( this.size ) this.backgroundUniforms.u_size.value.copy( this.size );
+
+			if ( this.backgroundUniforms.u_texture.value.isDefault ) {
+
+				this.backgroundUniforms.u_color.value = this.getBackgroundColor();
+
+				this.backgroundUniforms.u_opacity.value = this.getBackgroundOpacity();
+
+			} else {
+
+				this.backgroundUniforms.u_color.value = this.backgroundColor || Defaults.backgroundWhiteColor;
+
+				this.backgroundUniforms.u_opacity.value = ( !this.backgroundOpacity && this.backgroundOpacity !== 0 ) ?
+					Defaults.backgroundOpaqueOpacity :
+					this.backgroundOpacity;
+
+			}
+
+			this.backgroundUniforms.u_backgroundMapping.value = ( () => {
+
+				switch ( this.getBackgroundSize() ) {
+
+					case 'stretch':
+						return 0;
+					case 'contain':
+						return 1;
+					case 'cover':
+						return 2;
+
+				}
+
+			} )();
+
+			const borderRadius = this.getBorderRadius();
+			this.backgroundUniforms.u_borderWidth.value = this.getBorderWidth();
+			this.backgroundUniforms.u_borderColor.value = this.getBorderColor();
+			this.backgroundUniforms.u_borderOpacity.value = this.getBorderOpacity();
+
+			//
+
+			if ( Array.isArray( borderRadius ) ) {
+
+				this.backgroundUniforms.u_borderRadiusTopLeft.value = borderRadius[ 0 ];
+				this.backgroundUniforms.u_borderRadiusTopRight.value = borderRadius[ 1 ];
+				this.backgroundUniforms.u_borderRadiusBottomRight.value = borderRadius[ 2 ];
+				this.backgroundUniforms.u_borderRadiusBottomLeft.value = borderRadius[ 3 ];
+
+			} else {
+
+				this.backgroundUniforms.u_borderRadiusTopLeft.value = borderRadius;
+				this.backgroundUniforms.u_borderRadiusTopRight.value = borderRadius;
+				this.backgroundUniforms.u_borderRadiusBottomRight.value = borderRadius;
+				this.backgroundUniforms.u_borderRadiusBottomLeft.value = borderRadius;
+
+			}
+
+		}
+
+		/**
+		 * Update backgroundMaterial uniforms.
+		 * Used within MaterialManager and in Text innerUpdates.
+		 */
+		updateTextMaterial() {
+
+			this.textUniforms.u_texture.value = this.getFontTexture();
+			this.textUniforms.u_color.value = this.getFontColor();
+			this.textUniforms.u_opacity.value = this.getFontOpacity();
+			this.textUniforms.u_pxRange.value = this.getFontPXRange();
+			this.textUniforms.u_useRGSS.value = this.getFontSupersampling();
+
+		}
+
+		/** Called by Block, which needs the background material to create a mesh */
+		getBackgroundMaterial() {
+
+			if ( !this.backgroundMaterial || !this.backgroundUniforms ) {
+
+				this.backgroundMaterial = this._makeBackgroundMaterial();
+
+			}
+
+			return this.backgroundMaterial;
+
+		}
+
+		/** Called by Text to get the font material */
+		getFontMaterial() {
+
+			if ( !this.fontMaterial || !this.textUniforms ) {
+
+				this.fontMaterial = this._makeTextMaterial();
+
+			}
+
+			return this.fontMaterial;
+
+		}
+
+		/** @private */
+		_makeTextMaterial() {
+
+			return new external_three_namespaceObject.ShaderMaterial( {
+				uniforms: this.textUniforms,
+				transparent: true,
+				clipping: true,
+				vertexShader: textVertex,
+				fragmentShader: textFragment,
+				extensions: {
+					derivatives: true
+				}
+			} );
+
+		}
+
+		/** @private */
+		_makeBackgroundMaterial() {
+
+			return new external_three_namespaceObject.ShaderMaterial( {
+				uniforms: this.backgroundUniforms,
+				transparent: true,
+				clipping: true,
+				vertexShader: backgroundVertex,
+				fragmentShader: backgroundFragment,
+				extensions: {
+					derivatives: true
+				}
+			} );
+
+		}
+
+		/**
+		 * Update a component's materials clipping planes.
+		 * Called every frame.
+		 */
+		updateClippingPlanes( value ) {
+
+			const newClippingPlanes = value !== undefined ? value : this.getClippingPlanes();
+
+			if ( JSON.stringify( newClippingPlanes ) !== JSON.stringify( this.clippingPlanes ) ) {
+
+				this.clippingPlanes = newClippingPlanes;
+
+				if ( this.fontMaterial ) this.fontMaterial.clippingPlanes = this.clippingPlanes;
+
+				if ( this.backgroundMaterial ) this.backgroundMaterial.clippingPlanes = this.clippingPlanes;
+
+			}
+
+		}
+
+	};
+
+}
+
+////////////////
+// Text shaders
+////////////////
+
+const textVertex = `
+varying vec2 vUv;
+
+#include <clipping_planes_pars_vertex>
+
+void main() {
+
+	vUv = uv;
+	vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+	gl_Position = projectionMatrix * mvPosition;
+	gl_Position.z -= 0.00001;
+
+	#include <clipping_planes_vertex>
+
+}
+`;
+
+//
+
+const textFragment = `
+
+uniform sampler2D u_texture;
+uniform vec3 u_color;
+uniform float u_opacity;
+uniform float u_pxRange;
+uniform bool u_useRGSS;
+
+varying vec2 vUv;
+
+#include <clipping_planes_pars_fragment>
+
+// functions from the original msdf repo:
+// https://github.com/Chlumsky/msdfgen#using-a-multi-channel-distance-field
+
+float median(float r, float g, float b) {
+	return max(min(r, g), min(max(r, g), b));
+}
+
+float screenPxRange() {
+	vec2 unitRange = vec2(u_pxRange)/vec2(textureSize(u_texture, 0));
+	vec2 screenTexSize = vec2(1.0)/fwidth(vUv);
+	return max(0.5*dot(unitRange, screenTexSize), 1.0);
+}
+
+float tap(vec2 offsetUV) {
+	vec3 msd = texture( u_texture, offsetUV ).rgb;
+	float sd = median(msd.r, msd.g, msd.b);
+	float screenPxDistance = screenPxRange() * (sd - 0.5);
+	float alpha = clamp(screenPxDistance + 0.5, 0.0, 1.0);
+	return alpha;
+}
+
+void main() {
+
+	float alpha;
+
+	if ( u_useRGSS ) {
+
+		// shader-based supersampling based on https://bgolus.medium.com/sharper-mipmapping-using-shader-based-supersampling-ed7aadb47bec
+		// per pixel partial derivatives
+		vec2 dx = dFdx(vUv);
+		vec2 dy = dFdy(vUv);
+
+		// rotated grid uv offsets
+		vec2 uvOffsets = vec2(0.125, 0.375);
+		vec2 offsetUV = vec2(0.0, 0.0);
+
+		// supersampled using 2x2 rotated grid
+		alpha = 0.0;
+		offsetUV.xy = vUv + uvOffsets.x * dx + uvOffsets.y * dy;
+		alpha += tap(offsetUV);
+		offsetUV.xy = vUv - uvOffsets.x * dx - uvOffsets.y * dy;
+		alpha += tap(offsetUV);
+		offsetUV.xy = vUv + uvOffsets.y * dx - uvOffsets.x * dy;
+		alpha += tap(offsetUV);
+		offsetUV.xy = vUv - uvOffsets.y * dx + uvOffsets.x * dy;
+		alpha += tap(offsetUV);
+		alpha *= 0.25;
+
+	} else {
+
+		alpha = tap( vUv );
+
+	}
+
+
+	// apply the opacity
+	alpha *= u_opacity;
+
+	// this is useful to avoid z-fighting when quads overlap because of kerning
+	if ( alpha < 0.02) discard;
+
+
+	gl_FragColor = vec4( u_color, alpha );
+
+	#include <clipping_planes_fragment>
+
+}
+`;
+
+//////////////////////
+// Background shaders
+//////////////////////
+
+const backgroundVertex = `
+varying vec2 vUv;
+
+#include <clipping_planes_pars_vertex>
+
+void main() {
+
+	vUv = uv;
+	vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+	gl_Position = projectionMatrix * mvPosition;
+
+	#include <clipping_planes_vertex>
+
+}
+`;
+
+//
+
+const backgroundFragment = `
+
+uniform sampler2D u_texture;
+uniform vec3 u_color;
+uniform float u_opacity;
+
+uniform float u_borderRadiusTopLeft;
+uniform float u_borderRadiusTopRight;
+uniform float u_borderRadiusBottomLeft;
+uniform float u_borderRadiusBottomRight;
+uniform float u_borderWidth;
+uniform vec3 u_borderColor;
+uniform float u_borderOpacity;
+uniform vec2 u_size;
+uniform vec2 u_tSize;
+uniform int u_backgroundMapping;
+
+varying vec2 vUv;
+
+#include <clipping_planes_pars_fragment>
+
+float getEdgeDist() {
+	vec2 ndc = vec2( vUv.x * 2.0 - 1.0, vUv.y * 2.0 - 1.0 );
+	vec2 planeSpaceCoord = vec2( u_size.x * 0.5 * ndc.x, u_size.y * 0.5 * ndc.y );
+	vec2 corner = u_size * 0.5;
+	vec2 offsetCorner = corner - abs( planeSpaceCoord );
+	float innerRadDist = min( offsetCorner.x, offsetCorner.y ) * -1.0;
+	if (vUv.x < 0.5 && vUv.y >= 0.5) {
+		float roundedDist = length( max( abs( planeSpaceCoord ) - u_size * 0.5 + u_borderRadiusTopLeft, 0.0 ) ) - u_borderRadiusTopLeft;
+		float s = step( innerRadDist * -1.0, u_borderRadiusTopLeft );
+		return mix( innerRadDist, roundedDist, s );
+	}
+	if (vUv.x >= 0.5 && vUv.y >= 0.5) {
+		float roundedDist = length( max( abs( planeSpaceCoord ) - u_size * 0.5 + u_borderRadiusTopRight, 0.0 ) ) - u_borderRadiusTopRight;
+		float s = step( innerRadDist * -1.0, u_borderRadiusTopRight );
+		return mix( innerRadDist, roundedDist, s );
+	}
+	if (vUv.x >= 0.5 && vUv.y < 0.5) {
+		float roundedDist = length( max( abs( planeSpaceCoord ) - u_size * 0.5 + u_borderRadiusBottomRight, 0.0 ) ) - u_borderRadiusBottomRight;
+		float s = step( innerRadDist * -1.0, u_borderRadiusBottomRight );
+		return mix( innerRadDist, roundedDist, s );
+	}
+	if (vUv.x < 0.5 && vUv.y < 0.5) {
+		float roundedDist = length( max( abs( planeSpaceCoord ) - u_size * 0.5 + u_borderRadiusBottomLeft, 0.0 ) ) - u_borderRadiusBottomLeft;
+		float s = step( innerRadDist * -1.0, u_borderRadiusBottomLeft );
+		return mix( innerRadDist, roundedDist, s );
+	}
+}
+
+vec4 sampleTexture() {
+	float textureRatio = u_tSize.x / u_tSize.y;
+	float panelRatio = u_size.x / u_size.y;
+	vec2 uv = vUv;
+	if ( u_backgroundMapping == 1 ) { // contain
+		if ( textureRatio < panelRatio ) { // repeat on X
+			float newX = uv.x * ( panelRatio / textureRatio );
+			newX += 0.5 - 0.5 * ( panelRatio / textureRatio );
+			uv.x = newX;
+		} else { // repeat on Y
+			float newY = uv.y * ( textureRatio / panelRatio );
+			newY += 0.5 - 0.5 * ( textureRatio / panelRatio );
+			uv.y = newY;
+		}
+	} else if ( u_backgroundMapping == 2 ) { // cover
+		if ( textureRatio < panelRatio ) { // stretch on Y
+			float newY = uv.y * ( textureRatio / panelRatio );
+			newY += 0.5 - 0.5 * ( textureRatio / panelRatio );
+			uv.y = newY;
+		} else { // stretch on X
+			float newX = uv.x * ( panelRatio / textureRatio );
+			newX += 0.5 - 0.5 * ( panelRatio / textureRatio );
+			uv.x = newX;
+		}
+	}
+	return texture2D( u_texture, uv ).rgba;
+}
+
+void main() {
+
+	float edgeDist = getEdgeDist();
+	float change = fwidth( edgeDist );
+
+	vec4 textureSample = sampleTexture();
+	vec3 blendedColor = textureSample.rgb * u_color;
+
+	float alpha = smoothstep( change, 0.0, edgeDist );
+	float blendedOpacity = u_opacity * textureSample.a * alpha;
+
+	vec4 frameColor = vec4( blendedColor, blendedOpacity );
+
+	if ( u_borderWidth <= 0.0 ) {
+		gl_FragColor = frameColor;
+	} else {
+		vec4 borderColor = vec4( u_borderColor, u_borderOpacity * alpha );
+		float stp = smoothstep( edgeDist + change, edgeDist, u_borderWidth * -1.0 );
+		gl_FragColor = mix( frameColor, borderColor, stp );
+	}
+
+	#include <clipping_planes_fragment>
+}
+`;
+
+;// CONCATENATED MODULE: ./src/content/Frame.js
+
+
+
+/**
+ * Returns a basic plane mesh.
+ */
+class Frame extends external_three_namespaceObject.Mesh {
+
+	constructor( material ) {
+
+		const geometry = new external_three_namespaceObject.PlaneGeometry();
+
+		super( geometry, material );
+
+		this.castShadow = true;
+		this.receiveShadow = true;
+
+		this.name = 'MeshUI-Frame';
+
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/utils/mix.js
+let _Base = null;
+
+/**
+ * A function for applying multiple mixins more tersely (less verbose)
+ * @param {Function[]} mixins - All args to this function should be mixins that take a class and return a class.
+ */
+function mix( ...mixins ) {
+
+	// console.log('initial Base: ', _Base);
+
+	if( !_Base ){
+		throw new Error("Cannot use mixins with Base null");
+	}
+
+	let Base = _Base;
+
+	_Base = null;
+
+	let i = mixins.length;
+	let mixin;
+
+	while ( --i >= 0 ) {
+
+		mixin = mixins[ i ];
+		Base = mixin( Base );
+
+	}
+
+	return Base;
+
+}
+
+mix.withBase = ( Base ) => {
+
+	_Base = Base;
+
+	return mix;
+
+};
+
+;// CONCATENATED MODULE: ./src/components/Block.js
+
+
+
+
+
+
+
+
+
+
+/**
+
+Job:
+- Update a Block component
+- Calls BoxComponent's API to position its children box components
+- Calls InlineManager's API to position its children inline components
+- Call creation and update functions of its background planes
+
+ */
+class Block extends mix.withBase( external_three_namespaceObject.Object3D )(
+	BoxComponent,
+	InlineManager,
+	MaterialManager,
+	MeshUIComponent
+) {
+
+	constructor( options ) {
+
+		super( options );
+
+		this.isBlock = true;
+
+		//
+
+		this.size = new external_three_namespaceObject.Vector2( 1, 1 );
+
+		this.frame = new Frame( this.getBackgroundMaterial() );
+
+		// This is for hiddenOverflow to work
+		this.frame.onBeforeRender = () => {
+
+			if ( this.updateClippingPlanes ) {
+
+				this.updateClippingPlanes();
+
+			}
+
+		};
+
+		this.add( this.frame );
+
+		// Lastly set the options parameters to this object, which will trigger an update
+
+		this.set( options );
+
+	}
+
+	////////////
+	//  UPDATE
+	////////////
+
+	parseParams() {
+
+		const bestFit = this.getBestFit();
+
+		if ( bestFit != 'none' && this.childrenTexts.length ) {
+
+			this.calculateBestFit( bestFit );
+
+		} else {
+
+			this.childrenTexts.forEach( child => {
+
+				child._fitFontSize = undefined;
+
+			} );
+		}
+	}
+
+	updateLayout() {
+
+		// Get temporary dimension
+
+		const WIDTH = this.getWidth();
+
+		const HEIGHT = this.getHeight();
+
+		if ( !WIDTH || !HEIGHT ) {
+
+			console.warn( 'Block got no dimension from its parameters or from children parameters' );
+			return;
+
+		}
+
+		this.size.set( WIDTH, HEIGHT );
+		this.frame.scale.set( WIDTH, HEIGHT, 1 );
+
+		if ( this.frame ) this.updateBackgroundMaterial();
+
+		this.frame.renderOrder = this.getParentsNumber();
+
+		// Position this element according to earlier parent computation.
+		// Delegate to BoxComponent.
+
+		if ( this.autoLayout ) {
+
+			this.setPosFromParentRecords();
+
+		}
+
+		// Position inner elements according to dimensions and layout parameters.
+		// Delegate to BoxComponent.
+
+		if ( this.childrenInlines.length ) {
+
+			this.computeInlinesPosition();
+
+		}
+
+		this.computeChildrenPosition();
+
+		// We check if this block is the root component,
+		// because most of the time the user wants to set the
+		// root component's z position themselves
+		if ( this.parentUI ) {
+
+			this.position.z = this.getOffset();
+
+		}
+
+	}
+
+	//
+
+	updateInner() {
+
+		// We check if this block is the root component,
+		// because most of the time the user wants to set the
+		// root component's z position themselves
+		if ( this.parentUI ) {
+
+			this.position.z = this.getOffset();
+
+		}
+
+		if ( this.frame ) this.updateBackgroundMaterial();
+
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/components/core/InlineComponent.js
+/**
+
+Job: nothing yet, but adding a isInline parameter to an inline component
+
+Knows: parent dimensions
+
+ */
+function InlineComponent( Base ) {
+
+	return class InlineComponent extends Base {
+
+		constructor( options ) {
+
+			super( options );
+
+			this.isInline = true;
+
+		}
+
+	};
+}
+
+;// CONCATENATED MODULE: ./node_modules/three/examples/jsm/utils/BufferGeometryUtils.js
+
+
+function computeTangents() {
+
+	throw new Error( 'BufferGeometryUtils: computeTangents renamed to computeMikkTSpaceTangents.' );
+
+}
+
+function computeMikkTSpaceTangents( geometry, MikkTSpace, negateSign = true ) {
+
+	if ( ! MikkTSpace || ! MikkTSpace.isReady ) {
+
+		throw new Error( 'BufferGeometryUtils: Initialized MikkTSpace library required.' );
+
+	}
+
+	if ( ! geometry.hasAttribute( 'position' ) || ! geometry.hasAttribute( 'normal' ) || ! geometry.hasAttribute( 'uv' ) ) {
+
+		throw new Error( 'BufferGeometryUtils: Tangents require "position", "normal", and "uv" attributes.' );
+
+	}
+
+	function getAttributeArray( attribute ) {
+
+		if ( attribute.normalized || attribute.isInterleavedBufferAttribute ) {
+
+			const srcArray = attribute.isInterleavedBufferAttribute ? attribute.data.array : attribute.array;
+			const dstArray = new Float32Array( attribute.getCount() * attribute.itemSize );
+
+			for ( let i = 0, j = 0; i < attribute.getCount(); i ++ ) {
+
+				dstArray[ j ++ ] = MathUtils.denormalize( attribute.getX( i ), srcArray );
+				dstArray[ j ++ ] = MathUtils.denormalize( attribute.getY( i ), srcArray );
+
+				if ( attribute.itemSize > 2 ) {
+
+					dstArray[ j ++ ] = MathUtils.denormalize( attribute.getZ( i ), srcArray );
+
+				}
+
+			}
+
+			return dstArray;
+
+		}
+
+		if ( attribute.array instanceof Float32Array ) {
+
+			return attribute.array;
+
+		}
+
+		return new Float32Array( attribute.array );
+
+	}
+
+	// MikkTSpace algorithm requires non-indexed input.
+
+	const _geometry = geometry.index ? geometry.toNonIndexed() : geometry;
+
+	// Compute vertex tangents.
+
+	const tangents = MikkTSpace.generateTangents(
+
+		getAttributeArray( _geometry.attributes.position ),
+		getAttributeArray( _geometry.attributes.normal ),
+		getAttributeArray( _geometry.attributes.uv )
+
+	);
+
+	// Texture coordinate convention of glTF differs from the apparent
+	// default of the MikkTSpace library; .w component must be flipped.
+
+	if ( negateSign ) {
+
+		for ( let i = 3; i < tangents.length; i += 4 ) {
+
+			tangents[ i ] *= - 1;
+
+		}
+
+	}
+
+	//
+
+	_geometry.setAttribute( 'tangent', new BufferAttribute( tangents, 4 ) );
+
+	if ( geometry !== _geometry ) {
+
+		geometry.copy( _geometry );
+
+	}
+
+	return geometry;
+
+}
+
+/**
+ * @param  {Array<BufferGeometry>} geometries
+ * @param  {Boolean} useGroups
+ * @return {BufferGeometry}
+ */
+function mergeBufferGeometries( geometries, useGroups = false ) {
+
+	const isIndexed = geometries[ 0 ].index !== null;
+
+	const attributesUsed = new Set( Object.keys( geometries[ 0 ].attributes ) );
+	const morphAttributesUsed = new Set( Object.keys( geometries[ 0 ].morphAttributes ) );
+
+	const attributes = {};
+	const morphAttributes = {};
+
+	const morphTargetsRelative = geometries[ 0 ].morphTargetsRelative;
+
+	const mergedGeometry = new external_three_namespaceObject.BufferGeometry();
+
+	let offset = 0;
+
+	for ( let i = 0; i < geometries.length; ++ i ) {
+
+		const geometry = geometries[ i ];
+		let attributesCount = 0;
+
+		// ensure that all geometries are indexed, or none
+
+		if ( isIndexed !== ( geometry.index !== null ) ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.' );
+			return null;
+
+		}
+
+		// gather attributes, exit early if they're different
+
+		for ( const name in geometry.attributes ) {
+
+			if ( ! attributesUsed.has( name ) ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '. All geometries must have compatible attributes; make sure "' + name + '" attribute exists among all geometries, or in none of them.' );
+				return null;
+
+			}
+
+			if ( attributes[ name ] === undefined ) attributes[ name ] = [];
+
+			attributes[ name ].push( geometry.attributes[ name ] );
+
+			attributesCount ++;
+
+		}
+
+		// ensure geometries have the same number of attributes
+
+		if ( attributesCount !== attributesUsed.size ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '. Make sure all geometries have the same number of attributes.' );
+			return null;
+
+		}
+
+		// gather morph attributes, exit early if they're different
+
+		if ( morphTargetsRelative !== geometry.morphTargetsRelative ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '. .morphTargetsRelative must be consistent throughout all geometries.' );
+			return null;
+
+		}
+
+		for ( const name in geometry.morphAttributes ) {
+
+			if ( ! morphAttributesUsed.has( name ) ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '.  .morphAttributes must be consistent throughout all geometries.' );
+				return null;
+
+			}
+
+			if ( morphAttributes[ name ] === undefined ) morphAttributes[ name ] = [];
+
+			morphAttributes[ name ].push( geometry.morphAttributes[ name ] );
+
+		}
+
+		// gather .userData
+
+		mergedGeometry.userData.mergedUserData = mergedGeometry.userData.mergedUserData || [];
+		mergedGeometry.userData.mergedUserData.push( geometry.userData );
+
+		if ( useGroups ) {
+
+			let count;
+
+			if ( isIndexed ) {
+
+				count = geometry.index.count;
+
+			} else if ( geometry.attributes.position !== undefined ) {
+
+				count = geometry.attributes.position.count;
+
+			} else {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed with geometry at index ' + i + '. The geometry must have either an index or a position attribute' );
+				return null;
+
+			}
+
+			mergedGeometry.addGroup( offset, count, i );
+
+			offset += count;
+
+		}
+
+	}
+
+	// merge indices
+
+	if ( isIndexed ) {
+
+		let indexOffset = 0;
+		const mergedIndex = [];
+
+		for ( let i = 0; i < geometries.length; ++ i ) {
+
+			const index = geometries[ i ].index;
+
+			for ( let j = 0; j < index.count; ++ j ) {
+
+				mergedIndex.push( index.getX( j ) + indexOffset );
+
+			}
+
+			indexOffset += geometries[ i ].attributes.position.count;
+
+		}
+
+		mergedGeometry.setIndex( mergedIndex );
+
+	}
+
+	// merge attributes
+
+	for ( const name in attributes ) {
+
+		const mergedAttribute = mergeBufferAttributes( attributes[ name ] );
+
+		if ( ! mergedAttribute ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed while trying to merge the ' + name + ' attribute.' );
+			return null;
+
+		}
+
+		mergedGeometry.setAttribute( name, mergedAttribute );
+
+	}
+
+	// merge morph attributes
+
+	for ( const name in morphAttributes ) {
+
+		const numMorphTargets = morphAttributes[ name ][ 0 ].length;
+
+		if ( numMorphTargets === 0 ) break;
+
+		mergedGeometry.morphAttributes = mergedGeometry.morphAttributes || {};
+		mergedGeometry.morphAttributes[ name ] = [];
+
+		for ( let i = 0; i < numMorphTargets; ++ i ) {
+
+			const morphAttributesToMerge = [];
+
+			for ( let j = 0; j < morphAttributes[ name ].length; ++ j ) {
+
+				morphAttributesToMerge.push( morphAttributes[ name ][ j ][ i ] );
+
+			}
+
+			const mergedMorphAttribute = mergeBufferAttributes( morphAttributesToMerge );
+
+			if ( ! mergedMorphAttribute ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeBufferGeometries() failed while trying to merge the ' + name + ' morphAttribute.' );
+				return null;
+
+			}
+
+			mergedGeometry.morphAttributes[ name ].push( mergedMorphAttribute );
+
+		}
+
+	}
+
+	return mergedGeometry;
+
+}
+
+/**
+ * @param {Array<BufferAttribute>} attributes
+ * @return {BufferAttribute}
+ */
+function mergeBufferAttributes( attributes ) {
+
+	let TypedArray;
+	let itemSize;
+	let normalized;
+	let arrayLength = 0;
+
+	for ( let i = 0; i < attributes.length; ++ i ) {
+
+		const attribute = attributes[ i ];
+
+		if ( attribute.isInterleavedBufferAttribute ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferAttributes() failed. InterleavedBufferAttributes are not supported.' );
+			return null;
+
+		}
+
+		if ( TypedArray === undefined ) TypedArray = attribute.array.constructor;
+		if ( TypedArray !== attribute.array.constructor ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferAttributes() failed. BufferAttribute.array must be of consistent array types across matching attributes.' );
+			return null;
+
+		}
+
+		if ( itemSize === undefined ) itemSize = attribute.itemSize;
+		if ( itemSize !== attribute.itemSize ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferAttributes() failed. BufferAttribute.itemSize must be consistent across matching attributes.' );
+			return null;
+
+		}
+
+		if ( normalized === undefined ) normalized = attribute.normalized;
+		if ( normalized !== attribute.normalized ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeBufferAttributes() failed. BufferAttribute.normalized must be consistent across matching attributes.' );
+			return null;
+
+		}
+
+		arrayLength += attribute.array.length;
+
+	}
+
+	const array = new TypedArray( arrayLength );
+	let offset = 0;
+
+	for ( let i = 0; i < attributes.length; ++ i ) {
+
+		array.set( attributes[ i ].array, offset );
+
+		offset += attributes[ i ].array.length;
+
+	}
+
+	return new external_three_namespaceObject.BufferAttribute( array, itemSize, normalized );
+
+}
+
+/**
+ * @param {Array<BufferAttribute>} attributes
+ * @return {Array<InterleavedBufferAttribute>}
+ */
+function interleaveAttributes( attributes ) {
+
+	// Interleaves the provided attributes into an InterleavedBuffer and returns
+	// a set of InterleavedBufferAttributes for each attribute
+	let TypedArray;
+	let arrayLength = 0;
+	let stride = 0;
+
+	// calculate the the length and type of the interleavedBuffer
+	for ( let i = 0, l = attributes.length; i < l; ++ i ) {
+
+		const attribute = attributes[ i ];
+
+		if ( TypedArray === undefined ) TypedArray = attribute.array.constructor;
+		if ( TypedArray !== attribute.array.constructor ) {
+
+			console.error( 'AttributeBuffers of different types cannot be interleaved' );
+			return null;
+
+		}
+
+		arrayLength += attribute.array.length;
+		stride += attribute.itemSize;
+
+	}
+
+	// Create the set of buffer attributes
+	const interleavedBuffer = new InterleavedBuffer( new TypedArray( arrayLength ), stride );
+	let offset = 0;
+	const res = [];
+	const getters = [ 'getX', 'getY', 'getZ', 'getW' ];
+	const setters = [ 'setX', 'setY', 'setZ', 'setW' ];
+
+	for ( let j = 0, l = attributes.length; j < l; j ++ ) {
+
+		const attribute = attributes[ j ];
+		const itemSize = attribute.itemSize;
+		const count = attribute.count;
+		const iba = new InterleavedBufferAttribute( interleavedBuffer, itemSize, offset, attribute.normalized );
+		res.push( iba );
+
+		offset += itemSize;
+
+		// Move the data for each attribute into the new interleavedBuffer
+		// at the appropriate offset
+		for ( let c = 0; c < count; c ++ ) {
+
+			for ( let k = 0; k < itemSize; k ++ ) {
+
+				iba[ setters[ k ] ]( c, attribute[ getters[ k ] ]( c ) );
+
+			}
+
+		}
+
+	}
+
+	return res;
+
+}
+
+// returns a new, non-interleaved version of the provided attribute
+function deinterleaveAttribute( attribute ) {
+
+	const cons = attribute.data.array.constructor;
+	const count = attribute.count;
+	const itemSize = attribute.itemSize;
+	const normalized = attribute.normalized;
+
+	const array = new cons( count * itemSize );
+	let newAttribute;
+	if ( attribute.isInstancedInterleavedBufferAttribute ) {
+
+		newAttribute = new InstancedBufferAttribute( array, itemSize, normalized, attribute.meshPerAttribute );
+
+	} else {
+
+		newAttribute = new BufferAttribute( array, itemSize, normalized );
+
+	}
+
+	for ( let i = 0; i < count; i ++ ) {
+
+		newAttribute.setX( i, attribute.getX( i ) );
+
+		if ( itemSize >= 2 ) {
+
+			newAttribute.setY( i, attribute.getY( i ) );
+
+		}
+
+		if ( itemSize >= 3 ) {
+
+			newAttribute.setZ( i, attribute.getZ( i ) );
+
+		}
+
+		if ( itemSize >= 4 ) {
+
+			newAttribute.setW( i, attribute.getW( i ) );
+
+		}
+
+	}
+
+	return newAttribute;
+
+}
+
+// deinterleaves all attributes on the geometry
+function deinterleaveGeometry( geometry ) {
+
+	const attributes = geometry.attributes;
+	const morphTargets = geometry.morphTargets;
+	const attrMap = new Map();
+
+	for ( const key in attributes ) {
+
+		const attr = attributes[ key ];
+		if ( attr.isInterleavedBufferAttribute ) {
+
+			if ( ! attrMap.has( attr ) ) {
+
+				attrMap.set( attr, deinterleaveAttribute( attr ) );
+
+			}
+
+			attributes[ key ] = attrMap.get( attr );
+
+		}
+
+	}
+
+	for ( const key in morphTargets ) {
+
+		const attr = morphTargets[ key ];
+		if ( attr.isInterleavedBufferAttribute ) {
+
+			if ( ! attrMap.has( attr ) ) {
+
+				attrMap.set( attr, deinterleaveAttribute( attr ) );
+
+			}
+
+			morphTargets[ key ] = attrMap.get( attr );
+
+		}
+
+	}
+
+}
+
+/**
+ * @param {Array<BufferGeometry>} geometry
+ * @return {number}
+ */
+function estimateBytesUsed( geometry ) {
+
+	// Return the estimated memory used by this geometry in bytes
+	// Calculate using itemSize, count, and BYTES_PER_ELEMENT to account
+	// for InterleavedBufferAttributes.
+	let mem = 0;
+	for ( const name in geometry.attributes ) {
+
+		const attr = geometry.getAttribute( name );
+		mem += attr.count * attr.itemSize * attr.array.BYTES_PER_ELEMENT;
+
+	}
+
+	const indices = geometry.getIndex();
+	mem += indices ? indices.count * indices.itemSize * indices.array.BYTES_PER_ELEMENT : 0;
+	return mem;
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {number} tolerance
+ * @return {BufferGeometry>}
+ */
+function mergeVertices( geometry, tolerance = 1e-4 ) {
+
+	tolerance = Math.max( tolerance, Number.EPSILON );
+
+	// Generate an index buffer if the geometry doesn't have one, or optimize it
+	// if it's already available.
+	const hashToIndex = {};
+	const indices = geometry.getIndex();
+	const positions = geometry.getAttribute( 'position' );
+	const vertexCount = indices ? indices.count : positions.count;
+
+	// next value for triangle indices
+	let nextIndex = 0;
+
+	// attributes and new attribute arrays
+	const attributeNames = Object.keys( geometry.attributes );
+	const attrArrays = {};
+	const morphAttrsArrays = {};
+	const newIndices = [];
+	const getters = [ 'getX', 'getY', 'getZ', 'getW' ];
+
+	// initialize the arrays
+	for ( let i = 0, l = attributeNames.length; i < l; i ++ ) {
+
+		const name = attributeNames[ i ];
+
+		attrArrays[ name ] = [];
+
+		const morphAttr = geometry.morphAttributes[ name ];
+		if ( morphAttr ) {
+
+			morphAttrsArrays[ name ] = new Array( morphAttr.length ).fill().map( () => [] );
+
+		}
+
+	}
+
+	// convert the error tolerance to an amount of decimal places to truncate to
+	const decimalShift = Math.log10( 1 / tolerance );
+	const shiftMultiplier = Math.pow( 10, decimalShift );
+	for ( let i = 0; i < vertexCount; i ++ ) {
+
+		const index = indices ? indices.getX( i ) : i;
+
+		// Generate a hash for the vertex attributes at the current index 'i'
+		let hash = '';
+		for ( let j = 0, l = attributeNames.length; j < l; j ++ ) {
+
+			const name = attributeNames[ j ];
+			const attribute = geometry.getAttribute( name );
+			const itemSize = attribute.itemSize;
+
+			for ( let k = 0; k < itemSize; k ++ ) {
+
+				// double tilde truncates the decimal value
+				hash += `${ ~ ~ ( attribute[ getters[ k ] ]( index ) * shiftMultiplier ) },`;
+
+			}
+
+		}
+
+		// Add another reference to the vertex if it's already
+		// used by another index
+		if ( hash in hashToIndex ) {
+
+			newIndices.push( hashToIndex[ hash ] );
+
+		} else {
+
+			// copy data to the new index in the attribute arrays
+			for ( let j = 0, l = attributeNames.length; j < l; j ++ ) {
+
+				const name = attributeNames[ j ];
+				const attribute = geometry.getAttribute( name );
+				const morphAttr = geometry.morphAttributes[ name ];
+				const itemSize = attribute.itemSize;
+				const newarray = attrArrays[ name ];
+				const newMorphArrays = morphAttrsArrays[ name ];
+
+				for ( let k = 0; k < itemSize; k ++ ) {
+
+					const getterFunc = getters[ k ];
+					newarray.push( attribute[ getterFunc ]( index ) );
+
+					if ( morphAttr ) {
+
+						for ( let m = 0, ml = morphAttr.length; m < ml; m ++ ) {
+
+							newMorphArrays[ m ].push( morphAttr[ m ][ getterFunc ]( index ) );
+
+						}
+
+					}
+
+				}
+
+			}
+
+			hashToIndex[ hash ] = nextIndex;
+			newIndices.push( nextIndex );
+			nextIndex ++;
+
+		}
+
+	}
+
+	// Generate typed arrays from new attribute arrays and update
+	// the attributeBuffers
+	const result = geometry.clone();
+	for ( let i = 0, l = attributeNames.length; i < l; i ++ ) {
+
+		const name = attributeNames[ i ];
+		const oldAttribute = geometry.getAttribute( name );
+
+		const buffer = new oldAttribute.array.constructor( attrArrays[ name ] );
+		const attribute = new BufferAttribute( buffer, oldAttribute.itemSize, oldAttribute.normalized );
+
+		result.setAttribute( name, attribute );
+
+		// Update the attribute arrays
+		if ( name in morphAttrsArrays ) {
+
+			for ( let j = 0; j < morphAttrsArrays[ name ].length; j ++ ) {
+
+				const oldMorphAttribute = geometry.morphAttributes[ name ][ j ];
+
+				const buffer = new oldMorphAttribute.array.constructor( morphAttrsArrays[ name ][ j ] );
+				const morphAttribute = new BufferAttribute( buffer, oldMorphAttribute.itemSize, oldMorphAttribute.normalized );
+				result.morphAttributes[ name ][ j ] = morphAttribute;
+
+			}
+
+		}
+
+	}
+
+	// indices
+
+	result.setIndex( newIndices );
+
+	return result;
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {number} drawMode
+ * @return {BufferGeometry>}
+ */
+function toTrianglesDrawMode( geometry, drawMode ) {
+
+	if ( drawMode === TrianglesDrawMode ) {
+
+		console.warn( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Geometry already defined as triangles.' );
+		return geometry;
+
+	}
+
+	if ( drawMode === TriangleFanDrawMode || drawMode === TriangleStripDrawMode ) {
+
+		let index = geometry.getIndex();
+
+		// generate index if not present
+
+		if ( index === null ) {
+
+			const indices = [];
+
+			const position = geometry.getAttribute( 'position' );
+
+			if ( position !== undefined ) {
+
+				for ( let i = 0; i < position.count; i ++ ) {
+
+					indices.push( i );
+
+				}
+
+				geometry.setIndex( indices );
+				index = geometry.getIndex();
+
+			} else {
+
+				console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Undefined position attribute. Processing not possible.' );
+				return geometry;
+
+			}
+
+		}
+
+		//
+
+		const numberOfTriangles = index.count - 2;
+		const newIndices = [];
+
+		if ( drawMode === TriangleFanDrawMode ) {
+
+			// gl.TRIANGLE_FAN
+
+			for ( let i = 1; i <= numberOfTriangles; i ++ ) {
+
+				newIndices.push( index.getX( 0 ) );
+				newIndices.push( index.getX( i ) );
+				newIndices.push( index.getX( i + 1 ) );
+
+			}
+
+		} else {
+
+			// gl.TRIANGLE_STRIP
+
+			for ( let i = 0; i < numberOfTriangles; i ++ ) {
+
+				if ( i % 2 === 0 ) {
+
+					newIndices.push( index.getX( i ) );
+					newIndices.push( index.getX( i + 1 ) );
+					newIndices.push( index.getX( i + 2 ) );
+
+				} else {
+
+					newIndices.push( index.getX( i + 2 ) );
+					newIndices.push( index.getX( i + 1 ) );
+					newIndices.push( index.getX( i ) );
+
+				}
+
+			}
+
+		}
+
+		if ( ( newIndices.length / 3 ) !== numberOfTriangles ) {
+
+			console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Unable to generate correct amount of triangles.' );
+
+		}
+
+		// build final geometry
+
+		const newGeometry = geometry.clone();
+		newGeometry.setIndex( newIndices );
+		newGeometry.clearGroups();
+
+		return newGeometry;
+
+	} else {
+
+		console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Unknown draw mode:', drawMode );
+		return geometry;
+
+	}
+
+}
+
+/**
+ * Calculates the morphed attributes of a morphed/skinned BufferGeometry.
+ * Helpful for Raytracing or Decals.
+ * @param {Mesh | Line | Points} object An instance of Mesh, Line or Points.
+ * @return {Object} An Object with original position/normal attributes and morphed ones.
+ */
+function computeMorphedAttributes( object ) {
+
+	if ( object.geometry.isBufferGeometry !== true ) {
+
+		console.error( 'THREE.BufferGeometryUtils: Geometry is not of type BufferGeometry.' );
+		return null;
+
+	}
+
+	const _vA = new Vector3();
+	const _vB = new Vector3();
+	const _vC = new Vector3();
+
+	const _tempA = new Vector3();
+	const _tempB = new Vector3();
+	const _tempC = new Vector3();
+
+	const _morphA = new Vector3();
+	const _morphB = new Vector3();
+	const _morphC = new Vector3();
+
+	function _calculateMorphedAttributeData(
+		object,
+		attribute,
+		morphAttribute,
+		morphTargetsRelative,
+		a,
+		b,
+		c,
+		modifiedAttributeArray
+	) {
+
+		_vA.fromBufferAttribute( attribute, a );
+		_vB.fromBufferAttribute( attribute, b );
+		_vC.fromBufferAttribute( attribute, c );
+
+		const morphInfluences = object.morphTargetInfluences;
+
+		if ( morphAttribute && morphInfluences ) {
+
+			_morphA.set( 0, 0, 0 );
+			_morphB.set( 0, 0, 0 );
+			_morphC.set( 0, 0, 0 );
+
+			for ( let i = 0, il = morphAttribute.length; i < il; i ++ ) {
+
+				const influence = morphInfluences[ i ];
+				const morph = morphAttribute[ i ];
+
+				if ( influence === 0 ) continue;
+
+				_tempA.fromBufferAttribute( morph, a );
+				_tempB.fromBufferAttribute( morph, b );
+				_tempC.fromBufferAttribute( morph, c );
+
+				if ( morphTargetsRelative ) {
+
+					_morphA.addScaledVector( _tempA, influence );
+					_morphB.addScaledVector( _tempB, influence );
+					_morphC.addScaledVector( _tempC, influence );
+
+				} else {
+
+					_morphA.addScaledVector( _tempA.sub( _vA ), influence );
+					_morphB.addScaledVector( _tempB.sub( _vB ), influence );
+					_morphC.addScaledVector( _tempC.sub( _vC ), influence );
+
+				}
+
+			}
+
+			_vA.add( _morphA );
+			_vB.add( _morphB );
+			_vC.add( _morphC );
+
+		}
+
+		if ( object.isSkinnedMesh ) {
+
+			object.boneTransform( a, _vA );
+			object.boneTransform( b, _vB );
+			object.boneTransform( c, _vC );
+
+		}
+
+		modifiedAttributeArray[ a * 3 + 0 ] = _vA.x;
+		modifiedAttributeArray[ a * 3 + 1 ] = _vA.y;
+		modifiedAttributeArray[ a * 3 + 2 ] = _vA.z;
+		modifiedAttributeArray[ b * 3 + 0 ] = _vB.x;
+		modifiedAttributeArray[ b * 3 + 1 ] = _vB.y;
+		modifiedAttributeArray[ b * 3 + 2 ] = _vB.z;
+		modifiedAttributeArray[ c * 3 + 0 ] = _vC.x;
+		modifiedAttributeArray[ c * 3 + 1 ] = _vC.y;
+		modifiedAttributeArray[ c * 3 + 2 ] = _vC.z;
+
+	}
+
+	const geometry = object.geometry;
+	const material = object.material;
+
+	let a, b, c;
+	const index = geometry.index;
+	const positionAttribute = geometry.attributes.position;
+	const morphPosition = geometry.morphAttributes.position;
+	const morphTargetsRelative = geometry.morphTargetsRelative;
+	const normalAttribute = geometry.attributes.normal;
+	const morphNormal = geometry.morphAttributes.position;
+
+	const groups = geometry.groups;
+	const drawRange = geometry.drawRange;
+	let i, j, il, jl;
+	let group;
+	let start, end;
+
+	const modifiedPosition = new Float32Array( positionAttribute.count * positionAttribute.itemSize );
+	const modifiedNormal = new Float32Array( normalAttribute.count * normalAttribute.itemSize );
+
+	if ( index !== null ) {
+
+		// indexed buffer geometry
+
+		if ( Array.isArray( material ) ) {
+
+			for ( i = 0, il = groups.length; i < il; i ++ ) {
+
+				group = groups[ i ];
+
+				start = Math.max( group.start, drawRange.start );
+				end = Math.min( ( group.start + group.count ), ( drawRange.start + drawRange.count ) );
+
+				for ( j = start, jl = end; j < jl; j += 3 ) {
+
+					a = index.getX( j );
+					b = index.getX( j + 1 );
+					c = index.getX( j + 2 );
+
+					_calculateMorphedAttributeData(
+						object,
+						positionAttribute,
+						morphPosition,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedPosition
+					);
+
+					_calculateMorphedAttributeData(
+						object,
+						normalAttribute,
+						morphNormal,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedNormal
+					);
+
+				}
+
+			}
+
+		} else {
+
+			start = Math.max( 0, drawRange.start );
+			end = Math.min( index.count, ( drawRange.start + drawRange.count ) );
+
+			for ( i = start, il = end; i < il; i += 3 ) {
+
+				a = index.getX( i );
+				b = index.getX( i + 1 );
+				c = index.getX( i + 2 );
+
+				_calculateMorphedAttributeData(
+					object,
+					positionAttribute,
+					morphPosition,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedPosition
+				);
+
+				_calculateMorphedAttributeData(
+					object,
+					normalAttribute,
+					morphNormal,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedNormal
+				);
+
+			}
+
+		}
+
+	} else {
+
+		// non-indexed buffer geometry
+
+		if ( Array.isArray( material ) ) {
+
+			for ( i = 0, il = groups.length; i < il; i ++ ) {
+
+				group = groups[ i ];
+
+				start = Math.max( group.start, drawRange.start );
+				end = Math.min( ( group.start + group.count ), ( drawRange.start + drawRange.count ) );
+
+				for ( j = start, jl = end; j < jl; j += 3 ) {
+
+					a = j;
+					b = j + 1;
+					c = j + 2;
+
+					_calculateMorphedAttributeData(
+						object,
+						positionAttribute,
+						morphPosition,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedPosition
+					);
+
+					_calculateMorphedAttributeData(
+						object,
+						normalAttribute,
+						morphNormal,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedNormal
+					);
+
+				}
+
+			}
+
+		} else {
+
+			start = Math.max( 0, drawRange.start );
+			end = Math.min( positionAttribute.count, ( drawRange.start + drawRange.count ) );
+
+			for ( i = start, il = end; i < il; i += 3 ) {
+
+				a = i;
+				b = i + 1;
+				c = i + 2;
+
+				_calculateMorphedAttributeData(
+					object,
+					positionAttribute,
+					morphPosition,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedPosition
+				);
+
+				_calculateMorphedAttributeData(
+					object,
+					normalAttribute,
+					morphNormal,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedNormal
+				);
+
+			}
+
+		}
+
+	}
+
+	const morphedPositionAttribute = new Float32BufferAttribute( modifiedPosition, 3 );
+	const morphedNormalAttribute = new Float32BufferAttribute( modifiedNormal, 3 );
+
+	return {
+
+		positionAttribute: positionAttribute,
+		normalAttribute: normalAttribute,
+		morphedPositionAttribute: morphedPositionAttribute,
+		morphedNormalAttribute: morphedNormalAttribute
+
+	};
+
+}
+
+function mergeGroups( geometry ) {
+
+	if ( geometry.groups.length === 0 ) {
+
+		console.warn( 'THREE.BufferGeometryUtils.mergeGroups(): No groups are defined. Nothing to merge.' );
+		return geometry;
+
+	}
+
+	let groups = geometry.groups;
+
+	// sort groups by material index
+
+	groups = groups.sort( ( a, b ) => {
+
+		if ( a.materialIndex !== b.materialIndex ) return a.materialIndex - b.materialIndex;
+
+		return a.start - b.start;
+
+	} );
+
+	// create index for non-indexed geometries
+
+	if ( geometry.getIndex() === null ) {
+
+		const positionAttribute = geometry.getAttribute( 'position' );
+		const indices = [];
+
+		for ( let i = 0; i < positionAttribute.count; i += 3 ) {
+
+			indices.push( i, i + 1, i + 2 );
+
+		}
+
+		geometry.setIndex( indices );
+
+	}
+
+	// sort index
+
+	const index = geometry.getIndex();
+
+	const newIndices = [];
+
+	for ( let i = 0; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		const groupStart = group.start;
+		const groupLength = groupStart + group.count;
+
+		for ( let j = groupStart; j < groupLength; j ++ ) {
+
+			newIndices.push( index.getX( j ) );
+
+		}
+
+	}
+
+	geometry.dispose(); // Required to force buffer recreation
+	geometry.setIndex( newIndices );
+
+	// update groups indices
+
+	let start = 0;
+
+	for ( let i = 0; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		group.start = start;
+		start += group.count;
+
+	}
+
+	// merge groups
+
+	let currentGroup = groups[ 0 ];
+
+	geometry.groups = [ currentGroup ];
+
+	for ( let i = 1; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		if ( currentGroup.materialIndex === group.materialIndex ) {
+
+			currentGroup.count += group.count;
+
+		} else {
+
+			currentGroup = group;
+			geometry.groups.push( currentGroup );
+
+		}
+
+	}
+
+	return geometry;
+
+}
+
+
+
+;// CONCATENATED MODULE: ./src/content/MSDFGlyph.js
+
+
+/**
+ * Job: create a plane geometry with the right UVs to map the MSDF texture on the wanted glyph.
+ *
+ * Knows: dimension of the plane to create, specs of the font used, glyph requireed
+ */
+class MSDFGlyph extends external_three_namespaceObject.PlaneGeometry {
+
+	constructor( inline, font ) {
+
+		const char = inline.glyph;
+		const fontSize = inline.fontSize;
+
+		// super( fontSize, fontSize );
+		super( inline.width, inline.height );
+
+		// Misc glyphs
+		if ( char.match( /\s/g ) === null ) {
+
+			if ( font.info.charset.indexOf( char ) === -1 ) console.error( `The character '${char}' is not included in the font characters set.` );
+
+			this.mapUVs( font, char );
+
+			this.transformGeometry( inline );
+
+			// White spaces (we don't want our plane geometry to have a visual width nor a height)
+		} else {
+
+			this.nullifyUVs();
+
+			this.scale( 0, 0, 1 );
+			this.translate( 0, fontSize / 2, 0 );
+
+		}
+
+	}
+
+	/**
+	 * Compute the right UVs that will map the MSDF texture so that the passed character
+	 * will appear centered in full size
+	 * @private
+	 */
+	mapUVs( font, char ) {
+
+		const charOBJ = font.chars.find( charOBJ => charOBJ.char === char );
+
+		const common = font.common;
+
+		const xMin = charOBJ.x / common.scaleW;
+
+		const xMax = ( charOBJ.x + charOBJ.width ) / common.scaleW;
+
+		const yMin = 1 - ( ( charOBJ.y + charOBJ.height ) / common.scaleH );
+
+		const yMax = 1 - ( charOBJ.y / common.scaleH );
+
+		//
+
+		const uvAttribute = this.attributes.uv;
+
+		for ( let i = 0; i < uvAttribute.count; i++ ) {
+
+			let u = uvAttribute.getX( i );
+			let v = uvAttribute.getY( i );
+
+			[ u, v ] = ( () => {
+
+				switch ( i ) {
+
+					case 0 :
+						return [ xMin, yMax ];
+					case 1 :
+						return [ xMax, yMax ];
+					case 2 :
+						return [ xMin, yMin ];
+					case 3 :
+						return [ xMax, yMin ];
+
+				}
+
+			} )();
+
+			uvAttribute.setXY( i, u, v );
+
+		}
+
+	}
+
+	/** Set all UVs to 0, so that none of the glyphs on the texture will appear */
+	nullifyUVs() {
+
+		const uvAttribute = this.attributes.uv;
+
+		for ( let i = 0; i < uvAttribute.count; i++ ) {
+
+			uvAttribute.setXY( i, 0, 0 );
+
+		}
+
+	}
+
+	/** Gives the previously computed scale and offset to the geometry */
+	transformGeometry( inline ) {
+
+		this.translate(
+			inline.width / 2,
+				inline.height / 2,
+			0
+		);
+
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/content/MSDFText.js
+
+
+
+
+
+/**
+
+Job:
+- Computing glyphs dimensions according to this component's font and content
+- Create the text Mesh (call MSDFGlyph for each letter)
+
+Knows:
+- The Text component for which it creates Meshes
+- The parameters of the text mesh it must return
+
+ */
+
+function getGlyphDimensions( options ) {
+
+	const FONT = options.font;
+
+	const FONT_SIZE = options.fontSize;
+
+	const GLYPH = options.glyph;
+
+	const SCALE_MULT = FONT_SIZE / FONT.info.size;
+
+	//
+
+	const charOBJ = FONT.chars.find( charOBJ => charOBJ.char === GLYPH );
+
+	let width = charOBJ ? charOBJ.width * SCALE_MULT : FONT_SIZE / 3;
+
+	let height = charOBJ ? charOBJ.height * SCALE_MULT : 0;
+
+	// handle exported whitespaces
+	if ( width === 0 ) {
+
+		// if this whitespaces in is the charset, use its xadvance value
+		// or fallback to fontSize
+		width = charOBJ ? charOBJ.xadvance * SCALE_MULT : FONT_SIZE;
+
+	}
+
+
+	if ( height === 0 ) height = FONT_SIZE * 0.7;
+
+	if ( GLYPH === '\n' ) width = 0;
+
+	const xadvance = charOBJ ? charOBJ.xadvance * SCALE_MULT : width;
+	const xoffset = charOBJ ? charOBJ.xoffset * SCALE_MULT : 0;
+
+	// world-space length between lowest point and the text cursor position
+	// const anchor = charOBJ ? ( ( charOBJ.yoffset + charOBJ.height - FONT.common.base ) * FONT_SIZE ) / FONT.common.lineHeight : 0;
+
+	const anchor = charOBJ ? charOBJ.yoffset * SCALE_MULT : 0;
+
+	// console.log( lineHeight )
+
+	return {
+		// lineHeight,
+		width,
+		height,
+		anchor,
+		xadvance,
+		xoffset
+	};
+
+}
+
+
+/**
+ * Try to find the kerning amount of a
+ * @param font
+ * @param {string} glyphPair
+ * @returns {number}
+ */
+function getGlyphPairKerning( font, glyphPair ) {
+
+	const KERNINGS = font._kernings;
+	return KERNINGS[ glyphPair ] ? KERNINGS[ glyphPair ] : 0;
+
+}
+
+
+//
+
+/**
+ * Creates a THREE.Plane geometry, with UVs carefully positioned to map a particular
+ * glyph on the MSDF texture. Then creates a shaderMaterial with the MSDF shaders,
+ * creates a THREE.Mesh, returns it.
+ * @private
+ */
+function buildText() {
+
+	const translatedGeom = [];
+
+	this.inlines.forEach( ( inline, i ) => {
+
+		translatedGeom[ i ] = new MSDFGlyph( inline, this.getFontFamily() );
+
+		translatedGeom[ i ].translate( inline.offsetX, inline.offsetY, 0 );
+
+	} );
+
+	const mergedGeom = mergeBufferGeometries( translatedGeom );
+
+	const mesh = new external_three_namespaceObject.Mesh( mergedGeom, this.getFontMaterial() );
+
+	return mesh;
+
+}
+
+//
+
+/* harmony default export */ const MSDFText = ({
+	getGlyphDimensions,
+	getGlyphPairKerning,
+	buildText
+});
+
+;// CONCATENATED MODULE: ./src/components/core/TextManager.js
+
+
+/**
+
+Job:
+- Routing the request for Text dimensions and Text creation depending on Text type.
+
+Knows:
+- this component's textType attribute
+
+Note:
+Only one Text type is natively supported by the library at the moment,
+but the architecture allows you to easily stick in your custom Text type.
+More information here :
+https://github.com/felixmariotto/three-mesh-ui/wiki/Using-a-custom-text-type
+
+ */
+function TextManager( Base ) {
+
+	return class TextManager extends Base {
+
+		createText() {
+
+			const component = this;
+
+			const mesh = ( () => {
+
+				switch ( this.getTextType() ) {
+
+					case 'MSDF' :
+						return MSDFText.buildText.call( this );
+
+					default :
+						console.warn( `'${this.getTextType()}' is not a supported text type.\nSee https://github.com/felixmariotto/three-mesh-ui/wiki/Using-a-custom-text-type` );
+						break;
+
+				}
+
+			} )();
+
+			mesh.renderOrder = Infinity;
+
+			// This is for hiddenOverflow to work
+			mesh.onBeforeRender = function () {
+
+				if ( component.updateClippingPlanes ) {
+
+					component.updateClippingPlanes();
+
+				}
+
+			};
+
+			return mesh;
+
+		}
+
+		/**
+		 * Called by Text to get the dimensions of a particular glyph,
+		 * in order for InlineManager to compute its position
+		 */
+		getGlyphDimensions( options ) {
+
+			switch ( options.textType ) {
+
+				case 'MSDF' :
+
+					return MSDFText.getGlyphDimensions( options );
+
+				default :
+					console.warn( `'${options.textType}' is not a supported text type.\nSee https://github.com/felixmariotto/three-mesh-ui/wiki/Using-a-custom-text-type` );
+					break;
+
+			}
+
+		}
+
+
+		/**
+		 * Called by Text to get the amount of kerning for pair of glyph
+		 * @param textType
+		 * @param font
+		 * @param glyphPair
+		 * @returns {number}
+		 */
+		getGlyphPairKerning( textType, font, glyphPair ) {
+
+			switch ( textType ) {
+
+				case 'MSDF' :
+
+					return MSDFText.getGlyphPairKerning( font, glyphPair );
+
+				default :
+					console.warn( `'${textType}' is not a supported text type.\nSee https://github.com/felixmariotto/three-mesh-ui/wiki/Using-a-custom-text-type` );
+					break;
+
+			}
+
+		}
+	};
+
+}
+
+;// CONCATENATED MODULE: ./src/utils/deepDelete.js
+
+
+/** Recursively erase THE CHILDREN of the passed object */
+function deepDelete( object3D ) {
+
+	object3D.children.forEach( ( child ) => {
+
+		if ( child.children.length > 0 ) deepDelete( child );
+
+		object3D.remove( child );
+
+		UpdateManager.disposeOf( child );
+
+		if ( child.material ) child.material.dispose();
+
+		if ( child.geometry ) child.geometry.dispose();
+
+	} );
+
+	object3D.children = [];
+
+}
+
+/* harmony default export */ const utils_deepDelete = (deepDelete);
+
+;// CONCATENATED MODULE: ./src/components/Text.js
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+
+Job:
+- computing its own size according to user measurements or content measurement
+- creating 'inlines' objects with info, so that the parent component can organise them in lines
+
+Knows:
+- Its text content (string)
+- Font attributes ('font', 'fontSize'.. etc..)
+- Parent block
+
+ */
+class Text extends mix.withBase( external_three_namespaceObject.Object3D )(
+	InlineComponent,
+	TextManager,
+	MaterialManager,
+	MeshUIComponent
+) {
+
+	constructor( options ) {
+
+		super( options );
+
+		this.isText = true;
+
+		this.set( options );
+
+	}
+
+	///////////
+	// UPDATES
+	///////////
+
+
+	/**
+	 * Here we compute each glyph dimension, and we store it in this
+	 * component's inlines parameter. This way the parent Block will
+	 * compute each glyph position on updateLayout.
+	 */
+	parseParams() {
+
+		this.calculateInlines( this._fitFontSize || this.getFontSize() );
+
+	}
+
+	/**
+	 * Create text content
+	 *
+	 * At this point, text.inlines should have been modified by the parent
+	 * component, to add xOffset and yOffset properties to each inlines.
+	 * This way, TextContent knows were to position each character.
+	 */
+	updateLayout() {
+
+		utils_deepDelete( this );
+
+		if ( this.inlines ) {
+
+			// happening in TextManager
+			this.textContent = this.createText();
+
+			this.updateTextMaterial();
+
+			this.add( this.textContent );
+
+		}
+
+		this.position.z = this.getOffset();
+
+	}
+
+	updateInner() {
+
+		this.position.z = this.getOffset();
+
+		if ( this.textContent ) this.updateTextMaterial();
+
+	}
+
+	calculateInlines( fontSize ) {
+
+		const content = this.content;
+		const font = this.getFontFamily();
+		const breakChars = this.getBreakOn();
+		const textType = this.getTextType();
+		const whiteSpace = this.getWhiteSpace();
+
+		// Abort condition
+
+		if ( !font || typeof font === 'string' ) {
+
+			if ( !core_FontLibrary.getFontOf( this ) ) console.warn( 'no font was found' );
+			return;
+
+		}
+
+		if ( !this.content ) {
+
+			this.inlines = null;
+			return;
+
+		}
+
+		if ( !textType ) {
+
+			console.error( `You must provide a 'textType' attribute so three-mesh-ui knows how to render your text.\n See https://github.com/felixmariotto/three-mesh-ui/wiki/Using-a-custom-text-type` );
+			return;
+
+		}
+
+		// collapse whitespace for white-space normal
+		const whitespaceProcessedContent = collapseWhitespaceOnString( content, whiteSpace );
+		const chars = Array.from ? Array.from( whitespaceProcessedContent ) : String( whitespaceProcessedContent ).split( '' );
+
+
+		// Compute glyphs sizes
+
+		const SCALE_MULT = fontSize / font.info.size;
+		const lineHeight = font.common.lineHeight * SCALE_MULT;
+		const lineBase = font.common.base * SCALE_MULT;
+
+		const glyphInfos = chars.map( ( glyph ) => {
+
+			// Get height, width, and anchor point of this glyph
+			const dimensions = this.getGlyphDimensions( {
+				textType,
+				glyph,
+				font,
+				fontSize
+			} );
+
+			//
+
+			let lineBreak = null;
+
+			if( whiteSpace !== NOWRAP ) {
+
+				if ( breakChars.includes( glyph ) || glyph.match( /\s/g ) ) lineBreak = 'possible';
+
+			}
+
+
+			if ( glyph.match( /\n/g ) ) {
+
+				lineBreak = newlineBreakability( whiteSpace );
+
+			}
+
+			//
+
+			return {
+				height: dimensions.height,
+				width: dimensions.width,
+				anchor: dimensions.anchor,
+				xadvance: dimensions.xadvance,
+				xoffset: dimensions.xoffset,
+				lineBreak,
+				glyph,
+				fontSize,
+				lineHeight,
+				lineBase
+			};
+
+		} );
+
+		// apply kerning
+		if ( this.getFontKerning() !== 'none' ) {
+
+			// First character won't be kerned with its void lefthanded peer
+			for ( let i = 1; i < glyphInfos.length; i++ ) {
+
+				const glyphInfo = glyphInfos[ i ];
+				const glyphPair = glyphInfos[ i - 1 ].glyph + glyphInfos[ i ].glyph;
+
+				// retrieve the kerning from the font
+				const kerning = this.getGlyphPairKerning( textType, font, glyphPair );
+
+				// compute the final kerning value according to requested fontSize
+				glyphInfo[ 'kerning' ] = kerning * ( fontSize / font.info.size );
+
+			}
+		}
+
+
+		// Update 'inlines' property, so that the parent can compute each glyph position
+
+		this.inlines = glyphInfos;
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/components/InlineBlock.js
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Job:
+ * - computing its own size according to user measurements or content measurement
+ * - creating an 'inlines' object with info, so that the parent component can organise it along with other inlines
+ *
+ * Knows:
+ * - Its measurements parameter
+ * - Parent block
+ */
+class InlineBlock extends mix.withBase( external_three_namespaceObject.Object3D )(
+	InlineComponent,
+	BoxComponent,
+	InlineManager,
+	MaterialManager,
+	MeshUIComponent
+) {
+
+	constructor( options ) {
+
+		super( options );
+
+		this.isInlineBlock = true;
+
+		//
+
+		this.size = new external_three_namespaceObject.Vector2( 1, 1 );
+
+		this.frame = new Frame( this.getBackgroundMaterial() );
+
+		// This is for hiddenOverflow to work
+		this.frame.onBeforeRender = () => {
+
+			if ( this.updateClippingPlanes ) {
+
+				this.updateClippingPlanes();
+
+			}
+
+		};
+
+		this.add( this.frame );
+
+		// Lastly set the options parameters to this object, which will trigger an update
+
+		this.set( options );
+
+	}
+
+	///////////
+	// UPDATES
+	///////////
+
+	parseParams() {
+
+		// Get image dimensions
+
+		if ( !this.width ) console.warn( 'inlineBlock has no width. Set to 0.3 by default' );
+		if ( !this.height ) console.warn( 'inlineBlock has no height. Set to 0.3 by default' );
+
+		this.inlines = [ {
+			height: this.height || 0.3,
+			width: this.width || 0.3,
+			anchor: 0,
+			lineBreak: 'possible'
+		} ];
+
+	}
+
+	//
+
+
+	/**
+	 * Create text content
+	 *
+	 * At this point, text.inlines should have been modified by the parent
+	 * component, to add xOffset and yOffset properties to each inlines.
+	 * This way, TextContent knows were to position each character.
+	 *
+	 */
+	updateLayout() {
+
+		const WIDTH = this.getWidth();
+		const HEIGHT = this.getHeight();
+
+		if ( this.inlines ) {
+
+			const options = this.inlines[ 0 ];
+
+			// basic translation to put the plane's left bottom corner at the center of its space
+			this.position.set( options.width / 2, options.height / 2, 0 );
+
+			// translation required by inlineManager to position this component inline
+			this.position.x += options.offsetX;
+			this.position.y += options.offsetY;
+
+		}
+
+		this.size.set( WIDTH, HEIGHT );
+		this.frame.scale.set( WIDTH, HEIGHT, 1 );
+
+		if ( this.frame ) this.updateBackgroundMaterial();
+
+		this.frame.renderOrder = this.getParentsNumber();
+
+		// Position inner elements according to dimensions and layout parameters.
+		// Delegate to BoxComponent.
+
+		if ( this.childrenInlines.length ) {
+
+			this.computeInlinesPosition();
+
+		}
+
+		this.computeChildrenPosition();
+
+		this.position.z = this.getOffset();
+
+	}
+
+	//
+
+	updateInner() {
+
+		this.position.z = this.getOffset();
+
+		if ( this.frame ) this.updateBackgroundMaterial();
+
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/utils/Keymaps.js
+/**
+
+Contains key maps for the Keyboard component.
+Most languages need a specific keyboard. Therefore, Keyboard takes a language attribute
+and if not passed tries to detect the language. If not found, it uses the basic QZERTY layout.
+
+ */
+/* harmony default export */ const Keymaps = ({
+
+	fr:
+		[
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'p', upperCase: 'P' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'l', upperCase: 'L' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'm', upperCase: 'M' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	///////////////////////////////////////////////////////////
+
+	eng:
+		[
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'p', upperCase: 'P' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'l', upperCase: 'L' } ] }
+				],
+
+				[
+					{ width: 0.15, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 0.15, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	////////////////////////////////////////////////////////////
+
+	ru:
+		[
+			[
+				[
+					{ width: 1 / 12, chars: [ { lowerCase: 'й', upperCase: 'Й' }, { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ц', upperCase: 'Ц' }, { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'у', upperCase: 'У' }, { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'к', upperCase: 'К' }, { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'е', upperCase: 'Е' }, { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'н', upperCase: 'Н' }, { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'г', upperCase: 'Г' }, { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ш', upperCase: 'Ш' }, { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'щ', upperCase: 'Щ' }, { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'з', upperCase: 'З' }, { lowerCase: 'p', upperCase: 'P' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'х', upperCase: 'Х' }, { lowerCase: '{', upperCase: '[' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ъ', upperCase: 'Ъ' }, { lowerCase: '}', upperCase: ']' } ] }
+				],
+
+				[
+					{ width: 1 / 12, chars: [ { lowerCase: 'ф', upperCase: 'Ф' }, { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ы', upperCase: 'Ы' }, { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'в', upperCase: 'В' }, { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'а', upperCase: 'А' }, { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'п', upperCase: 'П' }, { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'р', upperCase: 'Р' }, { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'о', upperCase: 'О' }, { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'л', upperCase: 'Л' }, { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'д', upperCase: 'Д' }, { lowerCase: 'l', upperCase: 'L' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ж', upperCase: 'Ж' }, { lowerCase: ':', upperCase: ';' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'э', upperCase: 'Э' }, { lowerCase: '"', upperCase: '\'' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ё', upperCase: 'Ё' }, { lowerCase: '|', upperCase: '\\' } ] }
+				],
+
+				[
+					{ width: 1.5 / 12, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'я', upperCase: 'Я' }, { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ч', upperCase: 'Ч' }, { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'с', upperCase: 'С' }, { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'м', upperCase: 'М' }, { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'и', upperCase: 'И' }, { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'т', upperCase: 'Т' }, { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ь', upperCase: 'Ь' }, { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'б', upperCase: 'Б' }, { lowerCase: ',', upperCase: '' } ] },
+					{ width: 1 / 12, chars: [ { lowerCase: 'ю', upperCase: 'Ю' }, { lowerCase: '.', upperCase: '' } ] },
+					{ width: 1.5 / 12, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.15, command: 'switch-set', chars: [ { lowerCase: 'eng' } ] },
+					{ width: 0.15, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.3, command: 'switch', chars: [ { lowerCase: 'АБВ' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	/////////////////////////////////////////////////////////
+
+	de:
+		[
+			[
+				[
+					{ width: 1 / 11, chars: [ { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'p', upperCase: 'P' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'ü', upperCase: 'Ü' } ] }
+				],
+
+				[
+					{ width: 1 / 11, chars: [ { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'l', upperCase: 'L' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'ö', upperCase: 'Ö' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'ä', upperCase: 'Ä' } ] }
+				],
+
+				[
+					{ width: 2 / 11, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 2 / 11, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	///////////////////////////////////////////////////////////
+
+	es:
+		[
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'p', upperCase: 'P' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'l', upperCase: 'L' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ñ', upperCase: 'Ñ' } ] }
+				],
+
+				[
+					{ width: 0.15, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 0.15, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	//////////////////////////////////////////////////////////////////////
+
+	el:
+		[
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: ';', upperCase: ':' }, { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ς', upperCase: 'ς' }, { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ε', upperCase: 'Ε' }, { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ρ', upperCase: 'Ρ' }, { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'τ', upperCase: 'Τ' }, { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'υ', upperCase: 'Υ' }, { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'θ', upperCase: 'Θ' }, { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ι', upperCase: 'Ι' }, { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ο', upperCase: 'Ο' }, { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'π', upperCase: 'Π' }, { lowerCase: 'p', upperCase: 'P' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: 'α', upperCase: 'Α' }, { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'σ', upperCase: 'Σ' }, { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'δ', upperCase: 'Δ' }, { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'φ', upperCase: 'Φ' }, { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'γ', upperCase: 'Γ' }, { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'η', upperCase: 'Η' }, { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ξ', upperCase: 'Ξ' }, { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'κ', upperCase: 'Κ' }, { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'λ', upperCase: 'Λ' }, { lowerCase: 'l', upperCase: 'L' } ] }
+				],
+
+				[
+					{ width: 0.15, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ζ', upperCase: 'Ζ' }, { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'χ', upperCase: 'Χ' }, { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ψ', upperCase: 'Ψ' }, { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ω', upperCase: 'Ω' }, { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'β', upperCase: 'Β' }, { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'ν', upperCase: 'Ν' }, { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 0.1, chars: [ { lowerCase: 'μ', upperCase: 'Μ' }, { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 0.15, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.15, command: 'switch-set', chars: [ { lowerCase: 'eng' } ] },
+					{ width: 0.15, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		],
+
+	////////////////////////////////////////////////////////////////////////////////
+
+	nord:
+		[
+			[
+				[
+					{ width: 1 / 11, chars: [ { lowerCase: 'q', upperCase: 'Q' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'w', upperCase: 'W' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'e', upperCase: 'E' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'r', upperCase: 'R' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 't', upperCase: 'T' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'y', upperCase: 'Y' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'u', upperCase: 'U' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'i', upperCase: 'I' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'o', upperCase: 'O' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'p', upperCase: 'P' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'å', upperCase: 'Å' } ] }
+				],
+
+				[
+					{ width: 1 / 11, chars: [ { lowerCase: 'a', upperCase: 'A' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 's', upperCase: 'S' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'd', upperCase: 'D' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'f', upperCase: 'F' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'g', upperCase: 'G' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'h', upperCase: 'H' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'j', upperCase: 'J' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'k', upperCase: 'K' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'l', upperCase: 'L' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'æ', upperCase: 'Æ' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'ø', upperCase: 'Ø' } ] }
+				],
+
+				[
+					{ width: 2 / 11, command: 'shift', chars: [ { icon: 'shift' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'z', upperCase: 'Z' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'x', upperCase: 'X' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'c', upperCase: 'C' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'v', upperCase: 'V' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'b', upperCase: 'B' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'n', upperCase: 'N' } ] },
+					{ width: 1 / 11, chars: [ { lowerCase: 'm', upperCase: 'M' } ] },
+					{ width: 2 / 11, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+
+			],
+
+			[
+				[
+					{ width: 0.1, chars: [ { lowerCase: '1' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '2' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '3' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '4' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '5' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '6' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '7' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '8' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '9' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '0' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '@' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '#' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '|' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '_' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '&' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '-' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '+' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '(' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ')' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '/' } ] }
+				],
+
+				[
+					{ width: 0.1, chars: [ { lowerCase: '=' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '*' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '"' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '\'' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ':' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ';' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '!' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '?' } ] },
+					{ width: 0.2, command: 'backspace', chars: [ { icon: 'backspace' } ] }
+				],
+
+				[
+					{ width: 0.2, command: 'switch', chars: [ { lowerCase: '.?12' } ] },
+					{ width: 0.1, chars: [ { lowerCase: ',' } ] },
+					{ width: 0.4, command: 'space', chars: [ { icon: 'space' } ] },
+					{ width: 0.1, chars: [ { lowerCase: '.' } ] },
+					{ width: 0.2, command: 'enter', chars: [ { icon: 'enter' } ] }
+				]
+			]
+		]
+
+});
+
+;// CONCATENATED MODULE: ./src/components/Keyboard.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+const Keyboard_textureLoader = new external_three_namespaceObject.TextureLoader();
+
+//
+
+/**
+ * Job: high-level component that returns a keyboard
+ */
+class Keyboard extends mix.withBase( external_three_namespaceObject.Object3D )( BoxComponent, MeshUIComponent ) {
+
+	constructor( options ) {
+
+		// DEFAULTS
+
+		if ( !options ) options = {};
+		if ( !options.width ) options.width = 1;
+		if ( !options.height ) options.height = 0.4;
+		if ( !options.margin ) options.margin = 0.003;
+		if ( !options.padding ) options.padding = 0.01;
+
+		//
+
+		super( options );
+
+		this.currentPanel = 0;
+
+		this.isLowerCase = true;
+
+		this.charsetCount = 1;
+
+		//////////
+		// KEYMAP
+		//////////
+
+		// ../utils/Keymaps contains information about various keyboard layouts
+		// We select one depending on the user's browser language if
+		// there is no options.language
+
+		let keymap;
+
+		if ( options.language || navigator.language ) {
+
+			switch ( options.language || navigator.language ) {
+
+				case 'fr' :
+				case 'fr-CH' :
+				case 'fr-CA' :
+					keymap = Keymaps.fr;
+					break;
+
+				case 'ru' :
+					this.charsetCount = 2;
+					keymap = Keymaps.ru;
+					break;
+
+				case 'de' :
+				case 'de-DE' :
+				case 'de-AT' :
+				case 'de-LI' :
+				case 'de-CH' :
+					keymap = Keymaps.de;
+					break;
+
+				case 'es' :
+				case 'es-419' :
+				case 'es-AR' :
+				case 'es-CL' :
+				case 'es-CO' :
+				case 'es-ES' :
+				case 'es-CR' :
+				case 'es-US' :
+				case 'es-HN' :
+				case 'es-MX' :
+				case 'es-PE' :
+				case 'es-UY' :
+				case 'es-VE' :
+					keymap = Keymaps.es;
+					break;
+
+				case 'el' :
+					this.charsetCount = 2;
+					keymap = Keymaps.el;
+					break;
+
+				case 'nord' :
+					keymap = Keymaps.nord;
+					break;
+
+				default :
+					keymap = Keymaps.eng;
+					break;
+
+			}
+
+		} else {
+
+			keymap = Keymaps.eng;
+
+		}
+
+		////////////////////
+		// BLOCKS CREATION
+		////////////////////
+
+		// PANELS
+
+		this.keys = [];
+
+		this.panels = keymap.map( ( panel ) => {
+
+			const lineHeight = ( options.height / panel.length ) - ( options.margin * 2 );
+
+			const panelBlock = new Block( {
+				width: options.width + ( options.padding * 2 ),
+				height: options.height + ( options.padding * 2 ),
+				offset: 0,
+				padding: options.padding,
+				fontFamily: options.fontFamily,
+				fontTexture: options.fontTexture,
+				backgroundColor: options.backgroundColor,
+				backgroundOpacity: options.backgroundOpacity
+			} );
+
+			panelBlock.charset = 0;
+
+			panelBlock.add( ...panel.map( ( line ) => {
+
+				const lineBlock = new Block( {
+					width: options.width,
+					height: lineHeight,
+					margin: options.margin,
+					contentDirection: 'row',
+					justifyContent: 'center'
+				} );
+
+				lineBlock.frame.visible = false;
+
+				const keys = [];
+
+				line.forEach( ( keyItem ) => {
+
+					const key = new Block( {
+						width: ( options.width * keyItem.width ) - ( options.margin * 2 ),
+						height: lineHeight,
+						margin: options.margin,
+						justifyContent: 'center',
+						offset: 0
+					} );
+
+					const char = keyItem.chars[ panelBlock.charset ].lowerCase || keyItem.chars[ panelBlock.charset ].icon || 'undif';
+
+					if (
+						( char === 'enter' && options.enterTexture ) ||
+						( char === 'shift' && options.shiftTexture ) ||
+						( char === 'backspace' && options.backspaceTexture )
+					) {
+
+						const url = ( () => {
+
+							switch ( char ) {
+
+								case 'backspace':
+									return options.backspaceTexture;
+								case 'enter':
+									return options.enterTexture;
+								case 'shift':
+									return options.shiftTexture;
+								default:
+									console.warn( 'There is no icon image for this key' );
+
+							}
+
+						} )();
+
+						Keyboard_textureLoader.load( url, ( texture ) => {
+
+							key.add(
+								new InlineBlock( {
+									width: key.width * 0.65,
+									height: key.height * 0.65,
+									backgroundSize: 'contain',
+									backgroundTexture: texture
+								} )
+							);
+
+						} );
+
+					} else {
+
+						key.add(
+							new Text( {
+								content: char,
+								offset: 0
+							} )
+						);
+
+					}
+
+					key.type = 'Key';
+
+					key.info = keyItem;
+					key.info.input = char;
+					key.panel = panelBlock;
+
+					// line's keys
+					keys.push( key );
+
+					// keyboard's keys
+					this.keys.push( key );
+
+				} );
+
+				lineBlock.add( ...keys );
+
+				return lineBlock;
+
+			} ) );
+
+			return panelBlock;
+
+		} );
+
+		this.add( this.panels[ 0 ] );
+
+		// Lastly set the options parameters to this object, which will trigger an update
+		this.set( options );
+
+	}
+
+	/**
+	 * Used to switch to an entirely different panel of this keyboard,
+	 * with potentially a completely different layout
+	 */
+	setNextPanel() {
+
+		this.panels.forEach( ( panel ) => {
+
+			this.remove( panel );
+
+		} );
+
+		this.currentPanel = ( this.currentPanel + 1 ) % ( this.panels.length );
+
+		this.add( this.panels[ this.currentPanel ] );
+
+		this.update( true, true, true );
+
+	}
+
+	/*
+	 * Used to change the keys charset. Some layout support this,
+	 * like the Russian or Greek keyboard, to be able to switch to
+	 * English layout when necessary
+	 */
+	setNextCharset() {
+
+		this.panels[ this.currentPanel ].charset = ( this.panels[ this.currentPanel ].charset + 1 ) % this.charsetCount;
+
+		this.keys.forEach( ( key ) => {
+
+			// Here we sort the keys, we only keep the ones that are part of the current panel.
+
+			const isInCurrentPanel = this.panels[ this.currentPanel ].getObjectById( key.id );
+
+			if ( !isInCurrentPanel ) return;
+
+			//
+
+			const char = key.info.chars[ key.panel.charset ] || key.info.chars[ 0 ];
+
+			const newContent = this.isLowerCase || !char.upperCase ? char.lowerCase : char.upperCase;
+
+			if ( !key.childrenTexts.length ) return;
+
+			const textComponent = key.childrenTexts[0];
+
+			key.info.input = newContent;
+
+			textComponent.set( {
+				content: newContent
+			} );
+
+			textComponent.update( true, true, true );
+
+		} );
+
+	}
+
+	/** Toggle case for characters that support it. */
+	toggleCase() {
+
+		this.isLowerCase = !this.isLowerCase;
+
+		this.keys.forEach( ( key ) => {
+
+			const char = key.info.chars[ key.panel.charset ] || key.info.chars[ 0 ];
+
+			const newContent = this.isLowerCase || !char.upperCase ? char.lowerCase : char.upperCase;
+
+			if ( !key.childrenTexts.length ) return;
+
+			const textComponent = key.childrenTexts[0];
+
+			key.info.input = newContent;
+
+			textComponent.set( {
+				content: newContent
+			} );
+
+			textComponent.update( true, true, true );
+
+		} );
+
+	}
+
+	////////////
+	//  UPDATE
+	////////////
+
+	parseParams() {
+	}
+
+	updateLayout() {
+	}
+
+	updateInner() {
+	}
+
+}
+
+;// CONCATENATED MODULE: ./src/three-mesh-ui.js
+/* global global */
+
+
+
+
+
+
+
+
+
+
+
+
+
+const update = () => UpdateManager.update();
+
+const ThreeMeshUI = {
+	Block: Block,
+	Text: Text,
+	InlineBlock: InlineBlock,
+	Keyboard: Keyboard,
+	FontLibrary: core_FontLibrary,
+	update,
+	TextAlign: TextAlign_namespaceObject,
+	Whitespace: Whitespace_namespaceObject,
+	JustifyContent: JustifyContent_namespaceObject,
+	AlignItems: AlignItems_namespaceObject,
+	ContentDirection: ContentDirection_namespaceObject
+};
+
+if ( typeof __webpack_require__.g !== 'undefined' ) __webpack_require__.g.ThreeMeshUI = ThreeMeshUI;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const three_mesh_ui = (ThreeMeshUI);
+
+var __webpack_exports__AlignItems = __nested_webpack_exports__.g1;
+var __webpack_exports__Block = __nested_webpack_exports__.gO;
+var __webpack_exports__ContentDirection = __nested_webpack_exports__.km;
+var __webpack_exports__FontLibrary = __nested_webpack_exports__.zV;
+var __webpack_exports__InlineBlock = __nested_webpack_exports__.ol;
+var __webpack_exports__JustifyContent = __nested_webpack_exports__.uM;
+var __webpack_exports__Keyboard = __nested_webpack_exports__.N1;
+var __webpack_exports__Text = __nested_webpack_exports__.xv;
+var __webpack_exports__TextAlign = __nested_webpack_exports__.PH;
+var __webpack_exports__Whitespace = __nested_webpack_exports__.UH;
+var __webpack_exports__default = __nested_webpack_exports__.ZP;
+var __webpack_exports__update = __nested_webpack_exports__.Vx;
+
+
 
 /***/ }),
 /* 2 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/5a41f46a5020bc8f41ff554d0d890ad3.png");
-
-/***/ }),
-/* 3 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/a9f6d0014baf114abe73a92038ed7fa5.jpg");
-
-/***/ }),
-/* 4 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/77ddc1cf118f8ea8116c22d2fa81a2ad.jpg");
-
-/***/ }),
-/* 5 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/a070aff21a8d61f0e44522dde67fe84b.jpg");
-
-/***/ }),
-/* 6 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/95baf5432f1f5f51abf00bf0c540be6d.mp4");
-
-/***/ }),
-/* 7 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/33da880ab4767e4e53b2ee94f4834395.mp4");
-
-/***/ }),
-/* 8 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/7b184305f60f22b53d7aeda2de337a13.mp4");
-
-/***/ }),
-/* 9 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -51936,7 +58287,7590 @@ if ( typeof window !== 'undefined' ) {
 
 
 /***/ }),
+/* 3 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   socket: () => (/* binding */ socket)
+/* harmony export */ });
+/* harmony import */ var socket_io_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4);
+
+
+const socket = (0,socket_io_client__WEBPACK_IMPORTED_MODULE_0__.io)({ reconnectionAttempts: 10000, timeout: 2000 });
+
+
+/***/ }),
+/* 4 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Manager: () => (/* reexport safe */ _manager_js__WEBPACK_IMPORTED_MODULE_1__.Manager),
+/* harmony export */   Socket: () => (/* reexport safe */ _socket_js__WEBPACK_IMPORTED_MODULE_2__.Socket),
+/* harmony export */   connect: () => (/* binding */ lookup),
+/* harmony export */   "default": () => (/* binding */ lookup),
+/* harmony export */   io: () => (/* binding */ lookup),
+/* harmony export */   protocol: () => (/* reexport safe */ socket_io_parser__WEBPACK_IMPORTED_MODULE_3__.protocol)
+/* harmony export */ });
+/* harmony import */ var _url_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
+/* harmony import */ var _manager_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
+/* harmony import */ var _socket_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
+/* harmony import */ var socket_io_parser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(29);
+
+
+
+/**
+ * Managers cache.
+ */
+const cache = {};
+function lookup(uri, opts) {
+    if (typeof uri === "object") {
+        opts = uri;
+        uri = undefined;
+    }
+    opts = opts || {};
+    const parsed = (0,_url_js__WEBPACK_IMPORTED_MODULE_0__.url)(uri, opts.path || "/socket.io");
+    const source = parsed.source;
+    const id = parsed.id;
+    const path = parsed.path;
+    const sameNamespace = cache[id] && path in cache[id]["nsps"];
+    const newConnection = opts.forceNew ||
+        opts["force new connection"] ||
+        false === opts.multiplex ||
+        sameNamespace;
+    let io;
+    if (newConnection) {
+        io = new _manager_js__WEBPACK_IMPORTED_MODULE_1__.Manager(source, opts);
+    }
+    else {
+        if (!cache[id]) {
+            cache[id] = new _manager_js__WEBPACK_IMPORTED_MODULE_1__.Manager(source, opts);
+        }
+        io = cache[id];
+    }
+    if (parsed.query && !opts.query) {
+        opts.query = parsed.queryKey;
+    }
+    return io.socket(parsed.path, opts);
+}
+// so that "lookup" can be used both as a function (e.g. `io(...)`) and as a
+// namespace (e.g. `io.connect(...)`), for backward compatibility
+Object.assign(lookup, {
+    Manager: _manager_js__WEBPACK_IMPORTED_MODULE_1__.Manager,
+    Socket: _socket_js__WEBPACK_IMPORTED_MODULE_2__.Socket,
+    io: lookup,
+    connect: lookup,
+});
+/**
+ * Protocol version.
+ *
+ * @public
+ */
+
+/**
+ * Expose constructors for standalone build.
+ *
+ * @public
+ */
+
+
+
+/***/ }),
+/* 5 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   url: () => (/* binding */ url)
+/* harmony export */ });
+/* harmony import */ var engine_io_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+
+/**
+ * URL parser.
+ *
+ * @param uri - url
+ * @param path - the request path of the connection
+ * @param loc - An object meant to mimic window.location.
+ *        Defaults to window.location.
+ * @public
+ */
+function url(uri, path = "", loc) {
+    let obj = uri;
+    // default to window.location
+    loc = loc || (typeof location !== "undefined" && location);
+    if (null == uri)
+        uri = loc.protocol + "//" + loc.host;
+    // relative path support
+    if (typeof uri === "string") {
+        if ("/" === uri.charAt(0)) {
+            if ("/" === uri.charAt(1)) {
+                uri = loc.protocol + uri;
+            }
+            else {
+                uri = loc.host + uri;
+            }
+        }
+        if (!/^(https?|wss?):\/\//.test(uri)) {
+            if ("undefined" !== typeof loc) {
+                uri = loc.protocol + "//" + uri;
+            }
+            else {
+                uri = "https://" + uri;
+            }
+        }
+        // parse
+        obj = (0,engine_io_client__WEBPACK_IMPORTED_MODULE_0__.parse)(uri);
+    }
+    // make sure we treat `localhost:80` and `localhost` equally
+    if (!obj.port) {
+        if (/^(http|ws)$/.test(obj.protocol)) {
+            obj.port = "80";
+        }
+        else if (/^(http|ws)s$/.test(obj.protocol)) {
+            obj.port = "443";
+        }
+    }
+    obj.path = obj.path || "/";
+    const ipv6 = obj.host.indexOf(":") !== -1;
+    const host = ipv6 ? "[" + obj.host + "]" : obj.host;
+    // define unique id
+    obj.id = obj.protocol + "://" + host + ":" + obj.port + path;
+    // define href
+    obj.href =
+        obj.protocol +
+            "://" +
+            host +
+            (loc && loc.port === obj.port ? "" : ":" + obj.port);
+    return obj;
+}
+
+
+/***/ }),
+/* 6 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Socket: () => (/* reexport safe */ _socket_js__WEBPACK_IMPORTED_MODULE_0__.Socket),
+/* harmony export */   Transport: () => (/* reexport safe */ _transport_js__WEBPACK_IMPORTED_MODULE_1__.Transport),
+/* harmony export */   installTimerFunctions: () => (/* reexport safe */ _util_js__WEBPACK_IMPORTED_MODULE_3__.installTimerFunctions),
+/* harmony export */   nextTick: () => (/* reexport safe */ _transports_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_5__.nextTick),
+/* harmony export */   parse: () => (/* reexport safe */ _contrib_parseuri_js__WEBPACK_IMPORTED_MODULE_4__.parse),
+/* harmony export */   protocol: () => (/* binding */ protocol),
+/* harmony export */   transports: () => (/* reexport safe */ _transports_index_js__WEBPACK_IMPORTED_MODULE_2__.transports)
+/* harmony export */ });
+/* harmony import */ var _socket_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
+/* harmony import */ var _transport_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+/* harmony import */ var _transports_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
+/* harmony import */ var _contrib_parseuri_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(26);
+/* harmony import */ var _transports_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(24);
+
+
+const protocol = _socket_js__WEBPACK_IMPORTED_MODULE_0__.Socket.protocol;
+
+
+
+
+
+
+
+/***/ }),
+/* 7 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Socket: () => (/* binding */ Socket)
+/* harmony export */ });
+/* harmony import */ var _transports_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17);
+/* harmony import */ var _contrib_parseqs_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(19);
+/* harmony import */ var _contrib_parseuri_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(26);
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(16);
+/* harmony import */ var engine_io_parser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(11);
+/* harmony import */ var _transports_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(24);
+
+
+
+
+
+
+
+class Socket extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_4__.Emitter {
+    /**
+     * Socket constructor.
+     *
+     * @param {String|Object} uri - uri or options
+     * @param {Object} opts - options
+     */
+    constructor(uri, opts = {}) {
+        super();
+        this.binaryType = _transports_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_6__.defaultBinaryType;
+        this.writeBuffer = [];
+        if (uri && "object" === typeof uri) {
+            opts = uri;
+            uri = null;
+        }
+        if (uri) {
+            uri = (0,_contrib_parseuri_js__WEBPACK_IMPORTED_MODULE_3__.parse)(uri);
+            opts.hostname = uri.host;
+            opts.secure = uri.protocol === "https" || uri.protocol === "wss";
+            opts.port = uri.port;
+            if (uri.query)
+                opts.query = uri.query;
+        }
+        else if (opts.host) {
+            opts.hostname = (0,_contrib_parseuri_js__WEBPACK_IMPORTED_MODULE_3__.parse)(opts.host).host;
+        }
+        (0,_util_js__WEBPACK_IMPORTED_MODULE_1__.installTimerFunctions)(this, opts);
+        this.secure =
+            null != opts.secure
+                ? opts.secure
+                : typeof location !== "undefined" && "https:" === location.protocol;
+        if (opts.hostname && !opts.port) {
+            // if no port is specified manually, use the protocol default
+            opts.port = this.secure ? "443" : "80";
+        }
+        this.hostname =
+            opts.hostname ||
+                (typeof location !== "undefined" ? location.hostname : "localhost");
+        this.port =
+            opts.port ||
+                (typeof location !== "undefined" && location.port
+                    ? location.port
+                    : this.secure
+                        ? "443"
+                        : "80");
+        this.transports = opts.transports || [
+            "polling",
+            "websocket",
+            "webtransport",
+        ];
+        this.writeBuffer = [];
+        this.prevBufferLen = 0;
+        this.opts = Object.assign({
+            path: "/engine.io",
+            agent: false,
+            withCredentials: false,
+            upgrade: true,
+            timestampParam: "t",
+            rememberUpgrade: false,
+            addTrailingSlash: true,
+            rejectUnauthorized: true,
+            perMessageDeflate: {
+                threshold: 1024,
+            },
+            transportOptions: {},
+            closeOnBeforeunload: false,
+        }, opts);
+        this.opts.path =
+            this.opts.path.replace(/\/$/, "") +
+                (this.opts.addTrailingSlash ? "/" : "");
+        if (typeof this.opts.query === "string") {
+            this.opts.query = (0,_contrib_parseqs_js__WEBPACK_IMPORTED_MODULE_2__.decode)(this.opts.query);
+        }
+        // set on handshake
+        this.id = null;
+        this.upgrades = null;
+        this.pingInterval = null;
+        this.pingTimeout = null;
+        // set on heartbeat
+        this.pingTimeoutTimer = null;
+        if (typeof addEventListener === "function") {
+            if (this.opts.closeOnBeforeunload) {
+                // Firefox closes the connection when the "beforeunload" event is emitted but not Chrome. This event listener
+                // ensures every browser behaves the same (no "disconnect" event at the Socket.IO level when the page is
+                // closed/reloaded)
+                this.beforeunloadEventListener = () => {
+                    if (this.transport) {
+                        // silently close the transport
+                        this.transport.removeAllListeners();
+                        this.transport.close();
+                    }
+                };
+                addEventListener("beforeunload", this.beforeunloadEventListener, false);
+            }
+            if (this.hostname !== "localhost") {
+                this.offlineEventListener = () => {
+                    this.onClose("transport close", {
+                        description: "network connection lost",
+                    });
+                };
+                addEventListener("offline", this.offlineEventListener, false);
+            }
+        }
+        this.open();
+    }
+    /**
+     * Creates transport of the given type.
+     *
+     * @param {String} name - transport name
+     * @return {Transport}
+     * @private
+     */
+    createTransport(name) {
+        const query = Object.assign({}, this.opts.query);
+        // append engine.io protocol identifier
+        query.EIO = engine_io_parser__WEBPACK_IMPORTED_MODULE_5__.protocol;
+        // transport name
+        query.transport = name;
+        // session id if we already have one
+        if (this.id)
+            query.sid = this.id;
+        const opts = Object.assign({}, this.opts, {
+            query,
+            socket: this,
+            hostname: this.hostname,
+            secure: this.secure,
+            port: this.port,
+        }, this.opts.transportOptions[name]);
+        return new _transports_index_js__WEBPACK_IMPORTED_MODULE_0__.transports[name](opts);
+    }
+    /**
+     * Initializes transport to use and starts probe.
+     *
+     * @private
+     */
+    open() {
+        let transport;
+        if (this.opts.rememberUpgrade &&
+            Socket.priorWebsocketSuccess &&
+            this.transports.indexOf("websocket") !== -1) {
+            transport = "websocket";
+        }
+        else if (0 === this.transports.length) {
+            // Emit error on next tick so it can be listened to
+            this.setTimeoutFn(() => {
+                this.emitReserved("error", "No transports available");
+            }, 0);
+            return;
+        }
+        else {
+            transport = this.transports[0];
+        }
+        this.readyState = "opening";
+        // Retry with the next transport if the transport is disabled (jsonp: false)
+        try {
+            transport = this.createTransport(transport);
+        }
+        catch (e) {
+            this.transports.shift();
+            this.open();
+            return;
+        }
+        transport.open();
+        this.setTransport(transport);
+    }
+    /**
+     * Sets the current transport. Disables the existing one (if any).
+     *
+     * @private
+     */
+    setTransport(transport) {
+        if (this.transport) {
+            this.transport.removeAllListeners();
+        }
+        // set up transport
+        this.transport = transport;
+        // set up transport listeners
+        transport
+            .on("drain", this.onDrain.bind(this))
+            .on("packet", this.onPacket.bind(this))
+            .on("error", this.onError.bind(this))
+            .on("close", (reason) => this.onClose("transport close", reason));
+    }
+    /**
+     * Probes a transport.
+     *
+     * @param {String} name - transport name
+     * @private
+     */
+    probe(name) {
+        let transport = this.createTransport(name);
+        let failed = false;
+        Socket.priorWebsocketSuccess = false;
+        const onTransportOpen = () => {
+            if (failed)
+                return;
+            transport.send([{ type: "ping", data: "probe" }]);
+            transport.once("packet", (msg) => {
+                if (failed)
+                    return;
+                if ("pong" === msg.type && "probe" === msg.data) {
+                    this.upgrading = true;
+                    this.emitReserved("upgrading", transport);
+                    if (!transport)
+                        return;
+                    Socket.priorWebsocketSuccess = "websocket" === transport.name;
+                    this.transport.pause(() => {
+                        if (failed)
+                            return;
+                        if ("closed" === this.readyState)
+                            return;
+                        cleanup();
+                        this.setTransport(transport);
+                        transport.send([{ type: "upgrade" }]);
+                        this.emitReserved("upgrade", transport);
+                        transport = null;
+                        this.upgrading = false;
+                        this.flush();
+                    });
+                }
+                else {
+                    const err = new Error("probe error");
+                    // @ts-ignore
+                    err.transport = transport.name;
+                    this.emitReserved("upgradeError", err);
+                }
+            });
+        };
+        function freezeTransport() {
+            if (failed)
+                return;
+            // Any callback called by transport should be ignored since now
+            failed = true;
+            cleanup();
+            transport.close();
+            transport = null;
+        }
+        // Handle any error that happens while probing
+        const onerror = (err) => {
+            const error = new Error("probe error: " + err);
+            // @ts-ignore
+            error.transport = transport.name;
+            freezeTransport();
+            this.emitReserved("upgradeError", error);
+        };
+        function onTransportClose() {
+            onerror("transport closed");
+        }
+        // When the socket is closed while we're probing
+        function onclose() {
+            onerror("socket closed");
+        }
+        // When the socket is upgraded while we're probing
+        function onupgrade(to) {
+            if (transport && to.name !== transport.name) {
+                freezeTransport();
+            }
+        }
+        // Remove all listeners on the transport and on self
+        const cleanup = () => {
+            transport.removeListener("open", onTransportOpen);
+            transport.removeListener("error", onerror);
+            transport.removeListener("close", onTransportClose);
+            this.off("close", onclose);
+            this.off("upgrading", onupgrade);
+        };
+        transport.once("open", onTransportOpen);
+        transport.once("error", onerror);
+        transport.once("close", onTransportClose);
+        this.once("close", onclose);
+        this.once("upgrading", onupgrade);
+        if (this.upgrades.indexOf("webtransport") !== -1 &&
+            name !== "webtransport") {
+            // favor WebTransport
+            this.setTimeoutFn(() => {
+                if (!failed) {
+                    transport.open();
+                }
+            }, 200);
+        }
+        else {
+            transport.open();
+        }
+    }
+    /**
+     * Called when connection is deemed open.
+     *
+     * @private
+     */
+    onOpen() {
+        this.readyState = "open";
+        Socket.priorWebsocketSuccess = "websocket" === this.transport.name;
+        this.emitReserved("open");
+        this.flush();
+        // we check for `readyState` in case an `open`
+        // listener already closed the socket
+        if ("open" === this.readyState && this.opts.upgrade) {
+            let i = 0;
+            const l = this.upgrades.length;
+            for (; i < l; i++) {
+                this.probe(this.upgrades[i]);
+            }
+        }
+    }
+    /**
+     * Handles a packet.
+     *
+     * @private
+     */
+    onPacket(packet) {
+        if ("opening" === this.readyState ||
+            "open" === this.readyState ||
+            "closing" === this.readyState) {
+            this.emitReserved("packet", packet);
+            // Socket is live - any packet counts
+            this.emitReserved("heartbeat");
+            this.resetPingTimeout();
+            switch (packet.type) {
+                case "open":
+                    this.onHandshake(JSON.parse(packet.data));
+                    break;
+                case "ping":
+                    this.sendPacket("pong");
+                    this.emitReserved("ping");
+                    this.emitReserved("pong");
+                    break;
+                case "error":
+                    const err = new Error("server error");
+                    // @ts-ignore
+                    err.code = packet.data;
+                    this.onError(err);
+                    break;
+                case "message":
+                    this.emitReserved("data", packet.data);
+                    this.emitReserved("message", packet.data);
+                    break;
+            }
+        }
+        else {
+        }
+    }
+    /**
+     * Called upon handshake completion.
+     *
+     * @param {Object} data - handshake obj
+     * @private
+     */
+    onHandshake(data) {
+        this.emitReserved("handshake", data);
+        this.id = data.sid;
+        this.transport.query.sid = data.sid;
+        this.upgrades = this.filterUpgrades(data.upgrades);
+        this.pingInterval = data.pingInterval;
+        this.pingTimeout = data.pingTimeout;
+        this.maxPayload = data.maxPayload;
+        this.onOpen();
+        // In case open handler closes socket
+        if ("closed" === this.readyState)
+            return;
+        this.resetPingTimeout();
+    }
+    /**
+     * Sets and resets ping timeout timer based on server pings.
+     *
+     * @private
+     */
+    resetPingTimeout() {
+        this.clearTimeoutFn(this.pingTimeoutTimer);
+        this.pingTimeoutTimer = this.setTimeoutFn(() => {
+            this.onClose("ping timeout");
+        }, this.pingInterval + this.pingTimeout);
+        if (this.opts.autoUnref) {
+            this.pingTimeoutTimer.unref();
+        }
+    }
+    /**
+     * Called on `drain` event
+     *
+     * @private
+     */
+    onDrain() {
+        this.writeBuffer.splice(0, this.prevBufferLen);
+        // setting prevBufferLen = 0 is very important
+        // for example, when upgrading, upgrade packet is sent over,
+        // and a nonzero prevBufferLen could cause problems on `drain`
+        this.prevBufferLen = 0;
+        if (0 === this.writeBuffer.length) {
+            this.emitReserved("drain");
+        }
+        else {
+            this.flush();
+        }
+    }
+    /**
+     * Flush write buffers.
+     *
+     * @private
+     */
+    flush() {
+        if ("closed" !== this.readyState &&
+            this.transport.writable &&
+            !this.upgrading &&
+            this.writeBuffer.length) {
+            const packets = this.getWritablePackets();
+            this.transport.send(packets);
+            // keep track of current length of writeBuffer
+            // splice writeBuffer and callbackBuffer on `drain`
+            this.prevBufferLen = packets.length;
+            this.emitReserved("flush");
+        }
+    }
+    /**
+     * Ensure the encoded size of the writeBuffer is below the maxPayload value sent by the server (only for HTTP
+     * long-polling)
+     *
+     * @private
+     */
+    getWritablePackets() {
+        const shouldCheckPayloadSize = this.maxPayload &&
+            this.transport.name === "polling" &&
+            this.writeBuffer.length > 1;
+        if (!shouldCheckPayloadSize) {
+            return this.writeBuffer;
+        }
+        let payloadSize = 1; // first packet type
+        for (let i = 0; i < this.writeBuffer.length; i++) {
+            const data = this.writeBuffer[i].data;
+            if (data) {
+                payloadSize += (0,_util_js__WEBPACK_IMPORTED_MODULE_1__.byteLength)(data);
+            }
+            if (i > 0 && payloadSize > this.maxPayload) {
+                return this.writeBuffer.slice(0, i);
+            }
+            payloadSize += 2; // separator + packet type
+        }
+        return this.writeBuffer;
+    }
+    /**
+     * Sends a message.
+     *
+     * @param {String} msg - message.
+     * @param {Object} options.
+     * @param {Function} callback function.
+     * @return {Socket} for chaining.
+     */
+    write(msg, options, fn) {
+        this.sendPacket("message", msg, options, fn);
+        return this;
+    }
+    send(msg, options, fn) {
+        this.sendPacket("message", msg, options, fn);
+        return this;
+    }
+    /**
+     * Sends a packet.
+     *
+     * @param {String} type: packet type.
+     * @param {String} data.
+     * @param {Object} options.
+     * @param {Function} fn - callback function.
+     * @private
+     */
+    sendPacket(type, data, options, fn) {
+        if ("function" === typeof data) {
+            fn = data;
+            data = undefined;
+        }
+        if ("function" === typeof options) {
+            fn = options;
+            options = null;
+        }
+        if ("closing" === this.readyState || "closed" === this.readyState) {
+            return;
+        }
+        options = options || {};
+        options.compress = false !== options.compress;
+        const packet = {
+            type: type,
+            data: data,
+            options: options,
+        };
+        this.emitReserved("packetCreate", packet);
+        this.writeBuffer.push(packet);
+        if (fn)
+            this.once("flush", fn);
+        this.flush();
+    }
+    /**
+     * Closes the connection.
+     */
+    close() {
+        const close = () => {
+            this.onClose("forced close");
+            this.transport.close();
+        };
+        const cleanupAndClose = () => {
+            this.off("upgrade", cleanupAndClose);
+            this.off("upgradeError", cleanupAndClose);
+            close();
+        };
+        const waitForUpgrade = () => {
+            // wait for upgrade to finish since we can't send packets while pausing a transport
+            this.once("upgrade", cleanupAndClose);
+            this.once("upgradeError", cleanupAndClose);
+        };
+        if ("opening" === this.readyState || "open" === this.readyState) {
+            this.readyState = "closing";
+            if (this.writeBuffer.length) {
+                this.once("drain", () => {
+                    if (this.upgrading) {
+                        waitForUpgrade();
+                    }
+                    else {
+                        close();
+                    }
+                });
+            }
+            else if (this.upgrading) {
+                waitForUpgrade();
+            }
+            else {
+                close();
+            }
+        }
+        return this;
+    }
+    /**
+     * Called upon transport error
+     *
+     * @private
+     */
+    onError(err) {
+        Socket.priorWebsocketSuccess = false;
+        this.emitReserved("error", err);
+        this.onClose("transport error", err);
+    }
+    /**
+     * Called upon transport close.
+     *
+     * @private
+     */
+    onClose(reason, description) {
+        if ("opening" === this.readyState ||
+            "open" === this.readyState ||
+            "closing" === this.readyState) {
+            // clear timers
+            this.clearTimeoutFn(this.pingTimeoutTimer);
+            // stop event from firing again for transport
+            this.transport.removeAllListeners("close");
+            // ensure transport won't stay open
+            this.transport.close();
+            // ignore further transport communication
+            this.transport.removeAllListeners();
+            if (typeof removeEventListener === "function") {
+                removeEventListener("beforeunload", this.beforeunloadEventListener, false);
+                removeEventListener("offline", this.offlineEventListener, false);
+            }
+            // set ready state
+            this.readyState = "closed";
+            // clear session id
+            this.id = null;
+            // emit close event
+            this.emitReserved("close", reason, description);
+            // clean buffers after, so users can still
+            // grab the buffers on `close` event
+            this.writeBuffer = [];
+            this.prevBufferLen = 0;
+        }
+    }
+    /**
+     * Filters upgrades, returning only those matching client transports.
+     *
+     * @param {Array} upgrades - server upgrades
+     * @private
+     */
+    filterUpgrades(upgrades) {
+        const filteredUpgrades = [];
+        let i = 0;
+        const j = upgrades.length;
+        for (; i < j; i++) {
+            if (~this.transports.indexOf(upgrades[i]))
+                filteredUpgrades.push(upgrades[i]);
+        }
+        return filteredUpgrades;
+    }
+}
+Socket.protocol = engine_io_parser__WEBPACK_IMPORTED_MODULE_5__.protocol;
+
+
+/***/ }),
+/* 8 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   transports: () => (/* binding */ transports)
+/* harmony export */ });
+/* harmony import */ var _polling_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
+/* harmony import */ var _websocket_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23);
+/* harmony import */ var _webtransport_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(25);
+
+
+
+const transports = {
+    websocket: _websocket_js__WEBPACK_IMPORTED_MODULE_1__.WS,
+    webtransport: _webtransport_js__WEBPACK_IMPORTED_MODULE_2__.WT,
+    polling: _polling_js__WEBPACK_IMPORTED_MODULE_0__.Polling,
+};
+
+
+/***/ }),
+/* 9 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Polling: () => (/* binding */ Polling),
+/* harmony export */   Request: () => (/* binding */ Request)
+/* harmony export */ });
+/* harmony import */ var _transport_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
+/* harmony import */ var _contrib_yeast_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var engine_io_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
+/* harmony import */ var _xmlhttprequest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21);
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(16);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(17);
+/* harmony import */ var _globalThis_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(18);
+
+
+
+
+
+
+
+function empty() { }
+const hasXHR2 = (function () {
+    const xhr = new _xmlhttprequest_js__WEBPACK_IMPORTED_MODULE_3__.XHR({
+        xdomain: false,
+    });
+    return null != xhr.responseType;
+})();
+class Polling extends _transport_js__WEBPACK_IMPORTED_MODULE_0__.Transport {
+    /**
+     * XHR Polling constructor.
+     *
+     * @param {Object} opts
+     * @package
+     */
+    constructor(opts) {
+        super(opts);
+        this.polling = false;
+        if (typeof location !== "undefined") {
+            const isSSL = "https:" === location.protocol;
+            let port = location.port;
+            // some user agents have empty `location.port`
+            if (!port) {
+                port = isSSL ? "443" : "80";
+            }
+            this.xd =
+                (typeof location !== "undefined" &&
+                    opts.hostname !== location.hostname) ||
+                    port !== opts.port;
+        }
+        /**
+         * XHR supports binary
+         */
+        const forceBase64 = opts && opts.forceBase64;
+        this.supportsBinary = hasXHR2 && !forceBase64;
+        if (this.opts.withCredentials) {
+            this.cookieJar = (0,_xmlhttprequest_js__WEBPACK_IMPORTED_MODULE_3__.createCookieJar)();
+        }
+    }
+    get name() {
+        return "polling";
+    }
+    /**
+     * Opens the socket (triggers polling). We write a PING message to determine
+     * when the transport is open.
+     *
+     * @protected
+     */
+    doOpen() {
+        this.poll();
+    }
+    /**
+     * Pauses polling.
+     *
+     * @param {Function} onPause - callback upon buffers are flushed and transport is paused
+     * @package
+     */
+    pause(onPause) {
+        this.readyState = "pausing";
+        const pause = () => {
+            this.readyState = "paused";
+            onPause();
+        };
+        if (this.polling || !this.writable) {
+            let total = 0;
+            if (this.polling) {
+                total++;
+                this.once("pollComplete", function () {
+                    --total || pause();
+                });
+            }
+            if (!this.writable) {
+                total++;
+                this.once("drain", function () {
+                    --total || pause();
+                });
+            }
+        }
+        else {
+            pause();
+        }
+    }
+    /**
+     * Starts polling cycle.
+     *
+     * @private
+     */
+    poll() {
+        this.polling = true;
+        this.doPoll();
+        this.emitReserved("poll");
+    }
+    /**
+     * Overloads onData to detect payloads.
+     *
+     * @protected
+     */
+    onData(data) {
+        const callback = (packet) => {
+            // if its the first message we consider the transport open
+            if ("opening" === this.readyState && packet.type === "open") {
+                this.onOpen();
+            }
+            // if its a close packet, we close the ongoing requests
+            if ("close" === packet.type) {
+                this.onClose({ description: "transport closed by the server" });
+                return false;
+            }
+            // otherwise bypass onData and handle the message
+            this.onPacket(packet);
+        };
+        // decode payload
+        (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_2__.decodePayload)(data, this.socket.binaryType).forEach(callback);
+        // if an event did not trigger closing
+        if ("closed" !== this.readyState) {
+            // if we got data we're not polling
+            this.polling = false;
+            this.emitReserved("pollComplete");
+            if ("open" === this.readyState) {
+                this.poll();
+            }
+            else {
+            }
+        }
+    }
+    /**
+     * For polling, send a close packet.
+     *
+     * @protected
+     */
+    doClose() {
+        const close = () => {
+            this.write([{ type: "close" }]);
+        };
+        if ("open" === this.readyState) {
+            close();
+        }
+        else {
+            // in case we're trying to close while
+            // handshaking is in progress (GH-164)
+            this.once("open", close);
+        }
+    }
+    /**
+     * Writes a packets payload.
+     *
+     * @param {Array} packets - data packets
+     * @protected
+     */
+    write(packets) {
+        this.writable = false;
+        (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_2__.encodePayload)(packets, (data) => {
+            this.doWrite(data, () => {
+                this.writable = true;
+                this.emitReserved("drain");
+            });
+        });
+    }
+    /**
+     * Generates uri for connection.
+     *
+     * @private
+     */
+    uri() {
+        const schema = this.opts.secure ? "https" : "http";
+        const query = this.query || {};
+        // cache busting is forced
+        if (false !== this.opts.timestampRequests) {
+            query[this.opts.timestampParam] = (0,_contrib_yeast_js__WEBPACK_IMPORTED_MODULE_1__.yeast)();
+        }
+        if (!this.supportsBinary && !query.sid) {
+            query.b64 = 1;
+        }
+        return this.createUri(schema, query);
+    }
+    /**
+     * Creates a request.
+     *
+     * @param {String} method
+     * @private
+     */
+    request(opts = {}) {
+        Object.assign(opts, { xd: this.xd, cookieJar: this.cookieJar }, this.opts);
+        return new Request(this.uri(), opts);
+    }
+    /**
+     * Sends data.
+     *
+     * @param {String} data to send.
+     * @param {Function} called upon flush.
+     * @private
+     */
+    doWrite(data, fn) {
+        const req = this.request({
+            method: "POST",
+            data: data,
+        });
+        req.on("success", fn);
+        req.on("error", (xhrStatus, context) => {
+            this.onError("xhr post error", xhrStatus, context);
+        });
+    }
+    /**
+     * Starts a poll cycle.
+     *
+     * @private
+     */
+    doPoll() {
+        const req = this.request();
+        req.on("data", this.onData.bind(this));
+        req.on("error", (xhrStatus, context) => {
+            this.onError("xhr poll error", xhrStatus, context);
+        });
+        this.pollXhr = req;
+    }
+}
+class Request extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_4__.Emitter {
+    /**
+     * Request constructor
+     *
+     * @param {Object} options
+     * @package
+     */
+    constructor(uri, opts) {
+        super();
+        (0,_util_js__WEBPACK_IMPORTED_MODULE_5__.installTimerFunctions)(this, opts);
+        this.opts = opts;
+        this.method = opts.method || "GET";
+        this.uri = uri;
+        this.data = undefined !== opts.data ? opts.data : null;
+        this.create();
+    }
+    /**
+     * Creates the XHR object and sends the request.
+     *
+     * @private
+     */
+    create() {
+        var _a;
+        const opts = (0,_util_js__WEBPACK_IMPORTED_MODULE_5__.pick)(this.opts, "agent", "pfx", "key", "passphrase", "cert", "ca", "ciphers", "rejectUnauthorized", "autoUnref");
+        opts.xdomain = !!this.opts.xd;
+        const xhr = (this.xhr = new _xmlhttprequest_js__WEBPACK_IMPORTED_MODULE_3__.XHR(opts));
+        try {
+            xhr.open(this.method, this.uri, true);
+            try {
+                if (this.opts.extraHeaders) {
+                    xhr.setDisableHeaderCheck && xhr.setDisableHeaderCheck(true);
+                    for (let i in this.opts.extraHeaders) {
+                        if (this.opts.extraHeaders.hasOwnProperty(i)) {
+                            xhr.setRequestHeader(i, this.opts.extraHeaders[i]);
+                        }
+                    }
+                }
+            }
+            catch (e) { }
+            if ("POST" === this.method) {
+                try {
+                    xhr.setRequestHeader("Content-type", "text/plain;charset=UTF-8");
+                }
+                catch (e) { }
+            }
+            try {
+                xhr.setRequestHeader("Accept", "*/*");
+            }
+            catch (e) { }
+            (_a = this.opts.cookieJar) === null || _a === void 0 ? void 0 : _a.addCookies(xhr);
+            // ie6 check
+            if ("withCredentials" in xhr) {
+                xhr.withCredentials = this.opts.withCredentials;
+            }
+            if (this.opts.requestTimeout) {
+                xhr.timeout = this.opts.requestTimeout;
+            }
+            xhr.onreadystatechange = () => {
+                var _a;
+                if (xhr.readyState === 3) {
+                    (_a = this.opts.cookieJar) === null || _a === void 0 ? void 0 : _a.parseCookies(xhr);
+                }
+                if (4 !== xhr.readyState)
+                    return;
+                if (200 === xhr.status || 1223 === xhr.status) {
+                    this.onLoad();
+                }
+                else {
+                    // make sure the `error` event handler that's user-set
+                    // does not throw in the same tick and gets caught here
+                    this.setTimeoutFn(() => {
+                        this.onError(typeof xhr.status === "number" ? xhr.status : 0);
+                    }, 0);
+                }
+            };
+            xhr.send(this.data);
+        }
+        catch (e) {
+            // Need to defer since .create() is called directly from the constructor
+            // and thus the 'error' event can only be only bound *after* this exception
+            // occurs.  Therefore, also, we cannot throw here at all.
+            this.setTimeoutFn(() => {
+                this.onError(e);
+            }, 0);
+            return;
+        }
+        if (typeof document !== "undefined") {
+            this.index = Request.requestsCount++;
+            Request.requests[this.index] = this;
+        }
+    }
+    /**
+     * Called upon error.
+     *
+     * @private
+     */
+    onError(err) {
+        this.emitReserved("error", err, this.xhr);
+        this.cleanup(true);
+    }
+    /**
+     * Cleans up house.
+     *
+     * @private
+     */
+    cleanup(fromError) {
+        if ("undefined" === typeof this.xhr || null === this.xhr) {
+            return;
+        }
+        this.xhr.onreadystatechange = empty;
+        if (fromError) {
+            try {
+                this.xhr.abort();
+            }
+            catch (e) { }
+        }
+        if (typeof document !== "undefined") {
+            delete Request.requests[this.index];
+        }
+        this.xhr = null;
+    }
+    /**
+     * Called upon load.
+     *
+     * @private
+     */
+    onLoad() {
+        const data = this.xhr.responseText;
+        if (data !== null) {
+            this.emitReserved("data", data);
+            this.emitReserved("success");
+            this.cleanup();
+        }
+    }
+    /**
+     * Aborts the request.
+     *
+     * @package
+     */
+    abort() {
+        this.cleanup();
+    }
+}
+Request.requestsCount = 0;
+Request.requests = {};
+/**
+ * Aborts pending requests when unloading the window. This is needed to prevent
+ * memory leaks (e.g. when using IE) and to ensure that no spurious error is
+ * emitted.
+ */
+if (typeof document !== "undefined") {
+    // @ts-ignore
+    if (typeof attachEvent === "function") {
+        // @ts-ignore
+        attachEvent("onunload", unloadHandler);
+    }
+    else if (typeof addEventListener === "function") {
+        const terminationEvent = "onpagehide" in _globalThis_js__WEBPACK_IMPORTED_MODULE_6__.globalThisShim ? "pagehide" : "unload";
+        addEventListener(terminationEvent, unloadHandler, false);
+    }
+}
+function unloadHandler() {
+    for (let i in Request.requests) {
+        if (Request.requests.hasOwnProperty(i)) {
+            Request.requests[i].abort();
+        }
+    }
+}
+
+
+/***/ }),
 /* 10 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Transport: () => (/* binding */ Transport)
+/* harmony export */ });
+/* harmony import */ var engine_io_parser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(16);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(17);
+/* harmony import */ var _contrib_parseqs_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(19);
+
+
+
+
+class TransportError extends Error {
+    constructor(reason, description, context) {
+        super(reason);
+        this.description = description;
+        this.context = context;
+        this.type = "TransportError";
+    }
+}
+class Transport extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_1__.Emitter {
+    /**
+     * Transport abstract constructor.
+     *
+     * @param {Object} opts - options
+     * @protected
+     */
+    constructor(opts) {
+        super();
+        this.writable = false;
+        (0,_util_js__WEBPACK_IMPORTED_MODULE_2__.installTimerFunctions)(this, opts);
+        this.opts = opts;
+        this.query = opts.query;
+        this.socket = opts.socket;
+    }
+    /**
+     * Emits an error.
+     *
+     * @param {String} reason
+     * @param description
+     * @param context - the error context
+     * @return {Transport} for chaining
+     * @protected
+     */
+    onError(reason, description, context) {
+        super.emitReserved("error", new TransportError(reason, description, context));
+        return this;
+    }
+    /**
+     * Opens the transport.
+     */
+    open() {
+        this.readyState = "opening";
+        this.doOpen();
+        return this;
+    }
+    /**
+     * Closes the transport.
+     */
+    close() {
+        if (this.readyState === "opening" || this.readyState === "open") {
+            this.doClose();
+            this.onClose();
+        }
+        return this;
+    }
+    /**
+     * Sends multiple packets.
+     *
+     * @param {Array} packets
+     */
+    send(packets) {
+        if (this.readyState === "open") {
+            this.write(packets);
+        }
+        else {
+            // this might happen if the transport was silently closed in the beforeunload event handler
+        }
+    }
+    /**
+     * Called upon open
+     *
+     * @protected
+     */
+    onOpen() {
+        this.readyState = "open";
+        this.writable = true;
+        super.emitReserved("open");
+    }
+    /**
+     * Called with data.
+     *
+     * @param {String} data
+     * @protected
+     */
+    onData(data) {
+        const packet = (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_0__.decodePacket)(data, this.socket.binaryType);
+        this.onPacket(packet);
+    }
+    /**
+     * Called with a decoded packet.
+     *
+     * @protected
+     */
+    onPacket(packet) {
+        super.emitReserved("packet", packet);
+    }
+    /**
+     * Called upon close.
+     *
+     * @protected
+     */
+    onClose(details) {
+        this.readyState = "closed";
+        super.emitReserved("close", details);
+    }
+    /**
+     * Pauses the transport, in order not to lose packets during an upgrade.
+     *
+     * @param onPause
+     */
+    pause(onPause) { }
+    createUri(schema, query = {}) {
+        return (schema +
+            "://" +
+            this._hostname() +
+            this._port() +
+            this.opts.path +
+            this._query(query));
+    }
+    _hostname() {
+        const hostname = this.opts.hostname;
+        return hostname.indexOf(":") === -1 ? hostname : "[" + hostname + "]";
+    }
+    _port() {
+        if (this.opts.port &&
+            ((this.opts.secure && Number(this.opts.port !== 443)) ||
+                (!this.opts.secure && Number(this.opts.port) !== 80))) {
+            return ":" + this.opts.port;
+        }
+        else {
+            return "";
+        }
+    }
+    _query(query) {
+        const encodedQuery = (0,_contrib_parseqs_js__WEBPACK_IMPORTED_MODULE_3__.encode)(query);
+        return encodedQuery.length ? "?" + encodedQuery : "";
+    }
+}
+
+
+/***/ }),
+/* 11 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createPacketDecoderStream: () => (/* binding */ createPacketDecoderStream),
+/* harmony export */   createPacketEncoderStream: () => (/* binding */ createPacketEncoderStream),
+/* harmony export */   decodePacket: () => (/* reexport safe */ _decodePacket_js__WEBPACK_IMPORTED_MODULE_1__.decodePacket),
+/* harmony export */   decodePayload: () => (/* binding */ decodePayload),
+/* harmony export */   encodePacket: () => (/* reexport safe */ _encodePacket_js__WEBPACK_IMPORTED_MODULE_0__.encodePacket),
+/* harmony export */   encodePayload: () => (/* binding */ encodePayload),
+/* harmony export */   protocol: () => (/* binding */ protocol)
+/* harmony export */ });
+/* harmony import */ var _encodePacket_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _decodePacket_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
+/* harmony import */ var _commons_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(13);
+
+
+
+const SEPARATOR = String.fromCharCode(30); // see https://en.wikipedia.org/wiki/Delimiter#ASCII_delimited_text
+const encodePayload = (packets, callback) => {
+    // some packets may be added to the array while encoding, so the initial length must be saved
+    const length = packets.length;
+    const encodedPackets = new Array(length);
+    let count = 0;
+    packets.forEach((packet, i) => {
+        // force base64 encoding for binary packets
+        (0,_encodePacket_js__WEBPACK_IMPORTED_MODULE_0__.encodePacket)(packet, false, encodedPacket => {
+            encodedPackets[i] = encodedPacket;
+            if (++count === length) {
+                callback(encodedPackets.join(SEPARATOR));
+            }
+        });
+    });
+};
+const decodePayload = (encodedPayload, binaryType) => {
+    const encodedPackets = encodedPayload.split(SEPARATOR);
+    const packets = [];
+    for (let i = 0; i < encodedPackets.length; i++) {
+        const decodedPacket = (0,_decodePacket_js__WEBPACK_IMPORTED_MODULE_1__.decodePacket)(encodedPackets[i], binaryType);
+        packets.push(decodedPacket);
+        if (decodedPacket.type === "error") {
+            break;
+        }
+    }
+    return packets;
+};
+function createPacketEncoderStream() {
+    return new TransformStream({
+        transform(packet, controller) {
+            (0,_encodePacket_js__WEBPACK_IMPORTED_MODULE_0__.encodePacketToBinary)(packet, encodedPacket => {
+                const payloadLength = encodedPacket.length;
+                let header;
+                // inspired by the WebSocket format: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#decoding_payload_length
+                if (payloadLength < 126) {
+                    header = new Uint8Array(1);
+                    new DataView(header.buffer).setUint8(0, payloadLength);
+                }
+                else if (payloadLength < 65536) {
+                    header = new Uint8Array(3);
+                    const view = new DataView(header.buffer);
+                    view.setUint8(0, 126);
+                    view.setUint16(1, payloadLength);
+                }
+                else {
+                    header = new Uint8Array(9);
+                    const view = new DataView(header.buffer);
+                    view.setUint8(0, 127);
+                    view.setBigUint64(1, BigInt(payloadLength));
+                }
+                // first bit indicates whether the payload is plain text (0) or binary (1)
+                if (packet.data && typeof packet.data !== "string") {
+                    header[0] |= 0x80;
+                }
+                controller.enqueue(header);
+                controller.enqueue(encodedPacket);
+            });
+        }
+    });
+}
+let TEXT_DECODER;
+function totalLength(chunks) {
+    return chunks.reduce((acc, chunk) => acc + chunk.length, 0);
+}
+function concatChunks(chunks, size) {
+    if (chunks[0].length === size) {
+        return chunks.shift();
+    }
+    const buffer = new Uint8Array(size);
+    let j = 0;
+    for (let i = 0; i < size; i++) {
+        buffer[i] = chunks[0][j++];
+        if (j === chunks[0].length) {
+            chunks.shift();
+            j = 0;
+        }
+    }
+    if (chunks.length && j < chunks[0].length) {
+        chunks[0] = chunks[0].slice(j);
+    }
+    return buffer;
+}
+function createPacketDecoderStream(maxPayload, binaryType) {
+    if (!TEXT_DECODER) {
+        TEXT_DECODER = new TextDecoder();
+    }
+    const chunks = [];
+    let state = 0 /* READ_HEADER */;
+    let expectedLength = -1;
+    let isBinary = false;
+    return new TransformStream({
+        transform(chunk, controller) {
+            chunks.push(chunk);
+            while (true) {
+                if (state === 0 /* READ_HEADER */) {
+                    if (totalLength(chunks) < 1) {
+                        break;
+                    }
+                    const header = concatChunks(chunks, 1);
+                    isBinary = (header[0] & 0x80) === 0x80;
+                    expectedLength = header[0] & 0x7f;
+                    if (expectedLength < 126) {
+                        state = 3 /* READ_PAYLOAD */;
+                    }
+                    else if (expectedLength === 126) {
+                        state = 1 /* READ_EXTENDED_LENGTH_16 */;
+                    }
+                    else {
+                        state = 2 /* READ_EXTENDED_LENGTH_64 */;
+                    }
+                }
+                else if (state === 1 /* READ_EXTENDED_LENGTH_16 */) {
+                    if (totalLength(chunks) < 2) {
+                        break;
+                    }
+                    const headerArray = concatChunks(chunks, 2);
+                    expectedLength = new DataView(headerArray.buffer, headerArray.byteOffset, headerArray.length).getUint16(0);
+                    state = 3 /* READ_PAYLOAD */;
+                }
+                else if (state === 2 /* READ_EXTENDED_LENGTH_64 */) {
+                    if (totalLength(chunks) < 8) {
+                        break;
+                    }
+                    const headerArray = concatChunks(chunks, 8);
+                    const view = new DataView(headerArray.buffer, headerArray.byteOffset, headerArray.length);
+                    const n = view.getUint32(0);
+                    if (n > Math.pow(2, 53 - 32) - 1) {
+                        // the maximum safe integer in JavaScript is 2^53 - 1
+                        controller.enqueue(_commons_js__WEBPACK_IMPORTED_MODULE_2__.ERROR_PACKET);
+                        break;
+                    }
+                    expectedLength = n * Math.pow(2, 32) + view.getUint32(4);
+                    state = 3 /* READ_PAYLOAD */;
+                }
+                else {
+                    if (totalLength(chunks) < expectedLength) {
+                        break;
+                    }
+                    const data = concatChunks(chunks, expectedLength);
+                    controller.enqueue((0,_decodePacket_js__WEBPACK_IMPORTED_MODULE_1__.decodePacket)(isBinary ? data : TEXT_DECODER.decode(data), binaryType));
+                    state = 0 /* READ_HEADER */;
+                }
+                if (expectedLength === 0 || expectedLength > maxPayload) {
+                    controller.enqueue(_commons_js__WEBPACK_IMPORTED_MODULE_2__.ERROR_PACKET);
+                    break;
+                }
+            }
+        }
+    });
+}
+const protocol = 4;
+
+
+
+/***/ }),
+/* 12 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   encodePacket: () => (/* binding */ encodePacket),
+/* harmony export */   encodePacketToBinary: () => (/* binding */ encodePacketToBinary)
+/* harmony export */ });
+/* harmony import */ var _commons_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(13);
+
+const withNativeBlob = typeof Blob === "function" ||
+    (typeof Blob !== "undefined" &&
+        Object.prototype.toString.call(Blob) === "[object BlobConstructor]");
+const withNativeArrayBuffer = typeof ArrayBuffer === "function";
+// ArrayBuffer.isView method is not defined in IE10
+const isView = obj => {
+    return typeof ArrayBuffer.isView === "function"
+        ? ArrayBuffer.isView(obj)
+        : obj && obj.buffer instanceof ArrayBuffer;
+};
+const encodePacket = ({ type, data }, supportsBinary, callback) => {
+    if (withNativeBlob && data instanceof Blob) {
+        if (supportsBinary) {
+            return callback(data);
+        }
+        else {
+            return encodeBlobAsBase64(data, callback);
+        }
+    }
+    else if (withNativeArrayBuffer &&
+        (data instanceof ArrayBuffer || isView(data))) {
+        if (supportsBinary) {
+            return callback(data);
+        }
+        else {
+            return encodeBlobAsBase64(new Blob([data]), callback);
+        }
+    }
+    // plain string
+    return callback(_commons_js__WEBPACK_IMPORTED_MODULE_0__.PACKET_TYPES[type] + (data || ""));
+};
+const encodeBlobAsBase64 = (data, callback) => {
+    const fileReader = new FileReader();
+    fileReader.onload = function () {
+        const content = fileReader.result.split(",")[1];
+        callback("b" + (content || ""));
+    };
+    return fileReader.readAsDataURL(data);
+};
+function toArray(data) {
+    if (data instanceof Uint8Array) {
+        return data;
+    }
+    else if (data instanceof ArrayBuffer) {
+        return new Uint8Array(data);
+    }
+    else {
+        return new Uint8Array(data.buffer, data.byteOffset, data.byteLength);
+    }
+}
+let TEXT_ENCODER;
+function encodePacketToBinary(packet, callback) {
+    if (withNativeBlob && packet.data instanceof Blob) {
+        return packet.data
+            .arrayBuffer()
+            .then(toArray)
+            .then(callback);
+    }
+    else if (withNativeArrayBuffer &&
+        (packet.data instanceof ArrayBuffer || isView(packet.data))) {
+        return callback(toArray(packet.data));
+    }
+    encodePacket(packet, false, encoded => {
+        if (!TEXT_ENCODER) {
+            TEXT_ENCODER = new TextEncoder();
+        }
+        callback(TEXT_ENCODER.encode(encoded));
+    });
+}
+
+
+
+/***/ }),
+/* 13 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ERROR_PACKET: () => (/* binding */ ERROR_PACKET),
+/* harmony export */   PACKET_TYPES: () => (/* binding */ PACKET_TYPES),
+/* harmony export */   PACKET_TYPES_REVERSE: () => (/* binding */ PACKET_TYPES_REVERSE)
+/* harmony export */ });
+const PACKET_TYPES = Object.create(null); // no Map = no polyfill
+PACKET_TYPES["open"] = "0";
+PACKET_TYPES["close"] = "1";
+PACKET_TYPES["ping"] = "2";
+PACKET_TYPES["pong"] = "3";
+PACKET_TYPES["message"] = "4";
+PACKET_TYPES["upgrade"] = "5";
+PACKET_TYPES["noop"] = "6";
+const PACKET_TYPES_REVERSE = Object.create(null);
+Object.keys(PACKET_TYPES).forEach(key => {
+    PACKET_TYPES_REVERSE[PACKET_TYPES[key]] = key;
+});
+const ERROR_PACKET = { type: "error", data: "parser error" };
+
+
+
+/***/ }),
+/* 14 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   decodePacket: () => (/* binding */ decodePacket)
+/* harmony export */ });
+/* harmony import */ var _commons_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(13);
+/* harmony import */ var _contrib_base64_arraybuffer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
+
+
+const withNativeArrayBuffer = typeof ArrayBuffer === "function";
+const decodePacket = (encodedPacket, binaryType) => {
+    if (typeof encodedPacket !== "string") {
+        return {
+            type: "message",
+            data: mapBinary(encodedPacket, binaryType)
+        };
+    }
+    const type = encodedPacket.charAt(0);
+    if (type === "b") {
+        return {
+            type: "message",
+            data: decodeBase64Packet(encodedPacket.substring(1), binaryType)
+        };
+    }
+    const packetType = _commons_js__WEBPACK_IMPORTED_MODULE_0__.PACKET_TYPES_REVERSE[type];
+    if (!packetType) {
+        return _commons_js__WEBPACK_IMPORTED_MODULE_0__.ERROR_PACKET;
+    }
+    return encodedPacket.length > 1
+        ? {
+            type: _commons_js__WEBPACK_IMPORTED_MODULE_0__.PACKET_TYPES_REVERSE[type],
+            data: encodedPacket.substring(1)
+        }
+        : {
+            type: _commons_js__WEBPACK_IMPORTED_MODULE_0__.PACKET_TYPES_REVERSE[type]
+        };
+};
+const decodeBase64Packet = (data, binaryType) => {
+    if (withNativeArrayBuffer) {
+        const decoded = (0,_contrib_base64_arraybuffer_js__WEBPACK_IMPORTED_MODULE_1__.decode)(data);
+        return mapBinary(decoded, binaryType);
+    }
+    else {
+        return { base64: true, data }; // fallback for old browsers
+    }
+};
+const mapBinary = (data, binaryType) => {
+    switch (binaryType) {
+        case "blob":
+            if (data instanceof Blob) {
+                // from WebSocket + binaryType "blob"
+                return data;
+            }
+            else {
+                // from HTTP long-polling or WebTransport
+                return new Blob([data]);
+            }
+        case "arraybuffer":
+        default:
+            if (data instanceof ArrayBuffer) {
+                // from HTTP long-polling (base64) or WebSocket + binaryType "arraybuffer"
+                return data;
+            }
+            else {
+                // from WebTransport (Uint8Array)
+                return data.buffer;
+            }
+    }
+};
+
+
+/***/ }),
+/* 15 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   decode: () => (/* binding */ decode),
+/* harmony export */   encode: () => (/* binding */ encode)
+/* harmony export */ });
+// imported from https://github.com/socketio/base64-arraybuffer
+const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+// Use a lookup table to find the index.
+const lookup = typeof Uint8Array === 'undefined' ? [] : new Uint8Array(256);
+for (let i = 0; i < chars.length; i++) {
+    lookup[chars.charCodeAt(i)] = i;
+}
+const encode = (arraybuffer) => {
+    let bytes = new Uint8Array(arraybuffer), i, len = bytes.length, base64 = '';
+    for (i = 0; i < len; i += 3) {
+        base64 += chars[bytes[i] >> 2];
+        base64 += chars[((bytes[i] & 3) << 4) | (bytes[i + 1] >> 4)];
+        base64 += chars[((bytes[i + 1] & 15) << 2) | (bytes[i + 2] >> 6)];
+        base64 += chars[bytes[i + 2] & 63];
+    }
+    if (len % 3 === 2) {
+        base64 = base64.substring(0, base64.length - 1) + '=';
+    }
+    else if (len % 3 === 1) {
+        base64 = base64.substring(0, base64.length - 2) + '==';
+    }
+    return base64;
+};
+const decode = (base64) => {
+    let bufferLength = base64.length * 0.75, len = base64.length, i, p = 0, encoded1, encoded2, encoded3, encoded4;
+    if (base64[base64.length - 1] === '=') {
+        bufferLength--;
+        if (base64[base64.length - 2] === '=') {
+            bufferLength--;
+        }
+    }
+    const arraybuffer = new ArrayBuffer(bufferLength), bytes = new Uint8Array(arraybuffer);
+    for (i = 0; i < len; i += 4) {
+        encoded1 = lookup[base64.charCodeAt(i)];
+        encoded2 = lookup[base64.charCodeAt(i + 1)];
+        encoded3 = lookup[base64.charCodeAt(i + 2)];
+        encoded4 = lookup[base64.charCodeAt(i + 3)];
+        bytes[p++] = (encoded1 << 2) | (encoded2 >> 4);
+        bytes[p++] = ((encoded2 & 15) << 4) | (encoded3 >> 2);
+        bytes[p++] = ((encoded3 & 3) << 6) | (encoded4 & 63);
+    }
+    return arraybuffer;
+};
+
+
+/***/ }),
+/* 16 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Emitter: () => (/* binding */ Emitter)
+/* harmony export */ });
+/**
+ * Initialize a new `Emitter`.
+ *
+ * @api public
+ */
+
+function Emitter(obj) {
+  if (obj) return mixin(obj);
+}
+
+/**
+ * Mixin the emitter properties.
+ *
+ * @param {Object} obj
+ * @return {Object}
+ * @api private
+ */
+
+function mixin(obj) {
+  for (var key in Emitter.prototype) {
+    obj[key] = Emitter.prototype[key];
+  }
+  return obj;
+}
+
+/**
+ * Listen on the given `event` with `fn`.
+ *
+ * @param {String} event
+ * @param {Function} fn
+ * @return {Emitter}
+ * @api public
+ */
+
+Emitter.prototype.on =
+Emitter.prototype.addEventListener = function(event, fn){
+  this._callbacks = this._callbacks || {};
+  (this._callbacks['$' + event] = this._callbacks['$' + event] || [])
+    .push(fn);
+  return this;
+};
+
+/**
+ * Adds an `event` listener that will be invoked a single
+ * time then automatically removed.
+ *
+ * @param {String} event
+ * @param {Function} fn
+ * @return {Emitter}
+ * @api public
+ */
+
+Emitter.prototype.once = function(event, fn){
+  function on() {
+    this.off(event, on);
+    fn.apply(this, arguments);
+  }
+
+  on.fn = fn;
+  this.on(event, on);
+  return this;
+};
+
+/**
+ * Remove the given callback for `event` or all
+ * registered callbacks.
+ *
+ * @param {String} event
+ * @param {Function} fn
+ * @return {Emitter}
+ * @api public
+ */
+
+Emitter.prototype.off =
+Emitter.prototype.removeListener =
+Emitter.prototype.removeAllListeners =
+Emitter.prototype.removeEventListener = function(event, fn){
+  this._callbacks = this._callbacks || {};
+
+  // all
+  if (0 == arguments.length) {
+    this._callbacks = {};
+    return this;
+  }
+
+  // specific event
+  var callbacks = this._callbacks['$' + event];
+  if (!callbacks) return this;
+
+  // remove all handlers
+  if (1 == arguments.length) {
+    delete this._callbacks['$' + event];
+    return this;
+  }
+
+  // remove specific handler
+  var cb;
+  for (var i = 0; i < callbacks.length; i++) {
+    cb = callbacks[i];
+    if (cb === fn || cb.fn === fn) {
+      callbacks.splice(i, 1);
+      break;
+    }
+  }
+
+  // Remove event specific arrays for event types that no
+  // one is subscribed for to avoid memory leak.
+  if (callbacks.length === 0) {
+    delete this._callbacks['$' + event];
+  }
+
+  return this;
+};
+
+/**
+ * Emit `event` with the given args.
+ *
+ * @param {String} event
+ * @param {Mixed} ...
+ * @return {Emitter}
+ */
+
+Emitter.prototype.emit = function(event){
+  this._callbacks = this._callbacks || {};
+
+  var args = new Array(arguments.length - 1)
+    , callbacks = this._callbacks['$' + event];
+
+  for (var i = 1; i < arguments.length; i++) {
+    args[i - 1] = arguments[i];
+  }
+
+  if (callbacks) {
+    callbacks = callbacks.slice(0);
+    for (var i = 0, len = callbacks.length; i < len; ++i) {
+      callbacks[i].apply(this, args);
+    }
+  }
+
+  return this;
+};
+
+// alias used for reserved events (protected method)
+Emitter.prototype.emitReserved = Emitter.prototype.emit;
+
+/**
+ * Return array of callbacks for `event`.
+ *
+ * @param {String} event
+ * @return {Array}
+ * @api public
+ */
+
+Emitter.prototype.listeners = function(event){
+  this._callbacks = this._callbacks || {};
+  return this._callbacks['$' + event] || [];
+};
+
+/**
+ * Check if this emitter has `event` handlers.
+ *
+ * @param {String} event
+ * @return {Boolean}
+ * @api public
+ */
+
+Emitter.prototype.hasListeners = function(event){
+  return !! this.listeners(event).length;
+};
+
+
+/***/ }),
+/* 17 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   byteLength: () => (/* binding */ byteLength),
+/* harmony export */   installTimerFunctions: () => (/* binding */ installTimerFunctions),
+/* harmony export */   pick: () => (/* binding */ pick)
+/* harmony export */ });
+/* harmony import */ var _globalThis_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+
+function pick(obj, ...attr) {
+    return attr.reduce((acc, k) => {
+        if (obj.hasOwnProperty(k)) {
+            acc[k] = obj[k];
+        }
+        return acc;
+    }, {});
+}
+// Keep a reference to the real timeout functions so they can be used when overridden
+const NATIVE_SET_TIMEOUT = _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.setTimeout;
+const NATIVE_CLEAR_TIMEOUT = _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.clearTimeout;
+function installTimerFunctions(obj, opts) {
+    if (opts.useNativeTimers) {
+        obj.setTimeoutFn = NATIVE_SET_TIMEOUT.bind(_globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim);
+        obj.clearTimeoutFn = NATIVE_CLEAR_TIMEOUT.bind(_globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim);
+    }
+    else {
+        obj.setTimeoutFn = _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.setTimeout.bind(_globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim);
+        obj.clearTimeoutFn = _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.clearTimeout.bind(_globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim);
+    }
+}
+// base64 encoded buffers are about 33% bigger (https://en.wikipedia.org/wiki/Base64)
+const BASE64_OVERHEAD = 1.33;
+// we could also have used `new Blob([obj]).size`, but it isn't supported in IE9
+function byteLength(obj) {
+    if (typeof obj === "string") {
+        return utf8Length(obj);
+    }
+    // arraybuffer or blob
+    return Math.ceil((obj.byteLength || obj.size) * BASE64_OVERHEAD);
+}
+function utf8Length(str) {
+    let c = 0, length = 0;
+    for (let i = 0, l = str.length; i < l; i++) {
+        c = str.charCodeAt(i);
+        if (c < 0x80) {
+            length += 1;
+        }
+        else if (c < 0x800) {
+            length += 2;
+        }
+        else if (c < 0xd800 || c >= 0xe000) {
+            length += 3;
+        }
+        else {
+            i++;
+            length += 4;
+        }
+    }
+    return length;
+}
+
+
+/***/ }),
+/* 18 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   globalThisShim: () => (/* binding */ globalThisShim)
+/* harmony export */ });
+const globalThisShim = (() => {
+    if (typeof self !== "undefined") {
+        return self;
+    }
+    else if (typeof window !== "undefined") {
+        return window;
+    }
+    else {
+        return Function("return this")();
+    }
+})();
+
+
+/***/ }),
+/* 19 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   decode: () => (/* binding */ decode),
+/* harmony export */   encode: () => (/* binding */ encode)
+/* harmony export */ });
+// imported from https://github.com/galkn/querystring
+/**
+ * Compiles a querystring
+ * Returns string representation of the object
+ *
+ * @param {Object}
+ * @api private
+ */
+function encode(obj) {
+    let str = '';
+    for (let i in obj) {
+        if (obj.hasOwnProperty(i)) {
+            if (str.length)
+                str += '&';
+            str += encodeURIComponent(i) + '=' + encodeURIComponent(obj[i]);
+        }
+    }
+    return str;
+}
+/**
+ * Parses a simple querystring into an object
+ *
+ * @param {String} qs
+ * @api private
+ */
+function decode(qs) {
+    let qry = {};
+    let pairs = qs.split('&');
+    for (let i = 0, l = pairs.length; i < l; i++) {
+        let pair = pairs[i].split('=');
+        qry[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
+    }
+    return qry;
+}
+
+
+/***/ }),
+/* 20 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   decode: () => (/* binding */ decode),
+/* harmony export */   encode: () => (/* binding */ encode),
+/* harmony export */   yeast: () => (/* binding */ yeast)
+/* harmony export */ });
+// imported from https://github.com/unshiftio/yeast
+
+const alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'.split(''), length = 64, map = {};
+let seed = 0, i = 0, prev;
+/**
+ * Return a string representing the specified number.
+ *
+ * @param {Number} num The number to convert.
+ * @returns {String} The string representation of the number.
+ * @api public
+ */
+function encode(num) {
+    let encoded = '';
+    do {
+        encoded = alphabet[num % length] + encoded;
+        num = Math.floor(num / length);
+    } while (num > 0);
+    return encoded;
+}
+/**
+ * Return the integer value specified by the given string.
+ *
+ * @param {String} str The string to convert.
+ * @returns {Number} The integer value represented by the string.
+ * @api public
+ */
+function decode(str) {
+    let decoded = 0;
+    for (i = 0; i < str.length; i++) {
+        decoded = decoded * length + map[str.charAt(i)];
+    }
+    return decoded;
+}
+/**
+ * Yeast: A tiny growing id generator.
+ *
+ * @returns {String} A unique id.
+ * @api public
+ */
+function yeast() {
+    const now = encode(+new Date());
+    if (now !== prev)
+        return seed = 0, prev = now;
+    return now + '.' + encode(seed++);
+}
+//
+// Map each character to its index.
+//
+for (; i < length; i++)
+    map[alphabet[i]] = i;
+
+
+/***/ }),
+/* 21 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   XHR: () => (/* binding */ XHR),
+/* harmony export */   createCookieJar: () => (/* binding */ createCookieJar)
+/* harmony export */ });
+/* harmony import */ var _contrib_has_cors_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _globalThis_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18);
+// browser shim for xmlhttprequest module
+
+
+function XHR(opts) {
+    const xdomain = opts.xdomain;
+    // XMLHttpRequest can be disabled on IE
+    try {
+        if ("undefined" !== typeof XMLHttpRequest && (!xdomain || _contrib_has_cors_js__WEBPACK_IMPORTED_MODULE_0__.hasCORS)) {
+            return new XMLHttpRequest();
+        }
+    }
+    catch (e) { }
+    if (!xdomain) {
+        try {
+            return new _globalThis_js__WEBPACK_IMPORTED_MODULE_1__.globalThisShim[["Active"].concat("Object").join("X")]("Microsoft.XMLHTTP");
+        }
+        catch (e) { }
+    }
+}
+function createCookieJar() { }
+
+
+/***/ }),
+/* 22 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   hasCORS: () => (/* binding */ hasCORS)
+/* harmony export */ });
+// imported from https://github.com/component/has-cors
+let value = false;
+try {
+    value = typeof XMLHttpRequest !== 'undefined' &&
+        'withCredentials' in new XMLHttpRequest();
+}
+catch (err) {
+    // if XMLHttp support is disabled in IE then it will throw
+    // when trying to create
+}
+const hasCORS = value;
+
+
+/***/ }),
+/* 23 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   WS: () => (/* binding */ WS)
+/* harmony export */ });
+/* harmony import */ var _transport_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
+/* harmony import */ var _contrib_yeast_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(17);
+/* harmony import */ var _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(24);
+/* harmony import */ var engine_io_parser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+
+
+
+
+
+// detect ReactNative environment
+const isReactNative = typeof navigator !== "undefined" &&
+    typeof navigator.product === "string" &&
+    navigator.product.toLowerCase() === "reactnative";
+class WS extends _transport_js__WEBPACK_IMPORTED_MODULE_0__.Transport {
+    /**
+     * WebSocket transport constructor.
+     *
+     * @param {Object} opts - connection options
+     * @protected
+     */
+    constructor(opts) {
+        super(opts);
+        this.supportsBinary = !opts.forceBase64;
+    }
+    get name() {
+        return "websocket";
+    }
+    doOpen() {
+        if (!this.check()) {
+            // let probe timeout
+            return;
+        }
+        const uri = this.uri();
+        const protocols = this.opts.protocols;
+        // React Native only supports the 'headers' option, and will print a warning if anything else is passed
+        const opts = isReactNative
+            ? {}
+            : (0,_util_js__WEBPACK_IMPORTED_MODULE_2__.pick)(this.opts, "agent", "perMessageDeflate", "pfx", "key", "passphrase", "cert", "ca", "ciphers", "rejectUnauthorized", "localAddress", "protocolVersion", "origin", "maxPayload", "family", "checkServerIdentity");
+        if (this.opts.extraHeaders) {
+            opts.headers = this.opts.extraHeaders;
+        }
+        try {
+            this.ws =
+                _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.usingBrowserWebSocket && !isReactNative
+                    ? protocols
+                        ? new _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.WebSocket(uri, protocols)
+                        : new _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.WebSocket(uri)
+                    : new _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.WebSocket(uri, protocols, opts);
+        }
+        catch (err) {
+            return this.emitReserved("error", err);
+        }
+        this.ws.binaryType = this.socket.binaryType;
+        this.addEventListeners();
+    }
+    /**
+     * Adds event listeners to the socket
+     *
+     * @private
+     */
+    addEventListeners() {
+        this.ws.onopen = () => {
+            if (this.opts.autoUnref) {
+                this.ws._socket.unref();
+            }
+            this.onOpen();
+        };
+        this.ws.onclose = (closeEvent) => this.onClose({
+            description: "websocket connection closed",
+            context: closeEvent,
+        });
+        this.ws.onmessage = (ev) => this.onData(ev.data);
+        this.ws.onerror = (e) => this.onError("websocket error", e);
+    }
+    write(packets) {
+        this.writable = false;
+        // encodePacket efficient as it uses WS framing
+        // no need for encodePayload
+        for (let i = 0; i < packets.length; i++) {
+            const packet = packets[i];
+            const lastPacket = i === packets.length - 1;
+            (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_4__.encodePacket)(packet, this.supportsBinary, (data) => {
+                // always create a new object (GH-437)
+                const opts = {};
+                if (!_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.usingBrowserWebSocket) {
+                    if (packet.options) {
+                        opts.compress = packet.options.compress;
+                    }
+                    if (this.opts.perMessageDeflate) {
+                        const len = 
+                        // @ts-ignore
+                        "string" === typeof data ? Buffer.byteLength(data) : data.length;
+                        if (len < this.opts.perMessageDeflate.threshold) {
+                            opts.compress = false;
+                        }
+                    }
+                }
+                // Sometimes the websocket has already been closed but the browser didn't
+                // have a chance of informing us about it yet, in that case send will
+                // throw an error
+                try {
+                    if (_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.usingBrowserWebSocket) {
+                        // TypeError is thrown when passing the second argument on Safari
+                        this.ws.send(data);
+                    }
+                    else {
+                        this.ws.send(data, opts);
+                    }
+                }
+                catch (e) {
+                }
+                if (lastPacket) {
+                    // fake drain
+                    // defer to next tick to allow Socket to clear writeBuffer
+                    (0,_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.nextTick)(() => {
+                        this.writable = true;
+                        this.emitReserved("drain");
+                    }, this.setTimeoutFn);
+                }
+            });
+        }
+    }
+    doClose() {
+        if (typeof this.ws !== "undefined") {
+            this.ws.close();
+            this.ws = null;
+        }
+    }
+    /**
+     * Generates uri for connection.
+     *
+     * @private
+     */
+    uri() {
+        const schema = this.opts.secure ? "wss" : "ws";
+        const query = this.query || {};
+        // append timestamp to URI
+        if (this.opts.timestampRequests) {
+            query[this.opts.timestampParam] = (0,_contrib_yeast_js__WEBPACK_IMPORTED_MODULE_1__.yeast)();
+        }
+        // communicate binary support capabilities
+        if (!this.supportsBinary) {
+            query.b64 = 1;
+        }
+        return this.createUri(schema, query);
+    }
+    /**
+     * Feature detection for WebSocket.
+     *
+     * @return {Boolean} whether this transport is available.
+     * @private
+     */
+    check() {
+        return !!_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_3__.WebSocket;
+    }
+}
+
+
+/***/ }),
+/* 24 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   WebSocket: () => (/* binding */ WebSocket),
+/* harmony export */   defaultBinaryType: () => (/* binding */ defaultBinaryType),
+/* harmony export */   nextTick: () => (/* binding */ nextTick),
+/* harmony export */   usingBrowserWebSocket: () => (/* binding */ usingBrowserWebSocket)
+/* harmony export */ });
+/* harmony import */ var _globalThis_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+
+const nextTick = (() => {
+    const isPromiseAvailable = typeof Promise === "function" && typeof Promise.resolve === "function";
+    if (isPromiseAvailable) {
+        return (cb) => Promise.resolve().then(cb);
+    }
+    else {
+        return (cb, setTimeoutFn) => setTimeoutFn(cb, 0);
+    }
+})();
+const WebSocket = _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.WebSocket || _globalThis_js__WEBPACK_IMPORTED_MODULE_0__.globalThisShim.MozWebSocket;
+const usingBrowserWebSocket = true;
+const defaultBinaryType = "arraybuffer";
+
+
+/***/ }),
+/* 25 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   WT: () => (/* binding */ WT)
+/* harmony export */ });
+/* harmony import */ var _transport_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
+/* harmony import */ var _websocket_constructor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
+/* harmony import */ var engine_io_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
+
+
+
+class WT extends _transport_js__WEBPACK_IMPORTED_MODULE_0__.Transport {
+    get name() {
+        return "webtransport";
+    }
+    doOpen() {
+        // @ts-ignore
+        if (typeof WebTransport !== "function") {
+            return;
+        }
+        // @ts-ignore
+        this.transport = new WebTransport(this.createUri("https"), this.opts.transportOptions[this.name]);
+        this.transport.closed
+            .then(() => {
+            this.onClose();
+        })
+            .catch((err) => {
+            this.onError("webtransport error", err);
+        });
+        // note: we could have used async/await, but that would require some additional polyfills
+        this.transport.ready.then(() => {
+            this.transport.createBidirectionalStream().then((stream) => {
+                const decoderStream = (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_2__.createPacketDecoderStream)(Number.MAX_SAFE_INTEGER, this.socket.binaryType);
+                const reader = stream.readable.pipeThrough(decoderStream).getReader();
+                const encoderStream = (0,engine_io_parser__WEBPACK_IMPORTED_MODULE_2__.createPacketEncoderStream)();
+                encoderStream.readable.pipeTo(stream.writable);
+                this.writer = encoderStream.writable.getWriter();
+                const read = () => {
+                    reader
+                        .read()
+                        .then(({ done, value }) => {
+                        if (done) {
+                            return;
+                        }
+                        this.onPacket(value);
+                        read();
+                    })
+                        .catch((err) => {
+                    });
+                };
+                read();
+                const packet = { type: "open" };
+                if (this.query.sid) {
+                    packet.data = `{"sid":"${this.query.sid}"}`;
+                }
+                this.writer.write(packet).then(() => this.onOpen());
+            });
+        });
+    }
+    write(packets) {
+        this.writable = false;
+        for (let i = 0; i < packets.length; i++) {
+            const packet = packets[i];
+            const lastPacket = i === packets.length - 1;
+            this.writer.write(packet).then(() => {
+                if (lastPacket) {
+                    (0,_websocket_constructor_js__WEBPACK_IMPORTED_MODULE_1__.nextTick)(() => {
+                        this.writable = true;
+                        this.emitReserved("drain");
+                    }, this.setTimeoutFn);
+                }
+            });
+        }
+    }
+    doClose() {
+        var _a;
+        (_a = this.transport) === null || _a === void 0 ? void 0 : _a.close();
+    }
+}
+
+
+/***/ }),
+/* 26 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   parse: () => (/* binding */ parse)
+/* harmony export */ });
+// imported from https://github.com/galkn/parseuri
+/**
+ * Parses a URI
+ *
+ * Note: we could also have used the built-in URL object, but it isn't supported on all platforms.
+ *
+ * See:
+ * - https://developer.mozilla.org/en-US/docs/Web/API/URL
+ * - https://caniuse.com/url
+ * - https://www.rfc-editor.org/rfc/rfc3986#appendix-B
+ *
+ * History of the parse() method:
+ * - first commit: https://github.com/socketio/socket.io-client/commit/4ee1d5d94b3906a9c052b459f1a818b15f38f91c
+ * - export into its own module: https://github.com/socketio/engine.io-client/commit/de2c561e4564efeb78f1bdb1ba39ef81b2822cb3
+ * - reimport: https://github.com/socketio/engine.io-client/commit/df32277c3f6d622eec5ed09f493cae3f3391d242
+ *
+ * @author Steven Levithan <stevenlevithan.com> (MIT license)
+ * @api private
+ */
+const re = /^(?:(?![^:@\/?#]+:[^:@\/]*@)(http|https|ws|wss):\/\/)?((?:(([^:@\/?#]*)(?::([^:@\/?#]*))?)?@)?((?:[a-f0-9]{0,4}:){2,7}[a-f0-9]{0,4}|[^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/;
+const parts = [
+    'source', 'protocol', 'authority', 'userInfo', 'user', 'password', 'host', 'port', 'relative', 'path', 'directory', 'file', 'query', 'anchor'
+];
+function parse(str) {
+    const src = str, b = str.indexOf('['), e = str.indexOf(']');
+    if (b != -1 && e != -1) {
+        str = str.substring(0, b) + str.substring(b, e).replace(/:/g, ';') + str.substring(e, str.length);
+    }
+    let m = re.exec(str || ''), uri = {}, i = 14;
+    while (i--) {
+        uri[parts[i]] = m[i] || '';
+    }
+    if (b != -1 && e != -1) {
+        uri.source = src;
+        uri.host = uri.host.substring(1, uri.host.length - 1).replace(/;/g, ':');
+        uri.authority = uri.authority.replace('[', '').replace(']', '').replace(/;/g, ':');
+        uri.ipv6uri = true;
+    }
+    uri.pathNames = pathNames(uri, uri['path']);
+    uri.queryKey = queryKey(uri, uri['query']);
+    return uri;
+}
+function pathNames(obj, path) {
+    const regx = /\/{2,9}/g, names = path.replace(regx, "/").split("/");
+    if (path.slice(0, 1) == '/' || path.length === 0) {
+        names.splice(0, 1);
+    }
+    if (path.slice(-1) == '/') {
+        names.splice(names.length - 1, 1);
+    }
+    return names;
+}
+function queryKey(uri, query) {
+    const data = {};
+    query.replace(/(?:^|&)([^&=]*)=?([^&]*)/g, function ($0, $1, $2) {
+        if ($1) {
+            data[$1] = $2;
+        }
+    });
+    return data;
+}
+
+
+/***/ }),
+/* 27 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Manager: () => (/* binding */ Manager)
+/* harmony export */ });
+/* harmony import */ var engine_io_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
+/* harmony import */ var _socket_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(28);
+/* harmony import */ var socket_io_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(29);
+/* harmony import */ var _on_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(32);
+/* harmony import */ var _contrib_backo2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(33);
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(16);
+
+
+
+
+
+
+class Manager extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_5__.Emitter {
+    constructor(uri, opts) {
+        var _a;
+        super();
+        this.nsps = {};
+        this.subs = [];
+        if (uri && "object" === typeof uri) {
+            opts = uri;
+            uri = undefined;
+        }
+        opts = opts || {};
+        opts.path = opts.path || "/socket.io";
+        this.opts = opts;
+        (0,engine_io_client__WEBPACK_IMPORTED_MODULE_0__.installTimerFunctions)(this, opts);
+        this.reconnection(opts.reconnection !== false);
+        this.reconnectionAttempts(opts.reconnectionAttempts || Infinity);
+        this.reconnectionDelay(opts.reconnectionDelay || 1000);
+        this.reconnectionDelayMax(opts.reconnectionDelayMax || 5000);
+        this.randomizationFactor((_a = opts.randomizationFactor) !== null && _a !== void 0 ? _a : 0.5);
+        this.backoff = new _contrib_backo2_js__WEBPACK_IMPORTED_MODULE_4__.Backoff({
+            min: this.reconnectionDelay(),
+            max: this.reconnectionDelayMax(),
+            jitter: this.randomizationFactor(),
+        });
+        this.timeout(null == opts.timeout ? 20000 : opts.timeout);
+        this._readyState = "closed";
+        this.uri = uri;
+        const _parser = opts.parser || socket_io_parser__WEBPACK_IMPORTED_MODULE_2__;
+        this.encoder = new _parser.Encoder();
+        this.decoder = new _parser.Decoder();
+        this._autoConnect = opts.autoConnect !== false;
+        if (this._autoConnect)
+            this.open();
+    }
+    reconnection(v) {
+        if (!arguments.length)
+            return this._reconnection;
+        this._reconnection = !!v;
+        return this;
+    }
+    reconnectionAttempts(v) {
+        if (v === undefined)
+            return this._reconnectionAttempts;
+        this._reconnectionAttempts = v;
+        return this;
+    }
+    reconnectionDelay(v) {
+        var _a;
+        if (v === undefined)
+            return this._reconnectionDelay;
+        this._reconnectionDelay = v;
+        (_a = this.backoff) === null || _a === void 0 ? void 0 : _a.setMin(v);
+        return this;
+    }
+    randomizationFactor(v) {
+        var _a;
+        if (v === undefined)
+            return this._randomizationFactor;
+        this._randomizationFactor = v;
+        (_a = this.backoff) === null || _a === void 0 ? void 0 : _a.setJitter(v);
+        return this;
+    }
+    reconnectionDelayMax(v) {
+        var _a;
+        if (v === undefined)
+            return this._reconnectionDelayMax;
+        this._reconnectionDelayMax = v;
+        (_a = this.backoff) === null || _a === void 0 ? void 0 : _a.setMax(v);
+        return this;
+    }
+    timeout(v) {
+        if (!arguments.length)
+            return this._timeout;
+        this._timeout = v;
+        return this;
+    }
+    /**
+     * Starts trying to reconnect if reconnection is enabled and we have not
+     * started reconnecting yet
+     *
+     * @private
+     */
+    maybeReconnectOnOpen() {
+        // Only try to reconnect if it's the first time we're connecting
+        if (!this._reconnecting &&
+            this._reconnection &&
+            this.backoff.attempts === 0) {
+            // keeps reconnection from firing twice for the same reconnection loop
+            this.reconnect();
+        }
+    }
+    /**
+     * Sets the current transport `socket`.
+     *
+     * @param {Function} fn - optional, callback
+     * @return self
+     * @public
+     */
+    open(fn) {
+        if (~this._readyState.indexOf("open"))
+            return this;
+        this.engine = new engine_io_client__WEBPACK_IMPORTED_MODULE_0__.Socket(this.uri, this.opts);
+        const socket = this.engine;
+        const self = this;
+        this._readyState = "opening";
+        this.skipReconnect = false;
+        // emit `open`
+        const openSubDestroy = (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "open", function () {
+            self.onopen();
+            fn && fn();
+        });
+        const onError = (err) => {
+            this.cleanup();
+            this._readyState = "closed";
+            this.emitReserved("error", err);
+            if (fn) {
+                fn(err);
+            }
+            else {
+                // Only do this if there is no fn to handle the error
+                this.maybeReconnectOnOpen();
+            }
+        };
+        // emit `error`
+        const errorSub = (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "error", onError);
+        if (false !== this._timeout) {
+            const timeout = this._timeout;
+            // set timer
+            const timer = this.setTimeoutFn(() => {
+                openSubDestroy();
+                onError(new Error("timeout"));
+                socket.close();
+            }, timeout);
+            if (this.opts.autoUnref) {
+                timer.unref();
+            }
+            this.subs.push(() => {
+                this.clearTimeoutFn(timer);
+            });
+        }
+        this.subs.push(openSubDestroy);
+        this.subs.push(errorSub);
+        return this;
+    }
+    /**
+     * Alias for open()
+     *
+     * @return self
+     * @public
+     */
+    connect(fn) {
+        return this.open(fn);
+    }
+    /**
+     * Called upon transport open.
+     *
+     * @private
+     */
+    onopen() {
+        // clear old subs
+        this.cleanup();
+        // mark as open
+        this._readyState = "open";
+        this.emitReserved("open");
+        // add new subs
+        const socket = this.engine;
+        this.subs.push((0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "ping", this.onping.bind(this)), (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "data", this.ondata.bind(this)), (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "error", this.onerror.bind(this)), (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(socket, "close", this.onclose.bind(this)), (0,_on_js__WEBPACK_IMPORTED_MODULE_3__.on)(this.decoder, "decoded", this.ondecoded.bind(this)));
+    }
+    /**
+     * Called upon a ping.
+     *
+     * @private
+     */
+    onping() {
+        this.emitReserved("ping");
+    }
+    /**
+     * Called with data.
+     *
+     * @private
+     */
+    ondata(data) {
+        try {
+            this.decoder.add(data);
+        }
+        catch (e) {
+            this.onclose("parse error", e);
+        }
+    }
+    /**
+     * Called when parser fully decodes a packet.
+     *
+     * @private
+     */
+    ondecoded(packet) {
+        // the nextTick call prevents an exception in a user-provided event listener from triggering a disconnection due to a "parse error"
+        (0,engine_io_client__WEBPACK_IMPORTED_MODULE_0__.nextTick)(() => {
+            this.emitReserved("packet", packet);
+        }, this.setTimeoutFn);
+    }
+    /**
+     * Called upon socket error.
+     *
+     * @private
+     */
+    onerror(err) {
+        this.emitReserved("error", err);
+    }
+    /**
+     * Creates a new socket for the given `nsp`.
+     *
+     * @return {Socket}
+     * @public
+     */
+    socket(nsp, opts) {
+        let socket = this.nsps[nsp];
+        if (!socket) {
+            socket = new _socket_js__WEBPACK_IMPORTED_MODULE_1__.Socket(this, nsp, opts);
+            this.nsps[nsp] = socket;
+        }
+        else if (this._autoConnect && !socket.active) {
+            socket.connect();
+        }
+        return socket;
+    }
+    /**
+     * Called upon a socket close.
+     *
+     * @param socket
+     * @private
+     */
+    _destroy(socket) {
+        const nsps = Object.keys(this.nsps);
+        for (const nsp of nsps) {
+            const socket = this.nsps[nsp];
+            if (socket.active) {
+                return;
+            }
+        }
+        this._close();
+    }
+    /**
+     * Writes a packet.
+     *
+     * @param packet
+     * @private
+     */
+    _packet(packet) {
+        const encodedPackets = this.encoder.encode(packet);
+        for (let i = 0; i < encodedPackets.length; i++) {
+            this.engine.write(encodedPackets[i], packet.options);
+        }
+    }
+    /**
+     * Clean up transport subscriptions and packet buffer.
+     *
+     * @private
+     */
+    cleanup() {
+        this.subs.forEach((subDestroy) => subDestroy());
+        this.subs.length = 0;
+        this.decoder.destroy();
+    }
+    /**
+     * Close the current socket.
+     *
+     * @private
+     */
+    _close() {
+        this.skipReconnect = true;
+        this._reconnecting = false;
+        this.onclose("forced close");
+        if (this.engine)
+            this.engine.close();
+    }
+    /**
+     * Alias for close()
+     *
+     * @private
+     */
+    disconnect() {
+        return this._close();
+    }
+    /**
+     * Called upon engine close.
+     *
+     * @private
+     */
+    onclose(reason, description) {
+        this.cleanup();
+        this.backoff.reset();
+        this._readyState = "closed";
+        this.emitReserved("close", reason, description);
+        if (this._reconnection && !this.skipReconnect) {
+            this.reconnect();
+        }
+    }
+    /**
+     * Attempt a reconnection.
+     *
+     * @private
+     */
+    reconnect() {
+        if (this._reconnecting || this.skipReconnect)
+            return this;
+        const self = this;
+        if (this.backoff.attempts >= this._reconnectionAttempts) {
+            this.backoff.reset();
+            this.emitReserved("reconnect_failed");
+            this._reconnecting = false;
+        }
+        else {
+            const delay = this.backoff.duration();
+            this._reconnecting = true;
+            const timer = this.setTimeoutFn(() => {
+                if (self.skipReconnect)
+                    return;
+                this.emitReserved("reconnect_attempt", self.backoff.attempts);
+                // check again for the case socket closed in above events
+                if (self.skipReconnect)
+                    return;
+                self.open((err) => {
+                    if (err) {
+                        self._reconnecting = false;
+                        self.reconnect();
+                        this.emitReserved("reconnect_error", err);
+                    }
+                    else {
+                        self.onreconnect();
+                    }
+                });
+            }, delay);
+            if (this.opts.autoUnref) {
+                timer.unref();
+            }
+            this.subs.push(() => {
+                this.clearTimeoutFn(timer);
+            });
+        }
+    }
+    /**
+     * Called upon successful reconnect.
+     *
+     * @private
+     */
+    onreconnect() {
+        const attempt = this.backoff.attempts;
+        this._reconnecting = false;
+        this.backoff.reset();
+        this.emitReserved("reconnect", attempt);
+    }
+}
+
+
+/***/ }),
+/* 28 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Socket: () => (/* binding */ Socket)
+/* harmony export */ });
+/* harmony import */ var socket_io_parser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
+/* harmony import */ var _on_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16);
+
+
+
+/**
+ * Internal events.
+ * These events can't be emitted by the user.
+ */
+const RESERVED_EVENTS = Object.freeze({
+    connect: 1,
+    connect_error: 1,
+    disconnect: 1,
+    disconnecting: 1,
+    // EventEmitter reserved events: https://nodejs.org/api/events.html#events_event_newlistener
+    newListener: 1,
+    removeListener: 1,
+});
+/**
+ * A Socket is the fundamental class for interacting with the server.
+ *
+ * A Socket belongs to a certain Namespace (by default /) and uses an underlying {@link Manager} to communicate.
+ *
+ * @example
+ * const socket = io();
+ *
+ * socket.on("connect", () => {
+ *   console.log("connected");
+ * });
+ *
+ * // send an event to the server
+ * socket.emit("foo", "bar");
+ *
+ * socket.on("foobar", () => {
+ *   // an event was received from the server
+ * });
+ *
+ * // upon disconnection
+ * socket.on("disconnect", (reason) => {
+ *   console.log(`disconnected due to ${reason}`);
+ * });
+ */
+class Socket extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_2__.Emitter {
+    /**
+     * `Socket` constructor.
+     */
+    constructor(io, nsp, opts) {
+        super();
+        /**
+         * Whether the socket is currently connected to the server.
+         *
+         * @example
+         * const socket = io();
+         *
+         * socket.on("connect", () => {
+         *   console.log(socket.connected); // true
+         * });
+         *
+         * socket.on("disconnect", () => {
+         *   console.log(socket.connected); // false
+         * });
+         */
+        this.connected = false;
+        /**
+         * Whether the connection state was recovered after a temporary disconnection. In that case, any missed packets will
+         * be transmitted by the server.
+         */
+        this.recovered = false;
+        /**
+         * Buffer for packets received before the CONNECT packet
+         */
+        this.receiveBuffer = [];
+        /**
+         * Buffer for packets that will be sent once the socket is connected
+         */
+        this.sendBuffer = [];
+        /**
+         * The queue of packets to be sent with retry in case of failure.
+         *
+         * Packets are sent one by one, each waiting for the server acknowledgement, in order to guarantee the delivery order.
+         * @private
+         */
+        this._queue = [];
+        /**
+         * A sequence to generate the ID of the {@link QueuedPacket}.
+         * @private
+         */
+        this._queueSeq = 0;
+        this.ids = 0;
+        this.acks = {};
+        this.flags = {};
+        this.io = io;
+        this.nsp = nsp;
+        if (opts && opts.auth) {
+            this.auth = opts.auth;
+        }
+        this._opts = Object.assign({}, opts);
+        if (this.io._autoConnect)
+            this.open();
+    }
+    /**
+     * Whether the socket is currently disconnected
+     *
+     * @example
+     * const socket = io();
+     *
+     * socket.on("connect", () => {
+     *   console.log(socket.disconnected); // false
+     * });
+     *
+     * socket.on("disconnect", () => {
+     *   console.log(socket.disconnected); // true
+     * });
+     */
+    get disconnected() {
+        return !this.connected;
+    }
+    /**
+     * Subscribe to open, close and packet events
+     *
+     * @private
+     */
+    subEvents() {
+        if (this.subs)
+            return;
+        const io = this.io;
+        this.subs = [
+            (0,_on_js__WEBPACK_IMPORTED_MODULE_1__.on)(io, "open", this.onopen.bind(this)),
+            (0,_on_js__WEBPACK_IMPORTED_MODULE_1__.on)(io, "packet", this.onpacket.bind(this)),
+            (0,_on_js__WEBPACK_IMPORTED_MODULE_1__.on)(io, "error", this.onerror.bind(this)),
+            (0,_on_js__WEBPACK_IMPORTED_MODULE_1__.on)(io, "close", this.onclose.bind(this)),
+        ];
+    }
+    /**
+     * Whether the Socket will try to reconnect when its Manager connects or reconnects.
+     *
+     * @example
+     * const socket = io();
+     *
+     * console.log(socket.active); // true
+     *
+     * socket.on("disconnect", (reason) => {
+     *   if (reason === "io server disconnect") {
+     *     // the disconnection was initiated by the server, you need to manually reconnect
+     *     console.log(socket.active); // false
+     *   }
+     *   // else the socket will automatically try to reconnect
+     *   console.log(socket.active); // true
+     * });
+     */
+    get active() {
+        return !!this.subs;
+    }
+    /**
+     * "Opens" the socket.
+     *
+     * @example
+     * const socket = io({
+     *   autoConnect: false
+     * });
+     *
+     * socket.connect();
+     */
+    connect() {
+        if (this.connected)
+            return this;
+        this.subEvents();
+        if (!this.io["_reconnecting"])
+            this.io.open(); // ensure open
+        if ("open" === this.io._readyState)
+            this.onopen();
+        return this;
+    }
+    /**
+     * Alias for {@link connect()}.
+     */
+    open() {
+        return this.connect();
+    }
+    /**
+     * Sends a `message` event.
+     *
+     * This method mimics the WebSocket.send() method.
+     *
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/send
+     *
+     * @example
+     * socket.send("hello");
+     *
+     * // this is equivalent to
+     * socket.emit("message", "hello");
+     *
+     * @return self
+     */
+    send(...args) {
+        args.unshift("message");
+        this.emit.apply(this, args);
+        return this;
+    }
+    /**
+     * Override `emit`.
+     * If the event is in `events`, it's emitted normally.
+     *
+     * @example
+     * socket.emit("hello", "world");
+     *
+     * // all serializable datastructures are supported (no need to call JSON.stringify)
+     * socket.emit("hello", 1, "2", { 3: ["4"], 5: Uint8Array.from([6]) });
+     *
+     * // with an acknowledgement from the server
+     * socket.emit("hello", "world", (val) => {
+     *   // ...
+     * });
+     *
+     * @return self
+     */
+    emit(ev, ...args) {
+        if (RESERVED_EVENTS.hasOwnProperty(ev)) {
+            throw new Error('"' + ev.toString() + '" is a reserved event name');
+        }
+        args.unshift(ev);
+        if (this._opts.retries && !this.flags.fromQueue && !this.flags.volatile) {
+            this._addToQueue(args);
+            return this;
+        }
+        const packet = {
+            type: socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.EVENT,
+            data: args,
+        };
+        packet.options = {};
+        packet.options.compress = this.flags.compress !== false;
+        // event ack callback
+        if ("function" === typeof args[args.length - 1]) {
+            const id = this.ids++;
+            const ack = args.pop();
+            this._registerAckCallback(id, ack);
+            packet.id = id;
+        }
+        const isTransportWritable = this.io.engine &&
+            this.io.engine.transport &&
+            this.io.engine.transport.writable;
+        const discardPacket = this.flags.volatile && (!isTransportWritable || !this.connected);
+        if (discardPacket) {
+        }
+        else if (this.connected) {
+            this.notifyOutgoingListeners(packet);
+            this.packet(packet);
+        }
+        else {
+            this.sendBuffer.push(packet);
+        }
+        this.flags = {};
+        return this;
+    }
+    /**
+     * @private
+     */
+    _registerAckCallback(id, ack) {
+        var _a;
+        const timeout = (_a = this.flags.timeout) !== null && _a !== void 0 ? _a : this._opts.ackTimeout;
+        if (timeout === undefined) {
+            this.acks[id] = ack;
+            return;
+        }
+        // @ts-ignore
+        const timer = this.io.setTimeoutFn(() => {
+            delete this.acks[id];
+            for (let i = 0; i < this.sendBuffer.length; i++) {
+                if (this.sendBuffer[i].id === id) {
+                    this.sendBuffer.splice(i, 1);
+                }
+            }
+            ack.call(this, new Error("operation has timed out"));
+        }, timeout);
+        this.acks[id] = (...args) => {
+            // @ts-ignore
+            this.io.clearTimeoutFn(timer);
+            ack.apply(this, [null, ...args]);
+        };
+    }
+    /**
+     * Emits an event and waits for an acknowledgement
+     *
+     * @example
+     * // without timeout
+     * const response = await socket.emitWithAck("hello", "world");
+     *
+     * // with a specific timeout
+     * try {
+     *   const response = await socket.timeout(1000).emitWithAck("hello", "world");
+     * } catch (err) {
+     *   // the server did not acknowledge the event in the given delay
+     * }
+     *
+     * @return a Promise that will be fulfilled when the server acknowledges the event
+     */
+    emitWithAck(ev, ...args) {
+        // the timeout flag is optional
+        const withErr = this.flags.timeout !== undefined || this._opts.ackTimeout !== undefined;
+        return new Promise((resolve, reject) => {
+            args.push((arg1, arg2) => {
+                if (withErr) {
+                    return arg1 ? reject(arg1) : resolve(arg2);
+                }
+                else {
+                    return resolve(arg1);
+                }
+            });
+            this.emit(ev, ...args);
+        });
+    }
+    /**
+     * Add the packet to the queue.
+     * @param args
+     * @private
+     */
+    _addToQueue(args) {
+        let ack;
+        if (typeof args[args.length - 1] === "function") {
+            ack = args.pop();
+        }
+        const packet = {
+            id: this._queueSeq++,
+            tryCount: 0,
+            pending: false,
+            args,
+            flags: Object.assign({ fromQueue: true }, this.flags),
+        };
+        args.push((err, ...responseArgs) => {
+            if (packet !== this._queue[0]) {
+                // the packet has already been acknowledged
+                return;
+            }
+            const hasError = err !== null;
+            if (hasError) {
+                if (packet.tryCount > this._opts.retries) {
+                    this._queue.shift();
+                    if (ack) {
+                        ack(err);
+                    }
+                }
+            }
+            else {
+                this._queue.shift();
+                if (ack) {
+                    ack(null, ...responseArgs);
+                }
+            }
+            packet.pending = false;
+            return this._drainQueue();
+        });
+        this._queue.push(packet);
+        this._drainQueue();
+    }
+    /**
+     * Send the first packet of the queue, and wait for an acknowledgement from the server.
+     * @param force - whether to resend a packet that has not been acknowledged yet
+     *
+     * @private
+     */
+    _drainQueue(force = false) {
+        if (!this.connected || this._queue.length === 0) {
+            return;
+        }
+        const packet = this._queue[0];
+        if (packet.pending && !force) {
+            return;
+        }
+        packet.pending = true;
+        packet.tryCount++;
+        this.flags = packet.flags;
+        this.emit.apply(this, packet.args);
+    }
+    /**
+     * Sends a packet.
+     *
+     * @param packet
+     * @private
+     */
+    packet(packet) {
+        packet.nsp = this.nsp;
+        this.io._packet(packet);
+    }
+    /**
+     * Called upon engine `open`.
+     *
+     * @private
+     */
+    onopen() {
+        if (typeof this.auth == "function") {
+            this.auth((data) => {
+                this._sendConnectPacket(data);
+            });
+        }
+        else {
+            this._sendConnectPacket(this.auth);
+        }
+    }
+    /**
+     * Sends a CONNECT packet to initiate the Socket.IO session.
+     *
+     * @param data
+     * @private
+     */
+    _sendConnectPacket(data) {
+        this.packet({
+            type: socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.CONNECT,
+            data: this._pid
+                ? Object.assign({ pid: this._pid, offset: this._lastOffset }, data)
+                : data,
+        });
+    }
+    /**
+     * Called upon engine or manager `error`.
+     *
+     * @param err
+     * @private
+     */
+    onerror(err) {
+        if (!this.connected) {
+            this.emitReserved("connect_error", err);
+        }
+    }
+    /**
+     * Called upon engine `close`.
+     *
+     * @param reason
+     * @param description
+     * @private
+     */
+    onclose(reason, description) {
+        this.connected = false;
+        delete this.id;
+        this.emitReserved("disconnect", reason, description);
+    }
+    /**
+     * Called with socket packet.
+     *
+     * @param packet
+     * @private
+     */
+    onpacket(packet) {
+        const sameNamespace = packet.nsp === this.nsp;
+        if (!sameNamespace)
+            return;
+        switch (packet.type) {
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.CONNECT:
+                if (packet.data && packet.data.sid) {
+                    this.onconnect(packet.data.sid, packet.data.pid);
+                }
+                else {
+                    this.emitReserved("connect_error", new Error("It seems you are trying to reach a Socket.IO server in v2.x with a v3.x client, but they are not compatible (more information here: https://socket.io/docs/v3/migrating-from-2-x-to-3-0/)"));
+                }
+                break;
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.EVENT:
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.BINARY_EVENT:
+                this.onevent(packet);
+                break;
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.ACK:
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.BINARY_ACK:
+                this.onack(packet);
+                break;
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.DISCONNECT:
+                this.ondisconnect();
+                break;
+            case socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.CONNECT_ERROR:
+                this.destroy();
+                const err = new Error(packet.data.message);
+                // @ts-ignore
+                err.data = packet.data.data;
+                this.emitReserved("connect_error", err);
+                break;
+        }
+    }
+    /**
+     * Called upon a server event.
+     *
+     * @param packet
+     * @private
+     */
+    onevent(packet) {
+        const args = packet.data || [];
+        if (null != packet.id) {
+            args.push(this.ack(packet.id));
+        }
+        if (this.connected) {
+            this.emitEvent(args);
+        }
+        else {
+            this.receiveBuffer.push(Object.freeze(args));
+        }
+    }
+    emitEvent(args) {
+        if (this._anyListeners && this._anyListeners.length) {
+            const listeners = this._anyListeners.slice();
+            for (const listener of listeners) {
+                listener.apply(this, args);
+            }
+        }
+        super.emit.apply(this, args);
+        if (this._pid && args.length && typeof args[args.length - 1] === "string") {
+            this._lastOffset = args[args.length - 1];
+        }
+    }
+    /**
+     * Produces an ack callback to emit with an event.
+     *
+     * @private
+     */
+    ack(id) {
+        const self = this;
+        let sent = false;
+        return function (...args) {
+            // prevent double callbacks
+            if (sent)
+                return;
+            sent = true;
+            self.packet({
+                type: socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.ACK,
+                id: id,
+                data: args,
+            });
+        };
+    }
+    /**
+     * Called upon a server acknowlegement.
+     *
+     * @param packet
+     * @private
+     */
+    onack(packet) {
+        const ack = this.acks[packet.id];
+        if ("function" === typeof ack) {
+            ack.apply(this, packet.data);
+            delete this.acks[packet.id];
+        }
+        else {
+        }
+    }
+    /**
+     * Called upon server connect.
+     *
+     * @private
+     */
+    onconnect(id, pid) {
+        this.id = id;
+        this.recovered = pid && this._pid === pid;
+        this._pid = pid; // defined only if connection state recovery is enabled
+        this.connected = true;
+        this.emitBuffered();
+        this.emitReserved("connect");
+        this._drainQueue(true);
+    }
+    /**
+     * Emit buffered events (received and emitted).
+     *
+     * @private
+     */
+    emitBuffered() {
+        this.receiveBuffer.forEach((args) => this.emitEvent(args));
+        this.receiveBuffer = [];
+        this.sendBuffer.forEach((packet) => {
+            this.notifyOutgoingListeners(packet);
+            this.packet(packet);
+        });
+        this.sendBuffer = [];
+    }
+    /**
+     * Called upon server disconnect.
+     *
+     * @private
+     */
+    ondisconnect() {
+        this.destroy();
+        this.onclose("io server disconnect");
+    }
+    /**
+     * Called upon forced client/server side disconnections,
+     * this method ensures the manager stops tracking us and
+     * that reconnections don't get triggered for this.
+     *
+     * @private
+     */
+    destroy() {
+        if (this.subs) {
+            // clean subscriptions to avoid reconnections
+            this.subs.forEach((subDestroy) => subDestroy());
+            this.subs = undefined;
+        }
+        this.io["_destroy"](this);
+    }
+    /**
+     * Disconnects the socket manually. In that case, the socket will not try to reconnect.
+     *
+     * If this is the last active Socket instance of the {@link Manager}, the low-level connection will be closed.
+     *
+     * @example
+     * const socket = io();
+     *
+     * socket.on("disconnect", (reason) => {
+     *   // console.log(reason); prints "io client disconnect"
+     * });
+     *
+     * socket.disconnect();
+     *
+     * @return self
+     */
+    disconnect() {
+        if (this.connected) {
+            this.packet({ type: socket_io_parser__WEBPACK_IMPORTED_MODULE_0__.PacketType.DISCONNECT });
+        }
+        // remove socket from pool
+        this.destroy();
+        if (this.connected) {
+            // fire events
+            this.onclose("io client disconnect");
+        }
+        return this;
+    }
+    /**
+     * Alias for {@link disconnect()}.
+     *
+     * @return self
+     */
+    close() {
+        return this.disconnect();
+    }
+    /**
+     * Sets the compress flag.
+     *
+     * @example
+     * socket.compress(false).emit("hello");
+     *
+     * @param compress - if `true`, compresses the sending data
+     * @return self
+     */
+    compress(compress) {
+        this.flags.compress = compress;
+        return this;
+    }
+    /**
+     * Sets a modifier for a subsequent event emission that the event message will be dropped when this socket is not
+     * ready to send messages.
+     *
+     * @example
+     * socket.volatile.emit("hello"); // the server may or may not receive it
+     *
+     * @returns self
+     */
+    get volatile() {
+        this.flags.volatile = true;
+        return this;
+    }
+    /**
+     * Sets a modifier for a subsequent event emission that the callback will be called with an error when the
+     * given number of milliseconds have elapsed without an acknowledgement from the server:
+     *
+     * @example
+     * socket.timeout(5000).emit("my-event", (err) => {
+     *   if (err) {
+     *     // the server did not acknowledge the event in the given delay
+     *   }
+     * });
+     *
+     * @returns self
+     */
+    timeout(timeout) {
+        this.flags.timeout = timeout;
+        return this;
+    }
+    /**
+     * Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the
+     * callback.
+     *
+     * @example
+     * socket.onAny((event, ...args) => {
+     *   console.log(`got ${event}`);
+     * });
+     *
+     * @param listener
+     */
+    onAny(listener) {
+        this._anyListeners = this._anyListeners || [];
+        this._anyListeners.push(listener);
+        return this;
+    }
+    /**
+     * Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the
+     * callback. The listener is added to the beginning of the listeners array.
+     *
+     * @example
+     * socket.prependAny((event, ...args) => {
+     *   console.log(`got event ${event}`);
+     * });
+     *
+     * @param listener
+     */
+    prependAny(listener) {
+        this._anyListeners = this._anyListeners || [];
+        this._anyListeners.unshift(listener);
+        return this;
+    }
+    /**
+     * Removes the listener that will be fired when any event is emitted.
+     *
+     * @example
+     * const catchAllListener = (event, ...args) => {
+     *   console.log(`got event ${event}`);
+     * }
+     *
+     * socket.onAny(catchAllListener);
+     *
+     * // remove a specific listener
+     * socket.offAny(catchAllListener);
+     *
+     * // or remove all listeners
+     * socket.offAny();
+     *
+     * @param listener
+     */
+    offAny(listener) {
+        if (!this._anyListeners) {
+            return this;
+        }
+        if (listener) {
+            const listeners = this._anyListeners;
+            for (let i = 0; i < listeners.length; i++) {
+                if (listener === listeners[i]) {
+                    listeners.splice(i, 1);
+                    return this;
+                }
+            }
+        }
+        else {
+            this._anyListeners = [];
+        }
+        return this;
+    }
+    /**
+     * Returns an array of listeners that are listening for any event that is specified. This array can be manipulated,
+     * e.g. to remove listeners.
+     */
+    listenersAny() {
+        return this._anyListeners || [];
+    }
+    /**
+     * Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the
+     * callback.
+     *
+     * Note: acknowledgements sent to the server are not included.
+     *
+     * @example
+     * socket.onAnyOutgoing((event, ...args) => {
+     *   console.log(`sent event ${event}`);
+     * });
+     *
+     * @param listener
+     */
+    onAnyOutgoing(listener) {
+        this._anyOutgoingListeners = this._anyOutgoingListeners || [];
+        this._anyOutgoingListeners.push(listener);
+        return this;
+    }
+    /**
+     * Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the
+     * callback. The listener is added to the beginning of the listeners array.
+     *
+     * Note: acknowledgements sent to the server are not included.
+     *
+     * @example
+     * socket.prependAnyOutgoing((event, ...args) => {
+     *   console.log(`sent event ${event}`);
+     * });
+     *
+     * @param listener
+     */
+    prependAnyOutgoing(listener) {
+        this._anyOutgoingListeners = this._anyOutgoingListeners || [];
+        this._anyOutgoingListeners.unshift(listener);
+        return this;
+    }
+    /**
+     * Removes the listener that will be fired when any event is emitted.
+     *
+     * @example
+     * const catchAllListener = (event, ...args) => {
+     *   console.log(`sent event ${event}`);
+     * }
+     *
+     * socket.onAnyOutgoing(catchAllListener);
+     *
+     * // remove a specific listener
+     * socket.offAnyOutgoing(catchAllListener);
+     *
+     * // or remove all listeners
+     * socket.offAnyOutgoing();
+     *
+     * @param [listener] - the catch-all listener (optional)
+     */
+    offAnyOutgoing(listener) {
+        if (!this._anyOutgoingListeners) {
+            return this;
+        }
+        if (listener) {
+            const listeners = this._anyOutgoingListeners;
+            for (let i = 0; i < listeners.length; i++) {
+                if (listener === listeners[i]) {
+                    listeners.splice(i, 1);
+                    return this;
+                }
+            }
+        }
+        else {
+            this._anyOutgoingListeners = [];
+        }
+        return this;
+    }
+    /**
+     * Returns an array of listeners that are listening for any event that is specified. This array can be manipulated,
+     * e.g. to remove listeners.
+     */
+    listenersAnyOutgoing() {
+        return this._anyOutgoingListeners || [];
+    }
+    /**
+     * Notify the listeners for each packet sent
+     *
+     * @param packet
+     *
+     * @private
+     */
+    notifyOutgoingListeners(packet) {
+        if (this._anyOutgoingListeners && this._anyOutgoingListeners.length) {
+            const listeners = this._anyOutgoingListeners.slice();
+            for (const listener of listeners) {
+                listener.apply(this, packet.data);
+            }
+        }
+    }
+}
+
+
+/***/ }),
+/* 29 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Decoder: () => (/* binding */ Decoder),
+/* harmony export */   Encoder: () => (/* binding */ Encoder),
+/* harmony export */   PacketType: () => (/* binding */ PacketType),
+/* harmony export */   protocol: () => (/* binding */ protocol)
+/* harmony export */ });
+/* harmony import */ var _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _binary_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _is_binary_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31);
+
+
+
+/**
+ * These strings must not be used as event names, as they have a special meaning.
+ */
+const RESERVED_EVENTS = [
+    "connect",
+    "connect_error",
+    "disconnect",
+    "disconnecting",
+    "newListener",
+    "removeListener", // used by the Node.js EventEmitter
+];
+/**
+ * Protocol version.
+ *
+ * @public
+ */
+const protocol = 5;
+var PacketType;
+(function (PacketType) {
+    PacketType[PacketType["CONNECT"] = 0] = "CONNECT";
+    PacketType[PacketType["DISCONNECT"] = 1] = "DISCONNECT";
+    PacketType[PacketType["EVENT"] = 2] = "EVENT";
+    PacketType[PacketType["ACK"] = 3] = "ACK";
+    PacketType[PacketType["CONNECT_ERROR"] = 4] = "CONNECT_ERROR";
+    PacketType[PacketType["BINARY_EVENT"] = 5] = "BINARY_EVENT";
+    PacketType[PacketType["BINARY_ACK"] = 6] = "BINARY_ACK";
+})(PacketType || (PacketType = {}));
+/**
+ * A socket.io Encoder instance
+ */
+class Encoder {
+    /**
+     * Encoder constructor
+     *
+     * @param {function} replacer - custom replacer to pass down to JSON.parse
+     */
+    constructor(replacer) {
+        this.replacer = replacer;
+    }
+    /**
+     * Encode a packet as a single string if non-binary, or as a
+     * buffer sequence, depending on packet type.
+     *
+     * @param {Object} obj - packet object
+     */
+    encode(obj) {
+        if (obj.type === PacketType.EVENT || obj.type === PacketType.ACK) {
+            if ((0,_is_binary_js__WEBPACK_IMPORTED_MODULE_2__.hasBinary)(obj)) {
+                return this.encodeAsBinary({
+                    type: obj.type === PacketType.EVENT
+                        ? PacketType.BINARY_EVENT
+                        : PacketType.BINARY_ACK,
+                    nsp: obj.nsp,
+                    data: obj.data,
+                    id: obj.id,
+                });
+            }
+        }
+        return [this.encodeAsString(obj)];
+    }
+    /**
+     * Encode packet as string.
+     */
+    encodeAsString(obj) {
+        // first is type
+        let str = "" + obj.type;
+        // attachments if we have them
+        if (obj.type === PacketType.BINARY_EVENT ||
+            obj.type === PacketType.BINARY_ACK) {
+            str += obj.attachments + "-";
+        }
+        // if we have a namespace other than `/`
+        // we append it followed by a comma `,`
+        if (obj.nsp && "/" !== obj.nsp) {
+            str += obj.nsp + ",";
+        }
+        // immediately followed by the id
+        if (null != obj.id) {
+            str += obj.id;
+        }
+        // json data
+        if (null != obj.data) {
+            str += JSON.stringify(obj.data, this.replacer);
+        }
+        return str;
+    }
+    /**
+     * Encode packet as 'buffer sequence' by removing blobs, and
+     * deconstructing packet into object with placeholders and
+     * a list of buffers.
+     */
+    encodeAsBinary(obj) {
+        const deconstruction = (0,_binary_js__WEBPACK_IMPORTED_MODULE_1__.deconstructPacket)(obj);
+        const pack = this.encodeAsString(deconstruction.packet);
+        const buffers = deconstruction.buffers;
+        buffers.unshift(pack); // add packet info to beginning of data list
+        return buffers; // write all the buffers
+    }
+}
+// see https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript
+function isObject(value) {
+    return Object.prototype.toString.call(value) === "[object Object]";
+}
+/**
+ * A socket.io Decoder instance
+ *
+ * @return {Object} decoder
+ */
+class Decoder extends _socket_io_component_emitter__WEBPACK_IMPORTED_MODULE_0__.Emitter {
+    /**
+     * Decoder constructor
+     *
+     * @param {function} reviver - custom reviver to pass down to JSON.stringify
+     */
+    constructor(reviver) {
+        super();
+        this.reviver = reviver;
+    }
+    /**
+     * Decodes an encoded packet string into packet JSON.
+     *
+     * @param {String} obj - encoded packet
+     */
+    add(obj) {
+        let packet;
+        if (typeof obj === "string") {
+            if (this.reconstructor) {
+                throw new Error("got plaintext data when reconstructing a packet");
+            }
+            packet = this.decodeString(obj);
+            const isBinaryEvent = packet.type === PacketType.BINARY_EVENT;
+            if (isBinaryEvent || packet.type === PacketType.BINARY_ACK) {
+                packet.type = isBinaryEvent ? PacketType.EVENT : PacketType.ACK;
+                // binary packet's json
+                this.reconstructor = new BinaryReconstructor(packet);
+                // no attachments, labeled binary but no binary data to follow
+                if (packet.attachments === 0) {
+                    super.emitReserved("decoded", packet);
+                }
+            }
+            else {
+                // non-binary full packet
+                super.emitReserved("decoded", packet);
+            }
+        }
+        else if ((0,_is_binary_js__WEBPACK_IMPORTED_MODULE_2__.isBinary)(obj) || obj.base64) {
+            // raw binary data
+            if (!this.reconstructor) {
+                throw new Error("got binary data when not reconstructing a packet");
+            }
+            else {
+                packet = this.reconstructor.takeBinaryData(obj);
+                if (packet) {
+                    // received final buffer
+                    this.reconstructor = null;
+                    super.emitReserved("decoded", packet);
+                }
+            }
+        }
+        else {
+            throw new Error("Unknown type: " + obj);
+        }
+    }
+    /**
+     * Decode a packet String (JSON data)
+     *
+     * @param {String} str
+     * @return {Object} packet
+     */
+    decodeString(str) {
+        let i = 0;
+        // look up type
+        const p = {
+            type: Number(str.charAt(0)),
+        };
+        if (PacketType[p.type] === undefined) {
+            throw new Error("unknown packet type " + p.type);
+        }
+        // look up attachments if type binary
+        if (p.type === PacketType.BINARY_EVENT ||
+            p.type === PacketType.BINARY_ACK) {
+            const start = i + 1;
+            while (str.charAt(++i) !== "-" && i != str.length) { }
+            const buf = str.substring(start, i);
+            if (buf != Number(buf) || str.charAt(i) !== "-") {
+                throw new Error("Illegal attachments");
+            }
+            p.attachments = Number(buf);
+        }
+        // look up namespace (if any)
+        if ("/" === str.charAt(i + 1)) {
+            const start = i + 1;
+            while (++i) {
+                const c = str.charAt(i);
+                if ("," === c)
+                    break;
+                if (i === str.length)
+                    break;
+            }
+            p.nsp = str.substring(start, i);
+        }
+        else {
+            p.nsp = "/";
+        }
+        // look up id
+        const next = str.charAt(i + 1);
+        if ("" !== next && Number(next) == next) {
+            const start = i + 1;
+            while (++i) {
+                const c = str.charAt(i);
+                if (null == c || Number(c) != c) {
+                    --i;
+                    break;
+                }
+                if (i === str.length)
+                    break;
+            }
+            p.id = Number(str.substring(start, i + 1));
+        }
+        // look up json data
+        if (str.charAt(++i)) {
+            const payload = this.tryParse(str.substr(i));
+            if (Decoder.isPayloadValid(p.type, payload)) {
+                p.data = payload;
+            }
+            else {
+                throw new Error("invalid payload");
+            }
+        }
+        return p;
+    }
+    tryParse(str) {
+        try {
+            return JSON.parse(str, this.reviver);
+        }
+        catch (e) {
+            return false;
+        }
+    }
+    static isPayloadValid(type, payload) {
+        switch (type) {
+            case PacketType.CONNECT:
+                return isObject(payload);
+            case PacketType.DISCONNECT:
+                return payload === undefined;
+            case PacketType.CONNECT_ERROR:
+                return typeof payload === "string" || isObject(payload);
+            case PacketType.EVENT:
+            case PacketType.BINARY_EVENT:
+                return (Array.isArray(payload) &&
+                    (typeof payload[0] === "number" ||
+                        (typeof payload[0] === "string" &&
+                            RESERVED_EVENTS.indexOf(payload[0]) === -1)));
+            case PacketType.ACK:
+            case PacketType.BINARY_ACK:
+                return Array.isArray(payload);
+        }
+    }
+    /**
+     * Deallocates a parser's resources
+     */
+    destroy() {
+        if (this.reconstructor) {
+            this.reconstructor.finishedReconstruction();
+            this.reconstructor = null;
+        }
+    }
+}
+/**
+ * A manager of a binary event's 'buffer sequence'. Should
+ * be constructed whenever a packet of type BINARY_EVENT is
+ * decoded.
+ *
+ * @param {Object} packet
+ * @return {BinaryReconstructor} initialized reconstructor
+ */
+class BinaryReconstructor {
+    constructor(packet) {
+        this.packet = packet;
+        this.buffers = [];
+        this.reconPack = packet;
+    }
+    /**
+     * Method to be called when binary data received from connection
+     * after a BINARY_EVENT packet.
+     *
+     * @param {Buffer | ArrayBuffer} binData - the raw binary data received
+     * @return {null | Object} returns null if more binary data is expected or
+     *   a reconstructed packet object if all buffers have been received.
+     */
+    takeBinaryData(binData) {
+        this.buffers.push(binData);
+        if (this.buffers.length === this.reconPack.attachments) {
+            // done with buffer list
+            const packet = (0,_binary_js__WEBPACK_IMPORTED_MODULE_1__.reconstructPacket)(this.reconPack, this.buffers);
+            this.finishedReconstruction();
+            return packet;
+        }
+        return null;
+    }
+    /**
+     * Cleans up binary packet reconstruction variables.
+     */
+    finishedReconstruction() {
+        this.reconPack = null;
+        this.buffers = [];
+    }
+}
+
+
+/***/ }),
+/* 30 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   deconstructPacket: () => (/* binding */ deconstructPacket),
+/* harmony export */   reconstructPacket: () => (/* binding */ reconstructPacket)
+/* harmony export */ });
+/* harmony import */ var _is_binary_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31);
+
+/**
+ * Replaces every Buffer | ArrayBuffer | Blob | File in packet with a numbered placeholder.
+ *
+ * @param {Object} packet - socket.io event packet
+ * @return {Object} with deconstructed packet and list of buffers
+ * @public
+ */
+function deconstructPacket(packet) {
+    const buffers = [];
+    const packetData = packet.data;
+    const pack = packet;
+    pack.data = _deconstructPacket(packetData, buffers);
+    pack.attachments = buffers.length; // number of binary 'attachments'
+    return { packet: pack, buffers: buffers };
+}
+function _deconstructPacket(data, buffers) {
+    if (!data)
+        return data;
+    if ((0,_is_binary_js__WEBPACK_IMPORTED_MODULE_0__.isBinary)(data)) {
+        const placeholder = { _placeholder: true, num: buffers.length };
+        buffers.push(data);
+        return placeholder;
+    }
+    else if (Array.isArray(data)) {
+        const newData = new Array(data.length);
+        for (let i = 0; i < data.length; i++) {
+            newData[i] = _deconstructPacket(data[i], buffers);
+        }
+        return newData;
+    }
+    else if (typeof data === "object" && !(data instanceof Date)) {
+        const newData = {};
+        for (const key in data) {
+            if (Object.prototype.hasOwnProperty.call(data, key)) {
+                newData[key] = _deconstructPacket(data[key], buffers);
+            }
+        }
+        return newData;
+    }
+    return data;
+}
+/**
+ * Reconstructs a binary packet from its placeholder packet and buffers
+ *
+ * @param {Object} packet - event packet with placeholders
+ * @param {Array} buffers - binary buffers to put in placeholder positions
+ * @return {Object} reconstructed packet
+ * @public
+ */
+function reconstructPacket(packet, buffers) {
+    packet.data = _reconstructPacket(packet.data, buffers);
+    delete packet.attachments; // no longer useful
+    return packet;
+}
+function _reconstructPacket(data, buffers) {
+    if (!data)
+        return data;
+    if (data && data._placeholder === true) {
+        const isIndexValid = typeof data.num === "number" &&
+            data.num >= 0 &&
+            data.num < buffers.length;
+        if (isIndexValid) {
+            return buffers[data.num]; // appropriate buffer (should be natural order anyway)
+        }
+        else {
+            throw new Error("illegal attachments");
+        }
+    }
+    else if (Array.isArray(data)) {
+        for (let i = 0; i < data.length; i++) {
+            data[i] = _reconstructPacket(data[i], buffers);
+        }
+    }
+    else if (typeof data === "object") {
+        for (const key in data) {
+            if (Object.prototype.hasOwnProperty.call(data, key)) {
+                data[key] = _reconstructPacket(data[key], buffers);
+            }
+        }
+    }
+    return data;
+}
+
+
+/***/ }),
+/* 31 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   hasBinary: () => (/* binding */ hasBinary),
+/* harmony export */   isBinary: () => (/* binding */ isBinary)
+/* harmony export */ });
+const withNativeArrayBuffer = typeof ArrayBuffer === "function";
+const isView = (obj) => {
+    return typeof ArrayBuffer.isView === "function"
+        ? ArrayBuffer.isView(obj)
+        : obj.buffer instanceof ArrayBuffer;
+};
+const toString = Object.prototype.toString;
+const withNativeBlob = typeof Blob === "function" ||
+    (typeof Blob !== "undefined" &&
+        toString.call(Blob) === "[object BlobConstructor]");
+const withNativeFile = typeof File === "function" ||
+    (typeof File !== "undefined" &&
+        toString.call(File) === "[object FileConstructor]");
+/**
+ * Returns true if obj is a Buffer, an ArrayBuffer, a Blob or a File.
+ *
+ * @private
+ */
+function isBinary(obj) {
+    return ((withNativeArrayBuffer && (obj instanceof ArrayBuffer || isView(obj))) ||
+        (withNativeBlob && obj instanceof Blob) ||
+        (withNativeFile && obj instanceof File));
+}
+function hasBinary(obj, toJSON) {
+    if (!obj || typeof obj !== "object") {
+        return false;
+    }
+    if (Array.isArray(obj)) {
+        for (let i = 0, l = obj.length; i < l; i++) {
+            if (hasBinary(obj[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+    if (isBinary(obj)) {
+        return true;
+    }
+    if (obj.toJSON &&
+        typeof obj.toJSON === "function" &&
+        arguments.length === 1) {
+        return hasBinary(obj.toJSON(), true);
+    }
+    for (const key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key) && hasBinary(obj[key])) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
+/***/ }),
+/* 32 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   on: () => (/* binding */ on)
+/* harmony export */ });
+function on(obj, ev, fn) {
+    obj.on(ev, fn);
+    return function subDestroy() {
+        obj.off(ev, fn);
+    };
+}
+
+
+/***/ }),
+/* 33 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Backoff: () => (/* binding */ Backoff)
+/* harmony export */ });
+/**
+ * Initialize backoff timer with `opts`.
+ *
+ * - `min` initial timeout in milliseconds [100]
+ * - `max` max timeout [10000]
+ * - `jitter` [0]
+ * - `factor` [2]
+ *
+ * @param {Object} opts
+ * @api public
+ */
+function Backoff(opts) {
+    opts = opts || {};
+    this.ms = opts.min || 100;
+    this.max = opts.max || 10000;
+    this.factor = opts.factor || 2;
+    this.jitter = opts.jitter > 0 && opts.jitter <= 1 ? opts.jitter : 0;
+    this.attempts = 0;
+}
+/**
+ * Return the backoff duration.
+ *
+ * @return {Number}
+ * @api public
+ */
+Backoff.prototype.duration = function () {
+    var ms = this.ms * Math.pow(this.factor, this.attempts++);
+    if (this.jitter) {
+        var rand = Math.random();
+        var deviation = Math.floor(rand * this.jitter * ms);
+        ms = (Math.floor(rand * 10) & 1) == 0 ? ms - deviation : ms + deviation;
+    }
+    return Math.min(ms, this.max) | 0;
+};
+/**
+ * Reset the number of attempts.
+ *
+ * @api public
+ */
+Backoff.prototype.reset = function () {
+    this.attempts = 0;
+};
+/**
+ * Set the minimum duration
+ *
+ * @api public
+ */
+Backoff.prototype.setMin = function (min) {
+    this.ms = min;
+};
+/**
+ * Set the maximum duration
+ *
+ * @api public
+ */
+Backoff.prototype.setMax = function (max) {
+    this.max = max;
+};
+/**
+ * Set the jitter
+ *
+ * @api public
+ */
+Backoff.prototype.setJitter = function (jitter) {
+    this.jitter = jitter;
+};
+
+
+/***/ }),
+/* 34 */
+/***/ ((module) => {
+
+module.exports = {"pages":["Roboto-Regular.png"],"chars":[{"id":40,"index":12,"char":"(","width":15,"height":47,"xoffset":1,"yoffset":0,"xadvance":14,"chnl":15,"x":0,"y":0,"page":0},{"id":41,"index":13,"char":")","width":15,"height":47,"xoffset":-1,"yoffset":0,"xadvance":15,"chnl":15,"x":0,"y":48,"page":0},{"id":91,"index":63,"char":"[","width":12,"height":45,"xoffset":1,"yoffset":0,"xadvance":11,"chnl":15,"x":0,"y":96,"page":0},{"id":93,"index":65,"char":"]","width":12,"height":45,"xoffset":-2,"yoffset":0,"xadvance":11,"chnl":15,"x":0,"y":142,"page":0},{"id":123,"index":95,"char":"{","width":16,"height":44,"xoffset":-1,"yoffset":1,"xadvance":14,"chnl":15,"x":0,"y":188,"page":0},{"id":125,"index":97,"char":"}","width":16,"height":44,"xoffset":-2,"yoffset":1,"xadvance":14,"chnl":15,"x":13,"y":96,"page":0},{"id":1092,"index":247,"char":"ф","width":30,"height":44,"xoffset":0,"yoffset":3,"xadvance":30,"chnl":15,"x":13,"y":141,"page":0},{"id":197,"index":644,"char":"Å","width":30,"height":44,"xoffset":-1,"yoffset":-6,"xadvance":27,"chnl":15,"x":16,"y":0,"page":0},{"id":106,"index":78,"char":"j","width":12,"height":43,"xoffset":-3,"yoffset":4,"xadvance":10,"chnl":15,"x":16,"y":45,"page":0},{"id":36,"index":8,"char":"$","width":23,"height":43,"xoffset":0,"yoffset":-1,"xadvance":24,"chnl":15,"x":29,"y":45,"page":0},{"id":64,"index":36,"char":"@","width":37,"height":43,"xoffset":0,"yoffset":5,"xadvance":38,"chnl":15,"x":47,"y":0,"page":0},{"id":198,"index":129,"char":"Æ","width":43,"height":34,"xoffset":-2,"yoffset":4,"xadvance":39,"chnl":15,"x":30,"y":89,"page":0},{"id":958,"index":197,"char":"ξ","width":21,"height":42,"xoffset":0,"yoffset":4,"xadvance":21,"chnl":15,"x":53,"y":44,"page":0},{"id":950,"index":192,"char":"ζ","width":22,"height":42,"xoffset":0,"yoffset":4,"xadvance":22,"chnl":15,"x":0,"y":233,"page":0},{"id":946,"index":188,"char":"β","width":23,"height":42,"xoffset":1,"yoffset":4,"xadvance":25,"chnl":15,"x":17,"y":186,"page":0},{"id":1044,"index":217,"char":"Д","width":33,"height":41,"xoffset":-1,"yoffset":4,"xadvance":32,"chnl":15,"x":0,"y":276,"page":0},{"id":1025,"index":941,"char":"Ё","width":23,"height":41,"xoffset":1,"yoffset":-3,"xadvance":24,"chnl":15,"x":23,"y":229,"page":0},{"id":1046,"index":218,"char":"Ж","width":41,"height":34,"xoffset":-1,"yoffset":4,"xadvance":38,"chnl":15,"x":41,"y":186,"page":0},{"id":1049,"index":954,"char":"Й","width":27,"height":41,"xoffset":2,"yoffset":-3,"xadvance":30,"chnl":15,"x":44,"y":124,"page":0},{"id":1062,"index":224,"char":"Ц","width":30,"height":41,"xoffset":2,"yoffset":4,"xadvance":31,"chnl":15,"x":72,"y":124,"page":0},{"id":1065,"index":227,"char":"Щ","width":39,"height":41,"xoffset":2,"yoffset":4,"xadvance":41,"chnl":15,"x":75,"y":44,"page":0},{"id":220,"index":664,"char":"Ü","width":26,"height":41,"xoffset":1,"yoffset":-3,"xadvance":27,"chnl":15,"x":85,"y":0,"page":0},{"id":214,"index":660,"char":"Ö","width":28,"height":41,"xoffset":0,"yoffset":-3,"xadvance":29,"chnl":15,"x":112,"y":0,"page":0},{"id":196,"index":643,"char":"Ä","width":30,"height":41,"xoffset":-1,"yoffset":-3,"xadvance":27,"chnl":15,"x":0,"y":318,"page":0},{"id":209,"index":655,"char":"Ñ","width":27,"height":41,"xoffset":1,"yoffset":-3,"xadvance":30,"chnl":15,"x":0,"y":360,"page":0},{"id":81,"index":53,"char":"Q","width":28,"height":39,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":0,"y":402,"page":0},{"id":87,"index":59,"char":"W","width":39,"height":34,"xoffset":-1,"yoffset":4,"xadvance":37,"chnl":15,"x":74,"y":87,"page":0},{"id":124,"index":96,"char":"|","width":7,"height":39,"xoffset":2,"yoffset":4,"xadvance":10,"chnl":15,"x":28,"y":360,"page":0},{"id":229,"index":671,"char":"å","width":22,"height":38,"xoffset":0,"yoffset":1,"xadvance":23,"chnl":15,"x":31,"y":318,"page":0},{"id":216,"index":131,"char":"Ø","width":28,"height":37,"xoffset":0,"yoffset":3,"xadvance":29,"chnl":15,"x":34,"y":271,"page":0},{"id":100,"index":72,"char":"d","width":23,"height":36,"xoffset":0,"yoffset":3,"xadvance":24,"chnl":15,"x":47,"y":221,"page":0},{"id":102,"index":74,"char":"f","width":17,"height":36,"xoffset":-1,"yoffset":2,"xadvance":15,"chnl":15,"x":0,"y":442,"page":0},{"id":104,"index":76,"char":"h","width":21,"height":36,"xoffset":1,"yoffset":3,"xadvance":23,"chnl":15,"x":18,"y":442,"page":0},{"id":107,"index":79,"char":"k","width":22,"height":36,"xoffset":1,"yoffset":3,"xadvance":21,"chnl":15,"x":29,"y":400,"page":0},{"id":108,"index":80,"char":"l","width":8,"height":36,"xoffset":1,"yoffset":3,"xadvance":10,"chnl":15,"x":36,"y":357,"page":0},{"id":98,"index":70,"char":"b","width":23,"height":36,"xoffset":1,"yoffset":3,"xadvance":24,"chnl":15,"x":45,"y":357,"page":0},{"id":47,"index":19,"char":"/","width":20,"height":36,"xoffset":-2,"yoffset":4,"xadvance":17,"chnl":15,"x":54,"y":309,"page":0},{"id":92,"index":64,"char":"\\","width":20,"height":36,"xoffset":-1,"yoffset":4,"xadvance":17,"chnl":15,"x":63,"y":258,"page":0},{"id":1073,"index":234,"char":"б","width":24,"height":36,"xoffset":0,"yoffset":2,"xadvance":23,"chnl":15,"x":71,"y":221,"page":0},{"id":1060,"index":223,"char":"Ф","width":33,"height":36,"xoffset":0,"yoffset":3,"xadvance":32,"chnl":15,"x":83,"y":166,"page":0},{"id":1064,"index":226,"char":"Ш","width":36,"height":34,"xoffset":2,"yoffset":4,"xadvance":40,"chnl":15,"x":103,"y":122,"page":0},{"id":1070,"index":232,"char":"Ю","width":36,"height":35,"xoffset":2,"yoffset":4,"xadvance":38,"chnl":15,"x":114,"y":86,"page":0},{"id":948,"index":190,"char":"δ","width":24,"height":36,"xoffset":0,"yoffset":2,"xadvance":24,"chnl":15,"x":115,"y":42,"page":0},{"id":966,"index":204,"char":"φ","width":30,"height":36,"xoffset":0,"yoffset":12,"xadvance":30,"chnl":15,"x":140,"y":42,"page":0},{"id":968,"index":205,"char":"ψ","width":30,"height":36,"xoffset":0,"yoffset":12,"xadvance":29,"chnl":15,"x":141,"y":0,"page":0},{"id":230,"index":134,"char":"æ","width":36,"height":27,"xoffset":0,"yoffset":11,"xadvance":35,"chnl":15,"x":0,"y":479,"page":0},{"id":121,"index":93,"char":"y","width":23,"height":35,"xoffset":-2,"yoffset":12,"xadvance":20,"chnl":15,"x":40,"y":437,"page":0},{"id":112,"index":84,"char":"p","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":40,"y":473,"page":0},{"id":113,"index":85,"char":"q","width":23,"height":35,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":52,"y":394,"page":0},{"id":103,"index":75,"char":"g","width":23,"height":35,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":69,"y":346,"page":0},{"id":109,"index":81,"char":"m","width":35,"height":27,"xoffset":1,"yoffset":11,"xadvance":37,"chnl":15,"x":75,"y":295,"page":0},{"id":79,"index":51,"char":"O","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":84,"y":258,"page":0},{"id":83,"index":55,"char":"S","width":26,"height":35,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":96,"y":203,"page":0},{"id":71,"index":43,"char":"G","width":27,"height":35,"xoffset":1,"yoffset":4,"xadvance":29,"chnl":15,"x":117,"y":157,"page":0},{"id":67,"index":39,"char":"C","width":27,"height":35,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":64,"y":430,"page":0},{"id":56,"index":28,"char":"8","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":64,"y":466,"page":0},{"id":51,"index":23,"char":"3","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":88,"y":466,"page":0},{"id":48,"index":20,"char":"0","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":76,"y":382,"page":0},{"id":37,"index":9,"char":"%","width":31,"height":35,"xoffset":0,"yoffset":4,"xadvance":31,"chnl":15,"x":92,"y":418,"page":0},{"id":8364,"index":413,"char":"€","width":24,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":93,"y":323,"page":0},{"id":38,"index":10,"char":"&","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":112,"y":454,"page":0},{"id":1105,"index":971,"char":"ё","width":23,"height":35,"xoffset":0,"yoffset":4,"xadvance":22,"chnl":15,"x":100,"y":359,"page":0},{"id":1078,"index":238,"char":"ж","width":35,"height":26,"xoffset":-2,"yoffset":12,"xadvance":32,"chnl":15,"x":111,"y":294,"page":0},{"id":1047,"index":219,"char":"З","width":26,"height":35,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":118,"y":321,"page":0},{"id":1054,"index":957,"char":"О","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":113,"y":239,"page":0},{"id":1088,"index":967,"char":"р","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":123,"y":193,"page":0},{"id":1057,"index":960,"char":"С","width":27,"height":35,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":142,"y":229,"page":0},{"id":1091,"index":969,"char":"у","width":23,"height":35,"xoffset":-2,"yoffset":12,"xadvance":20,"chnl":15,"x":145,"y":122,"page":0},{"id":1097,"index":251,"char":"щ","width":35,"height":33,"xoffset":1,"yoffset":12,"xadvance":35,"chnl":15,"x":145,"y":158,"page":0},{"id":1069,"index":231,"char":"Э","width":27,"height":35,"xoffset":1,"yoffset":4,"xadvance":28,"chnl":15,"x":147,"y":192,"page":0},{"id":252,"index":691,"char":"ü","width":21,"height":35,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":151,"y":79,"page":0},{"id":246,"index":687,"char":"ö","width":24,"height":35,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":171,"y":37,"page":0},{"id":228,"index":670,"char":"ä","width":22,"height":35,"xoffset":0,"yoffset":4,"xadvance":23,"chnl":15,"x":172,"y":0,"page":0},{"id":241,"index":682,"char":"ñ","width":21,"height":35,"xoffset":1,"yoffset":3,"xadvance":23,"chnl":15,"x":195,"y":0,"page":0},{"id":961,"index":199,"char":"ρ","width":23,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":169,"y":115,"page":0},{"id":952,"index":194,"char":"θ","width":23,"height":35,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":173,"y":73,"page":0},{"id":947,"index":189,"char":"γ","width":23,"height":35,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":196,"y":36,"page":0},{"id":951,"index":193,"char":"η","width":22,"height":35,"xoffset":1,"yoffset":11,"xadvance":24,"chnl":15,"x":217,"y":0,"page":0},{"id":955,"index":196,"char":"λ","width":25,"height":35,"xoffset":-1,"yoffset":3,"xadvance":23,"chnl":15,"x":124,"y":357,"page":0},{"id":967,"index":935,"char":"χ","width":26,"height":35,"xoffset":0,"yoffset":12,"xadvance":21,"chnl":15,"x":145,"y":321,"page":0},{"id":956,"index":933,"char":"μ","width":21,"height":35,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":147,"y":265,"page":0},{"id":920,"index":179,"char":"Θ","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":169,"y":265,"page":0},{"id":927,"index":919,"char":"Ο","width":28,"height":35,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":170,"y":228,"page":0},{"id":105,"index":77,"char":"i","width":8,"height":34,"xoffset":1,"yoffset":4,"xadvance":10,"chnl":15,"x":175,"y":192,"page":0},{"id":119,"index":91,"char":"w","width":34,"height":26,"xoffset":-1,"yoffset":12,"xadvance":32,"chnl":15,"x":181,"y":151,"page":0},{"id":65,"index":37,"char":"A","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":193,"y":109,"page":0},{"id":90,"index":62,"char":"Z","width":26,"height":34,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":197,"y":72,"page":0},{"id":69,"index":41,"char":"E","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":220,"y":36,"page":0},{"id":82,"index":54,"char":"R","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":240,"y":0,"page":0},{"id":84,"index":56,"char":"T","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":184,"y":178,"page":0},{"id":89,"index":61,"char":"Y","width":29,"height":34,"xoffset":-2,"yoffset":4,"xadvance":25,"chnl":15,"x":124,"y":393,"page":0},{"id":85,"index":57,"char":"U","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":27,"chnl":15,"x":150,"y":357,"page":0},{"id":73,"index":45,"char":"I","width":8,"height":34,"xoffset":2,"yoffset":4,"xadvance":11,"chnl":15,"x":172,"y":301,"page":0},{"id":80,"index":52,"char":"P","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":141,"y":428,"page":0},{"id":68,"index":40,"char":"D","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":28,"chnl":15,"x":154,"y":392,"page":0},{"id":70,"index":42,"char":"F","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":141,"y":463,"page":0},{"id":72,"index":44,"char":"H","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":164,"y":463,"page":0},{"id":74,"index":46,"char":"J","width":23,"height":34,"xoffset":-1,"yoffset":4,"xadvance":23,"chnl":15,"x":167,"y":427,"page":0},{"id":75,"index":47,"char":"K","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":177,"y":336,"page":0},{"id":76,"index":48,"char":"L","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":23,"chnl":15,"x":181,"y":301,"page":0},{"id":77,"index":49,"char":"M","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":198,"y":264,"page":0},{"id":88,"index":60,"char":"X","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":204,"y":299,"page":0},{"id":86,"index":58,"char":"V","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":199,"y":213,"page":0},{"id":66,"index":38,"char":"B","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":212,"y":178,"page":0},{"id":78,"index":50,"char":"N","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":230,"y":213,"page":0},{"id":55,"index":27,"char":"7","width":24,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":181,"y":371,"page":0},{"id":57,"index":29,"char":"9","width":23,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":205,"y":334,"page":0},{"id":52,"index":24,"char":"4","width":26,"height":34,"xoffset":-1,"yoffset":4,"xadvance":24,"chnl":15,"x":191,"y":406,"page":0},{"id":53,"index":25,"char":"5","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":206,"y":369,"page":0},{"id":54,"index":26,"char":"6","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":229,"y":334,"page":0},{"id":49,"index":21,"char":"1","width":15,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":192,"y":441,"page":0},{"id":50,"index":22,"char":"2","width":24,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":192,"y":476,"page":0},{"id":33,"index":5,"char":"!","width":8,"height":34,"xoffset":1,"yoffset":4,"xadvance":11,"chnl":15,"x":208,"y":441,"page":0},{"id":63,"index":35,"char":"?","width":21,"height":34,"xoffset":0,"yoffset":4,"xadvance":20,"chnl":15,"x":217,"y":441,"page":0},{"id":163,"index":101,"char":"£","width":25,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":218,"y":404,"page":0},{"id":35,"index":7,"char":"#","width":27,"height":34,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":230,"y":369,"page":0},{"id":1040,"index":950,"char":"А","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":217,"y":476,"page":0},{"id":1041,"index":216,"char":"Б","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":239,"y":439,"page":0},{"id":1042,"index":951,"char":"В","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":244,"y":404,"page":0},{"id":1043,"index":952,"char":"Г","width":22,"height":34,"xoffset":2,"yoffset":4,"xadvance":23,"chnl":15,"x":248,"y":474,"page":0},{"id":1045,"index":953,"char":"Е","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":265,"y":439,"page":0},{"id":1048,"index":220,"char":"И","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":271,"y":474,"page":0},{"id":1081,"index":965,"char":"й","width":22,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":233,"y":248,"page":0},{"id":1050,"index":947,"char":"К","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":27,"chnl":15,"x":233,"y":283,"page":0},{"id":1051,"index":221,"char":"Л","width":29,"height":34,"xoffset":-1,"yoffset":4,"xadvance":30,"chnl":15,"x":256,"y":248,"page":0},{"id":1052,"index":955,"char":"М","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":253,"y":318,"page":0},{"id":1053,"index":956,"char":"Н","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":261,"y":283,"page":0},{"id":1055,"index":958,"char":"П","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":258,"y":353,"page":0},{"id":1056,"index":959,"char":"Р","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":269,"y":388,"page":0},{"id":1058,"index":961,"char":"Т","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":286,"y":353,"page":0},{"id":1059,"index":222,"char":"У","width":28,"height":34,"xoffset":0,"yoffset":4,"xadvance":26,"chnl":15,"x":288,"y":318,"page":0},{"id":1061,"index":962,"char":"Х","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":289,"y":423,"page":0},{"id":1063,"index":225,"char":"Ч","width":26,"height":34,"xoffset":1,"yoffset":4,"xadvance":29,"chnl":15,"x":295,"y":388,"page":0},{"id":1066,"index":228,"char":"Ъ","width":34,"height":34,"xoffset":-2,"yoffset":4,"xadvance":32,"chnl":15,"x":314,"y":353,"page":0},{"id":1067,"index":229,"char":"Ы","width":33,"height":34,"xoffset":2,"yoffset":4,"xadvance":36,"chnl":15,"x":299,"y":458,"page":0},{"id":1068,"index":230,"char":"Ь","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":318,"y":423,"page":0},{"id":1071,"index":233,"char":"Я","width":25,"height":34,"xoffset":0,"yoffset":4,"xadvance":27,"chnl":15,"x":322,"y":388,"page":0},{"id":962,"index":200,"char":"ς","width":22,"height":34,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":333,"y":458,"page":0},{"id":969,"index":206,"char":"ω","width":34,"height":27,"xoffset":1,"yoffset":12,"xadvance":35,"chnl":15,"x":216,"y":144,"page":0},{"id":917,"index":912,"char":"Ε","width":23,"height":34,"xoffset":1,"yoffset":4,"xadvance":24,"chnl":15,"x":344,"y":423,"page":0},{"id":929,"index":920,"char":"Ρ","width":25,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":348,"y":388,"page":0},{"id":932,"index":921,"char":"Τ","width":27,"height":34,"xoffset":-1,"yoffset":4,"xadvance":25,"chnl":15,"x":237,"y":172,"page":0},{"id":933,"index":922,"char":"Υ","width":29,"height":34,"xoffset":-2,"yoffset":4,"xadvance":25,"chnl":15,"x":258,"y":207,"page":0},{"id":921,"index":915,"char":"Ι","width":8,"height":34,"xoffset":2,"yoffset":4,"xadvance":11,"chnl":15,"x":286,"y":242,"page":0},{"id":928,"index":182,"char":"Π","width":27,"height":34,"xoffset":2,"yoffset":4,"xadvance":30,"chnl":15,"x":289,"y":277,"page":0},{"id":913,"index":910,"char":"Α","width":30,"height":34,"xoffset":-1,"yoffset":4,"xadvance":27,"chnl":15,"x":356,"y":458,"page":0},{"id":931,"index":183,"char":"Σ","width":25,"height":34,"xoffset":-1,"yoffset":4,"xadvance":24,"chnl":15,"x":368,"y":423,"page":0},{"id":916,"index":178,"char":"Δ","width":32,"height":34,"xoffset":-1,"yoffset":4,"xadvance":30,"chnl":15,"x":387,"y":458,"page":0},{"id":934,"index":184,"char":"Φ","width":31,"height":34,"xoffset":0,"yoffset":4,"xadvance":30,"chnl":15,"x":224,"y":71,"page":0},{"id":915,"index":177,"char":"Γ","width":22,"height":34,"xoffset":2,"yoffset":4,"xadvance":23,"chnl":15,"x":244,"y":35,"page":0},{"id":919,"index":914,"char":"Η","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":224,"y":106,"page":0},{"id":926,"index":181,"char":"Ξ","width":23,"height":34,"xoffset":0,"yoffset":4,"xadvance":24,"chnl":15,"x":252,"y":106,"page":0},{"id":922,"index":916,"char":"Κ","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":256,"y":70,"page":0},{"id":923,"index":180,"char":"Λ","width":29,"height":34,"xoffset":-1,"yoffset":4,"xadvance":28,"chnl":15,"x":265,"y":141,"page":0},{"id":918,"index":913,"char":"Ζ","width":26,"height":34,"xoffset":0,"yoffset":4,"xadvance":25,"chnl":15,"x":276,"y":105,"page":0},{"id":935,"index":923,"char":"Χ","width":28,"height":34,"xoffset":-1,"yoffset":4,"xadvance":26,"chnl":15,"x":288,"y":176,"page":0},{"id":936,"index":185,"char":"Ψ","width":29,"height":34,"xoffset":0,"yoffset":4,"xadvance":29,"chnl":15,"x":295,"y":140,"page":0},{"id":937,"index":186,"char":"Ω","width":27,"height":34,"xoffset":0,"yoffset":4,"xadvance":28,"chnl":15,"x":295,"y":211,"page":0},{"id":914,"index":911,"char":"Β","width":24,"height":34,"xoffset":1,"yoffset":4,"xadvance":26,"chnl":15,"x":317,"y":175,"page":0},{"id":925,"index":918,"char":"Ν","width":27,"height":34,"xoffset":1,"yoffset":4,"xadvance":30,"chnl":15,"x":267,"y":0,"page":0},{"id":924,"index":917,"char":"Μ","width":34,"height":34,"xoffset":1,"yoffset":4,"xadvance":37,"chnl":15,"x":267,"y":35,"page":0},{"id":1076,"index":237,"char":"д","width":27,"height":33,"xoffset":-1,"yoffset":12,"xadvance":25,"chnl":15,"x":284,"y":70,"page":0},{"id":1094,"index":248,"char":"ц","width":24,"height":33,"xoffset":1,"yoffset":12,"xadvance":25,"chnl":15,"x":295,"y":0,"page":0},{"id":1102,"index":256,"char":"ю","width":33,"height":27,"xoffset":1,"yoffset":11,"xadvance":34,"chnl":15,"x":295,"y":246,"page":0},{"id":116,"index":88,"char":"t","width":16,"height":32,"xoffset":-2,"yoffset":6,"xadvance":14,"chnl":15,"x":303,"y":104,"page":0},{"id":59,"index":31,"char":";","width":10,"height":32,"xoffset":-1,"yoffset":12,"xadvance":9,"chnl":15,"x":302,"y":34,"page":0},{"id":1096,"index":250,"char":"ш","width":32,"height":26,"xoffset":1,"yoffset":12,"xadvance":34,"chnl":15,"x":323,"y":210,"page":0},{"id":248,"index":137,"char":"ø","width":24,"height":32,"xoffset":0,"yoffset":9,"xadvance":24,"chnl":15,"x":312,"y":67,"page":0},{"id":1099,"index":253,"char":"ы","width":30,"height":26,"xoffset":1,"yoffset":12,"xadvance":33,"chnl":15,"x":313,"y":34,"page":0},{"id":1084,"index":243,"char":"м","width":29,"height":26,"xoffset":1,"yoffset":12,"xadvance":31,"chnl":15,"x":320,"y":0,"page":0},{"id":1098,"index":252,"char":"ъ","width":28,"height":26,"xoffset":-1,"yoffset":12,"xadvance":26,"chnl":15,"x":320,"y":100,"page":0},{"id":960,"index":198,"char":"π","width":28,"height":26,"xoffset":-1,"yoffset":12,"xadvance":25,"chnl":15,"x":337,"y":61,"page":0},{"id":97,"index":69,"char":"a","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":265,"y":176,"page":0},{"id":101,"index":73,"char":"e","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":344,"y":27,"page":0},{"id":114,"index":86,"char":"r","width":15,"height":27,"xoffset":1,"yoffset":11,"xadvance":14,"chnl":15,"x":325,"y":127,"page":0},{"id":117,"index":89,"char":"u","width":21,"height":27,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":341,"y":127,"page":0},{"id":111,"index":83,"char":"o","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":349,"y":88,"page":0},{"id":115,"index":87,"char":"s","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":366,"y":55,"page":0},{"id":99,"index":71,"char":"c","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":342,"y":155,"page":0},{"id":110,"index":82,"char":"n","width":21,"height":27,"xoffset":1,"yoffset":11,"xadvance":23,"chnl":15,"x":363,"y":116,"page":0},{"id":58,"index":30,"char":":","width":9,"height":27,"xoffset":1,"yoffset":12,"xadvance":10,"chnl":15,"x":251,"y":141,"page":0},{"id":126,"index":98,"char":"~","width":27,"height":12,"xoffset":1,"yoffset":18,"xadvance":29,"chnl":15,"x":112,"y":490,"page":0},{"id":1072,"index":963,"char":"а","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":374,"y":83,"page":0},{"id":1077,"index":964,"char":"е","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":368,"y":0,"page":0},{"id":1079,"index":239,"char":"з","width":21,"height":27,"xoffset":0,"yoffset":11,"xadvance":21,"chnl":15,"x":389,"y":28,"page":0},{"id":1086,"index":966,"char":"о","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":392,"y":0,"page":0},{"id":1089,"index":968,"char":"с","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":22,"chnl":15,"x":317,"y":274,"page":0},{"id":1101,"index":255,"char":"э","width":22,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":329,"y":237,"page":0},{"id":949,"index":191,"char":"ε","width":23,"height":27,"xoffset":0,"yoffset":11,"xadvance":23,"chnl":15,"x":317,"y":302,"page":0},{"id":964,"index":202,"char":"τ","width":23,"height":27,"xoffset":0,"yoffset":12,"xadvance":22,"chnl":15,"x":341,"y":265,"page":0},{"id":965,"index":203,"char":"υ","width":22,"height":27,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":352,"y":237,"page":0},{"id":959,"index":932,"char":"ο","width":24,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":356,"y":183,"page":0},{"id":945,"index":187,"char":"α","width":25,"height":27,"xoffset":0,"yoffset":11,"xadvance":24,"chnl":15,"x":366,"y":144,"page":0},{"id":963,"index":201,"char":"σ","width":26,"height":27,"xoffset":0,"yoffset":12,"xadvance":24,"chnl":15,"x":385,"y":111,"page":0},{"id":122,"index":94,"char":"z","width":22,"height":26,"xoffset":0,"yoffset":12,"xadvance":21,"chnl":15,"x":389,"y":56,"page":0},{"id":120,"index":92,"char":"x","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":397,"y":83,"page":0},{"id":118,"index":90,"char":"v","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":411,"y":28,"page":0},{"id":43,"index":15,"char":"+","width":24,"height":26,"xoffset":0,"yoffset":9,"xadvance":24,"chnl":15,"x":417,"y":0,"page":0},{"id":1074,"index":235,"char":"в","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":412,"y":55,"page":0},{"id":1075,"index":236,"char":"г","width":18,"height":26,"xoffset":1,"yoffset":12,"xadvance":18,"chnl":15,"x":368,"y":28,"page":0},{"id":1080,"index":240,"char":"и","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":435,"y":27,"page":0},{"id":1082,"index":241,"char":"к","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":442,"y":0,"page":0},{"id":1083,"index":242,"char":"л","width":24,"height":26,"xoffset":-1,"yoffset":12,"xadvance":24,"chnl":15,"x":466,"y":0,"page":0},{"id":1085,"index":244,"char":"н","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":458,"y":27,"page":0},{"id":1087,"index":245,"char":"п","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":24,"chnl":15,"x":481,"y":27,"page":0},{"id":1090,"index":246,"char":"т","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":341,"y":293,"page":0},{"id":1093,"index":970,"char":"х","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":21,"chnl":15,"x":341,"y":320,"page":0},{"id":1095,"index":249,"char":"ч","width":22,"height":26,"xoffset":0,"yoffset":12,"xadvance":23,"chnl":15,"x":349,"y":347,"page":0},{"id":1100,"index":254,"char":"ь","width":22,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":436,"y":54,"page":0},{"id":1103,"index":257,"char":"я","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":23,"chnl":15,"x":459,"y":54,"page":0},{"id":953,"index":195,"char":"ι","width":12,"height":26,"xoffset":2,"yoffset":12,"xadvance":14,"chnl":15,"x":350,"y":0,"page":0},{"id":954,"index":931,"char":"κ","width":23,"height":26,"xoffset":1,"yoffset":12,"xadvance":23,"chnl":15,"x":483,"y":54,"page":0},{"id":957,"index":934,"char":"ν","width":23,"height":26,"xoffset":-1,"yoffset":12,"xadvance":20,"chnl":15,"x":436,"y":81,"page":0},{"id":8211,"index":385,"char":"–","width":25,"height":7,"xoffset":1,"yoffset":18,"xadvance":28,"chnl":15,"x":64,"y":503,"page":0},{"id":95,"index":67,"char":"_","width":23,"height":7,"xoffset":-2,"yoffset":34,"xadvance":19,"chnl":15,"x":100,"y":395,"page":0},{"id":42,"index":14,"char":"*","width":21,"height":21,"xoffset":-1,"yoffset":4,"xadvance":18,"chnl":15,"x":491,"y":0,"page":0},{"id":61,"index":33,"char":"=","width":21,"height":16,"xoffset":1,"yoffset":14,"xadvance":23,"chnl":15,"x":113,"y":275,"page":0},{"id":176,"index":113,"char":"°","width":14,"height":15,"xoffset":1,"yoffset":4,"xadvance":16,"chnl":15,"x":199,"y":248,"page":0},{"id":45,"index":17,"char":"-","width":14,"height":7,"xoffset":-1,"yoffset":20,"xadvance":12,"chnl":15,"x":54,"y":346,"page":0},{"id":44,"index":16,"char":",","width":10,"height":14,"xoffset":-1,"yoffset":30,"xadvance":8,"chnl":15,"x":184,"y":213,"page":0},{"id":34,"index":6,"char":"\"","width":12,"height":14,"xoffset":1,"yoffset":3,"xadvance":13,"chnl":15,"x":83,"y":203,"page":0},{"id":39,"index":11,"char":"'","width":7,"height":14,"xoffset":0,"yoffset":3,"xadvance":7,"chnl":15,"x":140,"y":498,"page":0},{"id":46,"index":18,"char":".","width":9,"height":9,"xoffset":1,"yoffset":30,"xadvance":11,"chnl":15,"x":123,"y":229,"page":0}],"info":{"face":"Roboto-Regular","size":42,"bold":0,"italic":0,"charset":["a","z","e","r","t","y","u","i","o","p","q","s","d","f","g","h","j","k","l","m","w","x","c","v","b","n","A","Z","E","R","T","Y","U","I","O","P","Q","S","D","F","G","H","J","K","L","M","W","X","C","V","B","N","/","\\","*","-","–","+","7","8","9","4","5","6","1","2","3","0",",",";",":","!","?",".","%","$","£","€","=","{","}","(",")","[","]","&","~","\"","'","#","_","|","°","@","А","а","Б","б","В","в","Г","г","Д","д","Е","е","Ё","ё","Ж","ж","З","з","И","и","Й","й","К","к","Л","л","М","м","Н","н","О","о","П","п","Р","р","С","с","Т","т","У","у","Ф","ф","Х","х","Ц","ц","Ч","ч","Ш","ш","Щ","щ","Ъ","ъ","Ы","ы","Ь","ь","Э","э","Ю","ю","Я","я","ü","Ü","ö","Ö","ä","Ä","ñ","Ñ","ς","ε","ρ","τ","υ","θ","ι","ο","π","α","σ","δ","φ","γ","η","ξ","κ","λ","ζ","χ","ψ","ω","β","ν","μ","Ε","Ρ","Τ","Υ","Θ","Ι","Ο","Π","Α","Σ","Δ","Φ","Γ","Η","Ξ","Κ","Λ","Ζ","Χ","Ψ","Ω","Β","Ν","Μ","å","Å","æ","Æ","ø","Ø"],"unicode":1,"stretchH":100,"smooth":1,"aa":1,"padding":[2,2,2,2],"spacing":[0,0]},"common":{"lineHeight":44,"base":34,"scaleW":512,"scaleH":512,"pages":1,"packed":0,"alphaChnl":0,"redChnl":0,"greenChnl":0,"blueChnl":0},"distanceField":{"fieldType":"msdf","distanceRange":4},"kernings":[{"first":97,"second":121,"amount":0},{"first":97,"second":118,"amount":0},{"first":97,"second":34,"amount":-1},{"first":97,"second":39,"amount":-1},{"first":97,"second":1090,"amount":0},{"first":97,"second":1091,"amount":0},{"first":97,"second":947,"amount":0},{"first":97,"second":957,"amount":0},{"first":122,"second":101,"amount":0},{"first":122,"second":111,"amount":0},{"first":122,"second":113,"amount":0},{"first":122,"second":100,"amount":0},{"first":122,"second":103,"amount":0},{"first":122,"second":99,"amount":0},{"first":122,"second":1077,"amount":0},{"first":122,"second":1105,"amount":0},{"first":122,"second":1086,"amount":0},{"first":122,"second":1089,"amount":0},{"first":122,"second":1092,"amount":0},{"first":122,"second":246,"amount":0},{"first":122,"second":962,"amount":0},{"first":122,"second":959,"amount":0},{"first":122,"second":945,"amount":0},{"first":122,"second":963,"amount":0},{"first":101,"second":121,"amount":0},{"first":101,"second":118,"amount":0},{"first":101,"second":34,"amount":0},{"first":101,"second":39,"amount":0},{"first":101,"second":1090,"amount":0},{"first":101,"second":1091,"amount":0},{"first":101,"second":947,"amount":0},{"first":101,"second":957,"amount":0},{"first":114,"second":97,"amount":-1},{"first":114,"second":101,"amount":0},{"first":114,"second":116,"amount":1},{"first":114,"second":121,"amount":0},{"first":114,"second":111,"amount":0},{"first":114,"second":113,"amount":0},{"first":114,"second":100,"amount":0},{"first":114,"second":102,"amount":0},{"first":114,"second":103,"amount":0},{"first":114,"second":119,"amount":0},{"first":114,"second":99,"amount":0},{"first":114,"second":118,"amount":0},{"first":114,"second":44,"amount":-3},{"first":114,"second":46,"amount":-3},{"first":114,"second":34,"amount":0},{"first":114,"second":39,"amount":0},{"first":114,"second":1072,"amount":-1},{"first":114,"second":1077,"amount":0},{"first":114,"second":1105,"amount":0},{"first":114,"second":1086,"amount":0},{"first":114,"second":1089,"amount":0},{"first":114,"second":1091,"amount":0},{"first":114,"second":1092,"amount":0},{"first":114,"second":246,"amount":0},{"first":114,"second":228,"amount":-1},{"first":114,"second":962,"amount":0},{"first":114,"second":959,"amount":0},{"first":114,"second":945,"amount":0},{"first":114,"second":963,"amount":0},{"first":114,"second":947,"amount":0},{"first":114,"second":957,"amount":0},{"first":114,"second":229,"amount":-1},{"first":116,"second":111,"amount":0},{"first":116,"second":1086,"amount":0},{"first":116,"second":246,"amount":0},{"first":116,"second":959,"amount":0},{"first":121,"second":97,"amount":0},{"first":121,"second":101,"amount":0},{"first":121,"second":111,"amount":0},{"first":121,"second":113,"amount":0},{"first":121,"second":100,"amount":0},{"first":121,"second":102,"amount":0},{"first":121,"second":103,"amount":0},{"first":121,"second":99,"amount":0},{"first":121,"second":44,"amount":-2},{"first":121,"second":46,"amount":-2},{"first":121,"second":34,"amount":0},{"first":121,"second":39,"amount":0},{"first":121,"second":1072,"amount":0},{"first":121,"second":1076,"amount":-1},{"first":121,"second":1077,"amount":0},{"first":121,"second":1105,"amount":0},{"first":121,"second":1083,"amount":-1},{"first":121,"second":1086,"amount":0},{"first":121,"second":1089,"amount":0},{"first":121,"second":1092,"amount":0},{"first":121,"second":246,"amount":0},{"first":121,"second":228,"amount":0},{"first":121,"second":962,"amount":0},{"first":121,"second":961,"amount":0},{"first":121,"second":964,"amount":0},{"first":121,"second":959,"amount":0},{"first":121,"second":960,"amount":0},{"first":121,"second":945,"amount":0},{"first":121,"second":963,"amount":0},{"first":121,"second":948,"amount":0},{"first":121,"second":229,"amount":0},{"first":111,"second":122,"amount":0},{"first":111,"second":121,"amount":0},{"first":111,"second":120,"amount":0},{"first":111,"second":118,"amount":0},{"first":111,"second":34,"amount":-3},{"first":111,"second":39,"amount":-3},{"first":111,"second":1076,"amount":-1},{"first":111,"second":1078,"amount":0},{"first":111,"second":1083,"amount":0},{"first":111,"second":1090,"amount":0},{"first":111,"second":1091,"amount":0},{"first":111,"second":1093,"amount":0},{"first":111,"second":964,"amount":0},{"first":111,"second":947,"amount":0},{"first":111,"second":957,"amount":0},{"first":112,"second":122,"amount":0},{"first":112,"second":121,"amount":0},{"first":112,"second":120,"amount":0},{"first":112,"second":118,"amount":0},{"first":112,"second":34,"amount":-1},{"first":112,"second":39,"amount":-1},{"first":112,"second":1076,"amount":0},{"first":112,"second":1078,"amount":0},{"first":112,"second":1083,"amount":0},{"first":112,"second":1090,"amount":-2},{"first":112,"second":1091,"amount":0},{"first":112,"second":1093,"amount":0},{"first":112,"second":964,"amount":0},{"first":112,"second":947,"amount":0},{"first":112,"second":957,"amount":0},{"first":102,"second":101,"amount":0},{"first":102,"second":113,"amount":0},{"first":102,"second":100,"amount":0},{"first":102,"second":103,"amount":0},{"first":102,"second":99,"amount":0},{"first":102,"second":125,"amount":0},{"first":102,"second":41,"amount":0},{"first":102,"second":93,"amount":0},{"first":102,"second":34,"amount":0},{"first":102,"second":39,"amount":0},{"first":102,"second":1077,"amount":0},{"first":102,"second":1105,"amount":0},{"first":102,"second":1089,"amount":0},{"first":102,"second":1092,"amount":0},{"first":102,"second":962,"amount":0},{"first":102,"second":945,"amount":0},{"first":102,"second":963,"amount":0},{"first":104,"second":34,"amount":-2},{"first":104,"second":39,"amount":-2},{"first":104,"second":1090,"amount":-1},{"first":107,"second":101,"amount":0},{"first":107,"second":113,"amount":0},{"first":107,"second":100,"amount":0},{"first":107,"second":103,"amount":0},{"first":107,"second":99,"amount":0},{"first":107,"second":1077,"amount":0},{"first":107,"second":1105,"amount":0},{"first":107,"second":1089,"amount":0},{"first":107,"second":1092,"amount":0},{"first":107,"second":962,"amount":0},{"first":107,"second":945,"amount":0},{"first":107,"second":963,"amount":0},{"first":109,"second":34,"amount":-2},{"first":109,"second":39,"amount":-2},{"first":109,"second":1090,"amount":-1},{"first":119,"second":44,"amount":-3},{"first":119,"second":46,"amount":-3},{"first":120,"second":101,"amount":0},{"first":120,"second":111,"amount":0},{"first":120,"second":113,"amount":0},{"first":120,"second":100,"amount":0},{"first":120,"second":103,"amount":0},{"first":120,"second":99,"amount":0},{"first":120,"second":1077,"amount":0},{"first":120,"second":1105,"amount":0},{"first":120,"second":1086,"amount":0},{"first":120,"second":1089,"amount":0},{"first":120,"second":1092,"amount":0},{"first":120,"second":246,"amount":0},{"first":120,"second":962,"amount":0},{"first":120,"second":959,"amount":0},{"first":120,"second":945,"amount":0},{"first":120,"second":963,"amount":0},{"first":99,"second":34,"amount":0},{"first":99,"second":39,"amount":0},{"first":118,"second":97,"amount":0},{"first":118,"second":101,"amount":0},{"first":118,"second":111,"amount":0},{"first":118,"second":113,"amount":0},{"first":118,"second":100,"amount":0},{"first":118,"second":102,"amount":0},{"first":118,"second":103,"amount":0},{"first":118,"second":99,"amount":0},{"first":118,"second":44,"amount":-2},{"first":118,"second":46,"amount":-2},{"first":118,"second":34,"amount":0},{"first":118,"second":39,"amount":0},{"first":118,"second":1072,"amount":0},{"first":118,"second":1076,"amount":-1},{"first":118,"second":1077,"amount":0},{"first":118,"second":1105,"amount":0},{"first":118,"second":1083,"amount":-1},{"first":118,"second":1086,"amount":0},{"first":118,"second":1089,"amount":0},{"first":118,"second":1092,"amount":0},{"first":118,"second":246,"amount":0},{"first":118,"second":228,"amount":0},{"first":118,"second":962,"amount":0},{"first":118,"second":961,"amount":0},{"first":118,"second":964,"amount":0},{"first":118,"second":959,"amount":0},{"first":118,"second":960,"amount":0},{"first":118,"second":945,"amount":0},{"first":118,"second":963,"amount":0},{"first":118,"second":948,"amount":0},{"first":118,"second":229,"amount":0},{"first":98,"second":122,"amount":0},{"first":98,"second":121,"amount":0},{"first":98,"second":120,"amount":0},{"first":98,"second":118,"amount":0},{"first":98,"second":34,"amount":-1},{"first":98,"second":39,"amount":-1},{"first":98,"second":1076,"amount":0},{"first":98,"second":1078,"amount":0},{"first":98,"second":1083,"amount":0},{"first":98,"second":1090,"amount":-2},{"first":98,"second":1091,"amount":0},{"first":98,"second":1093,"amount":0},{"first":98,"second":964,"amount":0},{"first":98,"second":947,"amount":0},{"first":98,"second":957,"amount":0},{"first":110,"second":34,"amount":-2},{"first":110,"second":39,"amount":-2},{"first":110,"second":1090,"amount":-1},{"first":65,"second":122,"amount":0},{"first":65,"second":116,"amount":0},{"first":65,"second":121,"amount":-1},{"first":65,"second":117,"amount":0},{"first":65,"second":111,"amount":0},{"first":65,"second":119,"amount":-1},{"first":65,"second":118,"amount":-1},{"first":65,"second":84,"amount":-3},{"first":65,"second":89,"amount":-2},{"first":65,"second":85,"amount":0},{"first":65,"second":79,"amount":0},{"first":65,"second":81,"amount":0},{"first":65,"second":71,"amount":0},{"first":65,"second":87,"amount":-1},{"first":65,"second":67,"amount":0},{"first":65,"second":86,"amount":-2},{"first":65,"second":63,"amount":-1},{"first":65,"second":34,"amount":-2},{"first":65,"second":39,"amount":-2},{"first":65,"second":1044,"amount":0},{"first":65,"second":1051,"amount":0},{"first":65,"second":1083,"amount":0},{"first":65,"second":1054,"amount":0},{"first":65,"second":1086,"amount":0},{"first":65,"second":1057,"amount":0},{"first":65,"second":1058,"amount":-3},{"first":65,"second":1090,"amount":-1},{"first":65,"second":1091,"amount":-1},{"first":65,"second":1063,"amount":-1},{"first":65,"second":1095,"amount":-2},{"first":65,"second":1068,"amount":-1},{"first":65,"second":252,"amount":0},{"first":65,"second":220,"amount":0},{"first":65,"second":246,"amount":0},{"first":65,"second":214,"amount":0},{"first":65,"second":964,"amount":-1},{"first":65,"second":965,"amount":0},{"first":65,"second":959,"amount":0},{"first":65,"second":947,"amount":-1},{"first":65,"second":955,"amount":0},{"first":65,"second":957,"amount":-1},{"first":65,"second":933,"amount":-2},{"first":65,"second":920,"amount":0},{"first":65,"second":927,"amount":0},{"first":65,"second":934,"amount":-1},{"first":65,"second":936,"amount":-1},{"first":65,"second":216,"amount":0},{"first":90,"second":101,"amount":0},{"first":90,"second":121,"amount":-1},{"first":90,"second":117,"amount":0},{"first":90,"second":111,"amount":0},{"first":90,"second":113,"amount":0},{"first":90,"second":100,"amount":0},{"first":90,"second":103,"amount":0},{"first":90,"second":119,"amount":-1},{"first":90,"second":99,"amount":0},{"first":90,"second":118,"amount":-1},{"first":90,"second":65,"amount":0},{"first":90,"second":79,"amount":-1},{"first":90,"second":81,"amount":-1},{"first":90,"second":71,"amount":-1},{"first":90,"second":67,"amount":-1},{"first":90,"second":1040,"amount":0},{"first":90,"second":1077,"amount":0},{"first":90,"second":1105,"amount":0},{"first":90,"second":1054,"amount":-1},{"first":90,"second":1086,"amount":0},{"first":90,"second":1057,"amount":-1},{"first":90,"second":1089,"amount":0},{"first":90,"second":1091,"amount":-1},{"first":90,"second":1092,"amount":0},{"first":90,"second":252,"amount":0},{"first":90,"second":246,"amount":0},{"first":90,"second":214,"amount":-1},{"first":90,"second":196,"amount":0},{"first":90,"second":962,"amount":0},{"first":90,"second":965,"amount":0},{"first":90,"second":959,"amount":0},{"first":90,"second":945,"amount":0},{"first":90,"second":963,"amount":0},{"first":90,"second":947,"amount":-1},{"first":90,"second":968,"amount":-1},{"first":90,"second":957,"amount":-1},{"first":90,"second":920,"amount":-1},{"first":90,"second":927,"amount":-1},{"first":90,"second":913,"amount":0},{"first":90,"second":916,"amount":0},{"first":90,"second":934,"amount":-1},{"first":90,"second":923,"amount":0},{"first":90,"second":197,"amount":0},{"first":90,"second":216,"amount":-1},{"first":69,"second":101,"amount":0},{"first":69,"second":121,"amount":-1},{"first":69,"second":117,"amount":0},{"first":69,"second":111,"amount":0},{"first":69,"second":113,"amount":0},{"first":69,"second":100,"amount":0},{"first":69,"second":102,"amount":0},{"first":69,"second":103,"amount":0},{"first":69,"second":119,"amount":0},{"first":69,"second":99,"amount":0},{"first":69,"second":118,"amount":-1},{"first":69,"second":84,"amount":0},{"first":69,"second":1077,"amount":0},{"first":69,"second":1105,"amount":0},{"first":69,"second":1086,"amount":0},{"first":69,"second":1089,"amount":0},{"first":69,"second":1058,"amount":0},{"first":69,"second":1091,"amount":-1},{"first":69,"second":1092,"amount":0},{"first":69,"second":252,"amount":0},{"first":69,"second":246,"amount":0},{"first":69,"second":962,"amount":0},{"first":69,"second":965,"amount":0},{"first":69,"second":959,"amount":0},{"first":69,"second":945,"amount":0},{"first":69,"second":963,"amount":0},{"first":69,"second":947,"amount":-1},{"first":69,"second":957,"amount":-1},{"first":82,"second":84,"amount":-2},{"first":82,"second":89,"amount":-1},{"first":82,"second":86,"amount":0},{"first":82,"second":1058,"amount":-2},{"first":82,"second":933,"amount":-1},{"first":84,"second":97,"amount":-2},{"first":84,"second":122,"amount":-1},{"first":84,"second":101,"amount":-2},{"first":84,"second":114,"amount":-2},{"first":84,"second":121,"amount":-1},{"first":84,"second":117,"amount":-2},{"first":84,"second":111,"amount":-2},{"first":84,"second":112,"amount":-2},{"first":84,"second":113,"amount":-2},{"first":84,"second":115,"amount":-2},{"first":84,"second":100,"amount":-2},{"first":84,"second":103,"amount":-2},{"first":84,"second":109,"amount":-2},{"first":84,"second":119,"amount":-1},{"first":84,"second":120,"amount":-2},{"first":84,"second":99,"amount":-2},{"first":84,"second":118,"amount":-1},{"first":84,"second":110,"amount":-2},{"first":84,"second":65,"amount":-2},{"first":84,"second":84,"amount":0},{"first":84,"second":89,"amount":0},{"first":84,"second":79,"amount":-1},{"first":84,"second":81,"amount":-1},{"first":84,"second":83,"amount":0},{"first":84,"second":71,"amount":-1},{"first":84,"second":74,"amount":-5},{"first":84,"second":87,"amount":0},{"first":84,"second":67,"amount":-1},{"first":84,"second":86,"amount":0},{"first":84,"second":45,"amount":-5},{"first":84,"second":8211,"amount":-5},{"first":84,"second":44,"amount":-4},{"first":84,"second":46,"amount":-4},{"first":84,"second":1040,"amount":-2},{"first":84,"second":1072,"amount":-2},{"first":84,"second":1073,"amount":-1},{"first":84,"second":1074,"amount":-2},{"first":84,"second":1075,"amount":-2},{"first":84,"second":1044,"amount":-2},{"first":84,"second":1076,"amount":-3},{"first":84,"second":1077,"amount":-2},{"first":84,"second":1105,"amount":-2},{"first":84,"second":1078,"amount":-2},{"first":84,"second":1079,"amount":-3},{"first":84,"second":1080,"amount":-2},{"first":84,"second":1081,"amount":-2},{"first":84,"second":1082,"amount":-2},{"first":84,"second":1051,"amount":-1},{"first":84,"second":1083,"amount":-3},{"first":84,"second":1084,"amount":-2},{"first":84,"second":1085,"amount":-2},{"first":84,"second":1054,"amount":-1},{"first":84,"second":1086,"amount":-2},{"first":84,"second":1087,"amount":-2},{"first":84,"second":1088,"amount":-2},{"first":84,"second":1057,"amount":-1},{"first":84,"second":1089,"amount":-2},{"first":84,"second":1058,"amount":0},{"first":84,"second":1090,"amount":-2},{"first":84,"second":1091,"amount":-1},{"first":84,"second":1092,"amount":-2},{"first":84,"second":1093,"amount":-2},{"first":84,"second":1094,"amount":-2},{"first":84,"second":1095,"amount":-3},{"first":84,"second":1096,"amount":-2},{"first":84,"second":1097,"amount":-2},{"first":84,"second":1099,"amount":-3},{"first":84,"second":1068,"amount":0},{"first":84,"second":1100,"amount":-2},{"first":84,"second":1101,"amount":-3},{"first":84,"second":1102,"amount":-2},{"first":84,"second":1103,"amount":-3},{"first":84,"second":252,"amount":-2},{"first":84,"second":246,"amount":-2},{"first":84,"second":214,"amount":-1},{"first":84,"second":228,"amount":-2},{"first":84,"second":196,"amount":-2},{"first":84,"second":241,"amount":-2},{"first":84,"second":962,"amount":-2},{"first":84,"second":949,"amount":-3},{"first":84,"second":961,"amount":-3},{"first":84,"second":964,"amount":-2},{"first":84,"second":965,"amount":-2},{"first":84,"second":953,"amount":-3},{"first":84,"second":959,"amount":-2},{"first":84,"second":960,"amount":-2},{"first":84,"second":945,"amount":-2},{"first":84,"second":963,"amount":-2},{"first":84,"second":948,"amount":-1},{"first":84,"second":966,"amount":-3},{"first":84,"second":947,"amount":-1},{"first":84,"second":951,"amount":-2},{"first":84,"second":968,"amount":-3},{"first":84,"second":969,"amount":-3},{"first":84,"second":957,"amount":-1},{"first":84,"second":933,"amount":0},{"first":84,"second":920,"amount":-1},{"first":84,"second":927,"amount":-1},{"first":84,"second":913,"amount":-2},{"first":84,"second":916,"amount":-2},{"first":84,"second":934,"amount":-2},{"first":84,"second":923,"amount":-2},{"first":84,"second":229,"amount":-2},{"first":84,"second":197,"amount":-2},{"first":84,"second":230,"amount":-2},{"first":84,"second":198,"amount":-4},{"first":84,"second":248,"amount":-2},{"first":84,"second":216,"amount":-1},{"first":89,"second":97,"amount":-1},{"first":89,"second":122,"amount":-1},{"first":89,"second":101,"amount":-1},{"first":89,"second":114,"amount":-1},{"first":89,"second":116,"amount":0},{"first":89,"second":121,"amount":0},{"first":89,"second":117,"amount":-1},{"first":89,"second":111,"amount":-1},{"first":89,"second":112,"amount":-1},{"first":89,"second":113,"amount":-1},{"first":89,"second":115,"amount":-1},{"first":89,"second":100,"amount":-1},{"first":89,"second":102,"amount":0},{"first":89,"second":103,"amount":-1},{"first":89,"second":109,"amount":-1},{"first":89,"second":120,"amount":0},{"first":89,"second":99,"amount":-1},{"first":89,"second":118,"amount":0},{"first":89,"second":110,"amount":-1},{"first":89,"second":65,"amount":-2},{"first":89,"second":84,"amount":0},{"first":89,"second":89,"amount":0},{"first":89,"second":85,"amount":-2},{"first":89,"second":79,"amount":-1},{"first":89,"second":81,"amount":-1},{"first":89,"second":83,"amount":0},{"first":89,"second":71,"amount":-1},{"first":89,"second":74,"amount":-2},{"first":89,"second":87,"amount":0},{"first":89,"second":88,"amount":0},{"first":89,"second":67,"amount":-1},{"first":89,"second":86,"amount":0},{"first":89,"second":42,"amount":-1},{"first":89,"second":45,"amount":-1},{"first":89,"second":8211,"amount":-1},{"first":89,"second":44,"amount":-4},{"first":89,"second":46,"amount":-4},{"first":89,"second":125,"amount":0},{"first":89,"second":41,"amount":0},{"first":89,"second":93,"amount":0},{"first":89,"second":38,"amount":-1},{"first":89,"second":1040,"amount":-2},{"first":89,"second":1072,"amount":-1},{"first":89,"second":1075,"amount":-1},{"first":89,"second":1077,"amount":-1},{"first":89,"second":1105,"amount":-1},{"first":89,"second":1046,"amount":0},{"first":89,"second":1078,"amount":0},{"first":89,"second":1080,"amount":-1},{"first":89,"second":1081,"amount":-1},{"first":89,"second":1082,"amount":-1},{"first":89,"second":1084,"amount":-1},{"first":89,"second":1085,"amount":-1},{"first":89,"second":1054,"amount":-1},{"first":89,"second":1086,"amount":-1},{"first":89,"second":1087,"amount":-1},{"first":89,"second":1088,"amount":-1},{"first":89,"second":1057,"amount":-1},{"first":89,"second":1089,"amount":-1},{"first":89,"second":1058,"amount":0},{"first":89,"second":1091,"amount":0},{"first":89,"second":1092,"amount":-1},{"first":89,"second":1061,"amount":0},{"first":89,"second":1093,"amount":0},{"first":89,"second":1094,"amount":-1},{"first":89,"second":1096,"amount":-1},{"first":89,"second":1097,"amount":-1},{"first":89,"second":1100,"amount":-1},{"first":89,"second":1102,"amount":-1},{"first":89,"second":252,"amount":-1},{"first":89,"second":220,"amount":-2},{"first":89,"second":246,"amount":-1},{"first":89,"second":214,"amount":-1},{"first":89,"second":228,"amount":-1},{"first":89,"second":196,"amount":-2},{"first":89,"second":241,"amount":-1},{"first":89,"second":962,"amount":-1},{"first":89,"second":949,"amount":-1},{"first":89,"second":961,"amount":-1},{"first":89,"second":964,"amount":0},{"first":89,"second":965,"amount":-1},{"first":89,"second":952,"amount":0},{"first":89,"second":953,"amount":-1},{"first":89,"second":959,"amount":-1},{"first":89,"second":960,"amount":0},{"first":89,"second":945,"amount":-1},{"first":89,"second":963,"amount":-1},{"first":89,"second":948,"amount":0},{"first":89,"second":966,"amount":-1},{"first":89,"second":947,"amount":0},{"first":89,"second":951,"amount":-1},{"first":89,"second":950,"amount":0},{"first":89,"second":968,"amount":-1},{"first":89,"second":969,"amount":-1},{"first":89,"second":946,"amount":0},{"first":89,"second":957,"amount":0},{"first":89,"second":933,"amount":0},{"first":89,"second":920,"amount":-1},{"first":89,"second":927,"amount":-1},{"first":89,"second":913,"amount":-2},{"first":89,"second":916,"amount":-2},{"first":89,"second":934,"amount":-1},{"first":89,"second":923,"amount":-2},{"first":89,"second":935,"amount":0},{"first":89,"second":229,"amount":-1},{"first":89,"second":197,"amount":-2},{"first":89,"second":230,"amount":-1},{"first":89,"second":198,"amount":-2},{"first":89,"second":248,"amount":-1},{"first":89,"second":216,"amount":-1},{"first":85,"second":65,"amount":0},{"first":85,"second":1040,"amount":0},{"first":85,"second":196,"amount":0},{"first":85,"second":913,"amount":0},{"first":85,"second":916,"amount":0},{"first":85,"second":923,"amount":0},{"first":85,"second":197,"amount":0},{"first":73,"second":65,"amount":0},{"first":73,"second":84,"amount":-1},{"first":73,"second":89,"amount":-1},{"first":73,"second":88,"amount":0},{"first":73,"second":1040,"amount":0},{"first":73,"second":1044,"amount":0},{"first":73,"second":1076,"amount":0},{"first":73,"second":1046,"amount":0},{"first":73,"second":1051,"amount":0},{"first":73,"second":1083,"amount":0},{"first":73,"second":1058,"amount":-1},{"first":73,"second":1061,"amount":0},{"first":73,"second":1063,"amount":-1},{"first":73,"second":1095,"amount":-1},{"first":73,"second":196,"amount":0},{"first":73,"second":933,"amount":-1},{"first":73,"second":913,"amount":0},{"first":73,"second":916,"amount":0},{"first":73,"second":923,"amount":0},{"first":73,"second":935,"amount":0},{"first":73,"second":197,"amount":0},{"first":79,"second":65,"amount":0},{"first":79,"second":90,"amount":0},{"first":79,"second":84,"amount":-1},{"first":79,"second":89,"amount":-1},{"first":79,"second":88,"amount":0},{"first":79,"second":86,"amount":0},{"first":79,"second":44,"amount":-2},{"first":79,"second":46,"amount":-2},{"first":79,"second":1040,"amount":0},{"first":79,"second":1044,"amount":-1},{"first":79,"second":1046,"amount":0},{"first":79,"second":1051,"amount":-1},{"first":79,"second":1058,"amount":-1},{"first":79,"second":1061,"amount":0},{"first":79,"second":1068,"amount":-1},{"first":79,"second":196,"amount":0},{"first":79,"second":955,"amount":0},{"first":79,"second":933,"amount":-1},{"first":79,"second":913,"amount":0},{"first":79,"second":931,"amount":0},{"first":79,"second":916,"amount":0},{"first":79,"second":926,"amount":0},{"first":79,"second":923,"amount":0},{"first":79,"second":918,"amount":0},{"first":79,"second":935,"amount":0},{"first":79,"second":197,"amount":0},{"first":79,"second":198,"amount":-1},{"first":80,"second":97,"amount":0},{"first":80,"second":101,"amount":0},{"first":80,"second":116,"amount":0},{"first":80,"second":121,"amount":0},{"first":80,"second":111,"amount":0},{"first":80,"second":113,"amount":0},{"first":80,"second":100,"amount":0},{"first":80,"second":103,"amount":0},{"first":80,"second":99,"amount":0},{"first":80,"second":118,"amount":0},{"first":80,"second":65,"amount":-3},{"first":80,"second":90,"amount":-1},{"first":80,"second":74,"amount":-4},{"first":80,"second":88,"amount":-1},{"first":80,"second":44,"amount":-7},{"first":80,"second":46,"amount":-7},{"first":80,"second":1040,"amount":-3},{"first":80,"second":1072,"amount":0},{"first":80,"second":1044,"amount":-2},{"first":80,"second":1076,"amount":-1},{"first":80,"second":1077,"amount":0},{"first":80,"second":1105,"amount":0},{"first":80,"second":1046,"amount":-1},{"first":80,"second":1051,"amount":-1},{"first":80,"second":1083,"amount":-1},{"first":80,"second":1086,"amount":0},{"first":80,"second":1089,"amount":0},{"first":80,"second":1091,"amount":0},{"first":80,"second":1092,"amount":0},{"first":80,"second":1061,"amount":-1},{"first":80,"second":246,"amount":0},{"first":80,"second":228,"amount":0},{"first":80,"second":196,"amount":-3},{"first":80,"second":962,"amount":0},{"first":80,"second":961,"amount":-1},{"first":80,"second":959,"amount":0},{"first":80,"second":945,"amount":0},{"first":80,"second":963,"amount":0},{"first":80,"second":948,"amount":0},{"first":80,"second":947,"amount":0},{"first":80,"second":955,"amount":-1},{"first":80,"second":957,"amount":0},{"first":80,"second":913,"amount":-3},{"first":80,"second":916,"amount":-3},{"first":80,"second":923,"amount":-3},{"first":80,"second":918,"amount":-1},{"first":80,"second":935,"amount":-1},{"first":80,"second":229,"amount":0},{"first":80,"second":197,"amount":-3},{"first":80,"second":198,"amount":-2},{"first":81,"second":84,"amount":-1},{"first":81,"second":89,"amount":-1},{"first":81,"second":87,"amount":0},{"first":81,"second":86,"amount":-1},{"first":81,"second":1058,"amount":-1},{"first":81,"second":933,"amount":-1},{"first":68,"second":65,"amount":0},{"first":68,"second":90,"amount":0},{"first":68,"second":84,"amount":-1},{"first":68,"second":89,"amount":-1},{"first":68,"second":88,"amount":0},{"first":68,"second":86,"amount":0},{"first":68,"second":44,"amount":-2},{"first":68,"second":46,"amount":-2},{"first":68,"second":1040,"amount":0},{"first":68,"second":1044,"amount":-1},{"first":68,"second":1046,"amount":0},{"first":68,"second":1051,"amount":-1},{"first":68,"second":1058,"amount":-1},{"first":68,"second":1061,"amount":0},{"first":68,"second":1068,"amount":-1},{"first":68,"second":196,"amount":0},{"first":68,"second":955,"amount":0},{"first":68,"second":933,"amount":-1},{"first":68,"second":913,"amount":0},{"first":68,"second":931,"amount":0},{"first":68,"second":916,"amount":0},{"first":68,"second":926,"amount":0},{"first":68,"second":923,"amount":0},{"first":68,"second":918,"amount":0},{"first":68,"second":935,"amount":0},{"first":68,"second":197,"amount":0},{"first":68,"second":198,"amount":-1},{"first":70,"second":97,"amount":-1},{"first":70,"second":101,"amount":0},{"first":70,"second":114,"amount":-1},{"first":70,"second":121,"amount":0},{"first":70,"second":117,"amount":0},{"first":70,"second":111,"amount":0},{"first":70,"second":113,"amount":0},{"first":70,"second":100,"amount":0},{"first":70,"second":103,"amount":0},{"first":70,"second":99,"amount":0},{"first":70,"second":118,"amount":0},{"first":70,"second":65,"amount":-3},{"first":70,"second":84,"amount":0},{"first":70,"second":74,"amount":-5},{"first":70,"second":44,"amount":-5},{"first":70,"second":46,"amount":-5},{"first":70,"second":1040,"amount":-3},{"first":70,"second":1072,"amount":-1},{"first":70,"second":1077,"amount":0},{"first":70,"second":1105,"amount":0},{"first":70,"second":1086,"amount":0},{"first":70,"second":1089,"amount":0},{"first":70,"second":1058,"amount":0},{"first":70,"second":1091,"amount":0},{"first":70,"second":1092,"amount":0},{"first":70,"second":252,"amount":0},{"first":70,"second":246,"amount":0},{"first":70,"second":228,"amount":-1},{"first":70,"second":196,"amount":-3},{"first":70,"second":962,"amount":0},{"first":70,"second":965,"amount":0},{"first":70,"second":959,"amount":0},{"first":70,"second":945,"amount":0},{"first":70,"second":963,"amount":0},{"first":70,"second":947,"amount":0},{"first":70,"second":957,"amount":0},{"first":70,"second":913,"amount":-3},{"first":70,"second":916,"amount":-3},{"first":70,"second":923,"amount":-3},{"first":70,"second":229,"amount":-1},{"first":70,"second":197,"amount":-3},{"first":72,"second":65,"amount":0},{"first":72,"second":84,"amount":-1},{"first":72,"second":89,"amount":-1},{"first":72,"second":88,"amount":0},{"first":72,"second":1040,"amount":0},{"first":72,"second":1044,"amount":0},{"first":72,"second":1076,"amount":0},{"first":72,"second":1046,"amount":0},{"first":72,"second":1051,"amount":0},{"first":72,"second":1083,"amount":0},{"first":72,"second":1058,"amount":-1},{"first":72,"second":1061,"amount":0},{"first":72,"second":1063,"amount":-1},{"first":72,"second":1095,"amount":-1},{"first":72,"second":196,"amount":0},{"first":72,"second":933,"amount":-1},{"first":72,"second":913,"amount":0},{"first":72,"second":916,"amount":0},{"first":72,"second":923,"amount":0},{"first":72,"second":935,"amount":0},{"first":72,"second":197,"amount":0},{"first":74,"second":65,"amount":0},{"first":74,"second":1040,"amount":0},{"first":74,"second":196,"amount":0},{"first":74,"second":913,"amount":0},{"first":74,"second":916,"amount":0},{"first":74,"second":923,"amount":0},{"first":74,"second":197,"amount":0},{"first":75,"second":101,"amount":-1},{"first":75,"second":121,"amount":-1},{"first":75,"second":117,"amount":0},{"first":75,"second":111,"amount":-1},{"first":75,"second":112,"amount":0},{"first":75,"second":113,"amount":-1},{"first":75,"second":100,"amount":-1},{"first":75,"second":103,"amount":-1},{"first":75,"second":109,"amount":0},{"first":75,"second":119,"amount":-1},{"first":75,"second":99,"amount":-1},{"first":75,"second":118,"amount":-1},{"first":75,"second":110,"amount":0},{"first":75,"second":79,"amount":-1},{"first":75,"second":81,"amount":-1},{"first":75,"second":71,"amount":-1},{"first":75,"second":67,"amount":-1},{"first":75,"second":45,"amount":-1},{"first":75,"second":8211,"amount":-1},{"first":75,"second":1073,"amount":-1},{"first":75,"second":1075,"amount":0},{"first":75,"second":1077,"amount":-1},{"first":75,"second":1105,"amount":-1},{"first":75,"second":1080,"amount":0},{"first":75,"second":1081,"amount":0},{"first":75,"second":1082,"amount":0},{"first":75,"second":1084,"amount":0},{"first":75,"second":1085,"amount":0},{"first":75,"second":1054,"amount":-1},{"first":75,"second":1086,"amount":-1},{"first":75,"second":1087,"amount":0},{"first":75,"second":1088,"amount":0},{"first":75,"second":1057,"amount":-1},{"first":75,"second":1089,"amount":-1},{"first":75,"second":1090,"amount":-1},{"first":75,"second":1091,"amount":-1},{"first":75,"second":1092,"amount":-1},{"first":75,"second":1094,"amount":0},{"first":75,"second":1095,"amount":-2},{"first":75,"second":1096,"amount":0},{"first":75,"second":1097,"amount":0},{"first":75,"second":1100,"amount":0},{"first":75,"second":1102,"amount":0},{"first":75,"second":252,"amount":0},{"first":75,"second":246,"amount":-1},{"first":75,"second":214,"amount":-1},{"first":75,"second":241,"amount":0},{"first":75,"second":962,"amount":-1},{"first":75,"second":964,"amount":-2},{"first":75,"second":965,"amount":0},{"first":75,"second":959,"amount":-1},{"first":75,"second":945,"amount":-1},{"first":75,"second":963,"amount":-1},{"first":75,"second":947,"amount":-1},{"first":75,"second":951,"amount":0},{"first":75,"second":957,"amount":-1},{"first":75,"second":920,"amount":-1},{"first":75,"second":927,"amount":-1},{"first":75,"second":934,"amount":-1},{"first":75,"second":216,"amount":-1},{"first":76,"second":121,"amount":-3},{"first":76,"second":117,"amount":-1},{"first":76,"second":119,"amount":-2},{"first":76,"second":118,"amount":-3},{"first":76,"second":65,"amount":0},{"first":76,"second":84,"amount":-6},{"first":76,"second":89,"amount":-5},{"first":76,"second":85,"amount":-1},{"first":76,"second":79,"amount":-1},{"first":76,"second":81,"amount":-1},{"first":76,"second":71,"amount":-1},{"first":76,"second":87,"amount":-3},{"first":76,"second":67,"amount":-1},{"first":76,"second":86,"amount":-4},{"first":76,"second":34,"amount":-7},{"first":76,"second":39,"amount":-7},{"first":76,"second":1040,"amount":0},{"first":76,"second":1054,"amount":-1},{"first":76,"second":1057,"amount":-1},{"first":76,"second":1058,"amount":-6},{"first":76,"second":1091,"amount":-3},{"first":76,"second":252,"amount":-1},{"first":76,"second":220,"amount":-1},{"first":76,"second":214,"amount":-1},{"first":76,"second":196,"amount":0},{"first":76,"second":965,"amount":-1},{"first":76,"second":947,"amount":-3},{"first":76,"second":957,"amount":-3},{"first":76,"second":933,"amount":-5},{"first":76,"second":920,"amount":-1},{"first":76,"second":927,"amount":-1},{"first":76,"second":913,"amount":0},{"first":76,"second":916,"amount":0},{"first":76,"second":923,"amount":0},{"first":76,"second":197,"amount":0},{"first":76,"second":216,"amount":-1},{"first":77,"second":65,"amount":0},{"first":77,"second":84,"amount":-1},{"first":77,"second":89,"amount":-1},{"first":77,"second":88,"amount":0},{"first":77,"second":1040,"amount":0},{"first":77,"second":1044,"amount":0},{"first":77,"second":1076,"amount":0},{"first":77,"second":1046,"amount":0},{"first":77,"second":1051,"amount":0},{"first":77,"second":1083,"amount":0},{"first":77,"second":1058,"amount":-1},{"first":77,"second":1061,"amount":0},{"first":77,"second":1063,"amount":-1},{"first":77,"second":1095,"amount":-1},{"first":77,"second":196,"amount":0},{"first":77,"second":933,"amount":-1},{"first":77,"second":913,"amount":0},{"first":77,"second":916,"amount":0},{"first":77,"second":923,"amount":0},{"first":77,"second":935,"amount":0},{"first":77,"second":197,"amount":0},{"first":87,"second":97,"amount":-1},{"first":87,"second":101,"amount":-1},{"first":87,"second":114,"amount":0},{"first":87,"second":117,"amount":0},{"first":87,"second":111,"amount":-1},{"first":87,"second":113,"amount":-1},{"first":87,"second":100,"amount":-1},{"first":87,"second":103,"amount":-1},{"first":87,"second":99,"amount":-1},{"first":87,"second":65,"amount":-1},{"first":87,"second":84,"amount":0},{"first":87,"second":45,"amount":-1},{"first":87,"second":8211,"amount":-1},{"first":87,"second":44,"amount":-3},{"first":87,"second":46,"amount":-3},{"first":87,"second":125,"amount":0},{"first":87,"second":41,"amount":0},{"first":87,"second":93,"amount":0},{"first":87,"second":1040,"amount":-1},{"first":87,"second":1072,"amount":-1},{"first":87,"second":1077,"amount":-1},{"first":87,"second":1105,"amount":-1},{"first":87,"second":1086,"amount":-1},{"first":87,"second":1089,"amount":-1},{"first":87,"second":1058,"amount":0},{"first":87,"second":1092,"amount":-1},{"first":87,"second":252,"amount":0},{"first":87,"second":246,"amount":-1},{"first":87,"second":228,"amount":-1},{"first":87,"second":196,"amount":-1},{"first":87,"second":962,"amount":-1},{"first":87,"second":965,"amount":0},{"first":87,"second":959,"amount":-1},{"first":87,"second":945,"amount":-1},{"first":87,"second":963,"amount":-1},{"first":87,"second":913,"amount":-1},{"first":87,"second":916,"amount":-1},{"first":87,"second":923,"amount":-1},{"first":87,"second":229,"amount":-1},{"first":87,"second":197,"amount":-1},{"first":88,"second":101,"amount":-1},{"first":88,"second":121,"amount":-1},{"first":88,"second":117,"amount":0},{"first":88,"second":111,"amount":0},{"first":88,"second":113,"amount":-1},{"first":88,"second":100,"amount":-1},{"first":88,"second":103,"amount":-1},{"first":88,"second":99,"amount":-1},{"first":88,"second":118,"amount":-1},{"first":88,"second":79,"amount":-1},{"first":88,"second":81,"amount":-1},{"first":88,"second":71,"amount":-1},{"first":88,"second":67,"amount":-1},{"first":88,"second":86,"amount":0},{"first":88,"second":45,"amount":-1},{"first":88,"second":8211,"amount":-1},{"first":88,"second":1073,"amount":0},{"first":88,"second":1044,"amount":0},{"first":88,"second":1077,"amount":-1},{"first":88,"second":1105,"amount":-1},{"first":88,"second":1051,"amount":0},{"first":88,"second":1083,"amount":0},{"first":88,"second":1054,"amount":-1},{"first":88,"second":1086,"amount":0},{"first":88,"second":1057,"amount":-1},{"first":88,"second":1089,"amount":-1},{"first":88,"second":1090,"amount":-1},{"first":88,"second":1091,"amount":-1},{"first":88,"second":1092,"amount":-1},{"first":88,"second":1095,"amount":-1},{"first":88,"second":252,"amount":0},{"first":88,"second":246,"amount":0},{"first":88,"second":214,"amount":-1},{"first":88,"second":962,"amount":-1},{"first":88,"second":964,"amount":-1},{"first":88,"second":965,"amount":0},{"first":88,"second":952,"amount":0},{"first":88,"second":959,"amount":0},{"first":88,"second":945,"amount":-1},{"first":88,"second":963,"amount":-1},{"first":88,"second":948,"amount":0},{"first":88,"second":966,"amount":-1},{"first":88,"second":947,"amount":-1},{"first":88,"second":955,"amount":0},{"first":88,"second":968,"amount":-1},{"first":88,"second":969,"amount":0},{"first":88,"second":957,"amount":-1},{"first":88,"second":920,"amount":-1},{"first":88,"second":927,"amount":-1},{"first":88,"second":934,"amount":-1},{"first":88,"second":216,"amount":-1},{"first":67,"second":84,"amount":-1},{"first":67,"second":125,"amount":0},{"first":67,"second":41,"amount":-1},{"first":67,"second":93,"amount":0},{"first":67,"second":1058,"amount":-1},{"first":86,"second":97,"amount":-1},{"first":86,"second":101,"amount":-1},{"first":86,"second":114,"amount":-1},{"first":86,"second":121,"amount":0},{"first":86,"second":117,"amount":-1},{"first":86,"second":111,"amount":-1},{"first":86,"second":113,"amount":-1},{"first":86,"second":100,"amount":-1},{"first":86,"second":103,"amount":-1},{"first":86,"second":99,"amount":-1},{"first":86,"second":118,"amount":0},{"first":86,"second":65,"amount":-2},{"first":86,"second":79,"amount":0},{"first":86,"second":81,"amount":0},{"first":86,"second":71,"amount":0},{"first":86,"second":67,"amount":0},{"first":86,"second":45,"amount":-1},{"first":86,"second":8211,"amount":-1},{"first":86,"second":44,"amount":-5},{"first":86,"second":46,"amount":-5},{"first":86,"second":125,"amount":0},{"first":86,"second":41,"amount":0},{"first":86,"second":93,"amount":0},{"first":86,"second":1040,"amount":-2},{"first":86,"second":1072,"amount":-1},{"first":86,"second":1077,"amount":-1},{"first":86,"second":1105,"amount":-1},{"first":86,"second":1054,"amount":0},{"first":86,"second":1086,"amount":-1},{"first":86,"second":1057,"amount":0},{"first":86,"second":1089,"amount":-1},{"first":86,"second":1091,"amount":0},{"first":86,"second":1092,"amount":-1},{"first":86,"second":252,"amount":-1},{"first":86,"second":246,"amount":-1},{"first":86,"second":214,"amount":0},{"first":86,"second":228,"amount":-1},{"first":86,"second":196,"amount":-2},{"first":86,"second":962,"amount":-1},{"first":86,"second":965,"amount":-1},{"first":86,"second":959,"amount":-1},{"first":86,"second":945,"amount":-1},{"first":86,"second":963,"amount":-1},{"first":86,"second":947,"amount":0},{"first":86,"second":957,"amount":0},{"first":86,"second":920,"amount":0},{"first":86,"second":927,"amount":0},{"first":86,"second":913,"amount":-2},{"first":86,"second":916,"amount":-2},{"first":86,"second":923,"amount":-2},{"first":86,"second":229,"amount":-1},{"first":86,"second":197,"amount":-2},{"first":86,"second":216,"amount":0},{"first":66,"second":84,"amount":-1},{"first":66,"second":89,"amount":-1},{"first":66,"second":86,"amount":0},{"first":66,"second":1058,"amount":-1},{"first":66,"second":1059,"amount":0},{"first":66,"second":933,"amount":-1},{"first":78,"second":65,"amount":0},{"first":78,"second":84,"amount":-1},{"first":78,"second":89,"amount":-1},{"first":78,"second":88,"amount":0},{"first":78,"second":1040,"amount":0},{"first":78,"second":1044,"amount":0},{"first":78,"second":1076,"amount":0},{"first":78,"second":1046,"amount":0},{"first":78,"second":1051,"amount":0},{"first":78,"second":1083,"amount":0},{"first":78,"second":1058,"amount":-1},{"first":78,"second":1061,"amount":0},{"first":78,"second":1063,"amount":-1},{"first":78,"second":1095,"amount":-1},{"first":78,"second":196,"amount":0},{"first":78,"second":933,"amount":-1},{"first":78,"second":913,"amount":0},{"first":78,"second":916,"amount":0},{"first":78,"second":923,"amount":0},{"first":78,"second":935,"amount":0},{"first":78,"second":197,"amount":0},{"first":47,"second":47,"amount":-5},{"first":44,"second":34,"amount":-3},{"first":44,"second":39,"amount":-3},{"first":46,"second":34,"amount":-3},{"first":46,"second":39,"amount":-3},{"first":123,"second":85,"amount":0},{"first":123,"second":74,"amount":0},{"first":123,"second":220,"amount":0},{"first":40,"second":89,"amount":0},{"first":40,"second":87,"amount":0},{"first":40,"second":86,"amount":0},{"first":40,"second":933,"amount":0},{"first":91,"second":85,"amount":0},{"first":91,"second":74,"amount":0},{"first":91,"second":220,"amount":0},{"first":34,"second":97,"amount":-1},{"first":34,"second":101,"amount":-1},{"first":34,"second":111,"amount":-1},{"first":34,"second":112,"amount":0},{"first":34,"second":113,"amount":-1},{"first":34,"second":115,"amount":-2},{"first":34,"second":100,"amount":-1},{"first":34,"second":103,"amount":-1},{"first":34,"second":109,"amount":0},{"first":34,"second":119,"amount":0},{"first":34,"second":99,"amount":-1},{"first":34,"second":110,"amount":0},{"first":34,"second":65,"amount":-2},{"first":34,"second":34,"amount":-2},{"first":34,"second":39,"amount":-2},{"first":34,"second":1040,"amount":-2},{"first":34,"second":1072,"amount":-1},{"first":34,"second":1075,"amount":0},{"first":34,"second":1077,"amount":-1},{"first":34,"second":1105,"amount":-1},{"first":34,"second":1080,"amount":0},{"first":34,"second":1081,"amount":0},{"first":34,"second":1082,"amount":0},{"first":34,"second":1084,"amount":0},{"first":34,"second":1085,"amount":0},{"first":34,"second":1086,"amount":-1},{"first":34,"second":1087,"amount":0},{"first":34,"second":1088,"amount":0},{"first":34,"second":1089,"amount":-1},{"first":34,"second":1092,"amount":-1},{"first":34,"second":1094,"amount":0},{"first":34,"second":1096,"amount":0},{"first":34,"second":1097,"amount":0},{"first":34,"second":1100,"amount":0},{"first":34,"second":1102,"amount":0},{"first":34,"second":246,"amount":-1},{"first":34,"second":228,"amount":-1},{"first":34,"second":196,"amount":-2},{"first":34,"second":241,"amount":0},{"first":34,"second":962,"amount":-1},{"first":34,"second":959,"amount":-1},{"first":34,"second":945,"amount":-1},{"first":34,"second":963,"amount":-1},{"first":34,"second":951,"amount":0},{"first":34,"second":913,"amount":-2},{"first":34,"second":916,"amount":-2},{"first":34,"second":923,"amount":-2},{"first":34,"second":229,"amount":-1},{"first":34,"second":197,"amount":-2},{"first":39,"second":97,"amount":-1},{"first":39,"second":101,"amount":-1},{"first":39,"second":111,"amount":-1},{"first":39,"second":112,"amount":0},{"first":39,"second":113,"amount":-1},{"first":39,"second":115,"amount":-2},{"first":39,"second":100,"amount":-1},{"first":39,"second":103,"amount":-1},{"first":39,"second":109,"amount":0},{"first":39,"second":119,"amount":0},{"first":39,"second":99,"amount":-1},{"first":39,"second":110,"amount":0},{"first":39,"second":65,"amount":-2},{"first":39,"second":34,"amount":-2},{"first":39,"second":39,"amount":-2},{"first":39,"second":1040,"amount":-2},{"first":39,"second":1072,"amount":-1},{"first":39,"second":1075,"amount":0},{"first":39,"second":1077,"amount":-1},{"first":39,"second":1105,"amount":-1},{"first":39,"second":1080,"amount":0},{"first":39,"second":1081,"amount":0},{"first":39,"second":1082,"amount":0},{"first":39,"second":1084,"amount":0},{"first":39,"second":1085,"amount":0},{"first":39,"second":1086,"amount":-1},{"first":39,"second":1087,"amount":0},{"first":39,"second":1088,"amount":0},{"first":39,"second":1089,"amount":-1},{"first":39,"second":1092,"amount":-1},{"first":39,"second":1094,"amount":0},{"first":39,"second":1096,"amount":0},{"first":39,"second":1097,"amount":0},{"first":39,"second":1100,"amount":0},{"first":39,"second":1102,"amount":0},{"first":39,"second":246,"amount":-1},{"first":39,"second":228,"amount":-1},{"first":39,"second":196,"amount":-2},{"first":39,"second":241,"amount":0},{"first":39,"second":962,"amount":-1},{"first":39,"second":959,"amount":-1},{"first":39,"second":945,"amount":-1},{"first":39,"second":963,"amount":-1},{"first":39,"second":951,"amount":0},{"first":39,"second":913,"amount":-2},{"first":39,"second":916,"amount":-2},{"first":39,"second":923,"amount":-2},{"first":39,"second":229,"amount":-1},{"first":39,"second":197,"amount":-2},{"first":1040,"second":122,"amount":0},{"first":1040,"second":116,"amount":0},{"first":1040,"second":121,"amount":-1},{"first":1040,"second":117,"amount":0},{"first":1040,"second":111,"amount":0},{"first":1040,"second":119,"amount":-1},{"first":1040,"second":118,"amount":-1},{"first":1040,"second":84,"amount":-3},{"first":1040,"second":89,"amount":-2},{"first":1040,"second":85,"amount":0},{"first":1040,"second":79,"amount":0},{"first":1040,"second":81,"amount":0},{"first":1040,"second":71,"amount":0},{"first":1040,"second":87,"amount":-1},{"first":1040,"second":67,"amount":0},{"first":1040,"second":86,"amount":-2},{"first":1040,"second":63,"amount":-1},{"first":1040,"second":34,"amount":-2},{"first":1040,"second":39,"amount":-2},{"first":1040,"second":1044,"amount":0},{"first":1040,"second":1051,"amount":0},{"first":1040,"second":1083,"amount":0},{"first":1040,"second":1054,"amount":0},{"first":1040,"second":1086,"amount":0},{"first":1040,"second":1057,"amount":0},{"first":1040,"second":1058,"amount":-3},{"first":1040,"second":1090,"amount":-1},{"first":1040,"second":1091,"amount":-1},{"first":1040,"second":1063,"amount":-1},{"first":1040,"second":1095,"amount":-2},{"first":1040,"second":1068,"amount":-1},{"first":1040,"second":252,"amount":0},{"first":1040,"second":220,"amount":0},{"first":1040,"second":246,"amount":0},{"first":1040,"second":214,"amount":0},{"first":1040,"second":964,"amount":-1},{"first":1040,"second":965,"amount":0},{"first":1040,"second":959,"amount":0},{"first":1040,"second":947,"amount":-1},{"first":1040,"second":955,"amount":0},{"first":1040,"second":957,"amount":-1},{"first":1040,"second":933,"amount":-2},{"first":1040,"second":920,"amount":0},{"first":1040,"second":927,"amount":0},{"first":1040,"second":934,"amount":-1},{"first":1040,"second":936,"amount":-1},{"first":1040,"second":216,"amount":0},{"first":1072,"second":121,"amount":0},{"first":1072,"second":118,"amount":0},{"first":1072,"second":34,"amount":-1},{"first":1072,"second":39,"amount":-1},{"first":1072,"second":1090,"amount":0},{"first":1072,"second":1091,"amount":0},{"first":1072,"second":947,"amount":0},{"first":1072,"second":957,"amount":0},{"first":1041,"second":120,"amount":0},{"first":1041,"second":84,"amount":-1},{"first":1041,"second":89,"amount":-1},{"first":1041,"second":88,"amount":0},{"first":1041,"second":86,"amount":-1},{"first":1041,"second":1046,"amount":0},{"first":1041,"second":1078,"amount":0},{"first":1041,"second":1058,"amount":-1},{"first":1041,"second":1090,"amount":-1},{"first":1041,"second":1059,"amount":0},{"first":1041,"second":1061,"amount":0},{"first":1041,"second":1093,"amount":0},{"first":1041,"second":1063,"amount":0},{"first":1041,"second":1068,"amount":-1},{"first":1041,"second":933,"amount":-1},{"first":1041,"second":935,"amount":0},{"first":1073,"second":112,"amount":0},{"first":1073,"second":109,"amount":0},{"first":1073,"second":120,"amount":0},{"first":1073,"second":110,"amount":0},{"first":1073,"second":1075,"amount":0},{"first":1073,"second":1076,"amount":0},{"first":1073,"second":1078,"amount":0},{"first":1073,"second":1080,"amount":0},{"first":1073,"second":1081,"amount":0},{"first":1073,"second":1082,"amount":0},{"first":1073,"second":1084,"amount":0},{"first":1073,"second":1085,"amount":0},{"first":1073,"second":1087,"amount":0},{"first":1073,"second":1088,"amount":0},{"first":1073,"second":1090,"amount":0},{"first":1073,"second":1093,"amount":0},{"first":1073,"second":1094,"amount":0},{"first":1073,"second":1096,"amount":0},{"first":1073,"second":1097,"amount":0},{"first":1073,"second":1100,"amount":0},{"first":1073,"second":1102,"amount":0},{"first":1073,"second":241,"amount":0},{"first":1073,"second":951,"amount":0},{"first":1042,"second":84,"amount":-1},{"first":1042,"second":89,"amount":-1},{"first":1042,"second":86,"amount":0},{"first":1042,"second":1058,"amount":-1},{"first":1042,"second":1059,"amount":0},{"first":1042,"second":933,"amount":-1},{"first":1074,"second":121,"amount":0},{"first":1074,"second":118,"amount":0},{"first":1074,"second":34,"amount":0},{"first":1074,"second":39,"amount":0},{"first":1074,"second":1090,"amount":0},{"first":1074,"second":1091,"amount":0},{"first":1074,"second":947,"amount":0},{"first":1074,"second":957,"amount":0},{"first":1043,"second":97,"amount":-4},{"first":1043,"second":122,"amount":-3},{"first":1043,"second":101,"amount":-4},{"first":1043,"second":114,"amount":-3},{"first":1043,"second":121,"amount":-3},{"first":1043,"second":117,"amount":-4},{"first":1043,"second":111,"amount":-4},{"first":1043,"second":112,"amount":-4},{"first":1043,"second":113,"amount":-4},{"first":1043,"second":115,"amount":-4},{"first":1043,"second":100,"amount":-4},{"first":1043,"second":103,"amount":-4},{"first":1043,"second":109,"amount":-4},{"first":1043,"second":119,"amount":-2},{"first":1043,"second":120,"amount":-3},{"first":1043,"second":99,"amount":-4},{"first":1043,"second":118,"amount":-3},{"first":1043,"second":110,"amount":-4},{"first":1043,"second":65,"amount":-4},{"first":1043,"second":84,"amount":0},{"first":1043,"second":89,"amount":0},{"first":1043,"second":79,"amount":-1},{"first":1043,"second":81,"amount":-1},{"first":1043,"second":83,"amount":-1},{"first":1043,"second":71,"amount":-1},{"first":1043,"second":87,"amount":0},{"first":1043,"second":67,"amount":-1},{"first":1043,"second":86,"amount":0},{"first":1043,"second":45,"amount":-8},{"first":1043,"second":8211,"amount":-8},{"first":1043,"second":44,"amount":-8},{"first":1043,"second":46,"amount":-8},{"first":1043,"second":1040,"amount":-4},{"first":1043,"second":1072,"amount":-4},{"first":1043,"second":1073,"amount":-1},{"first":1043,"second":1074,"amount":-4},{"first":1043,"second":1075,"amount":-4},{"first":1043,"second":1044,"amount":-4},{"first":1043,"second":1076,"amount":-5},{"first":1043,"second":1077,"amount":-4},{"first":1043,"second":1105,"amount":-4},{"first":1043,"second":1078,"amount":-3},{"first":1043,"second":1079,"amount":-5},{"first":1043,"second":1080,"amount":-4},{"first":1043,"second":1081,"amount":-4},{"first":1043,"second":1082,"amount":-4},{"first":1043,"second":1051,"amount":-2},{"first":1043,"second":1083,"amount":-5},{"first":1043,"second":1084,"amount":-4},{"first":1043,"second":1085,"amount":-4},{"first":1043,"second":1054,"amount":-1},{"first":1043,"second":1086,"amount":-4},{"first":1043,"second":1087,"amount":-4},{"first":1043,"second":1088,"amount":-4},{"first":1043,"second":1057,"amount":-1},{"first":1043,"second":1089,"amount":-4},{"first":1043,"second":1058,"amount":0},{"first":1043,"second":1090,"amount":-3},{"first":1043,"second":1091,"amount":-3},{"first":1043,"second":1092,"amount":-4},{"first":1043,"second":1093,"amount":-3},{"first":1043,"second":1094,"amount":-4},{"first":1043,"second":1095,"amount":-5},{"first":1043,"second":1096,"amount":-4},{"first":1043,"second":1097,"amount":-4},{"first":1043,"second":1099,"amount":-5},{"first":1043,"second":1068,"amount":0},{"first":1043,"second":1100,"amount":-4},{"first":1043,"second":1101,"amount":-5},{"first":1043,"second":1102,"amount":-4},{"first":1043,"second":1103,"amount":-5},{"first":1043,"second":252,"amount":-4},{"first":1043,"second":246,"amount":-4},{"first":1043,"second":214,"amount":-1},{"first":1043,"second":228,"amount":-4},{"first":1043,"second":196,"amount":-4},{"first":1043,"second":241,"amount":-4},{"first":1043,"second":962,"amount":-4},{"first":1043,"second":949,"amount":-5},{"first":1043,"second":961,"amount":-6},{"first":1043,"second":964,"amount":-4},{"first":1043,"second":965,"amount":-4},{"first":1043,"second":953,"amount":-6},{"first":1043,"second":959,"amount":-4},{"first":1043,"second":960,"amount":-5},{"first":1043,"second":945,"amount":-4},{"first":1043,"second":963,"amount":-4},{"first":1043,"second":948,"amount":-2},{"first":1043,"second":966,"amount":-6},{"first":1043,"second":947,"amount":-3},{"first":1043,"second":951,"amount":-4},{"first":1043,"second":968,"amount":-5},{"first":1043,"second":969,"amount":-6},{"first":1043,"second":957,"amount":-3},{"first":1043,"second":933,"amount":0},{"first":1043,"second":920,"amount":-1},{"first":1043,"second":927,"amount":-1},{"first":1043,"second":913,"amount":-4},{"first":1043,"second":916,"amount":-4},{"first":1043,"second":934,"amount":-3},{"first":1043,"second":923,"amount":-4},{"first":1043,"second":229,"amount":-4},{"first":1043,"second":197,"amount":-4},{"first":1043,"second":230,"amount":-4},{"first":1043,"second":198,"amount":-7},{"first":1043,"second":248,"amount":-4},{"first":1043,"second":216,"amount":-1},{"first":1075,"second":101,"amount":0},{"first":1075,"second":111,"amount":0},{"first":1075,"second":113,"amount":0},{"first":1075,"second":100,"amount":0},{"first":1075,"second":103,"amount":0},{"first":1075,"second":99,"amount":0},{"first":1075,"second":1076,"amount":-1},{"first":1075,"second":1077,"amount":0},{"first":1075,"second":1105,"amount":0},{"first":1075,"second":1083,"amount":-1},{"first":1075,"second":1086,"amount":0},{"first":1075,"second":1089,"amount":0},{"first":1075,"second":1092,"amount":0},{"first":1075,"second":246,"amount":0},{"first":1075,"second":962,"amount":0},{"first":1075,"second":959,"amount":0},{"first":1075,"second":945,"amount":0},{"first":1075,"second":963,"amount":0},{"first":1044,"second":65,"amount":0},{"first":1044,"second":84,"amount":-1},{"first":1044,"second":89,"amount":-1},{"first":1044,"second":79,"amount":0},{"first":1044,"second":81,"amount":0},{"first":1044,"second":71,"amount":0},{"first":1044,"second":67,"amount":0},{"first":1044,"second":86,"amount":-1},{"first":1044,"second":1040,"amount":0},{"first":1044,"second":1044,"amount":0},{"first":1044,"second":1076,"amount":0},{"first":1044,"second":1051,"amount":0},{"first":1044,"second":1083,"amount":0},{"first":1044,"second":1054,"amount":0},{"first":1044,"second":1057,"amount":0},{"first":1044,"second":1058,"amount":-1},{"first":1044,"second":1063,"amount":-1},{"first":1044,"second":1095,"amount":-1},{"first":1044,"second":1068,"amount":-1},{"first":1044,"second":214,"amount":0},{"first":1044,"second":196,"amount":0},{"first":1044,"second":933,"amount":-1},{"first":1044,"second":920,"amount":0},{"first":1044,"second":927,"amount":0},{"first":1044,"second":913,"amount":0},{"first":1044,"second":916,"amount":0},{"first":1044,"second":923,"amount":0},{"first":1044,"second":197,"amount":0},{"first":1044,"second":216,"amount":0},{"first":1076,"second":1076,"amount":0},{"first":1076,"second":1090,"amount":0},{"first":1076,"second":1095,"amount":0},{"first":1076,"second":1098,"amount":-1},{"first":1045,"second":101,"amount":0},{"first":1045,"second":121,"amount":-1},{"first":1045,"second":117,"amount":0},{"first":1045,"second":111,"amount":0},{"first":1045,"second":113,"amount":0},{"first":1045,"second":100,"amount":0},{"first":1045,"second":102,"amount":0},{"first":1045,"second":103,"amount":0},{"first":1045,"second":119,"amount":0},{"first":1045,"second":99,"amount":0},{"first":1045,"second":118,"amount":-1},{"first":1045,"second":84,"amount":0},{"first":1045,"second":1077,"amount":0},{"first":1045,"second":1105,"amount":0},{"first":1045,"second":1086,"amount":0},{"first":1045,"second":1089,"amount":0},{"first":1045,"second":1058,"amount":0},{"first":1045,"second":1091,"amount":-1},{"first":1045,"second":1092,"amount":0},{"first":1045,"second":252,"amount":0},{"first":1045,"second":246,"amount":0},{"first":1045,"second":962,"amount":0},{"first":1045,"second":965,"amount":0},{"first":1045,"second":959,"amount":0},{"first":1045,"second":945,"amount":0},{"first":1045,"second":963,"amount":0},{"first":1045,"second":947,"amount":-1},{"first":1045,"second":957,"amount":-1},{"first":1077,"second":121,"amount":0},{"first":1077,"second":118,"amount":0},{"first":1077,"second":34,"amount":0},{"first":1077,"second":39,"amount":0},{"first":1077,"second":1090,"amount":0},{"first":1077,"second":1091,"amount":0},{"first":1077,"second":947,"amount":0},{"first":1077,"second":957,"amount":0},{"first":1025,"second":101,"amount":0},{"first":1025,"second":121,"amount":-1},{"first":1025,"second":117,"amount":0},{"first":1025,"second":111,"amount":0},{"first":1025,"second":113,"amount":0},{"first":1025,"second":100,"amount":0},{"first":1025,"second":102,"amount":0},{"first":1025,"second":103,"amount":0},{"first":1025,"second":119,"amount":0},{"first":1025,"second":99,"amount":0},{"first":1025,"second":118,"amount":-1},{"first":1025,"second":84,"amount":0},{"first":1025,"second":1077,"amount":0},{"first":1025,"second":1105,"amount":0},{"first":1025,"second":1086,"amount":0},{"first":1025,"second":1089,"amount":0},{"first":1025,"second":1058,"amount":0},{"first":1025,"second":1091,"amount":-1},{"first":1025,"second":1092,"amount":0},{"first":1025,"second":252,"amount":0},{"first":1025,"second":246,"amount":0},{"first":1025,"second":962,"amount":0},{"first":1025,"second":965,"amount":0},{"first":1025,"second":959,"amount":0},{"first":1025,"second":945,"amount":0},{"first":1025,"second":963,"amount":0},{"first":1025,"second":947,"amount":-1},{"first":1025,"second":957,"amount":-1},{"first":1105,"second":121,"amount":0},{"first":1105,"second":118,"amount":0},{"first":1105,"second":34,"amount":0},{"first":1105,"second":39,"amount":0},{"first":1105,"second":1090,"amount":0},{"first":1105,"second":1091,"amount":0},{"first":1105,"second":947,"amount":0},{"first":1105,"second":957,"amount":0},{"first":1046,"second":101,"amount":-1},{"first":1046,"second":121,"amount":-1},{"first":1046,"second":117,"amount":0},{"first":1046,"second":111,"amount":0},{"first":1046,"second":113,"amount":-1},{"first":1046,"second":100,"amount":-1},{"first":1046,"second":103,"amount":-1},{"first":1046,"second":99,"amount":-1},{"first":1046,"second":118,"amount":-1},{"first":1046,"second":79,"amount":-1},{"first":1046,"second":81,"amount":-1},{"first":1046,"second":71,"amount":-1},{"first":1046,"second":67,"amount":-1},{"first":1046,"second":86,"amount":0},{"first":1046,"second":45,"amount":-1},{"first":1046,"second":8211,"amount":-1},{"first":1046,"second":1073,"amount":0},{"first":1046,"second":1044,"amount":0},{"first":1046,"second":1077,"amount":-1},{"first":1046,"second":1105,"amount":-1},{"first":1046,"second":1051,"amount":0},{"first":1046,"second":1083,"amount":0},{"first":1046,"second":1054,"amount":-1},{"first":1046,"second":1086,"amount":0},{"first":1046,"second":1057,"amount":-1},{"first":1046,"second":1089,"amount":-1},{"first":1046,"second":1090,"amount":-1},{"first":1046,"second":1091,"amount":-1},{"first":1046,"second":1092,"amount":-1},{"first":1046,"second":1095,"amount":-1},{"first":1046,"second":252,"amount":0},{"first":1046,"second":246,"amount":0},{"first":1046,"second":214,"amount":-1},{"first":1046,"second":962,"amount":-1},{"first":1046,"second":964,"amount":-1},{"first":1046,"second":965,"amount":0},{"first":1046,"second":952,"amount":0},{"first":1046,"second":959,"amount":0},{"first":1046,"second":945,"amount":-1},{"first":1046,"second":963,"amount":-1},{"first":1046,"second":948,"amount":0},{"first":1046,"second":966,"amount":-1},{"first":1046,"second":947,"amount":-1},{"first":1046,"second":955,"amount":0},{"first":1046,"second":968,"amount":-1},{"first":1046,"second":969,"amount":0},{"first":1046,"second":957,"amount":-1},{"first":1046,"second":920,"amount":-1},{"first":1046,"second":927,"amount":-1},{"first":1046,"second":934,"amount":-1},{"first":1046,"second":216,"amount":-1},{"first":1078,"second":101,"amount":0},{"first":1078,"second":111,"amount":0},{"first":1078,"second":113,"amount":0},{"first":1078,"second":100,"amount":0},{"first":1078,"second":103,"amount":0},{"first":1078,"second":99,"amount":0},{"first":1078,"second":1077,"amount":0},{"first":1078,"second":1105,"amount":0},{"first":1078,"second":1086,"amount":0},{"first":1078,"second":1089,"amount":0},{"first":1078,"second":1092,"amount":0},{"first":1078,"second":246,"amount":0},{"first":1078,"second":962,"amount":0},{"first":1078,"second":959,"amount":0},{"first":1078,"second":945,"amount":0},{"first":1078,"second":963,"amount":0},{"first":1047,"second":84,"amount":0},{"first":1047,"second":89,"amount":0},{"first":1047,"second":88,"amount":0},{"first":1047,"second":86,"amount":0},{"first":1047,"second":55,"amount":0},{"first":1047,"second":1046,"amount":0},{"first":1047,"second":1051,"amount":0},{"first":1047,"second":1058,"amount":0},{"first":1047,"second":1059,"amount":0},{"first":1047,"second":1061,"amount":0},{"first":1047,"second":1068,"amount":0},{"first":1047,"second":933,"amount":0},{"first":1047,"second":935,"amount":0},{"first":1079,"second":34,"amount":0},{"first":1079,"second":39,"amount":0},{"first":1048,"second":65,"amount":0},{"first":1048,"second":84,"amount":-1},{"first":1048,"second":89,"amount":-1},{"first":1048,"second":88,"amount":0},{"first":1048,"second":1040,"amount":0},{"first":1048,"second":1044,"amount":0},{"first":1048,"second":1076,"amount":0},{"first":1048,"second":1046,"amount":0},{"first":1048,"second":1051,"amount":0},{"first":1048,"second":1083,"amount":0},{"first":1048,"second":1058,"amount":-1},{"first":1048,"second":1061,"amount":0},{"first":1048,"second":1063,"amount":-1},{"first":1048,"second":1095,"amount":-1},{"first":1048,"second":196,"amount":0},{"first":1048,"second":933,"amount":-1},{"first":1048,"second":913,"amount":0},{"first":1048,"second":916,"amount":0},{"first":1048,"second":923,"amount":0},{"first":1048,"second":935,"amount":0},{"first":1048,"second":197,"amount":0},{"first":1050,"second":101,"amount":-1},{"first":1050,"second":121,"amount":-1},{"first":1050,"second":117,"amount":0},{"first":1050,"second":111,"amount":-1},{"first":1050,"second":112,"amount":0},{"first":1050,"second":113,"amount":-1},{"first":1050,"second":100,"amount":-1},{"first":1050,"second":103,"amount":-1},{"first":1050,"second":109,"amount":0},{"first":1050,"second":119,"amount":-1},{"first":1050,"second":99,"amount":-1},{"first":1050,"second":118,"amount":-1},{"first":1050,"second":110,"amount":0},{"first":1050,"second":79,"amount":-1},{"first":1050,"second":81,"amount":-1},{"first":1050,"second":71,"amount":-1},{"first":1050,"second":67,"amount":-1},{"first":1050,"second":45,"amount":-1},{"first":1050,"second":8211,"amount":-1},{"first":1050,"second":1073,"amount":-1},{"first":1050,"second":1075,"amount":0},{"first":1050,"second":1077,"amount":-1},{"first":1050,"second":1105,"amount":-1},{"first":1050,"second":1080,"amount":0},{"first":1050,"second":1081,"amount":0},{"first":1050,"second":1082,"amount":0},{"first":1050,"second":1084,"amount":0},{"first":1050,"second":1085,"amount":0},{"first":1050,"second":1054,"amount":-1},{"first":1050,"second":1086,"amount":-1},{"first":1050,"second":1087,"amount":0},{"first":1050,"second":1088,"amount":0},{"first":1050,"second":1057,"amount":-1},{"first":1050,"second":1089,"amount":-1},{"first":1050,"second":1090,"amount":-1},{"first":1050,"second":1091,"amount":-1},{"first":1050,"second":1092,"amount":-1},{"first":1050,"second":1094,"amount":0},{"first":1050,"second":1095,"amount":-2},{"first":1050,"second":1096,"amount":0},{"first":1050,"second":1097,"amount":0},{"first":1050,"second":1100,"amount":0},{"first":1050,"second":1102,"amount":0},{"first":1050,"second":252,"amount":0},{"first":1050,"second":246,"amount":-1},{"first":1050,"second":214,"amount":-1},{"first":1050,"second":241,"amount":0},{"first":1050,"second":962,"amount":-1},{"first":1050,"second":964,"amount":-2},{"first":1050,"second":965,"amount":0},{"first":1050,"second":959,"amount":-1},{"first":1050,"second":945,"amount":-1},{"first":1050,"second":963,"amount":-1},{"first":1050,"second":947,"amount":-1},{"first":1050,"second":951,"amount":0},{"first":1050,"second":957,"amount":-1},{"first":1050,"second":920,"amount":-1},{"first":1050,"second":927,"amount":-1},{"first":1050,"second":934,"amount":-1},{"first":1050,"second":216,"amount":-1},{"first":1082,"second":101,"amount":0},{"first":1082,"second":111,"amount":0},{"first":1082,"second":113,"amount":0},{"first":1082,"second":100,"amount":0},{"first":1082,"second":103,"amount":0},{"first":1082,"second":99,"amount":0},{"first":1082,"second":1077,"amount":0},{"first":1082,"second":1105,"amount":0},{"first":1082,"second":1086,"amount":0},{"first":1082,"second":1089,"amount":0},{"first":1082,"second":1092,"amount":0},{"first":1082,"second":246,"amount":0},{"first":1082,"second":962,"amount":0},{"first":1082,"second":959,"amount":0},{"first":1082,"second":945,"amount":0},{"first":1082,"second":963,"amount":0},{"first":1051,"second":65,"amount":0},{"first":1051,"second":84,"amount":-1},{"first":1051,"second":89,"amount":-1},{"first":1051,"second":88,"amount":0},{"first":1051,"second":1040,"amount":0},{"first":1051,"second":1044,"amount":0},{"first":1051,"second":1076,"amount":0},{"first":1051,"second":1046,"amount":0},{"first":1051,"second":1051,"amount":0},{"first":1051,"second":1083,"amount":0},{"first":1051,"second":1058,"amount":-1},{"first":1051,"second":1061,"amount":0},{"first":1051,"second":1063,"amount":-1},{"first":1051,"second":1095,"amount":-1},{"first":1051,"second":196,"amount":0},{"first":1051,"second":933,"amount":-1},{"first":1051,"second":913,"amount":0},{"first":1051,"second":916,"amount":0},{"first":1051,"second":923,"amount":0},{"first":1051,"second":935,"amount":0},{"first":1051,"second":197,"amount":0},{"first":1052,"second":65,"amount":0},{"first":1052,"second":84,"amount":-1},{"first":1052,"second":89,"amount":-1},{"first":1052,"second":88,"amount":0},{"first":1052,"second":1040,"amount":0},{"first":1052,"second":1044,"amount":0},{"first":1052,"second":1076,"amount":0},{"first":1052,"second":1046,"amount":0},{"first":1052,"second":1051,"amount":0},{"first":1052,"second":1083,"amount":0},{"first":1052,"second":1058,"amount":-1},{"first":1052,"second":1061,"amount":0},{"first":1052,"second":1063,"amount":-1},{"first":1052,"second":1095,"amount":-1},{"first":1052,"second":196,"amount":0},{"first":1052,"second":933,"amount":-1},{"first":1052,"second":913,"amount":0},{"first":1052,"second":916,"amount":0},{"first":1052,"second":923,"amount":0},{"first":1052,"second":935,"amount":0},{"first":1052,"second":197,"amount":0},{"first":1053,"second":65,"amount":0},{"first":1053,"second":84,"amount":-1},{"first":1053,"second":89,"amount":-1},{"first":1053,"second":88,"amount":0},{"first":1053,"second":1040,"amount":0},{"first":1053,"second":1044,"amount":0},{"first":1053,"second":1076,"amount":0},{"first":1053,"second":1046,"amount":0},{"first":1053,"second":1051,"amount":0},{"first":1053,"second":1083,"amount":0},{"first":1053,"second":1058,"amount":-1},{"first":1053,"second":1061,"amount":0},{"first":1053,"second":1063,"amount":-1},{"first":1053,"second":1095,"amount":-1},{"first":1053,"second":196,"amount":0},{"first":1053,"second":933,"amount":-1},{"first":1053,"second":913,"amount":0},{"first":1053,"second":916,"amount":0},{"first":1053,"second":923,"amount":0},{"first":1053,"second":935,"amount":0},{"first":1053,"second":197,"amount":0},{"first":1054,"second":65,"amount":0},{"first":1054,"second":90,"amount":0},{"first":1054,"second":84,"amount":-1},{"first":1054,"second":89,"amount":-1},{"first":1054,"second":88,"amount":0},{"first":1054,"second":86,"amount":0},{"first":1054,"second":44,"amount":-2},{"first":1054,"second":46,"amount":-2},{"first":1054,"second":1040,"amount":0},{"first":1054,"second":1044,"amount":-1},{"first":1054,"second":1046,"amount":0},{"first":1054,"second":1051,"amount":-1},{"first":1054,"second":1058,"amount":-1},{"first":1054,"second":1061,"amount":0},{"first":1054,"second":1068,"amount":-1},{"first":1054,"second":196,"amount":0},{"first":1054,"second":955,"amount":0},{"first":1054,"second":933,"amount":-1},{"first":1054,"second":913,"amount":0},{"first":1054,"second":931,"amount":0},{"first":1054,"second":916,"amount":0},{"first":1054,"second":926,"amount":0},{"first":1054,"second":923,"amount":0},{"first":1054,"second":918,"amount":0},{"first":1054,"second":935,"amount":0},{"first":1054,"second":197,"amount":0},{"first":1054,"second":198,"amount":-1},{"first":1086,"second":122,"amount":0},{"first":1086,"second":121,"amount":0},{"first":1086,"second":120,"amount":0},{"first":1086,"second":118,"amount":0},{"first":1086,"second":34,"amount":-3},{"first":1086,"second":39,"amount":-3},{"first":1086,"second":1076,"amount":-1},{"first":1086,"second":1078,"amount":0},{"first":1086,"second":1083,"amount":0},{"first":1086,"second":1090,"amount":0},{"first":1086,"second":1091,"amount":0},{"first":1086,"second":1093,"amount":0},{"first":1086,"second":964,"amount":0},{"first":1086,"second":947,"amount":0},{"first":1086,"second":957,"amount":0},{"first":1056,"second":97,"amount":0},{"first":1056,"second":101,"amount":0},{"first":1056,"second":116,"amount":0},{"first":1056,"second":121,"amount":0},{"first":1056,"second":111,"amount":0},{"first":1056,"second":113,"amount":0},{"first":1056,"second":100,"amount":0},{"first":1056,"second":103,"amount":0},{"first":1056,"second":99,"amount":0},{"first":1056,"second":118,"amount":0},{"first":1056,"second":65,"amount":-3},{"first":1056,"second":90,"amount":-1},{"first":1056,"second":74,"amount":-4},{"first":1056,"second":88,"amount":-1},{"first":1056,"second":44,"amount":-7},{"first":1056,"second":46,"amount":-7},{"first":1056,"second":1040,"amount":-3},{"first":1056,"second":1072,"amount":0},{"first":1056,"second":1044,"amount":-2},{"first":1056,"second":1076,"amount":-1},{"first":1056,"second":1077,"amount":0},{"first":1056,"second":1105,"amount":0},{"first":1056,"second":1046,"amount":-1},{"first":1056,"second":1051,"amount":-1},{"first":1056,"second":1083,"amount":-1},{"first":1056,"second":1086,"amount":0},{"first":1056,"second":1089,"amount":0},{"first":1056,"second":1091,"amount":0},{"first":1056,"second":1092,"amount":0},{"first":1056,"second":1061,"amount":-1},{"first":1056,"second":246,"amount":0},{"first":1056,"second":228,"amount":0},{"first":1056,"second":196,"amount":-3},{"first":1056,"second":962,"amount":0},{"first":1056,"second":961,"amount":-1},{"first":1056,"second":959,"amount":0},{"first":1056,"second":945,"amount":0},{"first":1056,"second":963,"amount":0},{"first":1056,"second":948,"amount":0},{"first":1056,"second":947,"amount":0},{"first":1056,"second":955,"amount":-1},{"first":1056,"second":957,"amount":0},{"first":1056,"second":913,"amount":-3},{"first":1056,"second":916,"amount":-3},{"first":1056,"second":923,"amount":-3},{"first":1056,"second":918,"amount":-1},{"first":1056,"second":935,"amount":-1},{"first":1056,"second":229,"amount":0},{"first":1056,"second":197,"amount":-3},{"first":1056,"second":198,"amount":-2},{"first":1088,"second":122,"amount":0},{"first":1088,"second":121,"amount":0},{"first":1088,"second":120,"amount":0},{"first":1088,"second":118,"amount":0},{"first":1088,"second":34,"amount":-1},{"first":1088,"second":39,"amount":-1},{"first":1088,"second":1076,"amount":0},{"first":1088,"second":1078,"amount":0},{"first":1088,"second":1083,"amount":0},{"first":1088,"second":1090,"amount":-2},{"first":1088,"second":1091,"amount":0},{"first":1088,"second":1093,"amount":0},{"first":1088,"second":964,"amount":0},{"first":1088,"second":947,"amount":0},{"first":1088,"second":957,"amount":0},{"first":1057,"second":84,"amount":-1},{"first":1057,"second":125,"amount":0},{"first":1057,"second":41,"amount":-1},{"first":1057,"second":93,"amount":0},{"first":1057,"second":1058,"amount":-1},{"first":1089,"second":34,"amount":0},{"first":1089,"second":39,"amount":0},{"first":1058,"second":97,"amount":-2},{"first":1058,"second":122,"amount":-1},{"first":1058,"second":101,"amount":-2},{"first":1058,"second":114,"amount":-2},{"first":1058,"second":121,"amount":-1},{"first":1058,"second":117,"amount":-2},{"first":1058,"second":111,"amount":-2},{"first":1058,"second":112,"amount":-2},{"first":1058,"second":113,"amount":-2},{"first":1058,"second":115,"amount":-2},{"first":1058,"second":100,"amount":-2},{"first":1058,"second":103,"amount":-2},{"first":1058,"second":109,"amount":-2},{"first":1058,"second":119,"amount":-1},{"first":1058,"second":120,"amount":-2},{"first":1058,"second":99,"amount":-2},{"first":1058,"second":118,"amount":-1},{"first":1058,"second":110,"amount":-2},{"first":1058,"second":65,"amount":-2},{"first":1058,"second":84,"amount":0},{"first":1058,"second":89,"amount":0},{"first":1058,"second":79,"amount":-1},{"first":1058,"second":81,"amount":-1},{"first":1058,"second":83,"amount":0},{"first":1058,"second":71,"amount":-1},{"first":1058,"second":74,"amount":-5},{"first":1058,"second":87,"amount":0},{"first":1058,"second":67,"amount":-1},{"first":1058,"second":86,"amount":0},{"first":1058,"second":45,"amount":-5},{"first":1058,"second":8211,"amount":-5},{"first":1058,"second":44,"amount":-4},{"first":1058,"second":46,"amount":-4},{"first":1058,"second":1040,"amount":-2},{"first":1058,"second":1072,"amount":-2},{"first":1058,"second":1073,"amount":-1},{"first":1058,"second":1074,"amount":-2},{"first":1058,"second":1075,"amount":-2},{"first":1058,"second":1044,"amount":-2},{"first":1058,"second":1076,"amount":-3},{"first":1058,"second":1077,"amount":-2},{"first":1058,"second":1105,"amount":-2},{"first":1058,"second":1078,"amount":-2},{"first":1058,"second":1079,"amount":-3},{"first":1058,"second":1080,"amount":-2},{"first":1058,"second":1081,"amount":-2},{"first":1058,"second":1082,"amount":-2},{"first":1058,"second":1051,"amount":-1},{"first":1058,"second":1083,"amount":-3},{"first":1058,"second":1084,"amount":-2},{"first":1058,"second":1085,"amount":-2},{"first":1058,"second":1054,"amount":-1},{"first":1058,"second":1086,"amount":-2},{"first":1058,"second":1087,"amount":-2},{"first":1058,"second":1088,"amount":-2},{"first":1058,"second":1057,"amount":-1},{"first":1058,"second":1089,"amount":-2},{"first":1058,"second":1058,"amount":0},{"first":1058,"second":1090,"amount":-2},{"first":1058,"second":1091,"amount":-1},{"first":1058,"second":1092,"amount":-2},{"first":1058,"second":1093,"amount":-2},{"first":1058,"second":1094,"amount":-2},{"first":1058,"second":1095,"amount":-3},{"first":1058,"second":1096,"amount":-2},{"first":1058,"second":1097,"amount":-2},{"first":1058,"second":1099,"amount":-3},{"first":1058,"second":1068,"amount":0},{"first":1058,"second":1100,"amount":-2},{"first":1058,"second":1101,"amount":-3},{"first":1058,"second":1102,"amount":-2},{"first":1058,"second":1103,"amount":-3},{"first":1058,"second":252,"amount":-2},{"first":1058,"second":246,"amount":-2},{"first":1058,"second":214,"amount":-1},{"first":1058,"second":228,"amount":-2},{"first":1058,"second":196,"amount":-2},{"first":1058,"second":241,"amount":-2},{"first":1058,"second":962,"amount":-2},{"first":1058,"second":949,"amount":-3},{"first":1058,"second":961,"amount":-3},{"first":1058,"second":964,"amount":-2},{"first":1058,"second":965,"amount":-2},{"first":1058,"second":953,"amount":-3},{"first":1058,"second":959,"amount":-2},{"first":1058,"second":960,"amount":-2},{"first":1058,"second":945,"amount":-2},{"first":1058,"second":963,"amount":-2},{"first":1058,"second":948,"amount":-1},{"first":1058,"second":966,"amount":-3},{"first":1058,"second":947,"amount":-1},{"first":1058,"second":951,"amount":-2},{"first":1058,"second":968,"amount":-3},{"first":1058,"second":969,"amount":-3},{"first":1058,"second":957,"amount":-1},{"first":1058,"second":933,"amount":0},{"first":1058,"second":920,"amount":-1},{"first":1058,"second":927,"amount":-1},{"first":1058,"second":913,"amount":-2},{"first":1058,"second":916,"amount":-2},{"first":1058,"second":934,"amount":-2},{"first":1058,"second":923,"amount":-2},{"first":1058,"second":229,"amount":-2},{"first":1058,"second":197,"amount":-2},{"first":1058,"second":230,"amount":-2},{"first":1058,"second":198,"amount":-4},{"first":1058,"second":248,"amount":-2},{"first":1058,"second":216,"amount":-1},{"first":1090,"second":97,"amount":0},{"first":1090,"second":101,"amount":-2},{"first":1090,"second":121,"amount":0},{"first":1090,"second":111,"amount":-1},{"first":1090,"second":113,"amount":-2},{"first":1090,"second":100,"amount":-2},{"first":1090,"second":102,"amount":0},{"first":1090,"second":103,"amount":-2},{"first":1090,"second":99,"amount":-2},{"first":1090,"second":118,"amount":0},{"first":1090,"second":34,"amount":0},{"first":1090,"second":39,"amount":0},{"first":1090,"second":1072,"amount":0},{"first":1090,"second":1076,"amount":-2},{"first":1090,"second":1077,"amount":-2},{"first":1090,"second":1105,"amount":-2},{"first":1090,"second":1083,"amount":-2},{"first":1090,"second":1086,"amount":-1},{"first":1090,"second":1089,"amount":-2},{"first":1090,"second":1091,"amount":0},{"first":1090,"second":1092,"amount":-2},{"first":1090,"second":246,"amount":-1},{"first":1090,"second":228,"amount":0},{"first":1090,"second":962,"amount":-1},{"first":1090,"second":961,"amount":-2},{"first":1090,"second":959,"amount":-1},{"first":1090,"second":945,"amount":-2},{"first":1090,"second":963,"amount":-2},{"first":1090,"second":948,"amount":-2},{"first":1090,"second":966,"amount":-1},{"first":1090,"second":947,"amount":0},{"first":1090,"second":957,"amount":0},{"first":1090,"second":229,"amount":0},{"first":1059,"second":97,"amount":-2},{"first":1059,"second":101,"amount":-1},{"first":1059,"second":111,"amount":-1},{"first":1059,"second":112,"amount":-2},{"first":1059,"second":113,"amount":-1},{"first":1059,"second":115,"amount":-1},{"first":1059,"second":100,"amount":-1},{"first":1059,"second":103,"amount":-1},{"first":1059,"second":109,"amount":-2},{"first":1059,"second":99,"amount":-1},{"first":1059,"second":110,"amount":-2},{"first":1059,"second":65,"amount":-2},{"first":1059,"second":84,"amount":0},{"first":1059,"second":89,"amount":0},{"first":1059,"second":79,"amount":0},{"first":1059,"second":81,"amount":0},{"first":1059,"second":71,"amount":0},{"first":1059,"second":67,"amount":0},{"first":1059,"second":45,"amount":-2},{"first":1059,"second":8211,"amount":-2},{"first":1059,"second":44,"amount":-8},{"first":1059,"second":46,"amount":-8},{"first":1059,"second":1040,"amount":-2},{"first":1059,"second":1072,"amount":-2},{"first":1059,"second":1074,"amount":-1},{"first":1059,"second":1075,"amount":-2},{"first":1059,"second":1044,"amount":-2},{"first":1059,"second":1076,"amount":-2},{"first":1059,"second":1077,"amount":-1},{"first":1059,"second":1105,"amount":-1},{"first":1059,"second":1079,"amount":-1},{"first":1059,"second":1080,"amount":-2},{"first":1059,"second":1081,"amount":-2},{"first":1059,"second":1082,"amount":-2},{"first":1059,"second":1051,"amount":-1},{"first":1059,"second":1083,"amount":-1},{"first":1059,"second":1084,"amount":-2},{"first":1059,"second":1085,"amount":-2},{"first":1059,"second":1054,"amount":0},{"first":1059,"second":1086,"amount":-1},{"first":1059,"second":1087,"amount":-2},{"first":1059,"second":1088,"amount":-2},{"first":1059,"second":1057,"amount":0},{"first":1059,"second":1089,"amount":-1},{"first":1059,"second":1058,"amount":0},{"first":1059,"second":1092,"amount":-1},{"first":1059,"second":1094,"amount":-2},{"first":1059,"second":1095,"amount":0},{"first":1059,"second":1096,"amount":-2},{"first":1059,"second":1097,"amount":-2},{"first":1059,"second":1099,"amount":-1},{"first":1059,"second":1068,"amount":0},{"first":1059,"second":1100,"amount":-2},{"first":1059,"second":1102,"amount":-2},{"first":1059,"second":1103,"amount":-1},{"first":1059,"second":246,"amount":-1},{"first":1059,"second":214,"amount":0},{"first":1059,"second":228,"amount":-2},{"first":1059,"second":196,"amount":-2},{"first":1059,"second":241,"amount":-2},{"first":1059,"second":962,"amount":-1},{"first":1059,"second":959,"amount":-1},{"first":1059,"second":945,"amount":-1},{"first":1059,"second":963,"amount":-1},{"first":1059,"second":951,"amount":-2},{"first":1059,"second":933,"amount":0},{"first":1059,"second":920,"amount":0},{"first":1059,"second":927,"amount":0},{"first":1059,"second":913,"amount":-2},{"first":1059,"second":916,"amount":-2},{"first":1059,"second":923,"amount":-2},{"first":1059,"second":229,"amount":-2},{"first":1059,"second":197,"amount":-2},{"first":1059,"second":216,"amount":0},{"first":1091,"second":97,"amount":0},{"first":1091,"second":101,"amount":0},{"first":1091,"second":111,"amount":0},{"first":1091,"second":113,"amount":0},{"first":1091,"second":100,"amount":0},{"first":1091,"second":102,"amount":0},{"first":1091,"second":103,"amount":0},{"first":1091,"second":99,"amount":0},{"first":1091,"second":44,"amount":-2},{"first":1091,"second":46,"amount":-2},{"first":1091,"second":34,"amount":0},{"first":1091,"second":39,"amount":0},{"first":1091,"second":1072,"amount":0},{"first":1091,"second":1076,"amount":-1},{"first":1091,"second":1077,"amount":0},{"first":1091,"second":1105,"amount":0},{"first":1091,"second":1083,"amount":-1},{"first":1091,"second":1086,"amount":0},{"first":1091,"second":1089,"amount":0},{"first":1091,"second":1092,"amount":0},{"first":1091,"second":246,"amount":0},{"first":1091,"second":228,"amount":0},{"first":1091,"second":962,"amount":0},{"first":1091,"second":961,"amount":0},{"first":1091,"second":964,"amount":0},{"first":1091,"second":959,"amount":0},{"first":1091,"second":960,"amount":0},{"first":1091,"second":945,"amount":0},{"first":1091,"second":963,"amount":0},{"first":1091,"second":948,"amount":0},{"first":1091,"second":229,"amount":0},{"first":1092,"second":122,"amount":0},{"first":1092,"second":121,"amount":0},{"first":1092,"second":120,"amount":0},{"first":1092,"second":118,"amount":0},{"first":1092,"second":34,"amount":-1},{"first":1092,"second":39,"amount":-1},{"first":1092,"second":1076,"amount":0},{"first":1092,"second":1078,"amount":0},{"first":1092,"second":1083,"amount":0},{"first":1092,"second":1090,"amount":-2},{"first":1092,"second":1091,"amount":0},{"first":1092,"second":1093,"amount":0},{"first":1092,"second":964,"amount":0},{"first":1092,"second":947,"amount":0},{"first":1092,"second":957,"amount":0},{"first":1061,"second":101,"amount":-1},{"first":1061,"second":121,"amount":-1},{"first":1061,"second":117,"amount":0},{"first":1061,"second":111,"amount":0},{"first":1061,"second":113,"amount":-1},{"first":1061,"second":100,"amount":-1},{"first":1061,"second":103,"amount":-1},{"first":1061,"second":99,"amount":-1},{"first":1061,"second":118,"amount":-1},{"first":1061,"second":79,"amount":-1},{"first":1061,"second":81,"amount":-1},{"first":1061,"second":71,"amount":-1},{"first":1061,"second":67,"amount":-1},{"first":1061,"second":86,"amount":0},{"first":1061,"second":45,"amount":-1},{"first":1061,"second":8211,"amount":-1},{"first":1061,"second":1073,"amount":0},{"first":1061,"second":1044,"amount":0},{"first":1061,"second":1077,"amount":-1},{"first":1061,"second":1105,"amount":-1},{"first":1061,"second":1051,"amount":0},{"first":1061,"second":1083,"amount":0},{"first":1061,"second":1054,"amount":-1},{"first":1061,"second":1086,"amount":0},{"first":1061,"second":1057,"amount":-1},{"first":1061,"second":1089,"amount":-1},{"first":1061,"second":1090,"amount":-1},{"first":1061,"second":1091,"amount":-1},{"first":1061,"second":1092,"amount":-1},{"first":1061,"second":1095,"amount":-1},{"first":1061,"second":252,"amount":0},{"first":1061,"second":246,"amount":0},{"first":1061,"second":214,"amount":-1},{"first":1061,"second":962,"amount":-1},{"first":1061,"second":964,"amount":-1},{"first":1061,"second":965,"amount":0},{"first":1061,"second":952,"amount":0},{"first":1061,"second":959,"amount":0},{"first":1061,"second":945,"amount":-1},{"first":1061,"second":963,"amount":-1},{"first":1061,"second":948,"amount":0},{"first":1061,"second":966,"amount":-1},{"first":1061,"second":947,"amount":-1},{"first":1061,"second":955,"amount":0},{"first":1061,"second":968,"amount":-1},{"first":1061,"second":969,"amount":0},{"first":1061,"second":957,"amount":-1},{"first":1061,"second":920,"amount":-1},{"first":1061,"second":927,"amount":-1},{"first":1061,"second":934,"amount":-1},{"first":1061,"second":216,"amount":-1},{"first":1093,"second":101,"amount":0},{"first":1093,"second":111,"amount":0},{"first":1093,"second":113,"amount":0},{"first":1093,"second":100,"amount":0},{"first":1093,"second":103,"amount":0},{"first":1093,"second":99,"amount":0},{"first":1093,"second":1077,"amount":0},{"first":1093,"second":1105,"amount":0},{"first":1093,"second":1086,"amount":0},{"first":1093,"second":1089,"amount":0},{"first":1093,"second":1092,"amount":0},{"first":1093,"second":246,"amount":0},{"first":1093,"second":962,"amount":0},{"first":1093,"second":959,"amount":0},{"first":1093,"second":945,"amount":0},{"first":1093,"second":963,"amount":0},{"first":1062,"second":65,"amount":0},{"first":1062,"second":84,"amount":-1},{"first":1062,"second":89,"amount":-1},{"first":1062,"second":88,"amount":0},{"first":1062,"second":1040,"amount":0},{"first":1062,"second":1044,"amount":0},{"first":1062,"second":1076,"amount":0},{"first":1062,"second":1046,"amount":0},{"first":1062,"second":1051,"amount":0},{"first":1062,"second":1083,"amount":0},{"first":1062,"second":1058,"amount":-1},{"first":1062,"second":1061,"amount":0},{"first":1062,"second":1063,"amount":-1},{"first":1062,"second":1095,"amount":-1},{"first":1062,"second":196,"amount":0},{"first":1062,"second":933,"amount":-1},{"first":1062,"second":913,"amount":0},{"first":1062,"second":916,"amount":0},{"first":1062,"second":923,"amount":0},{"first":1062,"second":935,"amount":0},{"first":1062,"second":197,"amount":0},{"first":1094,"second":1076,"amount":0},{"first":1094,"second":1083,"amount":0},{"first":1094,"second":1090,"amount":0},{"first":1094,"second":1095,"amount":0},{"first":1094,"second":1103,"amount":0},{"first":1063,"second":65,"amount":0},{"first":1063,"second":84,"amount":-1},{"first":1063,"second":89,"amount":-1},{"first":1063,"second":88,"amount":0},{"first":1063,"second":1040,"amount":0},{"first":1063,"second":1044,"amount":0},{"first":1063,"second":1076,"amount":0},{"first":1063,"second":1046,"amount":0},{"first":1063,"second":1051,"amount":0},{"first":1063,"second":1083,"amount":0},{"first":1063,"second":1058,"amount":-1},{"first":1063,"second":1061,"amount":0},{"first":1063,"second":1063,"amount":-1},{"first":1063,"second":1095,"amount":-1},{"first":1063,"second":196,"amount":0},{"first":1063,"second":933,"amount":-1},{"first":1063,"second":913,"amount":0},{"first":1063,"second":916,"amount":0},{"first":1063,"second":923,"amount":0},{"first":1063,"second":935,"amount":0},{"first":1063,"second":197,"amount":0},{"first":1064,"second":65,"amount":0},{"first":1064,"second":84,"amount":-1},{"first":1064,"second":89,"amount":-1},{"first":1064,"second":88,"amount":0},{"first":1064,"second":1040,"amount":0},{"first":1064,"second":1044,"amount":0},{"first":1064,"second":1076,"amount":0},{"first":1064,"second":1046,"amount":0},{"first":1064,"second":1051,"amount":0},{"first":1064,"second":1083,"amount":0},{"first":1064,"second":1058,"amount":-1},{"first":1064,"second":1061,"amount":0},{"first":1064,"second":1063,"amount":-1},{"first":1064,"second":1095,"amount":-1},{"first":1064,"second":196,"amount":0},{"first":1064,"second":933,"amount":-1},{"first":1064,"second":913,"amount":0},{"first":1064,"second":916,"amount":0},{"first":1064,"second":923,"amount":0},{"first":1064,"second":935,"amount":0},{"first":1064,"second":197,"amount":0},{"first":1065,"second":65,"amount":0},{"first":1065,"second":84,"amount":-1},{"first":1065,"second":89,"amount":-1},{"first":1065,"second":88,"amount":0},{"first":1065,"second":86,"amount":-1},{"first":1065,"second":1040,"amount":0},{"first":1065,"second":1044,"amount":0},{"first":1065,"second":1076,"amount":0},{"first":1065,"second":1046,"amount":0},{"first":1065,"second":1051,"amount":0},{"first":1065,"second":1083,"amount":0},{"first":1065,"second":1058,"amount":-1},{"first":1065,"second":1090,"amount":-1},{"first":1065,"second":1059,"amount":0},{"first":1065,"second":1061,"amount":0},{"first":1065,"second":1063,"amount":-1},{"first":1065,"second":1095,"amount":0},{"first":1065,"second":1068,"amount":-1},{"first":1065,"second":1069,"amount":0},{"first":1065,"second":196,"amount":0},{"first":1065,"second":933,"amount":-1},{"first":1065,"second":913,"amount":0},{"first":1065,"second":916,"amount":0},{"first":1065,"second":923,"amount":0},{"first":1065,"second":935,"amount":0},{"first":1065,"second":197,"amount":0},{"first":1097,"second":101,"amount":0},{"first":1097,"second":113,"amount":0},{"first":1097,"second":100,"amount":0},{"first":1097,"second":103,"amount":0},{"first":1097,"second":99,"amount":0},{"first":1097,"second":1076,"amount":1},{"first":1097,"second":1077,"amount":0},{"first":1097,"second":1105,"amount":0},{"first":1097,"second":1083,"amount":0},{"first":1097,"second":1089,"amount":0},{"first":1097,"second":1090,"amount":-1},{"first":1097,"second":1092,"amount":0},{"first":1097,"second":1095,"amount":0},{"first":1097,"second":962,"amount":0},{"first":1097,"second":945,"amount":0},{"first":1097,"second":963,"amount":0},{"first":1066,"second":120,"amount":-1},{"first":1066,"second":84,"amount":-5},{"first":1066,"second":89,"amount":-2},{"first":1066,"second":88,"amount":0},{"first":1066,"second":86,"amount":-1},{"first":1066,"second":34,"amount":-1},{"first":1066,"second":39,"amount":-1},{"first":1066,"second":1046,"amount":0},{"first":1066,"second":1078,"amount":-1},{"first":1066,"second":1051,"amount":0},{"first":1066,"second":1058,"amount":-5},{"first":1066,"second":1090,"amount":-1},{"first":1066,"second":1059,"amount":0},{"first":1066,"second":1061,"amount":0},{"first":1066,"second":1093,"amount":-1},{"first":1066,"second":1063,"amount":-1},{"first":1066,"second":1068,"amount":-1},{"first":1066,"second":933,"amount":-2},{"first":1066,"second":935,"amount":0},{"first":1098,"second":121,"amount":-1},{"first":1098,"second":120,"amount":0},{"first":1098,"second":118,"amount":-1},{"first":1098,"second":34,"amount":-3},{"first":1098,"second":39,"amount":-3},{"first":1098,"second":1078,"amount":0},{"first":1098,"second":1090,"amount":-1},{"first":1098,"second":1091,"amount":-1},{"first":1098,"second":1093,"amount":0},{"first":1098,"second":1095,"amount":-1},{"first":1098,"second":947,"amount":-1},{"first":1098,"second":957,"amount":-1},{"first":1067,"second":65,"amount":0},{"first":1067,"second":84,"amount":-1},{"first":1067,"second":89,"amount":-1},{"first":1067,"second":88,"amount":0},{"first":1067,"second":1040,"amount":0},{"first":1067,"second":1044,"amount":0},{"first":1067,"second":1076,"amount":0},{"first":1067,"second":1046,"amount":0},{"first":1067,"second":1051,"amount":0},{"first":1067,"second":1083,"amount":0},{"first":1067,"second":1058,"amount":-1},{"first":1067,"second":1061,"amount":0},{"first":1067,"second":1063,"amount":-1},{"first":1067,"second":1095,"amount":-1},{"first":1067,"second":196,"amount":0},{"first":1067,"second":933,"amount":-1},{"first":1067,"second":913,"amount":0},{"first":1067,"second":916,"amount":0},{"first":1067,"second":923,"amount":0},{"first":1067,"second":935,"amount":0},{"first":1067,"second":197,"amount":0},{"first":1068,"second":120,"amount":-1},{"first":1068,"second":84,"amount":-5},{"first":1068,"second":89,"amount":-2},{"first":1068,"second":88,"amount":0},{"first":1068,"second":86,"amount":-1},{"first":1068,"second":34,"amount":-1},{"first":1068,"second":39,"amount":-1},{"first":1068,"second":1046,"amount":0},{"first":1068,"second":1078,"amount":-1},{"first":1068,"second":1051,"amount":0},{"first":1068,"second":1058,"amount":-5},{"first":1068,"second":1090,"amount":-1},{"first":1068,"second":1059,"amount":0},{"first":1068,"second":1061,"amount":0},{"first":1068,"second":1093,"amount":-1},{"first":1068,"second":1063,"amount":-1},{"first":1068,"second":1068,"amount":-1},{"first":1068,"second":933,"amount":-2},{"first":1068,"second":935,"amount":0},{"first":1100,"second":121,"amount":-1},{"first":1100,"second":120,"amount":0},{"first":1100,"second":118,"amount":-1},{"first":1100,"second":34,"amount":-3},{"first":1100,"second":39,"amount":-3},{"first":1100,"second":1078,"amount":0},{"first":1100,"second":1090,"amount":-1},{"first":1100,"second":1091,"amount":-1},{"first":1100,"second":1093,"amount":0},{"first":1100,"second":1095,"amount":-1},{"first":1100,"second":947,"amount":-1},{"first":1100,"second":957,"amount":-1},{"first":1069,"second":84,"amount":-1},{"first":1069,"second":89,"amount":-1},{"first":1069,"second":88,"amount":-1},{"first":1069,"second":1044,"amount":-1},{"first":1069,"second":1046,"amount":-1},{"first":1069,"second":1051,"amount":-1},{"first":1069,"second":1083,"amount":0},{"first":1069,"second":1058,"amount":-1},{"first":1069,"second":1059,"amount":0},{"first":1069,"second":1061,"amount":-1},{"first":1069,"second":933,"amount":-1},{"first":1069,"second":935,"amount":-1},{"first":1101,"second":122,"amount":0},{"first":1101,"second":121,"amount":0},{"first":1101,"second":120,"amount":0},{"first":1101,"second":118,"amount":0},{"first":1101,"second":34,"amount":-1},{"first":1101,"second":39,"amount":-1},{"first":1101,"second":1076,"amount":0},{"first":1101,"second":1078,"amount":0},{"first":1101,"second":1083,"amount":0},{"first":1101,"second":1090,"amount":-2},{"first":1101,"second":1091,"amount":0},{"first":1101,"second":1093,"amount":0},{"first":1101,"second":964,"amount":0},{"first":1101,"second":947,"amount":0},{"first":1101,"second":957,"amount":0},{"first":1070,"second":84,"amount":-1},{"first":1070,"second":88,"amount":-1},{"first":1070,"second":1044,"amount":-1},{"first":1070,"second":1076,"amount":-1},{"first":1070,"second":1046,"amount":-1},{"first":1070,"second":1051,"amount":-1},{"first":1070,"second":1083,"amount":0},{"first":1070,"second":1058,"amount":-1},{"first":1070,"second":1059,"amount":0},{"first":1070,"second":1061,"amount":-1},{"first":1070,"second":935,"amount":-1},{"first":1102,"second":121,"amount":0},{"first":1102,"second":120,"amount":0},{"first":1102,"second":118,"amount":0},{"first":1102,"second":1076,"amount":0},{"first":1102,"second":1078,"amount":0},{"first":1102,"second":1083,"amount":0},{"first":1102,"second":1091,"amount":0},{"first":1102,"second":1093,"amount":0},{"first":1102,"second":947,"amount":0},{"first":1102,"second":957,"amount":0},{"first":1071,"second":84,"amount":0},{"first":1071,"second":89,"amount":0},{"first":1071,"second":1058,"amount":0},{"first":1071,"second":933,"amount":0},{"first":220,"second":65,"amount":0},{"first":220,"second":1040,"amount":0},{"first":220,"second":196,"amount":0},{"first":220,"second":913,"amount":0},{"first":220,"second":916,"amount":0},{"first":220,"second":923,"amount":0},{"first":220,"second":197,"amount":0},{"first":246,"second":122,"amount":0},{"first":246,"second":121,"amount":0},{"first":246,"second":120,"amount":0},{"first":246,"second":118,"amount":0},{"first":246,"second":34,"amount":-3},{"first":246,"second":39,"amount":-3},{"first":246,"second":1076,"amount":-1},{"first":246,"second":1078,"amount":0},{"first":246,"second":1083,"amount":0},{"first":246,"second":1090,"amount":0},{"first":246,"second":1091,"amount":0},{"first":246,"second":1093,"amount":0},{"first":246,"second":964,"amount":0},{"first":246,"second":947,"amount":0},{"first":246,"second":957,"amount":0},{"first":214,"second":65,"amount":0},{"first":214,"second":90,"amount":0},{"first":214,"second":84,"amount":-1},{"first":214,"second":89,"amount":-1},{"first":214,"second":88,"amount":0},{"first":214,"second":86,"amount":0},{"first":214,"second":44,"amount":-2},{"first":214,"second":46,"amount":-2},{"first":214,"second":1040,"amount":0},{"first":214,"second":1044,"amount":-1},{"first":214,"second":1046,"amount":0},{"first":214,"second":1051,"amount":-1},{"first":214,"second":1058,"amount":-1},{"first":214,"second":1061,"amount":0},{"first":214,"second":1068,"amount":-1},{"first":214,"second":196,"amount":0},{"first":214,"second":955,"amount":0},{"first":214,"second":933,"amount":-1},{"first":214,"second":913,"amount":0},{"first":214,"second":931,"amount":0},{"first":214,"second":916,"amount":0},{"first":214,"second":926,"amount":0},{"first":214,"second":923,"amount":0},{"first":214,"second":918,"amount":0},{"first":214,"second":935,"amount":0},{"first":214,"second":197,"amount":0},{"first":214,"second":198,"amount":-1},{"first":228,"second":121,"amount":0},{"first":228,"second":118,"amount":0},{"first":228,"second":34,"amount":-1},{"first":228,"second":39,"amount":-1},{"first":228,"second":1090,"amount":0},{"first":228,"second":1091,"amount":0},{"first":228,"second":947,"amount":0},{"first":228,"second":957,"amount":0},{"first":196,"second":122,"amount":0},{"first":196,"second":116,"amount":0},{"first":196,"second":121,"amount":-1},{"first":196,"second":117,"amount":0},{"first":196,"second":111,"amount":0},{"first":196,"second":119,"amount":-1},{"first":196,"second":118,"amount":-1},{"first":196,"second":84,"amount":-3},{"first":196,"second":89,"amount":-2},{"first":196,"second":85,"amount":0},{"first":196,"second":79,"amount":0},{"first":196,"second":81,"amount":0},{"first":196,"second":71,"amount":0},{"first":196,"second":87,"amount":-1},{"first":196,"second":67,"amount":0},{"first":196,"second":86,"amount":-2},{"first":196,"second":63,"amount":-1},{"first":196,"second":34,"amount":-2},{"first":196,"second":39,"amount":-2},{"first":196,"second":1044,"amount":0},{"first":196,"second":1051,"amount":0},{"first":196,"second":1083,"amount":0},{"first":196,"second":1054,"amount":0},{"first":196,"second":1086,"amount":0},{"first":196,"second":1057,"amount":0},{"first":196,"second":1058,"amount":-3},{"first":196,"second":1090,"amount":-1},{"first":196,"second":1091,"amount":-1},{"first":196,"second":1063,"amount":-1},{"first":196,"second":1095,"amount":-2},{"first":196,"second":1068,"amount":-1},{"first":196,"second":252,"amount":0},{"first":196,"second":220,"amount":0},{"first":196,"second":246,"amount":0},{"first":196,"second":214,"amount":0},{"first":196,"second":964,"amount":-1},{"first":196,"second":965,"amount":0},{"first":196,"second":959,"amount":0},{"first":196,"second":947,"amount":-1},{"first":196,"second":955,"amount":0},{"first":196,"second":957,"amount":-1},{"first":196,"second":933,"amount":-2},{"first":196,"second":920,"amount":0},{"first":196,"second":927,"amount":0},{"first":196,"second":934,"amount":-1},{"first":196,"second":936,"amount":-1},{"first":196,"second":216,"amount":0},{"first":241,"second":34,"amount":-2},{"first":241,"second":39,"amount":-2},{"first":241,"second":1090,"amount":-1},{"first":209,"second":65,"amount":0},{"first":209,"second":84,"amount":-1},{"first":209,"second":89,"amount":-1},{"first":209,"second":88,"amount":0},{"first":209,"second":1040,"amount":0},{"first":209,"second":1044,"amount":0},{"first":209,"second":1076,"amount":0},{"first":209,"second":1046,"amount":0},{"first":209,"second":1051,"amount":0},{"first":209,"second":1083,"amount":0},{"first":209,"second":1058,"amount":-1},{"first":209,"second":1061,"amount":0},{"first":209,"second":1063,"amount":-1},{"first":209,"second":1095,"amount":-1},{"first":209,"second":196,"amount":0},{"first":209,"second":933,"amount":-1},{"first":209,"second":913,"amount":0},{"first":209,"second":916,"amount":0},{"first":209,"second":923,"amount":0},{"first":209,"second":935,"amount":0},{"first":209,"second":197,"amount":0},{"first":962,"second":1090,"amount":-1},{"first":961,"second":122,"amount":0},{"first":961,"second":121,"amount":0},{"first":961,"second":120,"amount":0},{"first":961,"second":118,"amount":0},{"first":961,"second":34,"amount":-1},{"first":961,"second":39,"amount":-1},{"first":961,"second":1076,"amount":0},{"first":961,"second":1078,"amount":0},{"first":961,"second":1083,"amount":0},{"first":961,"second":1090,"amount":-2},{"first":961,"second":1091,"amount":0},{"first":961,"second":1093,"amount":0},{"first":961,"second":964,"amount":0},{"first":961,"second":947,"amount":0},{"first":961,"second":957,"amount":0},{"first":964,"second":101,"amount":0},{"first":964,"second":121,"amount":0},{"first":964,"second":111,"amount":0},{"first":964,"second":113,"amount":0},{"first":964,"second":100,"amount":0},{"first":964,"second":102,"amount":0},{"first":964,"second":103,"amount":0},{"first":964,"second":99,"amount":0},{"first":964,"second":118,"amount":0},{"first":964,"second":34,"amount":0},{"first":964,"second":39,"amount":0},{"first":964,"second":1077,"amount":0},{"first":964,"second":1105,"amount":0},{"first":964,"second":1086,"amount":0},{"first":964,"second":1089,"amount":0},{"first":964,"second":1091,"amount":0},{"first":964,"second":1092,"amount":0},{"first":964,"second":246,"amount":0},{"first":964,"second":962,"amount":0},{"first":964,"second":964,"amount":0},{"first":964,"second":959,"amount":0},{"first":964,"second":960,"amount":0},{"first":964,"second":945,"amount":0},{"first":964,"second":963,"amount":0},{"first":964,"second":948,"amount":0},{"first":964,"second":947,"amount":0},{"first":964,"second":957,"amount":0},{"first":965,"second":1090,"amount":-1},{"first":953,"second":101,"amount":0},{"first":953,"second":121,"amount":-1},{"first":953,"second":117,"amount":0},{"first":953,"second":113,"amount":0},{"first":953,"second":100,"amount":0},{"first":953,"second":103,"amount":0},{"first":953,"second":99,"amount":0},{"first":953,"second":118,"amount":-1},{"first":953,"second":34,"amount":-1},{"first":953,"second":39,"amount":-1},{"first":953,"second":1077,"amount":0},{"first":953,"second":1105,"amount":0},{"first":953,"second":1089,"amount":0},{"first":953,"second":1091,"amount":-1},{"first":953,"second":1092,"amount":0},{"first":953,"second":252,"amount":0},{"first":953,"second":962,"amount":0},{"first":953,"second":964,"amount":-1},{"first":953,"second":965,"amount":0},{"first":953,"second":952,"amount":0},{"first":953,"second":960,"amount":0},{"first":953,"second":945,"amount":0},{"first":953,"second":963,"amount":0},{"first":953,"second":966,"amount":-1},{"first":953,"second":947,"amount":-1},{"first":953,"second":955,"amount":0},{"first":953,"second":957,"amount":-1},{"first":959,"second":122,"amount":0},{"first":959,"second":121,"amount":0},{"first":959,"second":120,"amount":0},{"first":959,"second":118,"amount":0},{"first":959,"second":34,"amount":-3},{"first":959,"second":39,"amount":-3},{"first":959,"second":1076,"amount":-1},{"first":959,"second":1078,"amount":0},{"first":959,"second":1083,"amount":0},{"first":959,"second":1090,"amount":0},{"first":959,"second":1091,"amount":0},{"first":959,"second":1093,"amount":0},{"first":959,"second":964,"amount":0},{"first":959,"second":947,"amount":0},{"first":959,"second":957,"amount":0},{"first":945,"second":955,"amount":0},{"first":963,"second":964,"amount":0},{"first":948,"second":1090,"amount":-1},{"first":948,"second":964,"amount":0},{"first":966,"second":122,"amount":0},{"first":966,"second":120,"amount":0},{"first":966,"second":1078,"amount":0},{"first":966,"second":1090,"amount":-2},{"first":966,"second":1093,"amount":0},{"first":947,"second":97,"amount":0},{"first":947,"second":101,"amount":0},{"first":947,"second":111,"amount":0},{"first":947,"second":113,"amount":0},{"first":947,"second":100,"amount":0},{"first":947,"second":102,"amount":0},{"first":947,"second":103,"amount":0},{"first":947,"second":99,"amount":0},{"first":947,"second":44,"amount":-2},{"first":947,"second":46,"amount":-2},{"first":947,"second":34,"amount":0},{"first":947,"second":39,"amount":0},{"first":947,"second":1072,"amount":0},{"first":947,"second":1076,"amount":-1},{"first":947,"second":1077,"amount":0},{"first":947,"second":1105,"amount":0},{"first":947,"second":1083,"amount":-1},{"first":947,"second":1086,"amount":0},{"first":947,"second":1089,"amount":0},{"first":947,"second":1092,"amount":0},{"first":947,"second":246,"amount":0},{"first":947,"second":228,"amount":0},{"first":947,"second":962,"amount":0},{"first":947,"second":961,"amount":0},{"first":947,"second":964,"amount":0},{"first":947,"second":959,"amount":0},{"first":947,"second":960,"amount":0},{"first":947,"second":945,"amount":0},{"first":947,"second":963,"amount":0},{"first":947,"second":948,"amount":0},{"first":947,"second":229,"amount":0},{"first":951,"second":34,"amount":-2},{"first":951,"second":39,"amount":-2},{"first":951,"second":1090,"amount":-1},{"first":958,"second":101,"amount":-1},{"first":958,"second":113,"amount":-1},{"first":958,"second":100,"amount":-1},{"first":958,"second":103,"amount":-1},{"first":958,"second":99,"amount":-1},{"first":958,"second":1077,"amount":-1},{"first":958,"second":1105,"amount":-1},{"first":958,"second":1089,"amount":-1},{"first":958,"second":1092,"amount":-1},{"first":958,"second":962,"amount":-1},{"first":958,"second":945,"amount":-1},{"first":958,"second":963,"amount":-1},{"first":958,"second":955,"amount":0},{"first":955,"second":121,"amount":-1},{"first":955,"second":117,"amount":0},{"first":955,"second":102,"amount":0},{"first":955,"second":118,"amount":-1},{"first":955,"second":34,"amount":-2},{"first":955,"second":39,"amount":-2},{"first":955,"second":1091,"amount":-1},{"first":955,"second":252,"amount":0},{"first":955,"second":964,"amount":-5},{"first":955,"second":965,"amount":0},{"first":955,"second":952,"amount":0},{"first":955,"second":960,"amount":0},{"first":955,"second":947,"amount":-1},{"first":955,"second":955,"amount":0},{"first":955,"second":957,"amount":-1},{"first":950,"second":101,"amount":-1},{"first":950,"second":121,"amount":-1},{"first":950,"second":117,"amount":-1},{"first":950,"second":111,"amount":-1},{"first":950,"second":112,"amount":0},{"first":950,"second":113,"amount":-1},{"first":950,"second":100,"amount":-1},{"first":950,"second":103,"amount":-1},{"first":950,"second":109,"amount":0},{"first":950,"second":99,"amount":-1},{"first":950,"second":118,"amount":-1},{"first":950,"second":110,"amount":0},{"first":950,"second":1075,"amount":0},{"first":950,"second":1077,"amount":-1},{"first":950,"second":1105,"amount":-1},{"first":950,"second":1080,"amount":0},{"first":950,"second":1081,"amount":0},{"first":950,"second":1082,"amount":0},{"first":950,"second":1084,"amount":0},{"first":950,"second":1085,"amount":0},{"first":950,"second":1086,"amount":-1},{"first":950,"second":1087,"amount":0},{"first":950,"second":1088,"amount":0},{"first":950,"second":1089,"amount":-1},{"first":950,"second":1091,"amount":-1},{"first":950,"second":1092,"amount":-1},{"first":950,"second":1094,"amount":0},{"first":950,"second":1096,"amount":0},{"first":950,"second":1097,"amount":0},{"first":950,"second":1100,"amount":0},{"first":950,"second":1102,"amount":0},{"first":950,"second":252,"amount":-1},{"first":950,"second":246,"amount":-1},{"first":950,"second":241,"amount":0},{"first":950,"second":962,"amount":-1},{"first":950,"second":949,"amount":-1},{"first":950,"second":964,"amount":-1},{"first":950,"second":965,"amount":-1},{"first":950,"second":952,"amount":0},{"first":950,"second":953,"amount":0},{"first":950,"second":959,"amount":-1},{"first":950,"second":960,"amount":-1},{"first":950,"second":945,"amount":-1},{"first":950,"second":963,"amount":-1},{"first":950,"second":948,"amount":0},{"first":950,"second":966,"amount":-1},{"first":950,"second":947,"amount":-1},{"first":950,"second":951,"amount":0},{"first":950,"second":958,"amount":0},{"first":950,"second":968,"amount":-1},{"first":950,"second":969,"amount":-1},{"first":950,"second":957,"amount":-1},{"first":968,"second":122,"amount":0},{"first":968,"second":120,"amount":0},{"first":968,"second":1078,"amount":0},{"first":968,"second":1093,"amount":0},{"first":969,"second":122,"amount":0},{"first":969,"second":121,"amount":0},{"first":969,"second":120,"amount":0},{"first":969,"second":118,"amount":0},{"first":969,"second":1078,"amount":0},{"first":969,"second":1091,"amount":0},{"first":969,"second":1093,"amount":0},{"first":969,"second":947,"amount":0},{"first":969,"second":957,"amount":0},{"first":957,"second":97,"amount":0},{"first":957,"second":101,"amount":0},{"first":957,"second":111,"amount":0},{"first":957,"second":113,"amount":0},{"first":957,"second":100,"amount":0},{"first":957,"second":102,"amount":0},{"first":957,"second":103,"amount":0},{"first":957,"second":99,"amount":0},{"first":957,"second":44,"amount":-2},{"first":957,"second":46,"amount":-2},{"first":957,"second":34,"amount":0},{"first":957,"second":39,"amount":0},{"first":957,"second":1072,"amount":0},{"first":957,"second":1076,"amount":-1},{"first":957,"second":1077,"amount":0},{"first":957,"second":1105,"amount":0},{"first":957,"second":1083,"amount":-1},{"first":957,"second":1086,"amount":0},{"first":957,"second":1089,"amount":0},{"first":957,"second":1092,"amount":0},{"first":957,"second":246,"amount":0},{"first":957,"second":228,"amount":0},{"first":957,"second":962,"amount":0},{"first":957,"second":961,"amount":0},{"first":957,"second":964,"amount":0},{"first":957,"second":959,"amount":0},{"first":957,"second":960,"amount":0},{"first":957,"second":945,"amount":0},{"first":957,"second":963,"amount":0},{"first":957,"second":948,"amount":0},{"first":957,"second":229,"amount":0},{"first":917,"second":101,"amount":0},{"first":917,"second":121,"amount":-1},{"first":917,"second":117,"amount":0},{"first":917,"second":111,"amount":0},{"first":917,"second":113,"amount":0},{"first":917,"second":100,"amount":0},{"first":917,"second":102,"amount":0},{"first":917,"second":103,"amount":0},{"first":917,"second":119,"amount":0},{"first":917,"second":99,"amount":0},{"first":917,"second":118,"amount":-1},{"first":917,"second":84,"amount":0},{"first":917,"second":1077,"amount":0},{"first":917,"second":1105,"amount":0},{"first":917,"second":1086,"amount":0},{"first":917,"second":1089,"amount":0},{"first":917,"second":1058,"amount":0},{"first":917,"second":1091,"amount":-1},{"first":917,"second":1092,"amount":0},{"first":917,"second":252,"amount":0},{"first":917,"second":246,"amount":0},{"first":917,"second":962,"amount":0},{"first":917,"second":965,"amount":0},{"first":917,"second":959,"amount":0},{"first":917,"second":945,"amount":0},{"first":917,"second":963,"amount":0},{"first":917,"second":947,"amount":-1},{"first":917,"second":957,"amount":-1},{"first":929,"second":97,"amount":0},{"first":929,"second":101,"amount":0},{"first":929,"second":116,"amount":0},{"first":929,"second":121,"amount":0},{"first":929,"second":111,"amount":0},{"first":929,"second":113,"amount":0},{"first":929,"second":100,"amount":0},{"first":929,"second":103,"amount":0},{"first":929,"second":99,"amount":0},{"first":929,"second":118,"amount":0},{"first":929,"second":65,"amount":-3},{"first":929,"second":90,"amount":-1},{"first":929,"second":74,"amount":-4},{"first":929,"second":88,"amount":-1},{"first":929,"second":44,"amount":-7},{"first":929,"second":46,"amount":-7},{"first":929,"second":1040,"amount":-3},{"first":929,"second":1072,"amount":0},{"first":929,"second":1044,"amount":-2},{"first":929,"second":1076,"amount":-1},{"first":929,"second":1077,"amount":0},{"first":929,"second":1105,"amount":0},{"first":929,"second":1046,"amount":-1},{"first":929,"second":1051,"amount":-1},{"first":929,"second":1083,"amount":-1},{"first":929,"second":1086,"amount":0},{"first":929,"second":1089,"amount":0},{"first":929,"second":1091,"amount":0},{"first":929,"second":1092,"amount":0},{"first":929,"second":1061,"amount":-1},{"first":929,"second":246,"amount":0},{"first":929,"second":228,"amount":0},{"first":929,"second":196,"amount":-3},{"first":929,"second":962,"amount":0},{"first":929,"second":961,"amount":-1},{"first":929,"second":959,"amount":0},{"first":929,"second":945,"amount":0},{"first":929,"second":963,"amount":0},{"first":929,"second":948,"amount":0},{"first":929,"second":947,"amount":0},{"first":929,"second":955,"amount":-1},{"first":929,"second":957,"amount":0},{"first":929,"second":913,"amount":-3},{"first":929,"second":916,"amount":-3},{"first":929,"second":923,"amount":-3},{"first":929,"second":918,"amount":-1},{"first":929,"second":935,"amount":-1},{"first":929,"second":229,"amount":0},{"first":929,"second":197,"amount":-3},{"first":929,"second":198,"amount":-2},{"first":932,"second":97,"amount":-2},{"first":932,"second":122,"amount":-1},{"first":932,"second":101,"amount":-2},{"first":932,"second":114,"amount":-2},{"first":932,"second":121,"amount":-1},{"first":932,"second":117,"amount":-2},{"first":932,"second":111,"amount":-2},{"first":932,"second":112,"amount":-2},{"first":932,"second":113,"amount":-2},{"first":932,"second":115,"amount":-2},{"first":932,"second":100,"amount":-2},{"first":932,"second":103,"amount":-2},{"first":932,"second":109,"amount":-2},{"first":932,"second":119,"amount":-1},{"first":932,"second":120,"amount":-2},{"first":932,"second":99,"amount":-2},{"first":932,"second":118,"amount":-1},{"first":932,"second":110,"amount":-2},{"first":932,"second":65,"amount":-2},{"first":932,"second":84,"amount":0},{"first":932,"second":89,"amount":0},{"first":932,"second":79,"amount":-1},{"first":932,"second":81,"amount":-1},{"first":932,"second":83,"amount":0},{"first":932,"second":71,"amount":-1},{"first":932,"second":74,"amount":-5},{"first":932,"second":87,"amount":0},{"first":932,"second":67,"amount":-1},{"first":932,"second":86,"amount":0},{"first":932,"second":45,"amount":-5},{"first":932,"second":8211,"amount":-5},{"first":932,"second":44,"amount":-4},{"first":932,"second":46,"amount":-4},{"first":932,"second":1040,"amount":-2},{"first":932,"second":1072,"amount":-2},{"first":932,"second":1073,"amount":-1},{"first":932,"second":1074,"amount":-2},{"first":932,"second":1075,"amount":-2},{"first":932,"second":1044,"amount":-2},{"first":932,"second":1076,"amount":-3},{"first":932,"second":1077,"amount":-2},{"first":932,"second":1105,"amount":-2},{"first":932,"second":1078,"amount":-2},{"first":932,"second":1079,"amount":-3},{"first":932,"second":1080,"amount":-2},{"first":932,"second":1081,"amount":-2},{"first":932,"second":1082,"amount":-2},{"first":932,"second":1051,"amount":-1},{"first":932,"second":1083,"amount":-3},{"first":932,"second":1084,"amount":-2},{"first":932,"second":1085,"amount":-2},{"first":932,"second":1054,"amount":-1},{"first":932,"second":1086,"amount":-2},{"first":932,"second":1087,"amount":-2},{"first":932,"second":1088,"amount":-2},{"first":932,"second":1057,"amount":-1},{"first":932,"second":1089,"amount":-2},{"first":932,"second":1058,"amount":0},{"first":932,"second":1090,"amount":-2},{"first":932,"second":1091,"amount":-1},{"first":932,"second":1092,"amount":-2},{"first":932,"second":1093,"amount":-2},{"first":932,"second":1094,"amount":-2},{"first":932,"second":1095,"amount":-3},{"first":932,"second":1096,"amount":-2},{"first":932,"second":1097,"amount":-2},{"first":932,"second":1099,"amount":-3},{"first":932,"second":1068,"amount":0},{"first":932,"second":1100,"amount":-2},{"first":932,"second":1101,"amount":-3},{"first":932,"second":1102,"amount":-2},{"first":932,"second":1103,"amount":-3},{"first":932,"second":252,"amount":-2},{"first":932,"second":246,"amount":-2},{"first":932,"second":214,"amount":-1},{"first":932,"second":228,"amount":-2},{"first":932,"second":196,"amount":-2},{"first":932,"second":241,"amount":-2},{"first":932,"second":962,"amount":-2},{"first":932,"second":949,"amount":-3},{"first":932,"second":961,"amount":-3},{"first":932,"second":964,"amount":-2},{"first":932,"second":965,"amount":-2},{"first":932,"second":953,"amount":-3},{"first":932,"second":959,"amount":-2},{"first":932,"second":960,"amount":-2},{"first":932,"second":945,"amount":-2},{"first":932,"second":963,"amount":-2},{"first":932,"second":948,"amount":-1},{"first":932,"second":966,"amount":-3},{"first":932,"second":947,"amount":-1},{"first":932,"second":951,"amount":-2},{"first":932,"second":968,"amount":-3},{"first":932,"second":969,"amount":-3},{"first":932,"second":957,"amount":-1},{"first":932,"second":933,"amount":0},{"first":932,"second":920,"amount":-1},{"first":932,"second":927,"amount":-1},{"first":932,"second":913,"amount":-2},{"first":932,"second":916,"amount":-2},{"first":932,"second":934,"amount":-2},{"first":932,"second":923,"amount":-2},{"first":932,"second":229,"amount":-2},{"first":932,"second":197,"amount":-2},{"first":932,"second":230,"amount":-2},{"first":932,"second":198,"amount":-4},{"first":932,"second":248,"amount":-2},{"first":932,"second":216,"amount":-1},{"first":933,"second":97,"amount":-1},{"first":933,"second":122,"amount":-1},{"first":933,"second":101,"amount":-1},{"first":933,"second":114,"amount":-1},{"first":933,"second":116,"amount":0},{"first":933,"second":121,"amount":0},{"first":933,"second":117,"amount":-1},{"first":933,"second":111,"amount":-1},{"first":933,"second":112,"amount":-1},{"first":933,"second":113,"amount":-1},{"first":933,"second":115,"amount":-1},{"first":933,"second":100,"amount":-1},{"first":933,"second":102,"amount":0},{"first":933,"second":103,"amount":-1},{"first":933,"second":109,"amount":-1},{"first":933,"second":120,"amount":0},{"first":933,"second":99,"amount":-1},{"first":933,"second":118,"amount":0},{"first":933,"second":110,"amount":-1},{"first":933,"second":65,"amount":-2},{"first":933,"second":84,"amount":0},{"first":933,"second":89,"amount":0},{"first":933,"second":85,"amount":-2},{"first":933,"second":79,"amount":-1},{"first":933,"second":81,"amount":-1},{"first":933,"second":83,"amount":0},{"first":933,"second":71,"amount":-1},{"first":933,"second":74,"amount":-2},{"first":933,"second":87,"amount":0},{"first":933,"second":88,"amount":0},{"first":933,"second":67,"amount":-1},{"first":933,"second":86,"amount":0},{"first":933,"second":42,"amount":-1},{"first":933,"second":45,"amount":-1},{"first":933,"second":8211,"amount":-1},{"first":933,"second":44,"amount":-4},{"first":933,"second":46,"amount":-4},{"first":933,"second":125,"amount":0},{"first":933,"second":41,"amount":0},{"first":933,"second":93,"amount":0},{"first":933,"second":38,"amount":-1},{"first":933,"second":1040,"amount":-2},{"first":933,"second":1072,"amount":-1},{"first":933,"second":1075,"amount":-1},{"first":933,"second":1077,"amount":-1},{"first":933,"second":1105,"amount":-1},{"first":933,"second":1046,"amount":0},{"first":933,"second":1078,"amount":0},{"first":933,"second":1080,"amount":-1},{"first":933,"second":1081,"amount":-1},{"first":933,"second":1082,"amount":-1},{"first":933,"second":1084,"amount":-1},{"first":933,"second":1085,"amount":-1},{"first":933,"second":1054,"amount":-1},{"first":933,"second":1086,"amount":-1},{"first":933,"second":1087,"amount":-1},{"first":933,"second":1088,"amount":-1},{"first":933,"second":1057,"amount":-1},{"first":933,"second":1089,"amount":-1},{"first":933,"second":1058,"amount":0},{"first":933,"second":1091,"amount":0},{"first":933,"second":1092,"amount":-1},{"first":933,"second":1061,"amount":0},{"first":933,"second":1093,"amount":0},{"first":933,"second":1094,"amount":-1},{"first":933,"second":1096,"amount":-1},{"first":933,"second":1097,"amount":-1},{"first":933,"second":1100,"amount":-1},{"first":933,"second":1102,"amount":-1},{"first":933,"second":252,"amount":-1},{"first":933,"second":220,"amount":-2},{"first":933,"second":246,"amount":-1},{"first":933,"second":214,"amount":-1},{"first":933,"second":228,"amount":-1},{"first":933,"second":196,"amount":-2},{"first":933,"second":241,"amount":-1},{"first":933,"second":962,"amount":-1},{"first":933,"second":949,"amount":-1},{"first":933,"second":961,"amount":-1},{"first":933,"second":964,"amount":0},{"first":933,"second":965,"amount":-1},{"first":933,"second":952,"amount":0},{"first":933,"second":953,"amount":-1},{"first":933,"second":959,"amount":-1},{"first":933,"second":960,"amount":0},{"first":933,"second":945,"amount":-1},{"first":933,"second":963,"amount":-1},{"first":933,"second":948,"amount":0},{"first":933,"second":966,"amount":-1},{"first":933,"second":947,"amount":0},{"first":933,"second":951,"amount":-1},{"first":933,"second":950,"amount":0},{"first":933,"second":968,"amount":-1},{"first":933,"second":969,"amount":-1},{"first":933,"second":946,"amount":0},{"first":933,"second":957,"amount":0},{"first":933,"second":933,"amount":0},{"first":933,"second":920,"amount":-1},{"first":933,"second":927,"amount":-1},{"first":933,"second":913,"amount":-2},{"first":933,"second":916,"amount":-2},{"first":933,"second":934,"amount":-1},{"first":933,"second":923,"amount":-2},{"first":933,"second":935,"amount":0},{"first":933,"second":229,"amount":-1},{"first":933,"second":197,"amount":-2},{"first":933,"second":230,"amount":-1},{"first":933,"second":198,"amount":-2},{"first":933,"second":248,"amount":-1},{"first":933,"second":216,"amount":-1},{"first":920,"second":65,"amount":0},{"first":920,"second":90,"amount":0},{"first":920,"second":84,"amount":-1},{"first":920,"second":89,"amount":-1},{"first":920,"second":88,"amount":0},{"first":920,"second":86,"amount":0},{"first":920,"second":44,"amount":-2},{"first":920,"second":46,"amount":-2},{"first":920,"second":1040,"amount":0},{"first":920,"second":1044,"amount":-1},{"first":920,"second":1046,"amount":0},{"first":920,"second":1051,"amount":-1},{"first":920,"second":1058,"amount":-1},{"first":920,"second":1061,"amount":0},{"first":920,"second":1068,"amount":-1},{"first":920,"second":196,"amount":0},{"first":920,"second":955,"amount":0},{"first":920,"second":933,"amount":-1},{"first":920,"second":913,"amount":0},{"first":920,"second":931,"amount":0},{"first":920,"second":916,"amount":0},{"first":920,"second":926,"amount":0},{"first":920,"second":923,"amount":0},{"first":920,"second":918,"amount":0},{"first":920,"second":935,"amount":0},{"first":920,"second":197,"amount":0},{"first":920,"second":198,"amount":-1},{"first":921,"second":65,"amount":0},{"first":921,"second":84,"amount":-1},{"first":921,"second":89,"amount":-1},{"first":921,"second":88,"amount":0},{"first":921,"second":1040,"amount":0},{"first":921,"second":1044,"amount":0},{"first":921,"second":1076,"amount":0},{"first":921,"second":1046,"amount":0},{"first":921,"second":1051,"amount":0},{"first":921,"second":1083,"amount":0},{"first":921,"second":1058,"amount":-1},{"first":921,"second":1061,"amount":0},{"first":921,"second":1063,"amount":-1},{"first":921,"second":1095,"amount":-1},{"first":921,"second":196,"amount":0},{"first":921,"second":933,"amount":-1},{"first":921,"second":913,"amount":0},{"first":921,"second":916,"amount":0},{"first":921,"second":923,"amount":0},{"first":921,"second":935,"amount":0},{"first":921,"second":197,"amount":0},{"first":927,"second":65,"amount":0},{"first":927,"second":90,"amount":0},{"first":927,"second":84,"amount":-1},{"first":927,"second":89,"amount":-1},{"first":927,"second":88,"amount":0},{"first":927,"second":86,"amount":0},{"first":927,"second":44,"amount":-2},{"first":927,"second":46,"amount":-2},{"first":927,"second":1040,"amount":0},{"first":927,"second":1044,"amount":-1},{"first":927,"second":1046,"amount":0},{"first":927,"second":1051,"amount":-1},{"first":927,"second":1058,"amount":-1},{"first":927,"second":1061,"amount":0},{"first":927,"second":1068,"amount":-1},{"first":927,"second":196,"amount":0},{"first":927,"second":955,"amount":0},{"first":927,"second":933,"amount":-1},{"first":927,"second":913,"amount":0},{"first":927,"second":931,"amount":0},{"first":927,"second":916,"amount":0},{"first":927,"second":926,"amount":0},{"first":927,"second":923,"amount":0},{"first":927,"second":918,"amount":0},{"first":927,"second":935,"amount":0},{"first":927,"second":197,"amount":0},{"first":927,"second":198,"amount":-1},{"first":913,"second":122,"amount":0},{"first":913,"second":116,"amount":0},{"first":913,"second":121,"amount":-1},{"first":913,"second":117,"amount":0},{"first":913,"second":111,"amount":0},{"first":913,"second":119,"amount":-1},{"first":913,"second":118,"amount":-1},{"first":913,"second":84,"amount":-3},{"first":913,"second":89,"amount":-2},{"first":913,"second":85,"amount":0},{"first":913,"second":79,"amount":0},{"first":913,"second":81,"amount":0},{"first":913,"second":71,"amount":0},{"first":913,"second":87,"amount":-1},{"first":913,"second":67,"amount":0},{"first":913,"second":86,"amount":-2},{"first":913,"second":63,"amount":-1},{"first":913,"second":34,"amount":-2},{"first":913,"second":39,"amount":-2},{"first":913,"second":1044,"amount":0},{"first":913,"second":1051,"amount":0},{"first":913,"second":1083,"amount":0},{"first":913,"second":1054,"amount":0},{"first":913,"second":1086,"amount":0},{"first":913,"second":1057,"amount":0},{"first":913,"second":1058,"amount":-3},{"first":913,"second":1090,"amount":-1},{"first":913,"second":1091,"amount":-1},{"first":913,"second":1063,"amount":-1},{"first":913,"second":1095,"amount":-2},{"first":913,"second":1068,"amount":-1},{"first":913,"second":252,"amount":0},{"first":913,"second":220,"amount":0},{"first":913,"second":246,"amount":0},{"first":913,"second":214,"amount":0},{"first":913,"second":964,"amount":-1},{"first":913,"second":965,"amount":0},{"first":913,"second":959,"amount":0},{"first":913,"second":947,"amount":-1},{"first":913,"second":955,"amount":0},{"first":913,"second":957,"amount":-1},{"first":913,"second":933,"amount":-2},{"first":913,"second":920,"amount":0},{"first":913,"second":927,"amount":0},{"first":913,"second":934,"amount":-1},{"first":913,"second":936,"amount":-1},{"first":913,"second":216,"amount":0},{"first":931,"second":79,"amount":-1},{"first":931,"second":81,"amount":-1},{"first":931,"second":71,"amount":-1},{"first":931,"second":67,"amount":-1},{"first":931,"second":1054,"amount":-1},{"first":931,"second":1057,"amount":-1},{"first":931,"second":214,"amount":-1},{"first":931,"second":955,"amount":0},{"first":931,"second":920,"amount":-1},{"first":931,"second":927,"amount":-1},{"first":931,"second":934,"amount":-1},{"first":931,"second":216,"amount":-1},{"first":916,"second":122,"amount":0},{"first":916,"second":116,"amount":0},{"first":916,"second":121,"amount":-1},{"first":916,"second":117,"amount":0},{"first":916,"second":111,"amount":0},{"first":916,"second":119,"amount":-1},{"first":916,"second":118,"amount":-1},{"first":916,"second":84,"amount":-3},{"first":916,"second":89,"amount":-2},{"first":916,"second":85,"amount":0},{"first":916,"second":79,"amount":0},{"first":916,"second":81,"amount":0},{"first":916,"second":71,"amount":0},{"first":916,"second":87,"amount":-1},{"first":916,"second":67,"amount":0},{"first":916,"second":86,"amount":-2},{"first":916,"second":63,"amount":-1},{"first":916,"second":34,"amount":-2},{"first":916,"second":39,"amount":-2},{"first":916,"second":1044,"amount":0},{"first":916,"second":1051,"amount":0},{"first":916,"second":1083,"amount":0},{"first":916,"second":1054,"amount":0},{"first":916,"second":1086,"amount":0},{"first":916,"second":1057,"amount":0},{"first":916,"second":1058,"amount":-3},{"first":916,"second":1090,"amount":-1},{"first":916,"second":1091,"amount":-1},{"first":916,"second":1063,"amount":-1},{"first":916,"second":1095,"amount":-2},{"first":916,"second":1068,"amount":-1},{"first":916,"second":252,"amount":0},{"first":916,"second":220,"amount":0},{"first":916,"second":246,"amount":0},{"first":916,"second":214,"amount":0},{"first":916,"second":964,"amount":-1},{"first":916,"second":965,"amount":0},{"first":916,"second":959,"amount":0},{"first":916,"second":947,"amount":-1},{"first":916,"second":955,"amount":0},{"first":916,"second":957,"amount":-1},{"first":916,"second":933,"amount":-2},{"first":916,"second":920,"amount":0},{"first":916,"second":927,"amount":0},{"first":916,"second":934,"amount":-1},{"first":916,"second":936,"amount":-1},{"first":916,"second":216,"amount":0},{"first":934,"second":65,"amount":-1},{"first":934,"second":89,"amount":-1},{"first":934,"second":88,"amount":-1},{"first":934,"second":1040,"amount":-1},{"first":934,"second":1046,"amount":-1},{"first":934,"second":1061,"amount":-1},{"first":934,"second":196,"amount":-1},{"first":934,"second":955,"amount":-1},{"first":934,"second":933,"amount":-1},{"first":934,"second":913,"amount":-1},{"first":934,"second":916,"amount":-1},{"first":934,"second":923,"amount":-1},{"first":934,"second":935,"amount":-1},{"first":934,"second":197,"amount":-1},{"first":915,"second":97,"amount":-4},{"first":915,"second":122,"amount":-3},{"first":915,"second":101,"amount":-4},{"first":915,"second":114,"amount":-3},{"first":915,"second":121,"amount":-3},{"first":915,"second":117,"amount":-4},{"first":915,"second":111,"amount":-4},{"first":915,"second":112,"amount":-4},{"first":915,"second":113,"amount":-4},{"first":915,"second":115,"amount":-4},{"first":915,"second":100,"amount":-4},{"first":915,"second":103,"amount":-4},{"first":915,"second":109,"amount":-4},{"first":915,"second":119,"amount":-2},{"first":915,"second":120,"amount":-3},{"first":915,"second":99,"amount":-4},{"first":915,"second":118,"amount":-3},{"first":915,"second":110,"amount":-4},{"first":915,"second":65,"amount":-4},{"first":915,"second":84,"amount":0},{"first":915,"second":89,"amount":0},{"first":915,"second":79,"amount":-1},{"first":915,"second":81,"amount":-1},{"first":915,"second":83,"amount":-1},{"first":915,"second":71,"amount":-1},{"first":915,"second":87,"amount":0},{"first":915,"second":67,"amount":-1},{"first":915,"second":86,"amount":0},{"first":915,"second":45,"amount":-8},{"first":915,"second":8211,"amount":-8},{"first":915,"second":44,"amount":-8},{"first":915,"second":46,"amount":-8},{"first":915,"second":1040,"amount":-4},{"first":915,"second":1072,"amount":-4},{"first":915,"second":1073,"amount":-1},{"first":915,"second":1074,"amount":-4},{"first":915,"second":1075,"amount":-4},{"first":915,"second":1044,"amount":-4},{"first":915,"second":1076,"amount":-5},{"first":915,"second":1077,"amount":-4},{"first":915,"second":1105,"amount":-4},{"first":915,"second":1078,"amount":-3},{"first":915,"second":1079,"amount":-5},{"first":915,"second":1080,"amount":-4},{"first":915,"second":1081,"amount":-4},{"first":915,"second":1082,"amount":-4},{"first":915,"second":1051,"amount":-2},{"first":915,"second":1083,"amount":-5},{"first":915,"second":1084,"amount":-4},{"first":915,"second":1085,"amount":-4},{"first":915,"second":1054,"amount":-1},{"first":915,"second":1086,"amount":-4},{"first":915,"second":1087,"amount":-4},{"first":915,"second":1088,"amount":-4},{"first":915,"second":1057,"amount":-1},{"first":915,"second":1089,"amount":-4},{"first":915,"second":1058,"amount":0},{"first":915,"second":1090,"amount":-3},{"first":915,"second":1091,"amount":-3},{"first":915,"second":1092,"amount":-4},{"first":915,"second":1093,"amount":-3},{"first":915,"second":1094,"amount":-4},{"first":915,"second":1095,"amount":-5},{"first":915,"second":1096,"amount":-4},{"first":915,"second":1097,"amount":-4},{"first":915,"second":1099,"amount":-5},{"first":915,"second":1068,"amount":0},{"first":915,"second":1100,"amount":-4},{"first":915,"second":1101,"amount":-5},{"first":915,"second":1102,"amount":-4},{"first":915,"second":1103,"amount":-5},{"first":915,"second":252,"amount":-4},{"first":915,"second":246,"amount":-4},{"first":915,"second":214,"amount":-1},{"first":915,"second":228,"amount":-4},{"first":915,"second":196,"amount":-4},{"first":915,"second":241,"amount":-4},{"first":915,"second":962,"amount":-4},{"first":915,"second":949,"amount":-5},{"first":915,"second":961,"amount":-6},{"first":915,"second":964,"amount":-4},{"first":915,"second":965,"amount":-4},{"first":915,"second":953,"amount":-6},{"first":915,"second":959,"amount":-4},{"first":915,"second":960,"amount":-5},{"first":915,"second":945,"amount":-4},{"first":915,"second":963,"amount":-4},{"first":915,"second":948,"amount":-2},{"first":915,"second":966,"amount":-6},{"first":915,"second":947,"amount":-3},{"first":915,"second":951,"amount":-4},{"first":915,"second":968,"amount":-5},{"first":915,"second":969,"amount":-6},{"first":915,"second":957,"amount":-3},{"first":915,"second":933,"amount":0},{"first":915,"second":920,"amount":-1},{"first":915,"second":927,"amount":-1},{"first":915,"second":913,"amount":-4},{"first":915,"second":916,"amount":-4},{"first":915,"second":934,"amount":-3},{"first":915,"second":923,"amount":-4},{"first":915,"second":229,"amount":-4},{"first":915,"second":197,"amount":-4},{"first":915,"second":230,"amount":-4},{"first":915,"second":198,"amount":-7},{"first":915,"second":248,"amount":-4},{"first":915,"second":216,"amount":-1},{"first":919,"second":65,"amount":0},{"first":919,"second":84,"amount":-1},{"first":919,"second":89,"amount":-1},{"first":919,"second":88,"amount":0},{"first":919,"second":1040,"amount":0},{"first":919,"second":1044,"amount":0},{"first":919,"second":1076,"amount":0},{"first":919,"second":1046,"amount":0},{"first":919,"second":1051,"amount":0},{"first":919,"second":1083,"amount":0},{"first":919,"second":1058,"amount":-1},{"first":919,"second":1061,"amount":0},{"first":919,"second":1063,"amount":-1},{"first":919,"second":1095,"amount":-1},{"first":919,"second":196,"amount":0},{"first":919,"second":933,"amount":-1},{"first":919,"second":913,"amount":0},{"first":919,"second":916,"amount":0},{"first":919,"second":923,"amount":0},{"first":919,"second":935,"amount":0},{"first":919,"second":197,"amount":0},{"first":926,"second":79,"amount":0},{"first":926,"second":81,"amount":0},{"first":926,"second":71,"amount":0},{"first":926,"second":67,"amount":0},{"first":926,"second":1054,"amount":0},{"first":926,"second":1057,"amount":0},{"first":926,"second":214,"amount":0},{"first":926,"second":955,"amount":0},{"first":926,"second":920,"amount":0},{"first":926,"second":927,"amount":0},{"first":926,"second":216,"amount":0},{"first":922,"second":101,"amount":-1},{"first":922,"second":121,"amount":-1},{"first":922,"second":117,"amount":0},{"first":922,"second":111,"amount":-1},{"first":922,"second":112,"amount":0},{"first":922,"second":113,"amount":-1},{"first":922,"second":100,"amount":-1},{"first":922,"second":103,"amount":-1},{"first":922,"second":109,"amount":0},{"first":922,"second":119,"amount":-1},{"first":922,"second":99,"amount":-1},{"first":922,"second":118,"amount":-1},{"first":922,"second":110,"amount":0},{"first":922,"second":79,"amount":-1},{"first":922,"second":81,"amount":-1},{"first":922,"second":71,"amount":-1},{"first":922,"second":67,"amount":-1},{"first":922,"second":45,"amount":-1},{"first":922,"second":8211,"amount":-1},{"first":922,"second":1073,"amount":-1},{"first":922,"second":1075,"amount":0},{"first":922,"second":1077,"amount":-1},{"first":922,"second":1105,"amount":-1},{"first":922,"second":1080,"amount":0},{"first":922,"second":1081,"amount":0},{"first":922,"second":1082,"amount":0},{"first":922,"second":1084,"amount":0},{"first":922,"second":1085,"amount":0},{"first":922,"second":1054,"amount":-1},{"first":922,"second":1086,"amount":-1},{"first":922,"second":1087,"amount":0},{"first":922,"second":1088,"amount":0},{"first":922,"second":1057,"amount":-1},{"first":922,"second":1089,"amount":-1},{"first":922,"second":1090,"amount":-1},{"first":922,"second":1091,"amount":-1},{"first":922,"second":1092,"amount":-1},{"first":922,"second":1094,"amount":0},{"first":922,"second":1095,"amount":-2},{"first":922,"second":1096,"amount":0},{"first":922,"second":1097,"amount":0},{"first":922,"second":1100,"amount":0},{"first":922,"second":1102,"amount":0},{"first":922,"second":252,"amount":0},{"first":922,"second":246,"amount":-1},{"first":922,"second":214,"amount":-1},{"first":922,"second":241,"amount":0},{"first":922,"second":962,"amount":-1},{"first":922,"second":964,"amount":-2},{"first":922,"second":965,"amount":0},{"first":922,"second":959,"amount":-1},{"first":922,"second":945,"amount":-1},{"first":922,"second":963,"amount":-1},{"first":922,"second":947,"amount":-1},{"first":922,"second":951,"amount":0},{"first":922,"second":957,"amount":-1},{"first":922,"second":920,"amount":-1},{"first":922,"second":927,"amount":-1},{"first":922,"second":934,"amount":-1},{"first":922,"second":216,"amount":-1},{"first":923,"second":122,"amount":0},{"first":923,"second":116,"amount":0},{"first":923,"second":121,"amount":-1},{"first":923,"second":117,"amount":0},{"first":923,"second":111,"amount":0},{"first":923,"second":119,"amount":-1},{"first":923,"second":118,"amount":-1},{"first":923,"second":84,"amount":-3},{"first":923,"second":89,"amount":-2},{"first":923,"second":85,"amount":0},{"first":923,"second":79,"amount":0},{"first":923,"second":81,"amount":0},{"first":923,"second":71,"amount":0},{"first":923,"second":87,"amount":-1},{"first":923,"second":67,"amount":0},{"first":923,"second":86,"amount":-2},{"first":923,"second":63,"amount":-1},{"first":923,"second":34,"amount":-2},{"first":923,"second":39,"amount":-2},{"first":923,"second":1044,"amount":0},{"first":923,"second":1051,"amount":0},{"first":923,"second":1083,"amount":0},{"first":923,"second":1054,"amount":0},{"first":923,"second":1086,"amount":0},{"first":923,"second":1057,"amount":0},{"first":923,"second":1058,"amount":-3},{"first":923,"second":1090,"amount":-1},{"first":923,"second":1091,"amount":-1},{"first":923,"second":1063,"amount":-1},{"first":923,"second":1095,"amount":-2},{"first":923,"second":1068,"amount":-1},{"first":923,"second":252,"amount":0},{"first":923,"second":220,"amount":0},{"first":923,"second":246,"amount":0},{"first":923,"second":214,"amount":0},{"first":923,"second":964,"amount":-1},{"first":923,"second":965,"amount":0},{"first":923,"second":959,"amount":0},{"first":923,"second":947,"amount":-1},{"first":923,"second":955,"amount":0},{"first":923,"second":957,"amount":-1},{"first":923,"second":933,"amount":-2},{"first":923,"second":920,"amount":0},{"first":923,"second":927,"amount":0},{"first":923,"second":934,"amount":-1},{"first":923,"second":936,"amount":-1},{"first":923,"second":216,"amount":0},{"first":918,"second":101,"amount":0},{"first":918,"second":121,"amount":-1},{"first":918,"second":117,"amount":0},{"first":918,"second":111,"amount":0},{"first":918,"second":113,"amount":0},{"first":918,"second":100,"amount":0},{"first":918,"second":103,"amount":0},{"first":918,"second":119,"amount":-1},{"first":918,"second":99,"amount":0},{"first":918,"second":118,"amount":-1},{"first":918,"second":65,"amount":0},{"first":918,"second":79,"amount":-1},{"first":918,"second":81,"amount":-1},{"first":918,"second":71,"amount":-1},{"first":918,"second":67,"amount":-1},{"first":918,"second":1040,"amount":0},{"first":918,"second":1077,"amount":0},{"first":918,"second":1105,"amount":0},{"first":918,"second":1054,"amount":-1},{"first":918,"second":1086,"amount":0},{"first":918,"second":1057,"amount":-1},{"first":918,"second":1089,"amount":0},{"first":918,"second":1091,"amount":-1},{"first":918,"second":1092,"amount":0},{"first":918,"second":252,"amount":0},{"first":918,"second":246,"amount":0},{"first":918,"second":214,"amount":-1},{"first":918,"second":196,"amount":0},{"first":918,"second":962,"amount":0},{"first":918,"second":965,"amount":0},{"first":918,"second":959,"amount":0},{"first":918,"second":945,"amount":0},{"first":918,"second":963,"amount":0},{"first":918,"second":947,"amount":-1},{"first":918,"second":968,"amount":-1},{"first":918,"second":957,"amount":-1},{"first":918,"second":920,"amount":-1},{"first":918,"second":927,"amount":-1},{"first":918,"second":913,"amount":0},{"first":918,"second":916,"amount":0},{"first":918,"second":934,"amount":-1},{"first":918,"second":923,"amount":0},{"first":918,"second":197,"amount":0},{"first":918,"second":216,"amount":-1},{"first":935,"second":101,"amount":-1},{"first":935,"second":121,"amount":-1},{"first":935,"second":117,"amount":0},{"first":935,"second":111,"amount":0},{"first":935,"second":113,"amount":-1},{"first":935,"second":100,"amount":-1},{"first":935,"second":103,"amount":-1},{"first":935,"second":99,"amount":-1},{"first":935,"second":118,"amount":-1},{"first":935,"second":79,"amount":-1},{"first":935,"second":81,"amount":-1},{"first":935,"second":71,"amount":-1},{"first":935,"second":67,"amount":-1},{"first":935,"second":86,"amount":0},{"first":935,"second":45,"amount":-1},{"first":935,"second":8211,"amount":-1},{"first":935,"second":1073,"amount":0},{"first":935,"second":1044,"amount":0},{"first":935,"second":1077,"amount":-1},{"first":935,"second":1105,"amount":-1},{"first":935,"second":1051,"amount":0},{"first":935,"second":1083,"amount":0},{"first":935,"second":1054,"amount":-1},{"first":935,"second":1086,"amount":0},{"first":935,"second":1057,"amount":-1},{"first":935,"second":1089,"amount":-1},{"first":935,"second":1090,"amount":-1},{"first":935,"second":1091,"amount":-1},{"first":935,"second":1092,"amount":-1},{"first":935,"second":1095,"amount":-1},{"first":935,"second":252,"amount":0},{"first":935,"second":246,"amount":0},{"first":935,"second":214,"amount":-1},{"first":935,"second":962,"amount":-1},{"first":935,"second":964,"amount":-1},{"first":935,"second":965,"amount":0},{"first":935,"second":952,"amount":0},{"first":935,"second":959,"amount":0},{"first":935,"second":945,"amount":-1},{"first":935,"second":963,"amount":-1},{"first":935,"second":948,"amount":0},{"first":935,"second":966,"amount":-1},{"first":935,"second":947,"amount":-1},{"first":935,"second":955,"amount":0},{"first":935,"second":968,"amount":-1},{"first":935,"second":969,"amount":0},{"first":935,"second":957,"amount":-1},{"first":935,"second":920,"amount":-1},{"first":935,"second":927,"amount":-1},{"first":935,"second":934,"amount":-1},{"first":935,"second":216,"amount":-1},{"first":936,"second":65,"amount":-1},{"first":936,"second":44,"amount":-5},{"first":936,"second":46,"amount":-5},{"first":936,"second":1040,"amount":-1},{"first":936,"second":196,"amount":-1},{"first":936,"second":961,"amount":0},{"first":936,"second":913,"amount":-1},{"first":936,"second":916,"amount":-1},{"first":936,"second":923,"amount":-1},{"first":936,"second":197,"amount":-1},{"first":914,"second":84,"amount":-1},{"first":914,"second":89,"amount":-1},{"first":914,"second":86,"amount":0},{"first":914,"second":1058,"amount":-1},{"first":914,"second":1059,"amount":0},{"first":914,"second":933,"amount":-1},{"first":925,"second":65,"amount":0},{"first":925,"second":84,"amount":-1},{"first":925,"second":89,"amount":-1},{"first":925,"second":88,"amount":0},{"first":925,"second":1040,"amount":0},{"first":925,"second":1044,"amount":0},{"first":925,"second":1076,"amount":0},{"first":925,"second":1046,"amount":0},{"first":925,"second":1051,"amount":0},{"first":925,"second":1083,"amount":0},{"first":925,"second":1058,"amount":-1},{"first":925,"second":1061,"amount":0},{"first":925,"second":1063,"amount":-1},{"first":925,"second":1095,"amount":-1},{"first":925,"second":196,"amount":0},{"first":925,"second":933,"amount":-1},{"first":925,"second":913,"amount":0},{"first":925,"second":916,"amount":0},{"first":925,"second":923,"amount":0},{"first":925,"second":935,"amount":0},{"first":925,"second":197,"amount":0},{"first":924,"second":65,"amount":0},{"first":924,"second":84,"amount":-1},{"first":924,"second":89,"amount":-1},{"first":924,"second":88,"amount":0},{"first":924,"second":1040,"amount":0},{"first":924,"second":1044,"amount":0},{"first":924,"second":1076,"amount":0},{"first":924,"second":1046,"amount":0},{"first":924,"second":1051,"amount":0},{"first":924,"second":1083,"amount":0},{"first":924,"second":1058,"amount":-1},{"first":924,"second":1061,"amount":0},{"first":924,"second":1063,"amount":-1},{"first":924,"second":1095,"amount":-1},{"first":924,"second":196,"amount":0},{"first":924,"second":933,"amount":-1},{"first":924,"second":913,"amount":0},{"first":924,"second":916,"amount":0},{"first":924,"second":923,"amount":0},{"first":924,"second":935,"amount":0},{"first":924,"second":197,"amount":0},{"first":229,"second":121,"amount":0},{"first":229,"second":118,"amount":0},{"first":229,"second":34,"amount":-1},{"first":229,"second":39,"amount":-1},{"first":229,"second":1090,"amount":0},{"first":229,"second":1091,"amount":0},{"first":229,"second":947,"amount":0},{"first":229,"second":957,"amount":0},{"first":197,"second":122,"amount":0},{"first":197,"second":116,"amount":0},{"first":197,"second":121,"amount":-1},{"first":197,"second":117,"amount":0},{"first":197,"second":111,"amount":0},{"first":197,"second":119,"amount":-1},{"first":197,"second":118,"amount":-1},{"first":197,"second":84,"amount":-3},{"first":197,"second":89,"amount":-2},{"first":197,"second":85,"amount":0},{"first":197,"second":79,"amount":0},{"first":197,"second":81,"amount":0},{"first":197,"second":71,"amount":0},{"first":197,"second":87,"amount":-1},{"first":197,"second":67,"amount":0},{"first":197,"second":86,"amount":-2},{"first":197,"second":63,"amount":-1},{"first":197,"second":34,"amount":-2},{"first":197,"second":39,"amount":-2},{"first":197,"second":1044,"amount":0},{"first":197,"second":1051,"amount":0},{"first":197,"second":1083,"amount":0},{"first":197,"second":1054,"amount":0},{"first":197,"second":1086,"amount":0},{"first":197,"second":1057,"amount":0},{"first":197,"second":1058,"amount":-3},{"first":197,"second":1090,"amount":-1},{"first":197,"second":1091,"amount":-1},{"first":197,"second":1063,"amount":-1},{"first":197,"second":1095,"amount":-2},{"first":197,"second":1068,"amount":-1},{"first":197,"second":252,"amount":0},{"first":197,"second":220,"amount":0},{"first":197,"second":246,"amount":0},{"first":197,"second":214,"amount":0},{"first":197,"second":964,"amount":-1},{"first":197,"second":965,"amount":0},{"first":197,"second":959,"amount":0},{"first":197,"second":947,"amount":-1},{"first":197,"second":955,"amount":0},{"first":197,"second":957,"amount":-1},{"first":197,"second":933,"amount":-2},{"first":197,"second":920,"amount":0},{"first":197,"second":927,"amount":0},{"first":197,"second":934,"amount":-1},{"first":197,"second":936,"amount":-1},{"first":197,"second":216,"amount":0}]}
+
+/***/ }),
+/* 35 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/5a41f46a5020bc8f41ff554d0d890ad3.png");
+
+/***/ }),
+/* 36 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/a9f6d0014baf114abe73a92038ed7fa5.jpg");
+
+/***/ }),
+/* 37 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/77ddc1cf118f8ea8116c22d2fa81a2ad.jpg");
+
+/***/ }),
+/* 38 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/a070aff21a8d61f0e44522dde67fe84b.jpg");
+
+/***/ }),
+/* 39 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/95baf5432f1f5f51abf00bf0c540be6d.mp4");
+
+/***/ }),
+/* 40 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/33da880ab4767e4e53b2ee94f4834395.mp4");
+
+/***/ }),
+/* 41 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/7b184305f60f22b53d7aeda2de337a13.mp4");
+
+/***/ }),
+/* 42 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   TextureLoader: () => (/* binding */ TextureLoader)
+/* harmony export */ });
+/* harmony import */ var _ImageLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55);
+/* harmony import */ var _textures_Texture_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
+/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
+
+
+
+
+class TextureLoader extends _Loader_js__WEBPACK_IMPORTED_MODULE_0__.Loader {
+
+	constructor( manager ) {
+
+		super( manager );
+
+	}
+
+	load( url, onLoad, onProgress, onError ) {
+
+		const texture = new _textures_Texture_js__WEBPACK_IMPORTED_MODULE_1__.Texture();
+
+		const loader = new _ImageLoader_js__WEBPACK_IMPORTED_MODULE_2__.ImageLoader( this.manager );
+		loader.setCrossOrigin( this.crossOrigin );
+		loader.setPath( this.path );
+
+		loader.load( url, function ( image ) {
+
+			texture.image = image;
+			texture.needsUpdate = true;
+
+			if ( onLoad !== undefined ) {
+
+				onLoad( texture );
+
+			}
+
+		}, onProgress, onError );
+
+		return texture;
+
+	}
+
+}
+
+
+
+
+
+/***/ }),
+/* 43 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Loader: () => (/* binding */ Loader)
+/* harmony export */ });
+/* harmony import */ var _LoadingManager_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+
+
+class Loader {
+
+	constructor( manager ) {
+
+		this.manager = ( manager !== undefined ) ? manager : _LoadingManager_js__WEBPACK_IMPORTED_MODULE_0__.DefaultLoadingManager;
+
+		this.crossOrigin = 'anonymous';
+		this.withCredentials = false;
+		this.path = '';
+		this.resourcePath = '';
+		this.requestHeader = {};
+
+	}
+
+	load( /* url, onLoad, onProgress, onError */ ) {}
+
+	loadAsync( url, onProgress ) {
+
+		const scope = this;
+
+		return new Promise( function ( resolve, reject ) {
+
+			scope.load( url, resolve, onProgress, reject );
+
+		} );
+
+	}
+
+	parse( /* data */ ) {}
+
+	setCrossOrigin( crossOrigin ) {
+
+		this.crossOrigin = crossOrigin;
+		return this;
+
+	}
+
+	setWithCredentials( value ) {
+
+		this.withCredentials = value;
+		return this;
+
+	}
+
+	setPath( path ) {
+
+		this.path = path;
+		return this;
+
+	}
+
+	setResourcePath( resourcePath ) {
+
+		this.resourcePath = resourcePath;
+		return this;
+
+	}
+
+	setRequestHeader( requestHeader ) {
+
+		this.requestHeader = requestHeader;
+		return this;
+
+	}
+
+}
+
+Loader.DEFAULT_MATERIAL_NAME = '__DEFAULT';
+
+
+
+
+/***/ }),
+/* 44 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   DefaultLoadingManager: () => (/* binding */ DefaultLoadingManager),
+/* harmony export */   LoadingManager: () => (/* binding */ LoadingManager)
+/* harmony export */ });
+class LoadingManager {
+
+	constructor( onLoad, onProgress, onError ) {
+
+		const scope = this;
+
+		let isLoading = false;
+		let itemsLoaded = 0;
+		let itemsTotal = 0;
+		let urlModifier = undefined;
+		const handlers = [];
+
+		// Refer to #5689 for the reason why we don't set .onStart
+		// in the constructor
+
+		this.onStart = undefined;
+		this.onLoad = onLoad;
+		this.onProgress = onProgress;
+		this.onError = onError;
+
+		this.itemStart = function ( url ) {
+
+			itemsTotal ++;
+
+			if ( isLoading === false ) {
+
+				if ( scope.onStart !== undefined ) {
+
+					scope.onStart( url, itemsLoaded, itemsTotal );
+
+				}
+
+			}
+
+			isLoading = true;
+
+		};
+
+		this.itemEnd = function ( url ) {
+
+			itemsLoaded ++;
+
+			if ( scope.onProgress !== undefined ) {
+
+				scope.onProgress( url, itemsLoaded, itemsTotal );
+
+			}
+
+			if ( itemsLoaded === itemsTotal ) {
+
+				isLoading = false;
+
+				if ( scope.onLoad !== undefined ) {
+
+					scope.onLoad();
+
+				}
+
+			}
+
+		};
+
+		this.itemError = function ( url ) {
+
+			if ( scope.onError !== undefined ) {
+
+				scope.onError( url );
+
+			}
+
+		};
+
+		this.resolveURL = function ( url ) {
+
+			if ( urlModifier ) {
+
+				return urlModifier( url );
+
+			}
+
+			return url;
+
+		};
+
+		this.setURLModifier = function ( transform ) {
+
+			urlModifier = transform;
+
+			return this;
+
+		};
+
+		this.addHandler = function ( regex, loader ) {
+
+			handlers.push( regex, loader );
+
+			return this;
+
+		};
+
+		this.removeHandler = function ( regex ) {
+
+			const index = handlers.indexOf( regex );
+
+			if ( index !== - 1 ) {
+
+				handlers.splice( index, 2 );
+
+			}
+
+			return this;
+
+		};
+
+		this.getHandler = function ( file ) {
+
+			for ( let i = 0, l = handlers.length; i < l; i += 2 ) {
+
+				const regex = handlers[ i ];
+				const loader = handlers[ i + 1 ];
+
+				if ( regex.global ) regex.lastIndex = 0; // see #17920
+
+				if ( regex.test( file ) ) {
+
+					return loader;
+
+				}
+
+			}
+
+			return null;
+
+		};
+
+	}
+
+}
+
+const DefaultLoadingManager = /*@__PURE__*/ new LoadingManager();
+
+
+
+
+/***/ }),
+/* 45 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Texture: () => (/* binding */ Texture)
+/* harmony export */ });
+/* harmony import */ var _core_EventDispatcher_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(46);
+/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(48);
+/* harmony import */ var _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(54);
+/* harmony import */ var _math_Matrix3_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(53);
+/* harmony import */ var _Source_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(49);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(51);
+
+
+
+
+
+
+
+
+let _textureId = 0;
+
+class Texture extends _core_EventDispatcher_js__WEBPACK_IMPORTED_MODULE_0__.EventDispatcher {
+
+	constructor( image = Texture.DEFAULT_IMAGE, mapping = Texture.DEFAULT_MAPPING, wrapS = _constants_js__WEBPACK_IMPORTED_MODULE_1__.ClampToEdgeWrapping, wrapT = _constants_js__WEBPACK_IMPORTED_MODULE_1__.ClampToEdgeWrapping, magFilter = _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearFilter, minFilter = _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearMipmapLinearFilter, format = _constants_js__WEBPACK_IMPORTED_MODULE_1__.RGBAFormat, type = _constants_js__WEBPACK_IMPORTED_MODULE_1__.UnsignedByteType, anisotropy = Texture.DEFAULT_ANISOTROPY, colorSpace = _constants_js__WEBPACK_IMPORTED_MODULE_1__.NoColorSpace ) {
+
+		super();
+
+		this.isTexture = true;
+
+		Object.defineProperty( this, 'id', { value: _textureId ++ } );
+
+		this.uuid = _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_2__.generateUUID();
+
+		this.name = '';
+
+		this.source = new _Source_js__WEBPACK_IMPORTED_MODULE_3__.Source( image );
+		this.mipmaps = [];
+
+		this.mapping = mapping;
+		this.channel = 0;
+
+		this.wrapS = wrapS;
+		this.wrapT = wrapT;
+
+		this.magFilter = magFilter;
+		this.minFilter = minFilter;
+
+		this.anisotropy = anisotropy;
+
+		this.format = format;
+		this.internalFormat = null;
+		this.type = type;
+
+		this.offset = new _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__.Vector2( 0, 0 );
+		this.repeat = new _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__.Vector2( 1, 1 );
+		this.center = new _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__.Vector2( 0, 0 );
+		this.rotation = 0;
+
+		this.matrixAutoUpdate = true;
+		this.matrix = new _math_Matrix3_js__WEBPACK_IMPORTED_MODULE_5__.Matrix3();
+
+		this.generateMipmaps = true;
+		this.premultiplyAlpha = false;
+		this.flipY = true;
+		this.unpackAlignment = 4;	// valid values: 1, 2, 4, 8 (see http://www.khronos.org/opengles/sdk/docs/man/xhtml/glPixelStorei.xml)
+
+		if ( typeof colorSpace === 'string' ) {
+
+			this.colorSpace = colorSpace;
+
+		} else { // @deprecated, r152
+
+			(0,_utils_js__WEBPACK_IMPORTED_MODULE_6__.warnOnce)( 'THREE.Texture: Property .encoding has been replaced by .colorSpace.' );
+			this.colorSpace = colorSpace === _constants_js__WEBPACK_IMPORTED_MODULE_1__.sRGBEncoding ? _constants_js__WEBPACK_IMPORTED_MODULE_1__.SRGBColorSpace : _constants_js__WEBPACK_IMPORTED_MODULE_1__.NoColorSpace;
+
+		}
+
+
+		this.userData = {};
+
+		this.version = 0;
+		this.onUpdate = null;
+
+		this.isRenderTargetTexture = false; // indicates whether a texture belongs to a render target or not
+		this.needsPMREMUpdate = false; // indicates whether this texture should be processed by PMREMGenerator or not (only relevant for render target textures)
+
+	}
+
+	get image() {
+
+		return this.source.data;
+
+	}
+
+	set image( value = null ) {
+
+		this.source.data = value;
+
+	}
+
+	updateMatrix() {
+
+		this.matrix.setUvTransform( this.offset.x, this.offset.y, this.repeat.x, this.repeat.y, this.rotation, this.center.x, this.center.y );
+
+	}
+
+	clone() {
+
+		return new this.constructor().copy( this );
+
+	}
+
+	copy( source ) {
+
+		this.name = source.name;
+
+		this.source = source.source;
+		this.mipmaps = source.mipmaps.slice( 0 );
+
+		this.mapping = source.mapping;
+		this.channel = source.channel;
+
+		this.wrapS = source.wrapS;
+		this.wrapT = source.wrapT;
+
+		this.magFilter = source.magFilter;
+		this.minFilter = source.minFilter;
+
+		this.anisotropy = source.anisotropy;
+
+		this.format = source.format;
+		this.internalFormat = source.internalFormat;
+		this.type = source.type;
+
+		this.offset.copy( source.offset );
+		this.repeat.copy( source.repeat );
+		this.center.copy( source.center );
+		this.rotation = source.rotation;
+
+		this.matrixAutoUpdate = source.matrixAutoUpdate;
+		this.matrix.copy( source.matrix );
+
+		this.generateMipmaps = source.generateMipmaps;
+		this.premultiplyAlpha = source.premultiplyAlpha;
+		this.flipY = source.flipY;
+		this.unpackAlignment = source.unpackAlignment;
+		this.colorSpace = source.colorSpace;
+
+		this.userData = JSON.parse( JSON.stringify( source.userData ) );
+
+		this.needsUpdate = true;
+
+		return this;
+
+	}
+
+	toJSON( meta ) {
+
+		const isRootObject = ( meta === undefined || typeof meta === 'string' );
+
+		if ( ! isRootObject && meta.textures[ this.uuid ] !== undefined ) {
+
+			return meta.textures[ this.uuid ];
+
+		}
+
+		const output = {
+
+			metadata: {
+				version: 4.6,
+				type: 'Texture',
+				generator: 'Texture.toJSON'
+			},
+
+			uuid: this.uuid,
+			name: this.name,
+
+			image: this.source.toJSON( meta ).uuid,
+
+			mapping: this.mapping,
+			channel: this.channel,
+
+			repeat: [ this.repeat.x, this.repeat.y ],
+			offset: [ this.offset.x, this.offset.y ],
+			center: [ this.center.x, this.center.y ],
+			rotation: this.rotation,
+
+			wrap: [ this.wrapS, this.wrapT ],
+
+			format: this.format,
+			internalFormat: this.internalFormat,
+			type: this.type,
+			colorSpace: this.colorSpace,
+
+			minFilter: this.minFilter,
+			magFilter: this.magFilter,
+			anisotropy: this.anisotropy,
+
+			flipY: this.flipY,
+
+			generateMipmaps: this.generateMipmaps,
+			premultiplyAlpha: this.premultiplyAlpha,
+			unpackAlignment: this.unpackAlignment
+
+		};
+
+		if ( Object.keys( this.userData ).length > 0 ) output.userData = this.userData;
+
+		if ( ! isRootObject ) {
+
+			meta.textures[ this.uuid ] = output;
+
+		}
+
+		return output;
+
+	}
+
+	dispose() {
+
+		this.dispatchEvent( { type: 'dispose' } );
+
+	}
+
+	transformUv( uv ) {
+
+		if ( this.mapping !== _constants_js__WEBPACK_IMPORTED_MODULE_1__.UVMapping ) return uv;
+
+		uv.applyMatrix3( this.matrix );
+
+		if ( uv.x < 0 || uv.x > 1 ) {
+
+			switch ( this.wrapS ) {
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.RepeatWrapping:
+
+					uv.x = uv.x - Math.floor( uv.x );
+					break;
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.ClampToEdgeWrapping:
+
+					uv.x = uv.x < 0 ? 0 : 1;
+					break;
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.MirroredRepeatWrapping:
+
+					if ( Math.abs( Math.floor( uv.x ) % 2 ) === 1 ) {
+
+						uv.x = Math.ceil( uv.x ) - uv.x;
+
+					} else {
+
+						uv.x = uv.x - Math.floor( uv.x );
+
+					}
+
+					break;
+
+			}
+
+		}
+
+		if ( uv.y < 0 || uv.y > 1 ) {
+
+			switch ( this.wrapT ) {
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.RepeatWrapping:
+
+					uv.y = uv.y - Math.floor( uv.y );
+					break;
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.ClampToEdgeWrapping:
+
+					uv.y = uv.y < 0 ? 0 : 1;
+					break;
+
+				case _constants_js__WEBPACK_IMPORTED_MODULE_1__.MirroredRepeatWrapping:
+
+					if ( Math.abs( Math.floor( uv.y ) % 2 ) === 1 ) {
+
+						uv.y = Math.ceil( uv.y ) - uv.y;
+
+					} else {
+
+						uv.y = uv.y - Math.floor( uv.y );
+
+					}
+
+					break;
+
+			}
+
+		}
+
+		if ( this.flipY ) {
+
+			uv.y = 1 - uv.y;
+
+		}
+
+		return uv;
+
+	}
+
+	set needsUpdate( value ) {
+
+		if ( value === true ) {
+
+			this.version ++;
+			this.source.needsUpdate = true;
+
+		}
+
+	}
+
+	get encoding() { // @deprecated, r152
+
+		(0,_utils_js__WEBPACK_IMPORTED_MODULE_6__.warnOnce)( 'THREE.Texture: Property .encoding has been replaced by .colorSpace.' );
+		return this.colorSpace === _constants_js__WEBPACK_IMPORTED_MODULE_1__.SRGBColorSpace ? _constants_js__WEBPACK_IMPORTED_MODULE_1__.sRGBEncoding : _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearEncoding;
+
+	}
+
+	set encoding( encoding ) { // @deprecated, r152
+
+		(0,_utils_js__WEBPACK_IMPORTED_MODULE_6__.warnOnce)( 'THREE.Texture: Property .encoding has been replaced by .colorSpace.' );
+		this.colorSpace = encoding === _constants_js__WEBPACK_IMPORTED_MODULE_1__.sRGBEncoding ? _constants_js__WEBPACK_IMPORTED_MODULE_1__.SRGBColorSpace : _constants_js__WEBPACK_IMPORTED_MODULE_1__.NoColorSpace;
+
+	}
+
+}
+
+Texture.DEFAULT_IMAGE = null;
+Texture.DEFAULT_MAPPING = _constants_js__WEBPACK_IMPORTED_MODULE_1__.UVMapping;
+Texture.DEFAULT_ANISOTROPY = 1;
+
+
+
+
+/***/ }),
+/* 46 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   EventDispatcher: () => (/* binding */ EventDispatcher)
+/* harmony export */ });
+/**
+ * https://github.com/mrdoob/eventdispatcher.js/
+ */
+
+class EventDispatcher {
+
+	addEventListener( type, listener ) {
+
+		if ( this._listeners === undefined ) this._listeners = {};
+
+		const listeners = this._listeners;
+
+		if ( listeners[ type ] === undefined ) {
+
+			listeners[ type ] = [];
+
+		}
+
+		if ( listeners[ type ].indexOf( listener ) === - 1 ) {
+
+			listeners[ type ].push( listener );
+
+		}
+
+	}
+
+	hasEventListener( type, listener ) {
+
+		if ( this._listeners === undefined ) return false;
+
+		const listeners = this._listeners;
+
+		return listeners[ type ] !== undefined && listeners[ type ].indexOf( listener ) !== - 1;
+
+	}
+
+	removeEventListener( type, listener ) {
+
+		if ( this._listeners === undefined ) return;
+
+		const listeners = this._listeners;
+		const listenerArray = listeners[ type ];
+
+		if ( listenerArray !== undefined ) {
+
+			const index = listenerArray.indexOf( listener );
+
+			if ( index !== - 1 ) {
+
+				listenerArray.splice( index, 1 );
+
+			}
+
+		}
+
+	}
+
+	dispatchEvent( event ) {
+
+		if ( this._listeners === undefined ) return;
+
+		const listeners = this._listeners;
+		const listenerArray = listeners[ event.type ];
+
+		if ( listenerArray !== undefined ) {
+
+			event.target = this;
+
+			// Make a copy, in case listeners are removed while iterating.
+			const array = listenerArray.slice( 0 );
+
+			for ( let i = 0, l = array.length; i < l; i ++ ) {
+
+				array[ i ].call( this, event );
+
+			}
+
+			event.target = null;
+
+		}
+
+	}
+
+}
+
+
+
+
+
+/***/ }),
+/* 47 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ACESFilmicToneMapping: () => (/* binding */ ACESFilmicToneMapping),
+/* harmony export */   AddEquation: () => (/* binding */ AddEquation),
+/* harmony export */   AddOperation: () => (/* binding */ AddOperation),
+/* harmony export */   AdditiveAnimationBlendMode: () => (/* binding */ AdditiveAnimationBlendMode),
+/* harmony export */   AdditiveBlending: () => (/* binding */ AdditiveBlending),
+/* harmony export */   AlphaFormat: () => (/* binding */ AlphaFormat),
+/* harmony export */   AlwaysCompare: () => (/* binding */ AlwaysCompare),
+/* harmony export */   AlwaysDepth: () => (/* binding */ AlwaysDepth),
+/* harmony export */   AlwaysStencilFunc: () => (/* binding */ AlwaysStencilFunc),
+/* harmony export */   BackSide: () => (/* binding */ BackSide),
+/* harmony export */   BasicDepthPacking: () => (/* binding */ BasicDepthPacking),
+/* harmony export */   BasicShadowMap: () => (/* binding */ BasicShadowMap),
+/* harmony export */   ByteType: () => (/* binding */ ByteType),
+/* harmony export */   CineonToneMapping: () => (/* binding */ CineonToneMapping),
+/* harmony export */   ClampToEdgeWrapping: () => (/* binding */ ClampToEdgeWrapping),
+/* harmony export */   CubeReflectionMapping: () => (/* binding */ CubeReflectionMapping),
+/* harmony export */   CubeRefractionMapping: () => (/* binding */ CubeRefractionMapping),
+/* harmony export */   CubeUVReflectionMapping: () => (/* binding */ CubeUVReflectionMapping),
+/* harmony export */   CullFaceBack: () => (/* binding */ CullFaceBack),
+/* harmony export */   CullFaceFront: () => (/* binding */ CullFaceFront),
+/* harmony export */   CullFaceFrontBack: () => (/* binding */ CullFaceFrontBack),
+/* harmony export */   CullFaceNone: () => (/* binding */ CullFaceNone),
+/* harmony export */   CustomBlending: () => (/* binding */ CustomBlending),
+/* harmony export */   CustomToneMapping: () => (/* binding */ CustomToneMapping),
+/* harmony export */   DecrementStencilOp: () => (/* binding */ DecrementStencilOp),
+/* harmony export */   DecrementWrapStencilOp: () => (/* binding */ DecrementWrapStencilOp),
+/* harmony export */   DepthFormat: () => (/* binding */ DepthFormat),
+/* harmony export */   DepthStencilFormat: () => (/* binding */ DepthStencilFormat),
+/* harmony export */   DisplayP3ColorSpace: () => (/* binding */ DisplayP3ColorSpace),
+/* harmony export */   DoubleSide: () => (/* binding */ DoubleSide),
+/* harmony export */   DstAlphaFactor: () => (/* binding */ DstAlphaFactor),
+/* harmony export */   DstColorFactor: () => (/* binding */ DstColorFactor),
+/* harmony export */   DynamicCopyUsage: () => (/* binding */ DynamicCopyUsage),
+/* harmony export */   DynamicDrawUsage: () => (/* binding */ DynamicDrawUsage),
+/* harmony export */   DynamicReadUsage: () => (/* binding */ DynamicReadUsage),
+/* harmony export */   EqualCompare: () => (/* binding */ EqualCompare),
+/* harmony export */   EqualDepth: () => (/* binding */ EqualDepth),
+/* harmony export */   EqualStencilFunc: () => (/* binding */ EqualStencilFunc),
+/* harmony export */   EquirectangularReflectionMapping: () => (/* binding */ EquirectangularReflectionMapping),
+/* harmony export */   EquirectangularRefractionMapping: () => (/* binding */ EquirectangularRefractionMapping),
+/* harmony export */   FloatType: () => (/* binding */ FloatType),
+/* harmony export */   FrontSide: () => (/* binding */ FrontSide),
+/* harmony export */   GLSL1: () => (/* binding */ GLSL1),
+/* harmony export */   GLSL3: () => (/* binding */ GLSL3),
+/* harmony export */   GreaterCompare: () => (/* binding */ GreaterCompare),
+/* harmony export */   GreaterDepth: () => (/* binding */ GreaterDepth),
+/* harmony export */   GreaterEqualCompare: () => (/* binding */ GreaterEqualCompare),
+/* harmony export */   GreaterEqualDepth: () => (/* binding */ GreaterEqualDepth),
+/* harmony export */   GreaterEqualStencilFunc: () => (/* binding */ GreaterEqualStencilFunc),
+/* harmony export */   GreaterStencilFunc: () => (/* binding */ GreaterStencilFunc),
+/* harmony export */   HalfFloatType: () => (/* binding */ HalfFloatType),
+/* harmony export */   IncrementStencilOp: () => (/* binding */ IncrementStencilOp),
+/* harmony export */   IncrementWrapStencilOp: () => (/* binding */ IncrementWrapStencilOp),
+/* harmony export */   IntType: () => (/* binding */ IntType),
+/* harmony export */   InterpolateDiscrete: () => (/* binding */ InterpolateDiscrete),
+/* harmony export */   InterpolateLinear: () => (/* binding */ InterpolateLinear),
+/* harmony export */   InterpolateSmooth: () => (/* binding */ InterpolateSmooth),
+/* harmony export */   InvertStencilOp: () => (/* binding */ InvertStencilOp),
+/* harmony export */   KeepStencilOp: () => (/* binding */ KeepStencilOp),
+/* harmony export */   LessCompare: () => (/* binding */ LessCompare),
+/* harmony export */   LessDepth: () => (/* binding */ LessDepth),
+/* harmony export */   LessEqualCompare: () => (/* binding */ LessEqualCompare),
+/* harmony export */   LessEqualDepth: () => (/* binding */ LessEqualDepth),
+/* harmony export */   LessEqualStencilFunc: () => (/* binding */ LessEqualStencilFunc),
+/* harmony export */   LessStencilFunc: () => (/* binding */ LessStencilFunc),
+/* harmony export */   LinearDisplayP3ColorSpace: () => (/* binding */ LinearDisplayP3ColorSpace),
+/* harmony export */   LinearEncoding: () => (/* binding */ LinearEncoding),
+/* harmony export */   LinearFilter: () => (/* binding */ LinearFilter),
+/* harmony export */   LinearMipMapLinearFilter: () => (/* binding */ LinearMipMapLinearFilter),
+/* harmony export */   LinearMipMapNearestFilter: () => (/* binding */ LinearMipMapNearestFilter),
+/* harmony export */   LinearMipmapLinearFilter: () => (/* binding */ LinearMipmapLinearFilter),
+/* harmony export */   LinearMipmapNearestFilter: () => (/* binding */ LinearMipmapNearestFilter),
+/* harmony export */   LinearSRGBColorSpace: () => (/* binding */ LinearSRGBColorSpace),
+/* harmony export */   LinearToneMapping: () => (/* binding */ LinearToneMapping),
+/* harmony export */   LoopOnce: () => (/* binding */ LoopOnce),
+/* harmony export */   LoopPingPong: () => (/* binding */ LoopPingPong),
+/* harmony export */   LoopRepeat: () => (/* binding */ LoopRepeat),
+/* harmony export */   LuminanceAlphaFormat: () => (/* binding */ LuminanceAlphaFormat),
+/* harmony export */   LuminanceFormat: () => (/* binding */ LuminanceFormat),
+/* harmony export */   MOUSE: () => (/* binding */ MOUSE),
+/* harmony export */   MaxEquation: () => (/* binding */ MaxEquation),
+/* harmony export */   MinEquation: () => (/* binding */ MinEquation),
+/* harmony export */   MirroredRepeatWrapping: () => (/* binding */ MirroredRepeatWrapping),
+/* harmony export */   MixOperation: () => (/* binding */ MixOperation),
+/* harmony export */   MultiplyBlending: () => (/* binding */ MultiplyBlending),
+/* harmony export */   MultiplyOperation: () => (/* binding */ MultiplyOperation),
+/* harmony export */   NearestFilter: () => (/* binding */ NearestFilter),
+/* harmony export */   NearestMipMapLinearFilter: () => (/* binding */ NearestMipMapLinearFilter),
+/* harmony export */   NearestMipMapNearestFilter: () => (/* binding */ NearestMipMapNearestFilter),
+/* harmony export */   NearestMipmapLinearFilter: () => (/* binding */ NearestMipmapLinearFilter),
+/* harmony export */   NearestMipmapNearestFilter: () => (/* binding */ NearestMipmapNearestFilter),
+/* harmony export */   NeverCompare: () => (/* binding */ NeverCompare),
+/* harmony export */   NeverDepth: () => (/* binding */ NeverDepth),
+/* harmony export */   NeverStencilFunc: () => (/* binding */ NeverStencilFunc),
+/* harmony export */   NoBlending: () => (/* binding */ NoBlending),
+/* harmony export */   NoColorSpace: () => (/* binding */ NoColorSpace),
+/* harmony export */   NoToneMapping: () => (/* binding */ NoToneMapping),
+/* harmony export */   NormalAnimationBlendMode: () => (/* binding */ NormalAnimationBlendMode),
+/* harmony export */   NormalBlending: () => (/* binding */ NormalBlending),
+/* harmony export */   NotEqualCompare: () => (/* binding */ NotEqualCompare),
+/* harmony export */   NotEqualDepth: () => (/* binding */ NotEqualDepth),
+/* harmony export */   NotEqualStencilFunc: () => (/* binding */ NotEqualStencilFunc),
+/* harmony export */   ObjectSpaceNormalMap: () => (/* binding */ ObjectSpaceNormalMap),
+/* harmony export */   OneFactor: () => (/* binding */ OneFactor),
+/* harmony export */   OneMinusDstAlphaFactor: () => (/* binding */ OneMinusDstAlphaFactor),
+/* harmony export */   OneMinusDstColorFactor: () => (/* binding */ OneMinusDstColorFactor),
+/* harmony export */   OneMinusSrcAlphaFactor: () => (/* binding */ OneMinusSrcAlphaFactor),
+/* harmony export */   OneMinusSrcColorFactor: () => (/* binding */ OneMinusSrcColorFactor),
+/* harmony export */   PCFShadowMap: () => (/* binding */ PCFShadowMap),
+/* harmony export */   PCFSoftShadowMap: () => (/* binding */ PCFSoftShadowMap),
+/* harmony export */   RED_GREEN_RGTC2_Format: () => (/* binding */ RED_GREEN_RGTC2_Format),
+/* harmony export */   RED_RGTC1_Format: () => (/* binding */ RED_RGTC1_Format),
+/* harmony export */   REVISION: () => (/* binding */ REVISION),
+/* harmony export */   RGBADepthPacking: () => (/* binding */ RGBADepthPacking),
+/* harmony export */   RGBAFormat: () => (/* binding */ RGBAFormat),
+/* harmony export */   RGBAIntegerFormat: () => (/* binding */ RGBAIntegerFormat),
+/* harmony export */   RGBA_ASTC_10x10_Format: () => (/* binding */ RGBA_ASTC_10x10_Format),
+/* harmony export */   RGBA_ASTC_10x5_Format: () => (/* binding */ RGBA_ASTC_10x5_Format),
+/* harmony export */   RGBA_ASTC_10x6_Format: () => (/* binding */ RGBA_ASTC_10x6_Format),
+/* harmony export */   RGBA_ASTC_10x8_Format: () => (/* binding */ RGBA_ASTC_10x8_Format),
+/* harmony export */   RGBA_ASTC_12x10_Format: () => (/* binding */ RGBA_ASTC_12x10_Format),
+/* harmony export */   RGBA_ASTC_12x12_Format: () => (/* binding */ RGBA_ASTC_12x12_Format),
+/* harmony export */   RGBA_ASTC_4x4_Format: () => (/* binding */ RGBA_ASTC_4x4_Format),
+/* harmony export */   RGBA_ASTC_5x4_Format: () => (/* binding */ RGBA_ASTC_5x4_Format),
+/* harmony export */   RGBA_ASTC_5x5_Format: () => (/* binding */ RGBA_ASTC_5x5_Format),
+/* harmony export */   RGBA_ASTC_6x5_Format: () => (/* binding */ RGBA_ASTC_6x5_Format),
+/* harmony export */   RGBA_ASTC_6x6_Format: () => (/* binding */ RGBA_ASTC_6x6_Format),
+/* harmony export */   RGBA_ASTC_8x5_Format: () => (/* binding */ RGBA_ASTC_8x5_Format),
+/* harmony export */   RGBA_ASTC_8x6_Format: () => (/* binding */ RGBA_ASTC_8x6_Format),
+/* harmony export */   RGBA_ASTC_8x8_Format: () => (/* binding */ RGBA_ASTC_8x8_Format),
+/* harmony export */   RGBA_BPTC_Format: () => (/* binding */ RGBA_BPTC_Format),
+/* harmony export */   RGBA_ETC2_EAC_Format: () => (/* binding */ RGBA_ETC2_EAC_Format),
+/* harmony export */   RGBA_PVRTC_2BPPV1_Format: () => (/* binding */ RGBA_PVRTC_2BPPV1_Format),
+/* harmony export */   RGBA_PVRTC_4BPPV1_Format: () => (/* binding */ RGBA_PVRTC_4BPPV1_Format),
+/* harmony export */   RGBA_S3TC_DXT1_Format: () => (/* binding */ RGBA_S3TC_DXT1_Format),
+/* harmony export */   RGBA_S3TC_DXT3_Format: () => (/* binding */ RGBA_S3TC_DXT3_Format),
+/* harmony export */   RGBA_S3TC_DXT5_Format: () => (/* binding */ RGBA_S3TC_DXT5_Format),
+/* harmony export */   RGB_BPTC_SIGNED_Format: () => (/* binding */ RGB_BPTC_SIGNED_Format),
+/* harmony export */   RGB_BPTC_UNSIGNED_Format: () => (/* binding */ RGB_BPTC_UNSIGNED_Format),
+/* harmony export */   RGB_ETC1_Format: () => (/* binding */ RGB_ETC1_Format),
+/* harmony export */   RGB_ETC2_Format: () => (/* binding */ RGB_ETC2_Format),
+/* harmony export */   RGB_PVRTC_2BPPV1_Format: () => (/* binding */ RGB_PVRTC_2BPPV1_Format),
+/* harmony export */   RGB_PVRTC_4BPPV1_Format: () => (/* binding */ RGB_PVRTC_4BPPV1_Format),
+/* harmony export */   RGB_S3TC_DXT1_Format: () => (/* binding */ RGB_S3TC_DXT1_Format),
+/* harmony export */   RGFormat: () => (/* binding */ RGFormat),
+/* harmony export */   RGIntegerFormat: () => (/* binding */ RGIntegerFormat),
+/* harmony export */   RedFormat: () => (/* binding */ RedFormat),
+/* harmony export */   RedIntegerFormat: () => (/* binding */ RedIntegerFormat),
+/* harmony export */   ReinhardToneMapping: () => (/* binding */ ReinhardToneMapping),
+/* harmony export */   RepeatWrapping: () => (/* binding */ RepeatWrapping),
+/* harmony export */   ReplaceStencilOp: () => (/* binding */ ReplaceStencilOp),
+/* harmony export */   ReverseSubtractEquation: () => (/* binding */ ReverseSubtractEquation),
+/* harmony export */   SIGNED_RED_GREEN_RGTC2_Format: () => (/* binding */ SIGNED_RED_GREEN_RGTC2_Format),
+/* harmony export */   SIGNED_RED_RGTC1_Format: () => (/* binding */ SIGNED_RED_RGTC1_Format),
+/* harmony export */   SRGBColorSpace: () => (/* binding */ SRGBColorSpace),
+/* harmony export */   ShortType: () => (/* binding */ ShortType),
+/* harmony export */   SrcAlphaFactor: () => (/* binding */ SrcAlphaFactor),
+/* harmony export */   SrcAlphaSaturateFactor: () => (/* binding */ SrcAlphaSaturateFactor),
+/* harmony export */   SrcColorFactor: () => (/* binding */ SrcColorFactor),
+/* harmony export */   StaticCopyUsage: () => (/* binding */ StaticCopyUsage),
+/* harmony export */   StaticDrawUsage: () => (/* binding */ StaticDrawUsage),
+/* harmony export */   StaticReadUsage: () => (/* binding */ StaticReadUsage),
+/* harmony export */   StreamCopyUsage: () => (/* binding */ StreamCopyUsage),
+/* harmony export */   StreamDrawUsage: () => (/* binding */ StreamDrawUsage),
+/* harmony export */   StreamReadUsage: () => (/* binding */ StreamReadUsage),
+/* harmony export */   SubtractEquation: () => (/* binding */ SubtractEquation),
+/* harmony export */   SubtractiveBlending: () => (/* binding */ SubtractiveBlending),
+/* harmony export */   TOUCH: () => (/* binding */ TOUCH),
+/* harmony export */   TangentSpaceNormalMap: () => (/* binding */ TangentSpaceNormalMap),
+/* harmony export */   TriangleFanDrawMode: () => (/* binding */ TriangleFanDrawMode),
+/* harmony export */   TriangleStripDrawMode: () => (/* binding */ TriangleStripDrawMode),
+/* harmony export */   TrianglesDrawMode: () => (/* binding */ TrianglesDrawMode),
+/* harmony export */   TwoPassDoubleSide: () => (/* binding */ TwoPassDoubleSide),
+/* harmony export */   UVMapping: () => (/* binding */ UVMapping),
+/* harmony export */   UnsignedByteType: () => (/* binding */ UnsignedByteType),
+/* harmony export */   UnsignedInt248Type: () => (/* binding */ UnsignedInt248Type),
+/* harmony export */   UnsignedIntType: () => (/* binding */ UnsignedIntType),
+/* harmony export */   UnsignedShort4444Type: () => (/* binding */ UnsignedShort4444Type),
+/* harmony export */   UnsignedShort5551Type: () => (/* binding */ UnsignedShort5551Type),
+/* harmony export */   UnsignedShortType: () => (/* binding */ UnsignedShortType),
+/* harmony export */   VSMShadowMap: () => (/* binding */ VSMShadowMap),
+/* harmony export */   WebGLCoordinateSystem: () => (/* binding */ WebGLCoordinateSystem),
+/* harmony export */   WebGPUCoordinateSystem: () => (/* binding */ WebGPUCoordinateSystem),
+/* harmony export */   WrapAroundEnding: () => (/* binding */ WrapAroundEnding),
+/* harmony export */   ZeroCurvatureEnding: () => (/* binding */ ZeroCurvatureEnding),
+/* harmony export */   ZeroFactor: () => (/* binding */ ZeroFactor),
+/* harmony export */   ZeroSlopeEnding: () => (/* binding */ ZeroSlopeEnding),
+/* harmony export */   ZeroStencilOp: () => (/* binding */ ZeroStencilOp),
+/* harmony export */   _SRGBAFormat: () => (/* binding */ _SRGBAFormat),
+/* harmony export */   sRGBEncoding: () => (/* binding */ sRGBEncoding)
+/* harmony export */ });
+const REVISION = '156';
+
+const MOUSE = { LEFT: 0, MIDDLE: 1, RIGHT: 2, ROTATE: 0, DOLLY: 1, PAN: 2 };
+const TOUCH = { ROTATE: 0, PAN: 1, DOLLY_PAN: 2, DOLLY_ROTATE: 3 };
+const CullFaceNone = 0;
+const CullFaceBack = 1;
+const CullFaceFront = 2;
+const CullFaceFrontBack = 3;
+const BasicShadowMap = 0;
+const PCFShadowMap = 1;
+const PCFSoftShadowMap = 2;
+const VSMShadowMap = 3;
+const FrontSide = 0;
+const BackSide = 1;
+const DoubleSide = 2;
+const TwoPassDoubleSide = 2; // r149
+const NoBlending = 0;
+const NormalBlending = 1;
+const AdditiveBlending = 2;
+const SubtractiveBlending = 3;
+const MultiplyBlending = 4;
+const CustomBlending = 5;
+const AddEquation = 100;
+const SubtractEquation = 101;
+const ReverseSubtractEquation = 102;
+const MinEquation = 103;
+const MaxEquation = 104;
+const ZeroFactor = 200;
+const OneFactor = 201;
+const SrcColorFactor = 202;
+const OneMinusSrcColorFactor = 203;
+const SrcAlphaFactor = 204;
+const OneMinusSrcAlphaFactor = 205;
+const DstAlphaFactor = 206;
+const OneMinusDstAlphaFactor = 207;
+const DstColorFactor = 208;
+const OneMinusDstColorFactor = 209;
+const SrcAlphaSaturateFactor = 210;
+const NeverDepth = 0;
+const AlwaysDepth = 1;
+const LessDepth = 2;
+const LessEqualDepth = 3;
+const EqualDepth = 4;
+const GreaterEqualDepth = 5;
+const GreaterDepth = 6;
+const NotEqualDepth = 7;
+const MultiplyOperation = 0;
+const MixOperation = 1;
+const AddOperation = 2;
+const NoToneMapping = 0;
+const LinearToneMapping = 1;
+const ReinhardToneMapping = 2;
+const CineonToneMapping = 3;
+const ACESFilmicToneMapping = 4;
+const CustomToneMapping = 5;
+
+const UVMapping = 300;
+const CubeReflectionMapping = 301;
+const CubeRefractionMapping = 302;
+const EquirectangularReflectionMapping = 303;
+const EquirectangularRefractionMapping = 304;
+const CubeUVReflectionMapping = 306;
+const RepeatWrapping = 1000;
+const ClampToEdgeWrapping = 1001;
+const MirroredRepeatWrapping = 1002;
+const NearestFilter = 1003;
+const NearestMipmapNearestFilter = 1004;
+const NearestMipMapNearestFilter = 1004;
+const NearestMipmapLinearFilter = 1005;
+const NearestMipMapLinearFilter = 1005;
+const LinearFilter = 1006;
+const LinearMipmapNearestFilter = 1007;
+const LinearMipMapNearestFilter = 1007;
+const LinearMipmapLinearFilter = 1008;
+const LinearMipMapLinearFilter = 1008;
+const UnsignedByteType = 1009;
+const ByteType = 1010;
+const ShortType = 1011;
+const UnsignedShortType = 1012;
+const IntType = 1013;
+const UnsignedIntType = 1014;
+const FloatType = 1015;
+const HalfFloatType = 1016;
+const UnsignedShort4444Type = 1017;
+const UnsignedShort5551Type = 1018;
+const UnsignedInt248Type = 1020;
+const AlphaFormat = 1021;
+const RGBAFormat = 1023;
+const LuminanceFormat = 1024;
+const LuminanceAlphaFormat = 1025;
+const DepthFormat = 1026;
+const DepthStencilFormat = 1027;
+const RedFormat = 1028;
+const RedIntegerFormat = 1029;
+const RGFormat = 1030;
+const RGIntegerFormat = 1031;
+const RGBAIntegerFormat = 1033;
+
+const RGB_S3TC_DXT1_Format = 33776;
+const RGBA_S3TC_DXT1_Format = 33777;
+const RGBA_S3TC_DXT3_Format = 33778;
+const RGBA_S3TC_DXT5_Format = 33779;
+const RGB_PVRTC_4BPPV1_Format = 35840;
+const RGB_PVRTC_2BPPV1_Format = 35841;
+const RGBA_PVRTC_4BPPV1_Format = 35842;
+const RGBA_PVRTC_2BPPV1_Format = 35843;
+const RGB_ETC1_Format = 36196;
+const RGB_ETC2_Format = 37492;
+const RGBA_ETC2_EAC_Format = 37496;
+const RGBA_ASTC_4x4_Format = 37808;
+const RGBA_ASTC_5x4_Format = 37809;
+const RGBA_ASTC_5x5_Format = 37810;
+const RGBA_ASTC_6x5_Format = 37811;
+const RGBA_ASTC_6x6_Format = 37812;
+const RGBA_ASTC_8x5_Format = 37813;
+const RGBA_ASTC_8x6_Format = 37814;
+const RGBA_ASTC_8x8_Format = 37815;
+const RGBA_ASTC_10x5_Format = 37816;
+const RGBA_ASTC_10x6_Format = 37817;
+const RGBA_ASTC_10x8_Format = 37818;
+const RGBA_ASTC_10x10_Format = 37819;
+const RGBA_ASTC_12x10_Format = 37820;
+const RGBA_ASTC_12x12_Format = 37821;
+const RGBA_BPTC_Format = 36492;
+const RGB_BPTC_SIGNED_Format = 36494;
+const RGB_BPTC_UNSIGNED_Format = 36495;
+const RED_RGTC1_Format = 36283;
+const SIGNED_RED_RGTC1_Format = 36284;
+const RED_GREEN_RGTC2_Format = 36285;
+const SIGNED_RED_GREEN_RGTC2_Format = 36286;
+const LoopOnce = 2200;
+const LoopRepeat = 2201;
+const LoopPingPong = 2202;
+const InterpolateDiscrete = 2300;
+const InterpolateLinear = 2301;
+const InterpolateSmooth = 2302;
+const ZeroCurvatureEnding = 2400;
+const ZeroSlopeEnding = 2401;
+const WrapAroundEnding = 2402;
+const NormalAnimationBlendMode = 2500;
+const AdditiveAnimationBlendMode = 2501;
+const TrianglesDrawMode = 0;
+const TriangleStripDrawMode = 1;
+const TriangleFanDrawMode = 2;
+/** @deprecated Use LinearSRGBColorSpace or NoColorSpace in three.js r152+. */
+const LinearEncoding = 3000;
+/** @deprecated Use SRGBColorSpace in three.js r152+. */
+const sRGBEncoding = 3001;
+const BasicDepthPacking = 3200;
+const RGBADepthPacking = 3201;
+const TangentSpaceNormalMap = 0;
+const ObjectSpaceNormalMap = 1;
+
+// Color space string identifiers, matching CSS Color Module Level 4 and WebGPU names where available.
+const NoColorSpace = '';
+const SRGBColorSpace = 'srgb';
+const LinearSRGBColorSpace = 'srgb-linear';
+const DisplayP3ColorSpace = 'display-p3';
+const LinearDisplayP3ColorSpace = 'display-p3-linear';
+
+const ZeroStencilOp = 0;
+const KeepStencilOp = 7680;
+const ReplaceStencilOp = 7681;
+const IncrementStencilOp = 7682;
+const DecrementStencilOp = 7683;
+const IncrementWrapStencilOp = 34055;
+const DecrementWrapStencilOp = 34056;
+const InvertStencilOp = 5386;
+
+const NeverStencilFunc = 512;
+const LessStencilFunc = 513;
+const EqualStencilFunc = 514;
+const LessEqualStencilFunc = 515;
+const GreaterStencilFunc = 516;
+const NotEqualStencilFunc = 517;
+const GreaterEqualStencilFunc = 518;
+const AlwaysStencilFunc = 519;
+
+const NeverCompare = 512;
+const LessCompare = 513;
+const EqualCompare = 514;
+const LessEqualCompare = 515;
+const GreaterCompare = 516;
+const NotEqualCompare = 517;
+const GreaterEqualCompare = 518;
+const AlwaysCompare = 519;
+
+const StaticDrawUsage = 35044;
+const DynamicDrawUsage = 35048;
+const StreamDrawUsage = 35040;
+const StaticReadUsage = 35045;
+const DynamicReadUsage = 35049;
+const StreamReadUsage = 35041;
+const StaticCopyUsage = 35046;
+const DynamicCopyUsage = 35050;
+const StreamCopyUsage = 35042;
+
+const GLSL1 = '100';
+const GLSL3 = '300 es';
+
+const _SRGBAFormat = 1035; // fallback for WebGL 1
+
+const WebGLCoordinateSystem = 2000;
+const WebGPUCoordinateSystem = 2001;
+
+
+/***/ }),
+/* 48 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   DEG2RAD: () => (/* binding */ DEG2RAD),
+/* harmony export */   MathUtils: () => (/* binding */ MathUtils),
+/* harmony export */   RAD2DEG: () => (/* binding */ RAD2DEG),
+/* harmony export */   ceilPowerOfTwo: () => (/* binding */ ceilPowerOfTwo),
+/* harmony export */   clamp: () => (/* binding */ clamp),
+/* harmony export */   damp: () => (/* binding */ damp),
+/* harmony export */   degToRad: () => (/* binding */ degToRad),
+/* harmony export */   denormalize: () => (/* binding */ denormalize),
+/* harmony export */   euclideanModulo: () => (/* binding */ euclideanModulo),
+/* harmony export */   floorPowerOfTwo: () => (/* binding */ floorPowerOfTwo),
+/* harmony export */   generateUUID: () => (/* binding */ generateUUID),
+/* harmony export */   inverseLerp: () => (/* binding */ inverseLerp),
+/* harmony export */   isPowerOfTwo: () => (/* binding */ isPowerOfTwo),
+/* harmony export */   lerp: () => (/* binding */ lerp),
+/* harmony export */   mapLinear: () => (/* binding */ mapLinear),
+/* harmony export */   normalize: () => (/* binding */ normalize),
+/* harmony export */   pingpong: () => (/* binding */ pingpong),
+/* harmony export */   radToDeg: () => (/* binding */ radToDeg),
+/* harmony export */   randFloat: () => (/* binding */ randFloat),
+/* harmony export */   randFloatSpread: () => (/* binding */ randFloatSpread),
+/* harmony export */   randInt: () => (/* binding */ randInt),
+/* harmony export */   seededRandom: () => (/* binding */ seededRandom),
+/* harmony export */   setQuaternionFromProperEuler: () => (/* binding */ setQuaternionFromProperEuler),
+/* harmony export */   smootherstep: () => (/* binding */ smootherstep),
+/* harmony export */   smoothstep: () => (/* binding */ smoothstep)
+/* harmony export */ });
+const _lut = [ '00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '0a', '0b', '0c', '0d', '0e', '0f', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '1a', '1b', '1c', '1d', '1e', '1f', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '2a', '2b', '2c', '2d', '2e', '2f', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '3a', '3b', '3c', '3d', '3e', '3f', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '4a', '4b', '4c', '4d', '4e', '4f', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '5a', '5b', '5c', '5d', '5e', '5f', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '6a', '6b', '6c', '6d', '6e', '6f', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '7a', '7b', '7c', '7d', '7e', '7f', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '8a', '8b', '8c', '8d', '8e', '8f', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '9a', '9b', '9c', '9d', '9e', '9f', 'a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'ba', 'bb', 'bc', 'bd', 'be', 'bf', 'c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'ca', 'cb', 'cc', 'cd', 'ce', 'cf', 'd0', 'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8', 'd9', 'da', 'db', 'dc', 'dd', 'de', 'df', 'e0', 'e1', 'e2', 'e3', 'e4', 'e5', 'e6', 'e7', 'e8', 'e9', 'ea', 'eb', 'ec', 'ed', 'ee', 'ef', 'f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'fa', 'fb', 'fc', 'fd', 'fe', 'ff' ];
+
+let _seed = 1234567;
+
+
+const DEG2RAD = Math.PI / 180;
+const RAD2DEG = 180 / Math.PI;
+
+// http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/21963136#21963136
+function generateUUID() {
+
+	const d0 = Math.random() * 0xffffffff | 0;
+	const d1 = Math.random() * 0xffffffff | 0;
+	const d2 = Math.random() * 0xffffffff | 0;
+	const d3 = Math.random() * 0xffffffff | 0;
+	const uuid = _lut[ d0 & 0xff ] + _lut[ d0 >> 8 & 0xff ] + _lut[ d0 >> 16 & 0xff ] + _lut[ d0 >> 24 & 0xff ] + '-' +
+			_lut[ d1 & 0xff ] + _lut[ d1 >> 8 & 0xff ] + '-' + _lut[ d1 >> 16 & 0x0f | 0x40 ] + _lut[ d1 >> 24 & 0xff ] + '-' +
+			_lut[ d2 & 0x3f | 0x80 ] + _lut[ d2 >> 8 & 0xff ] + '-' + _lut[ d2 >> 16 & 0xff ] + _lut[ d2 >> 24 & 0xff ] +
+			_lut[ d3 & 0xff ] + _lut[ d3 >> 8 & 0xff ] + _lut[ d3 >> 16 & 0xff ] + _lut[ d3 >> 24 & 0xff ];
+
+	// .toLowerCase() here flattens concatenated strings to save heap memory space.
+	return uuid.toLowerCase();
+
+}
+
+function clamp( value, min, max ) {
+
+	return Math.max( min, Math.min( max, value ) );
+
+}
+
+// compute euclidean modulo of m % n
+// https://en.wikipedia.org/wiki/Modulo_operation
+function euclideanModulo( n, m ) {
+
+	return ( ( n % m ) + m ) % m;
+
+}
+
+// Linear mapping from range <a1, a2> to range <b1, b2>
+function mapLinear( x, a1, a2, b1, b2 ) {
+
+	return b1 + ( x - a1 ) * ( b2 - b1 ) / ( a2 - a1 );
+
+}
+
+// https://www.gamedev.net/tutorials/programming/general-and-gameplay-programming/inverse-lerp-a-super-useful-yet-often-overlooked-function-r5230/
+function inverseLerp( x, y, value ) {
+
+	if ( x !== y ) {
+
+		return ( value - x ) / ( y - x );
+
+	} else {
+
+		return 0;
+
+	}
+
+}
+
+// https://en.wikipedia.org/wiki/Linear_interpolation
+function lerp( x, y, t ) {
+
+	return ( 1 - t ) * x + t * y;
+
+}
+
+// http://www.rorydriscoll.com/2016/03/07/frame-rate-independent-damping-using-lerp/
+function damp( x, y, lambda, dt ) {
+
+	return lerp( x, y, 1 - Math.exp( - lambda * dt ) );
+
+}
+
+// https://www.desmos.com/calculator/vcsjnyz7x4
+function pingpong( x, length = 1 ) {
+
+	return length - Math.abs( euclideanModulo( x, length * 2 ) - length );
+
+}
+
+// http://en.wikipedia.org/wiki/Smoothstep
+function smoothstep( x, min, max ) {
+
+	if ( x <= min ) return 0;
+	if ( x >= max ) return 1;
+
+	x = ( x - min ) / ( max - min );
+
+	return x * x * ( 3 - 2 * x );
+
+}
+
+function smootherstep( x, min, max ) {
+
+	if ( x <= min ) return 0;
+	if ( x >= max ) return 1;
+
+	x = ( x - min ) / ( max - min );
+
+	return x * x * x * ( x * ( x * 6 - 15 ) + 10 );
+
+}
+
+// Random integer from <low, high> interval
+function randInt( low, high ) {
+
+	return low + Math.floor( Math.random() * ( high - low + 1 ) );
+
+}
+
+// Random float from <low, high> interval
+function randFloat( low, high ) {
+
+	return low + Math.random() * ( high - low );
+
+}
+
+// Random float from <-range/2, range/2> interval
+function randFloatSpread( range ) {
+
+	return range * ( 0.5 - Math.random() );
+
+}
+
+// Deterministic pseudo-random float in the interval [ 0, 1 ]
+function seededRandom( s ) {
+
+	if ( s !== undefined ) _seed = s;
+
+	// Mulberry32 generator
+
+	let t = _seed += 0x6D2B79F5;
+
+	t = Math.imul( t ^ t >>> 15, t | 1 );
+
+	t ^= t + Math.imul( t ^ t >>> 7, t | 61 );
+
+	return ( ( t ^ t >>> 14 ) >>> 0 ) / 4294967296;
+
+}
+
+function degToRad( degrees ) {
+
+	return degrees * DEG2RAD;
+
+}
+
+function radToDeg( radians ) {
+
+	return radians * RAD2DEG;
+
+}
+
+function isPowerOfTwo( value ) {
+
+	return ( value & ( value - 1 ) ) === 0 && value !== 0;
+
+}
+
+function ceilPowerOfTwo( value ) {
+
+	return Math.pow( 2, Math.ceil( Math.log( value ) / Math.LN2 ) );
+
+}
+
+function floorPowerOfTwo( value ) {
+
+	return Math.pow( 2, Math.floor( Math.log( value ) / Math.LN2 ) );
+
+}
+
+function setQuaternionFromProperEuler( q, a, b, c, order ) {
+
+	// Intrinsic Proper Euler Angles - see https://en.wikipedia.org/wiki/Euler_angles
+
+	// rotations are applied to the axes in the order specified by 'order'
+	// rotation by angle 'a' is applied first, then by angle 'b', then by angle 'c'
+	// angles are in radians
+
+	const cos = Math.cos;
+	const sin = Math.sin;
+
+	const c2 = cos( b / 2 );
+	const s2 = sin( b / 2 );
+
+	const c13 = cos( ( a + c ) / 2 );
+	const s13 = sin( ( a + c ) / 2 );
+
+	const c1_3 = cos( ( a - c ) / 2 );
+	const s1_3 = sin( ( a - c ) / 2 );
+
+	const c3_1 = cos( ( c - a ) / 2 );
+	const s3_1 = sin( ( c - a ) / 2 );
+
+	switch ( order ) {
+
+		case 'XYX':
+			q.set( c2 * s13, s2 * c1_3, s2 * s1_3, c2 * c13 );
+			break;
+
+		case 'YZY':
+			q.set( s2 * s1_3, c2 * s13, s2 * c1_3, c2 * c13 );
+			break;
+
+		case 'ZXZ':
+			q.set( s2 * c1_3, s2 * s1_3, c2 * s13, c2 * c13 );
+			break;
+
+		case 'XZX':
+			q.set( c2 * s13, s2 * s3_1, s2 * c3_1, c2 * c13 );
+			break;
+
+		case 'YXY':
+			q.set( s2 * c3_1, c2 * s13, s2 * s3_1, c2 * c13 );
+			break;
+
+		case 'ZYZ':
+			q.set( s2 * s3_1, s2 * c3_1, c2 * s13, c2 * c13 );
+			break;
+
+		default:
+			console.warn( 'THREE.MathUtils: .setQuaternionFromProperEuler() encountered an unknown order: ' + order );
+
+	}
+
+}
+
+function denormalize( value, array ) {
+
+	switch ( array.constructor ) {
+
+		case Float32Array:
+
+			return value;
+
+		case Uint32Array:
+
+			return value / 4294967295.0;
+
+		case Uint16Array:
+
+			return value / 65535.0;
+
+		case Uint8Array:
+
+			return value / 255.0;
+
+		case Int32Array:
+
+			return Math.max( value / 2147483647.0, - 1.0 );
+
+		case Int16Array:
+
+			return Math.max( value / 32767.0, - 1.0 );
+
+		case Int8Array:
+
+			return Math.max( value / 127.0, - 1.0 );
+
+		default:
+
+			throw new Error( 'Invalid component type.' );
+
+	}
+
+}
+
+function normalize( value, array ) {
+
+	switch ( array.constructor ) {
+
+		case Float32Array:
+
+			return value;
+
+		case Uint32Array:
+
+			return Math.round( value * 4294967295.0 );
+
+		case Uint16Array:
+
+			return Math.round( value * 65535.0 );
+
+		case Uint8Array:
+
+			return Math.round( value * 255.0 );
+
+		case Int32Array:
+
+			return Math.round( value * 2147483647.0 );
+
+		case Int16Array:
+
+			return Math.round( value * 32767.0 );
+
+		case Int8Array:
+
+			return Math.round( value * 127.0 );
+
+		default:
+
+			throw new Error( 'Invalid component type.' );
+
+	}
+
+}
+
+const MathUtils = {
+	DEG2RAD: DEG2RAD,
+	RAD2DEG: RAD2DEG,
+	generateUUID: generateUUID,
+	clamp: clamp,
+	euclideanModulo: euclideanModulo,
+	mapLinear: mapLinear,
+	inverseLerp: inverseLerp,
+	lerp: lerp,
+	damp: damp,
+	pingpong: pingpong,
+	smoothstep: smoothstep,
+	smootherstep: smootherstep,
+	randInt: randInt,
+	randFloat: randFloat,
+	randFloatSpread: randFloatSpread,
+	seededRandom: seededRandom,
+	degToRad: degToRad,
+	radToDeg: radToDeg,
+	isPowerOfTwo: isPowerOfTwo,
+	ceilPowerOfTwo: ceilPowerOfTwo,
+	floorPowerOfTwo: floorPowerOfTwo,
+	setQuaternionFromProperEuler: setQuaternionFromProperEuler,
+	normalize: normalize,
+	denormalize: denormalize
+};
+
+
+
+
+/***/ }),
+/* 49 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Source: () => (/* binding */ Source)
+/* harmony export */ });
+/* harmony import */ var _extras_ImageUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(50);
+/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(48);
+
+
+
+let sourceId = 0;
+
+class Source {
+
+	constructor( data = null ) {
+
+		this.isSource = true;
+
+		Object.defineProperty( this, 'id', { value: sourceId ++ } );
+
+		this.uuid = _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_0__.generateUUID();
+
+		this.data = data;
+
+		this.version = 0;
+
+	}
+
+	set needsUpdate( value ) {
+
+		if ( value === true ) this.version ++;
+
+	}
+
+	toJSON( meta ) {
+
+		const isRootObject = ( meta === undefined || typeof meta === 'string' );
+
+		if ( ! isRootObject && meta.images[ this.uuid ] !== undefined ) {
+
+			return meta.images[ this.uuid ];
+
+		}
+
+		const output = {
+			uuid: this.uuid,
+			url: ''
+		};
+
+		const data = this.data;
+
+		if ( data !== null ) {
+
+			let url;
+
+			if ( Array.isArray( data ) ) {
+
+				// cube texture
+
+				url = [];
+
+				for ( let i = 0, l = data.length; i < l; i ++ ) {
+
+					if ( data[ i ].isDataTexture ) {
+
+						url.push( serializeImage( data[ i ].image ) );
+
+					} else {
+
+						url.push( serializeImage( data[ i ] ) );
+
+					}
+
+				}
+
+			} else {
+
+				// texture
+
+				url = serializeImage( data );
+
+			}
+
+			output.url = url;
+
+		}
+
+		if ( ! isRootObject ) {
+
+			meta.images[ this.uuid ] = output;
+
+		}
+
+		return output;
+
+	}
+
+}
+
+function serializeImage( image ) {
+
+	if ( ( typeof HTMLImageElement !== 'undefined' && image instanceof HTMLImageElement ) ||
+		( typeof HTMLCanvasElement !== 'undefined' && image instanceof HTMLCanvasElement ) ||
+		( typeof ImageBitmap !== 'undefined' && image instanceof ImageBitmap ) ) {
+
+		// default images
+
+		return _extras_ImageUtils_js__WEBPACK_IMPORTED_MODULE_1__.ImageUtils.getDataURL( image );
+
+	} else {
+
+		if ( image.data ) {
+
+			// images of DataTexture
+
+			return {
+				data: Array.from( image.data ),
+				width: image.width,
+				height: image.height,
+				type: image.data.constructor.name
+			};
+
+		} else {
+
+			console.warn( 'THREE.Texture: Unable to serialize Texture.' );
+			return {};
+
+		}
+
+	}
+
+}
+
+
+
+
+/***/ }),
+/* 50 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImageUtils: () => (/* binding */ ImageUtils)
+/* harmony export */ });
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
+/* harmony import */ var _math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(52);
+
+
+
+let _canvas;
+
+class ImageUtils {
+
+	static getDataURL( image ) {
+
+		if ( /^data:/i.test( image.src ) ) {
+
+			return image.src;
+
+		}
+
+		if ( typeof HTMLCanvasElement === 'undefined' ) {
+
+			return image.src;
+
+		}
+
+		let canvas;
+
+		if ( image instanceof HTMLCanvasElement ) {
+
+			canvas = image;
+
+		} else {
+
+			if ( _canvas === undefined ) _canvas = (0,_utils_js__WEBPACK_IMPORTED_MODULE_0__.createElementNS)( 'canvas' );
+
+			_canvas.width = image.width;
+			_canvas.height = image.height;
+
+			const context = _canvas.getContext( '2d' );
+
+			if ( image instanceof ImageData ) {
+
+				context.putImageData( image, 0, 0 );
+
+			} else {
+
+				context.drawImage( image, 0, 0, image.width, image.height );
+
+			}
+
+			canvas = _canvas;
+
+		}
+
+		if ( canvas.width > 2048 || canvas.height > 2048 ) {
+
+			console.warn( 'THREE.ImageUtils.getDataURL: Image converted to jpg for performance reasons', image );
+
+			return canvas.toDataURL( 'image/jpeg', 0.6 );
+
+		} else {
+
+			return canvas.toDataURL( 'image/png' );
+
+		}
+
+	}
+
+	static sRGBToLinear( image ) {
+
+		if ( ( typeof HTMLImageElement !== 'undefined' && image instanceof HTMLImageElement ) ||
+			( typeof HTMLCanvasElement !== 'undefined' && image instanceof HTMLCanvasElement ) ||
+			( typeof ImageBitmap !== 'undefined' && image instanceof ImageBitmap ) ) {
+
+			const canvas = (0,_utils_js__WEBPACK_IMPORTED_MODULE_0__.createElementNS)( 'canvas' );
+
+			canvas.width = image.width;
+			canvas.height = image.height;
+
+			const context = canvas.getContext( '2d' );
+			context.drawImage( image, 0, 0, image.width, image.height );
+
+			const imageData = context.getImageData( 0, 0, image.width, image.height );
+			const data = imageData.data;
+
+			for ( let i = 0; i < data.length; i ++ ) {
+
+				data[ i ] = (0,_math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__.SRGBToLinear)( data[ i ] / 255 ) * 255;
+
+			}
+
+			context.putImageData( imageData, 0, 0 );
+
+			return canvas;
+
+		} else if ( image.data ) {
+
+			const data = image.data.slice( 0 );
+
+			for ( let i = 0; i < data.length; i ++ ) {
+
+				if ( data instanceof Uint8Array || data instanceof Uint8ClampedArray ) {
+
+					data[ i ] = Math.floor( (0,_math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__.SRGBToLinear)( data[ i ] / 255 ) * 255 );
+
+				} else {
+
+					// assuming float
+
+					data[ i ] = (0,_math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__.SRGBToLinear)( data[ i ] );
+
+				}
+
+			}
+
+			return {
+				data: data,
+				width: image.width,
+				height: image.height
+			};
+
+		} else {
+
+			console.warn( 'THREE.ImageUtils.sRGBToLinear(): Unsupported image type. No color space conversion applied.' );
+			return image;
+
+		}
+
+	}
+
+}
+
+
+
+
+/***/ }),
+/* 51 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   arrayMax: () => (/* binding */ arrayMax),
+/* harmony export */   arrayMin: () => (/* binding */ arrayMin),
+/* harmony export */   arrayNeedsUint32: () => (/* binding */ arrayNeedsUint32),
+/* harmony export */   createCanvasElement: () => (/* binding */ createCanvasElement),
+/* harmony export */   createElementNS: () => (/* binding */ createElementNS),
+/* harmony export */   getTypedArray: () => (/* binding */ getTypedArray),
+/* harmony export */   warnOnce: () => (/* binding */ warnOnce)
+/* harmony export */ });
+function arrayMin( array ) {
+
+	if ( array.length === 0 ) return Infinity;
+
+	let min = array[ 0 ];
+
+	for ( let i = 1, l = array.length; i < l; ++ i ) {
+
+		if ( array[ i ] < min ) min = array[ i ];
+
+	}
+
+	return min;
+
+}
+
+function arrayMax( array ) {
+
+	if ( array.length === 0 ) return - Infinity;
+
+	let max = array[ 0 ];
+
+	for ( let i = 1, l = array.length; i < l; ++ i ) {
+
+		if ( array[ i ] > max ) max = array[ i ];
+
+	}
+
+	return max;
+
+}
+
+function arrayNeedsUint32( array ) {
+
+	// assumes larger values usually on last
+
+	for ( let i = array.length - 1; i >= 0; -- i ) {
+
+		if ( array[ i ] >= 65535 ) return true; // account for PRIMITIVE_RESTART_FIXED_INDEX, #24565
+
+	}
+
+	return false;
+
+}
+
+const TYPED_ARRAYS = {
+	Int8Array: Int8Array,
+	Uint8Array: Uint8Array,
+	Uint8ClampedArray: Uint8ClampedArray,
+	Int16Array: Int16Array,
+	Uint16Array: Uint16Array,
+	Int32Array: Int32Array,
+	Uint32Array: Uint32Array,
+	Float32Array: Float32Array,
+	Float64Array: Float64Array
+};
+
+function getTypedArray( type, buffer ) {
+
+	return new TYPED_ARRAYS[ type ]( buffer );
+
+}
+
+function createElementNS( name ) {
+
+	return document.createElementNS( 'http://www.w3.org/1999/xhtml', name );
+
+}
+
+function createCanvasElement() {
+
+	const canvas = createElementNS( 'canvas' );
+	canvas.style.display = 'block';
+	return canvas;
+
+}
+
+const _cache = {};
+
+function warnOnce( message ) {
+
+	if ( message in _cache ) return;
+
+	_cache[ message ] = true;
+
+	console.warn( message );
+
+}
+
+
+
+
+/***/ }),
+/* 52 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ColorManagement: () => (/* binding */ ColorManagement),
+/* harmony export */   LinearToSRGB: () => (/* binding */ LinearToSRGB),
+/* harmony export */   SRGBToLinear: () => (/* binding */ SRGBToLinear)
+/* harmony export */ });
+/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+/* harmony import */ var _Matrix3_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53);
+
+
+
+function SRGBToLinear( c ) {
+
+	return ( c < 0.04045 ) ? c * 0.0773993808 : Math.pow( c * 0.9478672986 + 0.0521327014, 2.4 );
+
+}
+
+function LinearToSRGB( c ) {
+
+	return ( c < 0.0031308 ) ? c * 12.92 : 1.055 * ( Math.pow( c, 0.41666 ) ) - 0.055;
+
+}
+
+/**
+ * Matrices converting P3 <-> Rec. 709 primaries, without gamut mapping
+ * or clipping. Based on W3C specifications for sRGB and Display P3,
+ * and ICC specifications for the D50 connection space. Values in/out
+ * are _linear_ sRGB and _linear_ Display P3.
+ *
+ * Note that both sRGB and Display P3 use the sRGB transfer functions.
+ *
+ * Reference:
+ * - http://www.russellcottrell.com/photo/matrixCalculator.htm
+ */
+
+const LINEAR_SRGB_TO_LINEAR_DISPLAY_P3 = /*@__PURE__*/ new _Matrix3_js__WEBPACK_IMPORTED_MODULE_0__.Matrix3().fromArray( [
+	0.8224621, 0.0331941, 0.0170827,
+	0.1775380, 0.9668058, 0.0723974,
+	- 0.0000001, 0.0000001, 0.9105199
+] );
+
+const LINEAR_DISPLAY_P3_TO_LINEAR_SRGB = /*@__PURE__*/ new _Matrix3_js__WEBPACK_IMPORTED_MODULE_0__.Matrix3().fromArray( [
+	1.2249401, - 0.0420569, - 0.0196376,
+	- 0.2249404, 1.0420571, - 0.0786361,
+	0.0000001, 0.0000000, 1.0982735
+] );
+
+function DisplayP3ToLinearSRGB( color ) {
+
+	// Display P3 uses the sRGB transfer functions
+	return color.convertSRGBToLinear().applyMatrix3( LINEAR_DISPLAY_P3_TO_LINEAR_SRGB );
+
+}
+
+function LinearSRGBToDisplayP3( color ) {
+
+	// Display P3 uses the sRGB transfer functions
+	return color.applyMatrix3( LINEAR_SRGB_TO_LINEAR_DISPLAY_P3 ).convertLinearToSRGB();
+
+}
+
+// Conversions from <source> to Linear-sRGB reference space.
+const TO_LINEAR = {
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearSRGBColorSpace ]: ( color ) => color,
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.SRGBColorSpace ]: ( color ) => color.convertSRGBToLinear(),
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.DisplayP3ColorSpace ]: DisplayP3ToLinearSRGB,
+};
+
+// Conversions to <target> from Linear-sRGB reference space.
+const FROM_LINEAR = {
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearSRGBColorSpace ]: ( color ) => color,
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.SRGBColorSpace ]: ( color ) => color.convertLinearToSRGB(),
+	[ _constants_js__WEBPACK_IMPORTED_MODULE_1__.DisplayP3ColorSpace ]: LinearSRGBToDisplayP3,
+};
+
+const ColorManagement = {
+
+	enabled: true,
+
+	get legacyMode() {
+
+		console.warn( 'THREE.ColorManagement: .legacyMode=false renamed to .enabled=true in r150.' );
+
+		return ! this.enabled;
+
+	},
+
+	set legacyMode( legacyMode ) {
+
+		console.warn( 'THREE.ColorManagement: .legacyMode=false renamed to .enabled=true in r150.' );
+
+		this.enabled = ! legacyMode;
+
+	},
+
+	get workingColorSpace() {
+
+		return _constants_js__WEBPACK_IMPORTED_MODULE_1__.LinearSRGBColorSpace;
+
+	},
+
+	set workingColorSpace( colorSpace ) {
+
+		console.warn( 'THREE.ColorManagement: .workingColorSpace is readonly.' );
+
+	},
+
+	convert: function ( color, sourceColorSpace, targetColorSpace ) {
+
+		if ( this.enabled === false || sourceColorSpace === targetColorSpace || ! sourceColorSpace || ! targetColorSpace ) {
+
+			return color;
+
+		}
+
+		const sourceToLinear = TO_LINEAR[ sourceColorSpace ];
+		const targetFromLinear = FROM_LINEAR[ targetColorSpace ];
+
+		if ( sourceToLinear === undefined || targetFromLinear === undefined ) {
+
+			throw new Error( `Unsupported color space conversion, "${ sourceColorSpace }" to "${ targetColorSpace }".` );
+
+		}
+
+		return targetFromLinear( sourceToLinear( color ) );
+
+	},
+
+	fromWorkingColorSpace: function ( color, targetColorSpace ) {
+
+		return this.convert( color, this.workingColorSpace, targetColorSpace );
+
+	},
+
+	toWorkingColorSpace: function ( color, sourceColorSpace ) {
+
+		return this.convert( color, sourceColorSpace, this.workingColorSpace );
+
+	},
+
+};
+
+
+/***/ }),
+/* 53 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Matrix3: () => (/* binding */ Matrix3)
+/* harmony export */ });
+class Matrix3 {
+
+	constructor( n11, n12, n13, n21, n22, n23, n31, n32, n33 ) {
+
+		Matrix3.prototype.isMatrix3 = true;
+
+		this.elements = [
+
+			1, 0, 0,
+			0, 1, 0,
+			0, 0, 1
+
+		];
+
+		if ( n11 !== undefined ) {
+
+			this.set( n11, n12, n13, n21, n22, n23, n31, n32, n33 );
+
+		}
+
+	}
+
+	set( n11, n12, n13, n21, n22, n23, n31, n32, n33 ) {
+
+		const te = this.elements;
+
+		te[ 0 ] = n11; te[ 1 ] = n21; te[ 2 ] = n31;
+		te[ 3 ] = n12; te[ 4 ] = n22; te[ 5 ] = n32;
+		te[ 6 ] = n13; te[ 7 ] = n23; te[ 8 ] = n33;
+
+		return this;
+
+	}
+
+	identity() {
+
+		this.set(
+
+			1, 0, 0,
+			0, 1, 0,
+			0, 0, 1
+
+		);
+
+		return this;
+
+	}
+
+	copy( m ) {
+
+		const te = this.elements;
+		const me = m.elements;
+
+		te[ 0 ] = me[ 0 ]; te[ 1 ] = me[ 1 ]; te[ 2 ] = me[ 2 ];
+		te[ 3 ] = me[ 3 ]; te[ 4 ] = me[ 4 ]; te[ 5 ] = me[ 5 ];
+		te[ 6 ] = me[ 6 ]; te[ 7 ] = me[ 7 ]; te[ 8 ] = me[ 8 ];
+
+		return this;
+
+	}
+
+	extractBasis( xAxis, yAxis, zAxis ) {
+
+		xAxis.setFromMatrix3Column( this, 0 );
+		yAxis.setFromMatrix3Column( this, 1 );
+		zAxis.setFromMatrix3Column( this, 2 );
+
+		return this;
+
+	}
+
+	setFromMatrix4( m ) {
+
+		const me = m.elements;
+
+		this.set(
+
+			me[ 0 ], me[ 4 ], me[ 8 ],
+			me[ 1 ], me[ 5 ], me[ 9 ],
+			me[ 2 ], me[ 6 ], me[ 10 ]
+
+		);
+
+		return this;
+
+	}
+
+	multiply( m ) {
+
+		return this.multiplyMatrices( this, m );
+
+	}
+
+	premultiply( m ) {
+
+		return this.multiplyMatrices( m, this );
+
+	}
+
+	multiplyMatrices( a, b ) {
+
+		const ae = a.elements;
+		const be = b.elements;
+		const te = this.elements;
+
+		const a11 = ae[ 0 ], a12 = ae[ 3 ], a13 = ae[ 6 ];
+		const a21 = ae[ 1 ], a22 = ae[ 4 ], a23 = ae[ 7 ];
+		const a31 = ae[ 2 ], a32 = ae[ 5 ], a33 = ae[ 8 ];
+
+		const b11 = be[ 0 ], b12 = be[ 3 ], b13 = be[ 6 ];
+		const b21 = be[ 1 ], b22 = be[ 4 ], b23 = be[ 7 ];
+		const b31 = be[ 2 ], b32 = be[ 5 ], b33 = be[ 8 ];
+
+		te[ 0 ] = a11 * b11 + a12 * b21 + a13 * b31;
+		te[ 3 ] = a11 * b12 + a12 * b22 + a13 * b32;
+		te[ 6 ] = a11 * b13 + a12 * b23 + a13 * b33;
+
+		te[ 1 ] = a21 * b11 + a22 * b21 + a23 * b31;
+		te[ 4 ] = a21 * b12 + a22 * b22 + a23 * b32;
+		te[ 7 ] = a21 * b13 + a22 * b23 + a23 * b33;
+
+		te[ 2 ] = a31 * b11 + a32 * b21 + a33 * b31;
+		te[ 5 ] = a31 * b12 + a32 * b22 + a33 * b32;
+		te[ 8 ] = a31 * b13 + a32 * b23 + a33 * b33;
+
+		return this;
+
+	}
+
+	multiplyScalar( s ) {
+
+		const te = this.elements;
+
+		te[ 0 ] *= s; te[ 3 ] *= s; te[ 6 ] *= s;
+		te[ 1 ] *= s; te[ 4 ] *= s; te[ 7 ] *= s;
+		te[ 2 ] *= s; te[ 5 ] *= s; te[ 8 ] *= s;
+
+		return this;
+
+	}
+
+	determinant() {
+
+		const te = this.elements;
+
+		const a = te[ 0 ], b = te[ 1 ], c = te[ 2 ],
+			d = te[ 3 ], e = te[ 4 ], f = te[ 5 ],
+			g = te[ 6 ], h = te[ 7 ], i = te[ 8 ];
+
+		return a * e * i - a * f * h - b * d * i + b * f * g + c * d * h - c * e * g;
+
+	}
+
+	invert() {
+
+		const te = this.elements,
+
+			n11 = te[ 0 ], n21 = te[ 1 ], n31 = te[ 2 ],
+			n12 = te[ 3 ], n22 = te[ 4 ], n32 = te[ 5 ],
+			n13 = te[ 6 ], n23 = te[ 7 ], n33 = te[ 8 ],
+
+			t11 = n33 * n22 - n32 * n23,
+			t12 = n32 * n13 - n33 * n12,
+			t13 = n23 * n12 - n22 * n13,
+
+			det = n11 * t11 + n21 * t12 + n31 * t13;
+
+		if ( det === 0 ) return this.set( 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+
+		const detInv = 1 / det;
+
+		te[ 0 ] = t11 * detInv;
+		te[ 1 ] = ( n31 * n23 - n33 * n21 ) * detInv;
+		te[ 2 ] = ( n32 * n21 - n31 * n22 ) * detInv;
+
+		te[ 3 ] = t12 * detInv;
+		te[ 4 ] = ( n33 * n11 - n31 * n13 ) * detInv;
+		te[ 5 ] = ( n31 * n12 - n32 * n11 ) * detInv;
+
+		te[ 6 ] = t13 * detInv;
+		te[ 7 ] = ( n21 * n13 - n23 * n11 ) * detInv;
+		te[ 8 ] = ( n22 * n11 - n21 * n12 ) * detInv;
+
+		return this;
+
+	}
+
+	transpose() {
+
+		let tmp;
+		const m = this.elements;
+
+		tmp = m[ 1 ]; m[ 1 ] = m[ 3 ]; m[ 3 ] = tmp;
+		tmp = m[ 2 ]; m[ 2 ] = m[ 6 ]; m[ 6 ] = tmp;
+		tmp = m[ 5 ]; m[ 5 ] = m[ 7 ]; m[ 7 ] = tmp;
+
+		return this;
+
+	}
+
+	getNormalMatrix( matrix4 ) {
+
+		return this.setFromMatrix4( matrix4 ).invert().transpose();
+
+	}
+
+	transposeIntoArray( r ) {
+
+		const m = this.elements;
+
+		r[ 0 ] = m[ 0 ];
+		r[ 1 ] = m[ 3 ];
+		r[ 2 ] = m[ 6 ];
+		r[ 3 ] = m[ 1 ];
+		r[ 4 ] = m[ 4 ];
+		r[ 5 ] = m[ 7 ];
+		r[ 6 ] = m[ 2 ];
+		r[ 7 ] = m[ 5 ];
+		r[ 8 ] = m[ 8 ];
+
+		return this;
+
+	}
+
+	setUvTransform( tx, ty, sx, sy, rotation, cx, cy ) {
+
+		const c = Math.cos( rotation );
+		const s = Math.sin( rotation );
+
+		this.set(
+			sx * c, sx * s, - sx * ( c * cx + s * cy ) + cx + tx,
+			- sy * s, sy * c, - sy * ( - s * cx + c * cy ) + cy + ty,
+			0, 0, 1
+		);
+
+		return this;
+
+	}
+
+	//
+
+	scale( sx, sy ) {
+
+		this.premultiply( _m3.makeScale( sx, sy ) );
+
+		return this;
+
+	}
+
+	rotate( theta ) {
+
+		this.premultiply( _m3.makeRotation( - theta ) );
+
+		return this;
+
+	}
+
+	translate( tx, ty ) {
+
+		this.premultiply( _m3.makeTranslation( tx, ty ) );
+
+		return this;
+
+	}
+
+	// for 2D Transforms
+
+	makeTranslation( x, y ) {
+
+		if ( x.isVector2 ) {
+
+			this.set(
+
+				1, 0, x.x,
+				0, 1, x.y,
+				0, 0, 1
+
+			);
+
+		} else {
+
+			this.set(
+
+				1, 0, x,
+				0, 1, y,
+				0, 0, 1
+
+			);
+
+		}
+
+		return this;
+
+	}
+
+	makeRotation( theta ) {
+
+		// counterclockwise
+
+		const c = Math.cos( theta );
+		const s = Math.sin( theta );
+
+		this.set(
+
+			c, - s, 0,
+			s, c, 0,
+			0, 0, 1
+
+		);
+
+		return this;
+
+	}
+
+	makeScale( x, y ) {
+
+		this.set(
+
+			x, 0, 0,
+			0, y, 0,
+			0, 0, 1
+
+		);
+
+		return this;
+
+	}
+
+	//
+
+	equals( matrix ) {
+
+		const te = this.elements;
+		const me = matrix.elements;
+
+		for ( let i = 0; i < 9; i ++ ) {
+
+			if ( te[ i ] !== me[ i ] ) return false;
+
+		}
+
+		return true;
+
+	}
+
+	fromArray( array, offset = 0 ) {
+
+		for ( let i = 0; i < 9; i ++ ) {
+
+			this.elements[ i ] = array[ i + offset ];
+
+		}
+
+		return this;
+
+	}
+
+	toArray( array = [], offset = 0 ) {
+
+		const te = this.elements;
+
+		array[ offset ] = te[ 0 ];
+		array[ offset + 1 ] = te[ 1 ];
+		array[ offset + 2 ] = te[ 2 ];
+
+		array[ offset + 3 ] = te[ 3 ];
+		array[ offset + 4 ] = te[ 4 ];
+		array[ offset + 5 ] = te[ 5 ];
+
+		array[ offset + 6 ] = te[ 6 ];
+		array[ offset + 7 ] = te[ 7 ];
+		array[ offset + 8 ] = te[ 8 ];
+
+		return array;
+
+	}
+
+	clone() {
+
+		return new this.constructor().fromArray( this.elements );
+
+	}
+
+}
+
+const _m3 = /*@__PURE__*/ new Matrix3();
+
+
+
+
+/***/ }),
+/* 54 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Vector2: () => (/* binding */ Vector2)
+/* harmony export */ });
+/* harmony import */ var _MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(48);
+
+
+class Vector2 {
+
+	constructor( x = 0, y = 0 ) {
+
+		Vector2.prototype.isVector2 = true;
+
+		this.x = x;
+		this.y = y;
+
+	}
+
+	get width() {
+
+		return this.x;
+
+	}
+
+	set width( value ) {
+
+		this.x = value;
+
+	}
+
+	get height() {
+
+		return this.y;
+
+	}
+
+	set height( value ) {
+
+		this.y = value;
+
+	}
+
+	set( x, y ) {
+
+		this.x = x;
+		this.y = y;
+
+		return this;
+
+	}
+
+	setScalar( scalar ) {
+
+		this.x = scalar;
+		this.y = scalar;
+
+		return this;
+
+	}
+
+	setX( x ) {
+
+		this.x = x;
+
+		return this;
+
+	}
+
+	setY( y ) {
+
+		this.y = y;
+
+		return this;
+
+	}
+
+	setComponent( index, value ) {
+
+		switch ( index ) {
+
+			case 0: this.x = value; break;
+			case 1: this.y = value; break;
+			default: throw new Error( 'index is out of range: ' + index );
+
+		}
+
+		return this;
+
+	}
+
+	getComponent( index ) {
+
+		switch ( index ) {
+
+			case 0: return this.x;
+			case 1: return this.y;
+			default: throw new Error( 'index is out of range: ' + index );
+
+		}
+
+	}
+
+	clone() {
+
+		return new this.constructor( this.x, this.y );
+
+	}
+
+	copy( v ) {
+
+		this.x = v.x;
+		this.y = v.y;
+
+		return this;
+
+	}
+
+	add( v ) {
+
+		this.x += v.x;
+		this.y += v.y;
+
+		return this;
+
+	}
+
+	addScalar( s ) {
+
+		this.x += s;
+		this.y += s;
+
+		return this;
+
+	}
+
+	addVectors( a, b ) {
+
+		this.x = a.x + b.x;
+		this.y = a.y + b.y;
+
+		return this;
+
+	}
+
+	addScaledVector( v, s ) {
+
+		this.x += v.x * s;
+		this.y += v.y * s;
+
+		return this;
+
+	}
+
+	sub( v ) {
+
+		this.x -= v.x;
+		this.y -= v.y;
+
+		return this;
+
+	}
+
+	subScalar( s ) {
+
+		this.x -= s;
+		this.y -= s;
+
+		return this;
+
+	}
+
+	subVectors( a, b ) {
+
+		this.x = a.x - b.x;
+		this.y = a.y - b.y;
+
+		return this;
+
+	}
+
+	multiply( v ) {
+
+		this.x *= v.x;
+		this.y *= v.y;
+
+		return this;
+
+	}
+
+	multiplyScalar( scalar ) {
+
+		this.x *= scalar;
+		this.y *= scalar;
+
+		return this;
+
+	}
+
+	divide( v ) {
+
+		this.x /= v.x;
+		this.y /= v.y;
+
+		return this;
+
+	}
+
+	divideScalar( scalar ) {
+
+		return this.multiplyScalar( 1 / scalar );
+
+	}
+
+	applyMatrix3( m ) {
+
+		const x = this.x, y = this.y;
+		const e = m.elements;
+
+		this.x = e[ 0 ] * x + e[ 3 ] * y + e[ 6 ];
+		this.y = e[ 1 ] * x + e[ 4 ] * y + e[ 7 ];
+
+		return this;
+
+	}
+
+	min( v ) {
+
+		this.x = Math.min( this.x, v.x );
+		this.y = Math.min( this.y, v.y );
+
+		return this;
+
+	}
+
+	max( v ) {
+
+		this.x = Math.max( this.x, v.x );
+		this.y = Math.max( this.y, v.y );
+
+		return this;
+
+	}
+
+	clamp( min, max ) {
+
+		// assumes min < max, componentwise
+
+		this.x = Math.max( min.x, Math.min( max.x, this.x ) );
+		this.y = Math.max( min.y, Math.min( max.y, this.y ) );
+
+		return this;
+
+	}
+
+	clampScalar( minVal, maxVal ) {
+
+		this.x = Math.max( minVal, Math.min( maxVal, this.x ) );
+		this.y = Math.max( minVal, Math.min( maxVal, this.y ) );
+
+		return this;
+
+	}
+
+	clampLength( min, max ) {
+
+		const length = this.length();
+
+		return this.divideScalar( length || 1 ).multiplyScalar( Math.max( min, Math.min( max, length ) ) );
+
+	}
+
+	floor() {
+
+		this.x = Math.floor( this.x );
+		this.y = Math.floor( this.y );
+
+		return this;
+
+	}
+
+	ceil() {
+
+		this.x = Math.ceil( this.x );
+		this.y = Math.ceil( this.y );
+
+		return this;
+
+	}
+
+	round() {
+
+		this.x = Math.round( this.x );
+		this.y = Math.round( this.y );
+
+		return this;
+
+	}
+
+	roundToZero() {
+
+		this.x = Math.trunc( this.x );
+		this.y = Math.trunc( this.y );
+
+		return this;
+
+	}
+
+	negate() {
+
+		this.x = - this.x;
+		this.y = - this.y;
+
+		return this;
+
+	}
+
+	dot( v ) {
+
+		return this.x * v.x + this.y * v.y;
+
+	}
+
+	cross( v ) {
+
+		return this.x * v.y - this.y * v.x;
+
+	}
+
+	lengthSq() {
+
+		return this.x * this.x + this.y * this.y;
+
+	}
+
+	length() {
+
+		return Math.sqrt( this.x * this.x + this.y * this.y );
+
+	}
+
+	manhattanLength() {
+
+		return Math.abs( this.x ) + Math.abs( this.y );
+
+	}
+
+	normalize() {
+
+		return this.divideScalar( this.length() || 1 );
+
+	}
+
+	angle() {
+
+		// computes the angle in radians with respect to the positive x-axis
+
+		const angle = Math.atan2( - this.y, - this.x ) + Math.PI;
+
+		return angle;
+
+	}
+
+	angleTo( v ) {
+
+		const denominator = Math.sqrt( this.lengthSq() * v.lengthSq() );
+
+		if ( denominator === 0 ) return Math.PI / 2;
+
+		const theta = this.dot( v ) / denominator;
+
+		// clamp, to handle numerical problems
+
+		return Math.acos( _MathUtils_js__WEBPACK_IMPORTED_MODULE_0__.clamp( theta, - 1, 1 ) );
+
+	}
+
+	distanceTo( v ) {
+
+		return Math.sqrt( this.distanceToSquared( v ) );
+
+	}
+
+	distanceToSquared( v ) {
+
+		const dx = this.x - v.x, dy = this.y - v.y;
+		return dx * dx + dy * dy;
+
+	}
+
+	manhattanDistanceTo( v ) {
+
+		return Math.abs( this.x - v.x ) + Math.abs( this.y - v.y );
+
+	}
+
+	setLength( length ) {
+
+		return this.normalize().multiplyScalar( length );
+
+	}
+
+	lerp( v, alpha ) {
+
+		this.x += ( v.x - this.x ) * alpha;
+		this.y += ( v.y - this.y ) * alpha;
+
+		return this;
+
+	}
+
+	lerpVectors( v1, v2, alpha ) {
+
+		this.x = v1.x + ( v2.x - v1.x ) * alpha;
+		this.y = v1.y + ( v2.y - v1.y ) * alpha;
+
+		return this;
+
+	}
+
+	equals( v ) {
+
+		return ( ( v.x === this.x ) && ( v.y === this.y ) );
+
+	}
+
+	fromArray( array, offset = 0 ) {
+
+		this.x = array[ offset ];
+		this.y = array[ offset + 1 ];
+
+		return this;
+
+	}
+
+	toArray( array = [], offset = 0 ) {
+
+		array[ offset ] = this.x;
+		array[ offset + 1 ] = this.y;
+
+		return array;
+
+	}
+
+	fromBufferAttribute( attribute, index ) {
+
+		this.x = attribute.getX( index );
+		this.y = attribute.getY( index );
+
+		return this;
+
+	}
+
+	rotateAround( center, angle ) {
+
+		const c = Math.cos( angle ), s = Math.sin( angle );
+
+		const x = this.x - center.x;
+		const y = this.y - center.y;
+
+		this.x = x * c - y * s + center.x;
+		this.y = x * s + y * c + center.y;
+
+		return this;
+
+	}
+
+	random() {
+
+		this.x = Math.random();
+		this.y = Math.random();
+
+		return this;
+
+	}
+
+	*[ Symbol.iterator ]() {
+
+		yield this.x;
+		yield this.y;
+
+	}
+
+}
+
+
+
+
+/***/ }),
+/* 55 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImageLoader: () => (/* binding */ ImageLoader)
+/* harmony export */ });
+/* harmony import */ var _Cache_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(56);
+/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
+
+
+
+
+class ImageLoader extends _Loader_js__WEBPACK_IMPORTED_MODULE_0__.Loader {
+
+	constructor( manager ) {
+
+		super( manager );
+
+	}
+
+	load( url, onLoad, onProgress, onError ) {
+
+		if ( this.path !== undefined ) url = this.path + url;
+
+		url = this.manager.resolveURL( url );
+
+		const scope = this;
+
+		const cached = _Cache_js__WEBPACK_IMPORTED_MODULE_1__.Cache.get( url );
+
+		if ( cached !== undefined ) {
+
+			scope.manager.itemStart( url );
+
+			setTimeout( function () {
+
+				if ( onLoad ) onLoad( cached );
+
+				scope.manager.itemEnd( url );
+
+			}, 0 );
+
+			return cached;
+
+		}
+
+		const image = (0,_utils_js__WEBPACK_IMPORTED_MODULE_2__.createElementNS)( 'img' );
+
+		function onImageLoad() {
+
+			removeEventListeners();
+
+			_Cache_js__WEBPACK_IMPORTED_MODULE_1__.Cache.add( url, this );
+
+			if ( onLoad ) onLoad( this );
+
+			scope.manager.itemEnd( url );
+
+		}
+
+		function onImageError( event ) {
+
+			removeEventListeners();
+
+			if ( onError ) onError( event );
+
+			scope.manager.itemError( url );
+			scope.manager.itemEnd( url );
+
+		}
+
+		function removeEventListeners() {
+
+			image.removeEventListener( 'load', onImageLoad, false );
+			image.removeEventListener( 'error', onImageError, false );
+
+		}
+
+		image.addEventListener( 'load', onImageLoad, false );
+		image.addEventListener( 'error', onImageError, false );
+
+		if ( url.slice( 0, 5 ) !== 'data:' ) {
+
+			if ( this.crossOrigin !== undefined ) image.crossOrigin = this.crossOrigin;
+
+		}
+
+		scope.manager.itemStart( url );
+
+		image.src = url;
+
+		return image;
+
+	}
+
+}
+
+
+
+
+
+/***/ }),
+/* 56 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Cache: () => (/* binding */ Cache)
+/* harmony export */ });
+const Cache = {
+
+	enabled: false,
+
+	files: {},
+
+	add: function ( key, file ) {
+
+		if ( this.enabled === false ) return;
+
+		// console.log( 'THREE.Cache', 'Adding key:', key );
+
+		this.files[ key ] = file;
+
+	},
+
+	get: function ( key ) {
+
+		if ( this.enabled === false ) return;
+
+		// console.log( 'THREE.Cache', 'Checking key:', key );
+
+		return this.files[ key ];
+
+	},
+
+	remove: function ( key ) {
+
+		delete this.files[ key ];
+
+	},
+
+	clear: function () {
+
+		this.files = {};
+
+	}
+
+};
+
+
+
+
+
+/***/ }),
+/* 57 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -52146,6 +66080,8027 @@ VRButton.registerSessionGrantedListener();
 
 
 
+/***/ }),
+/* 58 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   OrbitControls: () => (/* binding */ OrbitControls)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+
+
+// OrbitControls performs orbiting, dollying (zooming), and panning.
+// Unlike TrackballControls, it maintains the "up" direction object.up (+Y by default).
+//
+//    Orbit - left mouse / touch: one-finger move
+//    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish
+//    Pan - right mouse, or left mouse + ctrl/meta/shiftKey, or arrow keys / touch: two-finger move
+
+const _changeEvent = { type: 'change' };
+const _startEvent = { type: 'start' };
+const _endEvent = { type: 'end' };
+const _ray = new three__WEBPACK_IMPORTED_MODULE_0__.Ray();
+const _plane = new three__WEBPACK_IMPORTED_MODULE_0__.Plane();
+const TILT_LIMIT = Math.cos( 70 * three__WEBPACK_IMPORTED_MODULE_0__.MathUtils.DEG2RAD );
+
+class OrbitControls extends three__WEBPACK_IMPORTED_MODULE_0__.EventDispatcher {
+
+	constructor( object, domElement ) {
+
+		super();
+
+		this.object = object;
+		this.domElement = domElement;
+		this.domElement.style.touchAction = 'none'; // disable touch scroll
+
+		// Set to false to disable this control
+		this.enabled = true;
+
+		// "target" sets the location of focus, where the object orbits around
+		this.target = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+		// How far you can dolly in and out ( PerspectiveCamera only )
+		this.minDistance = 0;
+		this.maxDistance = Infinity;
+
+		// How far you can zoom in and out ( OrthographicCamera only )
+		this.minZoom = 0;
+		this.maxZoom = Infinity;
+
+		// How far you can orbit vertically, upper and lower limits.
+		// Range is 0 to Math.PI radians.
+		this.minPolarAngle = 0; // radians
+		this.maxPolarAngle = Math.PI; // radians
+
+		// How far you can orbit horizontally, upper and lower limits.
+		// If set, the interval [ min, max ] must be a sub-interval of [ - 2 PI, 2 PI ], with ( max - min < 2 PI )
+		this.minAzimuthAngle = - Infinity; // radians
+		this.maxAzimuthAngle = Infinity; // radians
+
+		// Set to true to enable damping (inertia)
+		// If damping is enabled, you must call controls.update() in your animation loop
+		this.enableDamping = false;
+		this.dampingFactor = 0.05;
+
+		// This option actually enables dollying in and out; left as "zoom" for backwards compatibility.
+		// Set to false to disable zooming
+		this.enableZoom = true;
+		this.zoomSpeed = 1.0;
+
+		// Set to false to disable rotating
+		this.enableRotate = true;
+		this.rotateSpeed = 1.0;
+
+		// Set to false to disable panning
+		this.enablePan = true;
+		this.panSpeed = 1.0;
+		this.screenSpacePanning = true; // if false, pan orthogonal to world-space direction camera.up
+		this.keyPanSpeed = 7.0;	// pixels moved per arrow key push
+		this.zoomToCursor = false;
+
+		// Set to true to automatically rotate around the target
+		// If auto-rotate is enabled, you must call controls.update() in your animation loop
+		this.autoRotate = false;
+		this.autoRotateSpeed = 2.0; // 30 seconds per orbit when fps is 60
+
+		// The four arrow keys
+		this.keys = { LEFT: 'ArrowLeft', UP: 'ArrowUp', RIGHT: 'ArrowRight', BOTTOM: 'ArrowDown' };
+
+		// Mouse buttons
+		this.mouseButtons = { LEFT: three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.ROTATE, MIDDLE: three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.DOLLY, RIGHT: three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.PAN };
+
+		// Touch fingers
+		this.touches = { ONE: three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.ROTATE, TWO: three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.DOLLY_PAN };
+
+		// for reset
+		this.target0 = this.target.clone();
+		this.position0 = this.object.position.clone();
+		this.zoom0 = this.object.zoom;
+
+		// the target DOM element for key events
+		this._domElementKeyEvents = null;
+
+		//
+		// public methods
+		//
+
+		this.getPolarAngle = function () {
+
+			return spherical.phi;
+
+		};
+
+		this.getAzimuthalAngle = function () {
+
+			return spherical.theta;
+
+		};
+
+		this.getDistance = function () {
+
+			return this.object.position.distanceTo( this.target );
+
+		};
+
+		this.listenToKeyEvents = function ( domElement ) {
+
+			domElement.addEventListener( 'keydown', onKeyDown );
+			this._domElementKeyEvents = domElement;
+
+		};
+
+		this.stopListenToKeyEvents = function () {
+
+			this._domElementKeyEvents.removeEventListener( 'keydown', onKeyDown );
+			this._domElementKeyEvents = null;
+
+		};
+
+		this.saveState = function () {
+
+			scope.target0.copy( scope.target );
+			scope.position0.copy( scope.object.position );
+			scope.zoom0 = scope.object.zoom;
+
+		};
+
+		this.reset = function () {
+
+			scope.target.copy( scope.target0 );
+			scope.object.position.copy( scope.position0 );
+			scope.object.zoom = scope.zoom0;
+
+			scope.object.updateProjectionMatrix();
+			scope.dispatchEvent( _changeEvent );
+
+			scope.update();
+
+			state = STATE.NONE;
+
+		};
+
+		// this method is exposed, but perhaps it would be better if we can make it private...
+		this.update = function () {
+
+			const offset = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+			// so camera.up is the orbit axis
+			const quat = new three__WEBPACK_IMPORTED_MODULE_0__.Quaternion().setFromUnitVectors( object.up, new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( 0, 1, 0 ) );
+			const quatInverse = quat.clone().invert();
+
+			const lastPosition = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+			const lastQuaternion = new three__WEBPACK_IMPORTED_MODULE_0__.Quaternion();
+			const lastTargetPosition = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+			const twoPI = 2 * Math.PI;
+
+			return function update( deltaTime = null ) {
+
+				const position = scope.object.position;
+
+				offset.copy( position ).sub( scope.target );
+
+				// rotate offset to "y-axis-is-up" space
+				offset.applyQuaternion( quat );
+
+				// angle from z-axis around y-axis
+				spherical.setFromVector3( offset );
+
+				if ( scope.autoRotate && state === STATE.NONE ) {
+
+					rotateLeft( getAutoRotationAngle( deltaTime ) );
+
+				}
+
+				if ( scope.enableDamping ) {
+
+					spherical.theta += sphericalDelta.theta * scope.dampingFactor;
+					spherical.phi += sphericalDelta.phi * scope.dampingFactor;
+
+				} else {
+
+					spherical.theta += sphericalDelta.theta;
+					spherical.phi += sphericalDelta.phi;
+
+				}
+
+				// restrict theta to be between desired limits
+
+				let min = scope.minAzimuthAngle;
+				let max = scope.maxAzimuthAngle;
+
+				if ( isFinite( min ) && isFinite( max ) ) {
+
+					if ( min < - Math.PI ) min += twoPI; else if ( min > Math.PI ) min -= twoPI;
+
+					if ( max < - Math.PI ) max += twoPI; else if ( max > Math.PI ) max -= twoPI;
+
+					if ( min <= max ) {
+
+						spherical.theta = Math.max( min, Math.min( max, spherical.theta ) );
+
+					} else {
+
+						spherical.theta = ( spherical.theta > ( min + max ) / 2 ) ?
+							Math.max( min, spherical.theta ) :
+							Math.min( max, spherical.theta );
+
+					}
+
+				}
+
+				// restrict phi to be between desired limits
+				spherical.phi = Math.max( scope.minPolarAngle, Math.min( scope.maxPolarAngle, spherical.phi ) );
+
+				spherical.makeSafe();
+
+
+				// move target to panned location
+
+				if ( scope.enableDamping === true ) {
+
+					scope.target.addScaledVector( panOffset, scope.dampingFactor );
+
+				} else {
+
+					scope.target.add( panOffset );
+
+				}
+
+				// adjust the camera position based on zoom only if we're not zooming to the cursor or if it's an ortho camera
+				// we adjust zoom later in these cases
+				if ( scope.zoomToCursor && performCursorZoom || scope.object.isOrthographicCamera ) {
+
+					spherical.radius = clampDistance( spherical.radius );
+
+				} else {
+
+					spherical.radius = clampDistance( spherical.radius * scale );
+
+				}
+
+
+				offset.setFromSpherical( spherical );
+
+				// rotate offset back to "camera-up-vector-is-up" space
+				offset.applyQuaternion( quatInverse );
+
+				position.copy( scope.target ).add( offset );
+
+				scope.object.lookAt( scope.target );
+
+				if ( scope.enableDamping === true ) {
+
+					sphericalDelta.theta *= ( 1 - scope.dampingFactor );
+					sphericalDelta.phi *= ( 1 - scope.dampingFactor );
+
+					panOffset.multiplyScalar( 1 - scope.dampingFactor );
+
+				} else {
+
+					sphericalDelta.set( 0, 0, 0 );
+
+					panOffset.set( 0, 0, 0 );
+
+				}
+
+				// adjust camera position
+				let zoomChanged = false;
+				if ( scope.zoomToCursor && performCursorZoom ) {
+
+					let newRadius = null;
+					if ( scope.object.isPerspectiveCamera ) {
+
+						// move the camera down the pointer ray
+						// this method avoids floating point error
+						const prevRadius = offset.length();
+						newRadius = clampDistance( prevRadius * scale );
+
+						const radiusDelta = prevRadius - newRadius;
+						scope.object.position.addScaledVector( dollyDirection, radiusDelta );
+						scope.object.updateMatrixWorld();
+
+					} else if ( scope.object.isOrthographicCamera ) {
+
+						// adjust the ortho camera position based on zoom changes
+						const mouseBefore = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( mouse.x, mouse.y, 0 );
+						mouseBefore.unproject( scope.object );
+
+						scope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom, scope.object.zoom / scale ) );
+						scope.object.updateProjectionMatrix();
+						zoomChanged = true;
+
+						const mouseAfter = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( mouse.x, mouse.y, 0 );
+						mouseAfter.unproject( scope.object );
+
+						scope.object.position.sub( mouseAfter ).add( mouseBefore );
+						scope.object.updateMatrixWorld();
+
+						newRadius = offset.length();
+
+					} else {
+
+						console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - zoom to cursor disabled.' );
+						scope.zoomToCursor = false;
+
+					}
+
+					// handle the placement of the target
+					if ( newRadius !== null ) {
+
+						if ( this.screenSpacePanning ) {
+
+							// position the orbit target in front of the new camera position
+							scope.target.set( 0, 0, - 1 )
+								.transformDirection( scope.object.matrix )
+								.multiplyScalar( newRadius )
+								.add( scope.object.position );
+
+						} else {
+
+							// get the ray and translation plane to compute target
+							_ray.origin.copy( scope.object.position );
+							_ray.direction.set( 0, 0, - 1 ).transformDirection( scope.object.matrix );
+
+							// if the camera is 20 degrees above the horizon then don't adjust the focus target to avoid
+							// extremely large values
+							if ( Math.abs( scope.object.up.dot( _ray.direction ) ) < TILT_LIMIT ) {
+
+								object.lookAt( scope.target );
+
+							} else {
+
+								_plane.setFromNormalAndCoplanarPoint( scope.object.up, scope.target );
+								_ray.intersectPlane( _plane, scope.target );
+
+							}
+
+						}
+
+					}
+
+				} else if ( scope.object.isOrthographicCamera ) {
+
+					scope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom, scope.object.zoom / scale ) );
+					scope.object.updateProjectionMatrix();
+					zoomChanged = true;
+
+				}
+
+				scale = 1;
+				performCursorZoom = false;
+
+				// update condition is:
+				// min(camera displacement, camera rotation in radians)^2 > EPS
+				// using small-angle approximation cos(x/2) = 1 - x^2 / 8
+
+				if ( zoomChanged ||
+					lastPosition.distanceToSquared( scope.object.position ) > EPS ||
+					8 * ( 1 - lastQuaternion.dot( scope.object.quaternion ) ) > EPS ||
+					lastTargetPosition.distanceToSquared( scope.target ) > 0 ) {
+
+					scope.dispatchEvent( _changeEvent );
+
+					lastPosition.copy( scope.object.position );
+					lastQuaternion.copy( scope.object.quaternion );
+					lastTargetPosition.copy( scope.target );
+
+					zoomChanged = false;
+
+					return true;
+
+				}
+
+				return false;
+
+			};
+
+		}();
+
+		this.dispose = function () {
+
+			scope.domElement.removeEventListener( 'contextmenu', onContextMenu );
+
+			scope.domElement.removeEventListener( 'pointerdown', onPointerDown );
+			scope.domElement.removeEventListener( 'pointercancel', onPointerUp );
+			scope.domElement.removeEventListener( 'wheel', onMouseWheel );
+
+			scope.domElement.removeEventListener( 'pointermove', onPointerMove );
+			scope.domElement.removeEventListener( 'pointerup', onPointerUp );
+
+
+			if ( scope._domElementKeyEvents !== null ) {
+
+				scope._domElementKeyEvents.removeEventListener( 'keydown', onKeyDown );
+				scope._domElementKeyEvents = null;
+
+			}
+
+			//scope.dispatchEvent( { type: 'dispose' } ); // should this be added here?
+
+		};
+
+		//
+		// internals
+		//
+
+		const scope = this;
+
+		const STATE = {
+			NONE: - 1,
+			ROTATE: 0,
+			DOLLY: 1,
+			PAN: 2,
+			TOUCH_ROTATE: 3,
+			TOUCH_PAN: 4,
+			TOUCH_DOLLY_PAN: 5,
+			TOUCH_DOLLY_ROTATE: 6
+		};
+
+		let state = STATE.NONE;
+
+		const EPS = 0.000001;
+
+		// current position in spherical coordinates
+		const spherical = new three__WEBPACK_IMPORTED_MODULE_0__.Spherical();
+		const sphericalDelta = new three__WEBPACK_IMPORTED_MODULE_0__.Spherical();
+
+		let scale = 1;
+		const panOffset = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+		const rotateStart = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const rotateEnd = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const rotateDelta = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+
+		const panStart = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const panEnd = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const panDelta = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+
+		const dollyStart = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const dollyEnd = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		const dollyDelta = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+
+		const dollyDirection = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+		const mouse = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+		let performCursorZoom = false;
+
+		const pointers = [];
+		const pointerPositions = {};
+
+		function getAutoRotationAngle( deltaTime ) {
+
+			if ( deltaTime !== null ) {
+
+				return ( 2 * Math.PI / 60 * scope.autoRotateSpeed ) * deltaTime;
+
+			} else {
+
+				return 2 * Math.PI / 60 / 60 * scope.autoRotateSpeed;
+
+			}
+
+		}
+
+		function getZoomScale() {
+
+			return Math.pow( 0.95, scope.zoomSpeed );
+
+		}
+
+		function rotateLeft( angle ) {
+
+			sphericalDelta.theta -= angle;
+
+		}
+
+		function rotateUp( angle ) {
+
+			sphericalDelta.phi -= angle;
+
+		}
+
+		const panLeft = function () {
+
+			const v = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+			return function panLeft( distance, objectMatrix ) {
+
+				v.setFromMatrixColumn( objectMatrix, 0 ); // get X column of objectMatrix
+				v.multiplyScalar( - distance );
+
+				panOffset.add( v );
+
+			};
+
+		}();
+
+		const panUp = function () {
+
+			const v = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+			return function panUp( distance, objectMatrix ) {
+
+				if ( scope.screenSpacePanning === true ) {
+
+					v.setFromMatrixColumn( objectMatrix, 1 );
+
+				} else {
+
+					v.setFromMatrixColumn( objectMatrix, 0 );
+					v.crossVectors( scope.object.up, v );
+
+				}
+
+				v.multiplyScalar( distance );
+
+				panOffset.add( v );
+
+			};
+
+		}();
+
+		// deltaX and deltaY are in pixels; right and down are positive
+		const pan = function () {
+
+			const offset = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+			return function pan( deltaX, deltaY ) {
+
+				const element = scope.domElement;
+
+				if ( scope.object.isPerspectiveCamera ) {
+
+					// perspective
+					const position = scope.object.position;
+					offset.copy( position ).sub( scope.target );
+					let targetDistance = offset.length();
+
+					// half of the fov is center to top of screen
+					targetDistance *= Math.tan( ( scope.object.fov / 2 ) * Math.PI / 180.0 );
+
+					// we use only clientHeight here so aspect ratio does not distort speed
+					panLeft( 2 * deltaX * targetDistance / element.clientHeight, scope.object.matrix );
+					panUp( 2 * deltaY * targetDistance / element.clientHeight, scope.object.matrix );
+
+				} else if ( scope.object.isOrthographicCamera ) {
+
+					// orthographic
+					panLeft( deltaX * ( scope.object.right - scope.object.left ) / scope.object.zoom / element.clientWidth, scope.object.matrix );
+					panUp( deltaY * ( scope.object.top - scope.object.bottom ) / scope.object.zoom / element.clientHeight, scope.object.matrix );
+
+				} else {
+
+					// camera neither orthographic nor perspective
+					console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - pan disabled.' );
+					scope.enablePan = false;
+
+				}
+
+			};
+
+		}();
+
+		function dollyOut( dollyScale ) {
+
+			if ( scope.object.isPerspectiveCamera || scope.object.isOrthographicCamera ) {
+
+				scale /= dollyScale;
+
+			} else {
+
+				console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' );
+				scope.enableZoom = false;
+
+			}
+
+		}
+
+		function dollyIn( dollyScale ) {
+
+			if ( scope.object.isPerspectiveCamera || scope.object.isOrthographicCamera ) {
+
+				scale *= dollyScale;
+
+			} else {
+
+				console.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' );
+				scope.enableZoom = false;
+
+			}
+
+		}
+
+		function updateMouseParameters( event ) {
+
+			if ( ! scope.zoomToCursor ) {
+
+				return;
+
+			}
+
+			performCursorZoom = true;
+
+			const rect = scope.domElement.getBoundingClientRect();
+			const x = event.clientX - rect.left;
+			const y = event.clientY - rect.top;
+			const w = rect.width;
+			const h = rect.height;
+
+			mouse.x = ( x / w ) * 2 - 1;
+			mouse.y = - ( y / h ) * 2 + 1;
+
+			dollyDirection.set( mouse.x, mouse.y, 1 ).unproject( scope.object ).sub( scope.object.position ).normalize();
+
+		}
+
+		function clampDistance( dist ) {
+
+			return Math.max( scope.minDistance, Math.min( scope.maxDistance, dist ) );
+
+		}
+
+		//
+		// event callbacks - update the object state
+		//
+
+		function handleMouseDownRotate( event ) {
+
+			rotateStart.set( event.clientX, event.clientY );
+
+		}
+
+		function handleMouseDownDolly( event ) {
+
+			updateMouseParameters( event );
+			dollyStart.set( event.clientX, event.clientY );
+
+		}
+
+		function handleMouseDownPan( event ) {
+
+			panStart.set( event.clientX, event.clientY );
+
+		}
+
+		function handleMouseMoveRotate( event ) {
+
+			rotateEnd.set( event.clientX, event.clientY );
+
+			rotateDelta.subVectors( rotateEnd, rotateStart ).multiplyScalar( scope.rotateSpeed );
+
+			const element = scope.domElement;
+
+			rotateLeft( 2 * Math.PI * rotateDelta.x / element.clientHeight ); // yes, height
+
+			rotateUp( 2 * Math.PI * rotateDelta.y / element.clientHeight );
+
+			rotateStart.copy( rotateEnd );
+
+			scope.update();
+
+		}
+
+		function handleMouseMoveDolly( event ) {
+
+			dollyEnd.set( event.clientX, event.clientY );
+
+			dollyDelta.subVectors( dollyEnd, dollyStart );
+
+			if ( dollyDelta.y > 0 ) {
+
+				dollyOut( getZoomScale() );
+
+			} else if ( dollyDelta.y < 0 ) {
+
+				dollyIn( getZoomScale() );
+
+			}
+
+			dollyStart.copy( dollyEnd );
+
+			scope.update();
+
+		}
+
+		function handleMouseMovePan( event ) {
+
+			panEnd.set( event.clientX, event.clientY );
+
+			panDelta.subVectors( panEnd, panStart ).multiplyScalar( scope.panSpeed );
+
+			pan( panDelta.x, panDelta.y );
+
+			panStart.copy( panEnd );
+
+			scope.update();
+
+		}
+
+		function handleMouseWheel( event ) {
+
+			updateMouseParameters( event );
+
+			if ( event.deltaY < 0 ) {
+
+				dollyIn( getZoomScale() );
+
+			} else if ( event.deltaY > 0 ) {
+
+				dollyOut( getZoomScale() );
+
+			}
+
+			scope.update();
+
+		}
+
+		function handleKeyDown( event ) {
+
+			let needsUpdate = false;
+
+			switch ( event.code ) {
+
+				case scope.keys.UP:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						rotateUp( 2 * Math.PI * scope.rotateSpeed / scope.domElement.clientHeight );
+
+					} else {
+
+						pan( 0, scope.keyPanSpeed );
+
+					}
+
+					needsUpdate = true;
+					break;
+
+				case scope.keys.BOTTOM:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						rotateUp( - 2 * Math.PI * scope.rotateSpeed / scope.domElement.clientHeight );
+
+					} else {
+
+						pan( 0, - scope.keyPanSpeed );
+
+					}
+
+					needsUpdate = true;
+					break;
+
+				case scope.keys.LEFT:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						rotateLeft( 2 * Math.PI * scope.rotateSpeed / scope.domElement.clientHeight );
+
+					} else {
+
+						pan( scope.keyPanSpeed, 0 );
+
+					}
+
+					needsUpdate = true;
+					break;
+
+				case scope.keys.RIGHT:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						rotateLeft( - 2 * Math.PI * scope.rotateSpeed / scope.domElement.clientHeight );
+
+					} else {
+
+						pan( - scope.keyPanSpeed, 0 );
+
+					}
+
+					needsUpdate = true;
+					break;
+
+			}
+
+			if ( needsUpdate ) {
+
+				// prevent the browser from scrolling on cursor keys
+				event.preventDefault();
+
+				scope.update();
+
+			}
+
+
+		}
+
+		function handleTouchStartRotate() {
+
+			if ( pointers.length === 1 ) {
+
+				rotateStart.set( pointers[ 0 ].pageX, pointers[ 0 ].pageY );
+
+			} else {
+
+				const x = 0.5 * ( pointers[ 0 ].pageX + pointers[ 1 ].pageX );
+				const y = 0.5 * ( pointers[ 0 ].pageY + pointers[ 1 ].pageY );
+
+				rotateStart.set( x, y );
+
+			}
+
+		}
+
+		function handleTouchStartPan() {
+
+			if ( pointers.length === 1 ) {
+
+				panStart.set( pointers[ 0 ].pageX, pointers[ 0 ].pageY );
+
+			} else {
+
+				const x = 0.5 * ( pointers[ 0 ].pageX + pointers[ 1 ].pageX );
+				const y = 0.5 * ( pointers[ 0 ].pageY + pointers[ 1 ].pageY );
+
+				panStart.set( x, y );
+
+			}
+
+		}
+
+		function handleTouchStartDolly() {
+
+			const dx = pointers[ 0 ].pageX - pointers[ 1 ].pageX;
+			const dy = pointers[ 0 ].pageY - pointers[ 1 ].pageY;
+
+			const distance = Math.sqrt( dx * dx + dy * dy );
+
+			dollyStart.set( 0, distance );
+
+		}
+
+		function handleTouchStartDollyPan() {
+
+			if ( scope.enableZoom ) handleTouchStartDolly();
+
+			if ( scope.enablePan ) handleTouchStartPan();
+
+		}
+
+		function handleTouchStartDollyRotate() {
+
+			if ( scope.enableZoom ) handleTouchStartDolly();
+
+			if ( scope.enableRotate ) handleTouchStartRotate();
+
+		}
+
+		function handleTouchMoveRotate( event ) {
+
+			if ( pointers.length == 1 ) {
+
+				rotateEnd.set( event.pageX, event.pageY );
+
+			} else {
+
+				const position = getSecondPointerPosition( event );
+
+				const x = 0.5 * ( event.pageX + position.x );
+				const y = 0.5 * ( event.pageY + position.y );
+
+				rotateEnd.set( x, y );
+
+			}
+
+			rotateDelta.subVectors( rotateEnd, rotateStart ).multiplyScalar( scope.rotateSpeed );
+
+			const element = scope.domElement;
+
+			rotateLeft( 2 * Math.PI * rotateDelta.x / element.clientHeight ); // yes, height
+
+			rotateUp( 2 * Math.PI * rotateDelta.y / element.clientHeight );
+
+			rotateStart.copy( rotateEnd );
+
+		}
+
+		function handleTouchMovePan( event ) {
+
+			if ( pointers.length === 1 ) {
+
+				panEnd.set( event.pageX, event.pageY );
+
+			} else {
+
+				const position = getSecondPointerPosition( event );
+
+				const x = 0.5 * ( event.pageX + position.x );
+				const y = 0.5 * ( event.pageY + position.y );
+
+				panEnd.set( x, y );
+
+			}
+
+			panDelta.subVectors( panEnd, panStart ).multiplyScalar( scope.panSpeed );
+
+			pan( panDelta.x, panDelta.y );
+
+			panStart.copy( panEnd );
+
+		}
+
+		function handleTouchMoveDolly( event ) {
+
+			const position = getSecondPointerPosition( event );
+
+			const dx = event.pageX - position.x;
+			const dy = event.pageY - position.y;
+
+			const distance = Math.sqrt( dx * dx + dy * dy );
+
+			dollyEnd.set( 0, distance );
+
+			dollyDelta.set( 0, Math.pow( dollyEnd.y / dollyStart.y, scope.zoomSpeed ) );
+
+			dollyOut( dollyDelta.y );
+
+			dollyStart.copy( dollyEnd );
+
+		}
+
+		function handleTouchMoveDollyPan( event ) {
+
+			if ( scope.enableZoom ) handleTouchMoveDolly( event );
+
+			if ( scope.enablePan ) handleTouchMovePan( event );
+
+		}
+
+		function handleTouchMoveDollyRotate( event ) {
+
+			if ( scope.enableZoom ) handleTouchMoveDolly( event );
+
+			if ( scope.enableRotate ) handleTouchMoveRotate( event );
+
+		}
+
+		//
+		// event handlers - FSM: listen for events and reset state
+		//
+
+		function onPointerDown( event ) {
+
+			if ( scope.enabled === false ) return;
+
+			if ( pointers.length === 0 ) {
+
+				scope.domElement.setPointerCapture( event.pointerId );
+
+				scope.domElement.addEventListener( 'pointermove', onPointerMove );
+				scope.domElement.addEventListener( 'pointerup', onPointerUp );
+
+			}
+
+			//
+
+			addPointer( event );
+
+			if ( event.pointerType === 'touch' ) {
+
+				onTouchStart( event );
+
+			} else {
+
+				onMouseDown( event );
+
+			}
+
+		}
+
+		function onPointerMove( event ) {
+
+			if ( scope.enabled === false ) return;
+
+			if ( event.pointerType === 'touch' ) {
+
+				onTouchMove( event );
+
+			} else {
+
+				onMouseMove( event );
+
+			}
+
+		}
+
+		function onPointerUp( event ) {
+
+			removePointer( event );
+
+			if ( pointers.length === 0 ) {
+
+				scope.domElement.releasePointerCapture( event.pointerId );
+
+				scope.domElement.removeEventListener( 'pointermove', onPointerMove );
+				scope.domElement.removeEventListener( 'pointerup', onPointerUp );
+
+			}
+
+			scope.dispatchEvent( _endEvent );
+
+			state = STATE.NONE;
+
+		}
+
+		function onMouseDown( event ) {
+
+			let mouseAction;
+
+			switch ( event.button ) {
+
+				case 0:
+
+					mouseAction = scope.mouseButtons.LEFT;
+					break;
+
+				case 1:
+
+					mouseAction = scope.mouseButtons.MIDDLE;
+					break;
+
+				case 2:
+
+					mouseAction = scope.mouseButtons.RIGHT;
+					break;
+
+				default:
+
+					mouseAction = - 1;
+
+			}
+
+			switch ( mouseAction ) {
+
+				case three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.DOLLY:
+
+					if ( scope.enableZoom === false ) return;
+
+					handleMouseDownDolly( event );
+
+					state = STATE.DOLLY;
+
+					break;
+
+				case three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.ROTATE:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						if ( scope.enablePan === false ) return;
+
+						handleMouseDownPan( event );
+
+						state = STATE.PAN;
+
+					} else {
+
+						if ( scope.enableRotate === false ) return;
+
+						handleMouseDownRotate( event );
+
+						state = STATE.ROTATE;
+
+					}
+
+					break;
+
+				case three__WEBPACK_IMPORTED_MODULE_0__.MOUSE.PAN:
+
+					if ( event.ctrlKey || event.metaKey || event.shiftKey ) {
+
+						if ( scope.enableRotate === false ) return;
+
+						handleMouseDownRotate( event );
+
+						state = STATE.ROTATE;
+
+					} else {
+
+						if ( scope.enablePan === false ) return;
+
+						handleMouseDownPan( event );
+
+						state = STATE.PAN;
+
+					}
+
+					break;
+
+				default:
+
+					state = STATE.NONE;
+
+			}
+
+			if ( state !== STATE.NONE ) {
+
+				scope.dispatchEvent( _startEvent );
+
+			}
+
+		}
+
+		function onMouseMove( event ) {
+
+			switch ( state ) {
+
+				case STATE.ROTATE:
+
+					if ( scope.enableRotate === false ) return;
+
+					handleMouseMoveRotate( event );
+
+					break;
+
+				case STATE.DOLLY:
+
+					if ( scope.enableZoom === false ) return;
+
+					handleMouseMoveDolly( event );
+
+					break;
+
+				case STATE.PAN:
+
+					if ( scope.enablePan === false ) return;
+
+					handleMouseMovePan( event );
+
+					break;
+
+			}
+
+		}
+
+		function onMouseWheel( event ) {
+
+			if ( scope.enabled === false || scope.enableZoom === false || state !== STATE.NONE ) return;
+
+			event.preventDefault();
+
+			scope.dispatchEvent( _startEvent );
+
+			handleMouseWheel( event );
+
+			scope.dispatchEvent( _endEvent );
+
+		}
+
+		function onKeyDown( event ) {
+
+			if ( scope.enabled === false || scope.enablePan === false ) return;
+
+			handleKeyDown( event );
+
+		}
+
+		function onTouchStart( event ) {
+
+			trackPointer( event );
+
+			switch ( pointers.length ) {
+
+				case 1:
+
+					switch ( scope.touches.ONE ) {
+
+						case three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.ROTATE:
+
+							if ( scope.enableRotate === false ) return;
+
+							handleTouchStartRotate();
+
+							state = STATE.TOUCH_ROTATE;
+
+							break;
+
+						case three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.PAN:
+
+							if ( scope.enablePan === false ) return;
+
+							handleTouchStartPan();
+
+							state = STATE.TOUCH_PAN;
+
+							break;
+
+						default:
+
+							state = STATE.NONE;
+
+					}
+
+					break;
+
+				case 2:
+
+					switch ( scope.touches.TWO ) {
+
+						case three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.DOLLY_PAN:
+
+							if ( scope.enableZoom === false && scope.enablePan === false ) return;
+
+							handleTouchStartDollyPan();
+
+							state = STATE.TOUCH_DOLLY_PAN;
+
+							break;
+
+						case three__WEBPACK_IMPORTED_MODULE_0__.TOUCH.DOLLY_ROTATE:
+
+							if ( scope.enableZoom === false && scope.enableRotate === false ) return;
+
+							handleTouchStartDollyRotate();
+
+							state = STATE.TOUCH_DOLLY_ROTATE;
+
+							break;
+
+						default:
+
+							state = STATE.NONE;
+
+					}
+
+					break;
+
+				default:
+
+					state = STATE.NONE;
+
+			}
+
+			if ( state !== STATE.NONE ) {
+
+				scope.dispatchEvent( _startEvent );
+
+			}
+
+		}
+
+		function onTouchMove( event ) {
+
+			trackPointer( event );
+
+			switch ( state ) {
+
+				case STATE.TOUCH_ROTATE:
+
+					if ( scope.enableRotate === false ) return;
+
+					handleTouchMoveRotate( event );
+
+					scope.update();
+
+					break;
+
+				case STATE.TOUCH_PAN:
+
+					if ( scope.enablePan === false ) return;
+
+					handleTouchMovePan( event );
+
+					scope.update();
+
+					break;
+
+				case STATE.TOUCH_DOLLY_PAN:
+
+					if ( scope.enableZoom === false && scope.enablePan === false ) return;
+
+					handleTouchMoveDollyPan( event );
+
+					scope.update();
+
+					break;
+
+				case STATE.TOUCH_DOLLY_ROTATE:
+
+					if ( scope.enableZoom === false && scope.enableRotate === false ) return;
+
+					handleTouchMoveDollyRotate( event );
+
+					scope.update();
+
+					break;
+
+				default:
+
+					state = STATE.NONE;
+
+			}
+
+		}
+
+		function onContextMenu( event ) {
+
+			if ( scope.enabled === false ) return;
+
+			event.preventDefault();
+
+		}
+
+		function addPointer( event ) {
+
+			pointers.push( event );
+
+		}
+
+		function removePointer( event ) {
+
+			delete pointerPositions[ event.pointerId ];
+
+			for ( let i = 0; i < pointers.length; i ++ ) {
+
+				if ( pointers[ i ].pointerId == event.pointerId ) {
+
+					pointers.splice( i, 1 );
+					return;
+
+				}
+
+			}
+
+		}
+
+		function trackPointer( event ) {
+
+			let position = pointerPositions[ event.pointerId ];
+
+			if ( position === undefined ) {
+
+				position = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();
+				pointerPositions[ event.pointerId ] = position;
+
+			}
+
+			position.set( event.pageX, event.pageY );
+
+		}
+
+		function getSecondPointerPosition( event ) {
+
+			const pointer = ( event.pointerId === pointers[ 0 ].pointerId ) ? pointers[ 1 ] : pointers[ 0 ];
+
+			return pointerPositions[ pointer.pointerId ];
+
+		}
+
+		//
+
+		scope.domElement.addEventListener( 'contextmenu', onContextMenu );
+
+		scope.domElement.addEventListener( 'pointerdown', onPointerDown );
+		scope.domElement.addEventListener( 'pointercancel', onPointerUp );
+		scope.domElement.addEventListener( 'wheel', onMouseWheel, { passive: false } );
+
+		// force an update at start
+
+		this.update();
+
+	}
+
+}
+
+
+
+
+/***/ }),
+/* 59 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   XRControllerModelFactory: () => (/* binding */ XRControllerModelFactory)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(61);
+/* harmony import */ var _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(60);
+
+
+
+
+
+
+const DEFAULT_PROFILES_PATH = 'https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles';
+const DEFAULT_PROFILE = 'generic-trigger';
+
+class XRControllerModel extends three__WEBPACK_IMPORTED_MODULE_0__.Object3D {
+
+	constructor() {
+
+		super();
+
+		this.motionController = null;
+		this.envMap = null;
+
+	}
+
+	setEnvironmentMap( envMap ) {
+
+		if ( this.envMap == envMap ) {
+
+			return this;
+
+		}
+
+		this.envMap = envMap;
+		this.traverse( ( child ) => {
+
+			if ( child.isMesh ) {
+
+				child.material.envMap = this.envMap;
+				child.material.needsUpdate = true;
+
+			}
+
+		} );
+
+		return this;
+
+	}
+
+	/**
+	 * Polls data from the XRInputSource and updates the model's components to match
+	 * the real world data
+	 */
+	updateMatrixWorld( force ) {
+
+		super.updateMatrixWorld( force );
+
+		if ( ! this.motionController ) return;
+
+		// Cause the MotionController to poll the Gamepad for data
+		this.motionController.updateFromGamepad();
+
+		// Update the 3D model to reflect the button, thumbstick, and touchpad state
+		Object.values( this.motionController.components ).forEach( ( component ) => {
+
+			// Update node data based on the visual responses' current states
+			Object.values( component.visualResponses ).forEach( ( visualResponse ) => {
+
+				const { valueNode, minNode, maxNode, value, valueNodeProperty } = visualResponse;
+
+				// Skip if the visual response node is not found. No error is needed,
+				// because it will have been reported at load time.
+				if ( ! valueNode ) return;
+
+				// Calculate the new properties based on the weight supplied
+				if ( valueNodeProperty === _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.Constants.VisualResponseProperty.VISIBILITY ) {
+
+					valueNode.visible = value;
+
+				} else if ( valueNodeProperty === _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.Constants.VisualResponseProperty.TRANSFORM ) {
+
+					valueNode.quaternion.slerpQuaternions(
+						minNode.quaternion,
+						maxNode.quaternion,
+						value
+					);
+
+					valueNode.position.lerpVectors(
+						minNode.position,
+						maxNode.position,
+						value
+					);
+
+				}
+
+			} );
+
+		} );
+
+	}
+
+}
+
+/**
+ * Walks the model's tree to find the nodes needed to animate the components and
+ * saves them to the motionContoller components for use in the frame loop. When
+ * touchpads are found, attaches a touch dot to them.
+ */
+function findNodes( motionController, scene ) {
+
+	// Loop through the components and find the nodes needed for each components' visual responses
+	Object.values( motionController.components ).forEach( ( component ) => {
+
+		const { type, touchPointNodeName, visualResponses } = component;
+
+		if ( type === _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.Constants.ComponentType.TOUCHPAD ) {
+
+			component.touchPointNode = scene.getObjectByName( touchPointNodeName );
+			if ( component.touchPointNode ) {
+
+				// Attach a touch dot to the touchpad.
+				const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_0__.SphereGeometry( 0.001 );
+				const material = new three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial( { color: 0x0000FF } );
+				const sphere = new three__WEBPACK_IMPORTED_MODULE_0__.Mesh( sphereGeometry, material );
+				component.touchPointNode.add( sphere );
+
+			} else {
+
+				console.warn( `Could not find touch dot, ${component.touchPointNodeName}, in touchpad component ${component.id}` );
+
+			}
+
+		}
+
+		// Loop through all the visual responses to be applied to this component
+		Object.values( visualResponses ).forEach( ( visualResponse ) => {
+
+			const { valueNodeName, minNodeName, maxNodeName, valueNodeProperty } = visualResponse;
+
+			// If animating a transform, find the two nodes to be interpolated between.
+			if ( valueNodeProperty === _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.Constants.VisualResponseProperty.TRANSFORM ) {
+
+				visualResponse.minNode = scene.getObjectByName( minNodeName );
+				visualResponse.maxNode = scene.getObjectByName( maxNodeName );
+
+				// If the extents cannot be found, skip this animation
+				if ( ! visualResponse.minNode ) {
+
+					console.warn( `Could not find ${minNodeName} in the model` );
+					return;
+
+				}
+
+				if ( ! visualResponse.maxNode ) {
+
+					console.warn( `Could not find ${maxNodeName} in the model` );
+					return;
+
+				}
+
+			}
+
+			// If the target node cannot be found, skip this animation
+			visualResponse.valueNode = scene.getObjectByName( valueNodeName );
+			if ( ! visualResponse.valueNode ) {
+
+				console.warn( `Could not find ${valueNodeName} in the model` );
+
+			}
+
+		} );
+
+	} );
+
+}
+
+function addAssetSceneToControllerModel( controllerModel, scene ) {
+
+	// Find the nodes needed for animation and cache them on the motionController.
+	findNodes( controllerModel.motionController, scene );
+
+	// Apply any environment map that the mesh already has set.
+	if ( controllerModel.envMap ) {
+
+		scene.traverse( ( child ) => {
+
+			if ( child.isMesh ) {
+
+				child.material.envMap = controllerModel.envMap;
+				child.material.needsUpdate = true;
+
+			}
+
+		} );
+
+	}
+
+	// Add the glTF scene to the controllerModel.
+	controllerModel.add( scene );
+
+}
+
+class XRControllerModelFactory {
+
+	constructor( gltfLoader = null ) {
+
+		this.gltfLoader = gltfLoader;
+		this.path = DEFAULT_PROFILES_PATH;
+		this._assetCache = {};
+
+		// If a GLTFLoader wasn't supplied to the constructor create a new one.
+		if ( ! this.gltfLoader ) {
+
+			this.gltfLoader = new _loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_2__.GLTFLoader();
+
+		}
+
+	}
+
+	createControllerModel( controller ) {
+
+		const controllerModel = new XRControllerModel();
+		let scene = null;
+
+		controller.addEventListener( 'connected', ( event ) => {
+
+			const xrInputSource = event.data;
+
+			if ( xrInputSource.targetRayMode !== 'tracked-pointer' || ! xrInputSource.gamepad ) return;
+
+			(0,_libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.fetchProfile)( xrInputSource, this.path, DEFAULT_PROFILE ).then( ( { profile, assetPath } ) => {
+
+				controllerModel.motionController = new _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__.MotionController(
+					xrInputSource,
+					profile,
+					assetPath
+				);
+
+				const cachedAsset = this._assetCache[ controllerModel.motionController.assetUrl ];
+				if ( cachedAsset ) {
+
+					scene = cachedAsset.scene.clone();
+
+					addAssetSceneToControllerModel( controllerModel, scene );
+
+				} else {
+
+					if ( ! this.gltfLoader ) {
+
+						throw new Error( 'GLTFLoader not set.' );
+
+					}
+
+					this.gltfLoader.setPath( '' );
+					this.gltfLoader.load( controllerModel.motionController.assetUrl, ( asset ) => {
+
+						this._assetCache[ controllerModel.motionController.assetUrl ] = asset;
+
+						scene = asset.scene.clone();
+
+						addAssetSceneToControllerModel( controllerModel, scene );
+
+					},
+					null,
+					() => {
+
+						throw new Error( `Asset ${controllerModel.motionController.assetUrl} missing or malformed.` );
+
+					} );
+
+				}
+
+			} ).catch( ( err ) => {
+
+				console.warn( err );
+
+			} );
+
+		} );
+
+		controller.addEventListener( 'disconnected', () => {
+
+			controllerModel.motionController = null;
+			controllerModel.remove( scene );
+			scene = null;
+
+		} );
+
+		return controllerModel;
+
+	}
+
+}
+
+
+
+
+/***/ }),
+/* 60 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Constants: () => (/* binding */ Constants),
+/* harmony export */   MotionController: () => (/* binding */ MotionController),
+/* harmony export */   fetchProfile: () => (/* binding */ fetchProfile),
+/* harmony export */   fetchProfilesList: () => (/* binding */ fetchProfilesList)
+/* harmony export */ });
+/**
+ * @webxr-input-profiles/motion-controllers 1.0.0 https://github.com/immersive-web/webxr-input-profiles
+ */
+
+const Constants = {
+  Handedness: Object.freeze({
+    NONE: 'none',
+    LEFT: 'left',
+    RIGHT: 'right'
+  }),
+
+  ComponentState: Object.freeze({
+    DEFAULT: 'default',
+    TOUCHED: 'touched',
+    PRESSED: 'pressed'
+  }),
+
+  ComponentProperty: Object.freeze({
+    BUTTON: 'button',
+    X_AXIS: 'xAxis',
+    Y_AXIS: 'yAxis',
+    STATE: 'state'
+  }),
+
+  ComponentType: Object.freeze({
+    TRIGGER: 'trigger',
+    SQUEEZE: 'squeeze',
+    TOUCHPAD: 'touchpad',
+    THUMBSTICK: 'thumbstick',
+    BUTTON: 'button'
+  }),
+
+  ButtonTouchThreshold: 0.05,
+
+  AxisTouchThreshold: 0.1,
+
+  VisualResponseProperty: Object.freeze({
+    TRANSFORM: 'transform',
+    VISIBILITY: 'visibility'
+  })
+};
+
+/**
+ * @description Static helper function to fetch a JSON file and turn it into a JS object
+ * @param {string} path - Path to JSON file to be fetched
+ */
+async function fetchJsonFile(path) {
+  const response = await fetch(path);
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  } else {
+    return response.json();
+  }
+}
+
+async function fetchProfilesList(basePath) {
+  if (!basePath) {
+    throw new Error('No basePath supplied');
+  }
+
+  const profileListFileName = 'profilesList.json';
+  const profilesList = await fetchJsonFile(`${basePath}/${profileListFileName}`);
+  return profilesList;
+}
+
+async function fetchProfile(xrInputSource, basePath, defaultProfile = null, getAssetPath = true) {
+  if (!xrInputSource) {
+    throw new Error('No xrInputSource supplied');
+  }
+
+  if (!basePath) {
+    throw new Error('No basePath supplied');
+  }
+
+  // Get the list of profiles
+  const supportedProfilesList = await fetchProfilesList(basePath);
+
+  // Find the relative path to the first requested profile that is recognized
+  let match;
+  xrInputSource.profiles.some((profileId) => {
+    const supportedProfile = supportedProfilesList[profileId];
+    if (supportedProfile) {
+      match = {
+        profileId,
+        profilePath: `${basePath}/${supportedProfile.path}`,
+        deprecated: !!supportedProfile.deprecated
+      };
+    }
+    return !!match;
+  });
+
+  if (!match) {
+    if (!defaultProfile) {
+      throw new Error('No matching profile name found');
+    }
+
+    const supportedProfile = supportedProfilesList[defaultProfile];
+    if (!supportedProfile) {
+      throw new Error(`No matching profile name found and default profile "${defaultProfile}" missing.`);
+    }
+
+    match = {
+      profileId: defaultProfile,
+      profilePath: `${basePath}/${supportedProfile.path}`,
+      deprecated: !!supportedProfile.deprecated
+    };
+  }
+
+  const profile = await fetchJsonFile(match.profilePath);
+
+  let assetPath;
+  if (getAssetPath) {
+    let layout;
+    if (xrInputSource.handedness === 'any') {
+      layout = profile.layouts[Object.keys(profile.layouts)[0]];
+    } else {
+      layout = profile.layouts[xrInputSource.handedness];
+    }
+    if (!layout) {
+      throw new Error(
+        `No matching handedness, ${xrInputSource.handedness}, in profile ${match.profileId}`
+      );
+    }
+
+    if (layout.assetPath) {
+      assetPath = match.profilePath.replace('profile.json', layout.assetPath);
+    }
+  }
+
+  return { profile, assetPath };
+}
+
+/** @constant {Object} */
+const defaultComponentValues = {
+  xAxis: 0,
+  yAxis: 0,
+  button: 0,
+  state: Constants.ComponentState.DEFAULT
+};
+
+/**
+ * @description Converts an X, Y coordinate from the range -1 to 1 (as reported by the Gamepad
+ * API) to the range 0 to 1 (for interpolation). Also caps the X, Y values to be bounded within
+ * a circle. This ensures that thumbsticks are not animated outside the bounds of their physical
+ * range of motion and touchpads do not report touch locations off their physical bounds.
+ * @param {number} x The original x coordinate in the range -1 to 1
+ * @param {number} y The original y coordinate in the range -1 to 1
+ */
+function normalizeAxes(x = 0, y = 0) {
+  let xAxis = x;
+  let yAxis = y;
+
+  // Determine if the point is outside the bounds of the circle
+  // and, if so, place it on the edge of the circle
+  const hypotenuse = Math.sqrt((x * x) + (y * y));
+  if (hypotenuse > 1) {
+    const theta = Math.atan2(y, x);
+    xAxis = Math.cos(theta);
+    yAxis = Math.sin(theta);
+  }
+
+  // Scale and move the circle so values are in the interpolation range.  The circle's origin moves
+  // from (0, 0) to (0.5, 0.5). The circle's radius scales from 1 to be 0.5.
+  const result = {
+    normalizedXAxis: (xAxis * 0.5) + 0.5,
+    normalizedYAxis: (yAxis * 0.5) + 0.5
+  };
+  return result;
+}
+
+/**
+ * Contains the description of how the 3D model should visually respond to a specific user input.
+ * This is accomplished by initializing the object with the name of a node in the 3D model and
+ * property that need to be modified in response to user input, the name of the nodes representing
+ * the allowable range of motion, and the name of the input which triggers the change. In response
+ * to the named input changing, this object computes the appropriate weighting to use for
+ * interpolating between the range of motion nodes.
+ */
+class VisualResponse {
+  constructor(visualResponseDescription) {
+    this.componentProperty = visualResponseDescription.componentProperty;
+    this.states = visualResponseDescription.states;
+    this.valueNodeName = visualResponseDescription.valueNodeName;
+    this.valueNodeProperty = visualResponseDescription.valueNodeProperty;
+
+    if (this.valueNodeProperty === Constants.VisualResponseProperty.TRANSFORM) {
+      this.minNodeName = visualResponseDescription.minNodeName;
+      this.maxNodeName = visualResponseDescription.maxNodeName;
+    }
+
+    // Initializes the response's current value based on default data
+    this.value = 0;
+    this.updateFromComponent(defaultComponentValues);
+  }
+
+  /**
+   * Computes the visual response's interpolation weight based on component state
+   * @param {Object} componentValues - The component from which to update
+   * @param {number} xAxis - The reported X axis value of the component
+   * @param {number} yAxis - The reported Y axis value of the component
+   * @param {number} button - The reported value of the component's button
+   * @param {string} state - The component's active state
+   */
+  updateFromComponent({
+    xAxis, yAxis, button, state
+  }) {
+    const { normalizedXAxis, normalizedYAxis } = normalizeAxes(xAxis, yAxis);
+    switch (this.componentProperty) {
+      case Constants.ComponentProperty.X_AXIS:
+        this.value = (this.states.includes(state)) ? normalizedXAxis : 0.5;
+        break;
+      case Constants.ComponentProperty.Y_AXIS:
+        this.value = (this.states.includes(state)) ? normalizedYAxis : 0.5;
+        break;
+      case Constants.ComponentProperty.BUTTON:
+        this.value = (this.states.includes(state)) ? button : 0;
+        break;
+      case Constants.ComponentProperty.STATE:
+        if (this.valueNodeProperty === Constants.VisualResponseProperty.VISIBILITY) {
+          this.value = (this.states.includes(state));
+        } else {
+          this.value = this.states.includes(state) ? 1.0 : 0.0;
+        }
+        break;
+      default:
+        throw new Error(`Unexpected visualResponse componentProperty ${this.componentProperty}`);
+    }
+  }
+}
+
+class Component {
+  /**
+   * @param {Object} componentId - Id of the component
+   * @param {Object} componentDescription - Description of the component to be created
+   */
+  constructor(componentId, componentDescription) {
+    if (!componentId
+     || !componentDescription
+     || !componentDescription.visualResponses
+     || !componentDescription.gamepadIndices
+     || Object.keys(componentDescription.gamepadIndices).length === 0) {
+      throw new Error('Invalid arguments supplied');
+    }
+
+    this.id = componentId;
+    this.type = componentDescription.type;
+    this.rootNodeName = componentDescription.rootNodeName;
+    this.touchPointNodeName = componentDescription.touchPointNodeName;
+
+    // Build all the visual responses for this component
+    this.visualResponses = {};
+    Object.keys(componentDescription.visualResponses).forEach((responseName) => {
+      const visualResponse = new VisualResponse(componentDescription.visualResponses[responseName]);
+      this.visualResponses[responseName] = visualResponse;
+    });
+
+    // Set default values
+    this.gamepadIndices = Object.assign({}, componentDescription.gamepadIndices);
+
+    this.values = {
+      state: Constants.ComponentState.DEFAULT,
+      button: (this.gamepadIndices.button !== undefined) ? 0 : undefined,
+      xAxis: (this.gamepadIndices.xAxis !== undefined) ? 0 : undefined,
+      yAxis: (this.gamepadIndices.yAxis !== undefined) ? 0 : undefined
+    };
+  }
+
+  get data() {
+    const data = { id: this.id, ...this.values };
+    return data;
+  }
+
+  /**
+   * @description Poll for updated data based on current gamepad state
+   * @param {Object} gamepad - The gamepad object from which the component data should be polled
+   */
+  updateFromGamepad(gamepad) {
+    // Set the state to default before processing other data sources
+    this.values.state = Constants.ComponentState.DEFAULT;
+
+    // Get and normalize button
+    if (this.gamepadIndices.button !== undefined
+        && gamepad.buttons.length > this.gamepadIndices.button) {
+      const gamepadButton = gamepad.buttons[this.gamepadIndices.button];
+      this.values.button = gamepadButton.value;
+      this.values.button = (this.values.button < 0) ? 0 : this.values.button;
+      this.values.button = (this.values.button > 1) ? 1 : this.values.button;
+
+      // Set the state based on the button
+      if (gamepadButton.pressed || this.values.button === 1) {
+        this.values.state = Constants.ComponentState.PRESSED;
+      } else if (gamepadButton.touched || this.values.button > Constants.ButtonTouchThreshold) {
+        this.values.state = Constants.ComponentState.TOUCHED;
+      }
+    }
+
+    // Get and normalize x axis value
+    if (this.gamepadIndices.xAxis !== undefined
+        && gamepad.axes.length > this.gamepadIndices.xAxis) {
+      this.values.xAxis = gamepad.axes[this.gamepadIndices.xAxis];
+      this.values.xAxis = (this.values.xAxis < -1) ? -1 : this.values.xAxis;
+      this.values.xAxis = (this.values.xAxis > 1) ? 1 : this.values.xAxis;
+
+      // If the state is still default, check if the xAxis makes it touched
+      if (this.values.state === Constants.ComponentState.DEFAULT
+        && Math.abs(this.values.xAxis) > Constants.AxisTouchThreshold) {
+        this.values.state = Constants.ComponentState.TOUCHED;
+      }
+    }
+
+    // Get and normalize Y axis value
+    if (this.gamepadIndices.yAxis !== undefined
+        && gamepad.axes.length > this.gamepadIndices.yAxis) {
+      this.values.yAxis = gamepad.axes[this.gamepadIndices.yAxis];
+      this.values.yAxis = (this.values.yAxis < -1) ? -1 : this.values.yAxis;
+      this.values.yAxis = (this.values.yAxis > 1) ? 1 : this.values.yAxis;
+
+      // If the state is still default, check if the yAxis makes it touched
+      if (this.values.state === Constants.ComponentState.DEFAULT
+        && Math.abs(this.values.yAxis) > Constants.AxisTouchThreshold) {
+        this.values.state = Constants.ComponentState.TOUCHED;
+      }
+    }
+
+    // Update the visual response weights based on the current component data
+    Object.values(this.visualResponses).forEach((visualResponse) => {
+      visualResponse.updateFromComponent(this.values);
+    });
+  }
+}
+
+/**
+  * @description Builds a motion controller with components and visual responses based on the
+  * supplied profile description. Data is polled from the xrInputSource's gamepad.
+  * @author Nell Waliczek / https://github.com/NellWaliczek
+*/
+class MotionController {
+  /**
+   * @param {Object} xrInputSource - The XRInputSource to build the MotionController around
+   * @param {Object} profile - The best matched profile description for the supplied xrInputSource
+   * @param {Object} assetUrl
+   */
+  constructor(xrInputSource, profile, assetUrl) {
+    if (!xrInputSource) {
+      throw new Error('No xrInputSource supplied');
+    }
+
+    if (!profile) {
+      throw new Error('No profile supplied');
+    }
+
+    this.xrInputSource = xrInputSource;
+    this.assetUrl = assetUrl;
+    this.id = profile.profileId;
+
+    // Build child components as described in the profile description
+    this.layoutDescription = profile.layouts[xrInputSource.handedness];
+    this.components = {};
+    Object.keys(this.layoutDescription.components).forEach((componentId) => {
+      const componentDescription = this.layoutDescription.components[componentId];
+      this.components[componentId] = new Component(componentId, componentDescription);
+    });
+
+    // Initialize components based on current gamepad state
+    this.updateFromGamepad();
+  }
+
+  get gripSpace() {
+    return this.xrInputSource.gripSpace;
+  }
+
+  get targetRaySpace() {
+    return this.xrInputSource.targetRaySpace;
+  }
+
+  /**
+   * @description Returns a subset of component data for simplified debugging
+   */
+  get data() {
+    const data = [];
+    Object.values(this.components).forEach((component) => {
+      data.push(component.data);
+    });
+    return data;
+  }
+
+  /**
+   * @description Poll for updated data based on current gamepad state
+   */
+  updateFromGamepad() {
+    Object.values(this.components).forEach((component) => {
+      component.updateFromGamepad(this.xrInputSource.gamepad);
+    });
+  }
+}
+
+
+
+
+/***/ }),
+/* 61 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   GLTFLoader: () => (/* binding */ GLTFLoader)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(62);
+
+
+
+class GLTFLoader extends three__WEBPACK_IMPORTED_MODULE_0__.Loader {
+
+	constructor( manager ) {
+
+		super( manager );
+
+		this.dracoLoader = null;
+		this.ktx2Loader = null;
+		this.meshoptDecoder = null;
+
+		this.pluginCallbacks = [];
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsClearcoatExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFTextureBasisUExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFTextureWebPExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFTextureAVIFExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsSheenExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsTransmissionExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsVolumeExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsIorExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsEmissiveStrengthExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsSpecularExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsIridescenceExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMaterialsAnisotropyExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFLightsExtension( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMeshoptCompression( parser );
+
+		} );
+
+		this.register( function ( parser ) {
+
+			return new GLTFMeshGpuInstancing( parser );
+
+		} );
+
+	}
+
+	load( url, onLoad, onProgress, onError ) {
+
+		const scope = this;
+
+		let resourcePath;
+
+		if ( this.resourcePath !== '' ) {
+
+			resourcePath = this.resourcePath;
+
+		} else if ( this.path !== '' ) {
+
+			resourcePath = this.path;
+
+		} else {
+
+			resourcePath = three__WEBPACK_IMPORTED_MODULE_0__.LoaderUtils.extractUrlBase( url );
+
+		}
+
+		// Tells the LoadingManager to track an extra item, which resolves after
+		// the model is fully loaded. This means the count of items loaded will
+		// be incorrect, but ensures manager.onLoad() does not fire early.
+		this.manager.itemStart( url );
+
+		const _onError = function ( e ) {
+
+			if ( onError ) {
+
+				onError( e );
+
+			} else {
+
+				console.error( e );
+
+			}
+
+			scope.manager.itemError( url );
+			scope.manager.itemEnd( url );
+
+		};
+
+		const loader = new three__WEBPACK_IMPORTED_MODULE_0__.FileLoader( this.manager );
+
+		loader.setPath( this.path );
+		loader.setResponseType( 'arraybuffer' );
+		loader.setRequestHeader( this.requestHeader );
+		loader.setWithCredentials( this.withCredentials );
+
+		loader.load( url, function ( data ) {
+
+			try {
+
+				scope.parse( data, resourcePath, function ( gltf ) {
+
+					onLoad( gltf );
+
+					scope.manager.itemEnd( url );
+
+				}, _onError );
+
+			} catch ( e ) {
+
+				_onError( e );
+
+			}
+
+		}, onProgress, _onError );
+
+	}
+
+	setDRACOLoader( dracoLoader ) {
+
+		this.dracoLoader = dracoLoader;
+		return this;
+
+	}
+
+	setDDSLoader() {
+
+		throw new Error(
+
+			'THREE.GLTFLoader: "MSFT_texture_dds" no longer supported. Please update to "KHR_texture_basisu".'
+
+		);
+
+	}
+
+	setKTX2Loader( ktx2Loader ) {
+
+		this.ktx2Loader = ktx2Loader;
+		return this;
+
+	}
+
+	setMeshoptDecoder( meshoptDecoder ) {
+
+		this.meshoptDecoder = meshoptDecoder;
+		return this;
+
+	}
+
+	register( callback ) {
+
+		if ( this.pluginCallbacks.indexOf( callback ) === - 1 ) {
+
+			this.pluginCallbacks.push( callback );
+
+		}
+
+		return this;
+
+	}
+
+	unregister( callback ) {
+
+		if ( this.pluginCallbacks.indexOf( callback ) !== - 1 ) {
+
+			this.pluginCallbacks.splice( this.pluginCallbacks.indexOf( callback ), 1 );
+
+		}
+
+		return this;
+
+	}
+
+	parse( data, path, onLoad, onError ) {
+
+		let json;
+		const extensions = {};
+		const plugins = {};
+		const textDecoder = new TextDecoder();
+
+		if ( typeof data === 'string' ) {
+
+			json = JSON.parse( data );
+
+		} else if ( data instanceof ArrayBuffer ) {
+
+			const magic = textDecoder.decode( new Uint8Array( data, 0, 4 ) );
+
+			if ( magic === BINARY_EXTENSION_HEADER_MAGIC ) {
+
+				try {
+
+					extensions[ EXTENSIONS.KHR_BINARY_GLTF ] = new GLTFBinaryExtension( data );
+
+				} catch ( error ) {
+
+					if ( onError ) onError( error );
+					return;
+
+				}
+
+				json = JSON.parse( extensions[ EXTENSIONS.KHR_BINARY_GLTF ].content );
+
+			} else {
+
+				json = JSON.parse( textDecoder.decode( data ) );
+
+			}
+
+		} else {
+
+			json = data;
+
+		}
+
+		if ( json.asset === undefined || json.asset.version[ 0 ] < 2 ) {
+
+			if ( onError ) onError( new Error( 'THREE.GLTFLoader: Unsupported asset. glTF versions >=2.0 are supported.' ) );
+			return;
+
+		}
+
+		const parser = new GLTFParser( json, {
+
+			path: path || this.resourcePath || '',
+			crossOrigin: this.crossOrigin,
+			requestHeader: this.requestHeader,
+			manager: this.manager,
+			ktx2Loader: this.ktx2Loader,
+			meshoptDecoder: this.meshoptDecoder
+
+		} );
+
+		parser.fileLoader.setRequestHeader( this.requestHeader );
+
+		for ( let i = 0; i < this.pluginCallbacks.length; i ++ ) {
+
+			const plugin = this.pluginCallbacks[ i ]( parser );
+			plugins[ plugin.name ] = plugin;
+
+			// Workaround to avoid determining as unknown extension
+			// in addUnknownExtensionsToUserData().
+			// Remove this workaround if we move all the existing
+			// extension handlers to plugin system
+			extensions[ plugin.name ] = true;
+
+		}
+
+		if ( json.extensionsUsed ) {
+
+			for ( let i = 0; i < json.extensionsUsed.length; ++ i ) {
+
+				const extensionName = json.extensionsUsed[ i ];
+				const extensionsRequired = json.extensionsRequired || [];
+
+				switch ( extensionName ) {
+
+					case EXTENSIONS.KHR_MATERIALS_UNLIT:
+						extensions[ extensionName ] = new GLTFMaterialsUnlitExtension();
+						break;
+
+					case EXTENSIONS.KHR_DRACO_MESH_COMPRESSION:
+						extensions[ extensionName ] = new GLTFDracoMeshCompressionExtension( json, this.dracoLoader );
+						break;
+
+					case EXTENSIONS.KHR_TEXTURE_TRANSFORM:
+						extensions[ extensionName ] = new GLTFTextureTransformExtension();
+						break;
+
+					case EXTENSIONS.KHR_MESH_QUANTIZATION:
+						extensions[ extensionName ] = new GLTFMeshQuantizationExtension();
+						break;
+
+					default:
+
+						if ( extensionsRequired.indexOf( extensionName ) >= 0 && plugins[ extensionName ] === undefined ) {
+
+							console.warn( 'THREE.GLTFLoader: Unknown extension "' + extensionName + '".' );
+
+						}
+
+				}
+
+			}
+
+		}
+
+		parser.setExtensions( extensions );
+		parser.setPlugins( plugins );
+		parser.parse( onLoad, onError );
+
+	}
+
+	parseAsync( data, path ) {
+
+		const scope = this;
+
+		return new Promise( function ( resolve, reject ) {
+
+			scope.parse( data, path, resolve, reject );
+
+		} );
+
+	}
+
+}
+
+/* GLTFREGISTRY */
+
+function GLTFRegistry() {
+
+	let objects = {};
+
+	return	{
+
+		get: function ( key ) {
+
+			return objects[ key ];
+
+		},
+
+		add: function ( key, object ) {
+
+			objects[ key ] = object;
+
+		},
+
+		remove: function ( key ) {
+
+			delete objects[ key ];
+
+		},
+
+		removeAll: function () {
+
+			objects = {};
+
+		}
+
+	};
+
+}
+
+/*********************************/
+/********** EXTENSIONS ***********/
+/*********************************/
+
+const EXTENSIONS = {
+	KHR_BINARY_GLTF: 'KHR_binary_glTF',
+	KHR_DRACO_MESH_COMPRESSION: 'KHR_draco_mesh_compression',
+	KHR_LIGHTS_PUNCTUAL: 'KHR_lights_punctual',
+	KHR_MATERIALS_CLEARCOAT: 'KHR_materials_clearcoat',
+	KHR_MATERIALS_IOR: 'KHR_materials_ior',
+	KHR_MATERIALS_SHEEN: 'KHR_materials_sheen',
+	KHR_MATERIALS_SPECULAR: 'KHR_materials_specular',
+	KHR_MATERIALS_TRANSMISSION: 'KHR_materials_transmission',
+	KHR_MATERIALS_IRIDESCENCE: 'KHR_materials_iridescence',
+	KHR_MATERIALS_ANISOTROPY: 'KHR_materials_anisotropy',
+	KHR_MATERIALS_UNLIT: 'KHR_materials_unlit',
+	KHR_MATERIALS_VOLUME: 'KHR_materials_volume',
+	KHR_TEXTURE_BASISU: 'KHR_texture_basisu',
+	KHR_TEXTURE_TRANSFORM: 'KHR_texture_transform',
+	KHR_MESH_QUANTIZATION: 'KHR_mesh_quantization',
+	KHR_MATERIALS_EMISSIVE_STRENGTH: 'KHR_materials_emissive_strength',
+	EXT_TEXTURE_WEBP: 'EXT_texture_webp',
+	EXT_TEXTURE_AVIF: 'EXT_texture_avif',
+	EXT_MESHOPT_COMPRESSION: 'EXT_meshopt_compression',
+	EXT_MESH_GPU_INSTANCING: 'EXT_mesh_gpu_instancing'
+};
+
+/**
+ * Punctual Lights Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_lights_punctual
+ */
+class GLTFLightsExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_LIGHTS_PUNCTUAL;
+
+		// Object3D instance caches
+		this.cache = { refs: {}, uses: {} };
+
+	}
+
+	_markDefs() {
+
+		const parser = this.parser;
+		const nodeDefs = this.parser.json.nodes || [];
+
+		for ( let nodeIndex = 0, nodeLength = nodeDefs.length; nodeIndex < nodeLength; nodeIndex ++ ) {
+
+			const nodeDef = nodeDefs[ nodeIndex ];
+
+			if ( nodeDef.extensions
+					&& nodeDef.extensions[ this.name ]
+					&& nodeDef.extensions[ this.name ].light !== undefined ) {
+
+				parser._addNodeRef( this.cache, nodeDef.extensions[ this.name ].light );
+
+			}
+
+		}
+
+	}
+
+	_loadLight( lightIndex ) {
+
+		const parser = this.parser;
+		const cacheKey = 'light:' + lightIndex;
+		let dependency = parser.cache.get( cacheKey );
+
+		if ( dependency ) return dependency;
+
+		const json = parser.json;
+		const extensions = ( json.extensions && json.extensions[ this.name ] ) || {};
+		const lightDefs = extensions.lights || [];
+		const lightDef = lightDefs[ lightIndex ];
+		let lightNode;
+
+		const color = new three__WEBPACK_IMPORTED_MODULE_0__.Color( 0xffffff );
+
+		if ( lightDef.color !== undefined ) color.setRGB( lightDef.color[ 0 ], lightDef.color[ 1 ], lightDef.color[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+
+		const range = lightDef.range !== undefined ? lightDef.range : 0;
+
+		switch ( lightDef.type ) {
+
+			case 'directional':
+				lightNode = new three__WEBPACK_IMPORTED_MODULE_0__.DirectionalLight( color );
+				lightNode.target.position.set( 0, 0, - 1 );
+				lightNode.add( lightNode.target );
+				break;
+
+			case 'point':
+				lightNode = new three__WEBPACK_IMPORTED_MODULE_0__.PointLight( color );
+				lightNode.distance = range;
+				break;
+
+			case 'spot':
+				lightNode = new three__WEBPACK_IMPORTED_MODULE_0__.SpotLight( color );
+				lightNode.distance = range;
+				// Handle spotlight properties.
+				lightDef.spot = lightDef.spot || {};
+				lightDef.spot.innerConeAngle = lightDef.spot.innerConeAngle !== undefined ? lightDef.spot.innerConeAngle : 0;
+				lightDef.spot.outerConeAngle = lightDef.spot.outerConeAngle !== undefined ? lightDef.spot.outerConeAngle : Math.PI / 4.0;
+				lightNode.angle = lightDef.spot.outerConeAngle;
+				lightNode.penumbra = 1.0 - lightDef.spot.innerConeAngle / lightDef.spot.outerConeAngle;
+				lightNode.target.position.set( 0, 0, - 1 );
+				lightNode.add( lightNode.target );
+				break;
+
+			default:
+				throw new Error( 'THREE.GLTFLoader: Unexpected light type: ' + lightDef.type );
+
+		}
+
+		// Some lights (e.g. spot) default to a position other than the origin. Reset the position
+		// here, because node-level parsing will only override position if explicitly specified.
+		lightNode.position.set( 0, 0, 0 );
+
+		lightNode.decay = 2;
+
+		assignExtrasToUserData( lightNode, lightDef );
+
+		if ( lightDef.intensity !== undefined ) lightNode.intensity = lightDef.intensity;
+
+		lightNode.name = parser.createUniqueName( lightDef.name || ( 'light_' + lightIndex ) );
+
+		dependency = Promise.resolve( lightNode );
+
+		parser.cache.add( cacheKey, dependency );
+
+		return dependency;
+
+	}
+
+	getDependency( type, index ) {
+
+		if ( type !== 'light' ) return;
+
+		return this._loadLight( index );
+
+	}
+
+	createNodeAttachment( nodeIndex ) {
+
+		const self = this;
+		const parser = this.parser;
+		const json = parser.json;
+		const nodeDef = json.nodes[ nodeIndex ];
+		const lightDef = ( nodeDef.extensions && nodeDef.extensions[ this.name ] ) || {};
+		const lightIndex = lightDef.light;
+
+		if ( lightIndex === undefined ) return null;
+
+		return this._loadLight( lightIndex ).then( function ( light ) {
+
+			return parser._getNodeRef( self.cache, lightIndex, light );
+
+		} );
+
+	}
+
+}
+
+/**
+ * Unlit Materials Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_unlit
+ */
+class GLTFMaterialsUnlitExtension {
+
+	constructor() {
+
+		this.name = EXTENSIONS.KHR_MATERIALS_UNLIT;
+
+	}
+
+	getMaterialType() {
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial;
+
+	}
+
+	extendParams( materialParams, materialDef, parser ) {
+
+		const pending = [];
+
+		materialParams.color = new three__WEBPACK_IMPORTED_MODULE_0__.Color( 1.0, 1.0, 1.0 );
+		materialParams.opacity = 1.0;
+
+		const metallicRoughness = materialDef.pbrMetallicRoughness;
+
+		if ( metallicRoughness ) {
+
+			if ( Array.isArray( metallicRoughness.baseColorFactor ) ) {
+
+				const array = metallicRoughness.baseColorFactor;
+
+				materialParams.color.setRGB( array[ 0 ], array[ 1 ], array[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+				materialParams.opacity = array[ 3 ];
+
+			}
+
+			if ( metallicRoughness.baseColorTexture !== undefined ) {
+
+				pending.push( parser.assignTexture( materialParams, 'map', metallicRoughness.baseColorTexture, three__WEBPACK_IMPORTED_MODULE_0__.SRGBColorSpace ) );
+
+			}
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials Emissive Strength Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/blob/5768b3ce0ef32bc39cdf1bef10b948586635ead3/extensions/2.0/Khronos/KHR_materials_emissive_strength/README.md
+ */
+class GLTFMaterialsEmissiveStrengthExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_EMISSIVE_STRENGTH;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const emissiveStrength = materialDef.extensions[ this.name ].emissiveStrength;
+
+		if ( emissiveStrength !== undefined ) {
+
+			materialParams.emissiveIntensity = emissiveStrength;
+
+		}
+
+		return Promise.resolve();
+
+	}
+
+}
+
+/**
+ * Clearcoat Materials Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat
+ */
+class GLTFMaterialsClearcoatExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_CLEARCOAT;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.clearcoatFactor !== undefined ) {
+
+			materialParams.clearcoat = extension.clearcoatFactor;
+
+		}
+
+		if ( extension.clearcoatTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'clearcoatMap', extension.clearcoatTexture ) );
+
+		}
+
+		if ( extension.clearcoatRoughnessFactor !== undefined ) {
+
+			materialParams.clearcoatRoughness = extension.clearcoatRoughnessFactor;
+
+		}
+
+		if ( extension.clearcoatRoughnessTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'clearcoatRoughnessMap', extension.clearcoatRoughnessTexture ) );
+
+		}
+
+		if ( extension.clearcoatNormalTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'clearcoatNormalMap', extension.clearcoatNormalTexture ) );
+
+			if ( extension.clearcoatNormalTexture.scale !== undefined ) {
+
+				const scale = extension.clearcoatNormalTexture.scale;
+
+				materialParams.clearcoatNormalScale = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2( scale, scale );
+
+			}
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Iridescence Materials Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_iridescence
+ */
+class GLTFMaterialsIridescenceExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_IRIDESCENCE;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.iridescenceFactor !== undefined ) {
+
+			materialParams.iridescence = extension.iridescenceFactor;
+
+		}
+
+		if ( extension.iridescenceTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'iridescenceMap', extension.iridescenceTexture ) );
+
+		}
+
+		if ( extension.iridescenceIor !== undefined ) {
+
+			materialParams.iridescenceIOR = extension.iridescenceIor;
+
+		}
+
+		if ( materialParams.iridescenceThicknessRange === undefined ) {
+
+			materialParams.iridescenceThicknessRange = [ 100, 400 ];
+
+		}
+
+		if ( extension.iridescenceThicknessMinimum !== undefined ) {
+
+			materialParams.iridescenceThicknessRange[ 0 ] = extension.iridescenceThicknessMinimum;
+
+		}
+
+		if ( extension.iridescenceThicknessMaximum !== undefined ) {
+
+			materialParams.iridescenceThicknessRange[ 1 ] = extension.iridescenceThicknessMaximum;
+
+		}
+
+		if ( extension.iridescenceThicknessTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'iridescenceThicknessMap', extension.iridescenceThicknessTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Sheen Materials Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_sheen
+ */
+class GLTFMaterialsSheenExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_SHEEN;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		materialParams.sheenColor = new three__WEBPACK_IMPORTED_MODULE_0__.Color( 0, 0, 0 );
+		materialParams.sheenRoughness = 0;
+		materialParams.sheen = 1;
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.sheenColorFactor !== undefined ) {
+
+			const colorFactor = extension.sheenColorFactor;
+			materialParams.sheenColor.setRGB( colorFactor[ 0 ], colorFactor[ 1 ], colorFactor [ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+
+		}
+
+		if ( extension.sheenRoughnessFactor !== undefined ) {
+
+			materialParams.sheenRoughness = extension.sheenRoughnessFactor;
+
+		}
+
+		if ( extension.sheenColorTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'sheenColorMap', extension.sheenColorTexture, three__WEBPACK_IMPORTED_MODULE_0__.SRGBColorSpace ) );
+
+		}
+
+		if ( extension.sheenRoughnessTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'sheenRoughnessMap', extension.sheenRoughnessTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Transmission Materials Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission
+ * Draft: https://github.com/KhronosGroup/glTF/pull/1698
+ */
+class GLTFMaterialsTransmissionExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_TRANSMISSION;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.transmissionFactor !== undefined ) {
+
+			materialParams.transmission = extension.transmissionFactor;
+
+		}
+
+		if ( extension.transmissionTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'transmissionMap', extension.transmissionTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials Volume Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_volume
+ */
+class GLTFMaterialsVolumeExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_VOLUME;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.thickness = extension.thicknessFactor !== undefined ? extension.thicknessFactor : 0;
+
+		if ( extension.thicknessTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'thicknessMap', extension.thicknessTexture ) );
+
+		}
+
+		materialParams.attenuationDistance = extension.attenuationDistance || Infinity;
+
+		const colorArray = extension.attenuationColor || [ 1, 1, 1 ];
+		materialParams.attenuationColor = new three__WEBPACK_IMPORTED_MODULE_0__.Color().setRGB( colorArray[ 0 ], colorArray[ 1 ], colorArray[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials ior Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_ior
+ */
+class GLTFMaterialsIorExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_IOR;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.ior = extension.ior !== undefined ? extension.ior : 1.5;
+
+		return Promise.resolve();
+
+	}
+
+}
+
+/**
+ * Materials specular Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_specular
+ */
+class GLTFMaterialsSpecularExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_SPECULAR;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		materialParams.specularIntensity = extension.specularFactor !== undefined ? extension.specularFactor : 1.0;
+
+		if ( extension.specularTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'specularIntensityMap', extension.specularTexture ) );
+
+		}
+
+		const colorArray = extension.specularColorFactor || [ 1, 1, 1 ];
+		materialParams.specularColor = new three__WEBPACK_IMPORTED_MODULE_0__.Color().setRGB( colorArray[ 0 ], colorArray[ 1 ], colorArray[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+
+		if ( extension.specularColorTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'specularColorMap', extension.specularColorTexture, three__WEBPACK_IMPORTED_MODULE_0__.SRGBColorSpace ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * Materials anisotropy Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_anisotropy
+ */
+class GLTFMaterialsAnisotropyExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_MATERIALS_ANISOTROPY;
+
+	}
+
+	getMaterialType( materialIndex ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) return null;
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshPhysicalMaterial;
+
+	}
+
+	extendMaterialParams( materialIndex, materialParams ) {
+
+		const parser = this.parser;
+		const materialDef = parser.json.materials[ materialIndex ];
+
+		if ( ! materialDef.extensions || ! materialDef.extensions[ this.name ] ) {
+
+			return Promise.resolve();
+
+		}
+
+		const pending = [];
+
+		const extension = materialDef.extensions[ this.name ];
+
+		if ( extension.anisotropyStrength !== undefined ) {
+
+			materialParams.anisotropy = extension.anisotropyStrength;
+
+		}
+
+		if ( extension.anisotropyRotation !== undefined ) {
+
+			materialParams.anisotropyRotation = extension.anisotropyRotation;
+
+		}
+
+		if ( extension.anisotropyTexture !== undefined ) {
+
+			pending.push( parser.assignTexture( materialParams, 'anisotropyMap', extension.anisotropyTexture ) );
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+}
+
+/**
+ * BasisU Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_texture_basisu
+ */
+class GLTFTextureBasisUExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.KHR_TEXTURE_BASISU;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ this.name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ this.name ];
+		const loader = parser.options.ktx2Loader;
+
+		if ( ! loader ) {
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( this.name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: setKTX2Loader must be called before loading KTX2 textures' );
+
+			} else {
+
+				// Assumes that the extension is optional and that a fallback texture is present
+				return null;
+
+			}
+
+		}
+
+		return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+	}
+
+}
+
+/**
+ * WebP Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_texture_webp
+ */
+class GLTFTextureWebPExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.EXT_TEXTURE_WEBP;
+		this.isSupported = null;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const name = this.name;
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ name ];
+		const source = json.images[ extension.source ];
+
+		let loader = parser.textureLoader;
+		if ( source.uri ) {
+
+			const handler = parser.options.manager.getHandler( source.uri );
+			if ( handler !== null ) loader = handler;
+
+		}
+
+		return this.detectSupport().then( function ( isSupported ) {
+
+			if ( isSupported ) return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: WebP required by asset but unsupported.' );
+
+			}
+
+			// Fall back to PNG or JPEG.
+			return parser.loadTexture( textureIndex );
+
+		} );
+
+	}
+
+	detectSupport() {
+
+		if ( ! this.isSupported ) {
+
+			this.isSupported = new Promise( function ( resolve ) {
+
+				const image = new Image();
+
+				// Lossy test image. Support for lossy images doesn't guarantee support for all
+				// WebP images, unfortunately.
+				image.src = 'data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA';
+
+				image.onload = image.onerror = function () {
+
+					resolve( image.height === 1 );
+
+				};
+
+			} );
+
+		}
+
+		return this.isSupported;
+
+	}
+
+}
+
+/**
+ * AVIF Texture Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_texture_avif
+ */
+class GLTFTextureAVIFExtension {
+
+	constructor( parser ) {
+
+		this.parser = parser;
+		this.name = EXTENSIONS.EXT_TEXTURE_AVIF;
+		this.isSupported = null;
+
+	}
+
+	loadTexture( textureIndex ) {
+
+		const name = this.name;
+		const parser = this.parser;
+		const json = parser.json;
+
+		const textureDef = json.textures[ textureIndex ];
+
+		if ( ! textureDef.extensions || ! textureDef.extensions[ name ] ) {
+
+			return null;
+
+		}
+
+		const extension = textureDef.extensions[ name ];
+		const source = json.images[ extension.source ];
+
+		let loader = parser.textureLoader;
+		if ( source.uri ) {
+
+			const handler = parser.options.manager.getHandler( source.uri );
+			if ( handler !== null ) loader = handler;
+
+		}
+
+		return this.detectSupport().then( function ( isSupported ) {
+
+			if ( isSupported ) return parser.loadTextureImage( textureIndex, extension.source, loader );
+
+			if ( json.extensionsRequired && json.extensionsRequired.indexOf( name ) >= 0 ) {
+
+				throw new Error( 'THREE.GLTFLoader: AVIF required by asset but unsupported.' );
+
+			}
+
+			// Fall back to PNG or JPEG.
+			return parser.loadTexture( textureIndex );
+
+		} );
+
+	}
+
+	detectSupport() {
+
+		if ( ! this.isSupported ) {
+
+			this.isSupported = new Promise( function ( resolve ) {
+
+				const image = new Image();
+
+				// Lossy test image.
+				image.src = 'data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAABcAAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAACAAIABoAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAAB9tZGF0EgAKCBgABogQEDQgMgkQAAAAB8dSLfI=';
+				image.onload = image.onerror = function () {
+
+					resolve( image.height === 1 );
+
+				};
+
+			} );
+
+		}
+
+		return this.isSupported;
+
+	}
+
+}
+
+/**
+ * meshopt BufferView Compression Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_meshopt_compression
+ */
+class GLTFMeshoptCompression {
+
+	constructor( parser ) {
+
+		this.name = EXTENSIONS.EXT_MESHOPT_COMPRESSION;
+		this.parser = parser;
+
+	}
+
+	loadBufferView( index ) {
+
+		const json = this.parser.json;
+		const bufferView = json.bufferViews[ index ];
+
+		if ( bufferView.extensions && bufferView.extensions[ this.name ] ) {
+
+			const extensionDef = bufferView.extensions[ this.name ];
+
+			const buffer = this.parser.getDependency( 'buffer', extensionDef.buffer );
+			const decoder = this.parser.options.meshoptDecoder;
+
+			if ( ! decoder || ! decoder.supported ) {
+
+				if ( json.extensionsRequired && json.extensionsRequired.indexOf( this.name ) >= 0 ) {
+
+					throw new Error( 'THREE.GLTFLoader: setMeshoptDecoder must be called before loading compressed files' );
+
+				} else {
+
+					// Assumes that the extension is optional and that fallback buffer data is present
+					return null;
+
+				}
+
+			}
+
+			return buffer.then( function ( res ) {
+
+				const byteOffset = extensionDef.byteOffset || 0;
+				const byteLength = extensionDef.byteLength || 0;
+
+				const count = extensionDef.count;
+				const stride = extensionDef.byteStride;
+
+				const source = new Uint8Array( res, byteOffset, byteLength );
+
+				if ( decoder.decodeGltfBufferAsync ) {
+
+					return decoder.decodeGltfBufferAsync( count, stride, source, extensionDef.mode, extensionDef.filter ).then( function ( res ) {
+
+						return res.buffer;
+
+					} );
+
+				} else {
+
+					// Support for MeshoptDecoder 0.18 or earlier, without decodeGltfBufferAsync
+					return decoder.ready.then( function () {
+
+						const result = new ArrayBuffer( count * stride );
+						decoder.decodeGltfBuffer( new Uint8Array( result ), count, stride, source, extensionDef.mode, extensionDef.filter );
+						return result;
+
+					} );
+
+				}
+
+			} );
+
+		} else {
+
+			return null;
+
+		}
+
+	}
+
+}
+
+/**
+ * GPU Instancing Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Vendor/EXT_mesh_gpu_instancing
+ *
+ */
+class GLTFMeshGpuInstancing {
+
+	constructor( parser ) {
+
+		this.name = EXTENSIONS.EXT_MESH_GPU_INSTANCING;
+		this.parser = parser;
+
+	}
+
+	createNodeMesh( nodeIndex ) {
+
+		const json = this.parser.json;
+		const nodeDef = json.nodes[ nodeIndex ];
+
+		if ( ! nodeDef.extensions || ! nodeDef.extensions[ this.name ] ||
+			nodeDef.mesh === undefined ) {
+
+			return null;
+
+		}
+
+		const meshDef = json.meshes[ nodeDef.mesh ];
+
+		// No Points or Lines + Instancing support yet
+
+		for ( const primitive of meshDef.primitives ) {
+
+			if ( primitive.mode !== WEBGL_CONSTANTS.TRIANGLES &&
+				 primitive.mode !== WEBGL_CONSTANTS.TRIANGLE_STRIP &&
+				 primitive.mode !== WEBGL_CONSTANTS.TRIANGLE_FAN &&
+				 primitive.mode !== undefined ) {
+
+				return null;
+
+			}
+
+		}
+
+		const extensionDef = nodeDef.extensions[ this.name ];
+		const attributesDef = extensionDef.attributes;
+
+		// @TODO: Can we support InstancedMesh + SkinnedMesh?
+
+		const pending = [];
+		const attributes = {};
+
+		for ( const key in attributesDef ) {
+
+			pending.push( this.parser.getDependency( 'accessor', attributesDef[ key ] ).then( accessor => {
+
+				attributes[ key ] = accessor;
+				return attributes[ key ];
+
+			} ) );
+
+		}
+
+		if ( pending.length < 1 ) {
+
+			return null;
+
+		}
+
+		pending.push( this.parser.createNodeMesh( nodeIndex ) );
+
+		return Promise.all( pending ).then( results => {
+
+			const nodeObject = results.pop();
+			const meshes = nodeObject.isGroup ? nodeObject.children : [ nodeObject ];
+			const count = results[ 0 ].count; // All attribute counts should be same
+			const instancedMeshes = [];
+
+			for ( const mesh of meshes ) {
+
+				// Temporal variables
+				const m = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();
+				const p = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+				const q = new three__WEBPACK_IMPORTED_MODULE_0__.Quaternion();
+				const s = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( 1, 1, 1 );
+
+				const instancedMesh = new three__WEBPACK_IMPORTED_MODULE_0__.InstancedMesh( mesh.geometry, mesh.material, count );
+
+				for ( let i = 0; i < count; i ++ ) {
+
+					if ( attributes.TRANSLATION ) {
+
+						p.fromBufferAttribute( attributes.TRANSLATION, i );
+
+					}
+
+					if ( attributes.ROTATION ) {
+
+						q.fromBufferAttribute( attributes.ROTATION, i );
+
+					}
+
+					if ( attributes.SCALE ) {
+
+						s.fromBufferAttribute( attributes.SCALE, i );
+
+					}
+
+					instancedMesh.setMatrixAt( i, m.compose( p, q, s ) );
+
+				}
+
+				// Add instance attributes to the geometry, excluding TRS.
+				for ( const attributeName in attributes ) {
+
+					if ( attributeName !== 'TRANSLATION' &&
+						 attributeName !== 'ROTATION' &&
+						 attributeName !== 'SCALE' ) {
+
+						mesh.geometry.setAttribute( attributeName, attributes[ attributeName ] );
+
+					}
+
+				}
+
+				// Just in case
+				three__WEBPACK_IMPORTED_MODULE_0__.Object3D.prototype.copy.call( instancedMesh, mesh );
+
+				this.parser.assignFinalMaterial( instancedMesh );
+
+				instancedMeshes.push( instancedMesh );
+
+			}
+
+			if ( nodeObject.isGroup ) {
+
+				nodeObject.clear();
+
+				nodeObject.add( ... instancedMeshes );
+
+				return nodeObject;
+
+			}
+
+			return instancedMeshes[ 0 ];
+
+		} );
+
+	}
+
+}
+
+/* BINARY EXTENSION */
+const BINARY_EXTENSION_HEADER_MAGIC = 'glTF';
+const BINARY_EXTENSION_HEADER_LENGTH = 12;
+const BINARY_EXTENSION_CHUNK_TYPES = { JSON: 0x4E4F534A, BIN: 0x004E4942 };
+
+class GLTFBinaryExtension {
+
+	constructor( data ) {
+
+		this.name = EXTENSIONS.KHR_BINARY_GLTF;
+		this.content = null;
+		this.body = null;
+
+		const headerView = new DataView( data, 0, BINARY_EXTENSION_HEADER_LENGTH );
+		const textDecoder = new TextDecoder();
+
+		this.header = {
+			magic: textDecoder.decode( new Uint8Array( data.slice( 0, 4 ) ) ),
+			version: headerView.getUint32( 4, true ),
+			length: headerView.getUint32( 8, true )
+		};
+
+		if ( this.header.magic !== BINARY_EXTENSION_HEADER_MAGIC ) {
+
+			throw new Error( 'THREE.GLTFLoader: Unsupported glTF-Binary header.' );
+
+		} else if ( this.header.version < 2.0 ) {
+
+			throw new Error( 'THREE.GLTFLoader: Legacy binary file detected.' );
+
+		}
+
+		const chunkContentsLength = this.header.length - BINARY_EXTENSION_HEADER_LENGTH;
+		const chunkView = new DataView( data, BINARY_EXTENSION_HEADER_LENGTH );
+		let chunkIndex = 0;
+
+		while ( chunkIndex < chunkContentsLength ) {
+
+			const chunkLength = chunkView.getUint32( chunkIndex, true );
+			chunkIndex += 4;
+
+			const chunkType = chunkView.getUint32( chunkIndex, true );
+			chunkIndex += 4;
+
+			if ( chunkType === BINARY_EXTENSION_CHUNK_TYPES.JSON ) {
+
+				const contentArray = new Uint8Array( data, BINARY_EXTENSION_HEADER_LENGTH + chunkIndex, chunkLength );
+				this.content = textDecoder.decode( contentArray );
+
+			} else if ( chunkType === BINARY_EXTENSION_CHUNK_TYPES.BIN ) {
+
+				const byteOffset = BINARY_EXTENSION_HEADER_LENGTH + chunkIndex;
+				this.body = data.slice( byteOffset, byteOffset + chunkLength );
+
+			}
+
+			// Clients must ignore chunks with unknown types.
+
+			chunkIndex += chunkLength;
+
+		}
+
+		if ( this.content === null ) {
+
+			throw new Error( 'THREE.GLTFLoader: JSON content not found.' );
+
+		}
+
+	}
+
+}
+
+/**
+ * DRACO Mesh Compression Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_draco_mesh_compression
+ */
+class GLTFDracoMeshCompressionExtension {
+
+	constructor( json, dracoLoader ) {
+
+		if ( ! dracoLoader ) {
+
+			throw new Error( 'THREE.GLTFLoader: No DRACOLoader instance provided.' );
+
+		}
+
+		this.name = EXTENSIONS.KHR_DRACO_MESH_COMPRESSION;
+		this.json = json;
+		this.dracoLoader = dracoLoader;
+		this.dracoLoader.preload();
+
+	}
+
+	decodePrimitive( primitive, parser ) {
+
+		const json = this.json;
+		const dracoLoader = this.dracoLoader;
+		const bufferViewIndex = primitive.extensions[ this.name ].bufferView;
+		const gltfAttributeMap = primitive.extensions[ this.name ].attributes;
+		const threeAttributeMap = {};
+		const attributeNormalizedMap = {};
+		const attributeTypeMap = {};
+
+		for ( const attributeName in gltfAttributeMap ) {
+
+			const threeAttributeName = ATTRIBUTES[ attributeName ] || attributeName.toLowerCase();
+
+			threeAttributeMap[ threeAttributeName ] = gltfAttributeMap[ attributeName ];
+
+		}
+
+		for ( const attributeName in primitive.attributes ) {
+
+			const threeAttributeName = ATTRIBUTES[ attributeName ] || attributeName.toLowerCase();
+
+			if ( gltfAttributeMap[ attributeName ] !== undefined ) {
+
+				const accessorDef = json.accessors[ primitive.attributes[ attributeName ] ];
+				const componentType = WEBGL_COMPONENT_TYPES[ accessorDef.componentType ];
+
+				attributeTypeMap[ threeAttributeName ] = componentType.name;
+				attributeNormalizedMap[ threeAttributeName ] = accessorDef.normalized === true;
+
+			}
+
+		}
+
+		return parser.getDependency( 'bufferView', bufferViewIndex ).then( function ( bufferView ) {
+
+			return new Promise( function ( resolve ) {
+
+				dracoLoader.decodeDracoFile( bufferView, function ( geometry ) {
+
+					for ( const attributeName in geometry.attributes ) {
+
+						const attribute = geometry.attributes[ attributeName ];
+						const normalized = attributeNormalizedMap[ attributeName ];
+
+						if ( normalized !== undefined ) attribute.normalized = normalized;
+
+					}
+
+					resolve( geometry );
+
+				}, threeAttributeMap, attributeTypeMap );
+
+			} );
+
+		} );
+
+	}
+
+}
+
+/**
+ * Texture Transform Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_texture_transform
+ */
+class GLTFTextureTransformExtension {
+
+	constructor() {
+
+		this.name = EXTENSIONS.KHR_TEXTURE_TRANSFORM;
+
+	}
+
+	extendTexture( texture, transform ) {
+
+		if ( ( transform.texCoord === undefined || transform.texCoord === texture.channel )
+			&& transform.offset === undefined
+			&& transform.rotation === undefined
+			&& transform.scale === undefined ) {
+
+			// See https://github.com/mrdoob/three.js/issues/21819.
+			return texture;
+
+		}
+
+		texture = texture.clone();
+
+		if ( transform.texCoord !== undefined ) {
+
+			texture.channel = transform.texCoord;
+
+		}
+
+		if ( transform.offset !== undefined ) {
+
+			texture.offset.fromArray( transform.offset );
+
+		}
+
+		if ( transform.rotation !== undefined ) {
+
+			texture.rotation = transform.rotation;
+
+		}
+
+		if ( transform.scale !== undefined ) {
+
+			texture.repeat.fromArray( transform.scale );
+
+		}
+
+		texture.needsUpdate = true;
+
+		return texture;
+
+	}
+
+}
+
+/**
+ * Mesh Quantization Extension
+ *
+ * Specification: https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_mesh_quantization
+ */
+class GLTFMeshQuantizationExtension {
+
+	constructor() {
+
+		this.name = EXTENSIONS.KHR_MESH_QUANTIZATION;
+
+	}
+
+}
+
+/*********************************/
+/********** INTERPOLATION ********/
+/*********************************/
+
+// Spline Interpolation
+// Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#appendix-c-spline-interpolation
+class GLTFCubicSplineInterpolant extends three__WEBPACK_IMPORTED_MODULE_0__.Interpolant {
+
+	constructor( parameterPositions, sampleValues, sampleSize, resultBuffer ) {
+
+		super( parameterPositions, sampleValues, sampleSize, resultBuffer );
+
+	}
+
+	copySampleValue_( index ) {
+
+		// Copies a sample value to the result buffer. See description of glTF
+		// CUBICSPLINE values layout in interpolate_() function below.
+
+		const result = this.resultBuffer,
+			values = this.sampleValues,
+			valueSize = this.valueSize,
+			offset = index * valueSize * 3 + valueSize;
+
+		for ( let i = 0; i !== valueSize; i ++ ) {
+
+			result[ i ] = values[ offset + i ];
+
+		}
+
+		return result;
+
+	}
+
+	interpolate_( i1, t0, t, t1 ) {
+
+		const result = this.resultBuffer;
+		const values = this.sampleValues;
+		const stride = this.valueSize;
+
+		const stride2 = stride * 2;
+		const stride3 = stride * 3;
+
+		const td = t1 - t0;
+
+		const p = ( t - t0 ) / td;
+		const pp = p * p;
+		const ppp = pp * p;
+
+		const offset1 = i1 * stride3;
+		const offset0 = offset1 - stride3;
+
+		const s2 = - 2 * ppp + 3 * pp;
+		const s3 = ppp - pp;
+		const s0 = 1 - s2;
+		const s1 = s3 - pp + p;
+
+		// Layout of keyframe output values for CUBICSPLINE animations:
+		//   [ inTangent_1, splineVertex_1, outTangent_1, inTangent_2, splineVertex_2, ... ]
+		for ( let i = 0; i !== stride; i ++ ) {
+
+			const p0 = values[ offset0 + i + stride ]; // splineVertex_k
+			const m0 = values[ offset0 + i + stride2 ] * td; // outTangent_k * (t_k+1 - t_k)
+			const p1 = values[ offset1 + i + stride ]; // splineVertex_k+1
+			const m1 = values[ offset1 + i ] * td; // inTangent_k+1 * (t_k+1 - t_k)
+
+			result[ i ] = s0 * p0 + s1 * m0 + s2 * p1 + s3 * m1;
+
+		}
+
+		return result;
+
+	}
+
+}
+
+const _q = new three__WEBPACK_IMPORTED_MODULE_0__.Quaternion();
+
+class GLTFCubicSplineQuaternionInterpolant extends GLTFCubicSplineInterpolant {
+
+	interpolate_( i1, t0, t, t1 ) {
+
+		const result = super.interpolate_( i1, t0, t, t1 );
+
+		_q.fromArray( result ).normalize().toArray( result );
+
+		return result;
+
+	}
+
+}
+
+
+/*********************************/
+/********** INTERNALS ************/
+/*********************************/
+
+/* CONSTANTS */
+
+const WEBGL_CONSTANTS = {
+	FLOAT: 5126,
+	//FLOAT_MAT2: 35674,
+	FLOAT_MAT3: 35675,
+	FLOAT_MAT4: 35676,
+	FLOAT_VEC2: 35664,
+	FLOAT_VEC3: 35665,
+	FLOAT_VEC4: 35666,
+	LINEAR: 9729,
+	REPEAT: 10497,
+	SAMPLER_2D: 35678,
+	POINTS: 0,
+	LINES: 1,
+	LINE_LOOP: 2,
+	LINE_STRIP: 3,
+	TRIANGLES: 4,
+	TRIANGLE_STRIP: 5,
+	TRIANGLE_FAN: 6,
+	UNSIGNED_BYTE: 5121,
+	UNSIGNED_SHORT: 5123
+};
+
+const WEBGL_COMPONENT_TYPES = {
+	5120: Int8Array,
+	5121: Uint8Array,
+	5122: Int16Array,
+	5123: Uint16Array,
+	5125: Uint32Array,
+	5126: Float32Array
+};
+
+const WEBGL_FILTERS = {
+	9728: three__WEBPACK_IMPORTED_MODULE_0__.NearestFilter,
+	9729: three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter,
+	9984: three__WEBPACK_IMPORTED_MODULE_0__.NearestMipmapNearestFilter,
+	9985: three__WEBPACK_IMPORTED_MODULE_0__.LinearMipmapNearestFilter,
+	9986: three__WEBPACK_IMPORTED_MODULE_0__.NearestMipmapLinearFilter,
+	9987: three__WEBPACK_IMPORTED_MODULE_0__.LinearMipmapLinearFilter
+};
+
+const WEBGL_WRAPPINGS = {
+	33071: three__WEBPACK_IMPORTED_MODULE_0__.ClampToEdgeWrapping,
+	33648: three__WEBPACK_IMPORTED_MODULE_0__.MirroredRepeatWrapping,
+	10497: three__WEBPACK_IMPORTED_MODULE_0__.RepeatWrapping
+};
+
+const WEBGL_TYPE_SIZES = {
+	'SCALAR': 1,
+	'VEC2': 2,
+	'VEC3': 3,
+	'VEC4': 4,
+	'MAT2': 4,
+	'MAT3': 9,
+	'MAT4': 16
+};
+
+const ATTRIBUTES = {
+	POSITION: 'position',
+	NORMAL: 'normal',
+	TANGENT: 'tangent',
+	TEXCOORD_0: 'uv',
+	TEXCOORD_1: 'uv1',
+	TEXCOORD_2: 'uv2',
+	TEXCOORD_3: 'uv3',
+	COLOR_0: 'color',
+	WEIGHTS_0: 'skinWeight',
+	JOINTS_0: 'skinIndex',
+};
+
+const PATH_PROPERTIES = {
+	scale: 'scale',
+	translation: 'position',
+	rotation: 'quaternion',
+	weights: 'morphTargetInfluences'
+};
+
+const INTERPOLATION = {
+	CUBICSPLINE: undefined, // We use a custom interpolant (GLTFCubicSplineInterpolation) for CUBICSPLINE tracks. Each
+		                        // keyframe track will be initialized with a default interpolation type, then modified.
+	LINEAR: three__WEBPACK_IMPORTED_MODULE_0__.InterpolateLinear,
+	STEP: three__WEBPACK_IMPORTED_MODULE_0__.InterpolateDiscrete
+};
+
+const ALPHA_MODES = {
+	OPAQUE: 'OPAQUE',
+	MASK: 'MASK',
+	BLEND: 'BLEND'
+};
+
+/**
+ * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#default-material
+ */
+function createDefaultMaterial( cache ) {
+
+	if ( cache[ 'DefaultMaterial' ] === undefined ) {
+
+		cache[ 'DefaultMaterial' ] = new three__WEBPACK_IMPORTED_MODULE_0__.MeshStandardMaterial( {
+			color: 0xFFFFFF,
+			emissive: 0x000000,
+			metalness: 1,
+			roughness: 1,
+			transparent: false,
+			depthTest: true,
+			side: three__WEBPACK_IMPORTED_MODULE_0__.FrontSide
+		} );
+
+	}
+
+	return cache[ 'DefaultMaterial' ];
+
+}
+
+function addUnknownExtensionsToUserData( knownExtensions, object, objectDef ) {
+
+	// Add unknown glTF extensions to an object's userData.
+
+	for ( const name in objectDef.extensions ) {
+
+		if ( knownExtensions[ name ] === undefined ) {
+
+			object.userData.gltfExtensions = object.userData.gltfExtensions || {};
+			object.userData.gltfExtensions[ name ] = objectDef.extensions[ name ];
+
+		}
+
+	}
+
+}
+
+/**
+ * @param {Object3D|Material|BufferGeometry} object
+ * @param {GLTF.definition} gltfDef
+ */
+function assignExtrasToUserData( object, gltfDef ) {
+
+	if ( gltfDef.extras !== undefined ) {
+
+		if ( typeof gltfDef.extras === 'object' ) {
+
+			Object.assign( object.userData, gltfDef.extras );
+
+		} else {
+
+			console.warn( 'THREE.GLTFLoader: Ignoring primitive type .extras, ' + gltfDef.extras );
+
+		}
+
+	}
+
+}
+
+/**
+ * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#morph-targets
+ *
+ * @param {BufferGeometry} geometry
+ * @param {Array<GLTF.Target>} targets
+ * @param {GLTFParser} parser
+ * @return {Promise<BufferGeometry>}
+ */
+function addMorphTargets( geometry, targets, parser ) {
+
+	let hasMorphPosition = false;
+	let hasMorphNormal = false;
+	let hasMorphColor = false;
+
+	for ( let i = 0, il = targets.length; i < il; i ++ ) {
+
+		const target = targets[ i ];
+
+		if ( target.POSITION !== undefined ) hasMorphPosition = true;
+		if ( target.NORMAL !== undefined ) hasMorphNormal = true;
+		if ( target.COLOR_0 !== undefined ) hasMorphColor = true;
+
+		if ( hasMorphPosition && hasMorphNormal && hasMorphColor ) break;
+
+	}
+
+	if ( ! hasMorphPosition && ! hasMorphNormal && ! hasMorphColor ) return Promise.resolve( geometry );
+
+	const pendingPositionAccessors = [];
+	const pendingNormalAccessors = [];
+	const pendingColorAccessors = [];
+
+	for ( let i = 0, il = targets.length; i < il; i ++ ) {
+
+		const target = targets[ i ];
+
+		if ( hasMorphPosition ) {
+
+			const pendingAccessor = target.POSITION !== undefined
+				? parser.getDependency( 'accessor', target.POSITION )
+				: geometry.attributes.position;
+
+			pendingPositionAccessors.push( pendingAccessor );
+
+		}
+
+		if ( hasMorphNormal ) {
+
+			const pendingAccessor = target.NORMAL !== undefined
+				? parser.getDependency( 'accessor', target.NORMAL )
+				: geometry.attributes.normal;
+
+			pendingNormalAccessors.push( pendingAccessor );
+
+		}
+
+		if ( hasMorphColor ) {
+
+			const pendingAccessor = target.COLOR_0 !== undefined
+				? parser.getDependency( 'accessor', target.COLOR_0 )
+				: geometry.attributes.color;
+
+			pendingColorAccessors.push( pendingAccessor );
+
+		}
+
+	}
+
+	return Promise.all( [
+		Promise.all( pendingPositionAccessors ),
+		Promise.all( pendingNormalAccessors ),
+		Promise.all( pendingColorAccessors )
+	] ).then( function ( accessors ) {
+
+		const morphPositions = accessors[ 0 ];
+		const morphNormals = accessors[ 1 ];
+		const morphColors = accessors[ 2 ];
+
+		if ( hasMorphPosition ) geometry.morphAttributes.position = morphPositions;
+		if ( hasMorphNormal ) geometry.morphAttributes.normal = morphNormals;
+		if ( hasMorphColor ) geometry.morphAttributes.color = morphColors;
+		geometry.morphTargetsRelative = true;
+
+		return geometry;
+
+	} );
+
+}
+
+/**
+ * @param {Mesh} mesh
+ * @param {GLTF.Mesh} meshDef
+ */
+function updateMorphTargets( mesh, meshDef ) {
+
+	mesh.updateMorphTargets();
+
+	if ( meshDef.weights !== undefined ) {
+
+		for ( let i = 0, il = meshDef.weights.length; i < il; i ++ ) {
+
+			mesh.morphTargetInfluences[ i ] = meshDef.weights[ i ];
+
+		}
+
+	}
+
+	// .extras has user-defined data, so check that .extras.targetNames is an array.
+	if ( meshDef.extras && Array.isArray( meshDef.extras.targetNames ) ) {
+
+		const targetNames = meshDef.extras.targetNames;
+
+		if ( mesh.morphTargetInfluences.length === targetNames.length ) {
+
+			mesh.morphTargetDictionary = {};
+
+			for ( let i = 0, il = targetNames.length; i < il; i ++ ) {
+
+				mesh.morphTargetDictionary[ targetNames[ i ] ] = i;
+
+			}
+
+		} else {
+
+			console.warn( 'THREE.GLTFLoader: Invalid extras.targetNames length. Ignoring names.' );
+
+		}
+
+	}
+
+}
+
+function createPrimitiveKey( primitiveDef ) {
+
+	let geometryKey;
+
+	const dracoExtension = primitiveDef.extensions && primitiveDef.extensions[ EXTENSIONS.KHR_DRACO_MESH_COMPRESSION ];
+
+	if ( dracoExtension ) {
+
+		geometryKey = 'draco:' + dracoExtension.bufferView
+				+ ':' + dracoExtension.indices
+				+ ':' + createAttributesKey( dracoExtension.attributes );
+
+	} else {
+
+		geometryKey = primitiveDef.indices + ':' + createAttributesKey( primitiveDef.attributes ) + ':' + primitiveDef.mode;
+
+	}
+
+	if ( primitiveDef.targets !== undefined ) {
+
+		for ( let i = 0, il = primitiveDef.targets.length; i < il; i ++ ) {
+
+			geometryKey += ':' + createAttributesKey( primitiveDef.targets[ i ] );
+
+		}
+
+	}
+
+	return geometryKey;
+
+}
+
+function createAttributesKey( attributes ) {
+
+	let attributesKey = '';
+
+	const keys = Object.keys( attributes ).sort();
+
+	for ( let i = 0, il = keys.length; i < il; i ++ ) {
+
+		attributesKey += keys[ i ] + ':' + attributes[ keys[ i ] ] + ';';
+
+	}
+
+	return attributesKey;
+
+}
+
+function getNormalizedComponentScale( constructor ) {
+
+	// Reference:
+	// https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_mesh_quantization#encoding-quantized-data
+
+	switch ( constructor ) {
+
+		case Int8Array:
+			return 1 / 127;
+
+		case Uint8Array:
+			return 1 / 255;
+
+		case Int16Array:
+			return 1 / 32767;
+
+		case Uint16Array:
+			return 1 / 65535;
+
+		default:
+			throw new Error( 'THREE.GLTFLoader: Unsupported normalized accessor component type.' );
+
+	}
+
+}
+
+function getImageURIMimeType( uri ) {
+
+	if ( uri.search( /\.jpe?g($|\?)/i ) > 0 || uri.search( /^data\:image\/jpeg/ ) === 0 ) return 'image/jpeg';
+	if ( uri.search( /\.webp($|\?)/i ) > 0 || uri.search( /^data\:image\/webp/ ) === 0 ) return 'image/webp';
+
+	return 'image/png';
+
+}
+
+const _identityMatrix = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();
+
+/* GLTF PARSER */
+
+class GLTFParser {
+
+	constructor( json = {}, options = {} ) {
+
+		this.json = json;
+		this.extensions = {};
+		this.plugins = {};
+		this.options = options;
+
+		// loader object cache
+		this.cache = new GLTFRegistry();
+
+		// associations between Three.js objects and glTF elements
+		this.associations = new Map();
+
+		// BufferGeometry caching
+		this.primitiveCache = {};
+
+		// Node cache
+		this.nodeCache = {};
+
+		// Object3D instance caches
+		this.meshCache = { refs: {}, uses: {} };
+		this.cameraCache = { refs: {}, uses: {} };
+		this.lightCache = { refs: {}, uses: {} };
+
+		this.sourceCache = {};
+		this.textureCache = {};
+
+		// Track node names, to ensure no duplicates
+		this.nodeNamesUsed = {};
+
+		// Use an ImageBitmapLoader if imageBitmaps are supported. Moves much of the
+		// expensive work of uploading a texture to the GPU off the main thread.
+
+		let isSafari = false;
+		let isFirefox = false;
+		let firefoxVersion = - 1;
+
+		if ( typeof navigator !== 'undefined' ) {
+
+			isSafari = /^((?!chrome|android).)*safari/i.test( navigator.userAgent ) === true;
+			isFirefox = navigator.userAgent.indexOf( 'Firefox' ) > - 1;
+			firefoxVersion = isFirefox ? navigator.userAgent.match( /Firefox\/([0-9]+)\./ )[ 1 ] : - 1;
+
+		}
+
+		if ( typeof createImageBitmap === 'undefined' || isSafari || ( isFirefox && firefoxVersion < 98 ) ) {
+
+			this.textureLoader = new three__WEBPACK_IMPORTED_MODULE_0__.TextureLoader( this.options.manager );
+
+		} else {
+
+			this.textureLoader = new three__WEBPACK_IMPORTED_MODULE_0__.ImageBitmapLoader( this.options.manager );
+
+		}
+
+		this.textureLoader.setCrossOrigin( this.options.crossOrigin );
+		this.textureLoader.setRequestHeader( this.options.requestHeader );
+
+		this.fileLoader = new three__WEBPACK_IMPORTED_MODULE_0__.FileLoader( this.options.manager );
+		this.fileLoader.setResponseType( 'arraybuffer' );
+
+		if ( this.options.crossOrigin === 'use-credentials' ) {
+
+			this.fileLoader.setWithCredentials( true );
+
+		}
+
+	}
+
+	setExtensions( extensions ) {
+
+		this.extensions = extensions;
+
+	}
+
+	setPlugins( plugins ) {
+
+		this.plugins = plugins;
+
+	}
+
+	parse( onLoad, onError ) {
+
+		const parser = this;
+		const json = this.json;
+		const extensions = this.extensions;
+
+		// Clear the loader cache
+		this.cache.removeAll();
+		this.nodeCache = {};
+
+		// Mark the special nodes/meshes in json for efficient parse
+		this._invokeAll( function ( ext ) {
+
+			return ext._markDefs && ext._markDefs();
+
+		} );
+
+		Promise.all( this._invokeAll( function ( ext ) {
+
+			return ext.beforeRoot && ext.beforeRoot();
+
+		} ) ).then( function () {
+
+			return Promise.all( [
+
+				parser.getDependencies( 'scene' ),
+				parser.getDependencies( 'animation' ),
+				parser.getDependencies( 'camera' ),
+
+			] );
+
+		} ).then( function ( dependencies ) {
+
+			const result = {
+				scene: dependencies[ 0 ][ json.scene || 0 ],
+				scenes: dependencies[ 0 ],
+				animations: dependencies[ 1 ],
+				cameras: dependencies[ 2 ],
+				asset: json.asset,
+				parser: parser,
+				userData: {}
+			};
+
+			addUnknownExtensionsToUserData( extensions, result, json );
+
+			assignExtrasToUserData( result, json );
+
+			Promise.all( parser._invokeAll( function ( ext ) {
+
+				return ext.afterRoot && ext.afterRoot( result );
+
+			} ) ).then( function () {
+
+				onLoad( result );
+
+			} );
+
+		} ).catch( onError );
+
+	}
+
+	/**
+	 * Marks the special nodes/meshes in json for efficient parse.
+	 */
+	_markDefs() {
+
+		const nodeDefs = this.json.nodes || [];
+		const skinDefs = this.json.skins || [];
+		const meshDefs = this.json.meshes || [];
+
+		// Nothing in the node definition indicates whether it is a Bone or an
+		// Object3D. Use the skins' joint references to mark bones.
+		for ( let skinIndex = 0, skinLength = skinDefs.length; skinIndex < skinLength; skinIndex ++ ) {
+
+			const joints = skinDefs[ skinIndex ].joints;
+
+			for ( let i = 0, il = joints.length; i < il; i ++ ) {
+
+				nodeDefs[ joints[ i ] ].isBone = true;
+
+			}
+
+		}
+
+		// Iterate over all nodes, marking references to shared resources,
+		// as well as skeleton joints.
+		for ( let nodeIndex = 0, nodeLength = nodeDefs.length; nodeIndex < nodeLength; nodeIndex ++ ) {
+
+			const nodeDef = nodeDefs[ nodeIndex ];
+
+			if ( nodeDef.mesh !== undefined ) {
+
+				this._addNodeRef( this.meshCache, nodeDef.mesh );
+
+				// Nothing in the mesh definition indicates whether it is
+				// a SkinnedMesh or Mesh. Use the node's mesh reference
+				// to mark SkinnedMesh if node has skin.
+				if ( nodeDef.skin !== undefined ) {
+
+					meshDefs[ nodeDef.mesh ].isSkinnedMesh = true;
+
+				}
+
+			}
+
+			if ( nodeDef.camera !== undefined ) {
+
+				this._addNodeRef( this.cameraCache, nodeDef.camera );
+
+			}
+
+		}
+
+	}
+
+	/**
+	 * Counts references to shared node / Object3D resources. These resources
+	 * can be reused, or "instantiated", at multiple nodes in the scene
+	 * hierarchy. Mesh, Camera, and Light instances are instantiated and must
+	 * be marked. Non-scenegraph resources (like Materials, Geometries, and
+	 * Textures) can be reused directly and are not marked here.
+	 *
+	 * Example: CesiumMilkTruck sample model reuses "Wheel" meshes.
+	 */
+	_addNodeRef( cache, index ) {
+
+		if ( index === undefined ) return;
+
+		if ( cache.refs[ index ] === undefined ) {
+
+			cache.refs[ index ] = cache.uses[ index ] = 0;
+
+		}
+
+		cache.refs[ index ] ++;
+
+	}
+
+	/** Returns a reference to a shared resource, cloning it if necessary. */
+	_getNodeRef( cache, index, object ) {
+
+		if ( cache.refs[ index ] <= 1 ) return object;
+
+		const ref = object.clone();
+
+		// Propagates mappings to the cloned object, prevents mappings on the
+		// original object from being lost.
+		const updateMappings = ( original, clone ) => {
+
+			const mappings = this.associations.get( original );
+			if ( mappings != null ) {
+
+				this.associations.set( clone, mappings );
+
+			}
+
+			for ( const [ i, child ] of original.children.entries() ) {
+
+				updateMappings( child, clone.children[ i ] );
+
+			}
+
+		};
+
+		updateMappings( object, ref );
+
+		ref.name += '_instance_' + ( cache.uses[ index ] ++ );
+
+		return ref;
+
+	}
+
+	_invokeOne( func ) {
+
+		const extensions = Object.values( this.plugins );
+		extensions.push( this );
+
+		for ( let i = 0; i < extensions.length; i ++ ) {
+
+			const result = func( extensions[ i ] );
+
+			if ( result ) return result;
+
+		}
+
+		return null;
+
+	}
+
+	_invokeAll( func ) {
+
+		const extensions = Object.values( this.plugins );
+		extensions.unshift( this );
+
+		const pending = [];
+
+		for ( let i = 0; i < extensions.length; i ++ ) {
+
+			const result = func( extensions[ i ] );
+
+			if ( result ) pending.push( result );
+
+		}
+
+		return pending;
+
+	}
+
+	/**
+	 * Requests the specified dependency asynchronously, with caching.
+	 * @param {string} type
+	 * @param {number} index
+	 * @return {Promise<Object3D|Material|THREE.Texture|AnimationClip|ArrayBuffer|Object>}
+	 */
+	getDependency( type, index ) {
+
+		const cacheKey = type + ':' + index;
+		let dependency = this.cache.get( cacheKey );
+
+		if ( ! dependency ) {
+
+			switch ( type ) {
+
+				case 'scene':
+					dependency = this.loadScene( index );
+					break;
+
+				case 'node':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadNode && ext.loadNode( index );
+
+					} );
+					break;
+
+				case 'mesh':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadMesh && ext.loadMesh( index );
+
+					} );
+					break;
+
+				case 'accessor':
+					dependency = this.loadAccessor( index );
+					break;
+
+				case 'bufferView':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadBufferView && ext.loadBufferView( index );
+
+					} );
+					break;
+
+				case 'buffer':
+					dependency = this.loadBuffer( index );
+					break;
+
+				case 'material':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadMaterial && ext.loadMaterial( index );
+
+					} );
+					break;
+
+				case 'texture':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadTexture && ext.loadTexture( index );
+
+					} );
+					break;
+
+				case 'skin':
+					dependency = this.loadSkin( index );
+					break;
+
+				case 'animation':
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext.loadAnimation && ext.loadAnimation( index );
+
+					} );
+					break;
+
+				case 'camera':
+					dependency = this.loadCamera( index );
+					break;
+
+				default:
+					dependency = this._invokeOne( function ( ext ) {
+
+						return ext != this && ext.getDependency && ext.getDependency( type, index );
+
+					} );
+
+					if ( ! dependency ) {
+
+						throw new Error( 'Unknown type: ' + type );
+
+					}
+
+					break;
+
+			}
+
+			this.cache.add( cacheKey, dependency );
+
+		}
+
+		return dependency;
+
+	}
+
+	/**
+	 * Requests all dependencies of the specified type asynchronously, with caching.
+	 * @param {string} type
+	 * @return {Promise<Array<Object>>}
+	 */
+	getDependencies( type ) {
+
+		let dependencies = this.cache.get( type );
+
+		if ( ! dependencies ) {
+
+			const parser = this;
+			const defs = this.json[ type + ( type === 'mesh' ? 'es' : 's' ) ] || [];
+
+			dependencies = Promise.all( defs.map( function ( def, index ) {
+
+				return parser.getDependency( type, index );
+
+			} ) );
+
+			this.cache.add( type, dependencies );
+
+		}
+
+		return dependencies;
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#buffers-and-buffer-views
+	 * @param {number} bufferIndex
+	 * @return {Promise<ArrayBuffer>}
+	 */
+	loadBuffer( bufferIndex ) {
+
+		const bufferDef = this.json.buffers[ bufferIndex ];
+		const loader = this.fileLoader;
+
+		if ( bufferDef.type && bufferDef.type !== 'arraybuffer' ) {
+
+			throw new Error( 'THREE.GLTFLoader: ' + bufferDef.type + ' buffer type is not supported.' );
+
+		}
+
+		// If present, GLB container is required to be the first buffer.
+		if ( bufferDef.uri === undefined && bufferIndex === 0 ) {
+
+			return Promise.resolve( this.extensions[ EXTENSIONS.KHR_BINARY_GLTF ].body );
+
+		}
+
+		const options = this.options;
+
+		return new Promise( function ( resolve, reject ) {
+
+			loader.load( three__WEBPACK_IMPORTED_MODULE_0__.LoaderUtils.resolveURL( bufferDef.uri, options.path ), resolve, undefined, function () {
+
+				reject( new Error( 'THREE.GLTFLoader: Failed to load buffer "' + bufferDef.uri + '".' ) );
+
+			} );
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#buffers-and-buffer-views
+	 * @param {number} bufferViewIndex
+	 * @return {Promise<ArrayBuffer>}
+	 */
+	loadBufferView( bufferViewIndex ) {
+
+		const bufferViewDef = this.json.bufferViews[ bufferViewIndex ];
+
+		return this.getDependency( 'buffer', bufferViewDef.buffer ).then( function ( buffer ) {
+
+			const byteLength = bufferViewDef.byteLength || 0;
+			const byteOffset = bufferViewDef.byteOffset || 0;
+			return buffer.slice( byteOffset, byteOffset + byteLength );
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#accessors
+	 * @param {number} accessorIndex
+	 * @return {Promise<BufferAttribute|InterleavedBufferAttribute>}
+	 */
+	loadAccessor( accessorIndex ) {
+
+		const parser = this;
+		const json = this.json;
+
+		const accessorDef = this.json.accessors[ accessorIndex ];
+
+		if ( accessorDef.bufferView === undefined && accessorDef.sparse === undefined ) {
+
+			const itemSize = WEBGL_TYPE_SIZES[ accessorDef.type ];
+			const TypedArray = WEBGL_COMPONENT_TYPES[ accessorDef.componentType ];
+			const normalized = accessorDef.normalized === true;
+
+			const array = new TypedArray( accessorDef.count * itemSize );
+			return Promise.resolve( new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( array, itemSize, normalized ) );
+
+		}
+
+		const pendingBufferViews = [];
+
+		if ( accessorDef.bufferView !== undefined ) {
+
+			pendingBufferViews.push( this.getDependency( 'bufferView', accessorDef.bufferView ) );
+
+		} else {
+
+			pendingBufferViews.push( null );
+
+		}
+
+		if ( accessorDef.sparse !== undefined ) {
+
+			pendingBufferViews.push( this.getDependency( 'bufferView', accessorDef.sparse.indices.bufferView ) );
+			pendingBufferViews.push( this.getDependency( 'bufferView', accessorDef.sparse.values.bufferView ) );
+
+		}
+
+		return Promise.all( pendingBufferViews ).then( function ( bufferViews ) {
+
+			const bufferView = bufferViews[ 0 ];
+
+			const itemSize = WEBGL_TYPE_SIZES[ accessorDef.type ];
+			const TypedArray = WEBGL_COMPONENT_TYPES[ accessorDef.componentType ];
+
+			// For VEC3: itemSize is 3, elementBytes is 4, itemBytes is 12.
+			const elementBytes = TypedArray.BYTES_PER_ELEMENT;
+			const itemBytes = elementBytes * itemSize;
+			const byteOffset = accessorDef.byteOffset || 0;
+			const byteStride = accessorDef.bufferView !== undefined ? json.bufferViews[ accessorDef.bufferView ].byteStride : undefined;
+			const normalized = accessorDef.normalized === true;
+			let array, bufferAttribute;
+
+			// The buffer is not interleaved if the stride is the item size in bytes.
+			if ( byteStride && byteStride !== itemBytes ) {
+
+				// Each "slice" of the buffer, as defined by 'count' elements of 'byteStride' bytes, gets its own InterleavedBuffer
+				// This makes sure that IBA.count reflects accessor.count properly
+				const ibSlice = Math.floor( byteOffset / byteStride );
+				const ibCacheKey = 'InterleavedBuffer:' + accessorDef.bufferView + ':' + accessorDef.componentType + ':' + ibSlice + ':' + accessorDef.count;
+				let ib = parser.cache.get( ibCacheKey );
+
+				if ( ! ib ) {
+
+					array = new TypedArray( bufferView, ibSlice * byteStride, accessorDef.count * byteStride / elementBytes );
+
+					// Integer parameters to IB/IBA are in array elements, not bytes.
+					ib = new three__WEBPACK_IMPORTED_MODULE_0__.InterleavedBuffer( array, byteStride / elementBytes );
+
+					parser.cache.add( ibCacheKey, ib );
+
+				}
+
+				bufferAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.InterleavedBufferAttribute( ib, itemSize, ( byteOffset % byteStride ) / elementBytes, normalized );
+
+			} else {
+
+				if ( bufferView === null ) {
+
+					array = new TypedArray( accessorDef.count * itemSize );
+
+				} else {
+
+					array = new TypedArray( bufferView, byteOffset, accessorDef.count * itemSize );
+
+				}
+
+				bufferAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( array, itemSize, normalized );
+
+			}
+
+			// https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#sparse-accessors
+			if ( accessorDef.sparse !== undefined ) {
+
+				const itemSizeIndices = WEBGL_TYPE_SIZES.SCALAR;
+				const TypedArrayIndices = WEBGL_COMPONENT_TYPES[ accessorDef.sparse.indices.componentType ];
+
+				const byteOffsetIndices = accessorDef.sparse.indices.byteOffset || 0;
+				const byteOffsetValues = accessorDef.sparse.values.byteOffset || 0;
+
+				const sparseIndices = new TypedArrayIndices( bufferViews[ 1 ], byteOffsetIndices, accessorDef.sparse.count * itemSizeIndices );
+				const sparseValues = new TypedArray( bufferViews[ 2 ], byteOffsetValues, accessorDef.sparse.count * itemSize );
+
+				if ( bufferView !== null ) {
+
+					// Avoid modifying the original ArrayBuffer, if the bufferView wasn't initialized with zeroes.
+					bufferAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( bufferAttribute.array.slice(), bufferAttribute.itemSize, bufferAttribute.normalized );
+
+				}
+
+				for ( let i = 0, il = sparseIndices.length; i < il; i ++ ) {
+
+					const index = sparseIndices[ i ];
+
+					bufferAttribute.setX( index, sparseValues[ i * itemSize ] );
+					if ( itemSize >= 2 ) bufferAttribute.setY( index, sparseValues[ i * itemSize + 1 ] );
+					if ( itemSize >= 3 ) bufferAttribute.setZ( index, sparseValues[ i * itemSize + 2 ] );
+					if ( itemSize >= 4 ) bufferAttribute.setW( index, sparseValues[ i * itemSize + 3 ] );
+					if ( itemSize >= 5 ) throw new Error( 'THREE.GLTFLoader: Unsupported itemSize in sparse BufferAttribute.' );
+
+				}
+
+			}
+
+			return bufferAttribute;
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#textures
+	 * @param {number} textureIndex
+	 * @return {Promise<THREE.Texture|null>}
+	 */
+	loadTexture( textureIndex ) {
+
+		const json = this.json;
+		const options = this.options;
+		const textureDef = json.textures[ textureIndex ];
+		const sourceIndex = textureDef.source;
+		const sourceDef = json.images[ sourceIndex ];
+
+		let loader = this.textureLoader;
+
+		if ( sourceDef.uri ) {
+
+			const handler = options.manager.getHandler( sourceDef.uri );
+			if ( handler !== null ) loader = handler;
+
+		}
+
+		return this.loadTextureImage( textureIndex, sourceIndex, loader );
+
+	}
+
+	loadTextureImage( textureIndex, sourceIndex, loader ) {
+
+		const parser = this;
+		const json = this.json;
+
+		const textureDef = json.textures[ textureIndex ];
+		const sourceDef = json.images[ sourceIndex ];
+
+		const cacheKey = ( sourceDef.uri || sourceDef.bufferView ) + ':' + textureDef.sampler;
+
+		if ( this.textureCache[ cacheKey ] ) {
+
+			// See https://github.com/mrdoob/three.js/issues/21559.
+			return this.textureCache[ cacheKey ];
+
+		}
+
+		const promise = this.loadImageSource( sourceIndex, loader ).then( function ( texture ) {
+
+			texture.flipY = false;
+
+			texture.name = textureDef.name || sourceDef.name || '';
+
+			if ( texture.name === '' && typeof sourceDef.uri === 'string' && sourceDef.uri.startsWith( 'data:image/' ) === false ) {
+
+				texture.name = sourceDef.uri;
+
+			}
+
+			const samplers = json.samplers || {};
+			const sampler = samplers[ textureDef.sampler ] || {};
+
+			texture.magFilter = WEBGL_FILTERS[ sampler.magFilter ] || three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter;
+			texture.minFilter = WEBGL_FILTERS[ sampler.minFilter ] || three__WEBPACK_IMPORTED_MODULE_0__.LinearMipmapLinearFilter;
+			texture.wrapS = WEBGL_WRAPPINGS[ sampler.wrapS ] || three__WEBPACK_IMPORTED_MODULE_0__.RepeatWrapping;
+			texture.wrapT = WEBGL_WRAPPINGS[ sampler.wrapT ] || three__WEBPACK_IMPORTED_MODULE_0__.RepeatWrapping;
+
+			parser.associations.set( texture, { textures: textureIndex } );
+
+			return texture;
+
+		} ).catch( function () {
+
+			return null;
+
+		} );
+
+		this.textureCache[ cacheKey ] = promise;
+
+		return promise;
+
+	}
+
+	loadImageSource( sourceIndex, loader ) {
+
+		const parser = this;
+		const json = this.json;
+		const options = this.options;
+
+		if ( this.sourceCache[ sourceIndex ] !== undefined ) {
+
+			return this.sourceCache[ sourceIndex ].then( ( texture ) => texture.clone() );
+
+		}
+
+		const sourceDef = json.images[ sourceIndex ];
+
+		const URL = self.URL || self.webkitURL;
+
+		let sourceURI = sourceDef.uri || '';
+		let isObjectURL = false;
+
+		if ( sourceDef.bufferView !== undefined ) {
+
+			// Load binary image data from bufferView, if provided.
+
+			sourceURI = parser.getDependency( 'bufferView', sourceDef.bufferView ).then( function ( bufferView ) {
+
+				isObjectURL = true;
+				const blob = new Blob( [ bufferView ], { type: sourceDef.mimeType } );
+				sourceURI = URL.createObjectURL( blob );
+				return sourceURI;
+
+			} );
+
+		} else if ( sourceDef.uri === undefined ) {
+
+			throw new Error( 'THREE.GLTFLoader: Image ' + sourceIndex + ' is missing URI and bufferView' );
+
+		}
+
+		const promise = Promise.resolve( sourceURI ).then( function ( sourceURI ) {
+
+			return new Promise( function ( resolve, reject ) {
+
+				let onLoad = resolve;
+
+				if ( loader.isImageBitmapLoader === true ) {
+
+					onLoad = function ( imageBitmap ) {
+
+						const texture = new three__WEBPACK_IMPORTED_MODULE_0__.Texture( imageBitmap );
+						texture.needsUpdate = true;
+
+						resolve( texture );
+
+					};
+
+				}
+
+				loader.load( three__WEBPACK_IMPORTED_MODULE_0__.LoaderUtils.resolveURL( sourceURI, options.path ), onLoad, undefined, reject );
+
+			} );
+
+		} ).then( function ( texture ) {
+
+			// Clean up resources and configure Texture.
+
+			if ( isObjectURL === true ) {
+
+				URL.revokeObjectURL( sourceURI );
+
+			}
+
+			texture.userData.mimeType = sourceDef.mimeType || getImageURIMimeType( sourceDef.uri );
+
+			return texture;
+
+		} ).catch( function ( error ) {
+
+			console.error( 'THREE.GLTFLoader: Couldn\'t load texture', sourceURI );
+			throw error;
+
+		} );
+
+		this.sourceCache[ sourceIndex ] = promise;
+		return promise;
+
+	}
+
+	/**
+	 * Asynchronously assigns a texture to the given material parameters.
+	 * @param {Object} materialParams
+	 * @param {string} mapName
+	 * @param {Object} mapDef
+	 * @return {Promise<Texture>}
+	 */
+	assignTexture( materialParams, mapName, mapDef, colorSpace ) {
+
+		const parser = this;
+
+		return this.getDependency( 'texture', mapDef.index ).then( function ( texture ) {
+
+			if ( ! texture ) return null;
+
+			if ( mapDef.texCoord !== undefined && mapDef.texCoord > 0 ) {
+
+				texture = texture.clone();
+				texture.channel = mapDef.texCoord;
+
+			}
+
+			if ( parser.extensions[ EXTENSIONS.KHR_TEXTURE_TRANSFORM ] ) {
+
+				const transform = mapDef.extensions !== undefined ? mapDef.extensions[ EXTENSIONS.KHR_TEXTURE_TRANSFORM ] : undefined;
+
+				if ( transform ) {
+
+					const gltfReference = parser.associations.get( texture );
+					texture = parser.extensions[ EXTENSIONS.KHR_TEXTURE_TRANSFORM ].extendTexture( texture, transform );
+					parser.associations.set( texture, gltfReference );
+
+				}
+
+			}
+
+			if ( colorSpace !== undefined ) {
+
+				texture.colorSpace = colorSpace;
+
+			}
+
+			materialParams[ mapName ] = texture;
+
+			return texture;
+
+		} );
+
+	}
+
+	/**
+	 * Assigns final material to a Mesh, Line, or Points instance. The instance
+	 * already has a material (generated from the glTF material options alone)
+	 * but reuse of the same glTF material may require multiple threejs materials
+	 * to accommodate different primitive types, defines, etc. New materials will
+	 * be created if necessary, and reused from a cache.
+	 * @param  {Object3D} mesh Mesh, Line, or Points instance.
+	 */
+	assignFinalMaterial( mesh ) {
+
+		const geometry = mesh.geometry;
+		let material = mesh.material;
+
+		const useDerivativeTangents = geometry.attributes.tangent === undefined;
+		const useVertexColors = geometry.attributes.color !== undefined;
+		const useFlatShading = geometry.attributes.normal === undefined;
+
+		if ( mesh.isPoints ) {
+
+			const cacheKey = 'PointsMaterial:' + material.uuid;
+
+			let pointsMaterial = this.cache.get( cacheKey );
+
+			if ( ! pointsMaterial ) {
+
+				pointsMaterial = new three__WEBPACK_IMPORTED_MODULE_0__.PointsMaterial();
+				three__WEBPACK_IMPORTED_MODULE_0__.Material.prototype.copy.call( pointsMaterial, material );
+				pointsMaterial.color.copy( material.color );
+				pointsMaterial.map = material.map;
+				pointsMaterial.sizeAttenuation = false; // glTF spec says points should be 1px
+
+				this.cache.add( cacheKey, pointsMaterial );
+
+			}
+
+			material = pointsMaterial;
+
+		} else if ( mesh.isLine ) {
+
+			const cacheKey = 'LineBasicMaterial:' + material.uuid;
+
+			let lineMaterial = this.cache.get( cacheKey );
+
+			if ( ! lineMaterial ) {
+
+				lineMaterial = new three__WEBPACK_IMPORTED_MODULE_0__.LineBasicMaterial();
+				three__WEBPACK_IMPORTED_MODULE_0__.Material.prototype.copy.call( lineMaterial, material );
+				lineMaterial.color.copy( material.color );
+				lineMaterial.map = material.map;
+
+				this.cache.add( cacheKey, lineMaterial );
+
+			}
+
+			material = lineMaterial;
+
+		}
+
+		// Clone the material if it will be modified
+		if ( useDerivativeTangents || useVertexColors || useFlatShading ) {
+
+			let cacheKey = 'ClonedMaterial:' + material.uuid + ':';
+
+			if ( useDerivativeTangents ) cacheKey += 'derivative-tangents:';
+			if ( useVertexColors ) cacheKey += 'vertex-colors:';
+			if ( useFlatShading ) cacheKey += 'flat-shading:';
+
+			let cachedMaterial = this.cache.get( cacheKey );
+
+			if ( ! cachedMaterial ) {
+
+				cachedMaterial = material.clone();
+
+				if ( useVertexColors ) cachedMaterial.vertexColors = true;
+				if ( useFlatShading ) cachedMaterial.flatShading = true;
+
+				if ( useDerivativeTangents ) {
+
+					// https://github.com/mrdoob/three.js/issues/11438#issuecomment-507003995
+					if ( cachedMaterial.normalScale ) cachedMaterial.normalScale.y *= - 1;
+					if ( cachedMaterial.clearcoatNormalScale ) cachedMaterial.clearcoatNormalScale.y *= - 1;
+
+				}
+
+				this.cache.add( cacheKey, cachedMaterial );
+
+				this.associations.set( cachedMaterial, this.associations.get( material ) );
+
+			}
+
+			material = cachedMaterial;
+
+		}
+
+		mesh.material = material;
+
+	}
+
+	getMaterialType( /* materialIndex */ ) {
+
+		return three__WEBPACK_IMPORTED_MODULE_0__.MeshStandardMaterial;
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#materials
+	 * @param {number} materialIndex
+	 * @return {Promise<Material>}
+	 */
+	loadMaterial( materialIndex ) {
+
+		const parser = this;
+		const json = this.json;
+		const extensions = this.extensions;
+		const materialDef = json.materials[ materialIndex ];
+
+		let materialType;
+		const materialParams = {};
+		const materialExtensions = materialDef.extensions || {};
+
+		const pending = [];
+
+		if ( materialExtensions[ EXTENSIONS.KHR_MATERIALS_UNLIT ] ) {
+
+			const kmuExtension = extensions[ EXTENSIONS.KHR_MATERIALS_UNLIT ];
+			materialType = kmuExtension.getMaterialType();
+			pending.push( kmuExtension.extendParams( materialParams, materialDef, parser ) );
+
+		} else {
+
+			// Specification:
+			// https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#metallic-roughness-material
+
+			const metallicRoughness = materialDef.pbrMetallicRoughness || {};
+
+			materialParams.color = new three__WEBPACK_IMPORTED_MODULE_0__.Color( 1.0, 1.0, 1.0 );
+			materialParams.opacity = 1.0;
+
+			if ( Array.isArray( metallicRoughness.baseColorFactor ) ) {
+
+				const array = metallicRoughness.baseColorFactor;
+
+				materialParams.color.setRGB( array[ 0 ], array[ 1 ], array[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+				materialParams.opacity = array[ 3 ];
+
+			}
+
+			if ( metallicRoughness.baseColorTexture !== undefined ) {
+
+				pending.push( parser.assignTexture( materialParams, 'map', metallicRoughness.baseColorTexture, three__WEBPACK_IMPORTED_MODULE_0__.SRGBColorSpace ) );
+
+			}
+
+			materialParams.metalness = metallicRoughness.metallicFactor !== undefined ? metallicRoughness.metallicFactor : 1.0;
+			materialParams.roughness = metallicRoughness.roughnessFactor !== undefined ? metallicRoughness.roughnessFactor : 1.0;
+
+			if ( metallicRoughness.metallicRoughnessTexture !== undefined ) {
+
+				pending.push( parser.assignTexture( materialParams, 'metalnessMap', metallicRoughness.metallicRoughnessTexture ) );
+				pending.push( parser.assignTexture( materialParams, 'roughnessMap', metallicRoughness.metallicRoughnessTexture ) );
+
+			}
+
+			materialType = this._invokeOne( function ( ext ) {
+
+				return ext.getMaterialType && ext.getMaterialType( materialIndex );
+
+			} );
+
+			pending.push( Promise.all( this._invokeAll( function ( ext ) {
+
+				return ext.extendMaterialParams && ext.extendMaterialParams( materialIndex, materialParams );
+
+			} ) ) );
+
+		}
+
+		if ( materialDef.doubleSided === true ) {
+
+			materialParams.side = three__WEBPACK_IMPORTED_MODULE_0__.DoubleSide;
+
+		}
+
+		const alphaMode = materialDef.alphaMode || ALPHA_MODES.OPAQUE;
+
+		if ( alphaMode === ALPHA_MODES.BLEND ) {
+
+			materialParams.transparent = true;
+
+			// See: https://github.com/mrdoob/three.js/issues/17706
+			materialParams.depthWrite = false;
+
+		} else {
+
+			materialParams.transparent = false;
+
+			if ( alphaMode === ALPHA_MODES.MASK ) {
+
+				materialParams.alphaTest = materialDef.alphaCutoff !== undefined ? materialDef.alphaCutoff : 0.5;
+
+			}
+
+		}
+
+		if ( materialDef.normalTexture !== undefined && materialType !== three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial ) {
+
+			pending.push( parser.assignTexture( materialParams, 'normalMap', materialDef.normalTexture ) );
+
+			materialParams.normalScale = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2( 1, 1 );
+
+			if ( materialDef.normalTexture.scale !== undefined ) {
+
+				const scale = materialDef.normalTexture.scale;
+
+				materialParams.normalScale.set( scale, scale );
+
+			}
+
+		}
+
+		if ( materialDef.occlusionTexture !== undefined && materialType !== three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial ) {
+
+			pending.push( parser.assignTexture( materialParams, 'aoMap', materialDef.occlusionTexture ) );
+
+			if ( materialDef.occlusionTexture.strength !== undefined ) {
+
+				materialParams.aoMapIntensity = materialDef.occlusionTexture.strength;
+
+			}
+
+		}
+
+		if ( materialDef.emissiveFactor !== undefined && materialType !== three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial ) {
+
+			const emissiveFactor = materialDef.emissiveFactor;
+			materialParams.emissive = new three__WEBPACK_IMPORTED_MODULE_0__.Color().setRGB( emissiveFactor[ 0 ], emissiveFactor[ 1 ], emissiveFactor[ 2 ], three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace );
+
+		}
+
+		if ( materialDef.emissiveTexture !== undefined && materialType !== three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial ) {
+
+			pending.push( parser.assignTexture( materialParams, 'emissiveMap', materialDef.emissiveTexture, three__WEBPACK_IMPORTED_MODULE_0__.SRGBColorSpace ) );
+
+		}
+
+		return Promise.all( pending ).then( function () {
+
+			const material = new materialType( materialParams );
+
+			if ( materialDef.name ) material.name = materialDef.name;
+
+			assignExtrasToUserData( material, materialDef );
+
+			parser.associations.set( material, { materials: materialIndex } );
+
+			if ( materialDef.extensions ) addUnknownExtensionsToUserData( extensions, material, materialDef );
+
+			return material;
+
+		} );
+
+	}
+
+	/** When Object3D instances are targeted by animation, they need unique names. */
+	createUniqueName( originalName ) {
+
+		const sanitizedName = three__WEBPACK_IMPORTED_MODULE_0__.PropertyBinding.sanitizeNodeName( originalName || '' );
+
+		if ( sanitizedName in this.nodeNamesUsed ) {
+
+			return sanitizedName + '_' + ( ++ this.nodeNamesUsed[ sanitizedName ] );
+
+		} else {
+
+			this.nodeNamesUsed[ sanitizedName ] = 0;
+
+			return sanitizedName;
+
+		}
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#geometry
+	 *
+	 * Creates BufferGeometries from primitives.
+	 *
+	 * @param {Array<GLTF.Primitive>} primitives
+	 * @return {Promise<Array<BufferGeometry>>}
+	 */
+	loadGeometries( primitives ) {
+
+		const parser = this;
+		const extensions = this.extensions;
+		const cache = this.primitiveCache;
+
+		function createDracoPrimitive( primitive ) {
+
+			return extensions[ EXTENSIONS.KHR_DRACO_MESH_COMPRESSION ]
+				.decodePrimitive( primitive, parser )
+				.then( function ( geometry ) {
+
+					return addPrimitiveAttributes( geometry, primitive, parser );
+
+				} );
+
+		}
+
+		const pending = [];
+
+		for ( let i = 0, il = primitives.length; i < il; i ++ ) {
+
+			const primitive = primitives[ i ];
+			const cacheKey = createPrimitiveKey( primitive );
+
+			// See if we've already created this geometry
+			const cached = cache[ cacheKey ];
+
+			if ( cached ) {
+
+				// Use the cached geometry if it exists
+				pending.push( cached.promise );
+
+			} else {
+
+				let geometryPromise;
+
+				if ( primitive.extensions && primitive.extensions[ EXTENSIONS.KHR_DRACO_MESH_COMPRESSION ] ) {
+
+					// Use DRACO geometry if available
+					geometryPromise = createDracoPrimitive( primitive );
+
+				} else {
+
+					// Otherwise create a new geometry
+					geometryPromise = addPrimitiveAttributes( new three__WEBPACK_IMPORTED_MODULE_0__.BufferGeometry(), primitive, parser );
+
+				}
+
+				// Cache this geometry
+				cache[ cacheKey ] = { primitive: primitive, promise: geometryPromise };
+
+				pending.push( geometryPromise );
+
+			}
+
+		}
+
+		return Promise.all( pending );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#meshes
+	 * @param {number} meshIndex
+	 * @return {Promise<Group|Mesh|SkinnedMesh>}
+	 */
+	loadMesh( meshIndex ) {
+
+		const parser = this;
+		const json = this.json;
+		const extensions = this.extensions;
+
+		const meshDef = json.meshes[ meshIndex ];
+		const primitives = meshDef.primitives;
+
+		const pending = [];
+
+		for ( let i = 0, il = primitives.length; i < il; i ++ ) {
+
+			const material = primitives[ i ].material === undefined
+				? createDefaultMaterial( this.cache )
+				: this.getDependency( 'material', primitives[ i ].material );
+
+			pending.push( material );
+
+		}
+
+		pending.push( parser.loadGeometries( primitives ) );
+
+		return Promise.all( pending ).then( function ( results ) {
+
+			const materials = results.slice( 0, results.length - 1 );
+			const geometries = results[ results.length - 1 ];
+
+			const meshes = [];
+
+			for ( let i = 0, il = geometries.length; i < il; i ++ ) {
+
+				const geometry = geometries[ i ];
+				const primitive = primitives[ i ];
+
+				// 1. create Mesh
+
+				let mesh;
+
+				const material = materials[ i ];
+
+				if ( primitive.mode === WEBGL_CONSTANTS.TRIANGLES ||
+						primitive.mode === WEBGL_CONSTANTS.TRIANGLE_STRIP ||
+						primitive.mode === WEBGL_CONSTANTS.TRIANGLE_FAN ||
+						primitive.mode === undefined ) {
+
+					// .isSkinnedMesh isn't in glTF spec. See ._markDefs()
+					mesh = meshDef.isSkinnedMesh === true
+						? new three__WEBPACK_IMPORTED_MODULE_0__.SkinnedMesh( geometry, material )
+						: new three__WEBPACK_IMPORTED_MODULE_0__.Mesh( geometry, material );
+
+					if ( mesh.isSkinnedMesh === true ) {
+
+						// normalize skin weights to fix malformed assets (see #15319)
+						mesh.normalizeSkinWeights();
+
+					}
+
+					if ( primitive.mode === WEBGL_CONSTANTS.TRIANGLE_STRIP ) {
+
+						mesh.geometry = (0,_utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__.toTrianglesDrawMode)( mesh.geometry, three__WEBPACK_IMPORTED_MODULE_0__.TriangleStripDrawMode );
+
+					} else if ( primitive.mode === WEBGL_CONSTANTS.TRIANGLE_FAN ) {
+
+						mesh.geometry = (0,_utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__.toTrianglesDrawMode)( mesh.geometry, three__WEBPACK_IMPORTED_MODULE_0__.TriangleFanDrawMode );
+
+					}
+
+				} else if ( primitive.mode === WEBGL_CONSTANTS.LINES ) {
+
+					mesh = new three__WEBPACK_IMPORTED_MODULE_0__.LineSegments( geometry, material );
+
+				} else if ( primitive.mode === WEBGL_CONSTANTS.LINE_STRIP ) {
+
+					mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Line( geometry, material );
+
+				} else if ( primitive.mode === WEBGL_CONSTANTS.LINE_LOOP ) {
+
+					mesh = new three__WEBPACK_IMPORTED_MODULE_0__.LineLoop( geometry, material );
+
+				} else if ( primitive.mode === WEBGL_CONSTANTS.POINTS ) {
+
+					mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Points( geometry, material );
+
+				} else {
+
+					throw new Error( 'THREE.GLTFLoader: Primitive mode unsupported: ' + primitive.mode );
+
+				}
+
+				if ( Object.keys( mesh.geometry.morphAttributes ).length > 0 ) {
+
+					updateMorphTargets( mesh, meshDef );
+
+				}
+
+				mesh.name = parser.createUniqueName( meshDef.name || ( 'mesh_' + meshIndex ) );
+
+				assignExtrasToUserData( mesh, meshDef );
+
+				if ( primitive.extensions ) addUnknownExtensionsToUserData( extensions, mesh, primitive );
+
+				parser.assignFinalMaterial( mesh );
+
+				meshes.push( mesh );
+
+			}
+
+			for ( let i = 0, il = meshes.length; i < il; i ++ ) {
+
+				parser.associations.set( meshes[ i ], {
+					meshes: meshIndex,
+					primitives: i
+				} );
+
+			}
+
+			if ( meshes.length === 1 ) {
+
+				if ( meshDef.extensions ) addUnknownExtensionsToUserData( extensions, meshes[ 0 ], meshDef );
+
+				return meshes[ 0 ];
+
+			}
+
+			const group = new three__WEBPACK_IMPORTED_MODULE_0__.Group();
+
+			if ( meshDef.extensions ) addUnknownExtensionsToUserData( extensions, group, meshDef );
+
+			parser.associations.set( group, { meshes: meshIndex } );
+
+			for ( let i = 0, il = meshes.length; i < il; i ++ ) {
+
+				group.add( meshes[ i ] );
+
+			}
+
+			return group;
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#cameras
+	 * @param {number} cameraIndex
+	 * @return {Promise<THREE.Camera>}
+	 */
+	loadCamera( cameraIndex ) {
+
+		let camera;
+		const cameraDef = this.json.cameras[ cameraIndex ];
+		const params = cameraDef[ cameraDef.type ];
+
+		if ( ! params ) {
+
+			console.warn( 'THREE.GLTFLoader: Missing camera parameters.' );
+			return;
+
+		}
+
+		if ( cameraDef.type === 'perspective' ) {
+
+			camera = new three__WEBPACK_IMPORTED_MODULE_0__.PerspectiveCamera( three__WEBPACK_IMPORTED_MODULE_0__.MathUtils.radToDeg( params.yfov ), params.aspectRatio || 1, params.znear || 1, params.zfar || 2e6 );
+
+		} else if ( cameraDef.type === 'orthographic' ) {
+
+			camera = new three__WEBPACK_IMPORTED_MODULE_0__.OrthographicCamera( - params.xmag, params.xmag, params.ymag, - params.ymag, params.znear, params.zfar );
+
+		}
+
+		if ( cameraDef.name ) camera.name = this.createUniqueName( cameraDef.name );
+
+		assignExtrasToUserData( camera, cameraDef );
+
+		return Promise.resolve( camera );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#skins
+	 * @param {number} skinIndex
+	 * @return {Promise<Skeleton>}
+	 */
+	loadSkin( skinIndex ) {
+
+		const skinDef = this.json.skins[ skinIndex ];
+
+		const pending = [];
+
+		for ( let i = 0, il = skinDef.joints.length; i < il; i ++ ) {
+
+			pending.push( this._loadNodeShallow( skinDef.joints[ i ] ) );
+
+		}
+
+		if ( skinDef.inverseBindMatrices !== undefined ) {
+
+			pending.push( this.getDependency( 'accessor', skinDef.inverseBindMatrices ) );
+
+		} else {
+
+			pending.push( null );
+
+		}
+
+		return Promise.all( pending ).then( function ( results ) {
+
+			const inverseBindMatrices = results.pop();
+			const jointNodes = results;
+
+			// Note that bones (joint nodes) may or may not be in the
+			// scene graph at this time.
+
+			const bones = [];
+			const boneInverses = [];
+
+			for ( let i = 0, il = jointNodes.length; i < il; i ++ ) {
+
+				const jointNode = jointNodes[ i ];
+
+				if ( jointNode ) {
+
+					bones.push( jointNode );
+
+					const mat = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();
+
+					if ( inverseBindMatrices !== null ) {
+
+						mat.fromArray( inverseBindMatrices.array, i * 16 );
+
+					}
+
+					boneInverses.push( mat );
+
+				} else {
+
+					console.warn( 'THREE.GLTFLoader: Joint "%s" could not be found.', skinDef.joints[ i ] );
+
+				}
+
+			}
+
+			return new three__WEBPACK_IMPORTED_MODULE_0__.Skeleton( bones, boneInverses );
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#animations
+	 * @param {number} animationIndex
+	 * @return {Promise<AnimationClip>}
+	 */
+	loadAnimation( animationIndex ) {
+
+		const json = this.json;
+		const parser = this;
+
+		const animationDef = json.animations[ animationIndex ];
+		const animationName = animationDef.name ? animationDef.name : 'animation_' + animationIndex;
+
+		const pendingNodes = [];
+		const pendingInputAccessors = [];
+		const pendingOutputAccessors = [];
+		const pendingSamplers = [];
+		const pendingTargets = [];
+
+		for ( let i = 0, il = animationDef.channels.length; i < il; i ++ ) {
+
+			const channel = animationDef.channels[ i ];
+			const sampler = animationDef.samplers[ channel.sampler ];
+			const target = channel.target;
+			const name = target.node;
+			const input = animationDef.parameters !== undefined ? animationDef.parameters[ sampler.input ] : sampler.input;
+			const output = animationDef.parameters !== undefined ? animationDef.parameters[ sampler.output ] : sampler.output;
+
+			if ( target.node === undefined ) continue;
+
+			pendingNodes.push( this.getDependency( 'node', name ) );
+			pendingInputAccessors.push( this.getDependency( 'accessor', input ) );
+			pendingOutputAccessors.push( this.getDependency( 'accessor', output ) );
+			pendingSamplers.push( sampler );
+			pendingTargets.push( target );
+
+		}
+
+		return Promise.all( [
+
+			Promise.all( pendingNodes ),
+			Promise.all( pendingInputAccessors ),
+			Promise.all( pendingOutputAccessors ),
+			Promise.all( pendingSamplers ),
+			Promise.all( pendingTargets )
+
+		] ).then( function ( dependencies ) {
+
+			const nodes = dependencies[ 0 ];
+			const inputAccessors = dependencies[ 1 ];
+			const outputAccessors = dependencies[ 2 ];
+			const samplers = dependencies[ 3 ];
+			const targets = dependencies[ 4 ];
+
+			const tracks = [];
+
+			for ( let i = 0, il = nodes.length; i < il; i ++ ) {
+
+				const node = nodes[ i ];
+				const inputAccessor = inputAccessors[ i ];
+				const outputAccessor = outputAccessors[ i ];
+				const sampler = samplers[ i ];
+				const target = targets[ i ];
+
+				if ( node === undefined ) continue;
+
+				if ( node.updateMatrix ) {
+
+					node.updateMatrix();
+
+				}
+
+				const createdTracks = parser._createAnimationTracks( node, inputAccessor, outputAccessor, sampler, target );
+
+				if ( createdTracks ) {
+
+					for ( let k = 0; k < createdTracks.length; k ++ ) {
+
+						tracks.push( createdTracks[ k ] );
+
+					}
+
+				}
+
+			}
+
+			return new three__WEBPACK_IMPORTED_MODULE_0__.AnimationClip( animationName, undefined, tracks );
+
+		} );
+
+	}
+
+	createNodeMesh( nodeIndex ) {
+
+		const json = this.json;
+		const parser = this;
+		const nodeDef = json.nodes[ nodeIndex ];
+
+		if ( nodeDef.mesh === undefined ) return null;
+
+		return parser.getDependency( 'mesh', nodeDef.mesh ).then( function ( mesh ) {
+
+			const node = parser._getNodeRef( parser.meshCache, nodeDef.mesh, mesh );
+
+			// if weights are provided on the node, override weights on the mesh.
+			if ( nodeDef.weights !== undefined ) {
+
+				node.traverse( function ( o ) {
+
+					if ( ! o.isMesh ) return;
+
+					for ( let i = 0, il = nodeDef.weights.length; i < il; i ++ ) {
+
+						o.morphTargetInfluences[ i ] = nodeDef.weights[ i ];
+
+					}
+
+				} );
+
+			}
+
+			return node;
+
+		} );
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#nodes-and-hierarchy
+	 * @param {number} nodeIndex
+	 * @return {Promise<Object3D>}
+	 */
+	loadNode( nodeIndex ) {
+
+		const json = this.json;
+		const parser = this;
+
+		const nodeDef = json.nodes[ nodeIndex ];
+
+		const nodePending = parser._loadNodeShallow( nodeIndex );
+
+		const childPending = [];
+		const childrenDef = nodeDef.children || [];
+
+		for ( let i = 0, il = childrenDef.length; i < il; i ++ ) {
+
+			childPending.push( parser.getDependency( 'node', childrenDef[ i ] ) );
+
+		}
+
+		const skeletonPending = nodeDef.skin === undefined
+			? Promise.resolve( null )
+			: parser.getDependency( 'skin', nodeDef.skin );
+
+		return Promise.all( [
+			nodePending,
+			Promise.all( childPending ),
+			skeletonPending
+		] ).then( function ( results ) {
+
+			const node = results[ 0 ];
+			const children = results[ 1 ];
+			const skeleton = results[ 2 ];
+
+			if ( skeleton !== null ) {
+
+				// This full traverse should be fine because
+				// child glTF nodes have not been added to this node yet.
+				node.traverse( function ( mesh ) {
+
+					if ( ! mesh.isSkinnedMesh ) return;
+
+					mesh.bind( skeleton, _identityMatrix );
+
+				} );
+
+			}
+
+			for ( let i = 0, il = children.length; i < il; i ++ ) {
+
+				node.add( children[ i ] );
+
+			}
+
+			return node;
+
+		} );
+
+	}
+
+	// ._loadNodeShallow() parses a single node.
+	// skin and child nodes are created and added in .loadNode() (no '_' prefix).
+	_loadNodeShallow( nodeIndex ) {
+
+		const json = this.json;
+		const extensions = this.extensions;
+		const parser = this;
+
+		// This method is called from .loadNode() and .loadSkin().
+		// Cache a node to avoid duplication.
+
+		if ( this.nodeCache[ nodeIndex ] !== undefined ) {
+
+			return this.nodeCache[ nodeIndex ];
+
+		}
+
+		const nodeDef = json.nodes[ nodeIndex ];
+
+		// reserve node's name before its dependencies, so the root has the intended name.
+		const nodeName = nodeDef.name ? parser.createUniqueName( nodeDef.name ) : '';
+
+		const pending = [];
+
+		const meshPromise = parser._invokeOne( function ( ext ) {
+
+			return ext.createNodeMesh && ext.createNodeMesh( nodeIndex );
+
+		} );
+
+		if ( meshPromise ) {
+
+			pending.push( meshPromise );
+
+		}
+
+		if ( nodeDef.camera !== undefined ) {
+
+			pending.push( parser.getDependency( 'camera', nodeDef.camera ).then( function ( camera ) {
+
+				return parser._getNodeRef( parser.cameraCache, nodeDef.camera, camera );
+
+			} ) );
+
+		}
+
+		parser._invokeAll( function ( ext ) {
+
+			return ext.createNodeAttachment && ext.createNodeAttachment( nodeIndex );
+
+		} ).forEach( function ( promise ) {
+
+			pending.push( promise );
+
+		} );
+
+		this.nodeCache[ nodeIndex ] = Promise.all( pending ).then( function ( objects ) {
+
+			let node;
+
+			// .isBone isn't in glTF spec. See ._markDefs
+			if ( nodeDef.isBone === true ) {
+
+				node = new three__WEBPACK_IMPORTED_MODULE_0__.Bone();
+
+			} else if ( objects.length > 1 ) {
+
+				node = new three__WEBPACK_IMPORTED_MODULE_0__.Group();
+
+			} else if ( objects.length === 1 ) {
+
+				node = objects[ 0 ];
+
+			} else {
+
+				node = new three__WEBPACK_IMPORTED_MODULE_0__.Object3D();
+
+			}
+
+			if ( node !== objects[ 0 ] ) {
+
+				for ( let i = 0, il = objects.length; i < il; i ++ ) {
+
+					node.add( objects[ i ] );
+
+				}
+
+			}
+
+			if ( nodeDef.name ) {
+
+				node.userData.name = nodeDef.name;
+				node.name = nodeName;
+
+			}
+
+			assignExtrasToUserData( node, nodeDef );
+
+			if ( nodeDef.extensions ) addUnknownExtensionsToUserData( extensions, node, nodeDef );
+
+			if ( nodeDef.matrix !== undefined ) {
+
+				const matrix = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();
+				matrix.fromArray( nodeDef.matrix );
+				node.applyMatrix4( matrix );
+
+			} else {
+
+				if ( nodeDef.translation !== undefined ) {
+
+					node.position.fromArray( nodeDef.translation );
+
+				}
+
+				if ( nodeDef.rotation !== undefined ) {
+
+					node.quaternion.fromArray( nodeDef.rotation );
+
+				}
+
+				if ( nodeDef.scale !== undefined ) {
+
+					node.scale.fromArray( nodeDef.scale );
+
+				}
+
+			}
+
+			if ( ! parser.associations.has( node ) ) {
+
+				parser.associations.set( node, {} );
+
+			}
+
+			parser.associations.get( node ).nodes = nodeIndex;
+
+			return node;
+
+		} );
+
+		return this.nodeCache[ nodeIndex ];
+
+	}
+
+	/**
+	 * Specification: https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#scenes
+	 * @param {number} sceneIndex
+	 * @return {Promise<Group>}
+	 */
+	loadScene( sceneIndex ) {
+
+		const extensions = this.extensions;
+		const sceneDef = this.json.scenes[ sceneIndex ];
+		const parser = this;
+
+		// Loader returns Group, not Scene.
+		// See: https://github.com/mrdoob/three.js/issues/18342#issuecomment-578981172
+		const scene = new three__WEBPACK_IMPORTED_MODULE_0__.Group();
+		if ( sceneDef.name ) scene.name = parser.createUniqueName( sceneDef.name );
+
+		assignExtrasToUserData( scene, sceneDef );
+
+		if ( sceneDef.extensions ) addUnknownExtensionsToUserData( extensions, scene, sceneDef );
+
+		const nodeIds = sceneDef.nodes || [];
+
+		const pending = [];
+
+		for ( let i = 0, il = nodeIds.length; i < il; i ++ ) {
+
+			pending.push( parser.getDependency( 'node', nodeIds[ i ] ) );
+
+		}
+
+		return Promise.all( pending ).then( function ( nodes ) {
+
+			for ( let i = 0, il = nodes.length; i < il; i ++ ) {
+
+				scene.add( nodes[ i ] );
+
+			}
+
+			// Removes dangling associations, associations that reference a node that
+			// didn't make it into the scene.
+			const reduceAssociations = ( node ) => {
+
+				const reducedAssociations = new Map();
+
+				for ( const [ key, value ] of parser.associations ) {
+
+					if ( key instanceof three__WEBPACK_IMPORTED_MODULE_0__.Material || key instanceof three__WEBPACK_IMPORTED_MODULE_0__.Texture ) {
+
+						reducedAssociations.set( key, value );
+
+					}
+
+				}
+
+				node.traverse( ( node ) => {
+
+					const mappings = parser.associations.get( node );
+
+					if ( mappings != null ) {
+
+						reducedAssociations.set( node, mappings );
+
+					}
+
+				} );
+
+				return reducedAssociations;
+
+			};
+
+			parser.associations = reduceAssociations( scene );
+
+			return scene;
+
+		} );
+
+	}
+
+	_createAnimationTracks( node, inputAccessor, outputAccessor, sampler, target ) {
+
+		const tracks = [];
+
+		const targetName = node.name ? node.name : node.uuid;
+		const targetNames = [];
+
+		if ( PATH_PROPERTIES[ target.path ] === PATH_PROPERTIES.weights ) {
+
+			node.traverse( function ( object ) {
+
+				if ( object.morphTargetInfluences ) {
+
+					targetNames.push( object.name ? object.name : object.uuid );
+
+				}
+
+			} );
+
+		} else {
+
+			targetNames.push( targetName );
+
+		}
+
+		let TypedKeyframeTrack;
+
+		switch ( PATH_PROPERTIES[ target.path ] ) {
+
+			case PATH_PROPERTIES.weights:
+
+				TypedKeyframeTrack = three__WEBPACK_IMPORTED_MODULE_0__.NumberKeyframeTrack;
+				break;
+
+			case PATH_PROPERTIES.rotation:
+
+				TypedKeyframeTrack = three__WEBPACK_IMPORTED_MODULE_0__.QuaternionKeyframeTrack;
+				break;
+
+			case PATH_PROPERTIES.position:
+			case PATH_PROPERTIES.scale:
+
+				TypedKeyframeTrack = three__WEBPACK_IMPORTED_MODULE_0__.VectorKeyframeTrack;
+				break;
+
+			default:
+
+				switch ( outputAccessor.itemSize ) {
+
+					case 1:
+						TypedKeyframeTrack = three__WEBPACK_IMPORTED_MODULE_0__.NumberKeyframeTrack;
+						break;
+					case 2:
+					case 3:
+					default:
+						TypedKeyframeTrack = three__WEBPACK_IMPORTED_MODULE_0__.VectorKeyframeTrack;
+						break;
+
+				}
+
+				break;
+
+		}
+
+		const interpolation = sampler.interpolation !== undefined ? INTERPOLATION[ sampler.interpolation ] : three__WEBPACK_IMPORTED_MODULE_0__.InterpolateLinear;
+
+
+		const outputArray = this._getArrayFromAccessor( outputAccessor );
+
+		for ( let j = 0, jl = targetNames.length; j < jl; j ++ ) {
+
+			const track = new TypedKeyframeTrack(
+				targetNames[ j ] + '.' + PATH_PROPERTIES[ target.path ],
+				inputAccessor.array,
+				outputArray,
+				interpolation
+			);
+
+			// Override interpolation with custom factory method.
+			if ( sampler.interpolation === 'CUBICSPLINE' ) {
+
+				this._createCubicSplineTrackInterpolant( track );
+
+			}
+
+			tracks.push( track );
+
+		}
+
+		return tracks;
+
+	}
+
+	_getArrayFromAccessor( accessor ) {
+
+		let outputArray = accessor.array;
+
+		if ( accessor.normalized ) {
+
+			const scale = getNormalizedComponentScale( outputArray.constructor );
+			const scaled = new Float32Array( outputArray.length );
+
+			for ( let j = 0, jl = outputArray.length; j < jl; j ++ ) {
+
+				scaled[ j ] = outputArray[ j ] * scale;
+
+			}
+
+			outputArray = scaled;
+
+		}
+
+		return outputArray;
+
+	}
+
+	_createCubicSplineTrackInterpolant( track ) {
+
+		track.createInterpolant = function InterpolantFactoryMethodGLTFCubicSpline( result ) {
+
+			// A CUBICSPLINE keyframe in glTF has three output values for each input value,
+			// representing inTangent, splineVertex, and outTangent. As a result, track.getValueSize()
+			// must be divided by three to get the interpolant's sampleSize argument.
+
+			const interpolantType = ( this instanceof three__WEBPACK_IMPORTED_MODULE_0__.QuaternionKeyframeTrack ) ? GLTFCubicSplineQuaternionInterpolant : GLTFCubicSplineInterpolant;
+
+			return new interpolantType( this.times, this.values, this.getValueSize() / 3, result );
+
+		};
+
+		// Mark as CUBICSPLINE. `track.getInterpolation()` doesn't support custom interpolants.
+		track.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline = true;
+
+	}
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {GLTF.Primitive} primitiveDef
+ * @param {GLTFParser} parser
+ */
+function computeBounds( geometry, primitiveDef, parser ) {
+
+	const attributes = primitiveDef.attributes;
+
+	const box = new three__WEBPACK_IMPORTED_MODULE_0__.Box3();
+
+	if ( attributes.POSITION !== undefined ) {
+
+		const accessor = parser.json.accessors[ attributes.POSITION ];
+
+		const min = accessor.min;
+		const max = accessor.max;
+
+		// glTF requires 'min' and 'max', but VRM (which extends glTF) currently ignores that requirement.
+
+		if ( min !== undefined && max !== undefined ) {
+
+			box.set(
+				new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( min[ 0 ], min[ 1 ], min[ 2 ] ),
+				new three__WEBPACK_IMPORTED_MODULE_0__.Vector3( max[ 0 ], max[ 1 ], max[ 2 ] )
+			);
+
+			if ( accessor.normalized ) {
+
+				const boxScale = getNormalizedComponentScale( WEBGL_COMPONENT_TYPES[ accessor.componentType ] );
+				box.min.multiplyScalar( boxScale );
+				box.max.multiplyScalar( boxScale );
+
+			}
+
+		} else {
+
+			console.warn( 'THREE.GLTFLoader: Missing min/max properties for accessor POSITION.' );
+
+			return;
+
+		}
+
+	} else {
+
+		return;
+
+	}
+
+	const targets = primitiveDef.targets;
+
+	if ( targets !== undefined ) {
+
+		const maxDisplacement = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+		const vector = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+		for ( let i = 0, il = targets.length; i < il; i ++ ) {
+
+			const target = targets[ i ];
+
+			if ( target.POSITION !== undefined ) {
+
+				const accessor = parser.json.accessors[ target.POSITION ];
+				const min = accessor.min;
+				const max = accessor.max;
+
+				// glTF requires 'min' and 'max', but VRM (which extends glTF) currently ignores that requirement.
+
+				if ( min !== undefined && max !== undefined ) {
+
+					// we need to get max of absolute components because target weight is [-1,1]
+					vector.setX( Math.max( Math.abs( min[ 0 ] ), Math.abs( max[ 0 ] ) ) );
+					vector.setY( Math.max( Math.abs( min[ 1 ] ), Math.abs( max[ 1 ] ) ) );
+					vector.setZ( Math.max( Math.abs( min[ 2 ] ), Math.abs( max[ 2 ] ) ) );
+
+
+					if ( accessor.normalized ) {
+
+						const boxScale = getNormalizedComponentScale( WEBGL_COMPONENT_TYPES[ accessor.componentType ] );
+						vector.multiplyScalar( boxScale );
+
+					}
+
+					// Note: this assumes that the sum of all weights is at most 1. This isn't quite correct - it's more conservative
+					// to assume that each target can have a max weight of 1. However, for some use cases - notably, when morph targets
+					// are used to implement key-frame animations and as such only two are active at a time - this results in very large
+					// boxes. So for now we make a box that's sometimes a touch too small but is hopefully mostly of reasonable size.
+					maxDisplacement.max( vector );
+
+				} else {
+
+					console.warn( 'THREE.GLTFLoader: Missing min/max properties for accessor POSITION.' );
+
+				}
+
+			}
+
+		}
+
+		// As per comment above this box isn't conservative, but has a reasonable size for a very large number of morph targets.
+		box.expandByVector( maxDisplacement );
+
+	}
+
+	geometry.boundingBox = box;
+
+	const sphere = new three__WEBPACK_IMPORTED_MODULE_0__.Sphere();
+
+	box.getCenter( sphere.center );
+	sphere.radius = box.min.distanceTo( box.max ) / 2;
+
+	geometry.boundingSphere = sphere;
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {GLTF.Primitive} primitiveDef
+ * @param {GLTFParser} parser
+ * @return {Promise<BufferGeometry>}
+ */
+function addPrimitiveAttributes( geometry, primitiveDef, parser ) {
+
+	const attributes = primitiveDef.attributes;
+
+	const pending = [];
+
+	function assignAttributeAccessor( accessorIndex, attributeName ) {
+
+		return parser.getDependency( 'accessor', accessorIndex )
+			.then( function ( accessor ) {
+
+				geometry.setAttribute( attributeName, accessor );
+
+			} );
+
+	}
+
+	for ( const gltfAttributeName in attributes ) {
+
+		const threeAttributeName = ATTRIBUTES[ gltfAttributeName ] || gltfAttributeName.toLowerCase();
+
+		// Skip attributes already provided by e.g. Draco extension.
+		if ( threeAttributeName in geometry.attributes ) continue;
+
+		pending.push( assignAttributeAccessor( attributes[ gltfAttributeName ], threeAttributeName ) );
+
+	}
+
+	if ( primitiveDef.indices !== undefined && ! geometry.index ) {
+
+		const accessor = parser.getDependency( 'accessor', primitiveDef.indices ).then( function ( accessor ) {
+
+			geometry.setIndex( accessor );
+
+		} );
+
+		pending.push( accessor );
+
+	}
+
+	if ( three__WEBPACK_IMPORTED_MODULE_0__.ColorManagement.workingColorSpace !== three__WEBPACK_IMPORTED_MODULE_0__.LinearSRGBColorSpace && 'COLOR_0' in attributes ) {
+
+		console.warn( `THREE.GLTFLoader: Converting vertex colors from "srgb-linear" to "${three__WEBPACK_IMPORTED_MODULE_0__.ColorManagement.workingColorSpace}" not supported.` );
+
+	}
+
+	assignExtrasToUserData( geometry, primitiveDef );
+
+	computeBounds( geometry, primitiveDef, parser );
+
+	return Promise.all( pending ).then( function () {
+
+		return primitiveDef.targets !== undefined
+			? addMorphTargets( geometry, primitiveDef.targets, parser )
+			: geometry;
+
+	} );
+
+}
+
+
+
+
+/***/ }),
+/* 62 */
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   computeMikkTSpaceTangents: () => (/* binding */ computeMikkTSpaceTangents),
+/* harmony export */   computeMorphedAttributes: () => (/* binding */ computeMorphedAttributes),
+/* harmony export */   deepCloneAttribute: () => (/* binding */ deepCloneAttribute),
+/* harmony export */   deinterleaveAttribute: () => (/* binding */ deinterleaveAttribute),
+/* harmony export */   deinterleaveGeometry: () => (/* binding */ deinterleaveGeometry),
+/* harmony export */   estimateBytesUsed: () => (/* binding */ estimateBytesUsed),
+/* harmony export */   interleaveAttributes: () => (/* binding */ interleaveAttributes),
+/* harmony export */   mergeAttributes: () => (/* binding */ mergeAttributes),
+/* harmony export */   mergeBufferAttributes: () => (/* binding */ mergeBufferAttributes),
+/* harmony export */   mergeBufferGeometries: () => (/* binding */ mergeBufferGeometries),
+/* harmony export */   mergeGeometries: () => (/* binding */ mergeGeometries),
+/* harmony export */   mergeGroups: () => (/* binding */ mergeGroups),
+/* harmony export */   mergeVertices: () => (/* binding */ mergeVertices),
+/* harmony export */   toCreasedNormals: () => (/* binding */ toCreasedNormals),
+/* harmony export */   toTrianglesDrawMode: () => (/* binding */ toTrianglesDrawMode)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+
+
+function computeMikkTSpaceTangents( geometry, MikkTSpace, negateSign = true ) {
+
+	if ( ! MikkTSpace || ! MikkTSpace.isReady ) {
+
+		throw new Error( 'BufferGeometryUtils: Initialized MikkTSpace library required.' );
+
+	}
+
+	if ( ! geometry.hasAttribute( 'position' ) || ! geometry.hasAttribute( 'normal' ) || ! geometry.hasAttribute( 'uv' ) ) {
+
+		throw new Error( 'BufferGeometryUtils: Tangents require "position", "normal", and "uv" attributes.' );
+
+	}
+
+	function getAttributeArray( attribute ) {
+
+		if ( attribute.normalized || attribute.isInterleavedBufferAttribute ) {
+
+			const dstArray = new Float32Array( attribute.count * attribute.itemSize );
+
+			for ( let i = 0, j = 0; i < attribute.count; i ++ ) {
+
+				dstArray[ j ++ ] = attribute.getX( i );
+				dstArray[ j ++ ] = attribute.getY( i );
+
+				if ( attribute.itemSize > 2 ) {
+
+					dstArray[ j ++ ] = attribute.getZ( i );
+
+				}
+
+			}
+
+			return dstArray;
+
+		}
+
+		if ( attribute.array instanceof Float32Array ) {
+
+			return attribute.array;
+
+		}
+
+		return new Float32Array( attribute.array );
+
+	}
+
+	// MikkTSpace algorithm requires non-indexed input.
+
+	const _geometry = geometry.index ? geometry.toNonIndexed() : geometry;
+
+	// Compute vertex tangents.
+
+	const tangents = MikkTSpace.generateTangents(
+
+		getAttributeArray( _geometry.attributes.position ),
+		getAttributeArray( _geometry.attributes.normal ),
+		getAttributeArray( _geometry.attributes.uv )
+
+	);
+
+	// Texture coordinate convention of glTF differs from the apparent
+	// default of the MikkTSpace library; .w component must be flipped.
+
+	if ( negateSign ) {
+
+		for ( let i = 3; i < tangents.length; i += 4 ) {
+
+			tangents[ i ] *= - 1;
+
+		}
+
+	}
+
+	//
+
+	_geometry.setAttribute( 'tangent', new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( tangents, 4 ) );
+
+	if ( geometry !== _geometry ) {
+
+		geometry.copy( _geometry );
+
+	}
+
+	return geometry;
+
+}
+
+/**
+ * @param  {Array<BufferGeometry>} geometries
+ * @param  {Boolean} useGroups
+ * @return {BufferGeometry}
+ */
+function mergeGeometries( geometries, useGroups = false ) {
+
+	const isIndexed = geometries[ 0 ].index !== null;
+
+	const attributesUsed = new Set( Object.keys( geometries[ 0 ].attributes ) );
+	const morphAttributesUsed = new Set( Object.keys( geometries[ 0 ].morphAttributes ) );
+
+	const attributes = {};
+	const morphAttributes = {};
+
+	const morphTargetsRelative = geometries[ 0 ].morphTargetsRelative;
+
+	const mergedGeometry = new three__WEBPACK_IMPORTED_MODULE_0__.BufferGeometry();
+
+	let offset = 0;
+
+	for ( let i = 0; i < geometries.length; ++ i ) {
+
+		const geometry = geometries[ i ];
+		let attributesCount = 0;
+
+		// ensure that all geometries are indexed, or none
+
+		if ( isIndexed !== ( geometry.index !== null ) ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '. All geometries must have compatible attributes; make sure index attribute exists among all geometries, or in none of them.' );
+			return null;
+
+		}
+
+		// gather attributes, exit early if they're different
+
+		for ( const name in geometry.attributes ) {
+
+			if ( ! attributesUsed.has( name ) ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '. All geometries must have compatible attributes; make sure "' + name + '" attribute exists among all geometries, or in none of them.' );
+				return null;
+
+			}
+
+			if ( attributes[ name ] === undefined ) attributes[ name ] = [];
+
+			attributes[ name ].push( geometry.attributes[ name ] );
+
+			attributesCount ++;
+
+		}
+
+		// ensure geometries have the same number of attributes
+
+		if ( attributesCount !== attributesUsed.size ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '. Make sure all geometries have the same number of attributes.' );
+			return null;
+
+		}
+
+		// gather morph attributes, exit early if they're different
+
+		if ( morphTargetsRelative !== geometry.morphTargetsRelative ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '. .morphTargetsRelative must be consistent throughout all geometries.' );
+			return null;
+
+		}
+
+		for ( const name in geometry.morphAttributes ) {
+
+			if ( ! morphAttributesUsed.has( name ) ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '.  .morphAttributes must be consistent throughout all geometries.' );
+				return null;
+
+			}
+
+			if ( morphAttributes[ name ] === undefined ) morphAttributes[ name ] = [];
+
+			morphAttributes[ name ].push( geometry.morphAttributes[ name ] );
+
+		}
+
+		if ( useGroups ) {
+
+			let count;
+
+			if ( isIndexed ) {
+
+				count = geometry.index.count;
+
+			} else if ( geometry.attributes.position !== undefined ) {
+
+				count = geometry.attributes.position.count;
+
+			} else {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed with geometry at index ' + i + '. The geometry must have either an index or a position attribute' );
+				return null;
+
+			}
+
+			mergedGeometry.addGroup( offset, count, i );
+
+			offset += count;
+
+		}
+
+	}
+
+	// merge indices
+
+	if ( isIndexed ) {
+
+		let indexOffset = 0;
+		const mergedIndex = [];
+
+		for ( let i = 0; i < geometries.length; ++ i ) {
+
+			const index = geometries[ i ].index;
+
+			for ( let j = 0; j < index.count; ++ j ) {
+
+				mergedIndex.push( index.getX( j ) + indexOffset );
+
+			}
+
+			indexOffset += geometries[ i ].attributes.position.count;
+
+		}
+
+		mergedGeometry.setIndex( mergedIndex );
+
+	}
+
+	// merge attributes
+
+	for ( const name in attributes ) {
+
+		const mergedAttribute = mergeAttributes( attributes[ name ] );
+
+		if ( ! mergedAttribute ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed while trying to merge the ' + name + ' attribute.' );
+			return null;
+
+		}
+
+		mergedGeometry.setAttribute( name, mergedAttribute );
+
+	}
+
+	// merge morph attributes
+
+	for ( const name in morphAttributes ) {
+
+		const numMorphTargets = morphAttributes[ name ][ 0 ].length;
+
+		if ( numMorphTargets === 0 ) break;
+
+		mergedGeometry.morphAttributes = mergedGeometry.morphAttributes || {};
+		mergedGeometry.morphAttributes[ name ] = [];
+
+		for ( let i = 0; i < numMorphTargets; ++ i ) {
+
+			const morphAttributesToMerge = [];
+
+			for ( let j = 0; j < morphAttributes[ name ].length; ++ j ) {
+
+				morphAttributesToMerge.push( morphAttributes[ name ][ j ][ i ] );
+
+			}
+
+			const mergedMorphAttribute = mergeAttributes( morphAttributesToMerge );
+
+			if ( ! mergedMorphAttribute ) {
+
+				console.error( 'THREE.BufferGeometryUtils: .mergeGeometries() failed while trying to merge the ' + name + ' morphAttribute.' );
+				return null;
+
+			}
+
+			mergedGeometry.morphAttributes[ name ].push( mergedMorphAttribute );
+
+		}
+
+	}
+
+	return mergedGeometry;
+
+}
+
+/**
+ * @param {Array<BufferAttribute>} attributes
+ * @return {BufferAttribute}
+ */
+function mergeAttributes( attributes ) {
+
+	let TypedArray;
+	let itemSize;
+	let normalized;
+	let gpuType = - 1;
+	let arrayLength = 0;
+
+	for ( let i = 0; i < attributes.length; ++ i ) {
+
+		const attribute = attributes[ i ];
+
+		if ( attribute.isInterleavedBufferAttribute ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeAttributes() failed. InterleavedBufferAttributes are not supported.' );
+			return null;
+
+		}
+
+		if ( TypedArray === undefined ) TypedArray = attribute.array.constructor;
+		if ( TypedArray !== attribute.array.constructor ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.array must be of consistent array types across matching attributes.' );
+			return null;
+
+		}
+
+		if ( itemSize === undefined ) itemSize = attribute.itemSize;
+		if ( itemSize !== attribute.itemSize ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.itemSize must be consistent across matching attributes.' );
+			return null;
+
+		}
+
+		if ( normalized === undefined ) normalized = attribute.normalized;
+		if ( normalized !== attribute.normalized ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.normalized must be consistent across matching attributes.' );
+			return null;
+
+		}
+
+		if ( gpuType === - 1 ) gpuType = attribute.gpuType;
+		if ( gpuType !== attribute.gpuType ) {
+
+			console.error( 'THREE.BufferGeometryUtils: .mergeAttributes() failed. BufferAttribute.gpuType must be consistent across matching attributes.' );
+			return null;
+
+		}
+
+		arrayLength += attribute.array.length;
+
+	}
+
+	const array = new TypedArray( arrayLength );
+	let offset = 0;
+
+	for ( let i = 0; i < attributes.length; ++ i ) {
+
+		array.set( attributes[ i ].array, offset );
+
+		offset += attributes[ i ].array.length;
+
+	}
+
+	const result = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( array, itemSize, normalized );
+	if ( gpuType !== undefined ) {
+
+		result.gpuType = gpuType;
+
+	}
+
+	return result;
+
+}
+
+/**
+ * @param {BufferAttribute}
+ * @return {BufferAttribute}
+ */
+function deepCloneAttribute( attribute ) {
+
+	if ( attribute.isInstancedInterleavedBufferAttribute || attribute.isInterleavedBufferAttribute ) {
+
+		return deinterleaveAttribute( attribute );
+
+	}
+
+	if ( attribute.isInstancedBufferAttribute ) {
+
+		return new three__WEBPACK_IMPORTED_MODULE_0__.InstancedBufferAttribute().copy( attribute );
+
+	}
+
+	return new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute().copy( attribute );
+
+}
+
+/**
+ * @param {Array<BufferAttribute>} attributes
+ * @return {Array<InterleavedBufferAttribute>}
+ */
+function interleaveAttributes( attributes ) {
+
+	// Interleaves the provided attributes into an InterleavedBuffer and returns
+	// a set of InterleavedBufferAttributes for each attribute
+	let TypedArray;
+	let arrayLength = 0;
+	let stride = 0;
+
+	// calculate the length and type of the interleavedBuffer
+	for ( let i = 0, l = attributes.length; i < l; ++ i ) {
+
+		const attribute = attributes[ i ];
+
+		if ( TypedArray === undefined ) TypedArray = attribute.array.constructor;
+		if ( TypedArray !== attribute.array.constructor ) {
+
+			console.error( 'AttributeBuffers of different types cannot be interleaved' );
+			return null;
+
+		}
+
+		arrayLength += attribute.array.length;
+		stride += attribute.itemSize;
+
+	}
+
+	// Create the set of buffer attributes
+	const interleavedBuffer = new three__WEBPACK_IMPORTED_MODULE_0__.InterleavedBuffer( new TypedArray( arrayLength ), stride );
+	let offset = 0;
+	const res = [];
+	const getters = [ 'getX', 'getY', 'getZ', 'getW' ];
+	const setters = [ 'setX', 'setY', 'setZ', 'setW' ];
+
+	for ( let j = 0, l = attributes.length; j < l; j ++ ) {
+
+		const attribute = attributes[ j ];
+		const itemSize = attribute.itemSize;
+		const count = attribute.count;
+		const iba = new three__WEBPACK_IMPORTED_MODULE_0__.InterleavedBufferAttribute( interleavedBuffer, itemSize, offset, attribute.normalized );
+		res.push( iba );
+
+		offset += itemSize;
+
+		// Move the data for each attribute into the new interleavedBuffer
+		// at the appropriate offset
+		for ( let c = 0; c < count; c ++ ) {
+
+			for ( let k = 0; k < itemSize; k ++ ) {
+
+				iba[ setters[ k ] ]( c, attribute[ getters[ k ] ]( c ) );
+
+			}
+
+		}
+
+	}
+
+	return res;
+
+}
+
+// returns a new, non-interleaved version of the provided attribute
+function deinterleaveAttribute( attribute ) {
+
+	const cons = attribute.data.array.constructor;
+	const count = attribute.count;
+	const itemSize = attribute.itemSize;
+	const normalized = attribute.normalized;
+
+	const array = new cons( count * itemSize );
+	let newAttribute;
+	if ( attribute.isInstancedInterleavedBufferAttribute ) {
+
+		newAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.InstancedBufferAttribute( array, itemSize, normalized, attribute.meshPerAttribute );
+
+	} else {
+
+		newAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( array, itemSize, normalized );
+
+	}
+
+	for ( let i = 0; i < count; i ++ ) {
+
+		newAttribute.setX( i, attribute.getX( i ) );
+
+		if ( itemSize >= 2 ) {
+
+			newAttribute.setY( i, attribute.getY( i ) );
+
+		}
+
+		if ( itemSize >= 3 ) {
+
+			newAttribute.setZ( i, attribute.getZ( i ) );
+
+		}
+
+		if ( itemSize >= 4 ) {
+
+			newAttribute.setW( i, attribute.getW( i ) );
+
+		}
+
+	}
+
+	return newAttribute;
+
+}
+
+// deinterleaves all attributes on the geometry
+function deinterleaveGeometry( geometry ) {
+
+	const attributes = geometry.attributes;
+	const morphTargets = geometry.morphTargets;
+	const attrMap = new Map();
+
+	for ( const key in attributes ) {
+
+		const attr = attributes[ key ];
+		if ( attr.isInterleavedBufferAttribute ) {
+
+			if ( ! attrMap.has( attr ) ) {
+
+				attrMap.set( attr, deinterleaveAttribute( attr ) );
+
+			}
+
+			attributes[ key ] = attrMap.get( attr );
+
+		}
+
+	}
+
+	for ( const key in morphTargets ) {
+
+		const attr = morphTargets[ key ];
+		if ( attr.isInterleavedBufferAttribute ) {
+
+			if ( ! attrMap.has( attr ) ) {
+
+				attrMap.set( attr, deinterleaveAttribute( attr ) );
+
+			}
+
+			morphTargets[ key ] = attrMap.get( attr );
+
+		}
+
+	}
+
+}
+
+/**
+ * @param {Array<BufferGeometry>} geometry
+ * @return {number}
+ */
+function estimateBytesUsed( geometry ) {
+
+	// Return the estimated memory used by this geometry in bytes
+	// Calculate using itemSize, count, and BYTES_PER_ELEMENT to account
+	// for InterleavedBufferAttributes.
+	let mem = 0;
+	for ( const name in geometry.attributes ) {
+
+		const attr = geometry.getAttribute( name );
+		mem += attr.count * attr.itemSize * attr.array.BYTES_PER_ELEMENT;
+
+	}
+
+	const indices = geometry.getIndex();
+	mem += indices ? indices.count * indices.itemSize * indices.array.BYTES_PER_ELEMENT : 0;
+	return mem;
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {number} tolerance
+ * @return {BufferGeometry}
+ */
+function mergeVertices( geometry, tolerance = 1e-4 ) {
+
+	tolerance = Math.max( tolerance, Number.EPSILON );
+
+	// Generate an index buffer if the geometry doesn't have one, or optimize it
+	// if it's already available.
+	const hashToIndex = {};
+	const indices = geometry.getIndex();
+	const positions = geometry.getAttribute( 'position' );
+	const vertexCount = indices ? indices.count : positions.count;
+
+	// next value for triangle indices
+	let nextIndex = 0;
+
+	// attributes and new attribute arrays
+	const attributeNames = Object.keys( geometry.attributes );
+	const tmpAttributes = {};
+	const tmpMorphAttributes = {};
+	const newIndices = [];
+	const getters = [ 'getX', 'getY', 'getZ', 'getW' ];
+	const setters = [ 'setX', 'setY', 'setZ', 'setW' ];
+
+	// Initialize the arrays, allocating space conservatively. Extra
+	// space will be trimmed in the last step.
+	for ( let i = 0, l = attributeNames.length; i < l; i ++ ) {
+
+		const name = attributeNames[ i ];
+		const attr = geometry.attributes[ name ];
+
+		tmpAttributes[ name ] = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute(
+			new attr.array.constructor( attr.count * attr.itemSize ),
+			attr.itemSize,
+			attr.normalized
+		);
+
+		const morphAttr = geometry.morphAttributes[ name ];
+		if ( morphAttr ) {
+
+			tmpMorphAttributes[ name ] = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute(
+				new morphAttr.array.constructor( morphAttr.count * morphAttr.itemSize ),
+				morphAttr.itemSize,
+				morphAttr.normalized
+			);
+
+		}
+
+	}
+
+	// convert the error tolerance to an amount of decimal places to truncate to
+	const decimalShift = Math.log10( 1 / tolerance );
+	const shiftMultiplier = Math.pow( 10, decimalShift );
+	for ( let i = 0; i < vertexCount; i ++ ) {
+
+		const index = indices ? indices.getX( i ) : i;
+
+		// Generate a hash for the vertex attributes at the current index 'i'
+		let hash = '';
+		for ( let j = 0, l = attributeNames.length; j < l; j ++ ) {
+
+			const name = attributeNames[ j ];
+			const attribute = geometry.getAttribute( name );
+			const itemSize = attribute.itemSize;
+
+			for ( let k = 0; k < itemSize; k ++ ) {
+
+				// double tilde truncates the decimal value
+				hash += `${ ~ ~ ( attribute[ getters[ k ] ]( index ) * shiftMultiplier ) },`;
+
+			}
+
+		}
+
+		// Add another reference to the vertex if it's already
+		// used by another index
+		if ( hash in hashToIndex ) {
+
+			newIndices.push( hashToIndex[ hash ] );
+
+		} else {
+
+			// copy data to the new index in the temporary attributes
+			for ( let j = 0, l = attributeNames.length; j < l; j ++ ) {
+
+				const name = attributeNames[ j ];
+				const attribute = geometry.getAttribute( name );
+				const morphAttr = geometry.morphAttributes[ name ];
+				const itemSize = attribute.itemSize;
+				const newarray = tmpAttributes[ name ];
+				const newMorphArrays = tmpMorphAttributes[ name ];
+
+				for ( let k = 0; k < itemSize; k ++ ) {
+
+					const getterFunc = getters[ k ];
+					const setterFunc = setters[ k ];
+					newarray[ setterFunc ]( nextIndex, attribute[ getterFunc ]( index ) );
+
+					if ( morphAttr ) {
+
+						for ( let m = 0, ml = morphAttr.length; m < ml; m ++ ) {
+
+							newMorphArrays[ m ][ setterFunc ]( nextIndex, morphAttr[ m ][ getterFunc ]( index ) );
+
+						}
+
+					}
+
+				}
+
+			}
+
+			hashToIndex[ hash ] = nextIndex;
+			newIndices.push( nextIndex );
+			nextIndex ++;
+
+		}
+
+	}
+
+	// generate result BufferGeometry
+	const result = geometry.clone();
+	for ( const name in geometry.attributes ) {
+
+		const tmpAttribute = tmpAttributes[ name ];
+
+		result.setAttribute( name, new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute(
+			tmpAttribute.array.slice( 0, nextIndex * tmpAttribute.itemSize ),
+			tmpAttribute.itemSize,
+			tmpAttribute.normalized,
+		) );
+
+		if ( ! ( name in tmpMorphAttributes ) ) continue;
+
+		for ( let j = 0; j < tmpMorphAttributes[ name ].length; j ++ ) {
+
+			const tmpMorphAttribute = tmpMorphAttributes[ name ][ j ];
+
+			result.morphAttributes[ name ][ j ] = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute(
+				tmpMorphAttribute.array.slice( 0, nextIndex * tmpMorphAttribute.itemSize ),
+				tmpMorphAttribute.itemSize,
+				tmpMorphAttribute.normalized,
+			);
+
+		}
+
+	}
+
+	// indices
+
+	result.setIndex( newIndices );
+
+	return result;
+
+}
+
+/**
+ * @param {BufferGeometry} geometry
+ * @param {number} drawMode
+ * @return {BufferGeometry}
+ */
+function toTrianglesDrawMode( geometry, drawMode ) {
+
+	if ( drawMode === three__WEBPACK_IMPORTED_MODULE_0__.TrianglesDrawMode ) {
+
+		console.warn( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Geometry already defined as triangles.' );
+		return geometry;
+
+	}
+
+	if ( drawMode === three__WEBPACK_IMPORTED_MODULE_0__.TriangleFanDrawMode || drawMode === three__WEBPACK_IMPORTED_MODULE_0__.TriangleStripDrawMode ) {
+
+		let index = geometry.getIndex();
+
+		// generate index if not present
+
+		if ( index === null ) {
+
+			const indices = [];
+
+			const position = geometry.getAttribute( 'position' );
+
+			if ( position !== undefined ) {
+
+				for ( let i = 0; i < position.count; i ++ ) {
+
+					indices.push( i );
+
+				}
+
+				geometry.setIndex( indices );
+				index = geometry.getIndex();
+
+			} else {
+
+				console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Undefined position attribute. Processing not possible.' );
+				return geometry;
+
+			}
+
+		}
+
+		//
+
+		const numberOfTriangles = index.count - 2;
+		const newIndices = [];
+
+		if ( drawMode === three__WEBPACK_IMPORTED_MODULE_0__.TriangleFanDrawMode ) {
+
+			// gl.TRIANGLE_FAN
+
+			for ( let i = 1; i <= numberOfTriangles; i ++ ) {
+
+				newIndices.push( index.getX( 0 ) );
+				newIndices.push( index.getX( i ) );
+				newIndices.push( index.getX( i + 1 ) );
+
+			}
+
+		} else {
+
+			// gl.TRIANGLE_STRIP
+
+			for ( let i = 0; i < numberOfTriangles; i ++ ) {
+
+				if ( i % 2 === 0 ) {
+
+					newIndices.push( index.getX( i ) );
+					newIndices.push( index.getX( i + 1 ) );
+					newIndices.push( index.getX( i + 2 ) );
+
+				} else {
+
+					newIndices.push( index.getX( i + 2 ) );
+					newIndices.push( index.getX( i + 1 ) );
+					newIndices.push( index.getX( i ) );
+
+				}
+
+			}
+
+		}
+
+		if ( ( newIndices.length / 3 ) !== numberOfTriangles ) {
+
+			console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Unable to generate correct amount of triangles.' );
+
+		}
+
+		// build final geometry
+
+		const newGeometry = geometry.clone();
+		newGeometry.setIndex( newIndices );
+		newGeometry.clearGroups();
+
+		return newGeometry;
+
+	} else {
+
+		console.error( 'THREE.BufferGeometryUtils.toTrianglesDrawMode(): Unknown draw mode:', drawMode );
+		return geometry;
+
+	}
+
+}
+
+/**
+ * Calculates the morphed attributes of a morphed/skinned BufferGeometry.
+ * Helpful for Raytracing or Decals.
+ * @param {Mesh | Line | Points} object An instance of Mesh, Line or Points.
+ * @return {Object} An Object with original position/normal attributes and morphed ones.
+ */
+function computeMorphedAttributes( object ) {
+
+	const _vA = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _vB = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _vC = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+	const _tempA = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _tempB = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _tempC = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+	const _morphA = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _morphB = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const _morphC = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+	function _calculateMorphedAttributeData(
+		object,
+		attribute,
+		morphAttribute,
+		morphTargetsRelative,
+		a,
+		b,
+		c,
+		modifiedAttributeArray
+	) {
+
+		_vA.fromBufferAttribute( attribute, a );
+		_vB.fromBufferAttribute( attribute, b );
+		_vC.fromBufferAttribute( attribute, c );
+
+		const morphInfluences = object.morphTargetInfluences;
+
+		if ( morphAttribute && morphInfluences ) {
+
+			_morphA.set( 0, 0, 0 );
+			_morphB.set( 0, 0, 0 );
+			_morphC.set( 0, 0, 0 );
+
+			for ( let i = 0, il = morphAttribute.length; i < il; i ++ ) {
+
+				const influence = morphInfluences[ i ];
+				const morph = morphAttribute[ i ];
+
+				if ( influence === 0 ) continue;
+
+				_tempA.fromBufferAttribute( morph, a );
+				_tempB.fromBufferAttribute( morph, b );
+				_tempC.fromBufferAttribute( morph, c );
+
+				if ( morphTargetsRelative ) {
+
+					_morphA.addScaledVector( _tempA, influence );
+					_morphB.addScaledVector( _tempB, influence );
+					_morphC.addScaledVector( _tempC, influence );
+
+				} else {
+
+					_morphA.addScaledVector( _tempA.sub( _vA ), influence );
+					_morphB.addScaledVector( _tempB.sub( _vB ), influence );
+					_morphC.addScaledVector( _tempC.sub( _vC ), influence );
+
+				}
+
+			}
+
+			_vA.add( _morphA );
+			_vB.add( _morphB );
+			_vC.add( _morphC );
+
+		}
+
+		if ( object.isSkinnedMesh ) {
+
+			object.applyBoneTransform( a, _vA );
+			object.applyBoneTransform( b, _vB );
+			object.applyBoneTransform( c, _vC );
+
+		}
+
+		modifiedAttributeArray[ a * 3 + 0 ] = _vA.x;
+		modifiedAttributeArray[ a * 3 + 1 ] = _vA.y;
+		modifiedAttributeArray[ a * 3 + 2 ] = _vA.z;
+		modifiedAttributeArray[ b * 3 + 0 ] = _vB.x;
+		modifiedAttributeArray[ b * 3 + 1 ] = _vB.y;
+		modifiedAttributeArray[ b * 3 + 2 ] = _vB.z;
+		modifiedAttributeArray[ c * 3 + 0 ] = _vC.x;
+		modifiedAttributeArray[ c * 3 + 1 ] = _vC.y;
+		modifiedAttributeArray[ c * 3 + 2 ] = _vC.z;
+
+	}
+
+	const geometry = object.geometry;
+	const material = object.material;
+
+	let a, b, c;
+	const index = geometry.index;
+	const positionAttribute = geometry.attributes.position;
+	const morphPosition = geometry.morphAttributes.position;
+	const morphTargetsRelative = geometry.morphTargetsRelative;
+	const normalAttribute = geometry.attributes.normal;
+	const morphNormal = geometry.morphAttributes.position;
+
+	const groups = geometry.groups;
+	const drawRange = geometry.drawRange;
+	let i, j, il, jl;
+	let group;
+	let start, end;
+
+	const modifiedPosition = new Float32Array( positionAttribute.count * positionAttribute.itemSize );
+	const modifiedNormal = new Float32Array( normalAttribute.count * normalAttribute.itemSize );
+
+	if ( index !== null ) {
+
+		// indexed buffer geometry
+
+		if ( Array.isArray( material ) ) {
+
+			for ( i = 0, il = groups.length; i < il; i ++ ) {
+
+				group = groups[ i ];
+
+				start = Math.max( group.start, drawRange.start );
+				end = Math.min( ( group.start + group.count ), ( drawRange.start + drawRange.count ) );
+
+				for ( j = start, jl = end; j < jl; j += 3 ) {
+
+					a = index.getX( j );
+					b = index.getX( j + 1 );
+					c = index.getX( j + 2 );
+
+					_calculateMorphedAttributeData(
+						object,
+						positionAttribute,
+						morphPosition,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedPosition
+					);
+
+					_calculateMorphedAttributeData(
+						object,
+						normalAttribute,
+						morphNormal,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedNormal
+					);
+
+				}
+
+			}
+
+		} else {
+
+			start = Math.max( 0, drawRange.start );
+			end = Math.min( index.count, ( drawRange.start + drawRange.count ) );
+
+			for ( i = start, il = end; i < il; i += 3 ) {
+
+				a = index.getX( i );
+				b = index.getX( i + 1 );
+				c = index.getX( i + 2 );
+
+				_calculateMorphedAttributeData(
+					object,
+					positionAttribute,
+					morphPosition,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedPosition
+				);
+
+				_calculateMorphedAttributeData(
+					object,
+					normalAttribute,
+					morphNormal,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedNormal
+				);
+
+			}
+
+		}
+
+	} else {
+
+		// non-indexed buffer geometry
+
+		if ( Array.isArray( material ) ) {
+
+			for ( i = 0, il = groups.length; i < il; i ++ ) {
+
+				group = groups[ i ];
+
+				start = Math.max( group.start, drawRange.start );
+				end = Math.min( ( group.start + group.count ), ( drawRange.start + drawRange.count ) );
+
+				for ( j = start, jl = end; j < jl; j += 3 ) {
+
+					a = j;
+					b = j + 1;
+					c = j + 2;
+
+					_calculateMorphedAttributeData(
+						object,
+						positionAttribute,
+						morphPosition,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedPosition
+					);
+
+					_calculateMorphedAttributeData(
+						object,
+						normalAttribute,
+						morphNormal,
+						morphTargetsRelative,
+						a, b, c,
+						modifiedNormal
+					);
+
+				}
+
+			}
+
+		} else {
+
+			start = Math.max( 0, drawRange.start );
+			end = Math.min( positionAttribute.count, ( drawRange.start + drawRange.count ) );
+
+			for ( i = start, il = end; i < il; i += 3 ) {
+
+				a = i;
+				b = i + 1;
+				c = i + 2;
+
+				_calculateMorphedAttributeData(
+					object,
+					positionAttribute,
+					morphPosition,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedPosition
+				);
+
+				_calculateMorphedAttributeData(
+					object,
+					normalAttribute,
+					morphNormal,
+					morphTargetsRelative,
+					a, b, c,
+					modifiedNormal
+				);
+
+			}
+
+		}
+
+	}
+
+	const morphedPositionAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.Float32BufferAttribute( modifiedPosition, 3 );
+	const morphedNormalAttribute = new three__WEBPACK_IMPORTED_MODULE_0__.Float32BufferAttribute( modifiedNormal, 3 );
+
+	return {
+
+		positionAttribute: positionAttribute,
+		normalAttribute: normalAttribute,
+		morphedPositionAttribute: morphedPositionAttribute,
+		morphedNormalAttribute: morphedNormalAttribute
+
+	};
+
+}
+
+function mergeGroups( geometry ) {
+
+	if ( geometry.groups.length === 0 ) {
+
+		console.warn( 'THREE.BufferGeometryUtils.mergeGroups(): No groups are defined. Nothing to merge.' );
+		return geometry;
+
+	}
+
+	let groups = geometry.groups;
+
+	// sort groups by material index
+
+	groups = groups.sort( ( a, b ) => {
+
+		if ( a.materialIndex !== b.materialIndex ) return a.materialIndex - b.materialIndex;
+
+		return a.start - b.start;
+
+	} );
+
+	// create index for non-indexed geometries
+
+	if ( geometry.getIndex() === null ) {
+
+		const positionAttribute = geometry.getAttribute( 'position' );
+		const indices = [];
+
+		for ( let i = 0; i < positionAttribute.count; i += 3 ) {
+
+			indices.push( i, i + 1, i + 2 );
+
+		}
+
+		geometry.setIndex( indices );
+
+	}
+
+	// sort index
+
+	const index = geometry.getIndex();
+
+	const newIndices = [];
+
+	for ( let i = 0; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		const groupStart = group.start;
+		const groupLength = groupStart + group.count;
+
+		for ( let j = groupStart; j < groupLength; j ++ ) {
+
+			newIndices.push( index.getX( j ) );
+
+		}
+
+	}
+
+	geometry.dispose(); // Required to force buffer recreation
+	geometry.setIndex( newIndices );
+
+	// update groups indices
+
+	let start = 0;
+
+	for ( let i = 0; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		group.start = start;
+		start += group.count;
+
+	}
+
+	// merge groups
+
+	let currentGroup = groups[ 0 ];
+
+	geometry.groups = [ currentGroup ];
+
+	for ( let i = 1; i < groups.length; i ++ ) {
+
+		const group = groups[ i ];
+
+		if ( currentGroup.materialIndex === group.materialIndex ) {
+
+			currentGroup.count += group.count;
+
+		} else {
+
+			currentGroup = group;
+			geometry.groups.push( currentGroup );
+
+		}
+
+	}
+
+	return geometry;
+
+}
+
+
+/**
+ * Modifies the supplied geometry if it is non-indexed, otherwise creates a new,
+ * non-indexed geometry. Returns the geometry with smooth normals everywhere except
+ * faces that meet at an angle greater than the crease angle.
+ *
+ * @param {BufferGeometry} geometry
+ * @param {number} [creaseAngle]
+ * @return {BufferGeometry}
+ */
+function toCreasedNormals( geometry, creaseAngle = Math.PI / 3 /* 60 degrees */ ) {
+
+	const creaseDot = Math.cos( creaseAngle );
+	const hashMultiplier = ( 1 + 1e-10 ) * 1e2;
+
+	// reusable vectors
+	const verts = [ new three__WEBPACK_IMPORTED_MODULE_0__.Vector3(), new three__WEBPACK_IMPORTED_MODULE_0__.Vector3(), new three__WEBPACK_IMPORTED_MODULE_0__.Vector3() ];
+	const tempVec1 = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const tempVec2 = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const tempNorm = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+	const tempNorm2 = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3();
+
+	// hashes a vector
+	function hashVertex( v ) {
+
+		const x = ~ ~ ( v.x * hashMultiplier );
+		const y = ~ ~ ( v.y * hashMultiplier );
+		const z = ~ ~ ( v.z * hashMultiplier );
+		return `${x},${y},${z}`;
+
+	}
+
+	// BufferGeometry.toNonIndexed() warns if the geometry is non-indexed
+	// and returns the original geometry
+	const resultGeometry = geometry.index ? geometry.toNonIndexed() : geometry;
+	const posAttr = resultGeometry.attributes.position;
+	const vertexMap = {};
+
+	// find all the normals shared by commonly located vertices
+	for ( let i = 0, l = posAttr.count / 3; i < l; i ++ ) {
+
+		const i3 = 3 * i;
+		const a = verts[ 0 ].fromBufferAttribute( posAttr, i3 + 0 );
+		const b = verts[ 1 ].fromBufferAttribute( posAttr, i3 + 1 );
+		const c = verts[ 2 ].fromBufferAttribute( posAttr, i3 + 2 );
+
+		tempVec1.subVectors( c, b );
+		tempVec2.subVectors( a, b );
+
+		// add the normal to the map for all vertices
+		const normal = new three__WEBPACK_IMPORTED_MODULE_0__.Vector3().crossVectors( tempVec1, tempVec2 ).normalize();
+		for ( let n = 0; n < 3; n ++ ) {
+
+			const vert = verts[ n ];
+			const hash = hashVertex( vert );
+			if ( ! ( hash in vertexMap ) ) {
+
+				vertexMap[ hash ] = [];
+
+			}
+
+			vertexMap[ hash ].push( normal );
+
+		}
+
+	}
+
+	// average normals from all vertices that share a common location if they are within the
+	// provided crease threshold
+	const normalArray = new Float32Array( posAttr.count * 3 );
+	const normAttr = new three__WEBPACK_IMPORTED_MODULE_0__.BufferAttribute( normalArray, 3, false );
+	for ( let i = 0, l = posAttr.count / 3; i < l; i ++ ) {
+
+		// get the face normal for this vertex
+		const i3 = 3 * i;
+		const a = verts[ 0 ].fromBufferAttribute( posAttr, i3 + 0 );
+		const b = verts[ 1 ].fromBufferAttribute( posAttr, i3 + 1 );
+		const c = verts[ 2 ].fromBufferAttribute( posAttr, i3 + 2 );
+
+		tempVec1.subVectors( c, b );
+		tempVec2.subVectors( a, b );
+
+		tempNorm.crossVectors( tempVec1, tempVec2 ).normalize();
+
+		// average all normals that meet the threshold and set the normal value
+		for ( let n = 0; n < 3; n ++ ) {
+
+			const vert = verts[ n ];
+			const hash = hashVertex( vert );
+			const otherNormals = vertexMap[ hash ];
+			tempNorm2.set( 0, 0, 0 );
+
+			for ( let k = 0, lk = otherNormals.length; k < lk; k ++ ) {
+
+				const otherNorm = otherNormals[ k ];
+				if ( tempNorm.dot( otherNorm ) > creaseDot ) {
+
+					tempNorm2.add( otherNorm );
+
+				}
+
+			}
+
+			tempNorm2.normalize();
+			normAttr.setXYZ( i3 + n, tempNorm2.x, tempNorm2.y, tempNorm2.z );
+
+		}
+
+	}
+
+	resultGeometry.setAttribute( 'normal', normAttr );
+	return resultGeometry;
+
+}
+
+function mergeBufferGeometries( geometries, useGroups = false ) {
+
+	console.warn( 'THREE.BufferGeometryUtils: mergeBufferGeometries() has been renamed to mergeGeometries().' ); // @deprecated, r151
+	return mergeGeometries( geometries, useGroups );
+
+}
+
+function mergeBufferAttributes( attributes ) {
+
+	console.warn( 'THREE.BufferGeometryUtils: mergeBufferAttributes() has been renamed to mergeAttributes().' ); // @deprecated, r151
+	return mergeAttributes( attributes );
+
+}
+
+
+
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -52255,17 +74210,22 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
-/* harmony import */ var three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(10);
-/* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_Roboto_msdf_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-/* harmony import */ var _assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony import */ var _assets_poke_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
-/* harmony import */ var _assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
-/* harmony import */ var _assets_barbie_mp4__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
-/* harmony import */ var _assets_poke_mp4__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
-/* harmony import */ var _assets_stranger_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8);
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(2);
+/* harmony import */ var three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(57);
+/* harmony import */ var three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(58);
+/* harmony import */ var three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(59);
+/* harmony import */ var three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(42);
+/* harmony import */ var _socket__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
+/* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(34);
+/* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_Roboto_msdf_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(35);
+/* harmony import */ var _assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(36);
+/* harmony import */ var _assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(37);
+/* harmony import */ var _assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(38);
+/* harmony import */ var _assets_barbie_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(39);
+/* harmony import */ var _assets_poke_mp4__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(40);
+/* harmony import */ var _assets_stranger_mp4__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(41);
 
 
 
@@ -52283,28 +74243,60 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-let renderer, session, camera, scene;
+
+
+const textureLoader = new three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_10__.TextureLoader();
+
+const barbiePoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]);
+const pokePoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]);
+const strangerPoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]);
+
+const fontName = "Roboto";
 
 const WIDTH = window.innerWidth;
 const HEIGHT = window.innerHeight;
 
+let scene,
+  camera,
+  renderer,
+  controls,
+  vrButton,
+  video,
+  source,
+  controllers = [],
+  textures = [barbiePoster, pokePoster, strangerPoster],
+  videos = [_assets_barbie_mp4__WEBPACK_IMPORTED_MODULE_7__["default"], _assets_poke_mp4__WEBPACK_IMPORTED_MODULE_8__["default"], _assets_stranger_mp4__WEBPACK_IMPORTED_MODULE_9__["default"]],
+  vrSession,
+  raycaster = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster(),
+  rotationMatrix = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4(),
+  intersects,
+  videoTexture,
+  videoMesh,
+  playButton,
+  nextButton,
+  prevButton,
+  pauseText,
+  playText,
+  currentVideo;
+
 window.addEventListener("load", preload);
+window.addEventListener("resize", onWindowResize);
 
 function preload() {
-  renderer = new three__WEBPACK_IMPORTED_MODULE_8__.WebGLRenderer({
+  renderer = new three__WEBPACK_IMPORTED_MODULE_11__.WebGLRenderer({
     antialias: true,
   });
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(WIDTH, HEIGHT);
   renderer.xr.enabled = true;
   renderer.autoClear = false;
-  const vrButton = three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_9__.VRButton.createButton(renderer);
+  vrButton = three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_12__.VRButton.createButton(renderer);
   document.body.appendChild(vrButton);
   document.body.appendChild(renderer.domElement);
 
-  scene = new three__WEBPACK_IMPORTED_MODULE_8__.Scene();
+  scene = new three__WEBPACK_IMPORTED_MODULE_11__.Scene();
 
-  camera = new three__WEBPACK_IMPORTED_MODULE_8__.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000);
+  camera = new three__WEBPACK_IMPORTED_MODULE_11__.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000);
   camera.matrixAutoUpdate = false;
 
   camera.position.z = 5;
@@ -52327,14 +74319,394 @@ function preload() {
     vrButton.style.backgroundColor = "red";
   }
 
+  textureLoader.load(_assets_Roboto_msdf_png__WEBPACK_IMPORTED_MODULE_3__["default"], (texture) => {
+    three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].FontLibrary.addFont(fontName, (_assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2___default()), texture);
+  });
+
   renderer.setAnimationLoop(loop);
 
   renderer.xr.addEventListener("sessionstart", init);
 }
 
-async function init() {
-  session = renderer.xr.getSession();
+function onWindowResize() {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
+async function init() {
+  vrSession = renderer.xr.getSession();
+
+  controls = new three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_13__.OrbitControls(camera, renderer.domElement);
+  camera.position.set(0, 1.6, 3);
+  controls.target = new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 1, -1.8);
+  controls.update();
+
+  controllers = buildControllers();
+
+  function onSelectStart(event, controller) {
+    //controller.children[0].scale.z = 10;
+    //rotationMatrix = new THREE.Matrix4();
+    rotationMatrix.extractRotation(controller.matrixWorld);
+    //raycaster = new THREE.Raycaster();
+    raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
+    raycaster.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix);
+    intersects = raycaster.intersectObjects([playButton]);
+    const next = raycaster.intersectObjects([nextButton]);
+    const prev = raycaster.intersectObjects([prevButton]);
+    console.log(intersects);
+    if (intersects.length > 0) {
+      if (video.paused) {
+        videoMesh.material.map = videoTexture;
+        video.play();
+        playText.setState("pause");
+      } else {
+        video.pause();
+        playText.setState("play");
+      }
+    } else if (next.length > 0) {
+      const shiftedVideos = videos.shift();
+      videos.push(shiftedVideos);
+
+      const shiftedPosters = textures.shift();
+      textures.push(shiftedPosters);
+
+      source.src = videos[0];
+      currentVideo = source.src;
+      console.log(currentVideo);
+      video.load();
+      if (playText.content === "Pause") {
+        videoMesh.material.map = videoTexture;
+        video.play();
+      } else {
+        video.pause();
+        videoMesh.material.map = textures[0];
+      }
+    } else if (prev.length > 0) {
+      const poppedVideos = videos.pop();
+      videos.unshift(poppedVideos);
+
+      const poppedPosters = textures.pop();
+      textures.unshift(poppedPosters);
+
+      source.src = videos[0];
+      currentVideo = source.src;
+      console.log(currentVideo);
+      video.load();
+      if (playText.content === "Pause") {
+        videoMesh.material.map = videoTexture;
+        video.play();
+      } else {
+        video.pause();
+        videoMesh.material.map = textures[0];
+      }
+    }
+  }
+
+  controllers.forEach((controller) => {
+    controller.addEventListener("selectstart", (event) =>
+      onSelectStart(event, controller)
+    );
+  });
+
+  
+  createMenu();
+  createPlayer();
+
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("newConnect");
+  
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on('echo', () => {
+    console.log(currentVideo);
+    currentVideo && _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", currentVideo);
+  })
+  
+
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on("newVideo", (update) => {
+    // Проверяем, является ли source индексом 0 в массиве videos
+    console.log('privet)')
+    if (update !== videos[0]) {
+      console.log(update);
+      console.log(videos[0]);
+      console.log(videos[1]);
+      console.log(videos[2]);
+      // Находим индекс source в массиве
+      const index = videos.indexOf(update);
+  
+      // Перемещаем элемент на индекс 0
+      videos.splice(index, 1);
+      videos.unshift(update);
+      source.src = videos[0];
+      video.load();
+      console.log(videos);
+    }
+  });
+
+}
+
+function createMenu() {
+  const container = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 8.5,
+    height: 8,
+    padding: 0.05,
+    borderRadius: 0.2,
+    justifyContent: "end",
+    textAlign: "center",
+  });
+
+  container.set({
+    fontFamily: fontName,
+    fontTexture: fontName,
+  });
+
+  container.position.set(0, 1, -5);
+
+  scene.add(container);
+
+  const innerContainer = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 7,
+    height: 2.3,
+    padding: 0.05,
+    borderRadius: 0.2,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x614747),
+    justifyContent: "space-around",
+    textAlign: "center",
+    contentDirection: "row",
+  });
+
+  playButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 1.5,
+    height: 1.5,
+    backgroundOpacity: 1,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    justifyContent: "center",
+    textAlign: "center",
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+  });
+
+  nextButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 1.5,
+    height: 1.5,
+    backgroundOpacity: 1,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    justifyContent: "center",
+    textAlign: "center",
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+  });
+
+  const nextText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+    content: "Next",
+    fontSize: 0.2,
+  });
+
+  nextButton.add(nextText);
+
+  prevButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 1.5,
+    height: 1.5,
+    backgroundOpacity: 1,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    justifyContent: "center",
+    textAlign: "center",
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+  });
+
+  const prevText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+    content: "Prev",
+    fontSize: 0.2,
+  });
+
+  prevButton.add(prevText);
+
+  const hoveredAttributes = {
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    backgroundOpacity: 0.3,
+  };
+
+  const idleAttributes = {
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+  };
+
+  playButton.setupState({
+    state: "hovered",
+    attributes: hoveredAttributes,
+  });
+
+  playButton.setupState({
+    state: "idle",
+    attributes: idleAttributes,
+  });
+  nextButton.setupState({
+    state: "hovered",
+    attributes: hoveredAttributes,
+  });
+
+  nextButton.setupState({
+    state: "idle",
+    attributes: idleAttributes,
+  });
+  prevButton.setupState({
+    state: "hovered",
+    attributes: hoveredAttributes,
+  });
+
+  prevButton.setupState({
+    state: "idle",
+    attributes: idleAttributes,
+  });
+
+  const pauseTextAttributes = {
+    content: "Pause",
+  };
+
+  const playTextAttributes = {
+    content: "Play",
+  };
+
+  playText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+    content: "Play",
+    fontSize: 0.2,
+  });
+
+  playText.setupState({
+    state: "pause",
+    attributes: pauseTextAttributes,
+  });
+  playText.setupState({
+    state: "play",
+    attributes: playTextAttributes,
+  });
+
+  playButton.add(playText);
+
+  const pauseButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 1.5,
+    height: 1.5,
+    backgroundOpacity: 1,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    justifyContent: "center",
+    textAlign: "center",
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+  });
+
+  pauseText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+    content: "Pause",
+    fontSize: 0.2,
+  });
+
+  pauseButton.add(pauseText);
+
+  innerContainer.add(prevButton, playButton, nextButton);
+
+  container.add(innerContainer);
+}
+
+function createPlayer() {
+  video = document.createElement("video");
+  video.playsInline = true;
+  video.preload = "auto";
+  video.crossOrigin = "anonymous";
+  video.controls = true;
+  video.loop = true;
+  video.style.display = "none";
+
+  source = document.createElement("source");
+  source.type = "video/mp4";
+  source.src = videos[0];
+
+  document.body.appendChild(video);
+  video.appendChild(source);
+
+  videoTexture = new three__WEBPACK_IMPORTED_MODULE_11__.VideoTexture(video);
+  videoTexture.minFilter = three__WEBPACK_IMPORTED_MODULE_11__.LinearFilter;
+  videoTexture.magFilter = three__WEBPACK_IMPORTED_MODULE_11__.LinearFilter;
+  videoTexture.format = three__WEBPACK_IMPORTED_MODULE_11__.RGBAFormat;
+  videoTexture.needsUpdate = true;
+
+  const width = 6.0;
+  const height = 4.0;
+
+  const videoGeo = new three__WEBPACK_IMPORTED_MODULE_11__.PlaneGeometry(width, height);
+  const videoMat = new three__WEBPACK_IMPORTED_MODULE_11__.MeshBasicMaterial({ map: textures[0] });
+  videoMesh = new three__WEBPACK_IMPORTED_MODULE_11__.Mesh(videoGeo, videoMat);
+  videoMesh.position.set(0, 2.3, -4.95);
+
+  scene.add(videoMesh);
+}
+
+function buildControllers() {
+  const controllerModelFactory = new three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_14__.XRControllerModelFactory();
+
+  const geometry = new three__WEBPACK_IMPORTED_MODULE_11__.BufferGeometry().setFromPoints([
+    new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 0, 0),
+    new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 0, -1),
+  ]);
+
+  const line = new three__WEBPACK_IMPORTED_MODULE_11__.Line(geometry);
+  line.scale.z = 10;
+
+  for (let i = 0; i < 2; i++) {
+    const controller = renderer.xr.getController(i);
+    controller.add(line.clone());
+    controller.userData.selectPressed = false;
+    controller.userData.selectPressedPrev = false;
+    scene.add(controller);
+    controllers.push(controller);
+
+    const grip = renderer.xr.getControllerGrip(i);
+    grip.add(controllerModelFactory.createControllerModel(grip));
+    scene.add(grip);
+  }
+
+  return controllers;
+}
+
+function handleControllers(controller1, controller2) {
+  const rotationMatrix1 = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4();
+  rotationMatrix1.extractRotation(controller1.matrixWorld);
+  const raycaster1 = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster();
+  raycaster1.ray.origin.setFromMatrixPosition(controller1.matrixWorld);
+  raycaster1.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix1);
+
+  const rotationMatrix2 = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4();
+  rotationMatrix2.extractRotation(controller2.matrixWorld);
+  const raycaster2 = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster();
+  raycaster2.ray.origin.setFromMatrixPosition(controller2.matrixWorld);
+  raycaster2.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix2);
+
+  const buttons = [playButton, nextButton, prevButton];
+
+  buttons.forEach((button) => {
+    let isHovered = false;
+    if (
+      raycaster1.intersectObject(button).length > 0 ||
+      raycaster2.intersectObject(button).length > 0
+    ) {
+      isHovered = true;
+    }
+
+    if (isHovered) {
+      button.setState("hovered");
+    } else {
+      button.setState("idle");
+    }
+  });
+}
+
+function loop() {
+  three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].update();
+
+  if (controllers) {
+    const controller1 = controllers[0];
+    const controller2 = controllers[1];
+
+    handleControllers(controller1, controller2);
+  }
+
+  renderer.render(scene, camera);
+}
+
+
+
 })();
 
 /******/ })()
