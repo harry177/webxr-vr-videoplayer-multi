@@ -74247,9 +74247,18 @@ __webpack_require__.r(__webpack_exports__);
 
 const textureLoader = new three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_10__.TextureLoader();
 
-const barbiePoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]);
-const pokePoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]);
-const strangerPoster = new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]);
+const barbiePoster = {
+  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]),
+  id: 'barbie'
+};
+const pokePoster = {
+  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]),
+  id: 'poke'
+};
+const strangerPoster = {
+  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]),
+  id: 'stranger'
+};
 
 const fontName = "Roboto";
 
@@ -74277,7 +74286,9 @@ let scene,
   prevButton,
   pauseText,
   playText,
-  currentVideo;
+  currentVideo,
+  currentPoster,
+  isVideoPlaying;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -74359,9 +74370,11 @@ async function init() {
       if (video.paused) {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
         playText.setState("pause");
       } else {
         video.pause();
+        isVideoPlaying = false;
         playText.setState("play");
       }
     } else if (next.length > 0) {
@@ -74373,15 +74386,25 @@ async function init() {
 
       source.src = videos[0];
       currentVideo = source.src;
-      console.log(currentVideo);
       video.load();
+
       if (playText.content === "Pause") {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
       } else {
         video.pause();
-        videoMesh.material.map = textures[0];
+        isVideoPlaying = false;
+        videoMesh.material.map = textures[0].poster;
+        console.log(textures[0].id);
+        currentPoster = textures[0];
       }
+
+      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
+
     } else if (prev.length > 0) {
       const poppedVideos = videos.pop();
       videos.unshift(poppedVideos);
@@ -74396,10 +74419,18 @@ async function init() {
       if (playText.content === "Pause") {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
       } else {
         video.pause();
-        videoMesh.material.map = textures[0];
+        isVideoPlaying = false;
+        videoMesh.material.map = textures[0].poster;
+        currentPoster = textures[0];
       }
+
+      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
     }
   }
 
@@ -74409,38 +74440,46 @@ async function init() {
     );
   });
 
-  
   createMenu();
   createPlayer();
 
   _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("newConnect");
-  
-  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on('echo', () => {
-    console.log(currentVideo);
-    currentVideo && _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", currentVideo);
-  })
-  
 
-  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on("newVideo", (update) => {
-    // Проверяем, является ли source индексом 0 в массиве videos
-    console.log('privet)')
-    if (update !== videos[0]) {
-      console.log(update);
-      console.log(videos[0]);
-      console.log(videos[1]);
-      console.log(videos[2]);
-      // Находим индекс source в массиве
-      const index = videos.indexOf(update);
-  
-      // Перемещаем элемент на индекс 0
-      videos.splice(index, 1);
-      videos.unshift(update);
-      source.src = videos[0];
-      video.load();
-      console.log(videos);
-    }
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on("echo", () => {
+    console.log(currentVideo);
+    currentVideo &&
+      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
+
+    console.log(textures[0].id);
+    console.log(textures[1].id);
+    console.log(textures[2].id);
   });
 
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on("newVideo", (update) => {
+    if (update.video !== videos[0]) {
+      const indexVideo = videos.indexOf(update.video);
+
+      const extractedVideos = videos.splice(0, indexVideo);
+
+      videos.push(...extractedVideos);
+
+      source.src = videos[0];
+      currentVideo = videos[0];
+      video.load();
+
+      const newPoster = textures.findIndex((poster) => poster.id === update.poster.id);
+      const extractedPosters = textures.splice(0, newPoster);
+
+      textures.push(...extractedPosters);
+
+      videoMesh.material.map = textures[0].poster;
+      currentPoster = textures[0];
+    }
+
+  });
 }
 
 function createMenu() {
@@ -74626,7 +74665,8 @@ function createPlayer() {
   const height = 4.0;
 
   const videoGeo = new three__WEBPACK_IMPORTED_MODULE_11__.PlaneGeometry(width, height);
-  const videoMat = new three__WEBPACK_IMPORTED_MODULE_11__.MeshBasicMaterial({ map: textures[0] });
+  const videoMat = new three__WEBPACK_IMPORTED_MODULE_11__.MeshBasicMaterial({ map: textures[0].poster });
+  console.log("vtoroj");
   videoMesh = new three__WEBPACK_IMPORTED_MODULE_11__.Mesh(videoGeo, videoMat);
   videoMesh.position.set(0, 2.3, -4.95);
 
@@ -74704,8 +74744,6 @@ function loop() {
 
   renderer.render(scene, camera);
 }
-
-
 
 })();
 

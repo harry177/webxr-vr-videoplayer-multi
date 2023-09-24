@@ -19,9 +19,18 @@ import strangerSource from "/assets/stranger.mp4";
 
 const textureLoader = new TextureLoader();
 
-const barbiePoster = new THREE.TextureLoader().load(barbieImage);
-const pokePoster = new THREE.TextureLoader().load(pokeImage);
-const strangerPoster = new THREE.TextureLoader().load(strangerImage);
+const barbiePoster = {
+  poster: new THREE.TextureLoader().load(barbieImage),
+  id: 'barbie'
+};
+const pokePoster = {
+  poster: new THREE.TextureLoader().load(pokeImage),
+  id: 'poke'
+};
+const strangerPoster = {
+  poster: new THREE.TextureLoader().load(strangerImage),
+  id: 'stranger'
+};
 
 const fontName = "Roboto";
 
@@ -49,7 +58,9 @@ let scene,
   prevButton,
   pauseText,
   playText,
-  currentVideo;
+  currentVideo,
+  currentPoster,
+  isVideoPlaying;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -131,9 +142,11 @@ async function init() {
       if (video.paused) {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
         playText.setState("pause");
       } else {
         video.pause();
+        isVideoPlaying = false;
         playText.setState("play");
       }
     } else if (next.length > 0) {
@@ -145,15 +158,25 @@ async function init() {
 
       source.src = videos[0];
       currentVideo = source.src;
-      console.log(currentVideo);
       video.load();
+
       if (playText.content === "Pause") {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
       } else {
         video.pause();
-        videoMesh.material.map = textures[0];
+        isVideoPlaying = false;
+        videoMesh.material.map = textures[0].poster;
+        console.log(textures[0].id);
+        currentPoster = textures[0];
       }
+
+      socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
+
     } else if (prev.length > 0) {
       const poppedVideos = videos.pop();
       videos.unshift(poppedVideos);
@@ -168,10 +191,18 @@ async function init() {
       if (playText.content === "Pause") {
         videoMesh.material.map = videoTexture;
         video.play();
+        isVideoPlaying = true;
       } else {
         video.pause();
-        videoMesh.material.map = textures[0];
+        isVideoPlaying = false;
+        videoMesh.material.map = textures[0].poster;
+        currentPoster = textures[0];
       }
+
+      socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
     }
   }
 
@@ -181,38 +212,46 @@ async function init() {
     );
   });
 
-  
   createMenu();
   createPlayer();
 
   socket.emit("newConnect");
-  
-  socket.on('echo', () => {
-    console.log(currentVideo);
-    currentVideo && socket.emit("videoVariant", currentVideo);
-  })
-  
 
-  socket.on("newVideo", (update) => {
-    // Проверяем, является ли source индексом 0 в массиве videos
-    console.log('privet)')
-    if (update !== videos[0]) {
-      console.log(update);
-      console.log(videos[0]);
-      console.log(videos[1]);
-      console.log(videos[2]);
-      // Находим индекс source в массиве
-      const index = videos.indexOf(update);
-  
-      // Перемещаем элемент на индекс 0
-      videos.splice(index, 1);
-      videos.unshift(update);
-      source.src = videos[0];
-      video.load();
-      console.log(videos);
-    }
+  socket.on("echo", () => {
+    console.log(currentVideo);
+    currentVideo &&
+      socket.emit("videoVariant", {
+        video: currentVideo,
+        poster: currentPoster,
+      });
+
+    console.log(textures[0].id);
+    console.log(textures[1].id);
+    console.log(textures[2].id);
   });
 
+  socket.on("newVideo", (update) => {
+    if (update.video !== videos[0]) {
+      const indexVideo = videos.indexOf(update.video);
+
+      const extractedVideos = videos.splice(0, indexVideo);
+
+      videos.push(...extractedVideos);
+
+      source.src = videos[0];
+      currentVideo = videos[0];
+      video.load();
+
+      const newPoster = textures.findIndex((poster) => poster.id === update.poster.id);
+      const extractedPosters = textures.splice(0, newPoster);
+
+      textures.push(...extractedPosters);
+
+      videoMesh.material.map = textures[0].poster;
+      currentPoster = textures[0];
+    }
+
+  });
 }
 
 function createMenu() {
@@ -398,7 +437,8 @@ function createPlayer() {
   const height = 4.0;
 
   const videoGeo = new THREE.PlaneGeometry(width, height);
-  const videoMat = new THREE.MeshBasicMaterial({ map: textures[0] });
+  const videoMat = new THREE.MeshBasicMaterial({ map: textures[0].poster });
+  console.log("vtoroj");
   videoMesh = new THREE.Mesh(videoGeo, videoMat);
   videoMesh.position.set(0, 2.3, -4.95);
 
@@ -476,5 +516,3 @@ function loop() {
 
   renderer.render(scene, camera);
 }
-
-
