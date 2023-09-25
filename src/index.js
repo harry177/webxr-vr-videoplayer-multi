@@ -21,15 +21,15 @@ const textureLoader = new TextureLoader();
 
 const barbiePoster = {
   poster: new THREE.TextureLoader().load(barbieImage),
-  id: 'barbie'
+  id: "barbie",
 };
 const pokePoster = {
   poster: new THREE.TextureLoader().load(pokeImage),
-  id: 'poke'
+  id: "poke",
 };
 const strangerPoster = {
   poster: new THREE.TextureLoader().load(strangerImage),
-  id: 'stranger'
+  id: "stranger",
 };
 
 const fontName = "Roboto";
@@ -140,68 +140,27 @@ async function init() {
     console.log(intersects);
     if (intersects.length > 0) {
       if (video.paused) {
-        videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-        playText.setState("pause");
+        socket.emit("play");
       } else {
-        video.pause();
-        isVideoPlaying = false;
-        playText.setState("play");
+        socket.emit("pause");
       }
     } else if (next.length > 0) {
-      const shiftedVideos = videos.shift();
-      videos.push(shiftedVideos);
 
-      const shiftedPosters = textures.shift();
-      textures.push(shiftedPosters);
-
-      source.src = videos[0];
-      currentVideo = source.src;
-      video.load();
-
-      if (playText.content === "Pause") {
-        videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-      } else {
-        video.pause();
-        isVideoPlaying = false;
-        videoMesh.material.map = textures[0].poster;
-        console.log(textures[0].id);
-        currentPoster = textures[0];
-      }
+      const nextVideoEl = videos[1];
+      const nextPosterEl = textures[1];
 
       socket.emit("videoVariant", {
-        video: currentVideo,
-        poster: currentPoster,
+        video: nextVideoEl,
+        poster: nextPosterEl,
       });
-
     } else if (prev.length > 0) {
-      const poppedVideos = videos.pop();
-      videos.unshift(poppedVideos);
 
-      const poppedPosters = textures.pop();
-      textures.unshift(poppedPosters);
-
-      source.src = videos[0];
-      currentVideo = source.src;
-      console.log(currentVideo);
-      video.load();
-      if (playText.content === "Pause") {
-        videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-      } else {
-        video.pause();
-        isVideoPlaying = false;
-        videoMesh.material.map = textures[0].poster;
-        currentPoster = textures[0];
-      }
+      const lastVideoEl = videos[videos.length - 1];
+      const lastPosterEl = textures[textures.length - 1];
 
       socket.emit("videoVariant", {
-        video: currentVideo,
-        poster: currentPoster,
+        video: lastVideoEl,
+        poster: lastPosterEl,
       });
     }
   }
@@ -218,20 +177,19 @@ async function init() {
   socket.emit("newConnect");
 
   socket.on("echo", () => {
-    console.log(currentVideo);
+    console.log(video.currentTime);
+    video.pause();
+    playText.setState("play");
     currentVideo &&
       socket.emit("videoVariant", {
         video: currentVideo,
         poster: currentPoster,
+        time: video.currentTime
       });
-
-    console.log(textures[0].id);
-    console.log(textures[1].id);
-    console.log(textures[2].id);
   });
 
   socket.on("newVideo", (update) => {
-    if (update.video !== videos[0]) {
+    if (update.video !== videos[0] || update.time) {
       const indexVideo = videos.indexOf(update.video);
 
       const extractedVideos = videos.splice(0, indexVideo);
@@ -242,15 +200,63 @@ async function init() {
       currentVideo = videos[0];
       video.load();
 
-      const newPoster = textures.findIndex((poster) => poster.id === update.poster.id);
+      const newPoster = textures.findIndex(
+        (poster) => poster.id === update.poster.id
+      );
       const extractedPosters = textures.splice(0, newPoster);
 
       textures.push(...extractedPosters);
 
-      videoMesh.material.map = textures[0].poster;
+      //videoMesh.material.map = textures[0].poster;
       currentPoster = textures[0];
-    }
 
+      if (playText.content === "Pause") {
+        videoMesh.material.map = videoTexture;
+        setTimeout(() => {
+          video.play();
+        }, 100);
+        playText.setState("pause");
+        isVideoPlaying = true;
+        
+      } else if (playText.content === "Play" && update.time) {
+        console.log(update.time);
+        videoMesh.material.map = videoTexture;
+        video.currentTime = update.time;
+        setTimeout(() => {
+          video.play();
+        }, 100);
+        playText.setState("pause");
+      } else {
+        videoMesh.material.map = textures[0].poster;
+        setTimeout(() => {
+          video.pause();
+        }, 100);
+        isVideoPlaying = false;
+        currentPoster = textures[0];
+      }
+    } else if (!video.paused && !video.currentTime) {
+      setTimeout(() => {
+        video.play();
+      }, 100);
+      playText.setState("pause");
+    }
+  });
+
+  socket.on("playConfirm", () => {
+    videoMesh.material.map = videoTexture;
+    setTimeout(() => {
+      video.play();
+    }, 100);
+    isVideoPlaying = true;
+    playText.setState("pause");
+  });
+
+  socket.on("pauseConfirm", () => {
+    setTimeout(() => {
+      video.pause();
+    }, 100);
+    isVideoPlaying = false;
+    playText.setState("play");
   });
 }
 

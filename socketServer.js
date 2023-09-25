@@ -21,11 +21,20 @@ const socketServer = (server, port) => {
     });
 
     socket.on("videoVariant", (videoObject) => {
-      socket.broadcast.emit("newVideo", {
+      io.emit("newVideo", {
         video: videoObject.video,
         poster: videoObject.poster,
+        time: videoObject.time,
       });
     });
+
+    socket.on('play', () => {
+      io.emit('playConfirm');
+    })
+
+    socket.on('pause', () => {
+      io.emit('pauseConfirm');
+    })
 
     socket.on("disconnect", () => {});
   });
