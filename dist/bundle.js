@@ -62774,6 +62774,39 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 42 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/98f066ce97dfe8963f569eb5d7d72a27.png");
+
+/***/ }),
+/* 43 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/c4248cca01ab209c0489119bcafe2411.png");
+
+/***/ }),
+/* 44 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/064ce0fb75dc91efe30a1d6d04b1b180.png");
+
+/***/ }),
+/* 45 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -62781,9 +62814,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   TextureLoader: () => (/* binding */ TextureLoader)
 /* harmony export */ });
-/* harmony import */ var _ImageLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55);
-/* harmony import */ var _textures_Texture_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
-/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
+/* harmony import */ var _ImageLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(58);
+/* harmony import */ var _textures_Texture_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(48);
+/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(46);
 
 
 
@@ -62828,7 +62861,7 @@ class TextureLoader extends _Loader_js__WEBPACK_IMPORTED_MODULE_0__.Loader {
 
 
 /***/ }),
-/* 43 */
+/* 46 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -62836,7 +62869,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Loader: () => (/* binding */ Loader)
 /* harmony export */ });
-/* harmony import */ var _LoadingManager_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+/* harmony import */ var _LoadingManager_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(47);
 
 
 class Loader {
@@ -62912,7 +62945,7 @@ Loader.DEFAULT_MATERIAL_NAME = '__DEFAULT';
 
 
 /***/ }),
-/* 44 */
+/* 47 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -63066,7 +63099,7 @@ const DefaultLoadingManager = /*@__PURE__*/ new LoadingManager();
 
 
 /***/ }),
-/* 45 */
+/* 48 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -63074,13 +63107,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Texture: () => (/* binding */ Texture)
 /* harmony export */ });
-/* harmony import */ var _core_EventDispatcher_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(46);
-/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
-/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(48);
-/* harmony import */ var _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(54);
-/* harmony import */ var _math_Matrix3_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(53);
-/* harmony import */ var _Source_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(49);
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(51);
+/* harmony import */ var _core_EventDispatcher_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(49);
+/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(50);
+/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
+/* harmony import */ var _math_Vector2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(57);
+/* harmony import */ var _math_Matrix3_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(56);
+/* harmony import */ var _Source_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(52);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(54);
 
 
 
@@ -63409,7 +63442,7 @@ Texture.DEFAULT_ANISOTROPY = 1;
 
 
 /***/ }),
-/* 46 */
+/* 49 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -63507,7 +63540,7 @@ class EventDispatcher {
 
 
 /***/ }),
-/* 47 */
+/* 50 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -63911,7 +63944,7 @@ const WebGPUCoordinateSystem = 2001;
 
 
 /***/ }),
-/* 48 */
+/* 51 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -64283,7 +64316,7 @@ const MathUtils = {
 
 
 /***/ }),
-/* 49 */
+/* 52 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -64291,8 +64324,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Source: () => (/* binding */ Source)
 /* harmony export */ });
-/* harmony import */ var _extras_ImageUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(50);
-/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(48);
+/* harmony import */ var _extras_ImageUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(53);
+/* harmony import */ var _math_MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
 
 
 
@@ -64423,7 +64456,7 @@ function serializeImage( image ) {
 
 
 /***/ }),
-/* 50 */
+/* 53 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -64431,8 +64464,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ImageUtils: () => (/* binding */ ImageUtils)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
-/* harmony import */ var _math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(52);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(54);
+/* harmony import */ var _math_ColorManagement_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(55);
 
 
 
@@ -64565,7 +64598,7 @@ class ImageUtils {
 
 
 /***/ }),
-/* 51 */
+/* 54 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -64673,7 +64706,7 @@ function warnOnce( message ) {
 
 
 /***/ }),
-/* 52 */
+/* 55 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -64683,8 +64716,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   LinearToSRGB: () => (/* binding */ LinearToSRGB),
 /* harmony export */   SRGBToLinear: () => (/* binding */ SRGBToLinear)
 /* harmony export */ });
-/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
-/* harmony import */ var _Matrix3_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53);
+/* harmony import */ var _constants_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(50);
+/* harmony import */ var _Matrix3_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56);
 
 
 
@@ -64821,7 +64854,7 @@ const ColorManagement = {
 
 
 /***/ }),
-/* 53 */
+/* 56 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -65220,7 +65253,7 @@ const _m3 = /*@__PURE__*/ new Matrix3();
 
 
 /***/ }),
-/* 54 */
+/* 57 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -65228,7 +65261,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Vector2: () => (/* binding */ Vector2)
 /* harmony export */ });
-/* harmony import */ var _MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(48);
+/* harmony import */ var _MathUtils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
 
 
 class Vector2 {
@@ -65712,7 +65745,7 @@ class Vector2 {
 
 
 /***/ }),
-/* 55 */
+/* 58 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -65720,9 +65753,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ImageLoader: () => (/* binding */ ImageLoader)
 /* harmony export */ });
-/* harmony import */ var _Cache_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(56);
-/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
+/* harmony import */ var _Cache_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(59);
+/* harmony import */ var _Loader_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(46);
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(54);
 
 
 
@@ -65817,7 +65850,7 @@ class ImageLoader extends _Loader_js__WEBPACK_IMPORTED_MODULE_0__.Loader {
 
 
 /***/ }),
-/* 56 */
+/* 59 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -65870,7 +65903,7 @@ const Cache = {
 
 
 /***/ }),
-/* 57 */
+/* 60 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -66081,7 +66114,7 @@ VRButton.registerSessionGrantedListener();
 
 
 /***/ }),
-/* 58 */
+/* 61 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -67478,7 +67511,7 @@ class OrbitControls extends three__WEBPACK_IMPORTED_MODULE_0__.EventDispatcher {
 
 
 /***/ }),
-/* 59 */
+/* 62 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -67487,8 +67520,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   XRControllerModelFactory: () => (/* binding */ XRControllerModelFactory)
 /* harmony export */ });
 /* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-/* harmony import */ var _loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(61);
-/* harmony import */ var _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(60);
+/* harmony import */ var _loaders_GLTFLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(64);
+/* harmony import */ var _libs_motion_controllers_module_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(63);
 
 
 
@@ -67782,7 +67815,7 @@ class XRControllerModelFactory {
 
 
 /***/ }),
-/* 60 */
+/* 63 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -68193,7 +68226,7 @@ class MotionController {
 
 
 /***/ }),
-/* 61 */
+/* 64 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -68202,7 +68235,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   GLTFLoader: () => (/* binding */ GLTFLoader)
 /* harmony export */ });
 /* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-/* harmony import */ var _utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(62);
+/* harmony import */ var _utils_BufferGeometryUtils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(65);
 
 
 
@@ -72727,7 +72760,7 @@ function addPrimitiveAttributes( geometry, primitiveDef, parser ) {
 
 
 /***/ }),
-/* 62 */
+/* 65 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -74210,12 +74243,12 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(2);
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(2);
 /* harmony import */ var three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(57);
-/* harmony import */ var three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(58);
-/* harmony import */ var three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(59);
-/* harmony import */ var three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(42);
+/* harmony import */ var three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(60);
+/* harmony import */ var three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(61);
+/* harmony import */ var three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(62);
+/* harmony import */ var three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(45);
 /* harmony import */ var _socket__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(34);
 /* harmony import */ var _assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_Roboto_msdf_json__WEBPACK_IMPORTED_MODULE_2__);
@@ -74226,6 +74259,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_barbie_mp4__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(39);
 /* harmony import */ var _assets_poke_mp4__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(40);
 /* harmony import */ var _assets_stranger_mp4__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(41);
+/* harmony import */ var _assets_backspace_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(42);
+/* harmony import */ var _assets_enter_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(43);
+/* harmony import */ var _assets_shift_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(44);
 
 
 
@@ -74245,18 +74281,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const textureLoader = new three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_10__.TextureLoader();
+
+
+
+
+const textureLoader = new three_src_loaders_TextureLoader_js__WEBPACK_IMPORTED_MODULE_13__.TextureLoader();
 
 const barbiePoster = {
-  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]),
+  poster: new three__WEBPACK_IMPORTED_MODULE_14__.TextureLoader().load(_assets_barbie_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]),
   id: "barbie",
 };
 const pokePoster = {
-  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]),
+  poster: new three__WEBPACK_IMPORTED_MODULE_14__.TextureLoader().load(_assets_poke_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]),
   id: "poke",
 };
 const strangerPoster = {
-  poster: new three__WEBPACK_IMPORTED_MODULE_11__.TextureLoader().load(_assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]),
+  poster: new three__WEBPACK_IMPORTED_MODULE_14__.TextureLoader().load(_assets_stranger_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]),
   id: "stranger",
 };
 
@@ -74264,6 +74304,16 @@ const fontName = "Roboto";
 
 const WIDTH = window.innerWidth;
 const HEIGHT = window.innerHeight;
+
+const objsToTest = [];
+
+const colors = {
+	keyboardBack: 0x858585,
+	panelBack: 0x262626,
+	button: 0x363636,
+	hovered: 0x1c1c1c,
+	selected: 0x109c5d
+};
 
 let scene,
   camera,
@@ -74276,8 +74326,8 @@ let scene,
   textures = [barbiePoster, pokePoster, strangerPoster],
   videos = [_assets_barbie_mp4__WEBPACK_IMPORTED_MODULE_7__["default"], _assets_poke_mp4__WEBPACK_IMPORTED_MODULE_8__["default"], _assets_stranger_mp4__WEBPACK_IMPORTED_MODULE_9__["default"]],
   vrSession,
-  raycaster = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster(),
-  rotationMatrix = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4(),
+  raycaster = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster(),
+  rotationMatrix = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4(),
   intersects,
   videoTexture,
   videoMesh,
@@ -74288,26 +74338,30 @@ let scene,
   playText,
   currentVideo,
   currentPoster,
-  isVideoPlaying;
+  isVideoPlaying,
+  keyboard,
+  userText,
+  currentLayoutButton,
+  layoutOptions;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
 
 function preload() {
-  renderer = new three__WEBPACK_IMPORTED_MODULE_11__.WebGLRenderer({
+  renderer = new three__WEBPACK_IMPORTED_MODULE_14__.WebGLRenderer({
     antialias: true,
   });
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(WIDTH, HEIGHT);
   renderer.xr.enabled = true;
   renderer.autoClear = false;
-  vrButton = three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_12__.VRButton.createButton(renderer);
+  vrButton = three_examples_jsm_webxr_VRButton_js__WEBPACK_IMPORTED_MODULE_15__.VRButton.createButton(renderer);
   document.body.appendChild(vrButton);
   document.body.appendChild(renderer.domElement);
 
-  scene = new three__WEBPACK_IMPORTED_MODULE_11__.Scene();
+  scene = new three__WEBPACK_IMPORTED_MODULE_14__.Scene();
 
-  camera = new three__WEBPACK_IMPORTED_MODULE_11__.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000);
+  camera = new three__WEBPACK_IMPORTED_MODULE_14__.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000);
   camera.matrixAutoUpdate = false;
 
   camera.position.z = 5;
@@ -74348,9 +74402,9 @@ function onWindowResize() {
 async function init() {
   vrSession = renderer.xr.getSession();
 
-  controls = new three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_13__.OrbitControls(camera, renderer.domElement);
+  controls = new three_examples_jsm_controls_OrbitControls_js__WEBPACK_IMPORTED_MODULE_16__.OrbitControls(camera, renderer.domElement);
   camera.position.set(0, 1.6, 3);
-  controls.target = new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 1, -1.8);
+  controls.target = new three__WEBPACK_IMPORTED_MODULE_14__.Vector3(0, 1, -1.8);
   controls.update();
 
   controllers = buildControllers();
@@ -74368,41 +74422,11 @@ async function init() {
     console.log(intersects);
     if (intersects.length > 0) {
       if (video.paused) {
-        /*videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-        playText.setState("pause");*/
         _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("play");
       } else {
-        /*video.pause();
-        isVideoPlaying = false;
-        playText.setState("play");*/
         _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("pause");
       }
     } else if (next.length > 0) {
-      /*const shiftedVideos = videos.shift();
-      videos.push(shiftedVideos);
-
-      const shiftedPosters = textures.shift();
-      textures.push(shiftedPosters);*/
-
-
-      /*source.src = videos[0];
-      currentVideo = source.src;
-      video.load();*/
-
-
-      /*if (playText.content === "Pause") {
-        videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-        
-      } else {
-        video.pause();
-        isVideoPlaying = false;
-        videoMesh.material.map = textures[0].poster;
-        currentPoster = textures[0];
-      }*/
 
       const nextVideoEl = videos[1];
       const nextPosterEl = textures[1];
@@ -74412,29 +74436,6 @@ async function init() {
         poster: nextPosterEl,
       });
     } else if (prev.length > 0) {
-      /*const poppedVideos = videos.pop();
-      videos.unshift(poppedVideos);
-
-      const poppedPosters = textures.pop();
-      textures.unshift(poppedPosters);*/
-
-
-      /*source.src = videos[0];
-      currentVideo = source.src;
-      
-      video.load();*/
-
-
-      /*if (playText.content === "Pause") {
-        videoMesh.material.map = videoTexture;
-        video.play();
-        isVideoPlaying = true;
-      } else {
-        video.pause();
-        isVideoPlaying = false;
-        videoMesh.material.map = textures[0].poster;
-        currentPoster = textures[0];
-      }*/
 
       const lastVideoEl = videos[videos.length - 1];
       const lastPosterEl = textures[textures.length - 1];
@@ -74454,6 +74455,8 @@ async function init() {
 
   createMenu();
   createPlayer();
+  //createChat();
+  makeUI();
 
   _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("newConnect");
 
@@ -74556,7 +74559,7 @@ function createMenu() {
     fontTexture: fontName,
   });
 
-  container.position.set(0, 1, -5);
+  container.position.set(-5, 1, -7);
 
   scene.add(container);
 
@@ -74565,7 +74568,7 @@ function createMenu() {
     height: 2.3,
     padding: 0.05,
     borderRadius: 0.2,
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x614747),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x614747),
     justifyContent: "space-around",
     textAlign: "center",
     contentDirection: "row",
@@ -74575,20 +74578,20 @@ function createMenu() {
     width: 1.5,
     height: 1.5,
     backgroundOpacity: 1,
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x777777),
     justifyContent: "center",
     textAlign: "center",
-    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
   });
 
   nextButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
     width: 1.5,
     height: 1.5,
     backgroundOpacity: 1,
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x777777),
     justifyContent: "center",
     textAlign: "center",
-    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
   });
 
   const nextText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
@@ -74602,10 +74605,10 @@ function createMenu() {
     width: 1.5,
     height: 1.5,
     backgroundOpacity: 1,
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x777777),
     justifyContent: "center",
     textAlign: "center",
-    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
   });
 
   const prevText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
@@ -74616,12 +74619,12 @@ function createMenu() {
   prevButton.add(prevText);
 
   const hoveredAttributes = {
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
     backgroundOpacity: 0.3,
   };
 
   const idleAttributes = {
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x777777),
   };
 
   playButton.setupState({
@@ -74680,10 +74683,10 @@ function createMenu() {
     width: 1.5,
     height: 1.5,
     backgroundOpacity: 1,
-    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color(0x777777),
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(0x777777),
     justifyContent: "center",
     textAlign: "center",
-    fontColor: new three__WEBPACK_IMPORTED_MODULE_11__.Color("white"),
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
   });
 
   pauseText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
@@ -74714,33 +74717,394 @@ function createPlayer() {
   document.body.appendChild(video);
   video.appendChild(source);
 
-  videoTexture = new three__WEBPACK_IMPORTED_MODULE_11__.VideoTexture(video);
-  videoTexture.minFilter = three__WEBPACK_IMPORTED_MODULE_11__.LinearFilter;
-  videoTexture.magFilter = three__WEBPACK_IMPORTED_MODULE_11__.LinearFilter;
-  videoTexture.format = three__WEBPACK_IMPORTED_MODULE_11__.RGBAFormat;
+  videoTexture = new three__WEBPACK_IMPORTED_MODULE_14__.VideoTexture(video);
+  videoTexture.minFilter = three__WEBPACK_IMPORTED_MODULE_14__.LinearFilter;
+  videoTexture.magFilter = three__WEBPACK_IMPORTED_MODULE_14__.LinearFilter;
+  videoTexture.format = three__WEBPACK_IMPORTED_MODULE_14__.RGBAFormat;
   videoTexture.needsUpdate = true;
 
   const width = 6.0;
   const height = 4.0;
 
-  const videoGeo = new three__WEBPACK_IMPORTED_MODULE_11__.PlaneGeometry(width, height);
-  const videoMat = new three__WEBPACK_IMPORTED_MODULE_11__.MeshBasicMaterial({ map: textures[0].poster });
-  console.log("vtoroj");
-  videoMesh = new three__WEBPACK_IMPORTED_MODULE_11__.Mesh(videoGeo, videoMat);
-  videoMesh.position.set(0, 2.3, -4.95);
+  const videoGeo = new three__WEBPACK_IMPORTED_MODULE_14__.PlaneGeometry(width, height);
+  const videoMat = new three__WEBPACK_IMPORTED_MODULE_14__.MeshBasicMaterial({ map: textures[0].poster });
+  
+  videoMesh = new three__WEBPACK_IMPORTED_MODULE_14__.Mesh(videoGeo, videoMat);
+  videoMesh.position.set(-5, 2.3, -6.95);
 
   scene.add(videoMesh);
 }
 
-function buildControllers() {
-  const controllerModelFactory = new three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_14__.XRControllerModelFactory();
+/*function createChat() {
 
-  const geometry = new three__WEBPACK_IMPORTED_MODULE_11__.BufferGeometry().setFromPoints([
-    new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 0, 0),
-    new three__WEBPACK_IMPORTED_MODULE_11__.Vector3(0, 0, -1),
+  const chat = new ThreeMeshUI.Block({
+    width: 4.0,
+    height: 1.4,
+    padding: 0.05,
+    borderRadius: 0.2,
+    justifyContent: "end",
+    textAlign: "center",
+  });
+
+  chat.set({
+    fontFamily: fontName,
+    fontTexture: fontName,
+  });
+
+  chat.position.set(0, 3.2, -2.5);
+
+  scene.add(chat);
+
+  const chatInput = new ThreeMeshUI.Block({
+    width: 4.0,
+    height: 0.3,
+    padding: 0.05,
+    borderRadius: 0.2,
+    justifyContent: "start",
+    textAlign: "start",
+  });
+
+  chatInput.set({
+    fontFamily: fontName,
+    fontTexture: fontName,
+  });
+  
+  chat.add(chatInput);
+}*/
+
+function makeUI() {
+
+	const container = new three__WEBPACK_IMPORTED_MODULE_14__.Group();
+	container.position.set( 1.5, 0.7, -2 );
+	//container.rotation.x = -0.15;
+	scene.add( container );
+
+
+  const chat = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    fontFamily: fontName,
+		fontTexture: fontName,
+    width: 4.0,
+    height: 1.5,
+    padding: 0.05,
+    borderRadius: 0.2,
+    justifyContent: "end",
+    textAlign: "center",
+  });
+
+  chat.position.set(1.5, 3, -2);
+
+  container.add(chat);
+
+	//////////////
+	// TEXT PANEL
+	//////////////
+
+	const textPanel = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+		fontFamily: fontName,
+		fontTexture: fontName,
+		width: 4,
+		height: 1,
+		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.panelBack ),
+		backgroundOpacity: 1
+	} );
+
+	textPanel.position.set( 1.5, 1.5, -2 );
+	container.add( textPanel );
+
+	//
+
+	const title = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+		width: 2,
+		height: 0.2,
+		justifyContent: 'center',
+		fontSize: 0.045,
+		backgroundOpacity: 0
+	} ).add(
+		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: 'Type some text on the keyboard' } )
+	);
+
+	userText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: '' } );
+
+	const textField = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+		width: 2,
+		height: 0.7,
+		fontSize: 0.033,
+		padding: 0.02,
+		backgroundOpacity: 0
+	} ).add( userText );
+
+	textPanel.add( title, textField );
+
+	////////////////////////
+	// LAYOUT OPTIONS PANEL
+	////////////////////////
+
+	// BUTTONS
+
+	let layoutButtons = [
+		[ 'English', 'eng' ],
+		[ 'Nordic', 'nord' ],
+		[ 'German', 'de' ],
+		[ 'Spanish', 'es' ],
+		[ 'French', 'fr' ],
+		[ 'Russian', 'ru' ],
+		[ 'Greek', 'el' ]
+	];
+
+	layoutButtons = layoutButtons.map( ( options ) => {
+
+		const button = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+			height: 0.06,
+			width: 0.2,
+			margin: 0.012,
+			justifyContent: 'center',
+			backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
+			backgroundOpacity: 1
+		} ).add(
+			new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( {
+				offset: 0,
+				fontSize: 0.035,
+				content: options[ 0 ]
+			} )
+		);
+
+		button.setupState( {
+			state: 'idle',
+			attributes: {
+				offset: 0.02,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
+				backgroundOpacity: 1
+			}
+		} );
+
+		button.setupState( {
+			state: 'hovered',
+			attributes: {
+				offset: 0.02,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.hovered ),
+				backgroundOpacity: 1
+			}
+		} );
+
+		button.setupState( {
+			state: 'selected',
+			attributes: {
+				offset: 0.01,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.selected ),
+				backgroundOpacity: 1
+			},
+			onSet: () => {
+
+				// enable intersection checking for the previous layout button,
+				// then disable it for the current button
+
+				if ( currentLayoutButton ) objsToTest.push( currentLayoutButton );
+
+				if ( keyboard ) {
+
+					clear( keyboard );
+
+					keyboard.panels.forEach( panel => clear( panel ) );
+
+				}
+
+				currentLayoutButton = button;
+
+				makeKeyboard( options[ 1 ] );
+
+			}
+
+		} );
+
+		objsToTest.push( button );
+
+		// Set English button as selected from the start
+
+		if ( options[ 1 ] === 'eng' ) {
+
+			button.setState( 'selected' );
+
+			currentLayoutButton = button;
+
+		}
+
+		return button;
+
+	} );
+
+  // CONTAINER
+
+	layoutOptions = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+		fontFamily: fontName,
+		fontTexture: fontName,
+		height: 0.25,
+		width: 2,
+		offset: 0,
+		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.panelBack ),
+		backgroundOpacity: 1
+	} ).add(
+		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+			height: 0.1,
+			width: 0.6,
+			offset: 0,
+			justifyContent: 'center',
+			backgroundOpacity: 0
+		} ).add(
+			new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( {
+				fontSize: 0.04,
+				content: 'Select a keyboard layout :'
+			} )
+		),
+
+		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+			height: 0.075,
+			width: 1,
+			offset: 0,
+			contentDirection: 'row',
+			justifyContent: 'center',
+			backgroundOpacity: 0
+		} ).add(
+			layoutButtons[ 0 ],
+			layoutButtons[ 1 ],
+			layoutButtons[ 2 ],
+			layoutButtons[ 3 ]
+		),
+
+		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
+			height: 0.075,
+			width: 1,
+			offset: 0,
+			contentDirection: 'row',
+			justifyContent: 'center',
+			backgroundOpacity: 0
+		} ).add(
+			layoutButtons[ 4 ],
+			layoutButtons[ 5 ],
+			layoutButtons[ 6 ]
+		)
+	);
+
+	layoutOptions.position.set( 0, 0.7, 0 );
+	container.add( layoutOptions );
+	objsToTest.push( layoutOptions );
+
+}
+
+function makeKeyboard( language ) {
+
+	keyboard = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Keyboard( {
+		language: language,
+    width: 2,
+		fontFamily: fontName,
+		fontTexture: fontName,
+		fontSize: 0.035, // fontSize will propagate to the keys blocks
+		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.keyboardBack ),
+		backgroundOpacity: 1,
+		backspaceTexture: _assets_backspace_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+		shiftTexture: _assets_shift_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+		enterTexture: _assets_enter_png__WEBPACK_IMPORTED_MODULE_11__["default"]
+	} );
+
+	keyboard.position.set( 1.2, 0.7, -1.5 );
+	keyboard.rotation.x = -0.35;
+	scene.add( keyboard );
+
+	//
+
+  userText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: '' } );
+
+	keyboard.keys.forEach( ( key ) => {
+
+		objsToTest.push( key );
+
+		key.setupState( {
+			state: 'idle',
+			attributes: {
+				offset: 0,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
+				backgroundOpacity: 1
+			}
+		} );
+
+		key.setupState( {
+			state: 'hovered',
+			attributes: {
+				offset: 0,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.hovered ),
+				backgroundOpacity: 1
+			}
+		} );
+
+		key.setupState( {
+			state: 'selected',
+			attributes: {
+				offset: -0.009,
+				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.selected ),
+				backgroundOpacity: 1
+			},
+			// triggered when the user clicked on a keyboard's key
+			onSet: () => {
+
+				// if the key have a command (eg: 'backspace', 'switch', 'enter'...)
+				// special actions are taken
+				if ( key.info.command ) {
+
+					switch ( key.info.command ) {
+
+						// switch between panels
+						case 'switch' :
+							keyboard.setNextPanel();
+							break;
+
+						// switch between panel charsets (eg: russian/english)
+						case 'switch-set' :
+							keyboard.setNextCharset();
+							break;
+
+						case 'enter' :
+							userText.set( { content: userText.content + '\n' } );
+							break;
+
+						case 'space' :
+							userText.set( { content: userText.content + ' ' } );
+							break;
+
+						case 'backspace' :
+							if ( !userText.content.length ) break;
+							userText.set( {
+								content: userText.content.substring( 0, userText.content.length - 1 ) || ''
+							} );
+							break;
+
+						case 'shift' :
+							keyboard.toggleCase();
+							break;
+
+					}
+
+					// print a glyph, if any
+				} else if ( key.info.input ) {
+
+					userText.set( { content: userText.content + key.info.input } );
+
+				}
+
+			}
+		} );
+
+	} );
+
+};
+
+function buildControllers() {
+  const controllerModelFactory = new three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_17__.XRControllerModelFactory();
+
+  const geometry = new three__WEBPACK_IMPORTED_MODULE_14__.BufferGeometry().setFromPoints([
+    new three__WEBPACK_IMPORTED_MODULE_14__.Vector3(0, 0, 0),
+    new three__WEBPACK_IMPORTED_MODULE_14__.Vector3(0, 0, -1),
   ]);
 
-  const line = new three__WEBPACK_IMPORTED_MODULE_11__.Line(geometry);
+  const line = new three__WEBPACK_IMPORTED_MODULE_14__.Line(geometry);
   line.scale.z = 10;
 
   for (let i = 0; i < 2; i++) {
@@ -74760,15 +75124,15 @@ function buildControllers() {
 }
 
 function handleControllers(controller1, controller2) {
-  const rotationMatrix1 = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4();
+  const rotationMatrix1 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
   rotationMatrix1.extractRotation(controller1.matrixWorld);
-  const raycaster1 = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster();
+  const raycaster1 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
   raycaster1.ray.origin.setFromMatrixPosition(controller1.matrixWorld);
   raycaster1.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix1);
 
-  const rotationMatrix2 = new three__WEBPACK_IMPORTED_MODULE_11__.Matrix4();
+  const rotationMatrix2 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
   rotationMatrix2.extractRotation(controller2.matrixWorld);
-  const raycaster2 = new three__WEBPACK_IMPORTED_MODULE_11__.Raycaster();
+  const raycaster2 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
   raycaster2.ray.origin.setFromMatrixPosition(controller2.matrixWorld);
   raycaster2.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix2);
 
