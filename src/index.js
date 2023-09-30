@@ -17,9 +17,9 @@ import barbieSource from "/assets/barbie.mp4";
 import pokeSource from "/assets/poke.mp4";
 import strangerSource from "/assets/stranger.mp4";
 
-import Backspace from '/assets/backspace.png';
-import Enter from '/assets/enter.png';
-import Shift from '/assets/shift.png';
+import Backspace from "/assets/backspace.png";
+import Enter from "/assets/enter.png";
+import Shift from "/assets/shift.png";
 
 const textureLoader = new TextureLoader();
 
@@ -44,11 +44,11 @@ const HEIGHT = window.innerHeight;
 const objsToTest = [];
 
 const colors = {
-	keyboardBack: 0x858585,
-	panelBack: 0x262626,
-	button: 0x363636,
-	hovered: 0x1c1c1c,
-	selected: 0x109c5d
+  keyboardBack: 0x858585,
+  panelBack: 0x262626,
+  button: 0x363636,
+  hovered: 0x1c1c1c,
+  selected: 0x109c5d,
 };
 
 let scene,
@@ -75,10 +75,13 @@ let scene,
   currentVideo,
   currentPoster,
   isVideoPlaying,
+  chat,
+  chatContent,
   keyboard,
   userText,
   currentLayoutButton,
-  layoutOptions;
+  layoutOptions,
+  chatButton;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -145,44 +148,6 @@ async function init() {
 
   controllers = buildControllers();
 
-  function onSelectStart(event, controller) {
-    //controller.children[0].scale.z = 10;
-    //rotationMatrix = new THREE.Matrix4();
-    rotationMatrix.extractRotation(controller.matrixWorld);
-    //raycaster = new THREE.Raycaster();
-    raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
-    raycaster.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix);
-    intersects = raycaster.intersectObjects([playButton]);
-    const next = raycaster.intersectObjects([nextButton]);
-    const prev = raycaster.intersectObjects([prevButton]);
-    console.log(intersects);
-    if (intersects.length > 0) {
-      if (video.paused) {
-        socket.emit("play");
-      } else {
-        socket.emit("pause");
-      }
-    } else if (next.length > 0) {
-
-      const nextVideoEl = videos[1];
-      const nextPosterEl = textures[1];
-
-      socket.emit("videoVariant", {
-        video: nextVideoEl,
-        poster: nextPosterEl,
-      });
-    } else if (prev.length > 0) {
-
-      const lastVideoEl = videos[videos.length - 1];
-      const lastPosterEl = textures[textures.length - 1];
-
-      socket.emit("videoVariant", {
-        video: lastVideoEl,
-        poster: lastPosterEl,
-      });
-    }
-  }
-
   controllers.forEach((controller) => {
     controller.addEventListener("selectstart", (event) =>
       onSelectStart(event, controller)
@@ -204,7 +169,7 @@ async function init() {
       socket.emit("videoVariant", {
         video: currentVideo,
         poster: currentPoster,
-        time: video.currentTime
+        time: video.currentTime,
       });
   });
 
@@ -237,7 +202,6 @@ async function init() {
         }, 100);
         playText.setState("pause");
         isVideoPlaying = true;
-        
       } else if (playText.content === "Play" && update.time) {
         console.log(update.time);
         videoMesh.material.map = videoTexture;
@@ -464,337 +428,396 @@ function createPlayer() {
 
   const videoGeo = new THREE.PlaneGeometry(width, height);
   const videoMat = new THREE.MeshBasicMaterial({ map: textures[0].poster });
-  
+
   videoMesh = new THREE.Mesh(videoGeo, videoMat);
   videoMesh.position.set(-5, 2.3, -6.95);
 
   scene.add(videoMesh);
 }
 
-
 function makeUI() {
+  const container = new THREE.Group();
+  container.position.set(1.5, 0.7, -2);
+  //container.rotation.x = -0.15;
+  scene.add(container);
 
-	const container = new THREE.Group();
-	container.position.set( 1.5, 0.7, -2 );
-	//container.rotation.x = -0.15;
-	scene.add( container );
+  chatContent = new ThreeMeshUI.Text({ content: "" });
 
-
-  const chat = new ThreeMeshUI.Block({
+  chat = new ThreeMeshUI.Block({
     fontFamily: fontName,
-		fontTexture: fontName,
+    fontTexture: fontName,
     width: 4.0,
     height: 1.5,
     padding: 0.05,
     borderRadius: 0.2,
+    fontColor: new THREE.Color("white"),
+    fontSize: 0.2,
     justifyContent: "end",
-    textAlign: "center",
   });
 
   chat.position.set(1.5, 3, -2);
 
   container.add(chat);
 
-	//////////////
-	// TEXT PANEL
-	//////////////
+  socket.on("updateChat", (messages) => {
 
-	const textPanel = new ThreeMeshUI.Block( {
-		fontFamily: fontName,
-		fontTexture: fontName,
-		width: 4,
-		height: 1,
-		backgroundColor: new THREE.Color( colors.panelBack ),
-		backgroundOpacity: 1
-	} );
+  while (chat.childrenBoxes.length > 0) {
+    chat.remove(chat.childrenBoxes[0]);
+  }
 
-	textPanel.position.set( 1.5, 1.5, -2 );
-	container.add( textPanel );
+  for (let i = 0; i < messages.length; i++) {
+    const message = messages[i];
 
-	//
+    const newBlock = new ThreeMeshUI.Block({
+      width: 3.0,
+      height: 0.3,
+      borderRadius: 0.2,
+      textAlign: "center",
+    }).add(
+      new ThreeMeshUI.Text({ content: message })
+    );
 
-	const title = new ThreeMeshUI.Block( {
-		width: 2,
-		height: 0.2,
-		justifyContent: 'center',
-		fontSize: 0.045,
-		backgroundOpacity: 0
-	} ).add(
-		new ThreeMeshUI.Text( { content: 'Type some text on the keyboard' } )
-	);
+    chat.add(newBlock);
+  }
 
-	userText = new ThreeMeshUI.Text( { content: '' } );
+  chat.update(true, true, true);
 
-	const textField = new ThreeMeshUI.Block( {
-		width: 2,
-		height: 0.7,
-		fontSize: 0.033,
-		padding: 0.02,
-		backgroundOpacity: 0
-	} ).add( userText );
+  });
 
-	textPanel.add( title, textField );
+  //////////////
+  // TEXT PANEL
+  //////////////
 
-	////////////////////////
-	// LAYOUT OPTIONS PANEL
-	////////////////////////
+  const textPanel = new ThreeMeshUI.Block({
+    fontFamily: fontName,
+    fontTexture: fontName,
+    width: 5,
+    height: 1.3,
+    backgroundColor: new THREE.Color(colors.panelBack),
+    backgroundOpacity: 1,
+  });
 
-	// BUTTONS
+  textPanel.position.set(1.5, 1.5, -2);
+  container.add(textPanel);
 
-	let layoutButtons = [
-		[ 'English', 'eng' ],
-		[ 'Nordic', 'nord' ],
-		[ 'German', 'de' ],
-		[ 'Spanish', 'es' ],
-		[ 'French', 'fr' ],
-		[ 'Russian', 'ru' ],
-		[ 'Greek', 'el' ]
-	];
+  //
 
-	layoutButtons = layoutButtons.map( ( options ) => {
+  const title = new ThreeMeshUI.Block({
+    width: 2,
+    height: 0.2,
+    justifyContent: "center",
+    fontSize: 0.045,
+    backgroundOpacity: 0,
+  }).add(new ThreeMeshUI.Text({ content: "Type some text on the keyboard" }));
 
-		const button = new ThreeMeshUI.Block( {
-			height: 0.06,
-			width: 0.2,
-			margin: 0.012,
-			justifyContent: 'center',
-			backgroundColor: new THREE.Color( colors.button ),
-			backgroundOpacity: 1
-		} ).add(
-			new ThreeMeshUI.Text( {
-				offset: 0,
-				fontSize: 0.035,
-				content: options[ 0 ]
-			} )
-		);
+  userText = new ThreeMeshUI.Text({ content: "" });
 
-		button.setupState( {
-			state: 'idle',
-			attributes: {
-				offset: 0.02,
-				backgroundColor: new THREE.Color( colors.button ),
-				backgroundOpacity: 1
-			}
-		} );
+  const textField = new ThreeMeshUI.Block({
+    width: 2,
+    height: 0.7,
+    fontSize: 0.1,
+    padding: 0.02,
+    backgroundOpacity: 0,
+  }).add(userText);
 
-		button.setupState( {
-			state: 'hovered',
-			attributes: {
-				offset: 0.02,
-				backgroundColor: new THREE.Color( colors.hovered ),
-				backgroundOpacity: 1
-			}
-		} );
+  const chatButtonText = new ThreeMeshUI.Text({ content: "Send" });
 
-		button.setupState( {
-			state: 'selected',
-			attributes: {
-				offset: 0.01,
-				backgroundColor: new THREE.Color( colors.selected ),
-				backgroundOpacity: 1
-			},
-			onSet: () => {
+  chatButton = new ThreeMeshUI.Block({
+    width: 0.5,
+    height: 0.3,
+    backgroundOpacity: 1,
+    backgroundColor: new THREE.Color("blue"),
+  }).add(chatButtonText);
 
-				// enable intersection checking for the previous layout button,
-				// then disable it for the current button
+  textPanel.add(title, textField, chatButton);
 
-				if ( currentLayoutButton ) objsToTest.push( currentLayoutButton );
+  ////////////////////////
+  // LAYOUT OPTIONS PANEL
+  ////////////////////////
 
-				if ( keyboard ) {
+  // BUTTONS
 
-					clear( keyboard );
+  let layoutButtons = [
+    ["English", "eng"],
+    ["Nordic", "nord"],
+    ["German", "de"],
+    ["Spanish", "es"],
+    ["French", "fr"],
+    ["Russian", "ru"],
+    ["Greek", "el"],
+  ];
 
-					keyboard.panels.forEach( panel => clear( panel ) );
+  layoutButtons = layoutButtons.map((options) => {
+    const button = new ThreeMeshUI.Block({
+      height: 0.06,
+      width: 0.2,
+      margin: 0.012,
+      justifyContent: "center",
+      backgroundColor: new THREE.Color(colors.button),
+      backgroundOpacity: 1,
+    }).add(
+      new ThreeMeshUI.Text({
+        offset: 0,
+        fontSize: 0.035,
+        content: options[0],
+      })
+    );
 
-				}
+    button.setupState({
+      state: "idle",
+      attributes: {
+        offset: 0.02,
+        backgroundColor: new THREE.Color(colors.button),
+        backgroundOpacity: 1,
+      },
+    });
 
-				currentLayoutButton = button;
+    button.setupState({
+      state: "hovered",
+      attributes: {
+        offset: 0.02,
+        backgroundColor: new THREE.Color(colors.hovered),
+        backgroundOpacity: 1,
+      },
+    });
 
-				makeKeyboard( options[ 1 ] );
+    button.setupState({
+      state: "selected",
+      attributes: {
+        offset: 0.01,
+        backgroundColor: new THREE.Color(colors.selected),
+        backgroundOpacity: 1,
+      },
+      onSet: () => {
+        // enable intersection checking for the previous layout button,
+        // then disable it for the current button
 
-			}
+        if (currentLayoutButton) objsToTest.push(currentLayoutButton);
 
-		} );
+        if (keyboard) {
+          clear(keyboard);
 
-		objsToTest.push( button );
+          keyboard.panels.forEach((panel) => clear(panel));
+        }
 
-		// Set English button as selected from the start
+        currentLayoutButton = button;
 
-		if ( options[ 1 ] === 'eng' ) {
+        makeKeyboard(options[1]);
+      },
+    });
 
-			button.setState( 'selected' );
+    objsToTest.push(button);
 
-			currentLayoutButton = button;
+    // Set English button as selected from the start
 
-		}
+    if (options[1] === "eng") {
+      button.setState("selected");
 
-		return button;
+      currentLayoutButton = button;
+    }
 
-	} );
+    return button;
+  });
 
   // CONTAINER
 
-	layoutOptions = new ThreeMeshUI.Block( {
-		fontFamily: fontName,
-		fontTexture: fontName,
-		height: 0.25,
-		width: 2,
-		offset: 0,
-		backgroundColor: new THREE.Color( colors.panelBack ),
-		backgroundOpacity: 1
-	} ).add(
-		new ThreeMeshUI.Block( {
-			height: 0.1,
-			width: 0.6,
-			offset: 0,
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			new ThreeMeshUI.Text( {
-				fontSize: 0.04,
-				content: 'Select a keyboard layout :'
-			} )
-		),
+  layoutOptions = new ThreeMeshUI.Block({
+    fontFamily: fontName,
+    fontTexture: fontName,
+    height: 0.25,
+    width: 2,
+    offset: 0,
+    backgroundColor: new THREE.Color(colors.panelBack),
+    backgroundOpacity: 1,
+  }).add(
+    new ThreeMeshUI.Block({
+      height: 0.1,
+      width: 0.6,
+      offset: 0,
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(
+      new ThreeMeshUI.Text({
+        fontSize: 0.04,
+        content: "Select a keyboard layout :",
+      })
+    ),
 
-		new ThreeMeshUI.Block( {
-			height: 0.075,
-			width: 1,
-			offset: 0,
-			contentDirection: 'row',
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			layoutButtons[ 0 ],
-			layoutButtons[ 1 ],
-			layoutButtons[ 2 ],
-			layoutButtons[ 3 ]
-		),
+    new ThreeMeshUI.Block({
+      height: 0.075,
+      width: 1,
+      offset: 0,
+      contentDirection: "row",
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(
+      layoutButtons[0],
+      layoutButtons[1],
+      layoutButtons[2],
+      layoutButtons[3]
+    ),
 
-		new ThreeMeshUI.Block( {
-			height: 0.075,
-			width: 1,
-			offset: 0,
-			contentDirection: 'row',
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			layoutButtons[ 4 ],
-			layoutButtons[ 5 ],
-			layoutButtons[ 6 ]
-		)
-	);
+    new ThreeMeshUI.Block({
+      height: 0.075,
+      width: 1,
+      offset: 0,
+      contentDirection: "row",
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(layoutButtons[4], layoutButtons[5], layoutButtons[6])
+  );
 
-	layoutOptions.position.set( 0, 0.7, 0 );
-	container.add( layoutOptions );
-	objsToTest.push( layoutOptions );
-
+  layoutOptions.position.set(1.5, 0.7, -2);
+  container.add(layoutOptions);
+  objsToTest.push(layoutOptions);
 }
 
-function makeKeyboard( language ) {
+function makeKeyboard(language) {
+  keyboard = new ThreeMeshUI.Keyboard({
+    language: language,
+    width: 6,
+    height: 2,
+    fontFamily: fontName,
+    fontTexture: fontName,
+    fontSize: 0.15, // fontSize will propagate to the keys blocks
+    backgroundColor: new THREE.Color(colors.keyboardBack),
+    backgroundOpacity: 1,
+    backspaceTexture: Backspace,
+    shiftTexture: Shift,
+    enterTexture: Enter,
+  });
 
-	keyboard = new ThreeMeshUI.Keyboard( {
-		language: language,
-    width: 2,
-		fontFamily: fontName,
-		fontTexture: fontName,
-		fontSize: 0.035, // fontSize will propagate to the keys blocks
-		backgroundColor: new THREE.Color( colors.keyboardBack ),
-		backgroundOpacity: 1,
-		backspaceTexture: Backspace,
-		shiftTexture: Shift,
-		enterTexture: Enter
-	} );
+  keyboard.position.set(3, 0.5, -4);
+  keyboard.rotation.x = -0.35;
+  scene.add(keyboard);
 
-	keyboard.position.set( 1.2, 0.7, -1.5 );
-	keyboard.rotation.x = -0.35;
-	scene.add( keyboard );
+  //
 
-	//
+  //userText = new ThreeMeshUI.Text( { content: '' } );
 
-  userText = new ThreeMeshUI.Text( { content: '' } );
+  keyboard.keys.forEach((key) => {
+    objsToTest.push(key);
 
-	keyboard.keys.forEach( ( key ) => {
+    key.setupState({
+      state: "idle",
+      attributes: {
+        offset: 0,
+        backgroundColor: new THREE.Color(colors.button),
+        backgroundOpacity: 1,
+      },
+    });
 
-		objsToTest.push( key );
+    key.setupState({
+      state: "hovered",
+      attributes: {
+        offset: 0,
+        backgroundColor: new THREE.Color(colors.hovered),
+        backgroundOpacity: 1,
+      },
+    });
 
-		key.setupState( {
-			state: 'idle',
-			attributes: {
-				offset: 0,
-				backgroundColor: new THREE.Color( colors.button ),
-				backgroundOpacity: 1
-			}
-		} );
+    key.setupState({
+      state: "selected",
+      attributes: {
+        offset: -0.009,
+        backgroundColor: new THREE.Color(colors.selected),
+        backgroundOpacity: 1,
+      },
+      // triggered when the user clicked on a keyboard's key
+      onSet: () => {
+        // if the key have a command (eg: 'backspace', 'switch', 'enter'...)
+        // special actions are taken
+        if (key.info.command) {
+          switch (key.info.command) {
+            // switch between panels
+            case "switch":
+              keyboard.setNextPanel();
+              break;
 
-		key.setupState( {
-			state: 'hovered',
-			attributes: {
-				offset: 0,
-				backgroundColor: new THREE.Color( colors.hovered ),
-				backgroundOpacity: 1
-			}
-		} );
+            // switch between panel charsets (eg: russian/english)
+            case "switch-set":
+              keyboard.setNextCharset();
+              break;
 
-		key.setupState( {
-			state: 'selected',
-			attributes: {
-				offset: -0.009,
-				backgroundColor: new THREE.Color( colors.selected ),
-				backgroundOpacity: 1
-			},
-			// triggered when the user clicked on a keyboard's key
-			onSet: () => {
+            case "enter":
+              userText.set({ content: userText.content + "\n" });
+              break;
 
-				// if the key have a command (eg: 'backspace', 'switch', 'enter'...)
-				// special actions are taken
-				if ( key.info.command ) {
+            case "space":
+              userText.set({ content: userText.content + " " });
+              break;
 
-					switch ( key.info.command ) {
+            case "backspace":
+              if (!userText.content.length) break;
+              userText.set({
+                content:
+                  userText.content.substring(0, userText.content.length - 1) ||
+                  "",
+              });
+              break;
 
-						// switch between panels
-						case 'switch' :
-							keyboard.setNextPanel();
-							break;
+            case "shift":
+              keyboard.toggleCase();
+              break;
+          }
 
-						// switch between panel charsets (eg: russian/english)
-						case 'switch-set' :
-							keyboard.setNextCharset();
-							break;
+          // print a glyph, if any
+        } else if (key.info.input) {
+          userText.set({ content: userText.content + key.info.input });
+        }
+      },
+    });
 
-						case 'enter' :
-							userText.set( { content: userText.content + '\n' } );
-							break;
+    //console.log(keyboard.keys[0]);
+  });
+}
 
-						case 'space' :
-							userText.set( { content: userText.content + ' ' } );
-							break;
+function onSelectStart(event, controller) {
+  //controller.children[0].scale.z = 10;
+  //rotationMatrix = new THREE.Matrix4();
+  rotationMatrix.extractRotation(controller.matrixWorld);
+  //raycaster = new THREE.Raycaster();
+  raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
+  raycaster.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix);
+  intersects = raycaster.intersectObjects([playButton]);
+  const next = raycaster.intersectObjects([nextButton]);
+  const prev = raycaster.intersectObjects([prevButton]);
 
-						case 'backspace' :
-							if ( !userText.content.length ) break;
-							userText.set( {
-								content: userText.content.substring( 0, userText.content.length - 1 ) || ''
-							} );
-							break;
+  const send = raycaster.intersectObjects([chatButton]);
 
-						case 'shift' :
-							keyboard.toggleCase();
-							break;
+  if (intersects.length > 0) {
+    if (video.paused) {
+      socket.emit("play");
+    } else {
+      socket.emit("pause");
+    }
+  } else if (next.length > 0) {
+    const nextVideoEl = videos[1];
+    const nextPosterEl = textures[1];
 
-					}
+    socket.emit("videoVariant", {
+      video: nextVideoEl,
+      poster: nextPosterEl,
+    });
+  } else if (prev.length > 0) {
+    const lastVideoEl = videos[videos.length - 1];
+    const lastPosterEl = textures[textures.length - 1];
 
-					// print a glyph, if any
-				} else if ( key.info.input ) {
+    socket.emit("videoVariant", {
+      video: lastVideoEl,
+      poster: lastPosterEl,
+    });
+  } else if (send.length > 0 && userText.content !== "") {
+    socket.emit("sendMessage", userText.content);
+    userText.set({ content: "" });
+  }
 
-					userText.set( { content: userText.content + key.info.input } );
-
-				}
-
-			}
-		} );
-
-	} );
-
-};
+  for (let i = 0; i < keyboard.keys.length; i++) {
+    if (raycaster.intersectObjects([keyboard.keys[i]]).length > 0) {
+      userText.set({ content: userText.content + keyboard.keys[i].info.input });
+    }
+  }
+}
 
 function buildControllers() {
   const controllerModelFactory = new XRControllerModelFactory();

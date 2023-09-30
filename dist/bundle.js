@@ -74308,11 +74308,11 @@ const HEIGHT = window.innerHeight;
 const objsToTest = [];
 
 const colors = {
-	keyboardBack: 0x858585,
-	panelBack: 0x262626,
-	button: 0x363636,
-	hovered: 0x1c1c1c,
-	selected: 0x109c5d
+  keyboardBack: 0x858585,
+  panelBack: 0x262626,
+  button: 0x363636,
+  hovered: 0x1c1c1c,
+  selected: 0x109c5d,
 };
 
 let scene,
@@ -74339,10 +74339,13 @@ let scene,
   currentVideo,
   currentPoster,
   isVideoPlaying,
+  chat,
+  chatContent,
   keyboard,
   userText,
   currentLayoutButton,
-  layoutOptions;
+  layoutOptions,
+  chatButton;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -74409,44 +74412,6 @@ async function init() {
 
   controllers = buildControllers();
 
-  function onSelectStart(event, controller) {
-    //controller.children[0].scale.z = 10;
-    //rotationMatrix = new THREE.Matrix4();
-    rotationMatrix.extractRotation(controller.matrixWorld);
-    //raycaster = new THREE.Raycaster();
-    raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
-    raycaster.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix);
-    intersects = raycaster.intersectObjects([playButton]);
-    const next = raycaster.intersectObjects([nextButton]);
-    const prev = raycaster.intersectObjects([prevButton]);
-    console.log(intersects);
-    if (intersects.length > 0) {
-      if (video.paused) {
-        _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("play");
-      } else {
-        _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("pause");
-      }
-    } else if (next.length > 0) {
-
-      const nextVideoEl = videos[1];
-      const nextPosterEl = textures[1];
-
-      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
-        video: nextVideoEl,
-        poster: nextPosterEl,
-      });
-    } else if (prev.length > 0) {
-
-      const lastVideoEl = videos[videos.length - 1];
-      const lastPosterEl = textures[textures.length - 1];
-
-      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
-        video: lastVideoEl,
-        poster: lastPosterEl,
-      });
-    }
-  }
-
   controllers.forEach((controller) => {
     controller.addEventListener("selectstart", (event) =>
       onSelectStart(event, controller)
@@ -74468,7 +74433,7 @@ async function init() {
       _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
         video: currentVideo,
         poster: currentPoster,
-        time: video.currentTime
+        time: video.currentTime,
       });
   });
 
@@ -74501,7 +74466,6 @@ async function init() {
         }, 100);
         playText.setState("pause");
         isVideoPlaying = true;
-        
       } else if (playText.content === "Play" && update.time) {
         console.log(update.time);
         videoMesh.material.map = videoTexture;
@@ -74728,373 +74692,422 @@ function createPlayer() {
 
   const videoGeo = new three__WEBPACK_IMPORTED_MODULE_14__.PlaneGeometry(width, height);
   const videoMat = new three__WEBPACK_IMPORTED_MODULE_14__.MeshBasicMaterial({ map: textures[0].poster });
-  
+
   videoMesh = new three__WEBPACK_IMPORTED_MODULE_14__.Mesh(videoGeo, videoMat);
   videoMesh.position.set(-5, 2.3, -6.95);
 
   scene.add(videoMesh);
 }
 
-/*function createChat() {
-
-  const chat = new ThreeMeshUI.Block({
-    width: 4.0,
-    height: 1.4,
-    padding: 0.05,
-    borderRadius: 0.2,
-    justifyContent: "end",
-    textAlign: "center",
-  });
-
-  chat.set({
-    fontFamily: fontName,
-    fontTexture: fontName,
-  });
-
-  chat.position.set(0, 3.2, -2.5);
-
-  scene.add(chat);
-
-  const chatInput = new ThreeMeshUI.Block({
-    width: 4.0,
-    height: 0.3,
-    padding: 0.05,
-    borderRadius: 0.2,
-    justifyContent: "start",
-    textAlign: "start",
-  });
-
-  chatInput.set({
-    fontFamily: fontName,
-    fontTexture: fontName,
-  });
-  
-  chat.add(chatInput);
-}*/
-
 function makeUI() {
+  const container = new three__WEBPACK_IMPORTED_MODULE_14__.Group();
+  container.position.set(1.5, 0.7, -2);
+  //container.rotation.x = -0.15;
+  scene.add(container);
 
-	const container = new three__WEBPACK_IMPORTED_MODULE_14__.Group();
-	container.position.set( 1.5, 0.7, -2 );
-	//container.rotation.x = -0.15;
-	scene.add( container );
+  chatContent = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({ content: "" });
 
-
-  const chat = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+  chat = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
     fontFamily: fontName,
-		fontTexture: fontName,
+    fontTexture: fontName,
     width: 4.0,
     height: 1.5,
     padding: 0.05,
     borderRadius: 0.2,
+    fontColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("white"),
+    fontSize: 0.2,
     justifyContent: "end",
+  });
+
+  /*const newBlock = new ThreeMeshUI.Block({
+    width: 3.0,
+    height: 0.3,
+    borderRadius: 0.2,
     textAlign: "center",
   });
+  const newBlock2 = new ThreeMeshUI.Block({
+    width: 3.0,
+    height: 0.3,
+    borderRadius: 0.2,
+    textAlign: "center",
+  });
+
+  chat.add(newBlock, newBlock2);*/
 
   chat.position.set(1.5, 3, -2);
 
   container.add(chat);
 
-	//////////////
-	// TEXT PANEL
-	//////////////
+  console.log(chat);
 
-	const textPanel = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-		fontFamily: fontName,
-		fontTexture: fontName,
-		width: 4,
-		height: 1,
-		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.panelBack ),
-		backgroundOpacity: 1
-	} );
+  _socket__WEBPACK_IMPORTED_MODULE_1__.socket.on("updateChat", (messages) => {
 
-	textPanel.position.set( 1.5, 1.5, -2 );
-	container.add( textPanel );
+    // Очищаем chat от всех существующих блоков
+  while (chat.childrenBoxes.length > 0) {
+    chat.remove(chat.childrenBoxes[0]);
+  }
 
-	//
+  
 
-	const title = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-		width: 2,
-		height: 0.2,
-		justifyContent: 'center',
-		fontSize: 0.045,
-		backgroundOpacity: 0
-	} ).add(
-		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: 'Type some text on the keyboard' } )
-	);
+  for (let i = 0; i < messages.length; i++) {
+    const message = messages[i];
 
-	userText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: '' } );
+    // Создаем новый блок с соответствующим сообщением и добавляем его к chat
+    const newBlock = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+      width: 3.0,
+      height: 0.3,
+      borderRadius: 0.2,
+      textAlign: "center",
+    }).add(
+      new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({ content: message })
+    );
 
-	const textField = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-		width: 2,
-		height: 0.7,
-		fontSize: 0.033,
-		padding: 0.02,
-		backgroundOpacity: 0
-	} ).add( userText );
+    
 
-	textPanel.add( title, textField );
+    chat.add(newBlock);
 
-	////////////////////////
-	// LAYOUT OPTIONS PANEL
-	////////////////////////
+    
+  }
 
-	// BUTTONS
+  chat.update(true, true, true);
 
-	let layoutButtons = [
-		[ 'English', 'eng' ],
-		[ 'Nordic', 'nord' ],
-		[ 'German', 'de' ],
-		[ 'Spanish', 'es' ],
-		[ 'French', 'fr' ],
-		[ 'Russian', 'ru' ],
-		[ 'Greek', 'el' ]
-	];
+  console.log(chat);
+  });
 
-	layoutButtons = layoutButtons.map( ( options ) => {
+  //////////////
+  // TEXT PANEL
+  //////////////
 
-		const button = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-			height: 0.06,
-			width: 0.2,
-			margin: 0.012,
-			justifyContent: 'center',
-			backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
-			backgroundOpacity: 1
-		} ).add(
-			new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( {
-				offset: 0,
-				fontSize: 0.035,
-				content: options[ 0 ]
-			} )
-		);
+  const textPanel = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    fontFamily: fontName,
+    fontTexture: fontName,
+    width: 5,
+    height: 1.3,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.panelBack),
+    backgroundOpacity: 1,
+  });
 
-		button.setupState( {
-			state: 'idle',
-			attributes: {
-				offset: 0.02,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
-				backgroundOpacity: 1
-			}
-		} );
+  textPanel.position.set(1.5, 1.5, -2);
+  container.add(textPanel);
 
-		button.setupState( {
-			state: 'hovered',
-			attributes: {
-				offset: 0.02,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.hovered ),
-				backgroundOpacity: 1
-			}
-		} );
+  //
 
-		button.setupState( {
-			state: 'selected',
-			attributes: {
-				offset: 0.01,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.selected ),
-				backgroundOpacity: 1
-			},
-			onSet: () => {
+  const title = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 2,
+    height: 0.2,
+    justifyContent: "center",
+    fontSize: 0.045,
+    backgroundOpacity: 0,
+  }).add(new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({ content: "Type some text on the keyboard" }));
 
-				// enable intersection checking for the previous layout button,
-				// then disable it for the current button
+  userText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({ content: "" });
 
-				if ( currentLayoutButton ) objsToTest.push( currentLayoutButton );
+  const textField = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 2,
+    height: 0.7,
+    fontSize: 0.1,
+    padding: 0.02,
+    backgroundOpacity: 0,
+  }).add(userText);
 
-				if ( keyboard ) {
+  const chatButtonText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({ content: "Send" });
 
-					clear( keyboard );
+  chatButton = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    width: 0.5,
+    height: 0.3,
+    backgroundOpacity: 1,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("blue"),
+  }).add(chatButtonText);
 
-					keyboard.panels.forEach( panel => clear( panel ) );
+  textPanel.add(title, textField, chatButton);
 
-				}
+  ////////////////////////
+  // LAYOUT OPTIONS PANEL
+  ////////////////////////
 
-				currentLayoutButton = button;
+  // BUTTONS
 
-				makeKeyboard( options[ 1 ] );
+  let layoutButtons = [
+    ["English", "eng"],
+    ["Nordic", "nord"],
+    ["German", "de"],
+    ["Spanish", "es"],
+    ["French", "fr"],
+    ["Russian", "ru"],
+    ["Greek", "el"],
+  ];
 
-			}
+  layoutButtons = layoutButtons.map((options) => {
+    const button = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+      height: 0.06,
+      width: 0.2,
+      margin: 0.012,
+      justifyContent: "center",
+      backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.button),
+      backgroundOpacity: 1,
+    }).add(
+      new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+        offset: 0,
+        fontSize: 0.035,
+        content: options[0],
+      })
+    );
 
-		} );
+    button.setupState({
+      state: "idle",
+      attributes: {
+        offset: 0.02,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.button),
+        backgroundOpacity: 1,
+      },
+    });
 
-		objsToTest.push( button );
+    button.setupState({
+      state: "hovered",
+      attributes: {
+        offset: 0.02,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.hovered),
+        backgroundOpacity: 1,
+      },
+    });
 
-		// Set English button as selected from the start
+    button.setupState({
+      state: "selected",
+      attributes: {
+        offset: 0.01,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.selected),
+        backgroundOpacity: 1,
+      },
+      onSet: () => {
+        // enable intersection checking for the previous layout button,
+        // then disable it for the current button
 
-		if ( options[ 1 ] === 'eng' ) {
+        if (currentLayoutButton) objsToTest.push(currentLayoutButton);
 
-			button.setState( 'selected' );
+        if (keyboard) {
+          clear(keyboard);
 
-			currentLayoutButton = button;
+          keyboard.panels.forEach((panel) => clear(panel));
+        }
 
-		}
+        currentLayoutButton = button;
 
-		return button;
+        makeKeyboard(options[1]);
+      },
+    });
 
-	} );
+    objsToTest.push(button);
+
+    // Set English button as selected from the start
+
+    if (options[1] === "eng") {
+      button.setState("selected");
+
+      currentLayoutButton = button;
+    }
+
+    return button;
+  });
 
   // CONTAINER
 
-	layoutOptions = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-		fontFamily: fontName,
-		fontTexture: fontName,
-		height: 0.25,
-		width: 2,
-		offset: 0,
-		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.panelBack ),
-		backgroundOpacity: 1
-	} ).add(
-		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-			height: 0.1,
-			width: 0.6,
-			offset: 0,
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( {
-				fontSize: 0.04,
-				content: 'Select a keyboard layout :'
-			} )
-		),
+  layoutOptions = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+    fontFamily: fontName,
+    fontTexture: fontName,
+    height: 0.25,
+    width: 2,
+    offset: 0,
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.panelBack),
+    backgroundOpacity: 1,
+  }).add(
+    new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+      height: 0.1,
+      width: 0.6,
+      offset: 0,
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(
+      new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text({
+        fontSize: 0.04,
+        content: "Select a keyboard layout :",
+      })
+    ),
 
-		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-			height: 0.075,
-			width: 1,
-			offset: 0,
-			contentDirection: 'row',
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			layoutButtons[ 0 ],
-			layoutButtons[ 1 ],
-			layoutButtons[ 2 ],
-			layoutButtons[ 3 ]
-		),
+    new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+      height: 0.075,
+      width: 1,
+      offset: 0,
+      contentDirection: "row",
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(
+      layoutButtons[0],
+      layoutButtons[1],
+      layoutButtons[2],
+      layoutButtons[3]
+    ),
 
-		new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block( {
-			height: 0.075,
-			width: 1,
-			offset: 0,
-			contentDirection: 'row',
-			justifyContent: 'center',
-			backgroundOpacity: 0
-		} ).add(
-			layoutButtons[ 4 ],
-			layoutButtons[ 5 ],
-			layoutButtons[ 6 ]
-		)
-	);
+    new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Block({
+      height: 0.075,
+      width: 1,
+      offset: 0,
+      contentDirection: "row",
+      justifyContent: "center",
+      backgroundOpacity: 0,
+    }).add(layoutButtons[4], layoutButtons[5], layoutButtons[6])
+  );
 
-	layoutOptions.position.set( 0, 0.7, 0 );
-	container.add( layoutOptions );
-	objsToTest.push( layoutOptions );
-
+  layoutOptions.position.set(1.5, 0.7, -2);
+  container.add(layoutOptions);
+  objsToTest.push(layoutOptions);
 }
 
-function makeKeyboard( language ) {
+function makeKeyboard(language) {
+  keyboard = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Keyboard({
+    language: language,
+    width: 6,
+    height: 2,
+    fontFamily: fontName,
+    fontTexture: fontName,
+    fontSize: 0.15, // fontSize will propagate to the keys blocks
+    backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.keyboardBack),
+    backgroundOpacity: 1,
+    backspaceTexture: _assets_backspace_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+    shiftTexture: _assets_shift_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+    enterTexture: _assets_enter_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+  });
 
-	keyboard = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Keyboard( {
-		language: language,
-    width: 2,
-		fontFamily: fontName,
-		fontTexture: fontName,
-		fontSize: 0.035, // fontSize will propagate to the keys blocks
-		backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.keyboardBack ),
-		backgroundOpacity: 1,
-		backspaceTexture: _assets_backspace_png__WEBPACK_IMPORTED_MODULE_10__["default"],
-		shiftTexture: _assets_shift_png__WEBPACK_IMPORTED_MODULE_12__["default"],
-		enterTexture: _assets_enter_png__WEBPACK_IMPORTED_MODULE_11__["default"]
-	} );
+  keyboard.position.set(3, 0.5, -4);
+  keyboard.rotation.x = -0.35;
+  scene.add(keyboard);
 
-	keyboard.position.set( 1.2, 0.7, -1.5 );
-	keyboard.rotation.x = -0.35;
-	scene.add( keyboard );
+  //
 
-	//
+  //userText = new ThreeMeshUI.Text( { content: '' } );
 
-  userText = new three_mesh_ui__WEBPACK_IMPORTED_MODULE_0__["default"].Text( { content: '' } );
+  keyboard.keys.forEach((key) => {
+    objsToTest.push(key);
 
-	keyboard.keys.forEach( ( key ) => {
+    key.setupState({
+      state: "idle",
+      attributes: {
+        offset: 0,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.button),
+        backgroundOpacity: 1,
+      },
+    });
 
-		objsToTest.push( key );
+    key.setupState({
+      state: "hovered",
+      attributes: {
+        offset: 0,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.hovered),
+        backgroundOpacity: 1,
+      },
+    });
 
-		key.setupState( {
-			state: 'idle',
-			attributes: {
-				offset: 0,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.button ),
-				backgroundOpacity: 1
-			}
-		} );
+    key.setupState({
+      state: "selected",
+      attributes: {
+        offset: -0.009,
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color(colors.selected),
+        backgroundOpacity: 1,
+      },
+      // triggered when the user clicked on a keyboard's key
+      onSet: () => {
+        // if the key have a command (eg: 'backspace', 'switch', 'enter'...)
+        // special actions are taken
+        if (key.info.command) {
+          switch (key.info.command) {
+            // switch between panels
+            case "switch":
+              keyboard.setNextPanel();
+              break;
 
-		key.setupState( {
-			state: 'hovered',
-			attributes: {
-				offset: 0,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.hovered ),
-				backgroundOpacity: 1
-			}
-		} );
+            // switch between panel charsets (eg: russian/english)
+            case "switch-set":
+              keyboard.setNextCharset();
+              break;
 
-		key.setupState( {
-			state: 'selected',
-			attributes: {
-				offset: -0.009,
-				backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color( colors.selected ),
-				backgroundOpacity: 1
-			},
-			// triggered when the user clicked on a keyboard's key
-			onSet: () => {
+            case "enter":
+              userText.set({ content: userText.content + "\n" });
+              break;
 
-				// if the key have a command (eg: 'backspace', 'switch', 'enter'...)
-				// special actions are taken
-				if ( key.info.command ) {
+            case "space":
+              userText.set({ content: userText.content + " " });
+              break;
 
-					switch ( key.info.command ) {
+            case "backspace":
+              if (!userText.content.length) break;
+              userText.set({
+                content:
+                  userText.content.substring(0, userText.content.length - 1) ||
+                  "",
+              });
+              break;
 
-						// switch between panels
-						case 'switch' :
-							keyboard.setNextPanel();
-							break;
+            case "shift":
+              keyboard.toggleCase();
+              break;
+          }
 
-						// switch between panel charsets (eg: russian/english)
-						case 'switch-set' :
-							keyboard.setNextCharset();
-							break;
+          // print a glyph, if any
+        } else if (key.info.input) {
+          userText.set({ content: userText.content + key.info.input });
+        }
+      },
+    });
 
-						case 'enter' :
-							userText.set( { content: userText.content + '\n' } );
-							break;
+    //console.log(keyboard.keys[0]);
+  });
+}
 
-						case 'space' :
-							userText.set( { content: userText.content + ' ' } );
-							break;
+function onSelectStart(event, controller) {
+  //controller.children[0].scale.z = 10;
+  //rotationMatrix = new THREE.Matrix4();
+  rotationMatrix.extractRotation(controller.matrixWorld);
+  //raycaster = new THREE.Raycaster();
+  raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
+  raycaster.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix);
+  intersects = raycaster.intersectObjects([playButton]);
+  const next = raycaster.intersectObjects([nextButton]);
+  const prev = raycaster.intersectObjects([prevButton]);
 
-						case 'backspace' :
-							if ( !userText.content.length ) break;
-							userText.set( {
-								content: userText.content.substring( 0, userText.content.length - 1 ) || ''
-							} );
-							break;
+  const send = raycaster.intersectObjects([chatButton]);
 
-						case 'shift' :
-							keyboard.toggleCase();
-							break;
+  if (intersects.length > 0) {
+    if (video.paused) {
+      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("play");
+    } else {
+      _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("pause");
+    }
+  } else if (next.length > 0) {
+    const nextVideoEl = videos[1];
+    const nextPosterEl = textures[1];
 
-					}
+    _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
+      video: nextVideoEl,
+      poster: nextPosterEl,
+    });
+  } else if (prev.length > 0) {
+    const lastVideoEl = videos[videos.length - 1];
+    const lastPosterEl = textures[textures.length - 1];
 
-					// print a glyph, if any
-				} else if ( key.info.input ) {
+    _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("videoVariant", {
+      video: lastVideoEl,
+      poster: lastPosterEl,
+    });
+  } else if (send.length > 0 && userText.content !== "") {
+    _socket__WEBPACK_IMPORTED_MODULE_1__.socket.emit("sendMessage", userText.content);
+    userText.set({ content: "" });
+  }
 
-					userText.set( { content: userText.content + key.info.input } );
-
-				}
-
-			}
-		} );
-
-	} );
-
-};
+  for (let i = 0; i < keyboard.keys.length; i++) {
+    if (raycaster.intersectObjects([keyboard.keys[i]]).length > 0) {
+      userText.set({ content: userText.content + keyboard.keys[i].info.input });
+    }
+  }
+}
 
 function buildControllers() {
   const controllerModelFactory = new three_examples_jsm_webxr_XRControllerModelFactory__WEBPACK_IMPORTED_MODULE_17__.XRControllerModelFactory();

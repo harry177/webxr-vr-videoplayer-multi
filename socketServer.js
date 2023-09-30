@@ -10,6 +10,7 @@ const socketServer = (server, port) => {
   console.log(`Server started on port ${port}`);
 
   const users = [];
+  const chat = [];
 
   io.on("connection", (socket) => {
     console.log("socket connect successful");
@@ -30,10 +31,15 @@ const socketServer = (server, port) => {
 
     socket.on('play', () => {
       io.emit('playConfirm');
-    })
+    });
 
     socket.on('pause', () => {
       io.emit('pauseConfirm');
+    });
+
+    socket.on('sendMessage', (message) => {
+      chat.push(message);
+      io.emit('updateChat', chat);
     })
 
     socket.on("disconnect", () => {});
