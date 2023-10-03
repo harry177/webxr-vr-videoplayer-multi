@@ -81,7 +81,8 @@ let scene,
   userText,
   currentLayoutButton,
   layoutOptions,
-  chatButton;
+  chatButton,
+  updatedKeyboard;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -460,28 +461,24 @@ function makeUI() {
   container.add(chat);
 
   socket.on("updateChat", (messages) => {
+    while (chat.childrenBoxes.length > 0) {
+      chat.remove(chat.childrenBoxes[0]);
+    }
 
-  while (chat.childrenBoxes.length > 0) {
-    chat.remove(chat.childrenBoxes[0]);
-  }
+    for (let i = 0; i < messages.length; i++) {
+      const message = messages[i];
 
-  for (let i = 0; i < messages.length; i++) {
-    const message = messages[i];
+      const newBlock = new ThreeMeshUI.Block({
+        width: 3.0,
+        height: 0.3,
+        borderRadius: 0.2,
+        textAlign: "center",
+      }).add(new ThreeMeshUI.Text({ content: message }));
 
-    const newBlock = new ThreeMeshUI.Block({
-      width: 3.0,
-      height: 0.3,
-      borderRadius: 0.2,
-      textAlign: "center",
-    }).add(
-      new ThreeMeshUI.Text({ content: message })
-    );
+      chat.add(newBlock);
+    }
 
-    chat.add(newBlock);
-  }
-
-  chat.update(true, true, true);
-
+    chat.update(true, true, true);
   });
 
   //////////////
@@ -506,7 +503,7 @@ function makeUI() {
     width: 2,
     height: 0.2,
     justifyContent: "center",
-    fontSize: 0.045,
+    fontSize: 0.1,
     backgroundOpacity: 0,
   }).add(new ThreeMeshUI.Text({ content: "Type some text on the keyboard" }));
 
@@ -515,7 +512,7 @@ function makeUI() {
   const textField = new ThreeMeshUI.Block({
     width: 2,
     height: 0.7,
-    fontSize: 0.1,
+    fontSize: 0.2,
     padding: 0.02,
     backgroundOpacity: 0,
   }).add(userText);
@@ -691,6 +688,8 @@ function makeKeyboard(language) {
   keyboard.rotation.x = -0.35;
   scene.add(keyboard);
 
+  updatedKeyboard = keyboard.keys.splice(33, 34);
+
   //
 
   //userText = new ThreeMeshUI.Text( { content: '' } );
@@ -716,7 +715,7 @@ function makeKeyboard(language) {
       },
     });
 
-    key.setupState({
+    /*key.setupState({
       state: "selected",
       attributes: {
         offset: -0.009,
@@ -766,7 +765,7 @@ function makeKeyboard(language) {
           userText.set({ content: userText.content + key.info.input });
         }
       },
-    });
+    });*/
 
     //console.log(keyboard.keys[0]);
   });
@@ -812,8 +811,51 @@ function onSelectStart(event, controller) {
     userText.set({ content: "" });
   }
 
+  console.log(keyboard.keys);
+
   for (let i = 0; i < keyboard.keys.length; i++) {
-    if (raycaster.intersectObjects([keyboard.keys[i]]).length > 0) {
+    if (
+      raycaster.intersectObjects([keyboard.keys[i]]).length > 0 &&
+      keyboard.keys[i].info.command
+    ) {
+      switch (keyboard.keys[i].info.command) {
+        // switch between panels
+        case "switch":
+          keyboard.setNextPanel();
+          const tempArray = updatedKeyboard.slice();
+          updatedKeyboard = keyboard.keys.slice();
+          keyboard.keys = tempArray;
+          break;
+
+        // switch between panel charsets (eg: russian/english)
+        case "switch-set":
+          keyboard.setNextCharset();
+          break;
+
+        case "enter":
+          userText.set({ content: userText.content + "\n" });
+          break;
+
+        case "space":
+          userText.set({ content: userText.content + " " });
+          break;
+
+        case "backspace":
+          if (!userText.content.length) break;
+          userText.set({
+            content:
+              userText.content.substring(0, userText.content.length - 1) || "",
+          });
+          break;
+
+        case "shift":
+          keyboard.toggleCase();
+          break;
+      }
+    } else if (
+      raycaster.intersectObjects([keyboard.keys[i]]).length > 0 &&
+      !keyboard.keys[i].info.command
+    ) {
       userText.set({ content: userText.content + keyboard.keys[i].info.input });
     }
   }
