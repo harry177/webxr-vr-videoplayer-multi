@@ -82,7 +82,10 @@ let scene,
   currentLayoutButton,
   layoutOptions,
   chatButton,
-  updatedKeyboard;
+  updatedKeyboard,
+  receivedData = [],
+  isPingSent = false,
+  actualTime;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -95,6 +98,7 @@ function preload() {
   renderer.setSize(WIDTH, HEIGHT);
   renderer.xr.enabled = true;
   renderer.autoClear = false;
+  renderer.localClippingEnabled = true;
   vrButton = VRButton.createButton(renderer);
   document.body.appendChild(vrButton);
   document.body.appendChild(renderer.domElement);
@@ -157,89 +161,114 @@ async function init() {
 
   createMenu();
   createPlayer();
-  //createChat();
   makeUI();
-
-  socket.emit("newConnect");
 
   socket.on("echo", () => {
     console.log(video.currentTime);
     video.pause();
     playText.setState("play");
-    currentVideo &&
-      socket.emit("videoVariant", {
-        video: currentVideo,
-        poster: currentPoster,
-        time: video.currentTime,
-      });
+
+    socket.emit("newJoined", {
+      video: currentVideo,
+      poster: currentPoster,
+      time: video.currentTime,
+      status: isVideoPlaying,
+    });
   });
 
   socket.on("newVideo", (update) => {
-    if (update.video !== videos[0] || update.time) {
-      const indexVideo = videos.indexOf(update.video);
+    console.log("new video");
+    isPingSent = true;
 
-      const extractedVideos = videos.splice(0, indexVideo);
+    const newPoster = textures.findIndex(
+      (poster) => poster.id === update.poster.id
+    );
+    const extractedPosters = textures.splice(0, newPoster);
 
-      videos.push(...extractedVideos);
+    textures.push(...extractedPosters);
 
-      source.src = videos[0];
-      currentVideo = videos[0];
-      video.load();
+    currentPoster = textures[0];
 
-      const newPoster = textures.findIndex(
-        (poster) => poster.id === update.poster.id
-      );
-      const extractedPosters = textures.splice(0, newPoster);
+    const indexVideo = videos.indexOf(update.video);
 
-      textures.push(...extractedPosters);
+    const extractedVideos = videos.splice(0, indexVideo);
 
-      //videoMesh.material.map = textures[0].poster;
-      currentPoster = textures[0];
+    videos.push(...extractedVideos);
 
-      if (playText.content === "Pause") {
-        videoMesh.material.map = videoTexture;
-        setTimeout(() => {
-          video.play();
-        }, 100);
-        playText.setState("pause");
-        isVideoPlaying = true;
-      } else if (playText.content === "Play" && update.time) {
-        console.log(update.time);
-        videoMesh.material.map = videoTexture;
-        video.currentTime = update.time;
-        setTimeout(() => {
-          video.play();
-        }, 100);
-        playText.setState("pause");
+    /*if (navigator.userAgent.includes('Firefox')) {
+        actualTime = update.time + 0.14 || 0;
       } else {
-        videoMesh.material.map = textures[0].poster;
-        setTimeout(() => {
-          video.pause();
-        }, 100);
-        isVideoPlaying = false;
-        currentPoster = textures[0];
-      }
-    } else if (!video.paused && !video.currentTime) {
-      setTimeout(() => {
-        video.play();
-      }, 100);
+        actualTime = update.time || 0;
+      }*/
+
+    actualTime = update.time || 0;
+
+    update.status ? (isVideoPlaying = true) : console.log(isVideoPlaying);
+
+    source.src = videos[0];
+    currentVideo = videos[0];
+
+    video.load();
+  });
+
+  socket.on("pong", () => {
+    if (playText.content === "Pause") {
+      videoMesh.material.map = videoTexture;
+
+      video.play();
+
       playText.setState("pause");
+      isVideoPlaying = true;
+    } else if (playText.content === "Play" && actualTime && isVideoPlaying) {
+      console.log(actualTime);
+      videoMesh.material.map = videoTexture;
+      video.currentTime = actualTime;
+
+      video.play();
+
+      playText.setState("pause");
+    } else if (playText.content === "Play" && actualTime && !isVideoPlaying) {
+      console.log(actualTime);
+      videoMesh.material.map = videoTexture;
+      video.currentTime = actualTime;
+    } else {
+      videoMesh.material.map = textures[0].poster;
+
+      video.pause();
+
+      isVideoPlaying = false;
+      currentPoster = textures[0];
+    }
+  });
+
+  video.addEventListener("canplaythrough", () => {
+    if (isPingSent) {
+      console.log("listener");
+
+      socket.emit("ping");
+
+      isPingSent = false;
     }
   });
 
   socket.on("playConfirm", () => {
-    videoMesh.material.map = videoTexture;
-    setTimeout(() => {
-      video.play();
-    }, 100);
-    isVideoPlaying = true;
+    //videoMesh.material.map = videoTexture;
+
+    //video.play();
     playText.setState("pause");
+
+    if (!video.currentTime) {
+      isPingSent = true;
+      video.load();
+    } else {
+      //videoMesh.material.map = videoTexture;
+      video.play();
+    }
+    isVideoPlaying = true;
   });
 
   socket.on("pauseConfirm", () => {
-    setTimeout(() => {
-      video.pause();
-    }, 100);
+    video.pause();
     isVideoPlaying = false;
     playText.setState("play");
   });
@@ -415,6 +444,9 @@ function createPlayer() {
   source.type = "video/mp4";
   source.src = videos[0];
 
+  currentVideo = videos[0];
+  currentPoster = textures[0];
+
   document.body.appendChild(video);
   video.appendChild(source);
 
@@ -434,6 +466,8 @@ function createPlayer() {
   videoMesh.position.set(-5, 2.3, -6.95);
 
   scene.add(videoMesh);
+
+  socket.emit("newConnect");
 }
 
 function makeUI() {
@@ -447,13 +481,14 @@ function makeUI() {
   chat = new ThreeMeshUI.Block({
     fontFamily: fontName,
     fontTexture: fontName,
-    width: 4.0,
-    height: 1.5,
+    width: 5.0,
+    height: 2,
     padding: 0.05,
     borderRadius: 0.2,
     fontColor: new THREE.Color("white"),
     fontSize: 0.2,
     justifyContent: "end",
+    hiddenOverflow: true,
   });
 
   chat.position.set(1.5, 3, -2);
@@ -469,10 +504,11 @@ function makeUI() {
       const message = messages[i];
 
       const newBlock = new ThreeMeshUI.Block({
-        width: 3.0,
-        height: 0.3,
+        width: 4.0,
+        height: 0.5,
         borderRadius: 0.2,
         textAlign: "center",
+        bestFit: "shrink",
       }).add(new ThreeMeshUI.Text({ content: message }));
 
       chat.add(newBlock);
@@ -488,13 +524,13 @@ function makeUI() {
   const textPanel = new ThreeMeshUI.Block({
     fontFamily: fontName,
     fontTexture: fontName,
-    width: 5,
+    width: 4.2,
     height: 1.3,
     backgroundColor: new THREE.Color(colors.panelBack),
     backgroundOpacity: 1,
   });
 
-  textPanel.position.set(1.5, 1.5, -2);
+  textPanel.position.set(1.5, 1.2, -2);
   container.add(textPanel);
 
   //
@@ -510,23 +546,30 @@ function makeUI() {
   userText = new ThreeMeshUI.Text({ content: "" });
 
   const textField = new ThreeMeshUI.Block({
-    width: 2,
+    width: 3,
     height: 0.7,
+    borderWidth: 0.005,
+      borderColor: new THREE.Color("white"),
     fontSize: 0.2,
     padding: 0.02,
+    hiddenOverflow: false,
+    bestFit: "shrink",
     backgroundOpacity: 0,
   }).add(userText);
 
-  const chatButtonText = new ThreeMeshUI.Text({ content: "Send" });
+  const chatButtonText = new ThreeMeshUI.Text({
+    content: "Send",
+    fontSize: 0.15,
+  });
 
   chatButton = new ThreeMeshUI.Block({
-    width: 0.5,
-    height: 0.3,
+    width: 0.6,
+    height: 0.2,
     backgroundOpacity: 1,
     backgroundColor: new THREE.Color("blue"),
   }).add(chatButtonText);
 
-  textPanel.add(title, textField, chatButton);
+  textPanel.add(title, textField);
 
   ////////////////////////
   // LAYOUT OPTIONS PANEL
@@ -536,18 +579,13 @@ function makeUI() {
 
   let layoutButtons = [
     ["English", "eng"],
-    ["Nordic", "nord"],
-    ["German", "de"],
-    ["Spanish", "es"],
-    ["French", "fr"],
     ["Russian", "ru"],
-    ["Greek", "el"],
   ];
 
   layoutButtons = layoutButtons.map((options) => {
     const button = new ThreeMeshUI.Block({
-      height: 0.06,
-      width: 0.2,
+      height: 0.2,
+      width: 0.8,
       margin: 0.012,
       justifyContent: "center",
       backgroundColor: new THREE.Color(colors.button),
@@ -555,7 +593,7 @@ function makeUI() {
     }).add(
       new ThreeMeshUI.Text({
         offset: 0,
-        fontSize: 0.035,
+        fontSize: 0.15,
         content: options[0],
       })
     );
@@ -621,47 +659,22 @@ function makeUI() {
   layoutOptions = new ThreeMeshUI.Block({
     fontFamily: fontName,
     fontTexture: fontName,
-    height: 0.25,
-    width: 2,
+    height: 0.3,
+    width: 4,
     offset: 0,
     backgroundColor: new THREE.Color(colors.panelBack),
     backgroundOpacity: 1,
   }).add(
     new ThreeMeshUI.Block({
-      height: 0.1,
-      width: 0.6,
-      offset: 0,
-      justifyContent: "center",
-      backgroundOpacity: 0,
-    }).add(
-      new ThreeMeshUI.Text({
-        fontSize: 0.04,
-        content: "Select a keyboard layout :",
-      })
-    ),
-
-    new ThreeMeshUI.Block({
-      height: 0.075,
-      width: 1,
+      height: 0.3,
+      width: 3,
       offset: 0,
       contentDirection: "row",
-      justifyContent: "center",
+      justifyContent: "space-between",
       backgroundOpacity: 0,
-    }).add(
-      layoutButtons[0],
-      layoutButtons[1],
-      layoutButtons[2],
-      layoutButtons[3]
-    ),
-
-    new ThreeMeshUI.Block({
-      height: 0.075,
-      width: 1,
-      offset: 0,
-      contentDirection: "row",
-      justifyContent: "center",
-      backgroundOpacity: 0,
-    }).add(layoutButtons[4], layoutButtons[5], layoutButtons[6])
+      borderWidth: 0.005,
+      borderColor: new THREE.Color("white"),
+    }).add(layoutButtons[0], chatButton, layoutButtons[1])
   );
 
   layoutOptions.position.set(1.5, 0.7, -2);
@@ -684,7 +697,7 @@ function makeKeyboard(language) {
     enterTexture: Enter,
   });
 
-  keyboard.position.set(3, 0.5, -4);
+  keyboard.position.set(3, 0.2, -4);
   keyboard.rotation.x = -0.35;
   scene.add(keyboard);
 
@@ -694,7 +707,7 @@ function makeKeyboard(language) {
 
   //userText = new ThreeMeshUI.Text( { content: '' } );
 
-  keyboard.keys.forEach((key) => {
+  /*keyboard.keys.forEach((key) => {
     objsToTest.push(key);
 
     key.setupState({
@@ -715,7 +728,7 @@ function makeKeyboard(language) {
       },
     });
 
-    /*key.setupState({
+    key.setupState({
       state: "selected",
       attributes: {
         offset: -0.009,
@@ -765,10 +778,10 @@ function makeKeyboard(language) {
           userText.set({ content: userText.content + key.info.input });
         }
       },
-    });*/
+    });
 
     //console.log(keyboard.keys[0]);
-  });
+  });*/
 }
 
 function onSelectStart(event, controller) {
@@ -810,8 +823,6 @@ function onSelectStart(event, controller) {
     socket.emit("sendMessage", userText.content);
     userText.set({ content: "" });
   }
-
-  console.log(keyboard.keys);
 
   for (let i = 0; i < keyboard.keys.length; i++) {
     if (

@@ -1,5 +1,6 @@
 const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: "none",
@@ -20,6 +21,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               outputPath: "assets",
+              name: '[name].[ext]',
             },
           },
         ],
@@ -36,8 +38,9 @@ module.exports = {
     ],
   },
   plugins: [
-    new CopyWebpackPlugin({
-      patterns: [{ from: "./src/index.html", to: "index.html" }],
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      excludeChunks: ['index'],
     }),
   ],
   devServer: {

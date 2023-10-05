@@ -1,4 +1,5 @@
 const path = require("path");
+const fs = require("fs");
 const http = require("http");
 const express = require("express");
 const socketServer = require("./socketServer");
@@ -7,10 +8,9 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, "dist")));
 
-
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "dist", "index.html"));
-  });
+  res.sendFile(path.resolve(__dirname, "dist", "index.html"));
+});
 
 const port = process.env.PORT || 8080;
 
