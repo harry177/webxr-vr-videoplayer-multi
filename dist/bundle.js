@@ -74781,7 +74781,7 @@ function makeUI() {
         width: 5.0,
         height: 0.5,
         borderRadius: 0.2,
-        contentDirection: 'row',
+        contentDirection: "row",
         justifyContent: messages[i].id === 1 ? "end" : "start",
         backgroundColor: null,
         backgroundOpacity: 0,
@@ -74791,7 +74791,7 @@ function makeUI() {
         width: 4.0,
         height: 0.5,
         borderRadius: 0.2,
-        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color('black'),
+        backgroundColor: new three__WEBPACK_IMPORTED_MODULE_14__.Color("black"),
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
@@ -75125,53 +75125,55 @@ function buildControllers() {
 }
 
 function handleControllers(controller1, controller2) {
-  const rotationMatrix1 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
-  rotationMatrix1.extractRotation(controller1.matrixWorld);
-  const raycaster1 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
-  raycaster1.ray.origin.setFromMatrixPosition(controller1.matrixWorld);
-  raycaster1.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix1);
+  if (controller1 && controller2) {
+    const rotationMatrix1 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
+    rotationMatrix1.extractRotation(controller1.matrixWorld);
+    const raycaster1 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
+    raycaster1.ray.origin.setFromMatrixPosition(controller1.matrixWorld);
+    raycaster1.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix1);
 
-  const rotationMatrix2 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
-  rotationMatrix2.extractRotation(controller2.matrixWorld);
-  const raycaster2 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
-  raycaster2.ray.origin.setFromMatrixPosition(controller2.matrixWorld);
-  raycaster2.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix2);
+    const rotationMatrix2 = new three__WEBPACK_IMPORTED_MODULE_14__.Matrix4();
+    rotationMatrix2.extractRotation(controller2.matrixWorld);
+    const raycaster2 = new three__WEBPACK_IMPORTED_MODULE_14__.Raycaster();
+    raycaster2.ray.origin.setFromMatrixPosition(controller2.matrixWorld);
+    raycaster2.ray.direction.set(0, 0, -1).applyMatrix4(rotationMatrix2);
 
-  const buttons = [playButton, nextButton, prevButton];
+    const buttons = [playButton, nextButton, prevButton];
 
-  const keyboardButtons = keyboard.keys;
+    const keyboardButtons = keyboard.keys;
 
-  buttons.forEach((button) => {
-    let isHovered = false;
-    if (
-      raycaster1.intersectObject(button).length > 0 ||
-      raycaster2.intersectObject(button).length > 0
-    ) {
-      isHovered = true;
-    }
+    buttons.forEach((button) => {
+      let isHovered = false;
+      if (
+        raycaster1.intersectObject(button).length > 0 ||
+        raycaster2.intersectObject(button).length > 0
+      ) {
+        isHovered = true;
+      }
 
-    if (isHovered) {
-      button.setState("hovered");
-    } else {
-      button.setState("idle");
-    }
-  });
+      if (isHovered) {
+        button.setState("hovered");
+      } else {
+        button.setState("idle");
+      }
+    });
 
-  keyboardButtons.forEach((button) => {
-    let isHovered = false;
-    if (
-      raycaster1.intersectObject(button).length > 0 ||
-      raycaster2.intersectObject(button).length > 0
-    ) {
-      isHovered = true;
-    }
+    keyboardButtons.forEach((button) => {
+      let isHovered = false;
+      if (
+        raycaster1.intersectObject(button).length > 0 ||
+        raycaster2.intersectObject(button).length > 0
+      ) {
+        isHovered = true;
+      }
 
-    if (isHovered) {
-      button.setState("hovered");
-    } else {
-      button.setState("idle");
-    }
-  });
+      if (isHovered) {
+        button.setState("hovered");
+      } else {
+        button.setState("idle");
+      }
+    });
+  }
 }
 
 function loop() {
