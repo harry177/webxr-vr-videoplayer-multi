@@ -78,6 +78,8 @@ let scene,
   chat,
   chatContent,
   keyboard,
+  idleAttributes,
+  hoveredAttributes,
   userText,
   currentLayoutButton,
   layoutOptions,
@@ -85,7 +87,13 @@ let scene,
   updatedKeyboard,
   receivedData = [],
   isPingSent = false,
-  actualTime;
+  actualTime,
+  languageSet = "eng",
+  layoutButtons = [
+    ["English", "eng"],
+    ["Russian", "ru"],
+  ],
+  tempArray;
 
 window.addEventListener("load", preload);
 window.addEventListener("resize", onWindowResize);
@@ -243,8 +251,6 @@ async function init() {
 
   video.addEventListener("canplaythrough", () => {
     if (isPingSent) {
-      console.log("listener");
-
       socket.emit("ping");
 
       isPingSent = false;
@@ -348,12 +354,12 @@ function createMenu() {
 
   prevButton.add(prevText);
 
-  const hoveredAttributes = {
+  hoveredAttributes = {
     backgroundColor: new THREE.Color("white"),
     backgroundOpacity: 0.3,
   };
 
-  const idleAttributes = {
+  idleAttributes = {
     backgroundColor: new THREE.Color(0x777777),
   };
 
@@ -478,6 +484,8 @@ function makeUI() {
 
   chatContent = new ThreeMeshUI.Text({ content: "" });
 
+  // CHAT
+
   chat = new ThreeMeshUI.Block({
     fontFamily: fontName,
     fontTexture: fontName,
@@ -485,6 +493,7 @@ function makeUI() {
     height: 2,
     padding: 0.05,
     borderRadius: 0.2,
+    backgroundColor: new THREE.Color(colors.panelBack),
     fontColor: new THREE.Color("white"),
     fontSize: 0.2,
     justifyContent: "end",
@@ -496,22 +505,38 @@ function makeUI() {
   container.add(chat);
 
   socket.on("updateChat", (messages) => {
+    console.log(messages);
     while (chat.childrenBoxes.length > 0) {
       chat.remove(chat.childrenBoxes[0]);
     }
 
     for (let i = 0; i < messages.length; i++) {
-      const message = messages[i];
+      const message = messages[i].message;
+
+      const mainBlock = new ThreeMeshUI.Block({
+        width: 5.0,
+        height: 0.5,
+        borderRadius: 0.2,
+        contentDirection: 'row',
+        justifyContent: messages[i].id === 1 ? "end" : "start",
+        backgroundColor: null,
+        backgroundOpacity: 0,
+      });
 
       const newBlock = new ThreeMeshUI.Block({
         width: 4.0,
         height: 0.5,
         borderRadius: 0.2,
+        backgroundColor: new THREE.Color('black'),
+        justifyContent: "center",
+        alignItems: "center",
         textAlign: "center",
         bestFit: "shrink",
       }).add(new ThreeMeshUI.Text({ content: message }));
 
-      chat.add(newBlock);
+      mainBlock.add(newBlock);
+
+      chat.add(mainBlock);
     }
 
     chat.update(true, true, true);
@@ -549,7 +574,7 @@ function makeUI() {
     width: 3,
     height: 0.7,
     borderWidth: 0.005,
-      borderColor: new THREE.Color("white"),
+    borderColor: new THREE.Color("white"),
     fontSize: 0.2,
     padding: 0.02,
     hiddenOverflow: false,
@@ -576,11 +601,6 @@ function makeUI() {
   ////////////////////////
 
   // BUTTONS
-
-  let layoutButtons = [
-    ["English", "eng"],
-    ["Russian", "ru"],
-  ];
 
   layoutButtons = layoutButtons.map((options) => {
     const button = new ThreeMeshUI.Block({
@@ -624,26 +644,11 @@ function makeUI() {
         backgroundOpacity: 1,
       },
       onSet: () => {
-        // enable intersection checking for the previous layout button,
-        // then disable it for the current button
-
-        if (currentLayoutButton) objsToTest.push(currentLayoutButton);
-
-        if (keyboard) {
-          clear(keyboard);
-
-          keyboard.panels.forEach((panel) => clear(panel));
-        }
-
-        currentLayoutButton = button;
-
-        makeKeyboard(options[1]);
+        makeKeyboard(languageSet);
       },
     });
 
     objsToTest.push(button);
-
-    // Set English button as selected from the start
 
     if (options[1] === "eng") {
       button.setState("selected");
@@ -689,99 +694,36 @@ function makeKeyboard(language) {
     height: 2,
     fontFamily: fontName,
     fontTexture: fontName,
-    fontSize: 0.15, // fontSize will propagate to the keys blocks
-    backgroundColor: new THREE.Color(colors.keyboardBack),
+    fontSize: 0.15,
+    backgroundColor: new THREE.Color(0x777777),
     backgroundOpacity: 1,
     backspaceTexture: Backspace,
     shiftTexture: Shift,
     enterTexture: Enter,
   });
 
+  keyboard.keys.forEach((key) => {
+    key.setupState({
+      state: "idle",
+      attributes: idleAttributes,
+    });
+    key.setupState({
+      state: "hovered",
+      attributes: hoveredAttributes,
+    });
+  });
+
   keyboard.position.set(3, 0.2, -4);
   keyboard.rotation.x = -0.35;
   scene.add(keyboard);
 
-  updatedKeyboard = keyboard.keys.splice(33, 34);
-
-  //
-
-  //userText = new ThreeMeshUI.Text( { content: '' } );
-
-  /*keyboard.keys.forEach((key) => {
-    objsToTest.push(key);
-
-    key.setupState({
-      state: "idle",
-      attributes: {
-        offset: 0,
-        backgroundColor: new THREE.Color(colors.button),
-        backgroundOpacity: 1,
-      },
-    });
-
-    key.setupState({
-      state: "hovered",
-      attributes: {
-        offset: 0,
-        backgroundColor: new THREE.Color(colors.hovered),
-        backgroundOpacity: 1,
-      },
-    });
-
-    key.setupState({
-      state: "selected",
-      attributes: {
-        offset: -0.009,
-        backgroundColor: new THREE.Color(colors.selected),
-        backgroundOpacity: 1,
-      },
-      // triggered when the user clicked on a keyboard's key
-      onSet: () => {
-        // if the key have a command (eg: 'backspace', 'switch', 'enter'...)
-        // special actions are taken
-        if (key.info.command) {
-          switch (key.info.command) {
-            // switch between panels
-            case "switch":
-              keyboard.setNextPanel();
-              break;
-
-            // switch between panel charsets (eg: russian/english)
-            case "switch-set":
-              keyboard.setNextCharset();
-              break;
-
-            case "enter":
-              userText.set({ content: userText.content + "\n" });
-              break;
-
-            case "space":
-              userText.set({ content: userText.content + " " });
-              break;
-
-            case "backspace":
-              if (!userText.content.length) break;
-              userText.set({
-                content:
-                  userText.content.substring(0, userText.content.length - 1) ||
-                  "",
-              });
-              break;
-
-            case "shift":
-              keyboard.toggleCase();
-              break;
-          }
-
-          // print a glyph, if any
-        } else if (key.info.input) {
-          userText.set({ content: userText.content + key.info.input });
-        }
-      },
-    });
-
-    //console.log(keyboard.keys[0]);
-  });*/
+  if (language === "eng") {
+    updatedKeyboard = keyboard.keys.splice(-34);
+    languageSet = "eng";
+  } else {
+    updatedKeyboard = keyboard.keys.splice(-33);
+    languageSet = "ru";
+  }
 }
 
 function onSelectStart(event, controller) {
@@ -796,6 +738,9 @@ function onSelectStart(event, controller) {
   const prev = raycaster.intersectObjects([prevButton]);
 
   const send = raycaster.intersectObjects([chatButton]);
+
+  const english = raycaster.intersectObjects([layoutButtons[0]]);
+  const russian = raycaster.intersectObjects([layoutButtons[1]]);
 
   if (intersects.length > 0) {
     if (video.paused) {
@@ -822,6 +767,16 @@ function onSelectStart(event, controller) {
   } else if (send.length > 0 && userText.content !== "") {
     socket.emit("sendMessage", userText.content);
     userText.set({ content: "" });
+  } else if (russian.length > 0 && languageSet !== "ru") {
+    scene.remove(keyboard);
+    languageSet = "ru";
+    layoutButtons[1].setState("selected");
+    layoutButtons[0].setState("idle");
+  } else if (english.length > 0 && languageSet !== "eng") {
+    scene.remove(keyboard);
+    languageSet = "eng";
+    layoutButtons[0].setState("selected");
+    layoutButtons[1].setState("idle");
   }
 
   for (let i = 0; i < keyboard.keys.length; i++) {
@@ -832,10 +787,16 @@ function onSelectStart(event, controller) {
       switch (keyboard.keys[i].info.command) {
         // switch between panels
         case "switch":
-          keyboard.setNextPanel();
-          const tempArray = updatedKeyboard.slice();
-          updatedKeyboard = keyboard.keys.slice();
-          keyboard.keys = tempArray;
+          if (!tempArray) {
+            tempArray = updatedKeyboard.slice();
+            updatedKeyboard = keyboard.keys.slice();
+            keyboard.keys = tempArray;
+            keyboard.setNextPanel();
+          } else {
+            scene.remove(keyboard);
+            languageSet === "eng" ? makeKeyboard("eng") : makeKeyboard("ru");
+            tempArray = null;
+          }
           break;
 
         // switch between panel charsets (eg: russian/english)
@@ -914,7 +875,25 @@ function handleControllers(controller1, controller2) {
 
   const buttons = [playButton, nextButton, prevButton];
 
+  const keyboardButtons = keyboard.keys;
+
   buttons.forEach((button) => {
+    let isHovered = false;
+    if (
+      raycaster1.intersectObject(button).length > 0 ||
+      raycaster2.intersectObject(button).length > 0
+    ) {
+      isHovered = true;
+    }
+
+    if (isHovered) {
+      button.setState("hovered");
+    } else {
+      button.setState("idle");
+    }
+  });
+
+  keyboardButtons.forEach((button) => {
     let isHovered = false;
     if (
       raycaster1.intersectObject(button).length > 0 ||
