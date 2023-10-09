@@ -18,9 +18,13 @@ const socketServer = (server, port) => {
 
     socket.on("newConnect", () => {
       users.push(socket.id);
-      socket.broadcast.emit("echo");
-      io.to(socket.id).emit("updateChat", chat);
+      io.to(socket.id).emit("currentId", socket.id);
+      users.length < 2 ? io.to(socket.id).emit("videoData") : socket.broadcast.emit("echo");
     });
+
+    socket.on("requestChat", () => {
+      socket.emit("updateChat", chat);
+    })
 
     socket.on("newJoined", (videoObject) => {
       entryArray.push({ user: socket.id, videoData: videoObject });
@@ -29,9 +33,7 @@ const socketServer = (server, port) => {
           (el) => !entryArray.some((obj) => obj.user === el)
         );
         console.log(missingUser);
-        //io.to(missingUser).emit('videoData', entryArray[0].videoData);
-        io.emit("newVideo", entryArray[0].videoData);
-        //io.emit('videoData', entryArray[0].videoData);
+        io.to(missingUser).emit('videoData', entryArray[0].videoData);
 
         entryArray = [];
       }
@@ -60,20 +62,7 @@ const socketServer = (server, port) => {
     socket.on("sendMessage", (message) => {
       chat.push({ message: message, id: socket.id });
       console.log(chat);
-      
-      for (let i = 0; i < chat.length; i++) {
-        const handledChat = chat.map((obj) => ({ ...obj }));
-         handledChat.map((el) => {
-          if (el.id === chat[i].id) {
-            el.id = 1;
-          }
-          return el;
-        });
-        console.log(handledChat);
-        console.log(chat[i].id);
-        io.to(chat[i].id).emit("updateChat", handledChat);
-      }
-      //io.emit("updateChat", chat);
+      io.emit("updateChat", chat);
     });
 
     socket.on("ping", () => {

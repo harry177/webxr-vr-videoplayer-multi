@@ -15,7 +15,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif|mp4)$/i,
+        test: /\.(png|jpe?g|ico|gif|mp4)$/i,
         use: [
           {
             loader: "file-loader",
@@ -41,6 +41,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       excludeChunks: ['index'],
+      favicon: './assets/favicon.ico'
     }),
   ],
   devServer: {

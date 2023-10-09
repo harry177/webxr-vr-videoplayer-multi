@@ -6,6 +6,8 @@ import { XRControllerModelFactory } from "three/examples/jsm/webxr/XRControllerM
 import { TextureLoader } from "three/src/loaders/TextureLoader.js";
 import { socket } from "./socket";
 
+import '/assets/favicon.ico';
+
 import FontJSON from "/assets/Roboto-msdf.json";
 import FontImage from "/assets/Roboto-msdf.png";
 
@@ -76,6 +78,7 @@ let scene,
   currentPoster,
   isVideoPlaying,
   chat,
+  currentId,
   chatContent,
   keyboard,
   idleAttributes,
@@ -87,6 +90,7 @@ let scene,
   updatedKeyboard,
   receivedData = [],
   isPingSent = false,
+  newUpdated = false,
   actualTime,
   languageSet = "eng",
   layoutButtons = [
@@ -168,8 +172,14 @@ async function init() {
   });
 
   createMenu();
-  createPlayer();
   makeUI();
+
+  socket.emit("newConnect");
+
+  socket.on("currentId", (id) => {
+    currentId = id;
+    socket.emit('requestChat');
+  })
 
   socket.on("echo", () => {
     console.log(video.currentTime);
@@ -219,7 +229,38 @@ async function init() {
     video.load();
   });
 
+  socket.on("videoData", (update) => {
+    newUpdated = true;
+
+    if (update) {
+      
+      const newPoster = textures.findIndex(
+        (poster) => poster.id === update.poster.id
+      );
+      const extractedPosters = textures.splice(0, newPoster);
+
+      textures.push(...extractedPosters);
+
+      const indexVideo = videos.indexOf(update.video);
+
+      const extractedVideos = videos.splice(0, indexVideo);
+
+      videos.push(...extractedVideos);
+
+      actualTime = update.time || 0;
+
+      update.status ? (isVideoPlaying = true) : console.log(isVideoPlaying);
+
+      createPlayer(videos[0], textures[0], actualTime);
+
+    } else {
+      console.log(`ne prishel ${update}`);
+      createPlayer(videos[0], textures[0]);
+    }
+  });
+
   socket.on("pong", () => {
+    console.log("pong vernulsya");
     if (playText.content === "Pause") {
       videoMesh.material.map = videoTexture;
 
@@ -249,25 +290,15 @@ async function init() {
     }
   });
 
-  video.addEventListener("canplaythrough", () => {
-    if (isPingSent) {
-      socket.emit("ping");
-
-      isPingSent = false;
-    }
-  });
-
   socket.on("playConfirm", () => {
-    //videoMesh.material.map = videoTexture;
-
-    //video.play();
     playText.setState("pause");
 
     if (!video.currentTime) {
+      console.log("nu?");
+      console.log(video.currentTime);
       isPingSent = true;
       video.load();
     } else {
-      //videoMesh.material.map = videoTexture;
       video.play();
     }
     isVideoPlaying = true;
@@ -277,6 +308,69 @@ async function init() {
     video.pause();
     isVideoPlaying = false;
     playText.setState("play");
+  });
+}
+
+socket.on("avengersAssemble", () => {
+  video.play();
+  playText.setState("pause");
+});
+
+function createPlayer(actualVideo, actualPoster) {
+  video = document.createElement("video");
+  video.playsInline = true;
+  video.preload = "auto";
+  video.crossOrigin = "anonymous";
+  video.controls = true;
+  video.loop = true;
+  video.style.display = "none";
+
+  source = document.createElement("source");
+  source.type = "video/mp4";
+
+  document.body.appendChild(video);
+  video.appendChild(source);
+
+  videoTexture = new THREE.VideoTexture(video);
+  videoTexture.minFilter = THREE.LinearFilter;
+  videoTexture.magFilter = THREE.LinearFilter;
+  videoTexture.format = THREE.RGBAFormat;
+  videoTexture.needsUpdate = true;
+
+  const width = 6.0;
+  const height = 4.0;
+
+  currentVideo = actualVideo;
+
+  currentPoster = actualPoster;
+
+  source.src = actualVideo;
+
+  video.addEventListener("loadedmetadata", function () {
+    actualTime ? (video.currentTime = actualTime) : (video.currentTime = 0);
+    video.addEventListener("canplaythrough", () => {
+      console.log("ping budet?");
+      if (isPingSent) {
+        socket.emit("ping");
+
+        isPingSent = false;
+      } else if (newUpdated) {
+        const videoGeo = new THREE.PlaneGeometry(width, height);
+        const videoMat = new THREE.MeshBasicMaterial({
+          map: actualTime ? videoTexture : actualPoster.poster,
+        });
+
+        videoMesh = new THREE.Mesh(videoGeo, videoMat);
+        videoMesh.position.set(-5, 2.3, -6.95);
+
+        scene.add(videoMesh);
+        if (isVideoPlaying && scene.children.includes(videoMesh)) {
+          socket.emit("newIsReady");
+        }
+
+        newUpdated = false;
+      }
+    });
   });
 }
 
@@ -437,49 +531,9 @@ function createMenu() {
   container.add(innerContainer);
 }
 
-function createPlayer() {
-  video = document.createElement("video");
-  video.playsInline = true;
-  video.preload = "auto";
-  video.crossOrigin = "anonymous";
-  video.controls = true;
-  video.loop = true;
-  video.style.display = "none";
-
-  source = document.createElement("source");
-  source.type = "video/mp4";
-  source.src = videos[0];
-
-  currentVideo = videos[0];
-  currentPoster = textures[0];
-
-  document.body.appendChild(video);
-  video.appendChild(source);
-
-  videoTexture = new THREE.VideoTexture(video);
-  videoTexture.minFilter = THREE.LinearFilter;
-  videoTexture.magFilter = THREE.LinearFilter;
-  videoTexture.format = THREE.RGBAFormat;
-  videoTexture.needsUpdate = true;
-
-  const width = 6.0;
-  const height = 4.0;
-
-  const videoGeo = new THREE.PlaneGeometry(width, height);
-  const videoMat = new THREE.MeshBasicMaterial({ map: textures[0].poster });
-
-  videoMesh = new THREE.Mesh(videoGeo, videoMat);
-  videoMesh.position.set(-5, 2.3, -6.95);
-
-  scene.add(videoMesh);
-
-  socket.emit("newConnect");
-}
-
 function makeUI() {
   const container = new THREE.Group();
   container.position.set(1.5, 0.7, -2);
-  //container.rotation.x = -0.15;
   scene.add(container);
 
   chatContent = new ThreeMeshUI.Text({ content: "" });
@@ -518,7 +572,7 @@ function makeUI() {
         height: 0.5,
         borderRadius: 0.2,
         contentDirection: "row",
-        justifyContent: messages[i].id === 1 ? "end" : "start",
+        justifyContent: messages[i].id === currentId ? "end" : "start",
         backgroundColor: null,
         backgroundOpacity: 0,
       });
@@ -542,9 +596,7 @@ function makeUI() {
     chat.update(true, true, true);
   });
 
-  //////////////
   // TEXT PANEL
-  //////////////
 
   const textPanel = new ThreeMeshUI.Block({
     fontFamily: fontName,
@@ -557,8 +609,6 @@ function makeUI() {
 
   textPanel.position.set(1.5, 1.2, -2);
   container.add(textPanel);
-
-  //
 
   const title = new ThreeMeshUI.Block({
     width: 2,
@@ -596,9 +646,8 @@ function makeUI() {
 
   textPanel.add(title, textField);
 
-  ////////////////////////
+ 
   // LAYOUT OPTIONS PANEL
-  ////////////////////////
 
   // BUTTONS
 
