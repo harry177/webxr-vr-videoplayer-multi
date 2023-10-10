@@ -182,7 +182,6 @@ async function init() {
   })
 
   socket.on("echo", () => {
-    console.log(video.currentTime);
     video.pause();
     playText.setState("play");
 
@@ -195,7 +194,6 @@ async function init() {
   });
 
   socket.on("newVideo", (update) => {
-    console.log("new video");
     isPingSent = true;
 
     const newPoster = textures.findIndex(
@@ -254,13 +252,11 @@ async function init() {
       createPlayer(videos[0], textures[0], actualTime);
 
     } else {
-      console.log(`ne prishel ${update}`);
       createPlayer(videos[0], textures[0]);
     }
   });
 
   socket.on("pong", () => {
-    console.log("pong vernulsya");
     if (playText.content === "Pause") {
       videoMesh.material.map = videoTexture;
 
@@ -269,7 +265,6 @@ async function init() {
       playText.setState("pause");
       isVideoPlaying = true;
     } else if (playText.content === "Play" && actualTime && isVideoPlaying) {
-      console.log(actualTime);
       videoMesh.material.map = videoTexture;
       video.currentTime = actualTime;
 
@@ -277,7 +272,6 @@ async function init() {
 
       playText.setState("pause");
     } else if (playText.content === "Play" && actualTime && !isVideoPlaying) {
-      console.log(actualTime);
       videoMesh.material.map = videoTexture;
       video.currentTime = actualTime;
     } else {
@@ -294,8 +288,6 @@ async function init() {
     playText.setState("pause");
 
     if (!video.currentTime) {
-      console.log("nu?");
-      console.log(video.currentTime);
       isPingSent = true;
       video.load();
     } else {
@@ -349,7 +341,6 @@ function createPlayer(actualVideo, actualPoster) {
   video.addEventListener("loadedmetadata", function () {
     actualTime ? (video.currentTime = actualTime) : (video.currentTime = 0);
     video.addEventListener("canplaythrough", () => {
-      console.log("ping budet?");
       if (isPingSent) {
         socket.emit("ping");
 
@@ -559,7 +550,6 @@ function makeUI() {
   container.add(chat);
 
   socket.on("updateChat", (messages) => {
-    console.log(messages);
     while (chat.childrenBoxes.length > 0) {
       chat.remove(chat.childrenBoxes[0]);
     }
@@ -579,7 +569,7 @@ function makeUI() {
 
       const newBlock = new ThreeMeshUI.Block({
         width: 4.0,
-        height: 0.5,
+        height: 0.4,
         borderRadius: 0.2,
         backgroundColor: new THREE.Color("black"),
         justifyContent: "center",

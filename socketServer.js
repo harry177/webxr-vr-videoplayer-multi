@@ -32,7 +32,6 @@ const socketServer = (server, port) => {
         const missingUser = users.find(
           (el) => !entryArray.some((obj) => obj.user === el)
         );
-        console.log(missingUser);
         io.to(missingUser).emit('videoData', entryArray[0].videoData);
 
         entryArray = [];
@@ -61,18 +60,15 @@ const socketServer = (server, port) => {
 
     socket.on("sendMessage", (message) => {
       chat.push({ message: message, id: socket.id });
-      console.log(chat);
       io.emit("updateChat", chat);
     });
 
     socket.on("ping", () => {
-      console.log("ping");
       loaderArray.push(socket.id);
       if (loaderArray.length === users.length) {
         io.emit("pong");
 
         loaderArray = [];
-        console.log("pong");
       }
     });
 
